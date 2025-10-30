@@ -9,16 +9,25 @@ if [ $# -ne 3 ]; then
     exit 1
 fi
 
-# Sanitize names for DNS compliance
+# Sanitize names for DNS compliance (replace dots with hyphens, lowercase, remove special chars)
 sanitize_name() {
-    echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.'
+    echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
+}
+
+truncate_build_id() {
+    local full_id="$1"
+    local version_suffix="${full_id: -3}"
+    local date_part=$(echo "$full_id" | cut -d'-' -f1-3 | tr -d '-')
+    local container_hint=$(echo "$full_id" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
+    echo "${date_part}-${container_hint}-${version_suffix}"
 }
 
 BUILD_ID=$(sanitize_name "$1")
+BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 SUCCESS_PKGS=$2
 FAILED_PKGS=$3
-BIOC_POD="bioc-${BUILD_ID}"
-NAMESPACE="ns-${BUILD_ID}"
+BIOC_POD="bioc-${BUILD_ID_SHORT}"
+NAMESPACE="ns-${BUILD_ID_SHORT}"
 
 # Create directory structure
 mkdir -p "logs"
@@ -84,7 +93,7 @@ echo "${JOBS}" | while read -r JOB_NAME PKG; do
     kubectl delete job "${JOB_NAME}" -n ${NAMESPACE} --wait=false >/dev/null 2>&1
 done
 
-echo "Jobs handled for build: ${BUILD_ID}"
+echo "Jobs handled for build: ${BUILD_ID} (namespace: ${NAMESPACE})"
 
 # Update README with current build status
 echo "Updating README with build status..."

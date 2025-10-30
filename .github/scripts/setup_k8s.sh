@@ -9,17 +9,26 @@ if [ $# -ne 3 ]; then
     exit 1
 fi
 
-# Sanitize names for DNS compliance
+# Sanitize names for DNS compliance (replace dots with hyphens, lowercase, remove special chars)
 sanitize_name() {
-    echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.'
+    echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
+}
+
+truncate_build_id() {
+    local full_id="$1"
+    local version_suffix="${full_id: -3}"
+    local date_part=$(echo "$full_id" | cut -d'-' -f1-3 | tr -d '-')
+    local container_hint=$(echo "$full_id" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
+    echo "${date_part}-${container_hint}-${version_suffix}"
 }
 
 STORAGE_CLASS=$1
 SIZE=$2
 BUILD_ID=$3
-NAMESPACE="ns-$(sanitize_name ${BUILD_ID})"
-PVC_NAME="bioc-pvc-$(sanitize_name ${BUILD_ID})"
-BIOC_POD="bioc-$(sanitize_name ${BUILD_ID})"
+BUILD_ID_SHORT=$(truncate_build_id "$(sanitize_name ${BUILD_ID})")
+NAMESPACE="ns-${BUILD_ID_SHORT}"
+PVC_NAME="pvc-${BUILD_ID_SHORT}"
+BIOC_POD="bioc-${BUILD_ID_SHORT}"
 
 # Create namespace
 echo "Creating namespace: ${NAMESPACE}"
@@ -41,7 +50,7 @@ metadata:
   namespace: ${NAMESPACE}
   labels:
     purpose: bioc-build
-    build-id: ${BUILD_ID}
+    build-id: ${BUILD_ID_SHORT}
 spec:
   accessModes:
   - ReadWriteMany
@@ -65,7 +74,7 @@ metadata:
   namespace: ${NAMESPACE}
   labels:
     app: bioc-builder
-    build-id: ${BUILD_ID}
+    build-id: ${BUILD_ID_SHORT}
 spec:
   initContainers:
   - name: deps-generator
@@ -130,3 +139,4 @@ fi
 echo "Setup completed for build: ${BUILD_ID}"
 echo "PVC Name: ${PVC_NAME}"
 echo "Bioc Pod Name: ${BIOC_POD}"
+echo "Namespace: ${NAMESPACE}"
