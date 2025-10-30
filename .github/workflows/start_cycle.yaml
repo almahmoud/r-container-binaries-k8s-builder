@@ -1,0 +1,101 @@
+name: Start New Build Cycle
+
+on:
+  workflow_dispatch:
+    inputs:
+      container_image:
+        description: 'Container image to use (e.g., ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_21)'
+        required: true
+        type: string
+
+concurrency:
+  group: start-cycle
+  cancel-in-progress: false
+
+jobs:
+  start-cycle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          persist-credentials: true
+          ref: main
+
+      - name: Create build branch
+        id: create_branch
+        run: |
+          set -euxo pipefail
+          
+          # Get container image from input
+          CONTAINER_IMAGE="${{ inputs.container_image }}"
+          echo "Container image: ${CONTAINER_IMAGE}"
+          
+          # Extract container name and tag
+          CONTAINER_FULL=$(echo "${CONTAINER_IMAGE}" | sed 's|.*/||')  # Remove registry/org
+          CONTAINER_NAME=$(echo "${CONTAINER_FULL}" | cut -d':' -f1)
+          CONTAINER_TAG=$(echo "${CONTAINER_FULL}" | cut -d':' -f2)
+          
+          # Sanitize for branch name (lowercase, replace special chars with hyphens)
+          SAFE_NAME=$(echo "${CONTAINER_NAME}" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-')
+          SAFE_TAG=$(echo "${CONTAINER_TAG}" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.')
+          
+          # Create branch name with date, container name, and tag
+          BRANCH_DATE=$(TZ=EST date '+%Y-%m-%d-%H%M%S')
+          BRANCH_NAME="build/${BRANCH_DATE}-${SAFE_NAME}-${SAFE_TAG}"
+          
+          echo "Branch name: ${BRANCH_NAME}"
+          echo "branch_name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+          
+          # Configure git
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # Create and checkout new branch from main
+          git checkout -b "${BRANCH_NAME}"
+          
+          # Store container image in file
+          echo "${CONTAINER_IMAGE}" > CONTAINER_BASE_IMAGE.bioc
+          
+          # Initialize counter files
+          echo "0" > null_push_counter
+          echo "0" > reset_attempts_counter
+          
+          # Remove runs directory and related files if they exist
+          rm -rf runs/ runid runs-table.md 2>/dev/null || true
+          
+          # Create placeholder files for build state
+          touch biocdeps.json
+          touch uniquedeps.json
+          touch ready_packages.txt
+          touch remaining-packages.json
+          mkdir -p logs cache
+          touch logs/dispatched-packages.txt
+          touch logs/successful-packages.txt
+          touch logs/failed-packages.txt
+          
+          # Uncomment the schedule in run.yaml for this build branch
+          sed -i.bak 's/^  # schedule:/  schedule:/' .github/workflows/run.yaml
+          sed -i.bak 's/^  #   - cron:/    - cron:/' .github/workflows/run.yaml
+          rm -f .github/workflows/run.yaml.bak
+          
+          # Commit initial branch state
+          git add .
+          git commit -m "Initialize build cycle branch: ${BRANCH_NAME} | Container: ${CONTAINER_IMAGE} | Started: ${BRANCH_DATE} EST"
+          
+          # Push new branch
+          git push -u origin "${BRANCH_NAME}"
+          
+          echo "Successfully created build branch: ${BRANCH_NAME}"
+
+      - name: Trigger build workflow
+        run: |
+          echo "Build cycle started on branch: ${{ steps.create_branch.outputs.branch_name }}"
+          echo "The build workflow will start automatically on this branch."
+          echo ""
+          echo "To monitor progress:"
+          echo "  git checkout ${{ steps.create_branch.outputs.branch_name }}"
+          echo ""
+          echo "To finish the cycle:"
+          echo "  Run the 'Finish Build Cycle' workflow on the build branch"

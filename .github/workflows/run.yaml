@@ -1,0 +1,170 @@
+name: Build R Packages
+
+on:
+  workflow_dispatch:
+  # Schedule is disabled on main branch - only runs on build/* branches
+  # Uncomment the schedule trigger below on build branches to enable automatic builds
+  # schedule:
+  #   - cron: '*/5 * * * *'
+  push:
+    branches:
+      - 'build/**'
+    paths:
+      - 'logs/dispatched-packages.txt'
+      - 'logs/successful-packages.txt'
+
+concurrency:
+  group: build-r-packages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          persist-credentials: true
+
+      - name: Update to latest
+        run: |
+          git pull origin ${GITHUB_REF#refs/heads/}
+          git reset --hard origin/${GITHUB_REF#refs/heads/}
+
+      - name: Save kubeconfig
+        shell: bash
+        run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+      
+      - name: Install Kubectl
+        run: |
+          curl -LO 'https://dl.k8s.io/release/v1.34.1/bin/linux/amd64/kubectl' && \
+          chmod +x ./kubectl && \
+          mv ./kubectl /usr/local/bin/kubectl && \
+          kubectl version
+
+      - name: Check for completed cycle
+        id: cycle_check
+        run: |
+          # Check if PACKAGES file exists (indicates completed cycle)
+          if [[ -f "PACKAGES" ]]; then
+            echo "Cycle already completed (PACKAGES file exists). Skipping."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Manage build lifecycle
+        if: steps.cycle_check.outputs.skip != 'true'
+        env:
+          RCLONE_CONF: ${{secrets.RCLONE_CONF}}
+        id: build
+        run: |
+          set -euxo pipefail
+
+          # Use branch name as the build identifier
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          BUILD_ID=$(echo "${BRANCH_NAME}" | sed 's|build/||' | tr '/' '-')
+          
+          echo "Build ID: ${BUILD_ID}"
+          echo "Branch: ${BRANCH_NAME}"
+          
+          # Check if this is first run (no biocdeps.json yet)
+          if [[ ! -s "biocdeps.json" ]]; then
+            echo "First run - setting up Kubernetes resources..."
+            
+            CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc)
+            
+            # Setup Kubernetes resources - this handles running deps_json.R via init container
+            bash ./.github/scripts/setup_k8s.sh "nfs-client" "500Gi" "${BUILD_ID}"
+          else
+            echo "Continuing existing build..."
+            CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc)
+            
+            # Handle completed jobs
+            bash ./.github/scripts/handle_k8s_jobs.sh \
+              "${BUILD_ID}" \
+              "logs/successful-packages.txt" \
+              "logs/failed-packages.txt"
+          fi
+
+          # Ensure log directory exists before any operations
+          mkdir -p logs
+          touch logs/dispatched-packages.txt
+
+          # Find and dispatch packages
+          python ./.github/scripts/find_ready_pkgs.py \
+            "biocdeps.json" \
+            "ready_packages.txt" \
+            "logs/dispatched-packages.txt" \
+            "logs/successful-packages.txt" \
+            "remaining-packages.json"
+          
+          # Dispatch jobs with xargs and delay
+          cat "ready_packages.txt" | xargs -i bash -c "bash ./.github/scripts/dispatch_k8s_job.sh {} ${CONTAINER} bioc-pvc-${BUILD_ID} ${BUILD_ID} && sleep 1"
+
+          # Track if we had any new activity
+          git add .
+          ACTIVITY_CHECK=$(git diff --staged --name-status | grep -q "logs/.*packages.txt" && echo "true" || echo "false")
+          echo "had_activity=${ACTIVITY_CHECK}" >> $GITHUB_OUTPUT
+          
+          # Get counter values
+          NULL_PUSH_COUNT=$(cat "null_push_counter" 2>/dev/null || echo "0")
+          RESET_ATTEMPTS=$(cat "reset_attempts_counter" 2>/dev/null || echo "0")
+          
+          # Note: Reset failed logic removed - handle failures manually or via separate workflow if needed
+
+          # Backup changed files to temp directory
+          mkdir -p /tmp/restore
+          
+          # Stage all changes to identify modified files
+          git add .
+          
+          # Copy changed files to restore directory
+          git diff --staged --name-only | xargs -r -I{} bash -c 'mkdir -p "/tmp/restore/$(dirname "{}")" && cp "{}" "/tmp/restore/{}"'
+          
+          echo "Backup complete - copied changed files"
+
+      - name: Commit and push results
+        if: steps.cycle_check.outputs.skip != 'true'
+        id: repo_changes
+        run: |
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          git pull origin ${BRANCH_NAME} && git reset --hard origin/${BRANCH_NAME} || git reset --hard origin/${BRANCH_NAME}
+          cp -r /tmp/restore/* ./ || true
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add . || true
+          
+          # Check if there are actual changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            # If no changes, increment the null push counter
+            NULL_PUSH_COUNT=$(cat "null_push_counter" 2>/dev/null || echo "0")
+            NEW_COUNT=$((NULL_PUSH_COUNT + 1))
+            echo "${NEW_COUNT}" > "null_push_counter"
+            
+            # Commit just the counter change
+            git add "null_push_counter"
+            git commit -m "Increment null push counter to ${NEW_COUNT}"
+            git push || (git pull --rebase && git push)
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          else
+            # Check for new successful packages
+            NEW_SUCCESS=$(git diff --staged -- "logs/successful-packages.txt" | grep -c "^\+" | grep -v "^\+\+\+" || echo "0")
+            
+            # Always reset null push counter on meaningful changes
+            echo "0" > "null_push_counter"
+            git add "null_push_counter"
+            
+            # Only reset attempts counter if we have new successful packages
+            if [ "${NEW_SUCCESS}" -gt 0 ]; then
+              echo "New successful packages detected (${NEW_SUCCESS}), resetting attempts counter"
+              echo "0" > "reset_attempts_counter"
+              git add "reset_attempts_counter"
+            fi
+            
+            # Commit all changes
+            git commit -m "Build state update: ${{ github.run_id }}"
+            git push || (git pull --rebase && git push)
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          fi
