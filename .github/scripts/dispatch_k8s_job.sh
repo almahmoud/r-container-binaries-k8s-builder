@@ -14,12 +14,29 @@ sanitize_name() {
     echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.'
 }
 
+truncate_build_id() {
+    local full_id="$1"
+    local version_suffix="${full_id: -3}"
+    local date_part=$(echo "$full_id" | cut -d'-' -f1-3 | tr -d '-')
+    local container_hint=$(echo "$full_id" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
+    echo "${date_part}-${container_hint}-${version_suffix}"
+}
+
 PKG_SAFE=$(sanitize_name "$1")
 PKG=$1
 CONTAINER=$2
 PVC=$3
 BUILD_ID=$(sanitize_name "$4")
-NAMESPACE="ns-${BUILD_ID}"
+BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
+NAMESPACE="ns-${BUILD_ID_SHORT}"
+
+PKG_SAFE=$(sanitize_name "$1")
+PKG=$1
+CONTAINER=$2
+PVC=$3
+BUILD_ID=$(sanitize_name "$4")
+BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
+NAMESPACE="ns-${BUILD_ID_SHORT}"
 
 # Record dispatched package
 mkdir -p "logs"
@@ -30,15 +47,20 @@ cat << EOF | kubectl apply -n ${NAMESPACE} -f -
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: bioc-build-${PKG_SAFE}-${BUILD_ID}
+  name: pkg-${PKG_SAFE}-${BUILD_ID_SHORT}
   namespace: ${NAMESPACE}
   labels:
     app: bioc-builder
     pkg: ${PKG}
-    build-id: ${BUILD_ID}
+    build-id: ${BUILD_ID_SHORT}
 spec:
   backoffLimit: 5
   template:
+    metadata:
+      labels:
+        app: bioc-builder
+        pkg: ${PKG}
+        build-id: ${BUILD_ID_SHORT}
     spec:
       containers:
       - name: bioc-builder
@@ -95,4 +117,4 @@ spec:
           claimName: ${PVC}
 EOF
 
-echo "Dispatched job for package: ${PKG} with build-id: ${BUILD_ID}"
+echo "Dispatched job for package: ${PKG} with build-id: ${BUILD_ID_SHORT}"

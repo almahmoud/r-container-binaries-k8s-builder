@@ -8,11 +8,20 @@ if [ $# -ne 3 ]; then
     exit 1
 fi
 
+truncate_build_id() {
+    local full_id="$1"
+    local version_suffix="${full_id: -3}"
+    local date_part=$(echo "$full_id" | cut -d'-' -f1-3 | tr -d '-')
+    local container_hint=$(echo "$full_id" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
+    echo "${date_part}-${container_hint}-${version_suffix}"
+}
+
 BUILD_ID=$1
+BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 OLD_URL=$2
 CONTAINER=$3
-NAMESPACE="ns-${BUILD_ID}"
-PVC_NAME="bioc-pvc-${BUILD_ID}"
+NAMESPACE="ns-${BUILD_ID_SHORT}"
+PVC_NAME="pvc-${BUILD_ID_SHORT}"
 
 # First create rclone config secret if not exists
 echo "Creating rclone config secret..."
@@ -29,10 +38,14 @@ cat <<EOF | kubectl apply -f -
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: index-packages-${BUILD_ID}
+  name: index-pkg-${BUILD_ID_SHORT}
   namespace: ${NAMESPACE}
 spec:
   template:
+    metadata:
+      labels:
+        app: bioc-indexer
+        build-id: ${BUILD_ID_SHORT}
     spec:
       initContainers:
       - name: package-indexer
@@ -118,12 +131,12 @@ EOF
 echo "Waiting for indexing to complete..."
 # Wait for init container to finish
 kubectl wait --for=condition=initialized=true pod \
-  -l job-name=index-packages-${BUILD_ID} \
+  -l job-name=index-pkg-${BUILD_ID_SHORT} \
   -n ${NAMESPACE} --timeout=7200s || ( echo 'Error waiting for init container' && exit 1 )
 
 # Copy PACKAGES file and save stats
 echo "Copying PACKAGES and saving stats..."
-POD_NAME=$(kubectl get pod -n ${NAMESPACE} -l job-name=index-packages-${BUILD_ID} -o name | cut -d/ -f2)
+POD_NAME=$(kubectl get pod -n ${NAMESPACE} -l job-name=index-pkg-${BUILD_ID_SHORT} -o name | cut -d/ -f2)
 kubectl cp ${NAMESPACE}/${POD_NAME}:/mnt/tarballs/PACKAGES PACKAGES
 PKG_COUNT=$(grep -c '^Package:' "PACKAGES")
 echo "${PKG_COUNT}" > "indexed_packages_count"
@@ -133,7 +146,7 @@ TZ=EST date '+%Y-%m-%d %H:%M:%S %Z' > "cycle_complete_time"
 
 # Wait for final sync to complete
 echo "Waiting for rclone sync to complete..."
-kubectl wait --for=condition=complete job/index-packages-${BUILD_ID} \
+kubectl wait --for=condition=complete job/index-pkg-${BUILD_ID_SHORT} \
   -n ${NAMESPACE} --timeout=14400s
 
-echo "Package indexing and sync completed for build: ${BUILD_ID} with ${PKG_COUNT} packages"
+echo "Package indexing and sync completed for build: ${BUILD_ID} (namespace: ${NAMESPACE}) with ${PKG_COUNT} packages"
