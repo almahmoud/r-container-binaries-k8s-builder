@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 2010 (87%)
 - **Failed:** 18 (0%)
-- **In Progress:** 126
-- **Not Started:** 156
+- **In Progress:** 127
+- **Not Started:** 155
 
 **Progress:** 87%
 ```
@@ -99,7 +99,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (126)
+## In Progress (127)
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
@@ -151,9 +151,9 @@
 - ⏳ `TCGAutils`
 - ⏳ `alabaster`
 
-... and 76 more ...
+... and 77 more ...
 
-## Not Yet Started (156)
+## Not Yet Started (155)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -205,8 +205,8 @@
 - ⏸️ `PING`
 - ⏸️ `Pviz`
 
-... and 106 more ...
+... and 105 more ...
 
 ---
-*Last updated: 2025-10-31 09:30:08 UTC*
+*Last updated: 2025-10-31 09:31:12 UTC*
 *Packages with verified BBS status: 160*
