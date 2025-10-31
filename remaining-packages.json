@@ -14129,7 +14129,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "nempi": [],
   "netSmooth": [
     "scater",
     "clusterExperiment",
