@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2283 (98%)
+- **Successfully Built:** 2284 (98%)
 - **Failed:** 24 (1%)
-- **In Progress:** 1
+- **In Progress:** 0
 - **Not Started:** 2
 
 **Progress:** 99%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2283)
+## Successfully Built Packages (2284)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2233 more ...*
+*... and 2234 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,13 +105,10 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Missing dependency: survivalAnalysis<br>[CRAN Package 'survivalAnalysis'](https://cran.r-project.org/web/packages/survivalAnalysis/index.html) archived on 2025-09-09 as requires archived package 'tidytidbits'. |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (1)
-- ⏳ `ChAMP`
-
 ## Not Yet Started (2)
 - ⏸️ `GeDi`
 - ⏸️ `PING`
 
 ---
-*Last updated: 2025-10-31 14:15:53 UTC*
+*Last updated: 2025-10-31 14:41:08 UTC*
 *Packages with verified BBS status: 170*
