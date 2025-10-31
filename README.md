@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 924 (40%)
+- **Successfully Built:** 926 (40%)
 - **Failed:** 7 (0%)
-- **In Progress:** 68
-- **Not Started:** 1311
+- **In Progress:** 67
+- **Not Started:** 1310
 
 **Progress:** 40%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (924)
+## Successfully Built Packages (926)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 874 more ...*
+*... and 876 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,12 +88,11 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (68)
+## In Progress (67)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `CINdex`
 - ⏳ `CNVPanelizer`
-- ⏳ `DelayedMatrixStats`
 - ⏳ `FilterFFPE`
 - ⏳ `GBScleanR`
 - ⏳ `GDSArray`
@@ -112,7 +111,6 @@
 - ⏳ `SimFFPE`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TEQC`
-- ⏳ `TnT`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.files`
 - ⏳ `alabaster.ranges`
@@ -139,10 +137,12 @@
 - ⏳ `gtrellis`
 - ⏳ `h5mread`
 - ⏳ `h5vc`
+- ⏳ `heatmaps`
+- ⏳ `igvShiny`
 
-... and 18 more ...
+... and 17 more ...
 
-## Not Yet Started (1311)
+## Not Yet Started (1310)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1261 more ...
+... and 1260 more ...
 
 ---
-*Last updated: 2025-10-31 03:37:04 UTC*
+*Last updated: 2025-10-31 03:37:34 UTC*
 *Packages with verified BBS status: 111*

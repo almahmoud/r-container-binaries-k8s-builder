@@ -922,3 +922,5 @@ cogeqc
 crisprBase
 DelayedDataFrame
 Structstrings
+DelayedMatrixStats
+TnT
