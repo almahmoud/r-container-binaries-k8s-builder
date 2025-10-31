@@ -814,3 +814,5 @@ PhyloProfile
 rfaRm
 rSWeeP
 ScaledMatrix
+cogeqc
+orthogene

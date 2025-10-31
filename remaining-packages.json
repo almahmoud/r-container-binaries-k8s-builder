@@ -552,7 +552,6 @@
     "GenomicRanges"
   ],
   "BulkSignalR": [
-    "orthogene",
     "SpatialExperiment",
     "SummarizedExperiment",
     "SingleCellExperiment",
@@ -1841,7 +1840,6 @@
   "EWCE": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "orthogene",
     "ExperimentHub",
     "GenomicRanges",
     "AnnotationHub",
@@ -4949,7 +4947,6 @@
   ],
   "SingleCellSignalR": [
     "BulkSignalR",
-    "orthogene",
     "SpatialExperiment",
     "SummarizedExperiment",
     "SingleCellExperiment",
@@ -6770,7 +6767,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "cogeqc": [],
   "combi": [
     "phyloseq",
     "SummarizedExperiment",
@@ -9678,7 +9674,6 @@
     "beachmat",
     "GenomicRanges"
   ],
-  "orthogene": [],
   "orthos": [
     "SummarizedExperiment",
     "AnnotationHub",
