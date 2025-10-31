@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 474 (20%)
+- **Successfully Built:** 478 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 15
+- **In Progress:** 11
 - **Not Started:** 1817
 
 **Progress:** 20%
@@ -16,7 +16,7 @@
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (474)
+## Successfully Built Packages (478)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.21/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 
-*... and 424 more ...*
+*... and 428 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [stepNorm](https://bioconductor.org/packages/3.21/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.21/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.21/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.21/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.21/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synergyfinder) |
 | [synlet](https://bioconductor.org/packages/3.21/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synlet) |
+| [systemPipeShiny](https://bioconductor.org/packages/3.21/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.21/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.21/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.21/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tidysbml) |
@@ -85,22 +85,18 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (15)
+## In Progress (11)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `EnMCB`
-- ⏳ `GSCA`
-- ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `OSTA.data`
 - ⏳ `Polytect`
-- ⏳ `SUITOR`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
 - ⏳ `mitch`
 - ⏳ `philr`
-- ⏳ `systemPipeShiny`
 
 ## Not Yet Started (1817)
 - ⏸️ `ABarray`
@@ -157,5 +153,5 @@
 ... and 1767 more ...
 
 ---
-*Last updated: 2025-10-31 00:22:15 UTC*
-*Packages with verified BBS status: 85*
+*Last updated: 2025-10-31 00:23:19 UTC*
+*Packages with verified BBS status: 86*

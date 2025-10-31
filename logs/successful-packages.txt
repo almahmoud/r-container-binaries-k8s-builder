@@ -472,3 +472,7 @@ CIMICE
 biomformat
 PCAN
 scMitoMut
+GenProSeq
+GSCA
+SUITOR
+systemPipeShiny

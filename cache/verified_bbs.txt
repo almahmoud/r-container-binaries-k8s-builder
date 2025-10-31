@@ -64,6 +64,7 @@ swfdr
 switchBox
 synergyfinder
 synlet
+systemPipeShiny
 tanggle
 ternarynet
 tidysbml

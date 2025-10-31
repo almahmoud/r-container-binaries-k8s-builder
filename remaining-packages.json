@@ -5490,7 +5490,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "GSCA": [],
   "GSEABase": [
     "BiocGenerics",
     "Biobase",
@@ -5710,7 +5709,6 @@
     "BiocIO",
     "biomaRt"
   ],
-  "GenProSeq": [],
   "GenVisR": [
     "AnnotationDbi",
     "biomaRt",
@@ -12510,7 +12508,6 @@
     "affy",
     "BiocGenerics"
   ],
-  "SUITOR": [],
   "SVMDO": [
     "DOSE",
     "AnnotationDbi",
@@ -29947,7 +29944,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "systemPipeShiny": [],
   "systemPipeTools": [
     "DESeq2",
     "SummarizedExperiment",
