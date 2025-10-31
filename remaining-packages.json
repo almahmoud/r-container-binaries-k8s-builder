@@ -9170,11 +9170,9 @@
     "AnnotationDbi",
     "DESeq2",
     "apeglm",
-    "phantasusLite",
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "phantasusLite": [],
   "phenoTest": [
     "annotate",
     "Category",

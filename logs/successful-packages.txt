@@ -854,3 +854,4 @@ sangerseqR
 affyILM
 flowTrans
 motifcounter
+phantasusLite
