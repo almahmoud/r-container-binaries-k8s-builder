@@ -394,9 +394,9 @@ def main():
             else:
                 log_link = "N/A"
             
-            # Check if we have a cached BBS status that's verified
-            bbs = bbs_cache.get(pkg, "Not Found")
-            if bioc_version != "Unknown" and (bbs == "Not Found" or pkg not in verified_bbs):
+            # Always recheck BBS status for failed packages (ignore cache)
+            bbs = "Not Found"
+            if bioc_version != "Unknown":
                 bbs = get_bbs_status(pkg, bioc_version)
                 bbs_cache[pkg] = bbs
                 if bbs != "Not Found":
