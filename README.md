@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 864 (37%)
+- **Successfully Built:** 873 (37%)
 - **Failed:** 7 (0%)
-- **In Progress:** 79
+- **In Progress:** 70
 - **Not Started:** 1360
 
-**Progress:** 37%
+**Progress:** 38%
 ```
-██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (864)
+## Successfully Built Packages (873)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 814 more ...*
+*... and 823 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
 | [transite](https://bioconductor.org/packages/3.21/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.21/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.21/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trio) |
+| [triplex](https://bioconductor.org/packages/3.21/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
@@ -88,18 +88,16 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (79)
+## In Progress (70)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CINdex`
 - ⏳ `CONFESS`
 - ⏳ `CompoundDb`
 - ⏳ `DNAshapeR`
-- ⏳ `DelayedArray`
 - ⏳ `FELLA`
 - ⏳ `G4SNVHunter`
 - ⏳ `GateFinder`
-- ⏳ `GeneRegionScan`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `IMMAN`
@@ -107,10 +105,8 @@
 - ⏳ `LymphoSeq`
 - ⏳ `MEDME`
 - ⏳ `MSA2dist`
-- ⏳ `MSstatsLiP`
 - ⏳ `MethTargetedNGS`
 - ⏳ `NanoStringNCTools`
-- ⏳ `PWMEnrich`
 - ⏳ `QSutils`
 - ⏳ `Rsamtools`
 - ⏳ `SeqArray`
@@ -139,8 +135,12 @@
 - ⏳ `flowBin`
 - ⏳ `flowCut`
 - ⏳ `gcrma`
+- ⏳ `geneRxCluster`
+- ⏳ `genomeIntervals`
+- ⏳ `ggseqalign`
+- ⏳ `gtrellis`
 
-... and 29 more ...
+... and 20 more ...
 
 ## Not Yet Started (1360)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1310 more ...
 
 ---
-*Last updated: 2025-10-31 03:27:40 UTC*
-*Packages with verified BBS status: 110*
+*Last updated: 2025-10-31 03:28:25 UTC*
+*Packages with verified BBS status: 111*

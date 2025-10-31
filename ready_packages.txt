@@ -1,0 +1,15 @@
+DelayedDataFrame
+DelayedMatrixStats
+DelayedRandomArray
+Rarr
+ResidualMatrix
+SQLDataFrame
+ScaledMatrix
+SummarizedExperiment
+TileDBArray
+adverSCarial
+beachmat
+flowWorkspace
+orthogene
+rhdf5client
+sketchR

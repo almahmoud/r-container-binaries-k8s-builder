@@ -862,3 +862,12 @@ rhinotypeR
 rprimer
 rSWeeP
 sarks
+DelayedArray
+GeneRegionScan
+MSstatsLiP
+packFinder
+procoil
+PWMEnrich
+scoup
+sscu
+triplex
