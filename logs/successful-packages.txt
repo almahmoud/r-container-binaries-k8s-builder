@@ -737,3 +737,4 @@ CCPlotR
 flowCore
 ClustAll
 markeR
+S4Arrays

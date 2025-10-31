@@ -771,3 +771,4 @@ immunoClust
 infinityFlow
 ncdfFlow
 tidyFlowCore
+SparseArray
