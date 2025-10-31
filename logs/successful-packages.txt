@@ -1734,3 +1734,6 @@ iSEEpathways
 rTRMui
 SpatialExperimentIO
 VaSP
+RcisTarget
+scCB2
+TRESS

@@ -717,7 +717,6 @@
     "VariantAnnotation"
   ],
   "RbowtieCuda": [],
-  "RcisTarget": [],
   "RegionalST": [
     "BayesSpace"
   ],
@@ -844,7 +843,6 @@
     "GenomicFiles",
     "VariantAnnotation"
   ],
-  "TRESS": [],
   "TVTB": [
     "ensembldb",
     "Gviz",
@@ -1456,9 +1454,7 @@
     "VariantAnnotation",
     "txdbmaker"
   ],
-  "magpie": [
-    "TRESS"
-  ],
+  "magpie": [],
   "mariner": [
     "plyranges",
     "plotgardener"
@@ -1780,7 +1776,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "scCB2": [],
   "scClassify": [
     "Cepo"
   ],
