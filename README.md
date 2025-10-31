@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 461 (19%)
+- **Successfully Built:** 462 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 26
-- **Not Started:** 1819
+- **In Progress:** 27
+- **Not Started:** 1817
 
 **Progress:** 20%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (461)
+## Successfully Built Packages (462)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.21/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BioCartaImage) |
 
-*... and 411 more ...*
+*... and 412 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,9 +85,10 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (26)
+## In Progress (27)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
+- ⏳ `CIMICE`
 - ⏳ `COMPASS`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
@@ -100,6 +101,7 @@
 - ⏳ `PCAN`
 - ⏳ `Polytect`
 - ⏳ `SUITOR`
+- ⏳ `alevinQC`
 - ⏳ `biomformat`
 - ⏳ `ctsGE`
 - ⏳ `decoupleR`
@@ -107,13 +109,12 @@
 - ⏳ `fgsea`
 - ⏳ `mitch`
 - ⏳ `philr`
-- ⏳ `planet`
 - ⏳ `scFeatureFilter`
 - ⏳ `scMitoMut`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
 
-## Not Yet Started (1819)
+## Not Yet Started (1817)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -165,8 +166,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1769 more ...
+... and 1767 more ...
 
 ---
-*Last updated: 2025-10-31 00:17:45 UTC*
+*Last updated: 2025-10-31 00:18:05 UTC*
 *Packages with verified BBS status: 84*
