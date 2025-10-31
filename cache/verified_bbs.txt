@@ -22,6 +22,7 @@ BiocNeighbors
 BiocParallel
 BiocStyle
 BiocVersion
+BiocWorkflowTools
 BridgeDbR
 BufferedMatrix
 BufferedMatrixMethods
@@ -56,6 +57,7 @@ swfdr
 switchBox
 synergyfinder
 synlet
+ternarynet
 tidysbml
 timescape
 tkWidgets

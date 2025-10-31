@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 334 (14%)
+- **Successfully Built:** 359 (15%)
 - **Failed:** 1 (0%)
-- **In Progress:** 117
+- **In Progress:** 92
 - **Not Started:** 1792
 
-**Progress:** 14%
+**Progress:** 16%
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (334)
+## Successfully Built Packages (359)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,13 +44,12 @@
 | [BiocParallel](https://bioconductor.org/packages/3.22/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.22/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocStyle) |
 | [BiocVersion](https://bioconductor.org/packages/3.22/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocVersion) |
-| [BridgeDbR](https://bioconductor.org/packages/3.22/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BridgeDbR) |
+| [BiocWorkflowTools](https://bioconductor.org/packages/3.22/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocWorkflowTools) |
 
-*... and 284 more ...*
+*... and 309 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sparseMatrixStats](https://bioconductor.org/packages/3.22/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sparseMatrixStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.22/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.22/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.22/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/spikeLI) |
@@ -63,6 +62,7 @@
 | [switchBox](https://bioconductor.org/packages/3.22/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.22/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/synergyfinder) |
 | [synlet](https://bioconductor.org/packages/3.22/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/synlet) |
+| [ternarynet](https://bioconductor.org/packages/3.22/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.22/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
@@ -82,13 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (117)
+## In Progress (92)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
-- ⏳ `BiocWorkflowTools`
-- ⏳ `CNAnorm`
 - ⏳ `COMPASS`
 - ⏳ `Chicago`
 - ⏳ `CytoGLMM`
@@ -97,14 +95,12 @@
 - ⏳ `DNAcycP2`
 - ⏳ `DepInfeR`
 - ⏳ `EnMCB`
-- ⏳ `GCPtools`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HilbertVisGUI`
 - ⏳ `HubPub`
 - ⏳ `IntramiRExploreR`
-- ⏳ `IsoCorrectoRGUI`
 - ⏳ `KinSwingR`
 - ⏳ `Linnorm`
 - ⏳ `MSstatsResponse`
@@ -117,8 +113,6 @@
 - ⏳ `PCAN`
 - ⏳ `PROcess`
 - ⏳ `QRscore`
-- ⏳ `RTCGA`
-- ⏳ `SNPRelate`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
@@ -130,11 +124,17 @@
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
 - ⏳ `brendaDb`
-- ⏳ `cbpManager`
 - ⏳ `cellmig`
-- ⏳ `clstutils`
+- ⏳ `ctsGE`
+- ⏳ `cytolib`
+- ⏳ `dcGSA`
+- ⏳ `decontam`
+- ⏳ `decoupleR`
+- ⏳ `demuxmix`
+- ⏳ `densvis`
+- ⏳ `edgeR`
 
-... and 67 more ...
+... and 42 more ...
 
 ## Not Yet Started (1792)
 - ⏸️ `ABarray`
@@ -191,5 +191,5 @@
 ... and 1742 more ...
 
 ---
-*Last updated: 2025-10-31 22:15:54 UTC*
-*Packages with verified BBS status: 70*
+*Last updated: 2025-10-31 22:17:23 UTC*
+*Packages with verified BBS status: 72*
