@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 2279 (98%)
 - **Failed:** 24 (1%)
-- **In Progress:** 4
-- **Not Started:** 3
+- **In Progress:** 5
+- **Not Started:** 2
 
 **Progress:** 99%
 ```
@@ -105,17 +105,17 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (4)
+## In Progress (5)
 - ⏳ `AgiMicroRna`
+- ⏳ `ChAMP`
 - ⏳ `MEAT`
 - ⏳ `bigmelon`
 - ⏳ `skewr`
 
-## Not Yet Started (3)
-- ⏸️ `ChAMP`
+## Not Yet Started (2)
 - ⏸️ `GeDi`
 - ⏸️ `PING`
 
 ---
-*Last updated: 2025-10-31 13:16:58 UTC*
+*Last updated: 2025-10-31 13:17:34 UTC*
 *Packages with verified BBS status: 170*
