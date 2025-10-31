@@ -2142,3 +2142,5 @@ methylumi
 profileplyr
 scFeatures
 SingleMoleculeFootprinting
+glmSparseNet
+RTCGAToolbox

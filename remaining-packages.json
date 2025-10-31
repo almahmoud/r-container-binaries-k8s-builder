@@ -75,8 +75,7 @@
   ],
   "FRASER": [],
   "GNOSIS": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "GRaNIE": [],
   "GUIDEseq": [],
@@ -153,7 +152,6 @@
     "RNAmodR",
     "Gviz"
   ],
-  "RTCGAToolbox": [],
   "RbowtieCuda": [],
   "Repitools": [],
   "ReportingTools": [
@@ -200,26 +198,21 @@
     "lumi"
   ],
   "bioCancer": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "biomvRCNS": [
     "Gviz"
   ],
   "biscuiteer": [],
-  "cBioPortalData": [
-    "RTCGAToolbox"
-  ],
+  "cBioPortalData": [],
   "cageminer": [
     "ggbio"
   ],
   "canceR": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "cbaf": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "chevreulPlot": [],
   "chevreulShiny": [
@@ -285,7 +278,6 @@
     "Gviz"
   ],
   "ggbio": [],
-  "glmSparseNet": [],
   "gpuMagic": [],
   "hypeR": [],
   "iCheck": [
