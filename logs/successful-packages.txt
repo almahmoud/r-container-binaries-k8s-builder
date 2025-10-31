@@ -1842,3 +1842,6 @@ GA4GHshiny
 igvR
 myvariant
 PureCN
+scoreInvHap
+seqCAT
+StructuralVariantAnnotation

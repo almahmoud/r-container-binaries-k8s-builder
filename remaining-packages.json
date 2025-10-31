@@ -563,7 +563,6 @@
   "SparseSignatures": [],
   "SpliceWiz": [],
   "SplicingGraphs": [],
-  "StructuralVariantAnnotation": [],
   "TAPseq": [],
   "TCGAutils": [],
   "TENET": [],
@@ -1226,7 +1225,6 @@
     "RUVSeq",
     "EDASeq"
   ],
-  "scoreInvHap": [],
   "scruff": [
     "txdbmaker",
     "ggbio",
@@ -1243,7 +1241,6 @@
   "seqArchRplus": [
     "ChIPseeker"
   ],
-  "seqCAT": [],
   "shinyDSP": [
     "standR",
     "RUVSeq",
@@ -1295,12 +1292,8 @@
     "EDASeq"
   ],
   "strandCheckR": [],
-  "svaNUMT": [
-    "StructuralVariantAnnotation"
-  ],
-  "svaRetro": [
-    "StructuralVariantAnnotation"
-  ],
+  "svaNUMT": [],
+  "svaRetro": [],
   "tRNAscanImport": [],
   "tadar": [
     "Gviz",
