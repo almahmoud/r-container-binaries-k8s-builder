@@ -66,6 +66,7 @@ tkWidgets
 tomoseqr
 topconfects
 treeio
+tripr
 ttgsea
 vbmp
 veloviz

@@ -418,3 +418,8 @@ OLIN
 RedisParam
 scTHI
 ternarynet
+epistasisGA
+SCFA
+snifter
+TPP2D
+tripr

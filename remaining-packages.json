@@ -12230,7 +12230,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "SCFA": [],
   "SCOPE": [
     "GenomicRanges",
     "IRanges",
@@ -14004,7 +14003,6 @@
     "biobroom",
     "BiocGenerics"
   ],
-  "TPP2D": [],
   "TREG": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -19711,7 +19709,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "epistasisGA": [],
   "epivizr": [
     "epivizrData",
     "GenomicRanges",
@@ -29516,7 +29513,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "snifter": [],
   "snpStats": [
     "BiocGenerics"
   ],
@@ -31026,7 +31022,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "tripr": [],
   "tweeDEseq": [
     "edgeR"
   ],

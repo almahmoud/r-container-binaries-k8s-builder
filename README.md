@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 420 (18%)
+- **Successfully Built:** 425 (18%)
 - **Failed:** 3 (0%)
-- **In Progress:** 62
-- **Not Started:** 1825
+- **In Progress:** 60
+- **Not Started:** 1822
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (420)
+## Successfully Built Packages (425)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 | [BiocParallel](https://bioconductor.org/packages/3.21/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocParallel) |
 
-*... and 370 more ...*
+*... and 375 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssize](https://bioconductor.org/packages/3.21/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.21/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.21/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/statTarget) |
 | [stepNorm](https://bioconductor.org/packages/3.21/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/stepNorm) |
@@ -67,6 +66,7 @@
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
+| [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
@@ -84,7 +84,7 @@
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 
-## In Progress (62)
+## In Progress (60)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
@@ -102,18 +102,19 @@
 - ⏳ `Harman`
 - ⏳ `HubPub`
 - ⏳ `IntramiRExploreR`
+- ⏳ `MSstatsBig`
+- ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
+- ⏳ `OLINgui`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
 - ⏳ `Polytect`
 - ⏳ `QRscore`
 - ⏳ `Rigraphlib`
-- ⏳ `SCFA`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
-- ⏳ `TPP2D`
 - ⏳ `Wrench`
 - ⏳ `abseqR`
 - ⏳ `bacon`
@@ -126,7 +127,6 @@
 - ⏳ `demuxmix`
 - ⏳ `densvis`
 - ⏳ `edgeR`
-- ⏳ `epistasisGA`
 - ⏳ `fgsea`
 - ⏳ `ggkegg`
 - ⏳ `hca`
@@ -136,9 +136,9 @@
 - ⏳ `mitch`
 - ⏳ `philr`
 
-... and 12 more ...
+... and 10 more ...
 
-## Not Yet Started (1825)
+## Not Yet Started (1822)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1775 more ...
+... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:12:23 UTC*
-*Packages with verified BBS status: 76*
+*Last updated: 2025-10-31 00:13:27 UTC*
+*Packages with verified BBS status: 77*
