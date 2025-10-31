@@ -200,7 +200,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "NanoMethViz": [],
   "NoRCE": [],
   "OGRE": [
     "Gviz",
@@ -364,7 +363,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "celaref": [],
   "chevreulPlot": [
     "chevreulProcess"
   ],
@@ -421,7 +419,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "customProDB": [],
   "cytofQC": [],
   "dandelionR": [],
   "dce": [],

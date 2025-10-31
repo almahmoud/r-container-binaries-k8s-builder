@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2058 (89%)
+- **Successfully Built:** 2061 (89%)
 - **Failed:** 19 (0%)
-- **In Progress:** 98
+- **In Progress:** 95
 - **Not Started:** 135
 
-**Progress:** 89%
+**Progress:** 90%
 ```
-████████████████████████████████████████████░░░░░░
+█████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2058)
+## Successfully Built Packages (2061)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2008 more ...*
+*... and 2011 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (98)
+## In Progress (95)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
@@ -120,7 +120,6 @@
 - ⏳ `MetaboSignal`
 - ⏳ `MethylAid`
 - ⏳ `Moonlight2R`
-- ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
 - ⏳ `OUTRIDER`
 - ⏳ `OrganismDbi`
@@ -141,7 +140,6 @@
 - ⏳ `alabaster`
 - ⏳ `benchdamic`
 - ⏳ `biovizBase`
-- ⏳ `celaref`
 - ⏳ `chevreulProcess`
 - ⏳ `chipenrich`
 - ⏳ `clipper`
@@ -149,10 +147,12 @@
 - ⏳ `consensusSeekeR`
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
-- ⏳ `customProDB`
 - ⏳ `cytofQC`
+- ⏳ `dandelionR`
+- ⏳ `dce`
+- ⏳ `debrowser`
 
-... and 48 more ...
+... and 45 more ...
 
 ## Not Yet Started (135)
 - ⏸️ `AHMassBank`
@@ -209,5 +209,5 @@
 ... and 85 more ...
 
 ---
-*Last updated: 2025-10-31 09:55:13 UTC*
+*Last updated: 2025-10-31 09:56:10 UTC*
 *Packages with verified BBS status: 161*
