@@ -1774,3 +1774,4 @@ MethylSeekR
 MMDiff2
 RFLOMICS
 signatureSearch
+ORFhunteR
