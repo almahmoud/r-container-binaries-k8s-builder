@@ -1693,3 +1693,7 @@ BSgenome
 SBGNview
 seqsetvis
 TEKRABber
+BicARE
+POWSC
+PROMISE
+TMSig

@@ -101,7 +101,6 @@
     "txdbmaker"
   ],
   "BiGGR": [],
-  "BicARE": [],
   "BindingSiteFinder": [
     "GenomicFeatures"
   ],
@@ -154,9 +153,7 @@
     "VariantAnnotation",
     "GenomicFeatures"
   ],
-  "CCPROMISE": [
-    "PROMISE"
-  ],
+  "CCPROMISE": [],
   "CNEr": [],
   "CNVfilteR": [
     "regioneR",
@@ -768,8 +765,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "POWSC": [],
-  "PROMISE": [],
   "PRONE": [
     "MSnbase"
   ],
@@ -1087,7 +1082,6 @@
     "VariantAnnotation",
     "GenomicFeatures"
   ],
-  "TMSig": [],
   "TRESS": [
     "GenomicFeatures"
   ],
@@ -1955,7 +1949,6 @@
     "GOstats"
   ],
   "miRSM": [
-    "BicARE",
     "ReactomePA"
   ],
   "miRspongeR": [

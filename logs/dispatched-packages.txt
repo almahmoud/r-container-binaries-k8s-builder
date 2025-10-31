@@ -1828,3 +1828,4 @@ regioneR
 spiky
 tRNAscanImport
 traseR
+CCPROMISE
