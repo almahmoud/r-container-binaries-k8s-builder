@@ -719,3 +719,5 @@ CNORfeeder
 CNORfuzzy
 CNORode
 updateObject
+fgga
+GeneNetworkBuilder

@@ -4155,7 +4155,6 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "GeneNetworkBuilder": [],
   "GeneRegionScan": [
     "Biostrings",
     "IRanges",
@@ -14383,7 +14382,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "fgga": [],
   "findIPs": [
     "SummarizedExperiment",
     "GenomicRanges",
