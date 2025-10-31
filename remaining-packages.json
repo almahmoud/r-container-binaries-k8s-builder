@@ -1619,7 +1619,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray"
   ],
@@ -1627,15 +1626,12 @@
     "flowWorkspace",
     "openCyto",
     "ggcyto",
-    "ncdfFlow",
     "DelayedArray",
-    "flowViz",
     "flowClust"
   ],
   "CytoPipeline": [
     "ggcyto",
     "PeacoQC",
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray"
   ],
@@ -1643,7 +1639,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray"
   ],
@@ -2915,8 +2910,7 @@
     "Biostrings"
   ],
   "GateFinder": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "GeneBreak": [
     "QDNAseq",
@@ -4985,7 +4979,6 @@
   ],
   "PeacoQC": [
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray"
   ],
   "PepSetTest": [
@@ -8641,7 +8634,6 @@
   "cogeqc": [
     "Biostrings"
   ],
-  "cola": [],
   "combi": [
     "phyloseq",
     "SummarizedExperiment",
@@ -9035,8 +9027,7 @@
   ],
   "cyanoFilter": [
     "flowDensity",
-    "flowClust",
-    "flowViz"
+    "flowClust"
   ],
   "cydar": [
     "SingleCellExperiment",
@@ -9123,8 +9114,7 @@
     "ScaledMatrix"
   ],
   "ddPCRclust": [
-    "flowDensity",
-    "flowViz"
+    "flowDensity"
   ],
   "debrowser": [
     "annotate",
@@ -9893,24 +9883,17 @@
     "AnnotationFilter"
   ],
   "flowBin": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "flowClust": [],
   "flowCut": [
-    "flowDensity",
-    "flowViz"
+    "flowDensity"
   ],
-  "flowDensity": [
-    "flowViz"
-  ],
-  "flowFP": [
-    "flowViz"
-  ],
+  "flowDensity": [],
+  "flowFP": [],
   "flowGate": [
     "flowWorkspace",
     "ggcyto",
-    "ncdfFlow",
     "DelayedArray"
   ],
   "flowMerge": [
@@ -9918,25 +9901,18 @@
   ],
   "flowStats": [
     "flowWorkspace",
-    "ncdfFlow",
-    "flowViz",
     "DelayedArray"
   ],
   "flowTime": [],
   "flowTrans": [
-    "flowViz",
     "flowClust"
   ],
   "flowVS": [
-    "flowViz",
     "flowStats",
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray"
   ],
-  "flowViz": [],
   "flowWorkspace": [
-    "ncdfFlow",
     "DelayedArray"
   ],
   "frma": [
@@ -10204,7 +10180,6 @@
     "DelayedArray"
   ],
   "ggcyto": [
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray"
   ],
@@ -12065,7 +12040,6 @@
   "ncRNAtools": [
     "GenomicRanges"
   ],
-  "ncdfFlow": [],
   "nearBynding": [
     "plyranges",
     "Rsamtools",
@@ -12311,8 +12285,6 @@
     "Biostrings"
   ],
   "openCyto": [
-    "flowViz",
-    "ncdfFlow",
     "flowWorkspace",
     "flowClust",
     "DelayedArray"

@@ -764,3 +764,6 @@ simona
 SparseArray
 Spectra
 tidyFlowCore
+cola
+flowViz
+ncdfFlow

@@ -789,3 +789,5 @@ SpectriPy
 h5mread
 ldblock
 optimalFlow
+flowDensity
+flowFP
