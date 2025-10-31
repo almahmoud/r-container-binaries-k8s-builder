@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 457 (19%)
+- **Successfully Built:** 458 (19%)
 - **Failed:** 4 (0%)
-- **In Progress:** 27
-- **Not Started:** 1822
+- **In Progress:** 29
+- **Not Started:** 1819
 
-**Progress:** 19%
+**Progress:** 20%
 ```
-█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (457)
+## Successfully Built Packages (458)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.21/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BioCartaImage) |
 
-*... and 407 more ...*
+*... and 408 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,13 +85,14 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (27)
+## In Progress (29)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
 - ⏳ `EnMCB`
+- ⏳ `GSCA`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
@@ -100,7 +101,7 @@
 - ⏳ `Polytect`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
-- ⏳ `Wrench`
+- ⏳ `biomformat`
 - ⏳ `ctsGE`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
@@ -110,11 +111,12 @@
 - ⏳ `philr`
 - ⏳ `planet`
 - ⏳ `scFeatureFilter`
+- ⏳ `scMitoMut`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
 - ⏳ `tximport`
 
-## Not Yet Started (1822)
+## Not Yet Started (1819)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -166,8 +168,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1772 more ...
+... and 1769 more ...
 
 ---
-*Last updated: 2025-10-31 00:16:48 UTC*
+*Last updated: 2025-10-31 00:17:19 UTC*
 *Packages with verified BBS status: 83*

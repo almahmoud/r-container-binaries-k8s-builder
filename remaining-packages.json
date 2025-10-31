@@ -7921,7 +7921,6 @@
     "edgeR",
     "metagenomeSeq",
     "Biobase",
-    "Wrench",
     "BiocGenerics"
   ],
   "MODA": [
@@ -8263,7 +8262,6 @@
     "edgeR",
     "metagenomeSeq",
     "Biobase",
-    "Wrench",
     "BiocGenerics"
   ],
   "Macarron": [
@@ -8284,7 +8282,6 @@
     "KEGGREST",
     "UCSC.utils",
     "XVector",
-    "Wrench",
     "Biostrings"
   ],
   "MatrixQCvis": [
@@ -14590,7 +14587,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "Wrench": [],
   "XAItest": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -15891,7 +15887,6 @@
     "BiocGenerics",
     "Biobase",
     "SingleCellExperiment",
-    "Wrench",
     "Biostrings",
     "biomformat",
     "GenomeInfoDb",
@@ -22766,7 +22761,6 @@
   "mbQTL": [
     "metagenomeSeq",
     "Biobase",
-    "Wrench",
     "BiocGenerics"
   ],
   "mbkmeans": [
@@ -22926,7 +22920,6 @@
   ],
   "metagenomeSeq": [
     "Biobase",
-    "Wrench",
     "BiocGenerics"
   ],
   "metapone": [
@@ -23618,7 +23611,6 @@
     "metagenomeSeq",
     "Biobase",
     "BiocGenerics",
-    "Wrench",
     "biomformat",
     "Biostrings",
     "multtest",
@@ -23638,7 +23630,6 @@
     "IRanges",
     "GenomicRanges",
     "SummarizedExperiment",
-    "Wrench",
     "GenomeInfoDb",
     "XVector",
     "S4Arrays",
