@@ -591,12 +591,10 @@
     "Gviz",
     "biovizBase"
   ],
-  "proActiv": [],
   "profileplyr": [],
   "quantro": [],
   "rGADEM": [],
   "recountmethylation": [],
-  "recoup": [],
   "regutools": [
     "Gviz",
     "biovizBase"
@@ -641,7 +639,6 @@
   "singleCellTK": [
     "scMerge"
   ],
-  "sitadela": [],
   "skewr": [
     "methylumi",
     "wateRmelon",

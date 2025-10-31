@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2055 (88%)
+- **Successfully Built:** 2058 (89%)
 - **Failed:** 19 (0%)
-- **In Progress:** 100
-- **Not Started:** 136
+- **In Progress:** 98
+- **Not Started:** 135
 
 **Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2055)
+## Successfully Built Packages (2058)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2005 more ...*
+*... and 2008 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (100)
+## In Progress (98)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
@@ -117,6 +117,7 @@
 - ⏳ `IMAS`
 - ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
+- ⏳ `MetaboSignal`
 - ⏳ `MethylAid`
 - ⏳ `Moonlight2R`
 - ⏳ `NanoMethViz`
@@ -150,11 +151,10 @@
 - ⏳ `crisprDesign`
 - ⏳ `customProDB`
 - ⏳ `cytofQC`
-- ⏳ `dandelionR`
 
-... and 50 more ...
+... and 48 more ...
 
-## Not Yet Started (136)
+## Not Yet Started (135)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
@@ -192,7 +192,6 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MetaboSignal`
 - ⏸️ `MineICA`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
@@ -205,9 +204,10 @@
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `RTCGAToolbox`
+- ⏸️ `ReportingTools`
 
-... and 86 more ...
+... and 85 more ...
 
 ---
-*Last updated: 2025-10-31 09:53:58 UTC*
+*Last updated: 2025-10-31 09:55:13 UTC*
 *Packages with verified BBS status: 161*

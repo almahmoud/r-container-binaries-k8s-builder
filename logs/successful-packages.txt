@@ -2053,3 +2053,6 @@ RCAS
 mygene
 proBAMr
 scmeth
+proActiv
+recoup
+sitadela
