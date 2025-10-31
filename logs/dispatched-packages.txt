@@ -1227,3 +1227,7 @@ HDF5Array
 multistateQTL
 ADAMgui
 omicplotR
+DOSE
+Rcpi
+gatom
+rrvgo

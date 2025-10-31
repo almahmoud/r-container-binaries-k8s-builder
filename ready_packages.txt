@@ -1,2 +1,4 @@
-ADAMgui
-omicplotR
+DOSE
+Rcpi
+gatom
+rrvgo

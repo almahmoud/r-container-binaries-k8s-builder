@@ -1027,3 +1027,13 @@ SeqGate
 tidySummarizedExperiment
 tomoda
 zFPKM
+affylmGUI
+BioNAR
+BioNet
+CINdex
+dinoR
+GOSemSim
+h5vc
+snapcount
+spqn
+survtype
