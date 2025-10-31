@@ -8219,18 +8219,13 @@
     "UCSC.utils",
     "XVector"
   ],
-  "MSstats": [],
-  "MSstatsBig": [
-    "MSstats"
-  ],
+  "MSstatsBig": [],
   "MSstatsBioNet": [
-    "MSstats",
     "RCy3",
     "BiocGenerics",
     "graph"
   ],
   "MSstatsLiP": [
-    "MSstats",
     "Biostrings",
     "MSstatsPTM",
     "BiocGenerics",
@@ -8243,7 +8238,6 @@
   ],
   "MSstatsPTM": [
     "MSstatsTMT",
-    "MSstats",
     "Biostrings",
     "BiocGenerics",
     "S4Vectors",
@@ -8308,7 +8302,6 @@
     "XVector"
   ],
   "MSstatsShiny": [
-    "MSstats",
     "MSstatsTMT",
     "MSstatsPTM",
     "Biostrings",
@@ -8319,9 +8312,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "MSstatsTMT": [
-    "MSstats"
-  ],
+  "MSstatsTMT": [],
   "MWASTools": [
     "SummarizedExperiment",
     "KEGGgraph",
@@ -9551,10 +9542,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "OLIN": [],
-  "OLINgui": [
-    "OLIN"
-  ],
+  "OLINgui": [],
   "OMICsPCA": [
     "HelloRanges",
     "MultiAssayExperiment",
@@ -11613,7 +11601,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "RedisParam": [],
   "ReducedExperiment": [
     "SummarizedExperiment",
     "clusterProfiler",
@@ -15614,7 +15601,6 @@
     "rhdf5",
     "multtest"
   ],
-  "arrayQuality": [],
   "arrayQualityMetrics": [
     "affy",
     "affyPLM",
@@ -15637,7 +15623,6 @@
   ],
   "artMS": [
     "AnnotationDbi",
-    "MSstats",
     "BiocGenerics",
     "Biobase",
     "IRanges",
@@ -24963,7 +24948,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "nnNorm": [],
   "nnSVG": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -28260,7 +28244,6 @@
     "XVector",
     "Biostrings"
   ],
-  "scTHI": [],
   "scTensor": [
     "S4Vectors",
     "AnnotationDbi",
@@ -30504,7 +30487,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "ternarynet": [],
   "terraTCGAdata": [
     "MultiAssayExperiment",
     "GenomicRanges",

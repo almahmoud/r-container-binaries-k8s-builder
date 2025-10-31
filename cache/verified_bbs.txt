@@ -59,6 +59,7 @@ switchBox
 synergyfinder
 synlet
 tanggle
+ternarynet
 tidysbml
 timescape
 tkWidgets
