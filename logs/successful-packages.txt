@@ -624,3 +624,14 @@ RUVcorr
 SIMD
 STATegRa
 SuperCellCyto
+AffyRNADegradation
+bioassayR
+DFplyr
+EnrichDO
+ExploreModelMatrix
+paircompviz
+panp
+Pedixplorer
+sevenbridges
+siggenes
+twoddpcr

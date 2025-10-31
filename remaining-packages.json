@@ -297,7 +297,6 @@
     "SparseArray",
     "XVector"
   ],
-  "AffyRNADegradation": [],
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
@@ -1926,7 +1925,6 @@
     "annotate",
     "rtracklayer",
     "Biostrings",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -2732,7 +2730,6 @@
     "Biostrings",
     "XVector"
   ],
-  "DFplyr": [],
   "DMCFB": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -2818,7 +2815,6 @@
     "GenomicAlignments",
     "GenomeInfoDb",
     "bumphunter",
-    "siggenes",
     "genefilter",
     "GEOquery",
     "methylumi",
@@ -3511,7 +3507,6 @@
     "Biostrings",
     "bumphunter",
     "Seqinfo",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -3569,7 +3564,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "EnrichDO": [],
   "EnrichedHeatmap": [
     "ComplexHeatmap",
     "GenomicRanges",
@@ -3775,7 +3769,6 @@
     "XVector",
     "SparseArray"
   ],
-  "ExploreModelMatrix": [],
   "ExpressionAtlas": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -5441,9 +5434,7 @@
     "cigarillo",
     "UCSC.utils"
   ],
-  "KCsmart": [
-    "siggenes"
-  ],
+  "KCsmart": [],
   "KEGGREST": [
     "Biostrings",
     "IRanges",
@@ -5655,7 +5646,6 @@
     "UCSC.utils",
     "rtracklayer",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "Rsamtools",
@@ -5789,7 +5779,6 @@
     "GenomicAlignments",
     "GenomeInfoDb",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -5817,7 +5806,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -6484,7 +6472,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -6582,7 +6569,6 @@
     "SummarizedExperiment",
     "UCSC.utils",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -7649,7 +7635,6 @@
     "SparseArray",
     "XVector"
   ],
-  "Pedixplorer": [],
   "PepSetTest": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -8059,7 +8044,6 @@
     "BiocIO",
     "Rsamtools",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -8895,7 +8879,6 @@
     "XVector",
     "rtracklayer",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -11098,7 +11081,6 @@
   "XDE": [
     "genefilter",
     "GeneMeta",
-    "siggenes",
     "AnnotationDbi",
     "annotate",
     "IRanges",
@@ -11710,7 +11692,6 @@
     "genefilter",
     "UCSC.utils",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -12054,7 +12035,6 @@
     "Biostrings",
     "bumphunter",
     "Seqinfo",
-    "siggenes",
     "DelayedMatrixStats",
     "DelayedArray",
     "HDF5Array",
@@ -12104,7 +12084,6 @@
     "BiocIO",
     "cigarillo"
   ],
-  "bioassayR": [],
   "biobroom": [],
   "biocGraph": [
     "geneplotter",
@@ -13359,7 +13338,6 @@
     "SummarizedExperiment",
     "Biostrings",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -13972,7 +13950,6 @@
     "SummarizedExperiment",
     "Biostrings",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -14598,7 +14575,6 @@
     "biovizBase",
     "GenomicAlignments",
     "OrganismDbi",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -14964,7 +14940,6 @@
     "XVector",
     "rtracklayer",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -15160,7 +15135,6 @@
     "SummarizedExperiment",
     "Biostrings",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -16006,7 +15980,6 @@
     "genefilter",
     "UCSC.utils",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -16735,7 +16708,6 @@
     "genefilter",
     "UCSC.utils",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -17166,7 +17138,6 @@
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
-    "siggenes",
     "GEOquery",
     "rtracklayer",
     "GenomicAlignments",
@@ -17200,7 +17171,6 @@
     "genefilter",
     "GenomicFeatures",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -17312,7 +17282,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -17368,7 +17337,6 @@
     "XVector",
     "rtracklayer",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -17660,7 +17628,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -17706,7 +17673,6 @@
     "GenomicFeatures",
     "Biostrings",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -18949,7 +18915,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "paircompviz": [],
   "pairedGSEA": [
     "DESeq2",
     "DEXSeq",
@@ -18992,7 +18957,6 @@
     "Biostrings",
     "XVector"
   ],
-  "panp": [],
   "parglms": [],
   "partCNV": [
     "SingleCellExperiment",
@@ -19796,7 +19760,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -20049,7 +20012,6 @@
     "Biostrings",
     "bumphunter",
     "Seqinfo",
-    "siggenes",
     "genefilter",
     "GEOquery",
     "XVector",
@@ -21481,7 +21443,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "sevenbridges": [],
   "shinyDSP": [
     "AnnotationHub",
     "ComplexHeatmap",
@@ -21525,7 +21486,6 @@
     "bumphunter",
     "Seqinfo",
     "IRanges",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -21554,7 +21514,6 @@
     "SummarizedExperiment",
     "Biostrings",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",
@@ -21584,7 +21543,6 @@
     "SparseArray",
     "XVector"
   ],
-  "siggenes": [],
   "signatureSearch": [
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -21834,7 +21792,6 @@
     "Biostrings",
     "bumphunter",
     "Seqinfo",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -23000,9 +22957,7 @@
     "Biostrings",
     "XVector"
   ],
-  "trio": [
-    "siggenes"
-  ],
+  "trio": [],
   "triplex": [
     "IRanges",
     "XVector",
@@ -23010,7 +22965,6 @@
     "GenomicRanges",
     "Seqinfo"
   ],
-  "twoddpcr": [],
   "txcutr": [
     "AnnotationDbi",
     "GenomicFeatures",
@@ -23327,7 +23281,6 @@
     "XVector",
     "rtracklayer",
     "bumphunter",
-    "siggenes",
     "DelayedMatrixStats",
     "GEOquery",
     "DelayedArray",
@@ -23499,7 +23452,6 @@
     "Biostrings",
     "bumphunter",
     "Seqinfo",
-    "siggenes",
     "DelayedMatrixStats",
     "genefilter",
     "GEOquery",

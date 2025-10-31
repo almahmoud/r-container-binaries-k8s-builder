@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 626 (27%)
+- **Successfully Built:** 637 (28%)
 - **Failed:** 1 (0%)
-- **In Progress:** 72
-- **Not Started:** 1545
+- **In Progress:** 66
+- **Not Started:** 1540
 
-**Progress:** 27%
+**Progress:** 28%
 ```
-█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (626)
+## Successfully Built Packages (637)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -34,6 +34,7 @@
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
+| [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
@@ -44,13 +45,11 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
-| [BADER](https://bioconductor.org/packages/3.22/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BADER) |
 
-*... and 576 more ...*
+*... and 587 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [synergyfinder](https://bioconductor.org/packages/3.22/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/synergyfinder) |
 | [synlet](https://bioconductor.org/packages/3.22/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/synlet) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.22/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.22/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tanggle) |
@@ -67,6 +66,7 @@
 | [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.22/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twilight) |
+| [twoddpcr](https://bioconductor.org/packages/3.22/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.22/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tximport) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/unifiedWMWqPCR) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
@@ -82,17 +82,14 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (72)
-- ⏳ `AffyRNADegradation`
+## In Progress (66)
 - ⏳ `BioMVCClass`
 - ⏳ `BiocIO`
 - ⏳ `CTDquerier`
 - ⏳ `CardinalIO`
 - ⏳ `CellMapper`
-- ⏳ `DFplyr`
-- ⏳ `EnrichDO`
+- ⏳ `CellNOptR`
 - ⏳ `ExiMiR`
-- ⏳ `ExploreModelMatrix`
 - ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
@@ -106,25 +103,27 @@
 - ⏳ `NanoTube`
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
-- ⏳ `Pedixplorer`
 - ⏳ `RBioFormats`
 - ⏳ `RTopper`
 - ⏳ `RVS`
 - ⏳ `Rcwl`
 - ⏳ `Rnits`
 - ⏳ `SRAdb`
+- ⏳ `Streamer`
 - ⏳ `TMixClust`
 - ⏳ `TRONCO`
 - ⏳ `TurboNorm`
 - ⏳ `UCSC.utils`
+- ⏳ `a4Classif`
 - ⏳ `aCGH`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `anota`
-- ⏳ `bioassayR`
 - ⏳ `biobroom`
+- ⏳ `biocViews`
 - ⏳ `bluster`
 - ⏳ `fedup`
+- ⏳ `fgga`
 - ⏳ `flowCore`
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
@@ -133,10 +132,11 @@
 - ⏳ `metabCombiner`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
+- ⏳ `mosbi`
 
-... and 22 more ...
+... and 16 more ...
 
-## Not Yet Started (1545)
+## Not Yet Started (1540)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1495 more ...
+... and 1490 more ...
 
 ---
-*Last updated: 2025-10-31 22:43:51 UTC*
-*Packages with verified BBS status: 98*
+*Last updated: 2025-10-31 22:44:40 UTC*
+*Packages with verified BBS status: 100*

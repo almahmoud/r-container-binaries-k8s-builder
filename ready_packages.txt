@@ -1,5 +1,2 @@
-CellNOptR
-Streamer
-a4Classif
-biocViews
-fgga
+KCsmart
+trio

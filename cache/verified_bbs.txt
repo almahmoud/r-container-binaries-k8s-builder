@@ -12,6 +12,7 @@ ASGSCA
 ASSET
 AWAggregator
 AWFisher
+AffyRNADegradation
 AlphaBeta
 AlphaMissenseR
 AlpsNMR
@@ -88,6 +89,7 @@ tripr
 ttgsea
 tweeDEseq
 twilight
+twoddpcr
 tximport
 unifiedWMWqPCR
 vbmp
