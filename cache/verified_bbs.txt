@@ -67,6 +67,7 @@ CONSTANd
 COSNet
 CausalR
 ChIPQC
+GeneTonic
 Harshlight
 PICS
 PhenStat
@@ -145,6 +146,7 @@ vsn
 vtpnet
 vulcan
 waddR
+wateRmelon
 wavClusteR
 weaver
 webbioc

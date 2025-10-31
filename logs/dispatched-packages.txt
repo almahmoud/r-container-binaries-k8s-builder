@@ -2301,3 +2301,7 @@ MEAL
 affycoretools
 methylGSA
 MAGAR
+AgiMicroRna
+MEAT
+bigmelon
+skewr

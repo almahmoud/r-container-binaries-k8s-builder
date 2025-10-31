@@ -1,15 +1,10 @@
 {
-  "AgiMicroRna": [
-    "affycoretools"
-  ],
+  "AgiMicroRna": [],
   "AneuFinder": [],
   "BiGGR": [],
-  "CAGEr": [],
   "CNEr": [],
-  "CNVfilteR": [],
   "ChAMP": [
-    "DMRcate",
-    "wateRmelon"
+    "DMRcate"
   ],
   "ChIPQC": [],
   "DMRcate": [],
@@ -18,12 +13,8 @@
   ],
   "GeneTonic": [],
   "Harshlight": [],
-  "MAGAR": [],
   "MEAL": [],
-  "MEAT": [
-    "wateRmelon"
-  ],
-  "NADfinder": [],
+  "MEAT": [],
   "PICS": [],
   "PING": [
     "PICS"
@@ -33,29 +24,19 @@
   "RbowtieCuda": [],
   "Repitools": [],
   "XNAString": [],
-  "YAPSA": [],
-  "affycoretools": [],
   "amplican": [],
-  "bigmelon": [
-    "wateRmelon"
-  ],
+  "bigmelon": [],
   "cisPath": [],
   "cytofQC": [],
   "debCAM": [],
   "genoCN": [],
-  "geomeTriD": [],
   "gpuMagic": [],
   "hypeR": [],
-  "iSEEfier": [],
   "methylGSA": [],
   "miRSM": [],
   "miRspongeR": [],
   "rGADEM": [],
-  "scTreeViz": [],
   "signeR": [],
-  "skewr": [
-    "wateRmelon"
-  ],
-  "trigger": [],
-  "wateRmelon": []
+  "skewr": [],
+  "trigger": []
 }

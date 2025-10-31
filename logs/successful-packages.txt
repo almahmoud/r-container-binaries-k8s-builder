@@ -2264,3 +2264,13 @@ ReportingTools
 spatzie
 CNViz
 RnBeads
+affycoretools
+CAGEr
+CNVfilteR
+geomeTriD
+iSEEfier
+MAGAR
+NADfinder
+scTreeViz
+wateRmelon
+YAPSA

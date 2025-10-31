@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2266 (98%)
-- **Failed:** 23 (0%)
-- **In Progress:** 14
+- **Successfully Built:** 2276 (98%)
+- **Failed:** 24 (1%)
+- **In Progress:** 3
 - **Not Started:** 7
 
 **Progress:** 99%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2266)
+## Successfully Built Packages (2276)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,14 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2216 more ...*
+*... and 2226 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.21/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.21/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vulcan) |
 | [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.21/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.21/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (23)
+## Failed Packages (24)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,6 +84,7 @@
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
 | [CNEr](https://bioconductor.org/packages/3.21/bioc/html/CNEr.html) | [log](logs/CNEr/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/CNEr) | Build failed with unknown error |
 | [ChIPQC](https://bioconductor.org/packages/3.21/bioc/html/ChIPQC.html) | [log](logs/ChIPQC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ChIPQC) | Build failed with unknown error |
+| [GeneTonic](https://bioconductor.org/packages/3.21/bioc/html/GeneTonic.html) | [log](logs/GeneTonic/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/GeneTonic) | Build failed with unknown error |
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
@@ -104,21 +105,10 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (14)
-- ⏳ `CAGEr`
-- ⏳ `CNVfilteR`
+## In Progress (3)
 - ⏳ `DMRcate`
-- ⏳ `GeneTonic`
-- ⏳ `MAGAR`
 - ⏳ `MEAL`
-- ⏳ `NADfinder`
-- ⏳ `YAPSA`
-- ⏳ `affycoretools`
-- ⏳ `geomeTriD`
-- ⏳ `iSEEfier`
 - ⏳ `methylGSA`
-- ⏳ `scTreeViz`
-- ⏳ `wateRmelon`
 
 ## Not Yet Started (7)
 - ⏸️ `AgiMicroRna`
@@ -130,5 +120,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:58:04 UTC*
-*Packages with verified BBS status: 168*
+*Last updated: 2025-10-31 12:56:13 UTC*
+*Packages with verified BBS status: 170*
