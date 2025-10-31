@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 939 (40%)
+- **Successfully Built:** 940 (40%)
 - **Failed:** 7 (0%)
-- **In Progress:** 57
+- **In Progress:** 56
 - **Not Started:** 1307
 
 **Progress:** 40%
@@ -16,7 +16,7 @@
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (939)
+## Successfully Built Packages (940)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 889 more ...*
+*... and 890 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (57)
+## In Progress (56)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `CINdex`
@@ -113,7 +113,6 @@
 - ⏳ `beachmat`
 - ⏳ `cellbaseR`
 - ⏳ `cn.mops`
-- ⏳ `cnvGSA`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
 - ⏳ `epialleleR`
@@ -139,8 +138,9 @@
 - ⏳ `rfPred`
 - ⏳ `riboSeqR`
 - ⏳ `rigvf`
+- ⏳ `scPCA`
 
-... and 7 more ...
+... and 6 more ...
 
 ## Not Yet Started (1307)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1257 more ...
 
 ---
-*Last updated: 2025-10-31 03:40:38 UTC*
+*Last updated: 2025-10-31 03:41:25 UTC*
 *Packages with verified BBS status: 112*
