@@ -241,7 +241,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "CARDspa": [],
   "CATALYST": [
     "scater",
     "scuttle"
@@ -316,7 +315,6 @@
   "Category": [
     "GSEABase"
   ],
-  "CatsCradle": [],
   "CellMixS": [
     "scater",
     "scuttle"
@@ -899,7 +897,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "IONiseR": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -1762,7 +1759,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "UCell": [],
   "UMI4Cats": [
     "regioneR",
     "BSgenome",
@@ -2510,7 +2506,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "easyRNASeq": [],
   "easylift": [
     "rtracklayer"
   ],
@@ -2621,8 +2616,7 @@
   "escape": [
     "AUCell",
     "GSEABase",
-    "GSVA",
-    "UCell"
+    "GSVA"
   ],
   "escheR": [],
   "extraChIPs": [
@@ -3095,13 +3089,11 @@
     "miaViz",
     "scuttle"
   ],
-  "miaSim": [],
   "miaViz": [
     "mia",
     "scater",
     "scuttle"
   ],
-  "microbiomeExplorer": [],
   "miloR": [],
   "mimager": [
     "oligo"
@@ -3177,7 +3169,6 @@
   ],
   "msgbsR": [
     "BSgenome",
-    "easyRNASeq",
     "GenomicFeatures",
     "ggbio",
     "rtracklayer",
@@ -3980,7 +3971,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "transformGamPoi": [],
   "transmogR": [
     "BSgenome",
     "GenomicFeatures",

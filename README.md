@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1440 (62%)
+- **Successfully Built:** 1448 (62%)
 - **Failed:** 9 (0%)
-- **In Progress:** 176
+- **In Progress:** 168
 - **Not Started:** 685
 
-**Progress:** 62%
+**Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1440)
+## Successfully Built Packages (1448)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1390 more ...*
+*... and 1398 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (176)
+## In Progress (168)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -103,9 +103,7 @@
 - ⏳ `BasicSTARRseq`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BulkSignalR`
-- ⏳ `CARDspa`
 - ⏳ `CDI`
-- ⏳ `CatsCradle`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DifferentialRegulation`
@@ -127,7 +125,6 @@
 - ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
-- ⏳ `IONiseR`
 - ⏳ `LoomExperiment`
 - ⏳ `MAST`
 - ⏳ `MDTS`
@@ -141,8 +138,11 @@
 - ⏳ `Nebulosa`
 - ⏳ `NewWave`
 - ⏳ `PECA`
+- ⏳ `PICB`
+- ⏳ `PICS`
+- ⏳ `PSMatch`
 
-... and 126 more ...
+... and 118 more ...
 
 ## Not Yet Started (685)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 635 more ...
 
 ---
-*Last updated: 2025-10-31 05:44:20 UTC*
+*Last updated: 2025-10-31 05:45:39 UTC*
 *Packages with verified BBS status: 131*

@@ -1438,3 +1438,11 @@ segmentSeq
 SingleCellAlleleExperiment
 CTSV
 RSVSim
+CARDspa
+CatsCradle
+easyRNASeq
+IONiseR
+miaSim
+microbiomeExplorer
+transformGamPoi
+UCell
