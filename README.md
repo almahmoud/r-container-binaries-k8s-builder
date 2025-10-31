@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1268 (54%)
+- **Successfully Built:** 1284 (55%)
 - **Failed:** 8 (0%)
-- **In Progress:** 139
+- **In Progress:** 123
 - **Not Started:** 895
 
 **Progress:** 55%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1268)
+## Successfully Built Packages (1284)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1218 more ...*
+*... and 1234 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.21/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twilight) |
@@ -63,6 +62,7 @@
 | [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
+| [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
@@ -89,9 +89,8 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (139)
+## In Progress (123)
 - ⏳ `AMARETTO`
-- ⏳ `Anaquin`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CEMiTool`
@@ -112,11 +111,8 @@
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
 - ⏳ `EpipwR`
-- ⏳ `GOpro`
 - ⏳ `GSEABase`
-- ⏳ `GenomicAlignments`
 - ⏳ `GenomicScores`
-- ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
@@ -133,15 +129,19 @@
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MsDataHub`
 - ⏳ `MsExperiment`
-- ⏳ `MultiRNAflow`
 - ⏳ `NetActivity`
 - ⏳ `NetSAM`
 - ⏳ `PDATK`
-- ⏳ `PREDA`
 - ⏳ `PSMatch`
 - ⏳ `PathoStat`
+- ⏳ `PharmacoGx`
+- ⏳ `RadioGx`
+- ⏳ `ReducedExperiment`
+- ⏳ `RegEnrich`
+- ⏳ `SPONGE`
+- ⏳ `SemDist`
 
-... and 89 more ...
+... and 73 more ...
 
 ## Not Yet Started (895)
 - ⏸️ `ADImpute`
@@ -198,5 +198,5 @@
 ... and 845 more ...
 
 ---
-*Last updated: 2025-10-31 04:53:01 UTC*
-*Packages with verified BBS status: 124*
+*Last updated: 2025-10-31 04:59:05 UTC*
+*Packages with verified BBS status: 125*
