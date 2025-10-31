@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 2017 (87%)
 - **Failed:** 18 (0%)
-- **In Progress:** 120
-- **Not Started:** 155
+- **In Progress:** 129
+- **Not Started:** 146
 
 **Progress:** 88%
 ```
@@ -99,7 +99,8 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (120)
+## In Progress (129)
+- ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
@@ -108,11 +109,13 @@
 - ⏳ `CexoR`
 - ⏳ `ChIPQC`
 - ⏳ `CleanUpRNAseq`
+- ⏳ `DEScan2`
 - ⏳ `DaMiRseq`
 - ⏳ `DeMixT`
 - ⏳ `DegNorm`
 - ⏳ `ELViS`
 - ⏳ `ENmix`
+- ⏳ `EpiCompare`
 - ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
 - ⏳ `GRaNIE`
@@ -135,6 +138,7 @@
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `RCAS`
+- ⏳ `REDseq`
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `RUVSeq`
@@ -146,17 +150,12 @@
 - ⏳ `SplicingGraphs`
 - ⏳ `TAPseq`
 - ⏳ `TCGAutils`
-- ⏳ `alabaster`
-- ⏳ `benchdamic`
-- ⏳ `biovizBase`
-- ⏳ `borealis`
 
-... and 70 more ...
+... and 79 more ...
 
-## Not Yet Started (155)
+## Not Yet Started (146)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
-- ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
@@ -171,12 +170,10 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `EpiCompare`
 - ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
@@ -204,9 +201,12 @@
 - ⏸️ `OGRE`
 - ⏸️ `PING`
 - ⏸️ `Pviz`
+- ⏸️ `R3CPET`
+- ⏸️ `RJMCMCNucleosomes`
+- ⏸️ `RNAmodR`
 
-... and 105 more ...
+... and 96 more ...
 
 ---
-*Last updated: 2025-10-31 09:36:54 UTC*
+*Last updated: 2025-10-31 09:38:11 UTC*
 *Packages with verified BBS status: 160*
