@@ -1,8 +1,5 @@
 {
-  "ADAM": [],
-  "ADAMgui": [
-    "ADAM"
-  ],
+  "ADAMgui": [],
   "ADImpute": [
     "SingleCellExperiment"
   ],
@@ -26,7 +23,6 @@
     "GenomicAlignments",
     "biomaRt"
   ],
-  "ALDEx2": [],
   "AMARETTO": [
     "MultiAssayExperiment",
     "AnnotationHub",
@@ -301,7 +297,6 @@
     "GSEABase",
     "annotate"
   ],
-  "BioGA": [],
   "BioNAR": [],
   "BioNERO": [
     "sva",
@@ -1230,7 +1225,6 @@
     "MultiAssayExperiment",
     "GenomicAlignments"
   ],
-  "FuseSOM": [],
   "GA4GHclient": [
     "VariantAnnotation",
     "rtracklayer",
@@ -1692,7 +1686,6 @@
     "AnnotationHub",
     "annotate"
   ],
-  "KEGGlincs": [],
   "KnowSeq": [
     "sva",
     "genefilter",
@@ -2946,7 +2939,6 @@
     "DESeq2",
     "biomaRt"
   ],
-  "SeqGate": [],
   "SeqSQC": [
     "ExperimentHub",
     "AnnotationHub"
@@ -3674,7 +3666,6 @@
     "TreeSummarizedExperiment",
     "zinbwave",
     "DESeq2",
-    "ALDEx2",
     "MAST",
     "maaslin3",
     "SingleCellExperiment",
@@ -4490,7 +4481,6 @@
   "dittoSeq": [
     "SingleCellExperiment"
   ],
-  "divergence": [],
   "dmrseq": [
     "bsseq",
     "bumphunter",
@@ -4790,7 +4780,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "flowBin": [],
   "flowGate": [
     "ggcyto"
   ],
@@ -5927,9 +5916,7 @@
   "omicade4": [
     "made4"
   ],
-  "omicplotR": [
-    "ALDEx2"
-  ],
+  "omicplotR": [],
   "omicsPrint": [
     "MultiAssayExperiment",
     "RaggedExperiment"
@@ -7168,10 +7155,8 @@
     "tidySingleCellExperiment",
     "SingleCellExperiment"
   ],
-  "tidySummarizedExperiment": [],
   "tidybulk": [],
   "tidyomics": [
-    "tidySummarizedExperiment",
     "tidySingleCellExperiment",
     "tidybulk",
     "plyranges",
@@ -7188,7 +7173,6 @@
     "genefilter",
     "annotate"
   ],
-  "tomoda": [],
   "topGO": [],
   "topdownr": [
     "MSnbase",
@@ -7431,7 +7415,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "zFPKM": [],
   "zellkonverter": [
     "SingleCellExperiment"
   ],

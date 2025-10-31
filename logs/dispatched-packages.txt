@@ -1225,3 +1225,5 @@ ggcyto
 openCyto
 HDF5Array
 multistateQTL
+ADAMgui
+omicplotR

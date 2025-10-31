@@ -2,8 +2,10 @@ ABSSeq
 ABarray
 ACE
 ACME
+ADAM
 ADAPT
 AIMS
+ALDEx2
 AMOUNTAIN
 ANCOMBC
 ANF
@@ -111,4 +113,5 @@ weaver
 widgetTools
 wppi
 xmapbridge
+zFPKM
 zlibbioc
