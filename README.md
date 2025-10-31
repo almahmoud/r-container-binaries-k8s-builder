@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1409 (60%)
+- **Successfully Built:** 1416 (61%)
 - **Failed:** 9 (0%)
-- **In Progress:** 171
+- **In Progress:** 164
 - **Not Started:** 721
 
 **Progress:** 61%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1409)
+## Successfully Built Packages (1416)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1359 more ...*
+*... and 1366 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (171)
+## In Progress (164)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -108,8 +108,6 @@
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
 - ⏳ `ClusterFoldSimilarity`
-- ⏳ `CoGAPS`
-- ⏳ `CrispRVariants`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DifferentialRegulation`
@@ -141,8 +139,10 @@
 - ⏳ `MultiBaC`
 - ⏳ `NBAMSeq`
 - ⏳ `Nebulosa`
+- ⏳ `NewWave`
+- ⏳ `OTUbase`
 
-... and 121 more ...
+... and 114 more ...
 
 ## Not Yet Started (721)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 671 more ...
 
 ---
-*Last updated: 2025-10-31 05:33:58 UTC*
+*Last updated: 2025-10-31 05:35:48 UTC*
 *Packages with verified BBS status: 131*

@@ -1407,3 +1407,10 @@ crlmm
 maaslin3
 mBPCR
 microSTASIS
+CoGAPS
+CrispRVariants
+hdxmsqc
+scAnnotatR
+SCArray
+sesame
+SpatialExperiment
