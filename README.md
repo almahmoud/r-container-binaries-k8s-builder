@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 1641 (71%)
 - **Failed:** 11 (0%)
-- **In Progress:** 88
-- **Not Started:** 570
+- **In Progress:** 90
+- **Not Started:** 568
 
 **Progress:** 71%
 ```
@@ -92,7 +92,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (88)
+## In Progress (90)
 - ⏳ `AneuFinder`
 - ⏳ `BSgenome`
 - ⏳ `BatchSVG`
@@ -137,16 +137,16 @@
 - ⏳ `chipenrich`
 - ⏳ `clusterExperiment`
 - ⏳ `consensusSeekeR`
+- ⏳ `coseq`
 - ⏳ `dce`
 - ⏳ `debrowser`
 - ⏳ `destiny`
 - ⏳ `dittoSeq`
 - ⏳ `easylift`
-- ⏳ `epidecodeR`
 
-... and 38 more ...
+... and 40 more ...
 
-## Not Yet Started (570)
+## Not Yet Started (568)
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -198,8 +198,8 @@
 - ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
 
-... and 520 more ...
+... and 518 more ...
 
 ---
-*Last updated: 2025-10-31 06:45:40 UTC*
+*Last updated: 2025-10-31 06:46:50 UTC*
 *Packages with verified BBS status: 141*
