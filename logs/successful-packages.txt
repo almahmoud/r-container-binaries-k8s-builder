@@ -1121,3 +1121,12 @@ CAEN
 doseR
 MicrobiotaProcess
 MultiAssayExperiment
+CaDrA
+CellScore
+CPSM
+EGAD
+HiCParser
+RTNsurvival
+simplifyEnrichment
+topGO
+UniProt.ws

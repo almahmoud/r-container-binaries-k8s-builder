@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1123 (48%)
+- **Successfully Built:** 1132 (49%)
 - **Failed:** 8 (0%)
-- **In Progress:** 132
-- **Not Started:** 1047
+- **In Progress:** 144
+- **Not Started:** 1026
 
-**Progress:** 48%
+**Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1123)
+## Successfully Built Packages (1132)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1073 more ...*
+*... and 1082 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,21 +89,20 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (132)
+## In Progress (144)
+- ⏳ `AffiXcan`
 - ⏳ `BiocSklearn`
 - ⏳ `CNVRanger`
-- ⏳ `CPSM`
-- ⏳ `CaDrA`
-- ⏳ `CellScore`
+- ⏳ `CoreGx`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
 - ⏳ `DelayedTensor`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
-- ⏳ `EGAD`
 - ⏳ `ExperimentHub`
 - ⏳ `ExpressionAtlas`
+- ⏳ `GOpro`
 - ⏳ `GRmetrics`
 - ⏳ `GWENA`
 - ⏳ `GenomicAlignments`
@@ -112,19 +111,22 @@
 - ⏳ `GeoTcgaData`
 - ⏳ `HERON`
 - ⏳ `HiCExperiment`
-- ⏳ `HiCParser`
 - ⏳ `HiCcompare`
 - ⏳ `IFAA`
+- ⏳ `Lheuristic`
+- ⏳ `LinkHD`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
 - ⏳ `MOFA2`
+- ⏳ `MOMA`
 - ⏳ `MesKit`
 - ⏳ `MetMashR`
 - ⏳ `MiRaGE`
 - ⏳ `MultiDataSet`
+- ⏳ `MultimodalExperiment`
 - ⏳ `PADOG`
 - ⏳ `PhosR`
-- ⏳ `RTNsurvival`
+- ⏳ `QFeatures`
 - ⏳ `ReactomeGSA`
 - ⏳ `SVMDO`
 - ⏳ `SingleCellExperiment`
@@ -137,13 +139,11 @@
 - ⏳ `TREG`
 - ⏳ `TTMap`
 - ⏳ `Trendy`
-- ⏳ `UniProt.ws`
 - ⏳ `VariantExperiment`
-- ⏳ `XAItest`
 
-... and 82 more ...
+... and 94 more ...
 
-## Not Yet Started (1047)
+## Not Yet Started (1026)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -158,7 +158,6 @@
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
-- ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
@@ -194,9 +193,10 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
+- ⏸️ `BubbleTree`
 
-... and 997 more ...
+... and 976 more ...
 
 ---
-*Last updated: 2025-10-31 04:22:10 UTC*
+*Last updated: 2025-10-31 04:23:54 UTC*
 *Packages with verified BBS status: 121*
