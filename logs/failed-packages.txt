@@ -20,3 +20,4 @@ ChIPQC
 miRspongeR
 miRSM
 cytofQC
+RITAN

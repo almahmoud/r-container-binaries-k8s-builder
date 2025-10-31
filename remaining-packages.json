@@ -44,9 +44,7 @@
     "wateRmelon"
   ],
   "MineICA": [],
-  "NADfinder": [
-    "trackViewer"
-  ],
+  "NADfinder": [],
   "PICS": [],
   "PING": [
     "PICS"
@@ -88,9 +86,7 @@
   "epivizrStandalone": [],
   "ffpe": [],
   "genoCN": [],
-  "geomeTriD": [
-    "trackViewer"
-  ],
+  "geomeTriD": [],
   "gpuMagic": [],
   "hypeR": [],
   "iCheck": [],
@@ -116,7 +112,6 @@
     "wateRmelon"
   ],
   "spatzie": [],
-  "trackViewer": [],
   "trigger": [],
   "uncoverappLib": [],
   "wateRmelon": []

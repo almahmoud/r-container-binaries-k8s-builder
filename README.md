@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2228 (96%)
-- **Failed:** 22 (0%)
-- **In Progress:** 42
+- **Successfully Built:** 2229 (96%)
+- **Failed:** 23 (0%)
+- **In Progress:** 40
 - **Not Started:** 18
 
 **Progress:** 97%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2228)
+## Successfully Built Packages (2229)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2178 more ...*
+*... and 2179 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (22)
+## Failed Packages (23)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,6 +87,7 @@
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
+| [RITAN](https://bioconductor.org/packages/3.21/bioc/html/RITAN.html) | [log](logs/RITAN/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RITAN) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [Repitools](https://bioconductor.org/packages/3.21/bioc/html/Repitools.html) | [log](logs/Repitools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Repitools) | Build failed with unknown error |
 | [XNAString](https://bioconductor.org/packages/3.21/bioc/html/XNAString.html) | [log](logs/XNAString/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/XNAString) | Build failed with unknown error |
@@ -103,7 +104,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (42)
+## In Progress (40)
 - ⏳ `CAGEfightR`
 - ⏳ `CopyNumberPlots`
 - ⏳ `Damsel`
@@ -112,7 +113,6 @@
 - ⏳ `HiCDCPlus`
 - ⏳ `MineICA`
 - ⏳ `R3CPET`
-- ⏳ `RITAN`
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
@@ -143,7 +143,6 @@
 - ⏳ `scruff`
 - ⏳ `singleCellTK`
 - ⏳ `spatzie`
-- ⏳ `trackViewer`
 - ⏳ `uncoverappLib`
 - ⏳ `wateRmelon`
 
@@ -168,5 +167,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:35:12 UTC*
-*Packages with verified BBS status: 167*
+*Last updated: 2025-10-31 11:36:02 UTC*
+*Packages with verified BBS status: 168*

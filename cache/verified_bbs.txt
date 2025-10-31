@@ -70,6 +70,7 @@ ChIPQC
 Harshlight
 PICS
 PhenStat
+RITAN
 RbowtieCuda
 Repitools
 XNAString

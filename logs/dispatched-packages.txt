@@ -2290,3 +2290,5 @@ crisprVerse
 compEpiTools
 epivizrStandalone
 scTreeViz
+NADfinder
+geomeTriD
