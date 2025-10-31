@@ -770,7 +770,6 @@
     "genomation",
     "BSgenome",
     "GenomicAlignments",
-    "seqPattern",
     "SummarizedExperiment"
   ],
   "ChAMP": [
@@ -1451,7 +1450,6 @@
     "GenomicFeatures",
     "BSgenome",
     "GenomicAlignments",
-    "seqPattern",
     "DOSE",
     "GOSemSim",
     "SummarizedExperiment"
@@ -1634,9 +1632,7 @@
     "GOSemSim",
     "SummarizedExperiment"
   ],
-  "GENESIS": [
-    "SeqVarTools"
-  ],
+  "GENESIS": [],
   "GEOexplorer": [
     "sva",
     "GEOquery",
@@ -1898,7 +1894,6 @@
     "genomation",
     "txdbmaker",
     "BSgenome",
-    "seqPattern",
     "SummarizedExperiment",
     "AnnotationDbi",
     "biomaRt"
@@ -3211,7 +3206,6 @@
     "VariantAnnotation",
     "rtracklayer",
     "GenomicFeatures",
-    "SeqVarTools",
     "SummarizedExperiment",
     "GenomicAlignments"
   ],
@@ -3222,7 +3216,6 @@
     "txdbmaker",
     "genomation",
     "GenomicAlignments",
-    "seqPattern",
     "AnnotationDbi",
     "biomaRt",
     "SummarizedExperiment"
@@ -3653,7 +3646,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "SAIGEgds": [],
   "SARC": [
     "RaggedExperiment",
     "plyranges",
@@ -3851,7 +3843,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "SeqVarTools": [],
   "ShortRead": [
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -5747,7 +5738,6 @@
   "deconvR": [
     "methylKit",
     "minfi",
-    "fastseg",
     "rtracklayer",
     "SummarizedExperiment",
     "bumphunter",
@@ -5931,7 +5921,6 @@
   ],
   "easyRNASeq": [
     "biomaRt",
-    "genomeIntervals",
     "GenomicAlignments",
     "SummarizedExperiment",
     "ShortRead",
@@ -5977,7 +5966,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "epialleleR": [],
   "epidecodeR": [
     "rtracklayer",
     "GenomicAlignments",
@@ -6164,7 +6152,6 @@
     "MLP",
     "AnnotationDbi"
   ],
-  "eudysbiome": [],
   "evaluomeR": [
     "SummarizedExperiment",
     "MultiAssayExperiment"
@@ -6180,7 +6167,6 @@
     "genomation",
     "BSgenome",
     "GenomicAlignments",
-    "seqPattern",
     "rtracklayer",
     "SummarizedExperiment"
   ],
@@ -6203,7 +6189,6 @@
     "LiquidAssociation",
     "AnnotationDbi"
   ],
-  "fastseg": [],
   "fcScan": [
     "VariantAnnotation",
     "SummarizedExperiment",
@@ -6361,7 +6346,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "geneRxCluster": [],
   "geneXtendeR": [
     "rtracklayer",
     "AnnotationDbi",
@@ -6384,11 +6368,9 @@
   "genomation": [
     "BSgenome",
     "GenomicAlignments",
-    "seqPattern",
     "rtracklayer",
     "SummarizedExperiment"
   ],
-  "genomeIntervals": [],
   "genomicInstability": [
     "SummarizedExperiment"
   ],
@@ -6456,7 +6438,6 @@
   ],
   "girafe": [
     "ShortRead",
-    "genomeIntervals",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
@@ -7105,7 +7086,6 @@
   ],
   "methInheritSim": [
     "methylKit",
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -7174,13 +7154,11 @@
   ],
   "methylInheritance": [
     "methylKit",
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
   "methylKit": [
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -7504,7 +7482,6 @@
     "SummarizedExperiment",
     "rtracklayer",
     "biomaRt",
-    "genomeIntervals",
     "ShortRead",
     "AnnotationDbi",
     "biovizBase",
@@ -8805,7 +8782,6 @@
     "ChIPseeker",
     "clusterProfiler",
     "heatmaps",
-    "seqPattern",
     "rtracklayer",
     "AnnotationDbi",
     "enrichplot",
@@ -8824,7 +8800,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "seqPattern": [],
   "seqsetvis": [
     "GenomicAlignments",
     "rtracklayer",
