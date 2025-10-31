@@ -8595,7 +8595,6 @@
     "TFBSTools",
     "AnnotationFilter"
   ],
-  "motifcounter": [],
   "motifmatchr": [
     "TFBSTools",
     "BSgenome",
