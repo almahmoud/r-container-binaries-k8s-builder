@@ -1904,3 +1904,5 @@ hiAnnotator
 MSstatsQC
 SpliceWiz
 vtpnet
+diffHic
+m6Aboost

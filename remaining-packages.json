@@ -702,7 +702,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "diffHic": [],
   "diffUTR": [],
   "distinct": [],
   "dmrseq": [
@@ -842,7 +841,6 @@
     "methylumi"
   ],
   "lute": [],
-  "m6Aboost": [],
   "mCSEA": [
     "Gviz",
     "biovizBase",
