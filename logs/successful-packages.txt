@@ -1380,3 +1380,9 @@ CHETAH
 MoonlightR
 MsDataHub
 TCseq
+CellBench
+CeTF
+crisprScore
+MsExperiment
+SC3
+ShortRead
