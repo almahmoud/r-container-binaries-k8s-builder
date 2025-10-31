@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 734 (32%)
+- **Successfully Built:** 735 (32%)
 - **Failed:** 1 (0%)
 - **In Progress:** 17
-- **Not Started:** 1492
+- **Not Started:** 1491
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (734)
+## Successfully Built Packages (735)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 684 more ...*
+*... and 685 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tidysbml](https://bioconductor.org/packages/3.22/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tidysbml) |
 | [timeOmics](https://bioconductor.org/packages/3.22/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.22/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
@@ -65,6 +64,7 @@
 | [twilight](https://bioconductor.org/packages/3.22/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.22/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.22/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.22/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.22/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
@@ -85,6 +85,7 @@
 ## In Progress (17)
 - ⏳ `CCPlotR`
 - ⏳ `ClustAll`
+- ⏳ `DEGraph`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `S4Arrays`
 - ⏳ `SPIA`
@@ -99,9 +100,8 @@
 - ⏳ `nempi`
 - ⏳ `rebook`
 - ⏳ `simona`
-- ⏳ `uSORT`
 
-## Not Yet Started (1492)
+## Not Yet Started (1491)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -153,8 +153,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1442 more ...
+... and 1441 more ...
 
 ---
-*Last updated: 2025-10-31 23:04:25 UTC*
-*Packages with verified BBS status: 104*
+*Last updated: 2025-10-31 23:04:58 UTC*
+*Packages with verified BBS status: 105*

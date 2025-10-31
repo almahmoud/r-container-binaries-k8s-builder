@@ -18905,7 +18905,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "uSORT": [],
   "uncoverappLib": [
     "Gviz",
     "OrganismDbi",
