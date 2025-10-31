@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1908 (82%)
+- **Successfully Built:** 1911 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 160
+- **In Progress:** 157
 - **Not Started:** 228
 
 **Progress:** 83%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1908)
+## Successfully Built Packages (1911)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1858 more ...*
+*... and 1861 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (160)
+## In Progress (157)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -132,22 +132,22 @@
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MSstatsQCgui`
-- ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MethylAid`
 - ⏳ `MinimumDistance`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
-- ⏳ `PRONE`
 - ⏳ `Pigengene`
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
+- ⏳ `SGCP`
+- ⏳ `SGSeq`
 
-... and 110 more ...
+... and 107 more ...
 
 ## Not Yet Started (228)
 - ⏸️ `AHMassBank`
@@ -204,5 +204,5 @@
 ... and 178 more ...
 
 ---
-*Last updated: 2025-10-31 08:36:46 UTC*
+*Last updated: 2025-10-31 08:38:26 UTC*
 *Packages with verified BBS status: 155*

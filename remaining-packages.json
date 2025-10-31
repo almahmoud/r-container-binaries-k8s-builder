@@ -316,7 +316,6 @@
     "msmsTests"
   ],
   "MSstatsQCgui": [],
-  "MatrixRider": [],
   "MetaboSignal": [
     "mygene",
     "txdbmaker"
@@ -366,7 +365,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "PRONE": [],
   "PhenStat": [],
   "Pigengene": [],
   "Pviz": [
@@ -754,7 +752,6 @@
     "ChIPseeker",
     "motifmatchr"
   ],
-  "escape": [],
   "extraChIPs": [],
   "fCCAC": [],
   "ffpe": [
