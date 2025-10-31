@@ -1001,3 +1001,6 @@ tRNA
 scPCA
 memes
 motifTestR
+BiocSingular
+beachmat.tiledb
+scrapper

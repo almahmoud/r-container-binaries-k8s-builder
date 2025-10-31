@@ -938,3 +938,6 @@ FilterFFPE
 igvShiny
 ramr
 cnvGSA
+beachmat
+GBScleanR
+riboSeqR
