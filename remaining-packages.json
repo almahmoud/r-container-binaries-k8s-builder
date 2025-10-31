@@ -399,7 +399,6 @@
   "MIRA": [
     "bsseq"
   ],
-  "MMDiff2": [],
   "MOSClip": [
     "qpgraph"
   ],
@@ -427,7 +426,6 @@
   "MethylAid": [
     "minfi"
   ],
-  "MethylSeekR": [],
   "MineICA": [
     "GOstats",
     "lumi",
@@ -531,7 +529,6 @@
   "RESOLVE": [
     "MutationalPatterns"
   ],
-  "RFLOMICS": [],
   "RITAN": [
     "ensembldb"
   ],
@@ -1166,7 +1163,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "magpie": [],
   "mariner": [
     "plotgardener"
   ],
@@ -1479,7 +1475,6 @@
   "shinyepico": [
     "minfi"
   ],
-  "signatureSearch": [],
   "signeR": [],
   "signifinder": [
     "consensusOV",
