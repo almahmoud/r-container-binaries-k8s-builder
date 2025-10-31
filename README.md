@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1162 (50%)
+- **Successfully Built:** 1245 (53%)
 - **Failed:** 8 (0%)
-- **In Progress:** 157
+- **In Progress:** 74
 - **Not Started:** 983
 
-**Progress:** 50%
+**Progress:** 54%
 ```
-█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1162)
+## Successfully Built Packages (1245)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1112 more ...*
+*... and 1195 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [triplex](https://bioconductor.org/packages/3.21/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
@@ -67,6 +66,7 @@
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
+| [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.21/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.21/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/widgetTools) |
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
@@ -89,59 +89,59 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (157)
+## In Progress (74)
 - ⏳ `AffiXcan`
-- ⏳ `BLMA`
-- ⏳ `CHRONOS`
-- ⏳ `CNVRanger`
 - ⏳ `CoreGx`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
-- ⏳ `DESeq2`
-- ⏳ `DiscoRhythm`
-- ⏳ `Dune`
 - ⏳ `ExperimentHub`
-- ⏳ `ExpressionAtlas`
 - ⏳ `GOexpress`
 - ⏳ `GOpro`
-- ⏳ `GRmetrics`
-- ⏳ `GWENA`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicScores`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
-- ⏳ `HERON`
-- ⏳ `HiContacts`
-- ⏳ `HiCool`
-- ⏳ `IFAA`
 - ⏳ `InterCellar`
 - ⏳ `LACE`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
-- ⏳ `MCbiclust`
-- ⏳ `MLP`
 - ⏳ `MOMA`
-- ⏳ `MesKit`
-- ⏳ `MiRaGE`
 - ⏳ `MouseFM`
-- ⏳ `MultiDataSet`
 - ⏳ `NetSAM`
 - ⏳ `OncoScore`
 - ⏳ `PPInfer`
 - ⏳ `ProteoMM`
-- ⏳ `QFeatures`
 - ⏳ `RepViz`
 - ⏳ `SPONGE`
 - ⏳ `SWATH2stats`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
-- ⏳ `SpatialCPie`
-- ⏳ `SpectralTAD`
-- ⏳ `SplicingFactory`
-- ⏳ `TADCompare`
 - ⏳ `TCGAbiolinks`
+- ⏳ `VegaMC`
+- ⏳ `alabaster.se`
+- ⏳ `autonomics`
+- ⏳ `awst`
+- ⏳ `beadarray`
+- ⏳ `cTRAP`
+- ⏳ `debCAM`
+- ⏳ `diffcyt`
+- ⏳ `eisaR`
+- ⏳ `epistack`
+- ⏳ `evaluomeR`
+- ⏳ `findIPs`
+- ⏳ `flowGate`
+- ⏳ `flowVS`
+- ⏳ `gDRutils`
+- ⏳ `goSTAG`
+- ⏳ `graphite`
+- ⏳ `hipathia`
+- ⏳ `immunogenViewer`
+- ⏳ `isobar`
+- ⏳ `keggorthology`
+- ⏳ `maPredictDSC`
+- ⏳ `meshes`
 
-... and 107 more ...
+... and 24 more ...
 
 ## Not Yet Started (983)
 - ⏸️ `ADImpute`
@@ -198,5 +198,5 @@
 ... and 933 more ...
 
 ---
-*Last updated: 2025-10-31 04:31:49 UTC*
-*Packages with verified BBS status: 122*
+*Last updated: 2025-10-31 04:48:22 UTC*
+*Packages with verified BBS status: 123*
