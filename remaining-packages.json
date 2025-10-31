@@ -7938,7 +7938,6 @@
     "SparseArray",
     "XVector"
   ],
-  "MSstatsResponse": [],
   "MSstatsShiny": [
     "MSstatsTMT",
     "MSstatsPTM",
@@ -22002,7 +22001,6 @@
     "ExperimentHub",
     "Biobase",
     "minfi",
-    "planet",
     "BiocGenerics",
     "AnnotationHub",
     "S4Vectors",
@@ -24535,7 +24533,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "planet": [],
   "planttfhunter": [
     "Biostrings",
     "SummarizedExperiment",

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 442 (19%)
+- **Successfully Built:** 444 (19%)
 - **Failed:** 1 (0%)
-- **In Progress:** 33
-- **Not Started:** 1768
+- **In Progress:** 34
+- **Not Started:** 1765
 
 **Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (442)
+## Successfully Built Packages (444)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 
-*... and 392 more ...*
+*... and 394 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,18 +82,18 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (33)
+## In Progress (34)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `CIMICE`
 - ⏳ `COMPASS`
 - ⏳ `DEqMS`
 - ⏳ `EnMCB`
+- ⏳ `GSCA`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
 - ⏳ `MSstatsBig`
-- ⏳ `MSstatsResponse`
 - ⏳ `MSstatsTMT`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
@@ -105,6 +105,7 @@
 - ⏳ `SuperCellCyto`
 - ⏳ `Wrench`
 - ⏳ `anndataR`
+- ⏳ `biomformat`
 - ⏳ `ctsGE`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
@@ -112,12 +113,12 @@
 - ⏳ `iscream`
 - ⏳ `mitch`
 - ⏳ `philr`
-- ⏳ `planet`
 - ⏳ `rawDiag`
 - ⏳ `scFeatureFilter`
+- ⏳ `scMitoMut`
 - ⏳ `tximport`
 
-## Not Yet Started (1768)
+## Not Yet Started (1765)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -169,8 +170,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1718 more ...
+... and 1715 more ...
 
 ---
-*Last updated: 2025-10-31 22:23:39 UTC*
+*Last updated: 2025-10-31 22:24:19 UTC*
 *Packages with verified BBS status: 85*
