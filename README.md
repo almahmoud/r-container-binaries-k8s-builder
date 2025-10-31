@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 789 (34%)
+- **Successfully Built:** 807 (34%)
 - **Failed:** 7 (0%)
-- **In Progress:** 18
+- **In Progress:** 0
 - **Not Started:** 1496
 
-**Progress:** 34%
+**Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (789)
+## Successfully Built Packages (807)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 739 more ...*
+*... and 757 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,26 +87,6 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
-
-## In Progress (18)
-- ⏳ `Biostrings`
-- ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MetCirc`
-- ⏳ `MetaCyto`
-- ⏳ `MsBackendMassbank`
-- ⏳ `MsBackendMetaboLights`
-- ⏳ `MsBackendMgf`
-- ⏳ `MsBackendMsp`
-- ⏳ `MsBackendRawFileReader`
-- ⏳ `MsBackendSql`
-- ⏳ `SparseArray`
-- ⏳ `SpectraQL`
-- ⏳ `flowDensity`
-- ⏳ `flowFP`
-- ⏳ `flowMerge`
-- ⏳ `flowTrans`
-- ⏳ `optimalFlow`
 
 ## Not Yet Started (1496)
 - ⏸️ `ACE`
@@ -163,5 +143,5 @@
 ... and 1446 more ...
 
 ---
-*Last updated: 2025-10-31 02:11:01 UTC*
+*Last updated: 2025-10-31 03:16:51 UTC*
 *Packages with verified BBS status: 107*
