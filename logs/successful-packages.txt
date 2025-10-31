@@ -1700,3 +1700,6 @@ TMSig
 ballgown
 TissueEnrich
 wiggleplotr
+AUCell
+cosmosR
+GSRI

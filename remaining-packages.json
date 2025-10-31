@@ -29,7 +29,6 @@
     "motifmatchr",
     "TFBSTools"
   ],
-  "AUCell": [],
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
@@ -450,7 +449,6 @@
   "GSEABenchmarkeR": [
     "EnrichmentBrowser"
   ],
-  "GSRI": [],
   "GSReg": [
     "GenomicFeatures",
     "OrganismDbi",
@@ -907,9 +905,7 @@
     "GenomicFeatures"
   ],
   "RbowtieCuda": [],
-  "RcisTarget": [
-    "AUCell"
-  ],
+  "RcisTarget": [],
   "ReactomePA": [],
   "RegionalST": [
     "scater",
@@ -1425,7 +1421,6 @@
     "xcms",
     "MSnbase"
   ],
-  "cosmosR": [],
   "cpvSNP": [
     "GenomicFeatures"
   ],
@@ -1593,7 +1588,6 @@
   ],
   "epiregulon": [
     "scran",
-    "AUCell",
     "motifmatchr",
     "TFBSTools"
   ],
@@ -1646,7 +1640,6 @@
     "motifmatchr"
   ],
   "escape": [
-    "AUCell",
     "GSVA"
   ],
   "extraChIPs": [],
@@ -2262,7 +2255,6 @@
   "scFeatures": [
     "GSVA",
     "ensembldb",
-    "AUCell",
     "SingleCellSignalR",
     "GenomicFeatures",
     "scran"
