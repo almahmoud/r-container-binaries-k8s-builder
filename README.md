@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1716 (74%)
+- **Successfully Built:** 1718 (74%)
 - **Failed:** 13 (0%)
-- **In Progress:** 153
-- **Not Started:** 428
+- **In Progress:** 167
+- **Not Started:** 412
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1716)
+## Successfully Built Packages (1718)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1666 more ...*
+*... and 1668 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,18 +94,21 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (153)
+## In Progress (167)
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioCor`
+- ⏳ `CATALYST`
 - ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRball`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `Category`
+- ⏳ `CellMixS`
+- ⏳ `CelliD`
 - ⏳ `Cepo`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPanalyser`
@@ -124,6 +127,8 @@
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
+- ⏳ `M3Drop`
+- ⏳ `MEB`
 - ⏳ `MEDIPS`
 - ⏳ `MMDiff2`
 - ⏳ `MSnbase`
@@ -134,21 +139,16 @@
 - ⏳ `ORFhunteR`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
-- ⏳ `PanomiR`
 - ⏳ `Pigengene`
 - ⏳ `RFLOMICS`
 - ⏳ `RcisTarget`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
 - ⏳ `SCOPE`
-- ⏳ `SGSeq`
-- ⏳ `SPIAT`
-- ⏳ `SparseSignatures`
-- ⏳ `SpatialExperimentIO`
 
-... and 103 more ...
+... and 117 more ...
 
-## Not Yet Started (428)
+## Not Yet Started (412)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -172,14 +172,11 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CATALYST`
 - ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CellMixS`
-- ⏸️ `CelliD`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
@@ -199,9 +196,12 @@
 - ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
+- ⏸️ `DeMixT`
+- ⏸️ `DeconvoBuddies`
+- ⏸️ `DegCre`
 
-... and 378 more ...
+... and 362 more ...
 
 ---
-*Last updated: 2025-10-31 07:13:34 UTC*
+*Last updated: 2025-10-31 07:14:56 UTC*
 *Packages with verified BBS status: 146*

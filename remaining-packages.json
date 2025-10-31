@@ -48,12 +48,9 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "BASiCS": [
-    "scran"
-  ],
+  "BASiCS": [],
   "BASiCStan": [
-    "BASiCS",
-    "scran"
+    "BASiCS"
   ],
   "BBCAnalyzer": [
     "VariantAnnotation"
@@ -77,21 +74,15 @@
     "VariantAnnotation"
   ],
   "Basic4Cseq": [],
-  "BatchQC": [
-    "scran"
-  ],
-  "BayesSpace": [
-    "scran"
-  ],
+  "BatchQC": [],
+  "BayesSpace": [],
   "BgeeCall": [
     "txdbmaker"
   ],
   "BiGGR": [],
   "BindingSiteFinder": [],
   "BioCor": [],
-  "BioTIP": [
-    "scran"
-  ],
+  "BioTIP": [],
   "BubbleTree": [
     "biovizBase",
     "VariantAnnotation",
@@ -198,17 +189,14 @@
   ],
   "ChIPseeker": [],
   "ChromSCape": [
-    "batchelor",
-    "scran"
+    "batchelor"
   ],
   "CircSeqAlignTk": [
     "Rhisat2",
     "txdbmaker",
     "SGSeq"
   ],
-  "CiteFuse": [
-    "scran"
-  ],
+  "CiteFuse": [],
   "CleanUpRNAseq": [
     "ensembldb"
   ],
@@ -270,9 +258,7 @@
     "DSS",
     "bsseq"
   ],
-  "DeconvoBuddies": [
-    "scran"
-  ],
+  "DeconvoBuddies": [],
   "DegCre": [
     "plotgardener",
     "plyranges"
@@ -283,9 +269,7 @@
   "DiffBind": [
     "GreyListChIP"
   ],
-  "Dino": [
-    "scran"
-  ],
+  "Dino": [],
   "DominoEffect": [
     "VariantAnnotation"
   ],
@@ -333,7 +317,6 @@
     "bambu",
     "txdbmaker",
     "ggbio",
-    "scran",
     "biovizBase",
     "VariantAnnotation",
     "OrganismDbi",
@@ -521,12 +504,8 @@
   "MOSClip": [
     "qpgraph"
   ],
-  "MOSim": [
-    "scran"
-  ],
-  "MPAC": [
-    "scran"
-  ],
+  "MOSim": [],
+  "MPAC": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
@@ -628,7 +607,6 @@
   "PRONE": [
     "MSnbase"
   ],
-  "PanomiR": [],
   "PhenStat": [],
   "Pigengene": [],
   "PrInCE": [
@@ -747,8 +725,7 @@
   "RbowtieCuda": [],
   "RcisTarget": [],
   "RegionalST": [
-    "BayesSpace",
-    "scran"
+    "BayesSpace"
   ],
   "Repitools": [],
   "ReportingTools": [
@@ -833,9 +810,7 @@
   "SigsPack": [
     "VariantAnnotation"
   ],
-  "SingleCellSignalR": [
-    "scran"
-  ],
+  "SingleCellSignalR": [],
   "SingleMoleculeFootprinting": [
     "plyranges",
     "QuasR",
@@ -851,12 +826,8 @@
     "ensembldb",
     "txdbmaker"
   ],
-  "SpaNorm": [
-    "scran"
-  ],
-  "Spaniel": [
-    "scran"
-  ],
+  "SpaNorm": [],
+  "Spaniel": [],
   "SparseSignatures": [],
   "SpatialExperimentIO": [],
   "SpatialFeatureExperiment": [],
@@ -1070,27 +1041,22 @@
     "TCGAutils"
   ],
   "celaref": [],
-  "celda": [
-    "scran"
-  ],
+  "celda": [],
   "cfDNAPro": [
     "plyranges"
   ],
   "chevreulPlot": [
     "chevreulProcess",
-    "scran",
     "batchelor",
     "ensembldb"
   ],
   "chevreulProcess": [
     "batchelor",
-    "ensembldb",
-    "scran"
+    "ensembldb"
   ],
   "chevreulShiny": [
     "chevreulProcess",
     "chevreulPlot",
-    "scran",
     "batchelor",
     "ensembldb"
   ],
@@ -1228,8 +1194,7 @@
     "VariantAnnotation"
   ],
   "decontX": [
-    "celda",
-    "scran"
+    "celda"
   ],
   "deconvR": [
     "methylKit",
@@ -1299,13 +1264,10 @@
     "txdbmaker"
   ],
   "epiregulon": [
-    "scran",
     "motifmatchr",
     "TFBSTools"
   ],
-  "epiregulon.extra": [
-    "scran"
-  ],
+  "epiregulon.extra": [],
   "epivizr": [
     "epivizrData",
     "bumphunter",
@@ -1502,9 +1464,7 @@
     "minfi",
     "bumphunter"
   ],
-  "lute": [
-    "scran"
-  ],
+  "lute": [],
   "m6Aboost": [],
   "mCSEA": [
     "Gviz",
@@ -1639,9 +1599,7 @@
   "motifmatchr": [
     "TFBSTools"
   ],
-  "msImpute": [
-    "scran"
-  ],
+  "msImpute": [],
   "msgbsR": [
     "ggbio",
     "biovizBase",
@@ -1668,7 +1626,6 @@
     "ensembldb"
   ],
   "mumosa": [
-    "scran",
     "batchelor"
   ],
   "muscat": [],
@@ -1738,9 +1695,7 @@
   "phenoTest": [
     "Category"
   ],
-  "pipeComp": [
-    "scran"
-  ],
+  "pipeComp": [],
   "pipeFrame": [],
   "plotgardener": [
     "plyranges"
@@ -1849,23 +1804,17 @@
   "scClassify": [
     "Cepo"
   ],
-  "scDD": [
-    "scran"
-  ],
-  "scDblFinder": [
-    "scran"
-  ],
+  "scDD": [],
+  "scDblFinder": [],
   "scDotPlot": [],
   "scFeatures": [
     "GSVA",
     "ensembldb",
-    "SingleCellSignalR",
-    "scran"
+    "SingleCellSignalR"
   ],
   "scMerge": [
     "M3Drop",
-    "batchelor",
-    "scran"
+    "batchelor"
   ],
   "scPipe": [],
   "scTGIF": [],
@@ -1876,7 +1825,6 @@
   ],
   "scTreeViz": [
     "epivizr",
-    "scran",
     "epivizrData",
     "bumphunter",
     "OrganismDbi",
@@ -1899,7 +1847,6 @@
   "scoreInvHap": [
     "VariantAnnotation"
   ],
-  "scran": [],
   "scruff": [
     "txdbmaker",
     "ggbio",
@@ -1948,7 +1895,6 @@
     "ensembldb",
     "GSVA",
     "scMerge",
-    "scran",
     "celda",
     "scDblFinder",
     "M3Drop"
