@@ -2214,3 +2214,9 @@ RnBeads
 lumi
 missMethyl
 cBioPortalData
+CircSeqAlignTk
+GeneTonic
+epivizr
+epivizrChart
+ideal
+pcaExplorer

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2148 (92%)
+- **Successfully Built:** 2166 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 47
+- **In Progress:** 29
 - **Not Started:** 94
 
-**Progress:** 93%
+**Progress:** 94%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2148)
+## Successfully Built Packages (2166)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2098 more ...*
+*... and 2116 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,35 +102,23 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (47)
+## In Progress (29)
 - ⏳ `AHMassBank`
-- ⏳ `ATACseqQC`
-- ⏳ `BubbleTree`
-- ⏳ `ChIPexoQual`
-- ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
 - ⏳ `FRASER`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
 - ⏳ `Gviz`
-- ⏳ `Moonlight2R`
 - ⏳ `RITAN`
-- ⏳ `Rhisat2`
-- ⏳ `RiboCrypt`
 - ⏳ `RnBeads`
 - ⏳ `Rqc`
-- ⏳ `SMITE`
-- ⏳ `TFHAZ`
 - ⏳ `Ularcirc`
 - ⏳ `appreci8R`
 - ⏳ `biscuiteer`
 - ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
-- ⏳ `consensusDE`
 - ⏳ `cytofQC`
 - ⏳ `decontX`
-- ⏳ `epivizrData`
-- ⏳ `erma`
 - ⏳ `ggbio`
 - ⏳ `iNETgrate`
 - ⏳ `iSEEtree`
@@ -138,15 +126,9 @@
 - ⏳ `karyoploteR`
 - ⏳ `lumi`
 - ⏳ `missMethyl`
-- ⏳ `mosdef`
-- ⏳ `netSmooth`
 - ⏳ `octad`
-- ⏳ `rgsepd`
-- ⏳ `scone`
-- ⏳ `segmenter`
 - ⏳ `seqArchRplus`
 - ⏳ `shinyDSP`
-- ⏳ `shinyepico`
 - ⏳ `singleCellTK`
 - ⏳ `vulcan`
 - ⏳ `yarn`
@@ -206,5 +188,5 @@
 ... and 44 more ...
 
 ---
-*Last updated: 2025-10-31 10:45:32 UTC*
+*Last updated: 2025-10-31 10:52:55 UTC*
 *Packages with verified BBS status: 163*

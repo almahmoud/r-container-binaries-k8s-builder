@@ -3,7 +3,6 @@
   "ASpli": [
     "Gviz"
   ],
-  "ATACseqQC": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -17,7 +16,6 @@
     "ggbio"
   ],
   "BiGGR": [],
-  "BubbleTree": [],
   "CAFE": [
     "ggbio"
   ],
@@ -47,10 +45,7 @@
     "lumi"
   ],
   "ChIPQC": [],
-  "ChIPexoQual": [],
-  "CircSeqAlignTk": [
-    "Rhisat2"
-  ],
+  "CircSeqAlignTk": [],
   "CopyNumberPlots": [
     "karyoploteR"
   ],
@@ -67,7 +62,6 @@
   "ELMER": [
     "Gviz"
   ],
-  "EventPointer": [],
   "ExperimentHubData": [],
   "FLAMES": [
     "ggbio"
@@ -79,15 +73,12 @@
   "GRaNIE": [],
   "GUIDEseq": [],
   "GeDi": [
-    "GeneTonic",
-    "mosdef"
+    "GeneTonic"
   ],
   "GeneStructureTools": [
     "Gviz"
   ],
-  "GeneTonic": [
-    "mosdef"
-  ],
+  "GeneTonic": [],
   "GenomicInteractions": [
     "Gviz"
   ],
@@ -114,10 +105,8 @@
   "MineICA": [
     "lumi"
   ],
-  "Moonlight2R": [],
   "NADfinder": [
     "trackViewer",
-    "ATACseqQC",
     "Gviz"
   ],
   "OGRE": [
@@ -156,21 +145,17 @@
   "ReportingTools": [
     "ggbio"
   ],
-  "Rhisat2": [],
-  "RiboCrypt": [],
   "RiboProfiling": [
     "ggbio"
   ],
   "RnBeads": [],
   "Rqc": [],
-  "SMITE": [],
   "SPLINTER": [
     "Gviz"
   ],
   "SomaticSignatures": [
     "ggbio"
   ],
-  "TFHAZ": [],
   "TVTB": [
     "Gviz"
   ],
@@ -231,7 +216,6 @@
     "methylPipe",
     "Gviz"
   ],
-  "consensusDE": [],
   "crisprShiny": [
     "crisprViz",
     "Gviz"
@@ -255,18 +239,11 @@
   "epimutacions": [
     "Gviz"
   ],
-  "epivizr": [
-    "epivizrData"
-  ],
-  "epivizrChart": [
-    "epivizrData"
-  ],
-  "epivizrData": [],
+  "epivizr": [],
+  "epivizrChart": [],
   "epivizrStandalone": [
-    "epivizr",
-    "epivizrData"
+    "epivizr"
   ],
-  "erma": [],
   "ffpe": [
     "lumi"
   ],
@@ -287,9 +264,7 @@
   ],
   "iSEEtree": [],
   "iSEEu": [],
-  "ideal": [
-    "mosdef"
-  ],
+  "ideal": [],
   "intansv": [
     "ggbio"
   ],
@@ -316,7 +291,6 @@
     "iSEEtree"
   ],
   "missMethyl": [],
-  "mosdef": [],
   "motifbreakR": [
     "Gviz"
   ],
@@ -326,11 +300,8 @@
   "multicrispr": [
     "karyoploteR"
   ],
-  "netSmooth": [],
   "octad": [],
-  "pcaExplorer": [
-    "mosdef"
-  ],
+  "pcaExplorer": [],
   "primirTSS": [
     "Gviz"
   ],
@@ -338,23 +309,18 @@
   "regutools": [
     "Gviz"
   ],
-  "rgsepd": [],
   "saseR": [
     "ASpli",
     "Gviz"
   ],
   "scTreeViz": [
-    "epivizr",
-    "epivizrData"
+    "epivizr"
   ],
-  "scone": [],
   "scruff": [
     "ggbio"
   ],
-  "segmenter": [],
   "seqArchRplus": [],
   "shinyDSP": [],
-  "shinyepico": [],
   "signeR": [],
   "singleCellTK": [],
   "skewr": [
