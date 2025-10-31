@@ -841,3 +841,7 @@ oncoscanR
 PhyloProfile
 kebabs
 methimpute
+AnnotationFilter
+HiCBricks
+rRDP
+transomics2cytoscape

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 843 (36%)
+- **Successfully Built:** 847 (36%)
 - **Failed:** 7 (0%)
-- **In Progress:** 87
-- **Not Started:** 1373
+- **In Progress:** 84
+- **Not Started:** 1372
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (843)
+## Successfully Built Packages (847)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,16 +44,16 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.21/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
-| [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
+| [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 793 more ...*
+*... and 797 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
 | [transite](https://bioconductor.org/packages/3.21/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transite) |
+| [transomics2cytoscape](https://bioconductor.org/packages/3.21/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.21/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
@@ -88,9 +88,8 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (87)
+## In Progress (84)
 - ⏳ `AnnotationDbi`
-- ⏳ `AnnotationFilter`
 - ⏳ `AssessORF`
 - ⏳ `BANDITS`
 - ⏳ `BREW3R.r`
@@ -106,7 +105,6 @@
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
-- ⏳ `HiCBricks`
 - ⏳ `MEDME`
 - ⏳ `MSstatsLiP`
 - ⏳ `MSstatsShiny`
@@ -139,10 +137,12 @@
 - ⏳ `ddPCRclust`
 - ⏳ `epialleleR`
 - ⏳ `fastseg`
+- ⏳ `flowBin`
+- ⏳ `flowCut`
 
-... and 37 more ...
+... and 34 more ...
 
-## Not Yet Started (1373)
+## Not Yet Started (1372)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1323 more ...
+... and 1322 more ...
 
 ---
-*Last updated: 2025-10-31 03:23:39 UTC*
-*Packages with verified BBS status: 108*
+*Last updated: 2025-10-31 03:24:27 UTC*
+*Packages with verified BBS status: 110*
