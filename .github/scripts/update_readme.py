@@ -89,11 +89,11 @@ def check_failure_reason(log_path):
     reasons = []
     # More comprehensive error patterns with all quote types
     patterns = [
-        (r"there is no package called [\"'""'']([^\"'""'']+)[\"'""'']", "Missing R dependency"),
-        (r"dependenc(?:y|ies) [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"Warning: dependenc(?:y|ies) [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"ERROR: dependencies? [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"ERROR: package [\"'""'']([^\"'""'']+)[\"'""''] (?:is|was) not found", "Package not found"),
+        (r"there is no package called [\"'""''‘]([^\"'""''’]+)[\"'""''’]", "Missing R dependency"),
+        (r"dependenc(?:y|ies) [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"Warning: dependenc(?:y|ies) [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"ERROR: dependencies? [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"ERROR: package [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|was) not found", "Package not found"),
         (r"ERROR: System command error.*?:\n\s*([^\n]+)", "System command failed"),
         (r"Installation failed:[\r\n]+\s*([^\r\n]+)", "Installation failed"),
         (r"error: command .*? failed with exit status \d+[\r\n]+\s*([^\r\n]+)", "Command error"),
@@ -394,9 +394,9 @@ def main():
             else:
                 log_link = "N/A"
             
-            # Always recheck BBS status for failed packages (ignore cache)
-            bbs = "Not Found"
-            if bioc_version != "Unknown":
+            # Check if we have a cached BBS status that's verified
+            bbs = bbs_cache.get(pkg, "Not Found")
+            if bioc_version != "Unknown" and (bbs == "Not Found" or pkg not in verified_bbs):
                 bbs = get_bbs_status(pkg, bioc_version)
                 bbs_cache[pkg] = bbs
                 if bbs != "Not Found":
