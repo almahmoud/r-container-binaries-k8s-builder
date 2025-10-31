@@ -1470,3 +1470,7 @@ BUSseq
 GeoTcgaData
 SpotClean
 VisiumIO
+ASICS
+cytomapper
+poem
+Rbec

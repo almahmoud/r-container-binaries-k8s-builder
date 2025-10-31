@@ -1632,3 +1632,5 @@ mimager
 pdInfoBuilder
 puma
 XeniumIO
+cytoviewer
+simpleSeg

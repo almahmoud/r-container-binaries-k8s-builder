@@ -20,7 +20,6 @@
     "BSgenome"
   ],
   "APL": [],
-  "ASICS": [],
   "ASSIGN": [
     "sva"
   ],
@@ -1422,7 +1421,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "Rbec": [],
   "RbowtieCuda": [],
   "RcisTarget": [
     "AUCell",
@@ -2352,10 +2350,7 @@
     "scater",
     "scuttle"
   ],
-  "cytomapper": [],
-  "cytoviewer": [
-    "cytomapper"
-  ],
+  "cytoviewer": [],
   "dagLogo": [
     "motifStack",
     "TFBSTools",
@@ -2821,8 +2816,7 @@
     "GenomicFeatures"
   ],
   "imcRtools": [
-    "scuttle",
-    "cytomapper"
+    "scuttle"
   ],
   "immApex": [],
   "infercnv": [],
@@ -2879,8 +2873,7 @@
   "lipidr": [],
   "lisaClust": [
     "spicyR",
-    "simpleSeg",
-    "cytomapper"
+    "simpleSeg"
   ],
   "lumi": [
     "methylumi",
@@ -3323,7 +3316,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "poem": [],
   "pogos": [],
   "pram": [
     "rtracklayer"
@@ -3725,9 +3717,7 @@
   "simPIC": [
     "scuttle"
   ],
-  "simpleSeg": [
-    "cytomapper"
-  ],
+  "simpleSeg": [],
   "singleCellTK": [
     "batchelor",
     "ensembldb",
@@ -3798,8 +3788,7 @@
   ],
   "speckle": [],
   "spicyR": [
-    "simpleSeg",
-    "cytomapper"
+    "simpleSeg"
   ],
   "spiky": [
     "BSgenome",

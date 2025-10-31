@@ -15,6 +15,7 @@ ARRmNormalization
 ASAFE
 ASEB
 ASGSCA
+ASICS
 ASSET
 AWFisher
 AffiXcan
