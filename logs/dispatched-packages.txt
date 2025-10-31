@@ -876,3 +876,7 @@ sangerseqR
 BiocSingular
 beachmat.tiledb
 scrapper
+LymphoSeq
+odseq
+sangeranalyseR
+scifer

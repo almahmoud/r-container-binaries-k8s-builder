@@ -1584,7 +1584,6 @@
     "phyloseq",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "msa",
     "GenomicRanges",
     "SingleCellExperiment"
   ],
@@ -2495,7 +2494,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "IMMAN": [],
   "INSPEcT": [
     "GenomicFeatures",
     "GenomicRanges",
@@ -2706,9 +2704,7 @@
     "GenomicRanges",
     "HDF5Array"
   ],
-  "LymphoSeq": [
-    "msa"
-  ],
+  "LymphoSeq": [],
   "M3Drop": [
     "scater",
     "SingleCellExperiment",
@@ -2849,7 +2845,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "MEDME": [],
   "MGFM": [
     "AnnotationDbi",
     "annotate"
@@ -3103,7 +3098,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "MethTargetedNGS": [],
   "MethylAid": [
     "minfi",
     "SummarizedExperiment",
@@ -3749,7 +3743,6 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "QSutils": [],
   "QTLExperiment": [
     "SummarizedExperiment",
     "GenomicRanges"
@@ -7460,7 +7453,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "ggseqalign": [],
   "ggspavis": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -8627,7 +8619,6 @@
     "BiocSingular",
     "GenomicRanges"
   ],
-  "msa": [],
   "msgbsR": [
     "GenomicRanges",
     "BSgenome",
@@ -8905,9 +8896,7 @@
     "annotate",
     "GenomicAlignments"
   ],
-  "odseq": [
-    "msa"
-  ],
+  "odseq": [],
   "oligo": [
     "oligoClasses",
     "GenomicRanges",
@@ -9358,7 +9347,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "procoil": [],
   "projectR": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -9659,7 +9647,6 @@
   ],
   "rhinotypeR": [
     "MSA2dist",
-    "msa",
     "GenomicRanges"
   ],
   "riboSeqR": [
@@ -9765,10 +9752,7 @@
   "safe": [
     "AnnotationDbi"
   ],
-  "sangeranalyseR": [
-    "sangerseqR"
-  ],
-  "sangerseqR": [],
+  "sangeranalyseR": [],
   "saseR": [
     "ASpli",
     "DESeq2",
@@ -10069,9 +10053,7 @@
     "SingleCellExperiment",
     "GenomicRanges"
   ],
-  "scifer": [
-    "sangerseqR"
-  ],
+  "scifer": [],
   "scmap": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -10684,7 +10666,6 @@
   ],
   "surfaltr": [
     "biomaRt",
-    "msa",
     "AnnotationDbi"
   ],
   "survClust": [
