@@ -1,3 +1,0 @@
-MSstatsBig
-MSstatsTMT
-Rigraphlib

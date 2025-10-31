@@ -9178,7 +9178,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "OLINgui": [],
   "OMICsPCA": [
     "HelloRanges",
     "MultiAssayExperiment",
@@ -9407,7 +9406,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "Oscope": [],
   "OutSplice": [
     "AnnotationDbi",
     "GenomicRanges",
@@ -22690,7 +22688,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "mirTarRnaSeq": [],
   "missMethyl": [
     "AnnotationDbi",
     "Biobase",
@@ -26472,7 +26469,6 @@
   ],
   "scDDboost": [
     "SingleCellExperiment",
-    "Oscope",
     "SummarizedExperiment",
     "S4Vectors",
     "BiocGenerics",

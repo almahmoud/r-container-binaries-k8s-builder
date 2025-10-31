@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 433 (19%)
+- **Successfully Built:** 436 (19%)
 - **Failed:** 1 (0%)
 - **In Progress:** 39
-- **Not Started:** 1771
+- **Not Started:** 1768
 
 **Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (433)
+## Successfully Built Packages (436)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 383 more ...*
+*... and 386 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,13 +94,14 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
+- ⏳ `MSstatsBig`
 - ⏳ `MSstatsResponse`
-- ⏳ `OLINgui`
+- ⏳ `MSstatsTMT`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
-- ⏳ `Oscope`
 - ⏳ `PCAN`
 - ⏳ `Polytect`
+- ⏳ `Rigraphlib`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
@@ -112,7 +113,6 @@
 - ⏳ `edgeR`
 - ⏳ `fgsea`
 - ⏳ `iscream`
-- ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
 - ⏳ `philr`
 - ⏳ `planet`
@@ -123,7 +123,7 @@
 - ⏳ `scLANE`
 - ⏳ `tximport`
 
-## Not Yet Started (1771)
+## Not Yet Started (1768)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -175,8 +175,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1721 more ...
+... and 1718 more ...
 
 ---
-*Last updated: 2025-10-31 22:22:26 UTC*
+*Last updated: 2025-10-31 22:22:50 UTC*
 *Packages with verified BBS status: 84*
