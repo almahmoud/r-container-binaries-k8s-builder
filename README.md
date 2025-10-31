@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 730 (32%)
+- **Successfully Built:** 731 (32%)
 - **Failed:** 1 (0%)
-- **In Progress:** 15
-- **Not Started:** 1498
+- **In Progress:** 20
+- **Not Started:** 1492
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (730)
+## Successfully Built Packages (731)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 680 more ...*
+*... and 681 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,10 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (15)
+## In Progress (20)
+- ⏳ `CCPlotR`
+- ⏳ `ClustAll`
+- ⏳ `InteractiveComplexHeatmap`
 - ⏳ `MEIGOR`
 - ⏳ `NCIgraph`
 - ⏳ `S4Arrays`
@@ -90,16 +93,18 @@
 - ⏳ `Seqinfo`
 - ⏳ `Spectra`
 - ⏳ `TargetDecoy`
-- ⏳ `XVector`
 - ⏳ `alabaster.bumpy`
 - ⏳ `bluster`
+- ⏳ `cola`
 - ⏳ `flowCore`
+- ⏳ `markeR`
 - ⏳ `msPurity`
 - ⏳ `nempi`
 - ⏳ `rebook`
+- ⏳ `simona`
 - ⏳ `uSORT`
 
-## Not Yet Started (1498)
+## Not Yet Started (1492)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -151,8 +156,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1448 more ...
+... and 1442 more ...
 
 ---
-*Last updated: 2025-10-31 23:02:36 UTC*
+*Last updated: 2025-10-31 23:03:13 UTC*
 *Packages with verified BBS status: 104*
