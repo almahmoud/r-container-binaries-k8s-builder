@@ -640,3 +640,12 @@ siggenes
 SRAdb
 TMixClust
 twoddpcr
+CTDquerier
+MSstatsBioNet
+piano
+plier
+RBGL
+RBioFormats
+Rcwl
+Rtreemix
+sevenbridges

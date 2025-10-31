@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 642 (27%)
+- **Successfully Built:** 651 (28%)
 - **Failed:** 5 (0%)
-- **In Progress:** 65
-- **Not Started:** 1598
+- **In Progress:** 68
+- **Not Started:** 1586
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (642)
+## Successfully Built Packages (651)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 | [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 
-*... and 592 more ...*
+*... and 601 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,9 +86,9 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (65)
+## In Progress (68)
 - ⏳ `AffyRNADegradation`
-- ⏳ `CTDquerier`
+- ⏳ `BioMVCClass`
 - ⏳ `CardinalIO`
 - ⏳ `CellMapper`
 - ⏳ `Cormotif`
@@ -98,27 +98,28 @@
 - ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
+- ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
 - ⏳ `IRanges`
-- ⏳ `MSstatsBioNet`
+- ⏳ `KCsmart`
+- ⏳ `KEGGgraph`
 - ⏳ `MsCoreUtils`
 - ⏳ `NanoTube`
 - ⏳ `OmicsMLRepoR`
+- ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `Pedixplorer`
 - ⏳ `PhenStat`
-- ⏳ `RBGL`
-- ⏳ `RBioFormats`
 - ⏳ `RNAseqCovarImpute`
 - ⏳ `RTopper`
 - ⏳ `RUVcorr`
 - ⏳ `RVS`
-- ⏳ `Rcwl`
 - ⏳ `Rnits`
-- ⏳ `Rtreemix`
 - ⏳ `STATegRa`
+- ⏳ `TRONCO`
 - ⏳ `TurboNorm`
 - ⏳ `UCSC.utils`
+- ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `bioassayR`
@@ -129,18 +130,17 @@
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
+- ⏳ `hyperdraw`
 - ⏳ `ldblock`
 - ⏳ `makecdfenv`
 - ⏳ `metabCombiner`
 - ⏳ `metagenomeSeq`
+- ⏳ `mnem`
 - ⏳ `mosbi`
-- ⏳ `mzR`
-- ⏳ `panp`
-- ⏳ `parglms`
 
-... and 15 more ...
+... and 18 more ...
 
-## Not Yet Started (1598)
+## Not Yet Started (1586)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1548 more ...
+... and 1536 more ...
 
 ---
-*Last updated: 2025-10-31 00:37:21 UTC*
+*Last updated: 2025-10-31 00:38:11 UTC*
 *Packages with verified BBS status: 99*

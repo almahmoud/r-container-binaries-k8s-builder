@@ -98,7 +98,6 @@
     "OrganismDbi",
     "AnnotationForge",
     "KEGGREST",
-    "RBGL",
     "XVector",
     "UCSC.utils",
     "txdbmaker",
@@ -258,7 +257,6 @@
     "AnnotationDbi",
     "pwalign",
     "GenomicFeatures",
-    "RBGL",
     "SummarizedExperiment",
     "biomaRt",
     "InteractionSet",
@@ -342,7 +340,6 @@
     "DESeq2",
     "SummarizedExperiment",
     "Category",
-    "RBGL",
     "annotate",
     "AnnotationForge",
     "GenomicRanges",
@@ -467,7 +464,6 @@
     "OrganismDbi",
     "AnnotationForge",
     "KEGGREST",
-    "RBGL",
     "XVector",
     "UCSC.utils",
     "txdbmaker",
@@ -646,7 +642,6 @@
     "AnnotationFilter",
     "KEGGREST",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -1013,7 +1008,6 @@
   "BioGA": [
     "SummarizedExperiment",
     "biocViews",
-    "RBGL",
     "GenomicRanges",
     "IRanges",
     "GenomeInfoDb",
@@ -1052,7 +1046,6 @@
     "Biostrings"
   ],
   "BioNet": [
-    "RBGL",
     "AnnotationDbi",
     "IRanges",
     "KEGGREST",
@@ -1080,8 +1073,7 @@
     "UCSC.utils"
   ],
   "BiocCheck": [
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "BiocHubsShiny": [
     "AnnotationHub",
@@ -1095,8 +1087,7 @@
     "UCSC.utils"
   ],
   "BiocPkgTools": [
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "BiocSet": [
     "AnnotationDbi",
@@ -1236,7 +1227,6 @@
     "OrganismDbi",
     "KEGGREST",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -1303,7 +1293,6 @@
   ],
   "CAMERA": [
     "xcms",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -1449,7 +1438,6 @@
     "XVector"
   ],
   "CHRONOS": [
-    "RBGL",
     "biomaRt",
     "AnnotationDbi",
     "IRanges",
@@ -1486,20 +1474,16 @@
     "SparseArray"
   ],
   "CNORdt": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORfeeder": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORfuzzy": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORode": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNTools": [
     "genefilter",
@@ -1755,7 +1739,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "CTDquerier": [],
   "CTSV": [
     "SpatialExperiment",
     "SummarizedExperiment",
@@ -1831,7 +1814,6 @@
   "CardinalIO": [],
   "Category": [
     "AnnotationDbi",
-    "RBGL",
     "GSEABase",
     "genefilter",
     "annotate",
@@ -1921,9 +1903,7 @@
     "UCSC.utils",
     "XVector"
   ],
-  "CellNOptR": [
-    "RBGL"
-  ],
+  "CellNOptR": [],
   "CellScore": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -2155,7 +2135,6 @@
     "GenomeInfoDb",
     "GenomicAlignments",
     "GenomicFeatures",
-    "RBGL",
     "Rsamtools",
     "SummarizedExperiment",
     "biomaRt",
@@ -2488,7 +2467,6 @@
   "CoreGx": [
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "piano",
     "BumpyMatrix",
     "IRanges",
     "DelayedArray",
@@ -2573,7 +2551,6 @@
     "flowWorkspace",
     "ComplexHeatmap",
     "IRanges",
-    "RBGL",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -2583,7 +2560,6 @@
     "flowCore",
     "flowWorkspace",
     "openCyto",
-    "RBGL",
     "ggcyto",
     "ncdfFlow",
     "DelayedArray",
@@ -2603,7 +2579,6 @@
     "flowWorkspace",
     "ComplexHeatmap",
     "IRanges",
-    "RBGL",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -2619,7 +2594,6 @@
     "flowWorkspace",
     "ComplexHeatmap",
     "IRanges",
-    "RBGL",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -2688,7 +2662,6 @@
   ],
   "DEGraph": [
     "KEGGgraph",
-    "RBGL",
     "NCIgraph"
   ],
   "DEGreport": [
@@ -2751,7 +2724,6 @@
     "Biostrings",
     "pwalign",
     "GenomicFeatures",
-    "RBGL",
     "Rsamtools",
     "biomaRt",
     "InteractionSet",
@@ -2825,7 +2797,6 @@
     "UCSC.utils"
   ],
   "DEsubs": [
-    "RBGL",
     "DESeq2",
     "IRanges",
     "GenomicRanges",
@@ -3055,7 +3026,6 @@
     "ensembldb",
     "AnnotationFilter",
     "txdbmaker",
-    "RBGL",
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
@@ -3716,7 +3686,6 @@
     "SummarizedExperiment",
     "GenomicFeatures",
     "GenomeInfoDb",
-    "RBGL",
     "GenomicRanges",
     "IRanges",
     "BSgenome",
@@ -3775,7 +3744,6 @@
     "OrganismDbi",
     "AnnotationForge",
     "KEGGREST",
-    "RBGL",
     "XVector",
     "UCSC.utils",
     "txdbmaker",
@@ -3876,8 +3844,7 @@
     "biomaRt",
     "KEGGREST",
     "ScaledMatrix",
-    "h5mread",
-    "RBGL"
+    "h5mread"
   ],
   "FRASER": [
     "Rsamtools",
@@ -4243,7 +4210,6 @@
   "GOstats": [
     "Category",
     "AnnotationDbi",
-    "RBGL",
     "annotate",
     "AnnotationForge",
     "IRanges",
@@ -4350,7 +4316,6 @@
     "rtracklayer",
     "OrganismDbi",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker",
     "Rsamtools",
     "GenomicAlignments",
@@ -4399,7 +4364,6 @@
     "XVector",
     "rtracklayer",
     "AnnotationDbi",
-    "RBGL",
     "SummarizedExperiment",
     "biomaRt",
     "InteractionSet",
@@ -4659,7 +4623,6 @@
     "GenomicFeatures",
     "GenomeInfoDb",
     "IRanges",
-    "RBGL",
     "KEGGREST",
     "UCSC.utils",
     "XVector",
@@ -4720,7 +4683,6 @@
     "ensembldb",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -4864,7 +4826,6 @@
     "GOstats",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "genefilter",
     "annotate",
     "AnnotationForge",
@@ -5311,7 +5272,6 @@
   "IPO": [
     "xcms",
     "CAMERA",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -5595,7 +5555,6 @@
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -5811,7 +5770,6 @@
   "MAIT": [
     "CAMERA",
     "xcms",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -6020,8 +5978,7 @@
   ],
   "MEIGOR": [
     "CNORode",
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "MGFM": [
     "AnnotationDbi",
@@ -6357,7 +6314,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "MSstatsBioNet": [],
   "MSstatsLiP": [
     "Biostrings",
     "MSstatsPTM",
@@ -6774,7 +6730,6 @@
     "IRanges",
     "KEGGREST",
     "Category",
-    "RBGL",
     "AnnotationForge",
     "methylumi",
     "GenomicFeatures",
@@ -7184,7 +7139,6 @@
     "txdbmaker",
     "KEGGREST",
     "pwalign",
-    "RBGL",
     "biomaRt",
     "regioneR",
     "universalmotif",
@@ -7217,8 +7171,7 @@
     "Biostrings"
   ],
   "NCIgraph": [
-    "KEGGgraph",
-    "RBGL"
+    "KEGGgraph"
   ],
   "NanoMethViz": [
     "SummarizedExperiment",
@@ -7520,7 +7473,6 @@
   "OrganismDbi": [
     "AnnotationDbi",
     "GenomicFeatures",
-    "RBGL",
     "IRanges",
     "GenomicRanges",
     "txdbmaker",
@@ -7618,7 +7570,6 @@
     "SummarizedExperiment",
     "MultiAssayExperiment",
     "CoreGx",
-    "piano",
     "genefu",
     "BumpyMatrix",
     "biomaRt",
@@ -7897,7 +7848,6 @@
     "flowCore",
     "flowWorkspace",
     "IRanges",
-    "RBGL",
     "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
@@ -7931,7 +7881,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "piano",
     "BumpyMatrix",
     "DelayedArray",
     "GenomicRanges",
@@ -8212,7 +8161,6 @@
     "AnnotationDbi",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -8275,8 +8223,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "RBGL": [],
-  "RBioFormats": [],
   "RCAS": [
     "GenomicRanges",
     "IRanges",
@@ -8335,7 +8281,6 @@
     "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
-    "RBGL",
     "SummarizedExperiment",
     "biomaRt",
     "InteractionSet",
@@ -8779,7 +8724,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "piano",
     "BumpyMatrix",
     "GenomicRanges",
     "IRanges",
@@ -8887,12 +8831,8 @@
     "KEGGREST",
     "UCSC.utils"
   ],
-  "Rcwl": [],
-  "RcwlPipelines": [
-    "Rcwl"
-  ],
+  "RcwlPipelines": [],
   "ReUseData": [
-    "Rcwl",
     "RcwlPipelines"
   ],
   "ReactomeGSA": [
@@ -9018,7 +8958,6 @@
     "ggbio",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "genefilter",
     "GenomicRanges",
     "SummarizedExperiment",
@@ -9157,7 +9096,6 @@
     "ensembldb",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -9284,7 +9222,6 @@
     "XVector",
     "UCSC.utils"
   ],
-  "Rtreemix": [],
   "S4Arrays": [
     "IRanges"
   ],
@@ -9499,7 +9436,6 @@
     "GOstats",
     "AnnotationDbi",
     "Category",
-    "RBGL",
     "AnnotationForge",
     "GenomicRanges",
     "IRanges",
@@ -9569,7 +9505,6 @@
     "BioNet",
     "goseq",
     "IRanges",
-    "RBGL",
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
@@ -10052,7 +9987,6 @@
     "AnnotationDbi",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -10194,7 +10128,6 @@
   ],
   "SpatialOmicsOverlay": [
     "GeomxTools",
-    "RBioFormats",
     "NanoStringNCTools",
     "Biostrings",
     "IRanges",
@@ -10353,9 +10286,7 @@
     "UCSC.utils",
     "XVector"
   ],
-  "Streamer": [
-    "RBGL"
-  ],
+  "Streamer": [],
   "Structstrings": [
     "IRanges",
     "Biostrings",
@@ -10930,7 +10861,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "piano",
     "BumpyMatrix",
     "GenomicRanges",
     "IRanges",
@@ -11231,7 +11161,6 @@
   "VariantFiltering": [
     "VariantAnnotation",
     "IRanges",
-    "RBGL",
     "AnnotationDbi",
     "Biostrings",
     "GenomeInfoDb",
@@ -11420,7 +11349,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "piano",
     "BumpyMatrix",
     "DelayedArray",
     "GenomicRanges",
@@ -11457,7 +11385,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "RBGL",
     "txdbmaker",
     "biomaRt"
   ],
@@ -11567,7 +11494,6 @@
     "DESeq2",
     "SummarizedExperiment",
     "Category",
-    "RBGL",
     "annotate",
     "AnnotationForge",
     "GenomicRanges",
@@ -11761,7 +11687,6 @@
     "alabaster.base",
     "alabaster.sce",
     "alabaster.spatial",
-    "RBioFormats",
     "SingleCellExperiment",
     "SummarizedExperiment",
     "alabaster.se",
@@ -11940,7 +11865,6 @@
     "XVector"
   ],
   "apComplex": [
-    "RBGL",
     "AnnotationDbi",
     "IRanges",
     "KEGGREST",
@@ -11983,7 +11907,6 @@
     "SparseArray",
     "UCSC.utils",
     "h5mread",
-    "RBGL",
     "txdbmaker",
     "GenomicAlignments",
     "biomaRt"
@@ -12087,7 +12010,6 @@
     "KEGGREST",
     "IRanges",
     "Category",
-    "RBGL",
     "annotate",
     "AnnotationForge",
     "Biostrings",
@@ -12464,9 +12386,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "biocViews": [
-    "RBGL"
-  ],
+  "biocViews": [],
   "biomaRt": [
     "AnnotationDbi",
     "IRanges",
@@ -12580,7 +12500,6 @@
     "GenomicAlignments",
     "KEGGREST",
     "regioneR",
-    "RBGL",
     "txdbmaker",
     "biomaRt"
   ],
@@ -12642,7 +12561,6 @@
     "mnem",
     "sva",
     "vsn",
-    "RBGL",
     "genefilter",
     "AnnotationDbi",
     "annotate",
@@ -12827,7 +12745,6 @@
     "AnnotationDbi",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -12854,7 +12771,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "RBGL",
     "UCSC.utils",
     "XVector",
     "DelayedArray",
@@ -12913,7 +12829,6 @@
     "annotate",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "genefilter",
     "AnnotationForge",
     "Biostrings",
@@ -13325,7 +13240,6 @@
     "GenomicAlignments",
     "biocViews",
     "KEGGREST",
-    "RBGL",
     "SummarizedExperiment",
     "VariantAnnotation",
     "AnnotationFilter",
@@ -14422,7 +14336,6 @@
     "mnem",
     "graphite",
     "AnnotationDbi",
-    "RBGL",
     "IRanges",
     "KEGGREST",
     "Biostrings",
@@ -14646,7 +14559,6 @@
     "ensembldb",
     "AnnotationFilter",
     "KEGGREST",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -15067,8 +14979,7 @@
     "SparseArray"
   ],
   "epiNEM": [
-    "mnem",
-    "RBGL"
+    "mnem"
   ],
   "epialleleR": [
     "GenomicRanges",
@@ -15162,7 +15073,6 @@
     "SparseArray",
     "annotate",
     "h5mread",
-    "RBGL",
     "txdbmaker"
   ],
   "epiregulon": [
@@ -15261,7 +15171,6 @@
     "rtracklayer",
     "Rsamtools",
     "Biostrings",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -15285,7 +15194,6 @@
     "Biostrings",
     "UCSC.utils",
     "XVector",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -15309,7 +15217,6 @@
     "Biostrings",
     "UCSC.utils",
     "XVector",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -15338,7 +15245,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "AnnotationFilter",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -15365,7 +15271,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "RBGL",
     "txdbmaker",
     "BSgenome",
     "biomaRt"
@@ -15608,9 +15513,7 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "fgga": [
-    "RBGL"
-  ],
+  "fgga": [],
   "findIPs": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -15637,7 +15540,6 @@
   "flagme": [
     "xcms",
     "CAMERA",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -15698,7 +15600,6 @@
     "flowWorkspace",
     "ggcyto",
     "flowCore",
-    "RBGL",
     "ncdfFlow",
     "DelayedArray",
     "IRanges",
@@ -15727,7 +15628,6 @@
     "flowWorkspace",
     "ncdfFlow",
     "flowViz",
-    "RBGL",
     "DelayedArray",
     "IRanges",
     "S4Arrays",
@@ -15748,7 +15648,6 @@
     "flowStats",
     "flowWorkspace",
     "ncdfFlow",
-    "RBGL",
     "DelayedArray",
     "IRanges",
     "S4Arrays",
@@ -15759,7 +15658,6 @@
     "flowCore"
   ],
   "flowWorkspace": [
-    "RBGL",
     "flowCore",
     "ncdfFlow",
     "DelayedArray",
@@ -15863,7 +15761,6 @@
     "CoreGx",
     "PharmacoGx",
     "IRanges",
-    "piano",
     "DelayedArray",
     "GenomicRanges",
     "GenomeInfoDb",
@@ -15894,7 +15791,6 @@
     "MultiAssayExperiment",
     "SummarizedExperiment",
     "IRanges",
-    "piano",
     "DelayedArray",
     "GenomicRanges",
     "GenomeInfoDb",
@@ -15905,8 +15801,7 @@
   ],
   "gDRstyle": [
     "BiocCheck",
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "gDRutils": [
     "BumpyMatrix",
@@ -15960,7 +15855,6 @@
   ],
   "gatom": [
     "BioNet",
-    "RBGL",
     "AnnotationDbi",
     "IRanges",
     "KEGGREST",
@@ -16205,7 +16099,6 @@
     "KEGGREST",
     "XVector",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -16216,7 +16109,6 @@
     "flowCore",
     "ncdfFlow",
     "flowWorkspace",
-    "RBGL",
     "DelayedArray",
     "IRanges",
     "S4Arrays",
@@ -16784,7 +16676,6 @@
     "UCSC.utils",
     "rtracklayer",
     "h5mread",
-    "RBGL",
     "txdbmaker",
     "graphite",
     "Rsamtools",
@@ -16990,7 +16881,6 @@
     "rtracklayer",
     "GenomicFeatures",
     "Category",
-    "RBGL",
     "annotate",
     "AnnotationForge",
     "clusterProfiler",
@@ -17139,7 +17029,6 @@
     "AnnotationFilter",
     "KEGGREST",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker",
     "S4Arrays",
     "DelayedArray",
@@ -17151,7 +17040,6 @@
     "AnnotationDbi",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "GSEABase",
     "genefilter",
     "annotate",
@@ -17171,9 +17059,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "islify": [
-    "RBioFormats"
-  ],
+  "islify": [],
   "isobar": [
     "biomaRt",
     "AnnotationDbi",
@@ -17572,7 +17458,6 @@
     "AnnotationFilter",
     "SparseArray",
     "UCSC.utils",
-    "RBGL",
     "txdbmaker"
   ],
   "maPredictDSC": [
@@ -17764,7 +17649,6 @@
     "MeSHDbi",
     "Category",
     "AnnotationDbi",
-    "RBGL",
     "GSEABase",
     "genefilter",
     "annotate",
@@ -17778,7 +17662,6 @@
   "metaMS": [
     "CAMERA",
     "xcms",
-    "RBGL",
     "MSnbase",
     "mzR",
     "IRanges",
@@ -17915,8 +17798,7 @@
     "UCSC.utils",
     "h5mread",
     "GenomicAlignments",
-    "KEGGREST",
-    "RBGL"
+    "KEGGREST"
   ],
   "methrix": [
     "SummarizedExperiment",
@@ -18122,7 +18004,6 @@
     "BiocCheck",
     "OrganismDbi",
     "AnnotationForge",
-    "RBGL",
     "txdbmaker",
     "GenomicAlignments",
     "biomaRt"
@@ -18184,7 +18065,6 @@
     "Category",
     "GOstats",
     "AnnotationDbi",
-    "RBGL",
     "GSEABase",
     "genefilter",
     "annotate",
@@ -18634,8 +18514,7 @@
     "GenomicAlignments"
   ],
   "monocle": [
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "mosaics": [
     "IRanges",
@@ -18830,7 +18709,6 @@
     "DelayedArray",
     "KEGGREST",
     "SparseArray",
-    "RBGL",
     "txdbmaker",
     "pwalign"
   ],
@@ -19170,8 +19048,7 @@
   ],
   "nempi": [
     "mnem",
-    "epiNEM",
-    "RBGL"
+    "epiNEM"
   ],
   "netSmooth": [
     "scater",
@@ -19509,7 +19386,6 @@
     "ncdfFlow",
     "flowWorkspace",
     "flowClust",
-    "RBGL",
     "DelayedArray",
     "IRanges",
     "S4Arrays",
@@ -19826,7 +19702,6 @@
     "GenomeInfoDb",
     "XVector",
     "Category",
-    "RBGL",
     "AnnotationForge",
     "clusterProfiler",
     "goseq",
@@ -19967,7 +19842,6 @@
     "genefilter",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "Biostrings",
     "XVector",
     "GenomeInfoDb",
@@ -20005,7 +19879,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "piano": [],
   "pipeComp": [
     "ComplexHeatmap",
     "SingleCellExperiment",
@@ -20054,7 +19927,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "plier": [],
   "plotgardener": [
     "GenomeInfoDb",
     "GenomicRanges",
@@ -21781,7 +21653,6 @@
     "schex",
     "IRanges",
     "KEGGREST",
-    "RBGL",
     "GSEABase",
     "genefilter",
     "annotate",
@@ -21827,7 +21698,6 @@
     "Biostrings",
     "UCSC.utils",
     "XVector",
-    "RBGL",
     "txdbmaker",
     "KEGGREST",
     "GenomicAlignments",
@@ -22115,8 +21985,7 @@
     "DelayedArray",
     "S4Arrays",
     "biomaRt",
-    "SparseArray",
-    "RBGL"
+    "SparseArray"
   ],
   "scry": [
     "DelayedArray",
@@ -22356,7 +22225,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "sevenbridges": [],
   "shinyDSP": [
     "AnnotationHub",
     "ComplexHeatmap",
@@ -22446,7 +22314,6 @@
   "sigFeature": [
     "biocViews",
     "SummarizedExperiment",
-    "RBGL",
     "GenomicRanges",
     "IRanges",
     "GenomeInfoDb",
@@ -24042,8 +23909,7 @@
   ],
   "uSORT": [
     "monocle",
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "uncoverappLib": [
     "Gviz",
@@ -24062,7 +23928,6 @@
     "Biostrings",
     "biovizBase",
     "GenomicAlignments",
-    "RBGL",
     "txdbmaker",
     "KEGGREST",
     "SummarizedExperiment",
@@ -24224,7 +24089,6 @@
     "GenomeInfoDb",
     "GenomicAlignments",
     "GenomicFeatures",
-    "RBGL",
     "Rsamtools",
     "SummarizedExperiment",
     "biomaRt",
