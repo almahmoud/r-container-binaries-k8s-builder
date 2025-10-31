@@ -436,3 +436,17 @@ scRecover
 scShapes
 scTHI
 ternarynet
+DNAcycP2
+GenProSeq
+cbpManager
+cellmig
+clstutils
+densvis
+ggtreeDendro
+ggtreeExtra
+ggtreeSpace
+philr
+scBubbletree
+sitePath
+snifter
+tanggle

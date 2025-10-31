@@ -6,20 +6,21 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 309 (13%)
+- **Successfully Built:** 326 (14%)
 - **Failed:** 1 (0%)
-- **In Progress:** 83
-- **Not Started:** 1851
+- **In Progress:** 111
+- **Not Started:** 1806
 
-**Progress:** 13%
+**Progress:** 14%
 ```
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (309)
+## Successfully Built Packages (326)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.22/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.22/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.22/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASAFE) |
@@ -44,9 +45,8 @@
 | [BiocVersion](https://bioconductor.org/packages/3.22/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.22/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrix) |
-| [BufferedMatrixMethods](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 259 more ...*
+*... and 276 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,62 +82,61 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (83)
+## In Progress (111)
 - ⏳ `ANCOMBC`
+- ⏳ `AlphaBeta`
 - ⏳ `AlphaMissenseR`
+- ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocWorkflowTools`
 - ⏳ `CNAnorm`
 - ⏳ `COMPASS`
 - ⏳ `Chicago`
-- ⏳ `DeepPINCS`
+- ⏳ `CytoGLMM`
+- ⏳ `DEqMS`
+- ⏳ `DEsingle`
+- ⏳ `DepInfeR`
 - ⏳ `EnMCB`
 - ⏳ `GCPtools`
+- ⏳ `GWAS.BAYES`
 - ⏳ `Harman`
 - ⏳ `HilbertVisGUI`
 - ⏳ `HubPub`
 - ⏳ `IntramiRExploreR`
 - ⏳ `IsoCorrectoRGUI`
+- ⏳ `KinSwingR`
+- ⏳ `Linnorm`
+- ⏳ `MSstatsResponse`
+- ⏳ `MethylMix`
+- ⏳ `NPARC`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
+- ⏳ `Oscope`
 - ⏳ `PANR`
+- ⏳ `PCAN`
 - ⏳ `PROcess`
-- ⏳ `REBET`
+- ⏳ `QRscore`
 - ⏳ `RTCGA`
+- ⏳ `SCFA`
 - ⏳ `SNPRelate`
+- ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
-- ⏳ `TreeAndLeaf`
-- ⏳ `XINA`
+- ⏳ `SuperCellCyto`
+- ⏳ `TPP2D`
+- ⏳ `Wrench`
+- ⏳ `abseqR`
 - ⏳ `anndataR`
-- ⏳ `banocc`
-- ⏳ `basilisk`
+- ⏳ `bacon`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
-- ⏳ `bugsigdbr`
-- ⏳ `clst`
+- ⏳ `brendaDb`
+- ⏳ `ctsGE`
 - ⏳ `cytolib`
-- ⏳ `decontam`
-- ⏳ `demuxmix`
-- ⏳ `dupRadar`
-- ⏳ `easyreporting`
-- ⏳ `fenr`
-- ⏳ `flowPeaks`
-- ⏳ `ggkegg`
-- ⏳ `ggtree`
-- ⏳ `imageTCGA`
-- ⏳ `iscream`
-- ⏳ `koinar`
-- ⏳ `logicFS`
-- ⏳ `maftools`
-- ⏳ `metabinR`
-- ⏳ `miRBaseConverter`
-- ⏳ `minet`
-- ⏳ `mirTarRnaSeq`
+- ⏳ `dcGSA`
 
-... and 33 more ...
+... and 61 more ...
 
-## Not Yet Started (1851)
-- ⏸️ `ABSSeq`
+## Not Yet Started (1806)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -165,7 +164,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlphaBeta`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
 - ⏸️ `AnVILGCP`
@@ -187,9 +185,11 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
+- ⏸️ `BLMA`
+- ⏸️ `BOBaFIT`
 
-... and 1801 more ...
+... and 1756 more ...
 
 ---
-*Last updated: 2025-10-31 22:12:49 UTC*
-*Packages with verified BBS status: 67*
+*Last updated: 2025-10-31 22:14:56 UTC*
+*Packages with verified BBS status: 68*
