@@ -924,3 +924,5 @@ DelayedDataFrame
 Structstrings
 DelayedMatrixStats
 TnT
+bamsignals
+pepStat

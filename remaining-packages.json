@@ -181,7 +181,6 @@
     "SummarizedExperiment"
   ],
   "AneuFinder": [
-    "bamsignals",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
@@ -626,7 +625,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "GenomicAlignments",
@@ -642,7 +640,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "GenomicAlignments",
     "ensembldb",
@@ -1023,7 +1020,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "GenomicAlignments",
@@ -1197,7 +1193,6 @@
     "h5mread"
   ],
   "DNAfusion": [
-    "bamsignals",
     "GenomicAlignments",
     "GenomicFeatures",
     "SummarizedExperiment",
@@ -4915,7 +4910,6 @@
     "rtracklayer",
     "AnnotationDbi"
   ],
-  "bamsignals": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -5777,7 +5771,6 @@
     "SummarizedExperiment"
   ],
   "crupR": [
-    "bamsignals",
     "rtracklayer",
     "GenomicAlignments",
     "GenomicFeatures",
@@ -6186,7 +6179,6 @@
   "epigraHMM": [
     "SummarizedExperiment",
     "rtracklayer",
-    "bamsignals",
     "csaw",
     "GreyListChIP",
     "GenomicAlignments",
@@ -7048,7 +7040,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "VariantAnnotation",
     "SummarizedExperiment",
@@ -7802,7 +7793,6 @@
     "AnnotationDbi",
     "regioneR",
     "biovizBase",
-    "bamsignals",
     "VariantAnnotation",
     "GenomicAlignments",
     "SummarizedExperiment",
@@ -7909,7 +7899,6 @@
     "SummarizedExperiment"
   ],
   "normr": [
-    "bamsignals",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -8164,7 +8153,6 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "pepStat": [],
   "periodicDNA": [
     "BSgenome",
     "rtracklayer",
@@ -9071,7 +9059,6 @@
   "segmenter": [
     "ChIPseeker",
     "SummarizedExperiment",
-    "bamsignals",
     "AnnotationDbi",
     "enrichplot",
     "GenomicFeatures",
