@@ -401,3 +401,10 @@ limpa
 magrene
 marray
 rawrr
+bacon
+cellmig
+dcGSA
+DepecheR
+miRBaseConverter
+timeOmics
+TPP2D

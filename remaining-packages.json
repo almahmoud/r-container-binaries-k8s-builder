@@ -4090,7 +4090,6 @@
     "XVector"
   ],
   "DepInfeR": [],
-  "DepecheR": [],
   "DiffBind": [
     "GenomicRanges",
     "SummarizedExperiment",
@@ -13524,7 +13523,6 @@
     "biobroom",
     "BiocGenerics"
   ],
-  "TPP2D": [],
   "TREG": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -15178,7 +15176,6 @@
     "SparseArray",
     "XVector"
   ],
-  "bacon": [],
   "ballgown": [
     "GenomicRanges",
     "IRanges",
@@ -16229,7 +16226,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "cellmig": [],
   "censcyt": [
     "diffcyt",
     "edgeR",
@@ -17791,7 +17787,6 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "dcGSA": [],
   "ddCt": [
     "Biobase",
     "BiocGenerics"
@@ -22351,7 +22346,6 @@
     "Biobase",
     "XVector"
   ],
-  "miRBaseConverter": [],
   "miRLAB": [
     "TCGAbiolinks",
     "SummarizedExperiment",
@@ -29136,7 +29130,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "timeOmics": [],
   "timecourse": [
     "Biobase",
     "BiocGenerics"

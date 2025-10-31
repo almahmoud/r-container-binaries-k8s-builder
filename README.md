@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 403 (17%)
+- **Successfully Built:** 410 (18%)
 - **Failed:** 1 (0%)
 - **In Progress:** 60
-- **Not Started:** 1780
+- **Not Started:** 1773
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (403)
+## Successfully Built Packages (410)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 353 more ...*
+*... and 360 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [splots](https://bioconductor.org/packages/3.22/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.22/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.22/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.22/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/statTarget) |
@@ -63,6 +62,7 @@
 | [tanggle](https://bioconductor.org/packages/3.22/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.22/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.22/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tidysbml) |
+| [timeOmics](https://bioconductor.org/packages/3.22/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timeOmics) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
@@ -90,7 +90,6 @@
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
 - ⏳ `DepInfeR`
-- ⏳ `DepecheR`
 - ⏳ `EnMCB`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GenProSeq`
@@ -98,9 +97,11 @@
 - ⏳ `HubPub`
 - ⏳ `KinSwingR`
 - ⏳ `Linnorm`
+- ⏳ `MSstats`
 - ⏳ `MSstatsResponse`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
+- ⏳ `OLIN`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
@@ -108,21 +109,19 @@
 - ⏳ `PCAN`
 - ⏳ `PROcess`
 - ⏳ `Polytect`
+- ⏳ `RBM`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
-- ⏳ `TPP2D`
 - ⏳ `Wrench`
 - ⏳ `abseqR`
 - ⏳ `anndataR`
-- ⏳ `bacon`
+- ⏳ `arrayQuality`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
 - ⏳ `brendaDb`
-- ⏳ `cellmig`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
-- ⏳ `dcGSA`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `epistasisGA`
@@ -130,13 +129,14 @@
 - ⏳ `fgsea`
 - ⏳ `iscream`
 - ⏳ `maftools`
-- ⏳ `miRBaseConverter`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
+- ⏳ `nnNorm`
+- ⏳ `pathwayPCA`
 
 ... and 10 more ...
 
-## Not Yet Started (1780)
+## Not Yet Started (1773)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -188,8 +188,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1730 more ...
+... and 1723 more ...
 
 ---
-*Last updated: 2025-10-31 22:20:10 UTC*
-*Packages with verified BBS status: 82*
+*Last updated: 2025-10-31 22:20:47 UTC*
+*Packages with verified BBS status: 83*
