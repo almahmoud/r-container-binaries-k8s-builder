@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 651 (28%)
+- **Successfully Built:** 657 (28%)
 - **Failed:** 5 (0%)
 - **In Progress:** 68
-- **Not Started:** 1586
+- **Not Started:** 1580
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (651)
+## Successfully Built Packages (657)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -33,6 +33,7 @@
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
+| [AffyRNADegradation](https://bioconductor.org/packages/3.21/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.21/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlpsNMR) |
@@ -44,9 +45,8 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
-| [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 
-*... and 601 more ...*
+*... and 607 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,10 +87,9 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
 ## In Progress (68)
-- ⏳ `AffyRNADegradation`
 - ⏳ `BioMVCClass`
-- ⏳ `CardinalIO`
 - ⏳ `CellMapper`
+- ⏳ `CellNOptR`
 - ⏳ `Cormotif`
 - ⏳ `DFplyr`
 - ⏳ `ExiMiR`
@@ -112,10 +111,11 @@
 - ⏳ `PhenStat`
 - ⏳ `RNAseqCovarImpute`
 - ⏳ `RTopper`
-- ⏳ `RUVcorr`
 - ⏳ `RVS`
+- ⏳ `RcwlPipelines`
 - ⏳ `Rnits`
 - ⏳ `STATegRa`
+- ⏳ `Streamer`
 - ⏳ `TRONCO`
 - ⏳ `TurboNorm`
 - ⏳ `UCSC.utils`
@@ -124,23 +124,23 @@
 - ⏳ `alabaster.base`
 - ⏳ `bioassayR`
 - ⏳ `biobroom`
+- ⏳ `biocViews`
 - ⏳ `bluster`
 - ⏳ `fedup`
+- ⏳ `fgga`
 - ⏳ `flowCore`
-- ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
 - ⏳ `hyperdraw`
+- ⏳ `islify`
 - ⏳ `ldblock`
 - ⏳ `makecdfenv`
-- ⏳ `metabCombiner`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
-- ⏳ `mosbi`
 
 ... and 18 more ...
 
-## Not Yet Started (1586)
+## Not Yet Started (1580)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1536 more ...
+... and 1530 more ...
 
 ---
-*Last updated: 2025-10-31 00:38:11 UTC*
-*Packages with verified BBS status: 99*
+*Last updated: 2025-10-31 00:39:14 UTC*
+*Packages with verified BBS status: 100*

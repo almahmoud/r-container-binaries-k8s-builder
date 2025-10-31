@@ -1,6 +1,1 @@
-CellNOptR
-RcwlPipelines
-Streamer
-biocViews
-fgga
-islify
+Cardinal

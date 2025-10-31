@@ -649,3 +649,9 @@ RBioFormats
 Rcwl
 Rtreemix
 sevenbridges
+AffyRNADegradation
+CardinalIO
+fobitools
+metabCombiner
+rexposome
+RUVcorr

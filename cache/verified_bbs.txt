@@ -11,6 +11,7 @@ ASEB
 ASGSCA
 ASSET
 AWFisher
+AffyRNADegradation
 AlphaBeta
 AlphaMissenseR
 AlpsNMR

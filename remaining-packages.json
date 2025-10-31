@@ -324,7 +324,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "AffyRNADegradation": [],
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
@@ -1808,10 +1807,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "Cardinal": [
-    "CardinalIO"
-  ],
-  "CardinalIO": [],
+  "Cardinal": [],
   "Category": [
     "AnnotationDbi",
     "GSEABase",
@@ -8718,7 +8714,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "RUVcorr": [],
   "RVS": [],
   "RadioGx": [
     "CoreGx",
@@ -15666,7 +15661,6 @@
     "SparseArray",
     "XVector"
   ],
-  "fobitools": [],
   "frma": [
     "oligo",
     "oligoClasses",
@@ -17684,7 +17678,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "metabCombiner": [],
   "metabolomicsWorkbenchR": [
     "MultiAssayExperiment",
     "struct",
@@ -19279,7 +19272,6 @@
     "MetaboCoreUtils"
   ],
   "omicRexposome": [
-    "rexposome",
     "sva",
     "omicade4",
     "MultiDataSet",
@@ -20860,7 +20852,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "rexposome": [],
   "rfPred": [
     "GenomeInfoDb",
     "IRanges",
