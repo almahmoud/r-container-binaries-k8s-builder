@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 719 (32%)
+- **Successfully Built:** 720 (32%)
 - **Failed:** 1 (0%)
 - **In Progress:** 23
-- **Not Started:** 1501
+- **Not Started:** 1500
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (719)
+## Successfully Built Packages (720)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 669 more ...*
+*... and 670 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,7 +93,6 @@
 - ⏳ `SPIA`
 - ⏳ `Seqinfo`
 - ⏳ `Spectra`
-- ⏳ `TPP`
 - ⏳ `TargetDecoy`
 - ⏳ `XVector`
 - ⏳ `bluster`
@@ -106,8 +105,9 @@
 - ⏳ `nucleoSim`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
+- ⏳ `uSORT`
 
-## Not Yet Started (1501)
+## Not Yet Started (1500)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -159,8 +159,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1451 more ...
+... and 1450 more ...
 
 ---
-*Last updated: 2025-10-31 23:00:33 UTC*
+*Last updated: 2025-10-31 23:01:04 UTC*
 *Packages with verified BBS status: 104*
