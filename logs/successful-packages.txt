@@ -1353,3 +1353,8 @@ DEWSeq
 padma
 scReClassify
 survClust
+CEMiTool
+cghMCR
+DEGreport
+nipalsMCIA
+tigre

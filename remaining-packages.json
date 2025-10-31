@@ -274,7 +274,6 @@
     "GSEABase"
   ],
   "CDI": [],
-  "CEMiTool": [],
   "CHETAH": [],
   "CNEr": [
     "rtracklayer"
@@ -499,7 +498,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "DEGreport": [],
   "DEP": [
     "MSnbase",
     "PSMatch"
@@ -2312,7 +2310,6 @@
     "rtracklayer"
   ],
   "cfTools": [],
-  "cghMCR": [],
   "chevreulPlot": [
     "chevreulProcess",
     "scater",
@@ -3109,9 +3106,7 @@
     "Category",
     "GSEABase"
   ],
-  "isomiRs": [
-    "DEGreport"
-  ],
+  "isomiRs": [],
   "jazzPanda": [
     "SpatialExperiment"
   ],
@@ -3517,7 +3512,6 @@
     "scuttle"
   ],
   "netboost": [],
-  "nipalsMCIA": [],
   "nnSVG": [
     "SpatialExperiment"
   ],
@@ -4297,7 +4291,6 @@
     "nullranges",
     "rtracklayer"
   ],
-  "tigre": [],
   "tilingArray": [],
   "topdownr": [
     "MSnbase",

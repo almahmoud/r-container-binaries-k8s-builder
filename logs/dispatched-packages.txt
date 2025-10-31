@@ -1553,3 +1553,4 @@ cghMCR
 TOP
 sampleClassifier
 broadSeq
+isomiRs
