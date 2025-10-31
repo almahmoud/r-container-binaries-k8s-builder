@@ -372,3 +372,13 @@ ompBAM
 pfamAnalyzeR
 plotGrouper
 snifter
+ANCOMBC
+AnVIL
+AnVILGCP
+decontam
+koinar
+MBCB
+QRscore
+sitePath
+systemPipeShiny
+tanggle

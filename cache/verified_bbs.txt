@@ -1,5 +1,6 @@
 ABSSeq
 AMOUNTAIN
+ANCOMBC
 ARRmNormalization
 ASAFE
 ASEB
@@ -7,9 +8,11 @@ ASGSCA
 ASSET
 AWAggregator
 AlphaBeta
+AnVIL
 AnVILAz
 AnVILBase
 AnVILBilling
+AnVILGCP
 BADER
 BG2
 BaseSpaceR
@@ -57,6 +60,8 @@ swfdr
 switchBox
 synergyfinder
 synlet
+systemPipeShiny
+tanggle
 ternarynet
 tidysbml
 timescape

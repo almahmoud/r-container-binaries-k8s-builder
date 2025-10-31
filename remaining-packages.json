@@ -188,7 +188,6 @@
     "XVector",
     "Biostrings"
   ],
-  "ANCOMBC": [],
   "ANF": [
     "Biobase",
     "BiocGenerics"
@@ -483,16 +482,8 @@
   ],
   "AlphaMissenseR": [],
   "AlpsNMR": [],
-  "AnVIL": [],
-  "AnVILGCP": [],
-  "AnVILPublish": [
-    "AnVIL",
-    "AnVILGCP"
-  ],
-  "AnVILWorkflow": [
-    "AnVILGCP",
-    "AnVIL"
-  ],
+  "AnVILPublish": [],
+  "AnVILWorkflow": [],
   "Anaquin": [
     "DESeq2",
     "S4Vectors",
@@ -5312,7 +5303,6 @@
   "GNOSIS": [
     "maftools",
     "cBioPortalData",
-    "AnVIL",
     "MultiAssayExperiment",
     "Seqinfo",
     "GenomicRanges",
@@ -7362,7 +7352,6 @@
     "SparseArray",
     "XVector"
   ],
-  "MBCB": [],
   "MBECS": [
     "phyloseq",
     "sva",
@@ -7592,7 +7581,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -10159,7 +10147,6 @@
     "SparseArray",
     "XVector"
   ],
-  "QRscore": [],
   "QSutils": [
     "Biostrings",
     "pwalign",
@@ -15454,7 +15441,6 @@
     "XVector"
   ],
   "bedbaser": [
-    "AnVIL",
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
@@ -15568,7 +15554,6 @@
     "IRanges",
     "S4Vectors",
     "KEGGREST",
-    "AnVIL",
     "MultiAssayExperiment",
     "Seqinfo",
     "GenomicRanges",
@@ -15967,7 +15952,6 @@
     "SparseArray"
   ],
   "cBioPortalData": [
-    "AnVIL",
     "MultiAssayExperiment",
     "Seqinfo",
     "GenomicRanges",
@@ -16056,7 +16040,6 @@
     "Biobase",
     "phenoTest",
     "BiocGenerics",
-    "AnVIL",
     "MultiAssayExperiment",
     "Seqinfo",
     "GenomicRanges",
@@ -16170,7 +16153,6 @@
   "cbaf": [
     "cBioPortalData",
     "genefilter",
-    "AnVIL",
     "MultiAssayExperiment",
     "Seqinfo",
     "GenomicRanges",
@@ -17835,7 +17817,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -17949,7 +17930,6 @@
     "bluster",
     "XVector"
   ],
-  "decontam": [],
   "deconvR": [
     "S4Vectors",
     "methylKit",
@@ -20836,7 +20816,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -21358,7 +21337,6 @@
     "Biostrings",
     "XVector"
   ],
-  "koinar": [],
   "ldblock": [
     "BiocGenerics",
     "Seqinfo",
@@ -21376,7 +21354,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -22547,7 +22524,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -22582,7 +22558,6 @@
     "MultiAssayExperiment",
     "Biostrings",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -22624,7 +22599,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedArray",
     "DelayedMatrixStats",
     "DirichletMultinomial",
@@ -22658,7 +22632,6 @@
     "Biostrings",
     "bluster",
     "DECIPHER",
-    "decontam",
     "DelayedMatrixStats",
     "scuttle",
     "beachmat",
@@ -28067,7 +28040,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "sitePath": [],
   "sketchR": [
     "Biobase",
     "DelayedArray",
@@ -28883,7 +28855,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "systemPipeShiny": [],
   "systemPipeTools": [
     "DESeq2",
     "SummarizedExperiment",
@@ -29022,7 +28993,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "tanggle": [],
   "target": [
     "BiocGenerics",
     "GenomicRanges",
@@ -29070,9 +29040,7 @@
     "SparseArray"
   ],
   "terraTCGAdata": [
-    "AnVILGCP",
     "MultiAssayExperiment",
-    "AnVIL",
     "GenomicRanges",
     "RaggedExperiment",
     "S4Vectors",
