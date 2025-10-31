@@ -1716,3 +1716,7 @@ scater
 splatter
 PanomiR
 scran
+BEAT
+scTGIF
+singscore
+splineTimeR
