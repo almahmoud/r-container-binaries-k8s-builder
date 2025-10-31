@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2048 (88%)
+- **Successfully Built:** 2052 (88%)
 - **Failed:** 19 (0%)
-- **In Progress:** 97
-- **Not Started:** 146
+- **In Progress:** 102
+- **Not Started:** 137
 
 **Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2048)
+## Successfully Built Packages (2052)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1998 more ...*
+*... and 2002 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (97)
+## In Progress (102)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
@@ -110,28 +110,32 @@
 - ⏳ `DaMiRseq`
 - ⏳ `ENmix`
 - ⏳ `EpiCompare`
-- ⏳ `EpiTxDb`
+- ⏳ `EventPointer`
 - ⏳ `GRaNIE`
+- ⏳ `GUIDEseq`
 - ⏳ `IMAS`
-- ⏳ `IntEREst`
 - ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethylAid`
+- ⏳ `Moonlight2R`
 - ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
 - ⏳ `OUTRIDER`
 - ⏳ `OrganismDbi`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
-- ⏳ `RCAS`
 - ⏳ `REDseq`
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `RUVSeq`
 - ⏳ `RegionalST`
+- ⏳ `Rhisat2`
+- ⏳ `RiboCrypt`
 - ⏳ `SplicingGraphs`
 - ⏳ `TAPseq`
 - ⏳ `TCGAutils`
+- ⏳ `TFHAZ`
+- ⏳ `Ularcirc`
 - ⏳ `alabaster`
 - ⏳ `benchdamic`
 - ⏳ `biovizBase`
@@ -147,14 +151,10 @@
 - ⏳ `cytofQC`
 - ⏳ `dandelionR`
 - ⏳ `dce`
-- ⏳ `debrowser`
-- ⏳ `deconvR`
-- ⏳ `demuxSNP`
-- ⏳ `diffUTR`
 
-... and 47 more ...
+... and 52 more ...
 
-## Not Yet Started (146)
+## Not Yet Started (137)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
@@ -175,14 +175,12 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
 - ⏸️ `FRASER`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GSReg`
-- ⏸️ `GUIDEseq`
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
@@ -197,7 +195,6 @@
 - ⏸️ `MEAT`
 - ⏸️ `MetaboSignal`
 - ⏸️ `MineICA`
-- ⏸️ `Moonlight2R`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 - ⏸️ `PING`
@@ -205,9 +202,12 @@
 - ⏸️ `R3CPET`
 - ⏸️ `RJMCMCNucleosomes`
 - ⏸️ `RNAmodR`
+- ⏸️ `RNAmodR.AlkAnilineSeq`
+- ⏸️ `RNAmodR.ML`
+- ⏸️ `RNAmodR.RiboMethSeq`
 
-... and 96 more ...
+... and 87 more ...
 
 ---
-*Last updated: 2025-10-31 09:51:19 UTC*
+*Last updated: 2025-10-31 09:52:39 UTC*
 *Packages with verified BBS status: 161*
