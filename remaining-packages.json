@@ -4551,9 +4551,7 @@
     "GenomicAlignments",
     "Rsamtools"
   ],
-  "TDbasedUFE": [],
   "TDbasedUFEadv": [
-    "TDbasedUFE",
     "enrichplot",
     "DOSE",
     "AnnotationDbi",

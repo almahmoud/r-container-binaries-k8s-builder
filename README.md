@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 894 (38%)
+- **Successfully Built:** 895 (38%)
 - **Failed:** 7 (0%)
-- **In Progress:** 66
+- **In Progress:** 65
 - **Not Started:** 1343
 
 **Progress:** 39%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (894)
+## Successfully Built Packages (895)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 844 more ...*
+*... and 845 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (66)
+## In Progress (65)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CINdex`
@@ -108,7 +108,6 @@
 - ⏳ `SigFuge`
 - ⏳ `Structstrings`
 - ⏳ `SummarizedExperiment`
-- ⏳ `TDbasedUFE`
 - ⏳ `TileDBArray`
 - ⏳ `TnT`
 - ⏳ `adverSCarial`
@@ -139,8 +138,9 @@
 - ⏳ `h5mread`
 - ⏳ `heatmaps`
 - ⏳ `idpr`
+- ⏳ `igvShiny`
 
-... and 16 more ...
+... and 15 more ...
 
 ## Not Yet Started (1343)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1293 more ...
 
 ---
-*Last updated: 2025-10-31 03:31:58 UTC*
+*Last updated: 2025-10-31 03:32:48 UTC*
 *Packages with verified BBS status: 111*
