@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1378 (59%)
+- **Successfully Built:** 1382 (59%)
 - **Failed:** 9 (0%)
-- **In Progress:** 175
-- **Not Started:** 748
+- **In Progress:** 179
+- **Not Started:** 740
 
 **Progress:** 60%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1378)
+## Successfully Built Packages (1382)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1328 more ...*
+*... and 1332 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (175)
+## In Progress (179)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -103,7 +103,6 @@
 - ⏳ `BgeeDB`
 - ⏳ `BiocHubsShiny`
 - ⏳ `CDI`
-- ⏳ `CHETAH`
 - ⏳ `COTAN`
 - ⏳ `CeTF`
 - ⏳ `CellBench`
@@ -129,6 +128,7 @@
 - ⏳ `HIPPO`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
+- ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
 - ⏳ `LoomExperiment`
@@ -137,14 +137,14 @@
 - ⏳ `MLInterfaces`
 - ⏳ `MetaNeighbor`
 - ⏳ `MetaboAnnotation`
-- ⏳ `MoonlightR`
-- ⏳ `MsDataHub`
 - ⏳ `MsExperiment`
 - ⏳ `MuData`
+- ⏳ `MultiBaC`
+- ⏳ `NBAMSeq`
 
-... and 125 more ...
+... and 129 more ...
 
-## Not Yet Started (748)
+## Not Yet Started (740)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 
-... and 698 more ...
+... and 690 more ...
 
 ---
-*Last updated: 2025-10-31 05:24:28 UTC*
+*Last updated: 2025-10-31 05:26:31 UTC*
 *Packages with verified BBS status: 131*

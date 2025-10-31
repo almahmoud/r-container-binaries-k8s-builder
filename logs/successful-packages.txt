@@ -1376,3 +1376,7 @@ TOP
 TrajectoryUtils
 TreeSummarizedExperiment
 xcore
+CHETAH
+MoonlightR
+MsDataHub
+TCseq

@@ -269,7 +269,6 @@
     "GSEABase"
   ],
   "CDI": [],
-  "CHETAH": [],
   "CNEr": [
     "rtracklayer"
   ],
@@ -1186,7 +1185,6 @@
     "EpiMix",
     "GenomicFeatures"
   ],
-  "MoonlightR": [],
   "Motif2Site": [
     "BSgenome",
     "rtracklayer"
@@ -1198,7 +1196,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "MsDataHub": [],
   "MsExperiment": [],
   "MsQuality": [
     "MsExperiment"
@@ -1821,7 +1818,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "TCseq": [],
   "TEKRABber": [
     "rtracklayer"
   ],
