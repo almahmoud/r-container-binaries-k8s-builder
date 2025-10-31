@@ -911,7 +911,6 @@
   "gpuMagic": [],
   "groHMM": [],
   "gwascat": [],
-  "gwasurvivr": [],
   "hiAnnotator": [],
   "hiReadsProcessor": [
     "hiAnnotator"
@@ -943,7 +942,6 @@
   "iSEEu": [
     "iSEEhex"
   ],
-  "icetea": [],
   "ideal": [
     "mosdef",
     "goseq",

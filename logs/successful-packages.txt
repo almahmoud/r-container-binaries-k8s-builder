@@ -1847,3 +1847,5 @@ seqCAT
 StructuralVariantAnnotation
 DiffBind
 RareVariantVis
+gwasurvivr
+icetea
