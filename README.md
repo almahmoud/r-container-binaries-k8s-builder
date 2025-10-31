@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 891 (38%)
+- **Successfully Built:** 894 (38%)
 - **Failed:** 7 (0%)
-- **In Progress:** 69
+- **In Progress:** 66
 - **Not Started:** 1343
 
-**Progress:** 38%
+**Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (891)
+## Successfully Built Packages (894)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 841 more ...*
+*... and 844 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (69)
+## In Progress (66)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CINdex`
@@ -98,7 +98,6 @@
 - ⏳ `DelayedRandomArray`
 - ⏳ `FELLA`
 - ⏳ `LymphoSeq`
-- ⏳ `MSA2dist`
 - ⏳ `NanoStringNCTools`
 - ⏳ `Rarr`
 - ⏳ `ResidualMatrix`
@@ -139,8 +138,9 @@
 - ⏳ `gtrellis`
 - ⏳ `h5mread`
 - ⏳ `heatmaps`
+- ⏳ `idpr`
 
-... and 19 more ...
+... and 16 more ...
 
 ## Not Yet Started (1343)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1293 more ...
 
 ---
-*Last updated: 2025-10-31 03:31:24 UTC*
+*Last updated: 2025-10-31 03:31:58 UTC*
 *Packages with verified BBS status: 111*

@@ -2746,7 +2746,6 @@
   "MPRAnalyze": [
     "SummarizedExperiment"
   ],
-  "MSA2dist": [],
   "MSPrep": [
     "SummarizedExperiment",
     "sva",
@@ -6556,7 +6555,6 @@
   ],
   "doubletrouble": [
     "syntenet",
-    "MSA2dist",
     "AnnotationDbi",
     "GenomicFeatures",
     "rtracklayer",
@@ -7501,7 +7499,6 @@
     "AnnotationDbi"
   ],
   "idpr": [],
-  "idr2d": [],
   "igvR": [
     "GenomicAlignments",
     "rtracklayer",
@@ -8611,7 +8608,6 @@
   "openCyto": [
     "flowWorkspace"
   ],
-  "openPrimeR": [],
   "oposSOM": [
     "biomaRt",
     "AnnotationDbi"

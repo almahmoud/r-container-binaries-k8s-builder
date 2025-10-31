@@ -889,3 +889,6 @@ sangerseqR
 SynMut
 TFARM
 scanMiR
+idr2d
+MSA2dist
+openPrimeR
