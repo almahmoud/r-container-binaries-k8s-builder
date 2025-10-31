@@ -489,3 +489,7 @@ Polytect
 ROSeq
 ScreenR
 tweeDEseq
+BiocBook
+BrowserViz
+EBImage
+interactiveDisplayBase

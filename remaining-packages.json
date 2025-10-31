@@ -1290,7 +1290,6 @@
     "Biobase"
   ],
   "Biobase": [],
-  "BiocBook": [],
   "BiocCheck": [
     "biocViews",
     "graph",
@@ -1398,7 +1397,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "BrowserViz": [],
   "BubbleTree": [
     "IRanges",
     "GenomicRanges",
@@ -2000,7 +1998,6 @@
     "SparseArray"
   ],
   "CONFESS": [
-    "EBImage",
     "flowCore",
     "flowClust",
     "flowMeans",
@@ -2086,7 +2083,6 @@
     "SummarizedExperiment"
   ],
   "CRImage": [
-    "EBImage",
     "aCGH",
     "multtest",
     "Biobase"
@@ -2206,7 +2202,6 @@
     "S4Vectors",
     "CardinalIO",
     "Biobase",
-    "EBImage",
     "matter"
   ],
   "CardinalIO": [
@@ -2230,7 +2225,6 @@
     "UCSC.utils"
   ],
   "CatsCradle": [
-    "EBImage",
     "S4Vectors",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -4029,7 +4023,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "EBImage": [],
   "EBSEA": [
     "DESeq2",
     "S4Vectors",
@@ -4574,9 +4567,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "FISHalyseR": [
-    "EBImage"
-  ],
+  "FISHalyseR": [],
   "FLAMES": [
     "bambu",
     "Biostrings",
@@ -8142,7 +8133,6 @@
   ],
   "MoleculeExperiment": [
     "SpatialExperiment",
-    "EBImage",
     "S4Vectors",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -9877,7 +9867,6 @@
     "graph"
   ],
   "RBioFormats": [
-    "EBImage",
     "S4Vectors"
   ],
   "RBioinf": [
@@ -9938,7 +9927,6 @@
     "graph"
   ],
   "RCyjs": [
-    "BrowserViz",
     "graph"
   ],
   "REDseq": [
@@ -12149,7 +12137,6 @@
   "SpatialFeatureExperiment": [
     "Biobase",
     "DropletUtils",
-    "EBImage",
     "S4Vectors",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -12171,7 +12158,6 @@
   "SpatialOmicsOverlay": [
     "S4Vectors",
     "Biobase",
-    "EBImage",
     "GeomxTools",
     "RBioFormats",
     "NanoStringNCTools",
@@ -13507,7 +13493,6 @@
     "GenomicRanges",
     "Biobase",
     "DropletUtils",
-    "EBImage",
     "GenomeInfoDb",
     "DelayedMatrixStats",
     "HDF5Array",
@@ -14037,7 +14022,6 @@
     "alabaster.base",
     "alabaster.sce",
     "alabaster.spatial",
-    "EBImage",
     "RBioFormats",
     "S4Vectors",
     "SingleCellExperiment",
@@ -15064,7 +15048,6 @@
     "GenomeInfoDb",
     "S4Vectors",
     "sva",
-    "EBImage",
     "HiCBricks",
     "UCSC.utils",
     "XVector",
@@ -17033,7 +17016,6 @@
     "ScaledMatrix"
   ],
   "cytomapper": [
-    "EBImage",
     "SingleCellExperiment",
     "SpatialExperiment",
     "S4Vectors",
@@ -17051,7 +17033,6 @@
     "XVector"
   ],
   "cytoviewer": [
-    "EBImage",
     "cytomapper",
     "SingleCellExperiment",
     "S4Vectors",
@@ -18659,7 +18640,6 @@
   ],
   "flowCHIC": [
     "flowCore",
-    "EBImage",
     "Biobase",
     "S4Vectors"
   ],
@@ -18806,9 +18786,7 @@
     "SparseArray",
     "XVector"
   ],
-  "flowcatchR": [
-    "EBImage"
-  ],
+  "flowcatchR": [],
   "fmcsR": [
     "ChemmineR"
   ],
@@ -19789,7 +19767,6 @@
     "Biostrings",
     "GenomicRanges",
     "IRanges",
-    "EBImage",
     "GenomeInfoDb",
     "S4Vectors",
     "XVector",
@@ -20329,7 +20306,6 @@
   "igvR": [
     "GenomicRanges",
     "GenomicAlignments",
-    "BrowserViz",
     "rtracklayer",
     "VariantAnnotation",
     "S4Vectors",
@@ -20363,7 +20339,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "scuttle",
-    "EBImage",
     "cytomapper",
     "SingleCellExperiment",
     "HDF5Array",
@@ -20462,7 +20437,6 @@
     "biomaRt"
   ],
   "interactiveDisplay": [
-    "interactiveDisplayBase",
     "Category",
     "AnnotationDbi",
     "Biobase",
@@ -20479,7 +20453,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "interactiveDisplayBase": [],
   "ipdDb": [
     "AnnotationDbi",
     "AnnotationHub",
@@ -20495,7 +20468,6 @@
   ],
   "islify": [
     "RBioFormats",
-    "EBImage",
     "S4Vectors"
   ],
   "isobar": [
@@ -20807,7 +20779,6 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "simpleSeg",
-    "EBImage",
     "cytomapper",
     "GenomicRanges",
     "DelayedArray",
@@ -26555,7 +26526,6 @@
     "DOSE",
     "GOSemSim",
     "UCSC.utils",
-    "EBImage",
     "Biobase",
     "KEGGREST",
     "GenomicAlignments",
@@ -26888,7 +26858,6 @@
     "IRanges"
   ],
   "simpleSeg": [
-    "EBImage",
     "S4Vectors",
     "SummarizedExperiment",
     "cytomapper",
@@ -27187,7 +27156,6 @@
     "SpatialExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "EBImage",
     "S4Vectors",
     "GenomicRanges",
     "DelayedArray",
@@ -27376,7 +27344,6 @@
     "simpleSeg",
     "MultiAssayExperiment",
     "genefilter",
-    "EBImage",
     "cytomapper",
     "GenomicRanges",
     "DelayedArray",
@@ -27829,9 +27796,7 @@
     "UCSC.utils",
     "XVector"
   ],
-  "synapsis": [
-    "EBImage"
-  ],
+  "synapsis": [],
   "synapter": [
     "MSnbase",
     "multtest",
@@ -29085,7 +29050,6 @@
     "SpatialExperiment",
     "S4Vectors",
     "SummarizedExperiment",
-    "EBImage",
     "HDF5Array",
     "SingleCellExperiment",
     "TENxIO",
@@ -29105,7 +29069,6 @@
     "SummarizedExperiment",
     "IRanges",
     "S4Vectors",
-    "EBImage",
     "mzR",
     "Biobase",
     "GenomicRanges",

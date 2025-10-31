@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 491 (21%)
+- **Successfully Built:** 495 (21%)
 - **Failed:** 4 (0%)
-- **In Progress:** 8
-- **Not Started:** 1807
+- **In Progress:** 28
+- **Not Started:** 1783
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (491)
+## Successfully Built Packages (495)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.21/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.21/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BeadDataPackR) |
 
-*... and 441 more ...*
+*... and 445 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,17 +85,37 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (8)
+## In Progress (28)
+- ⏳ `Biobase`
+- ⏳ `BiocHail`
+- ⏳ `ChemmineOB`
+- ⏳ `ChemmineR`
 - ⏳ `EnMCB`
+- ⏳ `FamAgg`
 - ⏳ `Harman`
+- ⏳ `IHW`
 - ⏳ `PROPER`
+- ⏳ `RGSEA`
 - ⏳ `Rvisdiff`
+- ⏳ `S4Vectors`
+- ⏳ `SIMD`
+- ⏳ `SharedObject`
 - ⏳ `compcodeR`
 - ⏳ `decoupleR`
+- ⏳ `fobitools`
+- ⏳ `gpuMagic`
+- ⏳ `graph`
+- ⏳ `ldblock`
+- ⏳ `matter`
+- ⏳ `metapone`
+- ⏳ `parglms`
 - ⏳ `philr`
 - ⏳ `ppcseq`
+- ⏳ `profileScoreDist`
+- ⏳ `snpStats`
+- ⏳ `unifiedWMWqPCR`
 
-## Not Yet Started (1807)
+## Not Yet Started (1783)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -147,8 +167,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1757 more ...
+... and 1733 more ...
 
 ---
-*Last updated: 2025-10-31 00:27:10 UTC*
+*Last updated: 2025-10-31 00:28:10 UTC*
 *Packages with verified BBS status: 88*
