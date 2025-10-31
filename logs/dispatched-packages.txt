@@ -1997,3 +1997,5 @@ tLOH
 transmogR
 vmrseq
 zenith
+DiffBind
+epigraHMM

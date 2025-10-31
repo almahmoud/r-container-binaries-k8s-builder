@@ -142,10 +142,8 @@
     "biovizBase"
   ],
   "ChIPQC": [
-    "DiffBind",
-    "GreyListChIP"
+    "DiffBind"
   ],
-  "ChIPanalyser": [],
   "ChIPexoQual": [
     "biovizBase",
     "ensembldb"
@@ -218,9 +216,7 @@
   "DegNorm": [
     "txdbmaker"
   ],
-  "DiffBind": [
-    "GreyListChIP"
-  ],
+  "DiffBind": [],
   "Dino": [],
   "DominoEffect": [],
   "DuplexDiscovereR": [
@@ -283,7 +279,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOTHiC": [],
   "GOstats": [],
   "GRaNIE": [
     "ensembldb"
@@ -339,7 +334,6 @@
   "GmicR": [
     "GOstats"
   ],
-  "GreyListChIP": [],
   "Guitar": [],
   "Gviz": [
     "ensembldb",
@@ -1010,9 +1004,7 @@
   ],
   "ensembldb": [],
   "epidecodeR": [],
-  "epigraHMM": [
-    "GreyListChIP"
-  ],
+  "epigraHMM": [],
   "epimutacions": [
     "minfi",
     "Gviz",
@@ -1119,7 +1111,6 @@
   ],
   "hicVennDiagram": [],
   "hypeR": [],
-  "iCNV": [],
   "iCheck": [
     "lumi",
     "methylumi",
@@ -1138,7 +1129,6 @@
   ],
   "iSEEhex": [],
   "iSEEhub": [],
-  "iSEEindex": [],
   "iSEEtree": [
     "miaViz",
     "mia"
@@ -1337,7 +1327,6 @@
   "netSmooth": [
     "clusterExperiment"
   ],
-  "npGSEA": [],
   "nullranges": [
     "plyranges"
   ],
@@ -1626,8 +1615,7 @@
     "ChIPpeakAnno",
     "DiffBind",
     "regioneR",
-    "ensembldb",
-    "GreyListChIP"
+    "ensembldb"
   ],
   "wateRmelon": [
     "methylumi",

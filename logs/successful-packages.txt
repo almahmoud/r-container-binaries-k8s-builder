@@ -1759,3 +1759,9 @@ mastR
 mobileRNA
 normr
 VariantAnnotation
+ChIPanalyser
+GOTHiC
+GreyListChIP
+iCNV
+iSEEindex
+npGSEA

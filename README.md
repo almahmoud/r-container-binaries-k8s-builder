@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1761 (76%)
+- **Successfully Built:** 1767 (76%)
 - **Failed:** 13 (0%)
-- **In Progress:** 176
-- **Not Started:** 360
+- **In Progress:** 219
+- **Not Started:** 311
 
-**Progress:** 76%
+**Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1761)
+## Successfully Built Packages (1767)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1711 more ...*
+*... and 1717 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,63 +94,62 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (176)
+## In Progress (219)
+- ⏳ `APAlyzer`
 - ⏳ `BASiCS`
+- ⏳ `BBCAnalyzer`
+- ⏳ `BadRegionFinder`
 - ⏳ `BatchQC`
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioTIP`
 - ⏳ `CATALYST`
+- ⏳ `CCAFE`
 - ⏳ `CNEr`
+- ⏳ `CNVrd2`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `Cepo`
-- ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `ChromSCape`
 - ⏳ `CiteFuse`
 - ⏳ `CluMSID`
 - ⏳ `Cogito`
+- ⏳ `DAMEfinder`
 - ⏳ `DAPAR`
 - ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
 - ⏳ `Dino`
+- ⏳ `DominoEffect`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
-- ⏳ `GOTHiC`
+- ⏳ `GA4GHclient`
 - ⏳ `GOstats`
+- ⏳ `GSEABenchmarkeR`
+- ⏳ `GenVisR`
+- ⏳ `GenomicFiles`
 - ⏳ `GenomicInteractionNodes`
-- ⏳ `GreyListChIP`
 - ⏳ `Guitar`
+- ⏳ `HelloRanges`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
 - ⏳ `M3Drop`
+- ⏳ `MADSEQ`
 - ⏳ `MEB`
 - ⏳ `MEDIPS`
 - ⏳ `MMDiff2`
 - ⏳ `MOSim`
-- ⏳ `MPAC`
-- ⏳ `MSstatsQC`
-- ⏳ `MethylSeekR`
-- ⏳ `Motif2Site`
-- ⏳ `MotifPeeker`
-- ⏳ `NoRCE`
-- ⏳ `ORFhunteR`
-- ⏳ `Organism.dplyr`
-- ⏳ `OutSplice`
-- ⏳ `PRONE`
 
-... and 126 more ...
+... and 169 more ...
 
-## Not Yet Started (360)
+## Not Yet Started (311)
 - ⏸️ `AHMassBank`
-- ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -158,20 +157,16 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `BgeeCall`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
@@ -181,7 +176,6 @@
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `DSS`
@@ -191,7 +185,6 @@
 - ⏸️ `DegCre`
 - ⏸️ `DegNorm`
 - ⏸️ `DiffBind`
-- ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
 - ⏸️ `ELViS`
@@ -199,9 +192,16 @@
 - ⏸️ `EpiCompare`
 - ⏸️ `EpiTxDb`
 - ⏸️ `EventPointer`
+- ⏸️ `ExperimentHubData`
+- ⏸️ `FLAMES`
+- ⏸️ `FRASER`
+- ⏸️ `GA4GHshiny`
+- ⏸️ `GARS`
+- ⏸️ `GNOSIS`
+- ⏸️ `GRaNIE`
 
-... and 310 more ...
+... and 261 more ...
 
 ---
-*Last updated: 2025-10-31 07:31:45 UTC*
+*Last updated: 2025-10-31 07:34:21 UTC*
 *Packages with verified BBS status: 149*
