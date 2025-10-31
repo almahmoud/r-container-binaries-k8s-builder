@@ -873,3 +873,6 @@ MethTargetedNGS
 QSutils
 ggseqalign
 sangerseqR
+BiocSingular
+beachmat.tiledb
+scrapper

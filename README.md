@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 833 (37%)
+- **Successfully Built:** 837 (37%)
 - **Failed:** 1 (0%)
-- **In Progress:** 36
-- **Not Started:** 1374
+- **In Progress:** 37
+- **Not Started:** 1369
 
 **Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (833)
+## Successfully Built Packages (837)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 783 more ...*
+*... and 787 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,25 +82,24 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (36)
+## In Progress (37)
 - ⏳ `AnnotationDbi`
 - ⏳ `FELLA`
 - ⏳ `GateFinder`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
+- ⏳ `IMMAN`
 - ⏳ `MEDME`
-- ⏳ `MSstatsLiP`
 - ⏳ `MSstatsShiny`
 - ⏳ `MetaCyto`
+- ⏳ `MethTargetedNGS`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
-- ⏳ `Structstrings`
+- ⏳ `QSutils`
 - ⏳ `adverSCarial`
 - ⏳ `affyILM`
 - ⏳ `affyPLM`
-- ⏳ `altcdfenvs`
-- ⏳ `beachmat`
 - ⏳ `cigarillo`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
@@ -109,6 +108,7 @@
 - ⏳ `flowMerge`
 - ⏳ `flowTrans`
 - ⏳ `flowWorkspace`
+- ⏳ `ggseqalign`
 - ⏳ `igblastr`
 - ⏳ `maskBAD`
 - ⏳ `motifcounter`
@@ -116,11 +116,12 @@
 - ⏳ `phantasusLite`
 - ⏳ `phyloseq`
 - ⏳ `procoil`
+- ⏳ `sangerseqR`
 - ⏳ `scPCA`
 - ⏳ `sketchR`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1374)
+## Not Yet Started (1369)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -172,8 +173,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1324 more ...
+... and 1319 more ...
 
 ---
-*Last updated: 2025-10-31 23:49:34 UTC*
+*Last updated: 2025-10-31 23:50:19 UTC*
 *Packages with verified BBS status: 106*
