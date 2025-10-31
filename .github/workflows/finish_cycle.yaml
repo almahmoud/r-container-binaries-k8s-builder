@@ -15,8 +15,8 @@ jobs:
 
       - name: Update to latest
         run: |
-          git pull origin ${GITHUB_REF#refs/heads/}
-          git reset --hard origin ${GITHUB_REF#refs/heads/}
+          git pull --rebase
+          git reset --hard HEAD
 
       - name: Save kubeconfig
         shell: bash
