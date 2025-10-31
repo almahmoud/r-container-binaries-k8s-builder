@@ -2620,7 +2620,6 @@
     "GSEABase",
     "annotate"
   ],
-  "Rcpi": [],
   "ReactomeGSA": [],
   "ReactomePA": [
     "DOSE",
@@ -2809,7 +2808,6 @@
     "SingleCellExperiment"
   ],
   "SEtools": [
-    "sechm",
     "DESeq2",
     "sva",
     "genefilter",
@@ -3752,7 +3750,6 @@
     "DESeq2",
     "genefilter",
     "clusterProfiler",
-    "sechm",
     "DOSE",
     "enrichplot",
     "annotate"
@@ -6129,7 +6126,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "qmtools": [],
   "qpgraph": [
     "annotate",
     "GenomicFeatures",
@@ -6331,7 +6327,6 @@
   "rtracklayer": [
     "GenomicAlignments"
   ],
-  "runibic": [],
   "sSNAPPY": [
     "graphite"
   ],
@@ -6453,7 +6448,6 @@
     "SingleCellExperiment",
     "scuttle"
   ],
-  "scMultiSim": [],
   "scPipe": [
     "SingleCellExperiment",
     "biomaRt",
@@ -6587,7 +6581,6 @@
     "scuttle"
   ],
   "scrapper": [],
-  "screenCounter": [],
   "scruff": [
     "GenomicAlignments",
     "GenomicFeatures",
@@ -6614,7 +6607,6 @@
     "scater",
     "scuttle"
   ],
-  "sechm": [],
   "segmentSeq": [
     "ShortRead",
     "GenomicAlignments"

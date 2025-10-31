@@ -1049,3 +1049,9 @@ regsplice
 rScudo
 SimBu
 sRACIPE
+qmtools
+Rcpi
+runibic
+scMultiSim
+screenCounter
+sechm
