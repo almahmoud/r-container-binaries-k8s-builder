@@ -786,3 +786,16 @@ MsBackendMetaboLights
 MsBackendSql
 optimalFlow
 SpectraQL
+BCRANK
+BRAIN
+DelayedRandomArray
+KEGGREST
+ldblock
+MsBackendRawFileReader
+R4RNA
+Rarr
+rhdf5client
+SELEX
+SpectriPy
+SynMut
+TileDBArray

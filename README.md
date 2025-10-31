@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 788 (35%)
+- **Successfully Built:** 801 (35%)
 - **Failed:** 1 (0%)
-- **In Progress:** 62
-- **Not Started:** 1393
+- **In Progress:** 54
+- **Not Started:** 1388
 
 **Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (788)
+## Successfully Built Packages (801)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 738 more ...*
+*... and 751 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,33 +82,23 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (62)
-- ⏳ `BCRANK`
-- ⏳ `BRAIN`
+## In Progress (54)
 - ⏳ `DECIPHER`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
-- ⏳ `DelayedRandomArray`
+- ⏳ `GateFinder`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
-- ⏳ `KEGGREST`
 - ⏳ `MEDME`
 - ⏳ `MSstatsPTM`
 - ⏳ `MetaCyto`
-- ⏳ `MsBackendRawFileReader`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
 - ⏳ `PhyloProfile`
-- ⏳ `R4RNA`
-- ⏳ `Rarr`
 - ⏳ `ResidualMatrix`
-- ⏳ `SELEX`
 - ⏳ `ScaledMatrix`
-- ⏳ `SpectriPy`
 - ⏳ `Structstrings`
-- ⏳ `SynMut`
-- ⏳ `TileDBArray`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
@@ -118,6 +108,10 @@
 - ⏳ `cleaver`
 - ⏳ `coRdon`
 - ⏳ `cogeqc`
+- ⏳ `cyanoFilter`
+- ⏳ `ddPCRclust`
+- ⏳ `flowBin`
+- ⏳ `flowCut`
 - ⏳ `flowMerge`
 - ⏳ `flowTrans`
 - ⏳ `flowWorkspace`
@@ -125,7 +119,6 @@
 - ⏳ `idpr`
 - ⏳ `igblastr`
 - ⏳ `kebabs`
-- ⏳ `ldblock`
 - ⏳ `microRNA`
 - ⏳ `motifcounter`
 - ⏳ `msa`
@@ -133,10 +126,17 @@
 - ⏳ `ngsReports`
 - ⏳ `orthogene`
 - ⏳ `phyloseq`
+- ⏳ `pwalign`
+- ⏳ `rBLAST`
+- ⏳ `rRDP`
+- ⏳ `rSWeeP`
+- ⏳ `rfaRm`
+- ⏳ `rprimer`
+- ⏳ `sarks`
 
-... and 12 more ...
+... and 4 more ...
 
-## Not Yet Started (1393)
+## Not Yet Started (1388)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
 
-... and 1343 more ...
+... and 1338 more ...
 
 ---
-*Last updated: 2025-10-31 23:41:54 UTC*
+*Last updated: 2025-10-31 23:43:12 UTC*
 *Packages with verified BBS status: 105*
