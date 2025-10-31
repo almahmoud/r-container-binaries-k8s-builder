@@ -893,3 +893,12 @@ idr2d
 MSA2dist
 openPrimeR
 TDbasedUFE
+BANDITS
+FELLA
+megadepth
+Rarr
+rhdf5client
+Rsamtools
+SeqArray
+SigFuge
+SQLDataFrame
