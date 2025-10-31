@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1368 (59%)
+- **Successfully Built:** 1371 (59%)
 - **Failed:** 9 (0%)
-- **In Progress:** 179
-- **Not Started:** 754
+- **In Progress:** 177
+- **Not Started:** 753
 
 **Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1368)
+## Successfully Built Packages (1371)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1318 more ...*
+*... and 1321 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (179)
+## In Progress (177)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -100,6 +100,7 @@
 - ⏳ `BUSseq`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
+- ⏳ `BgeeDB`
 - ⏳ `BiocHubsShiny`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
@@ -112,7 +113,6 @@
 - ⏳ `CoGAPS`
 - ⏳ `CrispRVariants`
 - ⏳ `CuratedAtlasQueryR`
-- ⏳ `CyTOFpower`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DEXSeq`
@@ -142,9 +142,9 @@
 - ⏳ `MsDataHub`
 - ⏳ `MsExperiment`
 
-... and 129 more ...
+... and 127 more ...
 
-## Not Yet Started (754)
+## Not Yet Started (753)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -174,7 +174,6 @@
 - ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
@@ -195,9 +194,10 @@
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
+- ⏸️ `CNVrd2`
 
-... and 704 more ...
+... and 703 more ...
 
 ---
-*Last updated: 2025-10-31 05:22:32 UTC*
+*Last updated: 2025-10-31 05:23:27 UTC*
 *Packages with verified BBS status: 130*

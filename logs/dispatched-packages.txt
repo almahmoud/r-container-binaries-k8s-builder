@@ -1555,3 +1555,8 @@ sampleClassifier
 broadSeq
 isomiRs
 BgeeDB
+crlmm
+lemur
+mBPCR
+oligo
+transformGamPoi

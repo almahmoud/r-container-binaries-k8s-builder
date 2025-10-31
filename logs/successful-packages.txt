@@ -1366,3 +1366,6 @@ scp
 SiPSiC
 vsclust
 zellkonverter
+CyTOFpower
+glmGamPoi
+oligoClasses
