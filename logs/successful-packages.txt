@@ -465,3 +465,4 @@ alevinQC
 ctsGE
 scFeatureFilter
 shiny.gosling
+DEsingle

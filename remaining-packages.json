@@ -3647,7 +3647,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "DEsingle": [],
   "DEsubs": [
     "graph",
     "RBGL",
