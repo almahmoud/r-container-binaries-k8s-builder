@@ -1278,7 +1278,6 @@
     "sva",
     "genefilter"
   ],
-  "LACE": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -1958,7 +1957,6 @@
     "scran",
     "scuttle"
   ],
-  "RepViz": [],
   "Repitools": [
     "GenomicAlignments",
     "rtracklayer",
@@ -2842,7 +2840,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "cTRAP": [],
   "cageminer": [
     "ggbio",
     "BioNERO",
@@ -3888,7 +3885,6 @@
   "immApex": [
     "SingleCellExperiment"
   ],
-  "immunogenViewer": [],
   "infercnv": [
     "SingleCellExperiment"
   ],

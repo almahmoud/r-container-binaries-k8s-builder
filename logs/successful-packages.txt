@@ -1262,3 +1262,7 @@ ProteoMM
 SWATH2stats
 transcriptogramer
 VegaMC
+cTRAP
+immunogenViewer
+LACE
+RepViz

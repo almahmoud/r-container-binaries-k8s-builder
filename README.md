@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1264 (54%)
+- **Successfully Built:** 1268 (54%)
 - **Failed:** 8 (0%)
-- **In Progress:** 119
-- **Not Started:** 919
+- **In Progress:** 139
+- **Not Started:** 895
 
 **Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1264)
+## Successfully Built Packages (1268)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1214 more ...*
+*... and 1218 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,11 +89,16 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (119)
+## In Progress (139)
+- ⏳ `AMARETTO`
 - ⏳ `Anaquin`
+- ⏳ `BiocHubsShiny`
+- ⏳ `BloodGen3Module`
 - ⏳ `CEMiTool`
+- ⏳ `CTdata`
 - ⏳ `CaMutQC`
 - ⏳ `CeTF`
+- ⏳ `CoSIA`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DEFormats`
@@ -101,10 +106,12 @@
 - ⏳ `DELocal`
 - ⏳ `DEWSeq`
 - ⏳ `DEsubs`
+- ⏳ `DeepTarget`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
+- ⏳ `EpipwR`
 - ⏳ `GOpro`
 - ⏳ `GSEABase`
 - ⏳ `GenomicAlignments`
@@ -115,7 +122,8 @@
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
 - ⏳ `HybridExpress`
-- ⏳ `LACE`
+- ⏳ `LRcell`
+- ⏳ `MACSr`
 - ⏳ `MGFM`
 - ⏳ `MGFR`
 - ⏳ `MICSQTL`
@@ -123,32 +131,23 @@
 - ⏳ `MetaPhOR`
 - ⏳ `MetaboAnnotation`
 - ⏳ `MicrobiomeProfiler`
+- ⏳ `MsDataHub`
 - ⏳ `MsExperiment`
 - ⏳ `MultiRNAflow`
 - ⏳ `NetActivity`
 - ⏳ `NetSAM`
+- ⏳ `PDATK`
 - ⏳ `PREDA`
 - ⏳ `PSMatch`
 - ⏳ `PathoStat`
-- ⏳ `ReducedExperiment`
-- ⏳ `RegEnrich`
-- ⏳ `RepViz`
-- ⏳ `SPONGE`
-- ⏳ `SemDist`
-- ⏳ `SeqGSEA`
-- ⏳ `SingleCellExperiment`
-- ⏳ `SingleR`
-- ⏳ `TCC`
-- ⏳ `TCGAbiolinks`
 
-... and 69 more ...
+... and 89 more ...
 
-## Not Yet Started (919)
+## Not Yet Started (895)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
-- ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
 - ⏸️ `APL`
 - ⏸️ `ASICS`
@@ -189,14 +188,15 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
-- ⏸️ `BiocHubsShiny`
-- ⏸️ `BloodGen3Module`
 - ⏸️ `BubbleTree`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
+- ⏸️ `CAGEfightR`
+- ⏸️ `CAGEr`
+- ⏸️ `CAMERA`
 
-... and 869 more ...
+... and 845 more ...
 
 ---
-*Last updated: 2025-10-31 04:51:05 UTC*
+*Last updated: 2025-10-31 04:52:20 UTC*
 *Packages with verified BBS status: 124*
