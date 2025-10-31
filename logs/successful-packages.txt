@@ -726,3 +726,5 @@ derfinderHelper
 dStruct
 epiNEM
 lpNet
+ComplexHeatmap
+qcmetrics

@@ -744,3 +744,9 @@ nucleoSim
 uSORT
 alabaster.bumpy
 nempi
+CCPlotR
+ClustAll
+InteractiveComplexHeatmap
+cola
+markeR
+simona
