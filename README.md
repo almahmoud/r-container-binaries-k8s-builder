@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 595 (26%)
+- **Successfully Built:** 608 (27%)
 - **Failed:** 1 (0%)
-- **In Progress:** 50
-- **Not Started:** 1598
+- **In Progress:** 57
+- **Not Started:** 1578
 
-**Progress:** 26%
+**Progress:** 27%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (595)
+## Successfully Built Packages (608)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BADER](https://bioconductor.org/packages/3.22/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BADER) |
 | [BAGS](https://bioconductor.org/packages/3.22/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BAGS) |
 
-*... and 545 more ...*
+*... and 558 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,59 +82,61 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (50)
+## In Progress (57)
 - ⏳ `AIMS`
+- ⏳ `AffyRNADegradation`
 - ⏳ `BioQC`
+- ⏳ `CGHnormaliter`
+- ⏳ `Cormotif`
+- ⏳ `ExiMiR`
+- ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
-- ⏳ `Harman`
+- ⏳ `HTqPCR`
+- ⏳ `MOGAMUN`
+- ⏳ `MSstatsBioNet`
 - ⏳ `NanoTube`
 - ⏳ `PROPER`
 - ⏳ `RBGL`
 - ⏳ `RTopper`
 - ⏳ `RUVcorr`
 - ⏳ `RVS`
-- ⏳ `Rgraphviz`
-- ⏳ `S4Vectors`
+- ⏳ `Rnits`
 - ⏳ `SIMD`
 - ⏳ `SRAdb`
+- ⏳ `STATegRa`
 - ⏳ `SuperCellCyto`
 - ⏳ `TMixClust`
+- ⏳ `TurboNorm`
 - ⏳ `a4Preproc`
 - ⏳ `aCGH`
+- ⏳ `affyContam`
 - ⏳ `anota`
 - ⏳ `bioassayR`
 - ⏳ `biobroom`
-- ⏳ `clusterStab`
 - ⏳ `compcodeR`
 - ⏳ `diggit`
-- ⏳ `dyebias`
-- ⏳ `eiR`
+- ⏳ `fedup`
 - ⏳ `fmcsR`
 - ⏳ `fobitools`
-- ⏳ `hapFabia`
-- ⏳ `martini`
-- ⏳ `metabomxtr`
+- ⏳ `frmaTools`
+- ⏳ `makecdfenv`
 - ⏳ `metagenomeSeq`
-- ⏳ `metapone`
 - ⏳ `mosbi`
 - ⏳ `mzR`
-- ⏳ `nethet`
+- ⏳ `panp`
 - ⏳ `parglms`
 - ⏳ `piano`
+- ⏳ `plier`
 - ⏳ `profileScoreDist`
 - ⏳ `progeny`
-- ⏳ `rain`
+- ⏳ `pvac`
+- ⏳ `qpcrNorm`
 - ⏳ `rcellminer`
-- ⏳ `rebook`
-- ⏳ `roastgsa`
-- ⏳ `rsbml`
-- ⏳ `scde`
-- ⏳ `siggenes`
-- ⏳ `subSeq`
-- ⏳ `variancePartition`
 
-## Not Yet Started (1598)
+... and 7 more ...
+
+## Not Yet Started (1578)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -154,7 +156,6 @@
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
 - ⏸️ `AffiXcan`
-- ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
@@ -185,9 +186,10 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
 
-... and 1548 more ...
+... and 1528 more ...
 
 ---
-*Last updated: 2025-10-31 22:40:59 UTC*
+*Last updated: 2025-10-31 22:41:57 UTC*
 *Packages with verified BBS status: 97*
