@@ -458,3 +458,13 @@ scShapes
 scTHI
 statTarget
 ternarynet
+GenProSeq
+Rigraphlib
+basilisk
+ggtreeDendro
+ggtreeExtra
+ggtreeSpace
+philr
+scBubbletree
+sitePath
+tanggle
