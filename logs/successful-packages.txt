@@ -825,3 +825,6 @@ kebabs
 alabaster.string
 SynExtend
 transomics2cytoscape
+ggmsa
+muscle
+ROntoTools

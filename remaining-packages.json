@@ -291,7 +291,6 @@
     "annotate"
   ],
   "BLMA": [
-    "ROntoTools",
     "PADOG",
     "AnnotationDbi"
   ],
@@ -4266,7 +4265,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "ROntoTools": [],
   "RPA": [
     "phyloseq"
   ],
@@ -7922,7 +7920,6 @@
     "SeqArray",
     "GenomicRanges"
   ],
-  "ggmsa": [],
   "ggsc": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -8997,7 +8994,6 @@
     "cigarillo"
   ],
   "mirIntegrator": [
-    "ROntoTools",
     "AnnotationDbi"
   ],
   "missMethyl": [
@@ -9296,7 +9292,6 @@
     "beachmat",
     "BiocSingular"
   ],
-  "muscle": [],
   "musicatk": [
     "SummarizedExperiment",
     "VariantAnnotation",
