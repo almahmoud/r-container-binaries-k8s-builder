@@ -191,9 +191,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "HiLDA": [],
   "IMAS": [],
-  "INSPEcT": [],
   "IPO": [],
   "IntEREst": [],
   "IsoformSwitchAnalyzeR": [
@@ -718,9 +716,7 @@
   "segmenter": [
     "ChIPseeker"
   ],
-  "selectKSigs": [
-    "HiLDA"
-  ],
+  "selectKSigs": [],
   "seqArchRplus": [
     "ChIPseeker"
   ],

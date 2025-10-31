@@ -2006,3 +2006,5 @@ FindIT2
 EDASeq
 IVAS
 mumosa
+HiLDA
+INSPEcT

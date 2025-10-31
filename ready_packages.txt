@@ -1,4 +1,1 @@
-DaMiRseq
-IMAS
-RUVSeq
-metaseqR2
+selectKSigs
