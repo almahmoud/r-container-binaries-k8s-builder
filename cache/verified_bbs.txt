@@ -1,4 +1,5 @@
 ABSSeq
+ACME
 AMOUNTAIN
 ANCOMBC
 ARRmNormalization
@@ -19,6 +20,7 @@ AnVILGCP
 AnVILPublish
 AnVILWorkflow
 BADER
+BAGS
 BEclear
 BG2
 BUS
@@ -73,6 +75,7 @@ tanggle
 ternarynet
 tidysbml
 timeOmics
+timecourse
 timescape
 tkWidgets
 tomoseqr
@@ -80,10 +83,13 @@ topconfects
 treeio
 tripr
 ttgsea
+tweeDEseq
+twilight
 tximport
 unifiedWMWqPCR
 vbmp
 veloviz
+viper
 weaver
 widgetTools
 xmapbridge
