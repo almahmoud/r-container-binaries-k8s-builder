@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1099 (47%)
+- **Successfully Built:** 1106 (47%)
 - **Failed:** 8 (0%)
-- **In Progress:** 142
-- **Not Started:** 1061
+- **In Progress:** 137
+- **Not Started:** 1059
 
-**Progress:** 47%
+**Progress:** 48%
 ```
-███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1099)
+## Successfully Built Packages (1106)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1049 more ...*
+*... and 1056 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (142)
+## In Progress (137)
 - ⏳ `AnnotationHub`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
@@ -105,8 +105,6 @@
 - ⏳ `EDIRquery`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
-- ⏳ `GEOquery`
-- ⏳ `GNET2`
 - ⏳ `GRmetrics`
 - ⏳ `GWENA`
 - ⏳ `GenomicAlignments`
@@ -121,7 +119,6 @@
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
 - ⏳ `MOFA2`
-- ⏳ `Macarron`
 - ⏳ `MesKit`
 - ⏳ `MetMashR`
 - ⏳ `MetaboDynamics`
@@ -129,21 +126,24 @@
 - ⏳ `MicrobiotaProcess`
 - ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
-- ⏳ `NormalyzerDE`
-- ⏳ `OVESEG`
 - ⏳ `PADOG`
 - ⏳ `PhosR`
+- ⏳ `RTNsurvival`
 - ⏳ `ReactomeGSA`
 - ⏳ `SVMDO`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
 - ⏳ `SpatialCPie`
 - ⏳ `SplicingFactory`
-- ⏳ `StabMap`
+- ⏳ `SubCellBarCode`
+- ⏳ `TIN`
+- ⏳ `TOAST`
+- ⏳ `TREG`
+- ⏳ `TTMap`
 
-... and 92 more ...
+... and 87 more ...
 
-## Not Yet Started (1061)
+## Not Yet Started (1059)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 
-... and 1011 more ...
+... and 1009 more ...
 
 ---
-*Last updated: 2025-10-31 04:15:50 UTC*
+*Last updated: 2025-10-31 04:17:25 UTC*
 *Packages with verified BBS status: 121*

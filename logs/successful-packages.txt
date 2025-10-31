@@ -1097,3 +1097,10 @@ PCAtools
 RTNduals
 scrapper
 wpm
+cmapR
+GEOquery
+GNET2
+Macarron
+NormalyzerDE
+OVESEG
+StabMap
