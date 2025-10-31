@@ -446,3 +446,5 @@ DepecheR
 DNAcycP2
 NPARC
 scBubbletree
+BEclear
+Oscope
