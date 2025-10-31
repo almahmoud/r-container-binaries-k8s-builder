@@ -2153,3 +2153,12 @@ IMAS
 RUVSeq
 metaseqR2
 selectKSigs
+ATACseqQC
+DEScan2
+EpiCompare
+REDseq
+esATAC
+profileplyr
+segmenter
+seqArchRplus
+vulcan

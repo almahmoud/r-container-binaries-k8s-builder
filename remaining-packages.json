@@ -7,9 +7,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "ATACseqQC": [
-    "ChIPpeakAnno"
-  ],
+  "ATACseqQC": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -81,8 +79,6 @@
   "ChIPexoQual": [
     "biovizBase"
   ],
-  "ChIPpeakAnno": [],
-  "ChIPseeker": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "SGSeq"
@@ -92,9 +88,7 @@
     "karyoploteR",
     "biovizBase"
   ],
-  "DEScan2": [
-    "ChIPpeakAnno"
-  ],
+  "DEScan2": [],
   "DMRcate": [
     "missMethyl",
     "Gviz",
@@ -120,9 +114,7 @@
   ],
   "ELViS": [],
   "ENmix": [],
-  "EpiCompare": [
-    "ChIPseeker"
-  ],
+  "EpiCompare": [],
   "EpiMix": [],
   "EpiTxDb": [],
   "EventPointer": [
@@ -153,8 +145,7 @@
     "OrganismDbi"
   ],
   "GUIDEseq": [
-    "CRISPRseek",
-    "ChIPpeakAnno"
+    "CRISPRseek"
   ],
   "GeDi": [
     "GeneTonic",
@@ -169,7 +160,6 @@
     "mosdef",
     "goseq"
   ],
-  "GenomicInteractionNodes": [],
   "GenomicInteractions": [
     "Gviz",
     "biovizBase"
@@ -231,7 +221,6 @@
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
-    "ChIPpeakAnno",
     "Gviz",
     "biovizBase"
   ],
@@ -265,9 +254,7 @@
   ],
   "RAIDS": [],
   "RCAS": [],
-  "REDseq": [
-    "ChIPpeakAnno"
-  ],
+  "REDseq": [],
   "REMP": [],
   "RITAN": [],
   "RJMCMCNucleosomes": [
@@ -450,7 +437,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "condiments": [],
   "consensusDE": [
     "RUVSeq"
   ],
@@ -525,9 +511,7 @@
   "erma": [
     "OrganismDbi"
   ],
-  "esATAC": [
-    "ChIPseeker"
-  ],
+  "esATAC": [],
   "extraChIPs": [],
   "fCCAC": [],
   "ffpe": [
@@ -670,14 +654,9 @@
   ],
   "proActiv": [],
   "proBAMr": [],
-  "profileplyr": [
-    "ChIPseeker",
-    "rGREAT"
-  ],
+  "profileplyr": [],
   "quantro": [],
   "rGADEM": [],
-  "rGREAT": [],
-  "raer": [],
   "recountmethylation": [],
   "recoup": [],
   "regutools": [
@@ -695,7 +674,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "scDblFinder": [],
   "scFeatures": [],
   "scMerge": [],
   "scTreeViz": [
@@ -713,13 +691,9 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "segmenter": [
-    "ChIPseeker"
-  ],
+  "segmenter": [],
   "selectKSigs": [],
-  "seqArchRplus": [
-    "ChIPseeker"
-  ],
+  "seqArchRplus": [],
   "shinyDSP": [
     "standR",
     "RUVSeq"
@@ -729,8 +703,7 @@
   "signeR": [],
   "singleCellTK": [
     "scMerge",
-    "celda",
-    "scDblFinder"
+    "celda"
   ],
   "sitadela": [],
   "skewr": [
@@ -772,9 +745,7 @@
     "OrganismDbi",
     "biovizBase"
   ],
-  "vulcan": [
-    "ChIPpeakAnno"
-  ],
+  "vulcan": [],
   "wateRmelon": [
     "methylumi",
     "lumi"

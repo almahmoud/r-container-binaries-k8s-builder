@@ -1,0 +1,9 @@
+ATACseqQC
+DEScan2
+EpiCompare
+REDseq
+esATAC
+profileplyr
+segmenter
+seqArchRplus
+vulcan

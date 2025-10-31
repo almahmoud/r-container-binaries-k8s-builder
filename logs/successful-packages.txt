@@ -2008,3 +2008,10 @@ IVAS
 mumosa
 HiLDA
 INSPEcT
+ChIPpeakAnno
+ChIPseeker
+condiments
+GenomicInteractionNodes
+raer
+rGREAT
+scDblFinder
