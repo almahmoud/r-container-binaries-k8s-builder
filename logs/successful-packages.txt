@@ -1321,3 +1321,8 @@ NetSAM
 sccomp
 scmap
 ToxicoGx
+GenomicScores
+MGFR
+phantasus
+SingleR
+VplotR
