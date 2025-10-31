@@ -427,7 +427,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "ClusterFoldSimilarity": [],
   "Cogito": [
     "GenomicFeatures",
     "rtracklayer"
@@ -1446,9 +1445,7 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "Rbec": [
-    "dada2"
-  ],
+  "Rbec": [],
   "RbowtieCuda": [],
   "RcisTarget": [
     "AUCell",
@@ -1625,7 +1622,6 @@
     "rtracklayer",
     "GenomicFeatures"
   ],
-  "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
     "scran",
     "scuttle"
@@ -1992,7 +1988,6 @@
     "PSMatch",
     "MLInterfaces"
   ],
-  "basecallQC": [],
   "batchelor": [
     "scuttle"
   ],
@@ -2052,7 +2047,6 @@
     "regioneR",
     "txdbmaker"
   ],
-  "blacksheepr": [],
   "blima": [],
   "bnbc": [
     "sva"
@@ -2398,7 +2392,6 @@
   "cytoviewer": [
     "cytomapper"
   ],
-  "dada2": [],
   "dagLogo": [
     "motifStack",
     "TFBSTools",
@@ -3719,7 +3712,6 @@
     "scater",
     "scuttle"
   ],
-  "segmentSeq": [],
   "segmenter": [
     "ChIPseeker",
     "GenomicFeatures",

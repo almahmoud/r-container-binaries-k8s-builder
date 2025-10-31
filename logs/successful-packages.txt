@@ -1430,3 +1430,9 @@ lemur
 mspms
 OTUbase
 TSCAN
+basecallQC
+blacksheepr
+ClusterFoldSimilarity
+dada2
+segmentSeq
+SingleCellAlleleExperiment

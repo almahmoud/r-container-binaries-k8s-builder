@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1432 (61%)
+- **Successfully Built:** 1438 (62%)
 - **Failed:** 9 (0%)
-- **In Progress:** 182
-- **Not Started:** 687
+- **In Progress:** 177
+- **Not Started:** 686
 
 **Progress:** 62%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1432)
+## Successfully Built Packages (1438)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1382 more ...*
+*... and 1388 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (182)
+## In Progress (177)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -107,7 +107,6 @@
 - ⏳ `CDI`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
-- ⏳ `ClusterFoldSimilarity`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DifferentialRegulation`
@@ -117,6 +116,7 @@
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
 - ⏳ `ExperimentSubset`
+- ⏳ `FEAST`
 - ⏳ `GSEABase`
 - ⏳ `GeneMeta`
 - ⏳ `GeoTcgaData`
@@ -142,9 +142,9 @@
 - ⏳ `Nebulosa`
 - ⏳ `NewWave`
 
-... and 132 more ...
+... and 127 more ...
 
-## Not Yet Started (687)
+## Not Yet Started (686)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRball`
 
-... and 637 more ...
+... and 636 more ...
 
 ---
-*Last updated: 2025-10-31 05:42:04 UTC*
+*Last updated: 2025-10-31 05:43:19 UTC*
 *Packages with verified BBS status: 131*
