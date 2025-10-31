@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2174 (94%)
+- **Successfully Built:** 2177 (94%)
 - **Failed:** 21 (0%)
-- **In Progress:** 56
-- **Not Started:** 59
+- **In Progress:** 54
+- **Not Started:** 58
 
 **Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2174)
+## Successfully Built Packages (2177)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2124 more ...*
+*... and 2127 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (56)
+## In Progress (54)
 - ⏳ `ASpli`
 - ⏳ `AllelicImbalance`
 - ⏳ `CircSeqAlignTk`
@@ -124,7 +124,6 @@
 - ⏳ `appreci8R`
 - ⏳ `biomvRCNS`
 - ⏳ `biscuiteer`
-- ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
 - ⏳ `chimeraviz`
 - ⏳ `cicero`
@@ -138,7 +137,6 @@
 - ⏳ `epivizrChart`
 - ⏳ `ggbio`
 - ⏳ `iNETgrate`
-- ⏳ `iSEEtree`
 - ⏳ `iSEEu`
 - ⏳ `ideal`
 - ⏳ `karyoploteR`
@@ -146,17 +144,19 @@
 - ⏳ `mCSEA`
 - ⏳ `maser`
 - ⏳ `methylPipe`
+- ⏳ `methylclock`
 - ⏳ `missMethyl`
 - ⏳ `motifbreakR`
 - ⏳ `pcaExplorer`
 - ⏳ `primirTSS`
 - ⏳ `regutools`
-- ⏳ `seqArchRplus`
 - ⏳ `shinyDSP`
+- ⏳ `singleCellTK`
+- ⏳ `srnadiff`
 
-... and 6 more ...
+... and 4 more ...
 
-## Not Yet Started (59)
+## Not Yet Started (58)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
@@ -206,10 +206,10 @@
 - ⏸️ `iSEEfier`
 - ⏸️ `intansv`
 - ⏸️ `methylGSA`
-- ⏸️ `methylclock`
+- ⏸️ `miaDash`
 
-... and 9 more ...
+... and 8 more ...
 
 ---
-*Last updated: 2025-10-31 10:58:08 UTC*
+*Last updated: 2025-10-31 10:59:21 UTC*
 *Packages with verified BBS status: 165*

@@ -2250,3 +2250,8 @@ tadar
 trackViewer
 uncoverappLib
 methylclock
+GNOSIS
+bioCancer
+canceR
+cbaf
+miaDash
