@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 1476 (63%)
 - **Failed:** 9 (0%)
-- **In Progress:** 149
-- **Not Started:** 676
+- **In Progress:** 151
+- **Not Started:** 674
 
 **Progress:** 64%
 ```
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (149)
+## In Progress (151)
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASURAT`
@@ -142,9 +142,9 @@
 - ⏳ `SemDist`
 - ⏳ `SeqGSEA`
 
-... and 99 more ...
+... and 101 more ...
 
-## Not Yet Started (676)
+## Not Yet Started (674)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 
-... and 626 more ...
+... and 624 more ...
 
 ---
-*Last updated: 2025-10-31 05:53:58 UTC*
+*Last updated: 2025-10-31 05:54:38 UTC*
 *Packages with verified BBS status: 133*
