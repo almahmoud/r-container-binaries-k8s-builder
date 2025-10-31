@@ -908,3 +908,6 @@ NanoStringNCTools
 odseq
 phyloseq
 syntenet
+baySeq
+LymphoSeq
+TileDBArray

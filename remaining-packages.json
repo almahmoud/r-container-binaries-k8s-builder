@@ -2339,7 +2339,6 @@
     "HDF5Array",
     "h5mread"
   ],
-  "LymphoSeq": [],
   "M3Drop": [
     "scater",
     "SingleCellExperiment",
@@ -4403,7 +4402,6 @@
     "biovizBase",
     "GenomicAlignments"
   ],
-  "TileDBArray": [],
   "TissueEnrich": [
     "SummarizedExperiment",
     "GSEABase",
@@ -5007,7 +5005,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "baySeq": [],
   "bcSeq": [],
   "beachmat": [],
   "beachmat.hdf5": [
@@ -5016,8 +5013,7 @@
     "h5mread"
   ],
   "beachmat.tiledb": [
-    "beachmat",
-    "TileDBArray"
+    "beachmat"
   ],
   "beadarray": [
     "AnnotationDbi"
@@ -5567,9 +5563,7 @@
     "enrichplot",
     "GOSemSim"
   ],
-  "clusterSeq": [
-    "baySeq"
-  ],
+  "clusterSeq": [],
   "clustifyr": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -8708,9 +8702,7 @@
     "txdbmaker",
     "GenomicAlignments"
   ],
-  "riboSeqR": [
-    "baySeq"
-  ],
+  "riboSeqR": [],
   "ribosomeProfilingQC": [
     "AnnotationDbi",
     "BSgenome",
@@ -9191,7 +9183,6 @@
     "SummarizedExperiment"
   ],
   "segmentSeq": [
-    "baySeq",
     "ShortRead",
     "GenomicAlignments",
     "SummarizedExperiment"

@@ -995,3 +995,5 @@ SIAMCAT
 microbiome
 microbiomeDASim
 reconsi
+clusterSeq
+riboSeqR
