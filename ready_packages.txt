@@ -1,7 +1,4 @@
-BiocCheck
-BiocPkgTools
-CNORdt
-CNORfeeder
-CNORfuzzy
-CNORode
-monocle
+SIMAT
+TargetDecoy
+msPurity
+nondetects

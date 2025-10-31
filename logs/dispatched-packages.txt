@@ -742,3 +742,7 @@ CNORfeeder
 CNORfuzzy
 CNORode
 monocle
+SIMAT
+TargetDecoy
+msPurity
+nondetects

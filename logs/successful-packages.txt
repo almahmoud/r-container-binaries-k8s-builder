@@ -688,3 +688,10 @@ NanoTube
 RTopper
 RVS
 UCSC.utils
+Doscheda
+ExploreModelMatrix
+HTqPCR
+mbQTL
+mzR
+pvca
+scde

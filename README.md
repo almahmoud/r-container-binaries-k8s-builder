@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 690 (29%)
+- **Successfully Built:** 697 (30%)
 - **Failed:** 6 (0%)
 - **In Progress:** 41
-- **Not Started:** 1573
+- **Not Started:** 1566
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (690)
+## Successfully Built Packages (697)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 640 more ...*
+*... and 647 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,14 +89,17 @@
 
 ## In Progress (41)
 - ⏳ `BiGGR`
+- ⏳ `BiocCheck`
+- ⏳ `BiocPkgTools`
+- ⏳ `CNORdt`
+- ⏳ `CNORfeeder`
+- ⏳ `CNORfuzzy`
+- ⏳ `CNORode`
 - ⏳ `CellMapper`
 - ⏳ `DFplyr`
-- ⏳ `Doscheda`
 - ⏳ `ExiMiR`
-- ⏳ `ExploreModelMatrix`
 - ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
-- ⏳ `HTqPCR`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
 - ⏳ `Maaslin2`
@@ -118,19 +121,16 @@
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `mbQTL`
 - ⏳ `mnem`
-- ⏳ `mzR`
-- ⏳ `pvca`
+- ⏳ `monocle`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
-- ⏳ `scde`
 - ⏳ `trio`
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1573)
+## Not Yet Started (1566)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -182,8 +182,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1523 more ...
+... and 1516 more ...
 
 ---
-*Last updated: 2025-10-31 00:42:46 UTC*
+*Last updated: 2025-10-31 00:43:29 UTC*
 *Packages with verified BBS status: 102*
