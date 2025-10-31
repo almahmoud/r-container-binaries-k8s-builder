@@ -5148,7 +5148,6 @@
     "SingleCellExperiment",
     "phyloseq"
   ],
-  "SynExtend": [],
   "TADCompare": [
     "HiCcompare",
     "InteractionSet",
@@ -5757,7 +5756,6 @@
     "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
-    "alabaster.string",
     "alabaster.vcf",
     "alabaster.mae",
     "MultiAssayExperiment",
@@ -5837,11 +5835,9 @@
     "GenomicRanges",
     "HDF5Array"
   ],
-  "alabaster.string": [],
   "alabaster.vcf": [
     "VariantAnnotation",
     "alabaster.se",
-    "alabaster.string",
     "Rsamtools",
     "SummarizedExperiment",
     "alabaster.ranges",
@@ -11672,7 +11668,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "transomics2cytoscape": [],
   "traseR": [
     "GenomicRanges",
     "BSgenome",

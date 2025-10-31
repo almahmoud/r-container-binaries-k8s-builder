@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 824 (36%)
+- **Successfully Built:** 827 (36%)
 - **Failed:** 1 (0%)
-- **In Progress:** 44
-- **Not Started:** 1375
+- **In Progress:** 42
+- **Not Started:** 1374
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (824)
+## Successfully Built Packages (827)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 774 more ...*
+*... and 777 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timeOmics](https://bioconductor.org/packages/3.22/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.22/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.22/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/topconfects) |
+| [transomics2cytoscape](https://bioconductor.org/packages/3.22/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.22/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tripr) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (44)
+## In Progress (42)
 - ⏳ `AnnotationDbi`
 - ⏳ `FELLA`
 - ⏳ `GateFinder`
@@ -97,11 +97,9 @@
 - ⏳ `PWMEnrich`
 - ⏳ `ROntoTools`
 - ⏳ `Structstrings`
-- ⏳ `SynExtend`
 - ⏳ `adverSCarial`
 - ⏳ `affyILM`
 - ⏳ `affyPLM`
-- ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
 - ⏳ `beachmat`
 - ⏳ `cigarillo`
@@ -122,13 +120,13 @@
 - ⏳ `ngsReports`
 - ⏳ `phantasusLite`
 - ⏳ `phyloseq`
+- ⏳ `procoil`
 - ⏳ `pwalign`
 - ⏳ `scPCA`
 - ⏳ `sketchR`
-- ⏳ `transomics2cytoscape`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1375)
+## Not Yet Started (1374)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -180,8 +178,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1325 more ...
+... and 1324 more ...
 
 ---
-*Last updated: 2025-10-31 23:47:56 UTC*
-*Packages with verified BBS status: 105*
+*Last updated: 2025-10-31 23:48:28 UTC*
+*Packages with verified BBS status: 106*

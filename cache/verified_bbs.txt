@@ -84,6 +84,7 @@ timescape
 tkWidgets
 tomoseqr
 topconfects
+transomics2cytoscape
 treeio
 trio
 tripr

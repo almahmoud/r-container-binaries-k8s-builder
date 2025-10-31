@@ -822,3 +822,6 @@ gcrma
 microRNA
 rRDP
 kebabs
+alabaster.string
+SynExtend
+transomics2cytoscape
