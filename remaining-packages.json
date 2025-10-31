@@ -13,12 +13,10 @@
   "ATACseqQC": [
     "ChIPpeakAnno",
     "motifStack",
-    "regioneR",
-    "TFBSTools"
+    "regioneR"
   ],
   "ATACseqTFEA": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "AgiMicroRna": [
     "affycoretools",
@@ -168,7 +166,6 @@
     "bsseq"
   ],
   "DeconvoBuddies": [],
-  "DegCre": [],
   "DegNorm": [
     "txdbmaker"
   ],
@@ -329,23 +326,18 @@
     "qpgraph"
   ],
   "MSnID": [
-    "msmsTests",
-    "msmsEDA"
+    "msmsTests"
   ],
   "MSstatsQC": [],
   "MSstatsQCgui": [
     "MSstatsQC"
   ],
-  "MatrixRider": [
-    "TFBSTools"
-  ],
+  "MatrixRider": [],
   "MetaboSignal": [
     "mygene",
     "txdbmaker"
   ],
-  "MethReg": [
-    "TFBSTools"
-  ],
+  "MethReg": [],
   "MethylAid": [],
   "MineICA": [
     "lumi",
@@ -366,8 +358,7 @@
     "Gviz",
     "txdbmaker",
     "regioneR",
-    "biovizBase",
-    "TFBSTools"
+    "biovizBase"
   ],
   "NanoMethViz": [
     "bsseq"
@@ -525,18 +516,15 @@
   ],
   "SpaNorm": [],
   "Spaniel": [],
-  "SparseSignatures": [],
   "SpliceWiz": [],
   "SplicingGraphs": [],
   "TAPseq": [],
   "TCGAutils": [],
   "TENET": [],
-  "TFBSTools": [],
   "TFHAZ": [
     "ORFik",
     "txdbmaker"
   ],
-  "TFutils": [],
   "TVTB": [
     "Gviz",
     "biovizBase"
@@ -584,8 +572,7 @@
     "methylumi"
   ],
   "atSNP": [
-    "motifStack",
-    "TFBSTools"
+    "motifStack"
   ],
   "attract": [],
   "bandle": [],
@@ -655,9 +642,7 @@
     "biovizBase"
   ],
   "chipenrich": [],
-  "chromVAR": [
-    "TFBSTools"
-  ],
+  "chromVAR": [],
   "cicero": [
     "Gviz",
     "biovizBase"
@@ -735,8 +720,7 @@
     "CATALYST"
   ],
   "dagLogo": [
-    "motifStack",
-    "TFBSTools"
+    "motifStack"
   ],
   "dandelionR": [],
   "dar": [
@@ -768,8 +752,7 @@
   "drugTargetInteractions": [],
   "easylift": [],
   "enhancerHomologSearch": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "epidecodeR": [],
   "epimutacions": [
@@ -779,8 +762,7 @@
     "txdbmaker"
   ],
   "epiregulon": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "epiregulon.extra": [],
   "epivizr": [
@@ -810,7 +792,6 @@
   "esATAC": [
     "pipeFrame",
     "ChIPseeker",
-    "TFBSTools",
     "motifmatchr"
   ],
   "escape": [],
@@ -975,25 +956,18 @@
   "missMethyl": [
     "methylumi"
   ],
-  "monaLisa": [
-    "TFBSTools"
-  ],
+  "monaLisa": [],
   "mosdef": [
     "goseq",
     "txdbmaker"
   ],
-  "motifStack": [
-    "TFBSTools"
-  ],
+  "motifStack": [],
   "motifbreakR": [
     "motifStack",
     "Gviz",
-    "biovizBase",
-    "TFBSTools"
+    "biovizBase"
   ],
-  "motifmatchr": [
-    "TFBSTools"
-  ],
+  "motifmatchr": [],
   "msImpute": [],
   "msgbsR": [
     "ggbio",
@@ -1001,10 +975,7 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "msmsEDA": [],
-  "msmsTests": [
-    "msmsEDA"
-  ],
+  "msmsTests": [],
   "multicrispr": [
     "CRISPRseek",
     "karyoploteR",
@@ -1031,8 +1002,7 @@
   "oppar": [],
   "pRolocGUI": [],
   "pageRank": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "pcaExplorer": [
     "mosdef",
@@ -1049,7 +1019,6 @@
   ],
   "primirTSS": [
     "Gviz",
-    "TFBSTools",
     "biovizBase"
   ],
   "proActiv": [
@@ -1094,8 +1063,7 @@
     "EDASeq",
     "motifStack",
     "RUVSeq",
-    "txdbmaker",
-    "TFBSTools"
+    "txdbmaker"
   ],
   "saseR": [
     "ASpli",
@@ -1170,7 +1138,6 @@
   "spatzie": [
     "GenomicInteractions",
     "motifmatchr",
-    "TFBSTools",
     "Gviz",
     "biovizBase"
   ],
@@ -1200,7 +1167,6 @@
   "terraTCGAdata": [
     "TCGAutils"
   ],
-  "topdownr": [],
   "trackViewer": [
     "Gviz",
     "txdbmaker",

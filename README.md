@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1876 (81%)
-- **Failed:** 13 (0%)
-- **In Progress:** 169
-- **Not Started:** 252
+- **Successfully Built:** 1882 (81%)
+- **Failed:** 14 (0%)
+- **In Progress:** 168
+- **Not Started:** 246
 
-**Progress:** 81%
+**Progress:** 82%
 ```
-████████████████████████████████████████░░░░░░░░░░
+█████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1876)
+## Successfully Built Packages (1882)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1826 more ...*
+*... and 1832 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,12 +76,13 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (13)
+## Failed Packages (14)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [AneuFinder](https://bioconductor.org/packages/3.21/bioc/html/AneuFinder.html) | [log](logs/AneuFinder/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AneuFinder) | Build failed with unknown error |
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
+| [CNEr](https://bioconductor.org/packages/3.21/bioc/html/CNEr.html) | [log](logs/CNEr/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/CNEr) | Build failed with unknown error |
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
@@ -94,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (169)
+## In Progress (168)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -103,7 +104,6 @@
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioTIP`
 - ⏳ `CATALYST`
-- ⏳ `CNEr`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
@@ -116,7 +116,6 @@
 - ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
-- ⏳ `DegCre`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `ENmix`
@@ -124,6 +123,7 @@
 - ⏳ `FindIT2`
 - ⏳ `GRaNIE`
 - ⏳ `GenomicInteractionNodes`
+- ⏳ `GmicR`
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
@@ -144,11 +144,12 @@
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
 - ⏳ `SCOPE`
+- ⏳ `SGCP`
 - ⏳ `SGSeq`
 
-... and 119 more ...
+... and 118 more ...
 
-## Not Yet Started (252)
+## Not Yet Started (246)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -200,8 +201,8 @@
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
 
-... and 202 more ...
+... and 196 more ...
 
 ---
-*Last updated: 2025-10-31 08:24:18 UTC*
-*Packages with verified BBS status: 151*
+*Last updated: 2025-10-31 08:26:21 UTC*
+*Packages with verified BBS status: 152*

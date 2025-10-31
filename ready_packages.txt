@@ -1,6 +1,7 @@
-GmicR
-SGCP
-attract
-categoryCompare
-miRLAB
-scTensor
+MatrixRider
+MethReg
+chromVAR
+monaLisa
+motifStack
+motifmatchr
+msmsTests

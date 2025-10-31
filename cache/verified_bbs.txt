@@ -60,6 +60,7 @@ BufferedMatrix
 CARNIVAL
 CFAssay
 CGEN
+CNEr
 CONSTANd
 COSNet
 CausalR

@@ -1874,3 +1874,9 @@ derfinder
 GOstats
 Prostar
 VarCon
+DegCre
+msmsEDA
+SparseSignatures
+TFBSTools
+TFutils
+topdownr
