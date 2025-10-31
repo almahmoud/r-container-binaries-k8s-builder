@@ -1,0 +1,66 @@
+name: Delete Build Namespace
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete-namespace:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Save kubeconfig
+        shell: bash
+        run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+      
+      - name: Install Kubectl
+        run: |
+          curl -LO "https://storage.googleapis.com/kubernetes-release/release/v1.24.4/bin/linux/amd64/kubectl" && \
+          chmod +x ./kubectl && \
+          mv ./kubectl /usr/local/bin/kubectl && \
+          kubectl version
+
+      - name: Get build identifier
+        id: get_build_id
+        run: |
+          # Extract build ID from branch name
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          BUILD_ID=$(echo "${BRANCH_NAME}" | sed 's|build/||' | tr '/' '-')
+          echo "build_id=${BUILD_ID}" >> $GITHUB_OUTPUT
+          echo "Using Build ID: ${BUILD_ID}"
+
+      - name: Calculate namespace
+        id: calc_namespace
+        run: |
+          BUILD_ID="${{ steps.get_build_id.outputs.build_id }}"
+          
+          # Calculate truncated build ID for namespace (same logic as other workflows)
+          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
+          VERSION_SUFFIX="${BUILD_ID_CLEAN: -3}"
+          DATE_PART=$(echo "$BUILD_ID_CLEAN" | cut -d'-' -f1-3 | tr -d '-')
+          CONTAINER_HINT=$(echo "$BUILD_ID_CLEAN" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
+          BUILD_ID_SHORT="${DATE_PART}-${CONTAINER_HINT}-${VERSION_SUFFIX}"
+          NAMESPACE="ns-${BUILD_ID_SHORT}"
+          
+          echo "namespace=${NAMESPACE}" >> $GITHUB_OUTPUT
+          echo "Calculated namespace: ${NAMESPACE}"
+
+      - name: Delete namespace
+        run: |
+          NAMESPACE="${{ steps.calc_namespace.outputs.namespace }}"
+          
+          echo "Checking if namespace ${NAMESPACE} exists..."
+          if kubectl get namespace "${NAMESPACE}" >/dev/null 2>&1; then
+            echo "Deleting namespace ${NAMESPACE}..."
+            kubectl delete namespace "${NAMESPACE}" --wait=true --timeout=3600s
+            echo "Namespace ${NAMESPACE} deleted successfully"
+          else
+            echo "Namespace ${NAMESPACE} does not exist, nothing to delete"
+          fi
+
+      - name: Summary
+        run: |
+          echo "Build namespace cleanup completed"
+          echo "Build ID: ${{ steps.get_build_id.outputs.build_id }}"
+          echo "Namespace: ${{ steps.calc_namespace.outputs.namespace }}"
