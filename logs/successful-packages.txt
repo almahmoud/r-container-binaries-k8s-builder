@@ -1845,3 +1845,5 @@ PureCN
 scoreInvHap
 seqCAT
 StructuralVariantAnnotation
+DiffBind
+RareVariantVis
