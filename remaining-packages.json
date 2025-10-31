@@ -5580,7 +5580,6 @@
     "S4Vectors",
     "flowViz"
   ],
-  "GenProSeq": [],
   "GeneBreak": [
     "QDNAseq",
     "CGHcall",
@@ -14644,7 +14643,6 @@
     "cigarillo",
     "h5mread"
   ],
-  "alevinQC": [],
   "altcdfenvs": [
     "BiocGenerics",
     "S4Vectors",
@@ -22526,7 +22524,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "mitch": [],
   "mitoClone2": [
     "GenomicRanges",
     "deepSNV",

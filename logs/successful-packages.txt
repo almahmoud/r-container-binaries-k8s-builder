@@ -453,3 +453,6 @@ DEqMS
 SpaceMarkers
 AlpsNMR
 Rigraphlib
+alevinQC
+GenProSeq
+mitch
