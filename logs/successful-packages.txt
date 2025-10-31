@@ -1737,3 +1737,8 @@ VaSP
 RcisTarget
 scCB2
 TRESS
+atena
+casper
+Category
+GSVA
+MSnbase

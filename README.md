@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1739 (75%)
+- **Successfully Built:** 1744 (75%)
 - **Failed:** 13 (0%)
-- **In Progress:** 168
+- **In Progress:** 163
 - **Not Started:** 390
 
-**Progress:** 75%
+**Progress:** 76%
 ```
-█████████████████████████████████████░░░░░░░░░░░░░
+██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1739)
+## Successfully Built Packages (1744)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1689 more ...*
+*... and 1694 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (168)
+## In Progress (163)
 - ⏳ `BASiCS`
 - ⏳ `BSgenomeForge`
 - ⏳ `BatchQC`
@@ -105,7 +105,6 @@
 - ⏳ `CNEr`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
-- ⏳ `Category`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `Cepo`
@@ -121,7 +120,6 @@
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
-- ⏳ `GSVA`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GreyListChIP`
 - ⏳ `Guitar`
@@ -134,7 +132,6 @@
 - ⏳ `MMDiff2`
 - ⏳ `MOSim`
 - ⏳ `MPAC`
-- ⏳ `MSnbase`
 - ⏳ `MethylSeekR`
 - ⏳ `Motif2Site`
 - ⏳ `MotifPeeker`
@@ -145,8 +142,11 @@
 - ⏳ `Pigengene`
 - ⏳ `RFLOMICS`
 - ⏳ `Repitools`
+- ⏳ `Rmmquant`
+- ⏳ `SCOPE`
+- ⏳ `SGSeq`
 
-... and 118 more ...
+... and 113 more ...
 
 ## Not Yet Started (390)
 - ⏸️ `AHMassBank`
@@ -203,5 +203,5 @@
 ... and 340 more ...
 
 ---
-*Last updated: 2025-10-31 07:23:52 UTC*
+*Last updated: 2025-10-31 07:26:31 UTC*
 *Packages with verified BBS status: 147*
