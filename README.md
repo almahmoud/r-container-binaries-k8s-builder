@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 807 (34%)
+- **Successfully Built:** 821 (35%)
 - **Failed:** 7 (0%)
-- **In Progress:** 0
-- **Not Started:** 1496
+- **In Progress:** 98
+- **Not Started:** 1384
 
 **Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (807)
+## Successfully Built Packages (821)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 757 more ...*
+*... and 771 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,61 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## Not Yet Started (1496)
+## In Progress (98)
+- ⏳ `AnnotationFilter`
+- ⏳ `BREW3R.r`
+- ⏳ `CINdex`
+- ⏳ `CNVMetrics`
+- ⏳ `CONFESS`
+- ⏳ `CSAR`
+- ⏳ `DECIPHER`
+- ⏳ `DNAshapeR`
+- ⏳ `DRIMSeq`
+- ⏳ `DelayedArray`
+- ⏳ `EnrichedHeatmap`
+- ⏳ `G4SNVHunter`
+- ⏳ `GateFinder`
+- ⏳ `GeneRegionScan`
+- ⏳ `GenomAutomorphism`
+- ⏳ `GenomicDataCommons`
+- ⏳ `GenomicDistributions`
+- ⏳ `GenomicTuples`
+- ⏳ `GrafGen`
+- ⏳ `HiCBricks`
+- ⏳ `HilbertCurve`
+- ⏳ `MEDME`
+- ⏳ `MSstatsPTM`
+- ⏳ `Modstrings`
+- ⏳ `NanoStringNCTools`
+- ⏳ `PWMEnrich`
+- ⏳ `PhyloProfile`
+- ⏳ `Rsamtools`
+- ⏳ `SELEX`
+- ⏳ `SeqArray`
+- ⏳ `SigFuge`
+- ⏳ `Site2Target`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
+- ⏳ `TDbasedUFE`
+- ⏳ `TFARM`
+- ⏳ `TnT`
+- ⏳ `alabaster.ranges`
+- ⏳ `alabaster.string`
+- ⏳ `altcdfenvs`
+- ⏳ `bamsignals`
+- ⏳ `baySeq`
+- ⏳ `bcSeq`
+- ⏳ `chromDraw`
+- ⏳ `cleaver`
+- ⏳ `cnvGSA`
+- ⏳ `coRdon`
+- ⏳ `cogeqc`
+- ⏳ `crisprBase`
+- ⏳ `cyanoFilter`
+
+... and 48 more ...
+
+## Not Yet Started (1384)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -114,7 +168,6 @@
 - ⏸️ `Anaquin`
 - ⏸️ `AneuFinder`
 - ⏸️ `AnnotationDbi`
-- ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
@@ -124,14 +177,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BPRMeth`
-- ⏸️ `BRAIN`
-- ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
@@ -139,9 +188,14 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
+- ⏸️ `BadRegionFinder`
+- ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
+- ⏸️ `BatchQC`
 
-... and 1446 more ...
+... and 1334 more ...
 
 ---
-*Last updated: 2025-10-31 03:16:51 UTC*
+*Last updated: 2025-10-31 03:20:33 UTC*
 *Packages with verified BBS status: 107*

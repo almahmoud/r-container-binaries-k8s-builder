@@ -924,3 +924,9 @@ target
 transite
 triplex
 universalmotif
+AnnotationDbi
+FELLA
+Melissa
+ROntoTools
+ggmsa
+transomics2cytoscape

@@ -805,3 +805,17 @@ MsBackendSql
 optimalFlow
 SparseArray
 SpectraQL
+BCRANK
+BiFET
+BPRMeth
+BRAIN
+DMRcaller
+DMRScan
+GMRP
+IWTomics
+KEGGREST
+LOLA
+OmicCircos
+PIPETS
+Qtlizer
+R4RNA
