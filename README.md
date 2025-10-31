@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1925 (83%)
+- **Successfully Built:** 1927 (83%)
 - **Failed:** 14 (0%)
-- **In Progress:** 158
+- **In Progress:** 156
 - **Not Started:** 213
 
-**Progress:** 83%
+**Progress:** 84%
 ```
-█████████████████████████████████████████░░░░░░░░░
+██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1925)
+## Successfully Built Packages (1927)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1875 more ...*
+*... and 1877 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (158)
+## In Progress (156)
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -136,7 +136,6 @@
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethReg`
 - ⏳ `MethylAid`
-- ⏳ `MinimumDistance`
 - ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
@@ -146,8 +145,9 @@
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `Repitools`
+- ⏳ `RgnTX`
 
-... and 108 more ...
+... and 106 more ...
 
 ## Not Yet Started (213)
 - ⏸️ `AHMassBank`
@@ -204,5 +204,5 @@
 ... and 163 more ...
 
 ---
-*Last updated: 2025-10-31 08:44:00 UTC*
+*Last updated: 2025-10-31 08:44:51 UTC*
 *Packages with verified BBS status: 155*

@@ -305,7 +305,6 @@
     "lumi",
     "methylumi"
   ],
-  "MinimumDistance": [],
   "Moonlight2R": [
     "EpiMix"
   ],
@@ -826,7 +825,6 @@
     "txdbmaker"
   ],
   "methylumi": [],
-  "miRLAB": [],
   "miRSM": [],
   "miRspongeR": [],
   "mia": [],

@@ -1923,3 +1923,5 @@ regioneR
 EGSEA
 GmicR
 periodicDNA
+MinimumDistance
+miRLAB
