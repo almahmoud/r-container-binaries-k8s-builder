@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2052 (88%)
+- **Successfully Built:** 2055 (88%)
 - **Failed:** 19 (0%)
-- **In Progress:** 102
-- **Not Started:** 137
+- **In Progress:** 100
+- **Not Started:** 136
 
 **Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2052)
+## Successfully Built Packages (2055)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2002 more ...*
+*... and 2005 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (102)
+## In Progress (100)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
@@ -113,6 +113,7 @@
 - ⏳ `EventPointer`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
+- ⏳ `GenomicPlot`
 - ⏳ `IMAS`
 - ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
@@ -150,11 +151,10 @@
 - ⏳ `customProDB`
 - ⏳ `cytofQC`
 - ⏳ `dandelionR`
-- ⏳ `dce`
 
-... and 52 more ...
+... and 50 more ...
 
-## Not Yet Started (137)
+## Not Yet Started (136)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
@@ -186,7 +186,6 @@
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `GenomicPlot`
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `IsoformSwitchAnalyzeR`
@@ -205,9 +204,10 @@
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
+- ⏸️ `RTCGAToolbox`
 
-... and 87 more ...
+... and 86 more ...
 
 ---
-*Last updated: 2025-10-31 09:52:39 UTC*
+*Last updated: 2025-10-31 09:53:58 UTC*
 *Packages with verified BBS status: 161*

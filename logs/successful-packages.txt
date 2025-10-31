@@ -2050,3 +2050,6 @@ EpiTxDb
 IntEREst
 metaMS
 RCAS
+mygene
+proBAMr
+scmeth

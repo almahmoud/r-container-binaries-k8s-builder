@@ -187,9 +187,7 @@
   ],
   "MOSClip": [],
   "MSstatsQCgui": [],
-  "MetaboSignal": [
-    "mygene"
-  ],
+  "MetaboSignal": [],
   "MethylAid": [],
   "MineICA": [
     "lumi",
@@ -579,7 +577,6 @@
     "biovizBase"
   ],
   "musicatk": [],
-  "mygene": [],
   "netSmooth": [
     "clusterExperiment"
   ],
@@ -595,7 +592,6 @@
     "biovizBase"
   ],
   "proActiv": [],
-  "proBAMr": [],
   "profileplyr": [],
   "quantro": [],
   "rGADEM": [],
@@ -624,7 +620,6 @@
     "OrganismDbi"
   ],
   "scanMiRApp": [],
-  "scmeth": [],
   "scone": [
     "RUVSeq"
   ],
