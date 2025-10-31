@@ -998,3 +998,9 @@ reconsi
 scPCA
 SIAMCAT
 SpatialOmicsOverlay
+ACE
+alabaster.files
+cfdnakit
+h5mread
+heatmaps
+MODA

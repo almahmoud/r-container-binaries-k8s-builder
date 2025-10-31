@@ -6,22 +6,23 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1000 (43%)
+- **Successfully Built:** 1006 (43%)
 - **Failed:** 7 (0%)
-- **In Progress:** 209
-- **Not Started:** 1094
+- **In Progress:** 212
+- **Not Started:** 1085
 
 **Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1000)
+## Successfully Built Packages (1006)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.21/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.21/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABarray) |
+| [ACE](https://bioconductor.org/packages/3.21/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.21/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACME) |
 | [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
@@ -44,9 +45,8 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.21/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.21/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
-| [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 
-*... and 950 more ...*
+*... and 956 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,8 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (209)
-- ⏳ `ACE`
+## In Progress (212)
 - ⏳ `ADAM`
 - ⏳ `ALDEx2`
 - ⏳ `AnnotationForge`
@@ -138,11 +137,12 @@
 - ⏳ `MBQN`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
-- ⏳ `MODA`
+- ⏳ `MPRAnalyze`
+- ⏳ `MWASTools`
 
-... and 159 more ...
+... and 162 more ...
 
-## Not Yet Started (1094)
+## Not Yet Started (1085)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -194,8 +194,8 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 
-... and 1044 more ...
+... and 1035 more ...
 
 ---
-*Last updated: 2025-10-31 03:53:59 UTC*
-*Packages with verified BBS status: 113*
+*Last updated: 2025-10-31 03:55:01 UTC*
+*Packages with verified BBS status: 114*
