@@ -9,9 +9,9 @@ if [ $# -ne 4 ]; then
     exit 1
 fi
 
-# Sanitize names for DNS compliance
+# Sanitize names for DNS compliance (replace dots with hyphens, lowercase, remove special chars)
 sanitize_name() {
-    echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.'
+    echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
 }
 
 truncate_build_id() {
