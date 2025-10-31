@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1904 (82%)
+- **Successfully Built:** 1905 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 160
-- **Not Started:** 232
+- **In Progress:** 163
+- **Not Started:** 228
 
 **Progress:** 83%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1904)
+## Successfully Built Packages (1905)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1854 more ...*
+*... and 1855 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (160)
+## In Progress (163)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -108,6 +108,7 @@
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
+- ⏳ `CexoR`
 - ⏳ `ChIPQC`
 - ⏳ `ChIPseeker`
 - ⏳ `CiteFuse`
@@ -130,6 +131,7 @@
 - ⏳ `InPAS`
 - ⏳ `M3Drop`
 - ⏳ `MEB`
+- ⏳ `MSstatsQCgui`
 - ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MethylAid`
@@ -144,12 +146,10 @@
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
-- ⏳ `SGCP`
-- ⏳ `SGSeq`
 
-... and 110 more ...
+... and 113 more ...
 
-## Not Yet Started (232)
+## Not Yet Started (228)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -167,7 +167,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `COCOA`
-- ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
@@ -200,9 +199,10 @@
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
 - ⏸️ `Gviz`
+- ⏸️ `HiCDCPlus`
 
-... and 182 more ...
+... and 178 more ...
 
 ---
-*Last updated: 2025-10-31 08:32:47 UTC*
+*Last updated: 2025-10-31 08:34:14 UTC*
 *Packages with verified BBS status: 154*

@@ -1902,3 +1902,4 @@ gcapc
 genomation
 hiAnnotator
 MSstatsQC
+SpliceWiz
