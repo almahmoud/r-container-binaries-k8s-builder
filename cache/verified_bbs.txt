@@ -122,4 +122,5 @@ wppi
 xmapbridge
 yamss
 zFPKM
+zitools
 zlibbioc

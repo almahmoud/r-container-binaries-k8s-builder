@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1284 (55%)
+- **Successfully Built:** 1302 (56%)
 - **Failed:** 8 (0%)
-- **In Progress:** 123
-- **Not Started:** 895
+- **In Progress:** 211
+- **Not Started:** 789
 
-**Progress:** 55%
+**Progress:** 56%
 ```
-███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1284)
+## Successfully Built Packages (1302)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1234 more ...*
+*... and 1252 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.21/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.21/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twoddpcr) |
@@ -74,6 +73,7 @@
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
+| [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
 ## Failed Packages (8)
@@ -89,77 +89,72 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (123)
+## In Progress (211)
+- ⏳ `ADImpute`
 - ⏳ `AMARETTO`
+- ⏳ `APL`
+- ⏳ `ASICS`
+- ⏳ `ASURAT`
+- ⏳ `AneuFinder`
+- ⏳ `BUSseq`
+- ⏳ `BaalChIP`
+- ⏳ `BasicSTARRseq`
 - ⏳ `BiocHubsShiny`
-- ⏳ `BloodGen3Module`
+- ⏳ `CDI`
 - ⏳ `CEMiTool`
-- ⏳ `CTdata`
+- ⏳ `CHETAH`
+- ⏳ `COTAN`
 - ⏳ `CaMutQC`
 - ⏳ `CeTF`
+- ⏳ `CellBench`
+- ⏳ `CellTrails`
+- ⏳ `ClusterFoldSimilarity`
+- ⏳ `CoGAPS`
 - ⏳ `CoSIA`
+- ⏳ `CrispRVariants`
+- ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoML`
-- ⏳ `CytoPipeline`
 - ⏳ `DEFormats`
 - ⏳ `DEGreport`
 - ⏳ `DELocal`
 - ⏳ `DEWSeq`
 - ⏳ `DEsubs`
-- ⏳ `DeepTarget`
+- ⏳ `DifferentialRegulation`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
+- ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
-- ⏳ `EpipwR`
 - ⏳ `GSEABase`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
+- ⏳ `GloScope`
+- ⏳ `HIPPO`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
 - ⏳ `HybridExpress`
-- ⏳ `LRcell`
-- ⏳ `MACSr`
+- ⏳ `ILoReg`
+- ⏳ `LoomExperiment`
+- ⏳ `MAST`
+- ⏳ `MDTS`
 - ⏳ `MGFM`
 - ⏳ `MGFR`
-- ⏳ `MICSQTL`
-- ⏳ `MLSeq`
-- ⏳ `MetaPhOR`
-- ⏳ `MetaboAnnotation`
-- ⏳ `MicrobiomeProfiler`
-- ⏳ `MsDataHub`
-- ⏳ `MsExperiment`
-- ⏳ `NetActivity`
-- ⏳ `NetSAM`
-- ⏳ `PDATK`
-- ⏳ `PSMatch`
-- ⏳ `PathoStat`
-- ⏳ `PharmacoGx`
-- ⏳ `RadioGx`
-- ⏳ `ReducedExperiment`
-- ⏳ `RegEnrich`
-- ⏳ `SPONGE`
-- ⏳ `SemDist`
 
-... and 73 more ...
+... and 161 more ...
 
-## Not Yet Started (895)
-- ⏸️ `ADImpute`
+## Not Yet Started (789)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
-- ⏸️ `APL`
-- ⏸️ `ASICS`
 - ⏸️ `ASSIGN`
-- ⏸️ `ASURAT`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AneuFinder`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
@@ -171,12 +166,9 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BUSseq`
-- ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
-- ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
@@ -194,9 +186,17 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
+- ⏸️ `CARDspa`
+- ⏸️ `CATALYST`
+- ⏸️ `CBNplot`
+- ⏸️ `CCAFE`
+- ⏸️ `CCPROMISE`
+- ⏸️ `CNEr`
+- ⏸️ `CNTools`
+- ⏸️ `CNVfilteR`
 
-... and 845 more ...
+... and 739 more ...
 
 ---
-*Last updated: 2025-10-31 04:59:05 UTC*
-*Packages with verified BBS status: 125*
+*Last updated: 2025-10-31 05:03:11 UTC*
+*Packages with verified BBS status: 126*
