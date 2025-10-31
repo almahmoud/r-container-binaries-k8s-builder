@@ -479,3 +479,13 @@ systemPipeShiny
 edgeR
 mitch
 OSTA.data
+AWFisher
+BiocGenerics
+COMPASS
+erccdashboard
+fgsea
+methylMnM
+Polytect
+ROSeq
+ScreenR
+tweeDEseq

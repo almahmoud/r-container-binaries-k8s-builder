@@ -6,6 +6,7 @@ ASAFE
 ASEB
 ASGSCA
 ASSET
+AWFisher
 AlphaBeta
 AlphaMissenseR
 AlpsNMR
@@ -76,6 +77,7 @@ topconfects
 treeio
 tripr
 ttgsea
+tweeDEseq
 tximport
 vbmp
 veloviz
