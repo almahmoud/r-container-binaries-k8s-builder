@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 858 (37%)
+- **Successfully Built:** 864 (37%)
 - **Failed:** 7 (0%)
-- **In Progress:** 74
-- **Not Started:** 1371
+- **In Progress:** 79
+- **Not Started:** 1360
 
 **Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (858)
+## Successfully Built Packages (864)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 808 more ...*
+*... and 814 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (74)
+## In Progress (79)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CINdex`
@@ -102,11 +102,16 @@
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
+- ⏳ `IMMAN`
+- ⏳ `LinTInd`
+- ⏳ `LymphoSeq`
 - ⏳ `MEDME`
+- ⏳ `MSA2dist`
 - ⏳ `MSstatsLiP`
-- ⏳ `MSstatsShiny`
+- ⏳ `MethTargetedNGS`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
+- ⏳ `QSutils`
 - ⏳ `Rsamtools`
 - ⏳ `SeqArray`
 - ⏳ `SigFuge`
@@ -134,15 +139,10 @@
 - ⏳ `flowBin`
 - ⏳ `flowCut`
 - ⏳ `gcrma`
-- ⏳ `geneRxCluster`
-- ⏳ `genomeIntervals`
-- ⏳ `gtrellis`
-- ⏳ `h5mread`
-- ⏳ `heatmaps`
 
-... and 24 more ...
+... and 29 more ...
 
-## Not Yet Started (1371)
+## Not Yet Started (1360)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1321 more ...
+... and 1310 more ...
 
 ---
-*Last updated: 2025-10-31 03:26:42 UTC*
+*Last updated: 2025-10-31 03:27:40 UTC*
 *Packages with verified BBS status: 110*

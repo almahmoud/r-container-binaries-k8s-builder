@@ -856,3 +856,9 @@ msa
 pwalign
 rBLAST
 SynExtend
+MSstatsShiny
+rfaRm
+rhinotypeR
+rprimer
+rSWeeP
+sarks

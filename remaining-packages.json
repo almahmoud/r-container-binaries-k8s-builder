@@ -3094,7 +3094,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "MSstatsShiny": [],
   "MWASTools": [
     "SummarizedExperiment",
     "DelayedArray"
@@ -10073,7 +10072,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "rSWeeP": [],
   "rScudo": [
     "SummarizedExperiment",
     "DelayedArray"
@@ -10232,7 +10230,6 @@
   "rfPred": [
     "Rsamtools"
   ],
-  "rfaRm": [],
   "rgsepd": [
     "DESeq2",
     "goseq",
@@ -10249,7 +10246,6 @@
   "rhdf5client": [
     "DelayedArray"
   ],
-  "rhinotypeR": [],
   "riboSeqR": [
     "Rsamtools",
     "baySeq"
@@ -10316,7 +10312,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "rprimer": [],
   "rqt": [
     "SummarizedExperiment",
     "ropls",
@@ -10362,7 +10357,6 @@
     "sangerseqR"
   ],
   "sangerseqR": [],
-  "sarks": [],
   "saseR": [
     "ASpli",
     "GenomicFeatures",
