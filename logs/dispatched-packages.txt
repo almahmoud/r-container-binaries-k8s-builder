@@ -2287,3 +2287,6 @@ wateRmelon
 iSEEfier
 crisprShiny
 crisprVerse
+compEpiTools
+epivizrStandalone
+scTreeViz

@@ -2208,3 +2208,16 @@ cbaf
 iSEEu
 crisprViz
 pcaExplorer
+bioCancer
+canceR
+chimeraviz
+epivizr
+epivizrChart
+ideal
+maser
+methylclock
+methylPipe
+miaDash
+regutools
+srnadiff
+tadar

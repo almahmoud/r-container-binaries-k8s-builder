@@ -79,26 +79,17 @@
   "bigmelon": [
     "wateRmelon"
   ],
-  "bioCancer": [],
   "cageminer": [],
-  "canceR": [],
   "chevreulShiny": [],
-  "chimeraviz": [],
   "cisPath": [],
-  "compEpiTools": [
-    "methylPipe"
-  ],
+  "compEpiTools": [],
   "crisprShiny": [],
   "crisprVerse": [],
   "cytofQC": [],
   "debCAM": [],
   "derfinderPlot": [],
   "epimutacions": [],
-  "epivizr": [],
-  "epivizrChart": [],
-  "epivizrStandalone": [
-    "epivizr"
-  ],
+  "epivizrStandalone": [],
   "ffpe": [],
   "genoCN": [],
   "geomeTriD": [
@@ -108,29 +99,21 @@
   "hypeR": [],
   "iCheck": [],
   "iSEEfier": [],
-  "ideal": [],
   "intansv": [],
   "mCSEA": [],
-  "maser": [],
   "methylGSA": [
     "missMethyl"
   ],
-  "methylPipe": [],
-  "methylclock": [],
   "miRSM": [],
   "miRspongeR": [],
-  "miaDash": [],
   "missMethyl": [],
   "motifbreakR": [],
   "msgbsR": [],
   "multicrispr": [],
   "primirTSS": [],
   "rGADEM": [],
-  "regutools": [],
   "saseR": [],
-  "scTreeViz": [
-    "epivizr"
-  ],
+  "scTreeViz": [],
   "scruff": [],
   "signeR": [],
   "singleCellTK": [],
@@ -138,8 +121,6 @@
     "wateRmelon"
   ],
   "spatzie": [],
-  "srnadiff": [],
-  "tadar": [],
   "trackViewer": [],
   "trigger": [],
   "uncoverappLib": [],
