@@ -748,3 +748,8 @@ SPIA
 TargetDecoy
 TPP
 variancePartition
+BumpyMatrix
+derfinderHelper
+DirichletMultinomial
+dStruct
+nucleoSim
