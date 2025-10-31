@@ -711,3 +711,6 @@ ExiMiR
 nondetects
 Rnits
 BiocCheck
+a4Classif
+MetaboCoreUtils
+roastgsa
