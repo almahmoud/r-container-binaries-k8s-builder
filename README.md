@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 696 (31%)
+- **Successfully Built:** 697 (31%)
 - **Failed:** 1 (0%)
-- **In Progress:** 31
+- **In Progress:** 30
 - **Not Started:** 1516
 
 **Progress:** 31%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (696)
+## Successfully Built Packages (697)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 646 more ...*
+*... and 647 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (31)
+## In Progress (30)
 - ⏳ `BiocPkgTools`
 - ⏳ `CNORdt`
 - ⏳ `CNORfeeder`
@@ -92,7 +92,6 @@
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
-- ⏳ `NanoTube`
 - ⏳ `RTopper`
 - ⏳ `SIMAT`
 - ⏳ `Streamer`
@@ -170,5 +169,5 @@
 ... and 1466 more ...
 
 ---
-*Last updated: 2025-10-31 22:52:00 UTC*
+*Last updated: 2025-10-31 22:52:35 UTC*
 *Packages with verified BBS status: 101*

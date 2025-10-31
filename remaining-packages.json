@@ -6698,7 +6698,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "NanoTube": [],
   "Nebulosa": [
     "SingleCellExperiment",
     "SummarizedExperiment",
