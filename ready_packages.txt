@@ -1,4 +1,0 @@
-LymphoSeq
-odseq
-sangeranalyseR
-scifer

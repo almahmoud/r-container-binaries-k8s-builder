@@ -5361,7 +5361,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "affyILM": [],
   "affycoretools": [
     "GOstats",
     "AnnotationDbi",
@@ -7239,7 +7238,6 @@
   "flowStats": [
     "flowWorkspace"
   ],
-  "flowTrans": [],
   "flowVS": [
     "flowStats",
     "flowWorkspace"

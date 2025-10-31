@@ -851,3 +851,5 @@ msa
 procoil
 QSutils
 sangerseqR
+affyILM
+flowTrans
