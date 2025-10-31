@@ -110,7 +110,6 @@
   "BatchQC": [
     "scran"
   ],
-  "BatchSVG": [],
   "BayesSpace": [
     "scater",
     "scran"
@@ -173,7 +172,6 @@
   "CATALYST": [
     "scater"
   ],
-  "CBNplot": [],
   "CCAFE": [
     "VariantAnnotation",
     "BSgenome",
@@ -335,7 +333,6 @@
     "ensembldb",
     "BSgenome"
   ],
-  "DESpace": [],
   "DMRcate": [
     "bsseq",
     "minfi",

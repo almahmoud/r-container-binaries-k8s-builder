@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1685 (72%)
+- **Successfully Built:** 1688 (73%)
 - **Failed:** 12 (0%)
-- **In Progress:** 84
-- **Not Started:** 529
+- **In Progress:** 86
+- **Not Started:** 524
 
 **Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1685)
+## Successfully Built Packages (1688)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1635 more ...*
+*... and 1638 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,19 +93,16 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (84)
+## In Progress (86)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
-- ⏳ `BatchSVG`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
-- ⏳ `CBNplot`
 - ⏳ `CNEr`
 - ⏳ `CRISPRball`
 - ⏳ `Category`
 - ⏳ `Cepo`
-- ⏳ `DESpace`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `GSRI`
 - ⏳ `GSVA`
@@ -121,6 +118,8 @@
 - ⏳ `ReactomePA`
 - ⏳ `SBGNview`
 - ⏳ `SPIAT`
+- ⏳ `SpatialExperimentIO`
+- ⏳ `SpatialFeatureExperiment`
 - ⏳ `SplineDV`
 - ⏳ `TEKRABber`
 - ⏳ `TMSig`
@@ -144,10 +143,11 @@
 - ⏳ `extraChIPs`
 - ⏳ `geneXtendeR`
 - ⏳ `gep2pep`
+- ⏳ `groHMM`
 
-... and 34 more ...
+... and 36 more ...
 
-## Not Yet Started (529)
+## Not Yet Started (524)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -199,8 +199,8 @@
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CiteFuse`
 
-... and 479 more ...
+... and 474 more ...
 
 ---
-*Last updated: 2025-10-31 07:02:13 UTC*
+*Last updated: 2025-10-31 07:03:09 UTC*
 *Packages with verified BBS status: 143*
