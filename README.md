@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2223 (96%)
+- **Successfully Built:** 2224 (96%)
 - **Failed:** 22 (0%)
-- **In Progress:** 44
-- **Not Started:** 21
+- **In Progress:** 46
+- **Not Started:** 18
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2223)
+## Successfully Built Packages (2224)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2173 more ...*
+*... and 2174 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -103,7 +103,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (44)
+## In Progress (46)
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
 - ⏳ `CAGEfightR`
@@ -123,14 +123,15 @@
 - ⏳ `RiboProfiling`
 - ⏳ `RnBeads`
 - ⏳ `SomaticSignatures`
-- ⏳ `VariantFiltering`
 - ⏳ `arrayMvout`
 - ⏳ `cageminer`
 - ⏳ `chevreulShiny`
+- ⏳ `compEpiTools`
 - ⏳ `crisprShiny`
 - ⏳ `crisprVerse`
 - ⏳ `derfinderPlot`
 - ⏳ `epimutacions`
+- ⏳ `epivizrStandalone`
 - ⏳ `ffpe`
 - ⏳ `iCheck`
 - ⏳ `iSEEfier`
@@ -142,6 +143,7 @@
 - ⏳ `multicrispr`
 - ⏳ `primirTSS`
 - ⏳ `saseR`
+- ⏳ `scTreeViz`
 - ⏳ `scruff`
 - ⏳ `singleCellTK`
 - ⏳ `spatzie`
@@ -149,7 +151,7 @@
 - ⏳ `uncoverappLib`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (21)
+## Not Yet Started (18)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
@@ -165,13 +167,10 @@
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `bigmelon`
-- ⏸️ `compEpiTools`
-- ⏸️ `epivizrStandalone`
 - ⏸️ `geomeTriD`
 - ⏸️ `methylGSA`
-- ⏸️ `scTreeViz`
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:31:30 UTC*
+*Last updated: 2025-10-31 11:32:29 UTC*
 *Packages with verified BBS status: 167*
