@@ -3647,7 +3647,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "DEqMS": [],
   "DEsingle": [],
   "DEsubs": [
     "graph",
@@ -10022,7 +10021,6 @@
     "vsn",
     "Biobase",
     "POMA",
-    "DEqMS",
     "BiocGenerics",
     "IRanges",
     "mzR",
