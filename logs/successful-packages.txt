@@ -645,3 +645,10 @@ KCsmart
 metabCombiner
 RBioFormats
 Rcwl
+mosbi
+parglms
+Rnits
+RVS
+subSeq
+TRONCO
+UCSC.utils

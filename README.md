@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 647 (28%)
+- **Successfully Built:** 654 (29%)
 - **Failed:** 1 (0%)
-- **In Progress:** 60
-- **Not Started:** 1536
+- **In Progress:** 55
+- **Not Started:** 1534
 
-**Progress:** 28%
+**Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (647)
+## Successfully Built Packages (654)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 597 more ...*
+*... and 604 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (60)
+## In Progress (55)
 - ⏳ `BioMVCClass`
 - ⏳ `BiocIO`
 - ⏳ `CTDquerier`
@@ -104,14 +104,11 @@
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `RTopper`
-- ⏳ `RVS`
-- ⏳ `Rnits`
+- ⏳ `RcwlPipelines`
 - ⏳ `SRAdb`
 - ⏳ `Streamer`
 - ⏳ `TMixClust`
-- ⏳ `TRONCO`
 - ⏳ `TurboNorm`
-- ⏳ `UCSC.utils`
 - ⏳ `a4Classif`
 - ⏳ `aCGH`
 - ⏳ `affyContam`
@@ -126,17 +123,20 @@
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
+- ⏳ `islify`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
-- ⏳ `mosbi`
 - ⏳ `mzR`
-- ⏳ `parglms`
 - ⏳ `piano`
 - ⏳ `progeny`
+- ⏳ `pvca`
+- ⏳ `qcmetrics`
+- ⏳ `rebook`
+- ⏳ `ribor`
 
-... and 10 more ...
+... and 5 more ...
 
-## Not Yet Started (1536)
+## Not Yet Started (1534)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1486 more ...
+... and 1484 more ...
 
 ---
-*Last updated: 2025-10-31 22:46:16 UTC*
+*Last updated: 2025-10-31 22:47:14 UTC*
 *Packages with verified BBS status: 101*
