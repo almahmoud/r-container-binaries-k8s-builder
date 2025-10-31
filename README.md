@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1853 (80%)
+- **Successfully Built:** 1854 (80%)
 - **Failed:** 13 (0%)
 - **In Progress:** 176
-- **Not Started:** 268
+- **Not Started:** 267
 
 **Progress:** 80%
 ```
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1853)
+## Successfully Built Packages (1854)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1803 more ...*
+*... and 1804 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,6 @@
 ## In Progress (176)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
-- ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
 - ⏳ `BadRegionFinder`
 - ⏳ `BatchQC`
@@ -145,10 +144,11 @@
 - ⏳ `Pigengene`
 - ⏳ `Prostar`
 - ⏳ `RAIDS`
+- ⏳ `RESOLVE`
 
 ... and 126 more ...
 
-## Not Yet Started (268)
+## Not Yet Started (267)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -200,8 +200,8 @@
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 
-... and 218 more ...
+... and 217 more ...
 
 ---
-*Last updated: 2025-10-31 08:11:03 UTC*
+*Last updated: 2025-10-31 08:12:51 UTC*
 *Packages with verified BBS status: 151*
