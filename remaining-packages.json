@@ -1225,7 +1225,6 @@
     "derfinder",
     "GenomicFiles"
   ],
-  "ptairMS": [],
   "qPLEXanalyzer": [],
   "qpgraph": [],
   "qsea": [],
@@ -1400,7 +1399,6 @@
     "biovizBase"
   ],
   "transcriptR": [],
-  "transmogR": [],
   "traseR": [],
   "tricycle": [],
   "trigger": [],
@@ -1418,7 +1416,6 @@
     "txdbmaker"
   ],
   "visiumStitched": [],
-  "vmrseq": [],
   "vtpnet": [
     "gwascat"
   ],

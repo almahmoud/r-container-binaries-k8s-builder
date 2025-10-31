@@ -1800,3 +1800,6 @@ GenVisR
 gINTomics
 nearBynding
 pathMED
+ptairMS
+transmogR
+vmrseq
