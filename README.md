@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 805 (35%)
+- **Successfully Built:** 807 (35%)
 - **Failed:** 1 (0%)
-- **In Progress:** 56
-- **Not Started:** 1382
+- **In Progress:** 55
+- **Not Started:** 1381
 
-**Progress:** 35%
+**Progress:** 36%
 ```
-█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (805)
+## Successfully Built Packages (807)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 755 more ...*
+*... and 757 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (56)
+## In Progress (55)
 - ⏳ `AnnotationDbi`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
@@ -92,7 +92,6 @@
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
 - ⏳ `MEDME`
-- ⏳ `MSstatsPTM`
 - ⏳ `MetaCyto`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
@@ -101,12 +100,12 @@
 - ⏳ `ResidualMatrix`
 - ⏳ `ScaledMatrix`
 - ⏳ `Structstrings`
+- ⏳ `SynExtend`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
 - ⏳ `beachmat`
 - ⏳ `cigarillo`
-- ⏳ `cleaver`
 - ⏳ `cogeqc`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
@@ -133,10 +132,11 @@
 - ⏳ `rSWeeP`
 - ⏳ `rfaRm`
 - ⏳ `rprimer`
+- ⏳ `sarks`
 
-... and 6 more ...
+... and 5 more ...
 
-## Not Yet Started (1382)
+## Not Yet Started (1381)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1332 more ...
+... and 1331 more ...
 
 ---
-*Last updated: 2025-10-31 23:43:57 UTC*
+*Last updated: 2025-10-31 23:44:32 UTC*
 *Packages with verified BBS status: 105*

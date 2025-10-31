@@ -3232,10 +3232,7 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "MSstatsLiP": [
-    "MSstatsPTM"
-  ],
-  "MSstatsPTM": [],
+  "MSstatsLiP": [],
   "MSstatsQC": [
     "MSnbase",
     "PSMatch",
@@ -3255,9 +3252,7 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "MSstatsShiny": [
-    "MSstatsPTM"
-  ],
+  "MSstatsShiny": [],
   "MWASTools": [
     "SummarizedExperiment",
     "GenomicRanges"
@@ -3989,7 +3984,6 @@
     "GenomicRanges"
   ],
   "ProteoDisco": [
-    "cleaver",
     "GenomicFeatures",
     "GenomicRanges",
     "VariantAnnotation",
@@ -6722,7 +6716,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "cleaver": [],
   "cliProfiler": [
     "rtracklayer",
     "GenomicRanges",

@@ -803,3 +803,5 @@ bcSeq
 coRdon
 DECIPHER
 rBLAST
+cleaver
+MSstatsPTM

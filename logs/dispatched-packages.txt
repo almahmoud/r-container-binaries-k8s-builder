@@ -861,3 +861,5 @@ ggmsa
 phantasusLite
 transomics2cytoscape
 SynExtend
+MSstatsLiP
+MSstatsShiny
