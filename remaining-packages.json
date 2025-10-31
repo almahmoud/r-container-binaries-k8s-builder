@@ -809,7 +809,6 @@
   "deconvR": [
     "minfi"
   ],
-  "deepSNV": [],
   "demuxSNP": [],
   "derfinder": [],
   "derfinderPlot": [
@@ -1065,9 +1064,7 @@
     "methylumi",
     "minfi"
   ],
-  "mitoClone2": [
-    "deepSNV"
-  ],
+  "mitoClone2": [],
   "monaLisa": [
     "TFBSTools"
   ],

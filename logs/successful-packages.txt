@@ -1832,3 +1832,4 @@ SARC
 UPDhmm
 ZygosityPredictor
 ProteoDisco
+deepSNV
