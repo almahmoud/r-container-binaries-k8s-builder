@@ -15205,7 +15205,6 @@
     "GenomicAlignments",
     "h5mread"
   ],
-  "alevinQC": [],
   "altcdfenvs": [
     "BiocGenerics",
     "S4Vectors",
@@ -18147,7 +18146,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "ctsGE": [],
   "cummeRbund": [
     "BiocGenerics",
     "rtracklayer",
@@ -20441,7 +20439,6 @@
     "GenomicRanges",
     "InteractiveComplexHeatmap",
     "ComplexHeatmap",
-    "shiny.gosling",
     "Biobase",
     "IRanges",
     "S4Vectors",
@@ -27655,7 +27652,6 @@
     "Biobase",
     "UCSC.utils"
   ],
-  "scFeatureFilter": [],
   "scFeatures": [
     "DelayedArray",
     "DelayedMatrixStats",
@@ -28664,7 +28660,6 @@
     "S4Vectors",
     "BiocGenerics"
   ],
-  "shiny.gosling": [],
   "shinyDSP": [
     "AnnotationHub",
     "BiocGenerics",

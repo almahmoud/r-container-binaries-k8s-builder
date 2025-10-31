@@ -461,3 +461,7 @@ SpaceMarkers
 tximport
 planet
 DEqMS
+alevinQC
+ctsGE
+scFeatureFilter
+shiny.gosling
