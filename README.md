@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 450 (19%)
+- **Successfully Built:** 457 (19%)
 - **Failed:** 4 (0%)
-- **In Progress:** 34
+- **In Progress:** 27
 - **Not Started:** 1822
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (450)
+## Successfully Built Packages (457)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,6 +29,7 @@
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
+| [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
@@ -44,9 +45,8 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.21/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.21/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BioCartaImage) |
-| [BiocBaseUtils](https://bioconductor.org/packages/3.21/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocBaseUtils) |
 
-*... and 400 more ...*
+*... and 407 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,12 +85,10 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (34)
-- ⏳ `AlphaMissenseR`
+## In Progress (27)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
-- ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
 - ⏳ `EnMCB`
@@ -100,22 +98,17 @@
 - ⏳ `OSTA.data`
 - ⏳ `PCAN`
 - ⏳ `Polytect`
-- ⏳ `QRscore`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `Wrench`
 - ⏳ `ctsGE`
-- ⏳ `cytolib`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
-- ⏳ `hca`
-- ⏳ `koinar`
 - ⏳ `maftools`
 - ⏳ `mitch`
 - ⏳ `philr`
 - ⏳ `planet`
-- ⏳ `rhdf5`
 - ⏳ `scFeatureFilter`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
@@ -176,5 +169,5 @@
 ... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:16:23 UTC*
-*Packages with verified BBS status: 82*
+*Last updated: 2025-10-31 00:16:48 UTC*
+*Packages with verified BBS status: 83*

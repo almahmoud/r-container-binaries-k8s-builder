@@ -448,3 +448,10 @@ NPARC
 scBubbletree
 BEclear
 Oscope
+AlphaMissenseR
+CytoGLMM
+cytolib
+hca
+koinar
+QRscore
+rhdf5
