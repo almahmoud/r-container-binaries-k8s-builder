@@ -366,7 +366,6 @@
   "CAMERA": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -472,7 +471,6 @@
   "CPSM": [],
   "CRISPRball": [
     "dittoSeq",
-    "PCAtools",
     "SingleCellExperiment"
   ],
   "CRISPRseek": [
@@ -1526,7 +1524,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -1606,7 +1603,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -1659,7 +1655,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -1820,7 +1815,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "MWASTools": [],
   "Macarron": [],
   "MatrixQCvis": [
     "ExperimentHub",
@@ -1838,7 +1832,6 @@
   ],
   "MesKit": [],
   "MetMashR": [],
-  "MetNet": [],
   "MetaNeighbor": [
     "SingleCellExperiment"
   ],
@@ -1855,7 +1848,6 @@
   "MetaboSignal": [
     "hpar",
     "biomaRt",
-    "MWASTools",
     "mygene",
     "ensembldb",
     "ExperimentHub",
@@ -1969,7 +1961,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "MsFeatures": [],
   "MsQuality": [
     "MsExperiment",
     "QFeatures",
@@ -2138,7 +2129,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "PCAtools": [],
   "PDATK": [
     "MultiAssayExperiment",
     "CoreGx",
@@ -2464,10 +2454,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "RTNduals": [],
-  "RTNsurvival": [
-    "RTNduals"
-  ],
+  "RTNsurvival": [],
   "RUCova": [
     "SingleCellExperiment"
   ],
@@ -3817,7 +3804,6 @@
     "xcms",
     "MSnbase",
     "PSMatch",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "MultiAssayExperiment"
@@ -3941,7 +3927,6 @@
   "cosmiq": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -4520,7 +4505,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -5113,7 +5097,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -5523,7 +5506,6 @@
   "ncGTW": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -5991,9 +5973,7 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "regionalpcs": [
-    "PCAtools"
-  ],
+  "regionalpcs": [],
   "regioneR": [
     "BSgenome",
     "rtracklayer",
@@ -6318,7 +6298,6 @@
     "SingleCellExperiment",
     "scuttle"
   ],
-  "scrapper": [],
   "scruff": [
     "GenomicAlignments",
     "GenomicFeatures",
@@ -6644,7 +6623,6 @@
     "MsExperiment",
     "QFeatures",
     "PSMatch",
-    "MsFeatures",
     "MultiAssayExperiment"
   ],
   "srnadiff": [
@@ -6989,7 +6967,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "wpm": [],
   "xCell2": [
     "SingleCellExperiment",
     "singscore",
@@ -6999,7 +6976,6 @@
   ],
   "xcms": [
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",

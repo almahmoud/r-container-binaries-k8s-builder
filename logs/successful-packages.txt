@@ -1090,3 +1090,10 @@ MBQN
 MPRAnalyze
 PeacoQC
 smartid
+MetNet
+MsFeatures
+MWASTools
+PCAtools
+RTNduals
+scrapper
+wpm

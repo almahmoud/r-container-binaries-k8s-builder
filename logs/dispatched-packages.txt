@@ -1247,3 +1247,5 @@ beachmat.hdf5
 beer
 chihaya
 enrichplot
+RTNsurvival
+regionalpcs
