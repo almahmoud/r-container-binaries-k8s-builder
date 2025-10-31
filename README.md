@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1422 (61%)
+- **Successfully Built:** 1424 (61%)
 - **Failed:** 9 (0%)
-- **In Progress:** 192
+- **In Progress:** 190
 - **Not Started:** 687
 
-**Progress:** 61%
+**Progress:** 62%
 ```
-██████████████████████████████░░░░░░░░░░░░░░░░░░░░
+███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1422)
+## Successfully Built Packages (1424)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1372 more ...*
+*... and 1374 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (192)
+## In Progress (190)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -107,7 +107,6 @@
 - ⏳ `CDI`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
-- ⏳ `CellBarcode`
 - ⏳ `CellTrails`
 - ⏳ `ChIPsim`
 - ⏳ `ClusterFoldSimilarity`
@@ -141,8 +140,9 @@
 - ⏳ `MoleculeExperiment`
 - ⏳ `MsQuality`
 - ⏳ `MuData`
+- ⏳ `MultiBaC`
 
-... and 142 more ...
+... and 140 more ...
 
 ## Not Yet Started (687)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 637 more ...
 
 ---
-*Last updated: 2025-10-31 05:38:40 UTC*
+*Last updated: 2025-10-31 05:40:38 UTC*
 *Packages with verified BBS status: 131*

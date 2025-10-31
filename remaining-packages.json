@@ -318,7 +318,6 @@
     "GSEABase"
   ],
   "CatsCradle": [],
-  "CellBarcode": [],
   "CellMixS": [
     "scater",
     "scuttle"
@@ -3305,10 +3304,8 @@
     "PSMatch"
   ],
   "omicRexposome": [
-    "sva",
-    "omicade4"
+    "sva"
   ],
-  "omicade4": [],
   "oppar": [
     "GSEABase",
     "GSVA"
