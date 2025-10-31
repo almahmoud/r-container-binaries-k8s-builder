@@ -954,3 +954,4 @@ rigvf
 SICtools
 SimFFPE
 TEQC
+GDSArray

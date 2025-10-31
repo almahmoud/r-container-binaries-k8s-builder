@@ -592,7 +592,6 @@
   ],
   "CNVRanger": [
     "RaggedExperiment",
-    "GDSArray",
     "SummarizedExperiment"
   ],
   "CNVfilteR": [
@@ -1638,7 +1637,6 @@
     "GOSemSim",
     "SummarizedExperiment"
   ],
-  "GDSArray": [],
   "GENESIS": [
     "SeqVarTools"
   ],
@@ -4369,8 +4367,7 @@
     "GenomicAlignments"
   ],
   "VariantExperiment": [
-    "SummarizedExperiment",
-    "GDSArray"
+    "SummarizedExperiment"
   ],
   "VariantFiltering": [
     "VariantAnnotation",
