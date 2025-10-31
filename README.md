@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 390 (16%)
+- **Successfully Built:** 413 (17%)
 - **Failed:** 3 (0%)
-- **In Progress:** 77
-- **Not Started:** 1840
+- **In Progress:** 60
+- **Not Started:** 1834
 
-**Progress:** 17%
+**Progress:** 18%
 ```
-████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (390)
+## Successfully Built Packages (413)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,21 +46,21 @@
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 | [BiocParallel](https://bioconductor.org/packages/3.21/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocParallel) |
 
-*... and 340 more ...*
+*... and 363 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sparsenetgls](https://bioconductor.org/packages/3.21/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/sparsenetgls) |
-| [specL](https://bioconductor.org/packages/3.21/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/specL) |
-| [spikeLI](https://bioconductor.org/packages/3.21/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.21/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.21/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.21/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ssrch) |
+| [statTarget](https://bioconductor.org/packages/3.21/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/statTarget) |
+| [stepNorm](https://bioconductor.org/packages/3.21/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.21/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.21/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.21/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.21/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synergyfinder) |
 | [synlet](https://bioconductor.org/packages/3.21/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synlet) |
+| [tanggle](https://bioconductor.org/packages/3.21/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tanggle) |
 | [tidysbml](https://bioconductor.org/packages/3.21/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.21/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
@@ -84,14 +84,13 @@
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 
-## In Progress (77)
+## In Progress (60)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `AnVILWorkflow`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
-- ⏳ `Chicago`
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
@@ -100,14 +99,14 @@
 - ⏳ `Harman`
 - ⏳ `HubPub`
 - ⏳ `IntramiRExploreR`
+- ⏳ `MSstats`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
-- ⏳ `OPWeight`
+- ⏳ `OLIN`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
 - ⏳ `QRscore`
-- ⏳ `RTCGA`
 - ⏳ `RedisParam`
 - ⏳ `Rigraphlib`
 - ⏳ `SCFA`
@@ -116,29 +115,30 @@
 - ⏳ `TPP2D`
 - ⏳ `Wrench`
 - ⏳ `abseqR`
+- ⏳ `arrayQuality`
 - ⏳ `bacon`
-- ⏳ `basilisk`
 - ⏳ `brendaDb`
 - ⏳ `clstutils`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
 - ⏳ `demuxmix`
-- ⏳ `dupRadar`
 - ⏳ `edgeR`
 - ⏳ `epistasisGA`
-- ⏳ `fenr`
 - ⏳ `fgsea`
-- ⏳ `flowPeaks`
 - ⏳ `ggkegg`
-- ⏳ `ggtreeDendro`
-- ⏳ `ggtreeExtra`
-- ⏳ `ggtreeSpace`
 - ⏳ `hca`
+- ⏳ `hypeR`
+- ⏳ `koinar`
+- ⏳ `maftools`
+- ⏳ `mitch`
+- ⏳ `nnNorm`
+- ⏳ `philr`
+- ⏳ `planet`
 
-... and 27 more ...
+... and 10 more ...
 
-## Not Yet Started (1840)
+## Not Yet Started (1834)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BPRMeth`
 - ⏸️ `BRAIN`
 
-... and 1790 more ...
+... and 1784 more ...
 
 ---
-*Last updated: 2025-10-31 00:10:19 UTC*
-*Packages with verified BBS status: 72*
+*Last updated: 2025-10-31 00:11:39 UTC*
+*Packages with verified BBS status: 75*

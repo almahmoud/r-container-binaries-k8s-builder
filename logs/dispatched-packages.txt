@@ -474,3 +474,12 @@ RBM
 arrayQuality
 nnNorm
 stepNorm
+AlpsNMR
+DNAcycP2
+DepecheR
+Polytect
+cbpManager
+densvis
+rhdf5
+snifter
+timeOmics

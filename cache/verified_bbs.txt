@@ -51,11 +51,14 @@ spikeLI
 splots
 ssize
 ssrch
+statTarget
+stepNorm
 survcomp
 swfdr
 switchBox
 synergyfinder
 synlet
+tanggle
 tidysbml
 timescape
 tkWidgets
