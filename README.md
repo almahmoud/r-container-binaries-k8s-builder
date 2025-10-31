@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 293 (13%)
+- **Successfully Built:** 309 (13%)
 - **Failed:** 1 (0%)
-- **In Progress:** 97
-- **Not Started:** 1853
+- **In Progress:** 83
+- **Not Started:** 1851
 
 **Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (293)
+## Successfully Built Packages (309)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -39,26 +39,26 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.22/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.22/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocFileCache) |
 | [BiocNeighbors](https://bioconductor.org/packages/3.22/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocNeighbors) |
+| [BiocParallel](https://bioconductor.org/packages/3.22/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.22/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocStyle) |
 | [BiocVersion](https://bioconductor.org/packages/3.22/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.22/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrixMethods) |
-| [CARNIVAL](https://bioconductor.org/packages/3.22/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/CARNIVAL) |
 
-*... and 243 more ...*
+*... and 259 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sights](https://bioconductor.org/packages/3.22/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sights) |
-| [sizepower](https://bioconductor.org/packages/3.22/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.22/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/snm) |
 | [sparseMatrixStats](https://bioconductor.org/packages/3.22/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sparseMatrixStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.22/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.22/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.22/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/spikeLI) |
+| [splots](https://bioconductor.org/packages/3.22/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.22/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.22/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssrch) |
+| [statTarget](https://bioconductor.org/packages/3.22/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/statTarget) |
 | [survcomp](https://bioconductor.org/packages/3.22/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.22/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.22/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/switchBox) |
@@ -82,11 +82,10 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (97)
+## In Progress (83)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `BiocGenerics`
-- ⏳ `BiocParallel`
 - ⏳ `BiocWorkflowTools`
 - ⏳ `CNAnorm`
 - ⏳ `COMPASS`
@@ -94,10 +93,10 @@
 - ⏳ `DeepPINCS`
 - ⏳ `EnMCB`
 - ⏳ `GCPtools`
-- ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `HilbertVisGUI`
 - ⏳ `HubPub`
+- ⏳ `IntramiRExploreR`
 - ⏳ `IsoCorrectoRGUI`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
@@ -108,35 +107,36 @@
 - ⏳ `SNPRelate`
 - ⏳ `SpaceMarkers`
 - ⏳ `TreeAndLeaf`
-- ⏳ `VennDetail`
 - ⏳ `XINA`
-- ⏳ `a4Reporting`
 - ⏳ `anndataR`
 - ⏳ `banocc`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
 - ⏳ `bugsigdbr`
-- ⏳ `ccrepe`
-- ⏳ `cellxgenedp`
 - ⏳ `clst`
 - ⏳ `cytolib`
 - ⏳ `decontam`
 - ⏳ `demuxmix`
 - ⏳ `dupRadar`
 - ⏳ `easyreporting`
-- ⏳ `fdrame`
 - ⏳ `fenr`
 - ⏳ `flowPeaks`
 - ⏳ `ggkegg`
 - ⏳ `ggtree`
 - ⏳ `imageTCGA`
-- ⏳ `immunotation`
 - ⏳ `iscream`
+- ⏳ `koinar`
+- ⏳ `logicFS`
+- ⏳ `maftools`
+- ⏳ `metabinR`
+- ⏳ `miRBaseConverter`
+- ⏳ `minet`
+- ⏳ `mirTarRnaSeq`
 
-... and 47 more ...
+... and 33 more ...
 
-## Not Yet Started (1853)
+## Not Yet Started (1851)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1803 more ...
+... and 1801 more ...
 
 ---
-*Last updated: 2025-10-31 22:11:57 UTC*
-*Packages with verified BBS status: 64*
+*Last updated: 2025-10-31 22:12:49 UTC*
+*Packages with verified BBS status: 67*

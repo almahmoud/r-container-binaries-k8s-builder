@@ -17,6 +17,7 @@ BioCartaImage
 BiocBaseUtils
 BiocFileCache
 BiocNeighbors
+BiocParallel
 BiocStyle
 BiocVersion
 BridgeDbR
@@ -44,8 +45,10 @@ sparseMatrixStats
 sparsenetgls
 specL
 spikeLI
+splots
 ssize
 ssrch
+statTarget
 survcomp
 swfdr
 switchBox
