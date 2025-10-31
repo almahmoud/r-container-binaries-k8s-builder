@@ -262,7 +262,6 @@
   "LOBSTAHS": [
     "CAMERA"
   ],
-  "M3Drop": [],
   "MAGAR": [
     "RnBeads",
     "methylumi"
@@ -281,7 +280,6 @@
     "methylumi",
     "lumi"
   ],
-  "MEB": [],
   "MGnifyR": [
     "mia"
   ],
@@ -500,7 +498,6 @@
     "lumi",
     "methylumi"
   ],
-  "atSNP": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -923,9 +920,7 @@
   "scDblFinder": [],
   "scDotPlot": [],
   "scFeatures": [],
-  "scMerge": [
-    "M3Drop"
-  ],
+  "scMerge": [],
   "scTensor": [],
   "scTreeViz": [
     "epivizr",
@@ -970,8 +965,7 @@
   "singleCellTK": [
     "scMerge",
     "celda",
-    "scDblFinder",
-    "M3Drop"
+    "scDblFinder"
   ],
   "sitadela": [
     "txdbmaker"
