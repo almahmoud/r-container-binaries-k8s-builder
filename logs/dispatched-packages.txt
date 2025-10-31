@@ -1779,3 +1779,8 @@ slalom
 sparrow
 splineTimeR
 vissE
+SpatialExperimentIO
+SpatialFeatureExperiment
+rTRMui
+scCB2
+scPipe

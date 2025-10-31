@@ -39,7 +39,6 @@
     "affycoretools",
     "GOstats",
     "ReportingTools",
-    "Glimma",
     "Category",
     "ggbio",
     "biovizBase",
@@ -403,7 +402,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "DropletUtils": [],
   "DuplexDiscovereR": [
     "Gviz",
     "GenomicFeatures",
@@ -462,7 +460,6 @@
   ],
   "FLAMES": [
     "bambu",
-    "DropletUtils",
     "GenomicFeatures",
     "txdbmaker",
     "ggbio",
@@ -594,7 +591,6 @@
     "txdbmaker",
     "BSgenome"
   ],
-  "Glimma": [],
   "GlobalAncova": [],
   "GmicR": [
     "Category",
@@ -795,7 +791,6 @@
   "Motif2Site": [
     "BSgenome"
   ],
-  "MotifDb": [],
   "MotifPeeker": [
     "BSgenome"
   ],
@@ -867,7 +862,6 @@
   "OutSplice": [
     "GenomicFeatures"
   ],
-  "PAST": [],
   "PICS": [],
   "PING": [
     "PICS",
@@ -1124,7 +1118,6 @@
     "GenomicFeatures"
   ],
   "SBGNview": [],
-  "SCANVIS": [],
   "SCOPE": [
     "BSgenome"
   ],
@@ -1161,7 +1154,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "SigCheck": [],
   "SigsPack": [
     "BSgenome",
     "VariantAnnotation",
@@ -1194,18 +1186,13 @@
   ],
   "Spaniel": [
     "scater",
-    "scran",
-    "DropletUtils"
+    "scran"
   ],
   "SparseSignatures": [
     "BSgenome"
   ],
-  "SpatialExperimentIO": [
-    "DropletUtils"
-  ],
-  "SpatialFeatureExperiment": [
-    "DropletUtils"
-  ],
+  "SpatialExperimentIO": [],
+  "SpatialFeatureExperiment": [],
   "SpliceWiz": [
     "BSgenome"
   ],
@@ -1327,8 +1314,7 @@
     "BSgenome"
   ],
   "Voyager": [
-    "SpatialFeatureExperiment",
-    "DropletUtils"
+    "SpatialFeatureExperiment"
   ],
   "XNAString": [
     "BSgenome"
@@ -1353,7 +1339,6 @@
   "affycoretools": [
     "GOstats",
     "ReportingTools",
-    "Glimma",
     "Category",
     "ggbio",
     "biovizBase",
@@ -1376,8 +1361,7 @@
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
-    "alabaster.spatial",
-    "DropletUtils"
+    "alabaster.spatial"
   ],
   "alabaster.spatial": [],
   "alabaster.vcf": [
@@ -2279,7 +2263,6 @@
     "BSgenome"
   ],
   "motifbreakR": [
-    "MotifDb",
     "BSgenome",
     "VariantAnnotation",
     "motifStack",
@@ -2491,9 +2474,7 @@
   "rGREAT": [
     "GenomicFeatures"
   ],
-  "rTRMui": [
-    "MotifDb"
-  ],
+  "rTRMui": [],
   "raer": [
     "BSgenome",
     "GenomicFeatures"
@@ -2552,13 +2533,10 @@
     "txdbmaker",
     "TFBSTools"
   ],
-  "rifiComparative": [],
   "rnaEditr": [
     "bumphunter",
     "GenomicFeatures"
   ],
-  "roar": [],
-  "sSNAPPY": [],
   "saseR": [
     "ASpli",
     "GenomicFeatures",
@@ -2569,9 +2547,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "scCB2": [
-    "DropletUtils"
-  ],
+  "scCB2": [],
   "scClassify": [
     "Cepo"
   ],
@@ -2599,9 +2575,7 @@
     "batchelor",
     "scran"
   ],
-  "scPipe": [
-    "DropletUtils"
-  ],
+  "scPipe": [],
   "scTGIF": [],
   "scTensor": [
     "Category",
@@ -2715,7 +2689,6 @@
     "scMerge",
     "scran",
     "celda",
-    "DropletUtils",
     "scDblFinder",
     "GenomicFeatures",
     "M3Drop"
@@ -2756,7 +2729,6 @@
   ],
   "splatter": [],
   "splineTimeR": [],
-  "spoon": [],
   "squallms": [
     "xcms",
     "MSnbase"
@@ -2867,7 +2839,6 @@
   ],
   "velociraptor": [],
   "visiumStitched": [
-    "DropletUtils",
     "scater"
   ],
   "vissE": [],

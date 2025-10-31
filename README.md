@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1675 (72%)
+- **Successfully Built:** 1685 (72%)
 - **Failed:** 12 (0%)
-- **In Progress:** 94
+- **In Progress:** 84
 - **Not Started:** 529
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1675)
+## Successfully Built Packages (1685)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1625 more ...*
+*... and 1635 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,7 +93,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (94)
+## In Progress (84)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
@@ -106,17 +106,13 @@
 - ⏳ `Category`
 - ⏳ `Cepo`
 - ⏳ `DESpace`
-- ⏳ `DropletUtils`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `GSRI`
 - ⏳ `GSVA`
 - ⏳ `GenomicFeatures`
-- ⏳ `Glimma`
 - ⏳ `GlobalAncova`
 - ⏳ `MIRit`
 - ⏳ `MSnbase`
-- ⏳ `MotifDb`
-- ⏳ `PAST`
 - ⏳ `PICS`
 - ⏳ `POWSC`
 - ⏳ `PROMISE`
@@ -124,9 +120,7 @@
 - ⏳ `RFLOMICS`
 - ⏳ `ReactomePA`
 - ⏳ `SBGNview`
-- ⏳ `SCANVIS`
 - ⏳ `SPIAT`
-- ⏳ `SigCheck`
 - ⏳ `SplineDV`
 - ⏳ `TEKRABber`
 - ⏳ `TMSig`
@@ -144,8 +138,14 @@
 - ⏳ `cosmosR`
 - ⏳ `dandelionR`
 - ⏳ `dce`
+- ⏳ `debrowser`
+- ⏳ `easylift`
+- ⏳ `epidecodeR`
+- ⏳ `extraChIPs`
+- ⏳ `geneXtendeR`
+- ⏳ `gep2pep`
 
-... and 44 more ...
+... and 34 more ...
 
 ## Not Yet Started (529)
 - ⏸️ `AHMassBank`
@@ -202,5 +202,5 @@
 ... and 479 more ...
 
 ---
-*Last updated: 2025-10-31 07:00:54 UTC*
+*Last updated: 2025-10-31 07:02:13 UTC*
 *Packages with verified BBS status: 143*

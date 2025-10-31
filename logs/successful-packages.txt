@@ -1673,3 +1673,13 @@ GDCRNATools
 rmspc
 scRNAseqApp
 tidyCoverage
+DropletUtils
+Glimma
+MotifDb
+PAST
+rifiComparative
+roar
+SCANVIS
+SigCheck
+spoon
+sSNAPPY
