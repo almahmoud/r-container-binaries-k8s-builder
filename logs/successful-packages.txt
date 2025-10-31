@@ -835,3 +835,7 @@ altcdfenvs
 beachmat
 MSstatsLiP
 Structstrings
+adverSCarial
+GeneRegionScan
+igblastr
+PWMEnrich

@@ -2235,7 +2235,6 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "GeneRegionScan": [],
   "GeneStructureTools": [
     "GenomicRanges",
     "Gviz",
@@ -3793,7 +3792,6 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "PWMEnrich": [],
   "PanomiR": [
     "clusterProfiler",
     "GSEABase",
@@ -5598,7 +5596,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "adverSCarial": [],
   "affyILM": [],
   "affyPLM": [],
   "affycoretools": [
@@ -8121,7 +8118,6 @@
   "idr2d": [
     "GenomicRanges"
   ],
-  "igblastr": [],
   "igvR": [
     "GenomicRanges",
     "GenomicAlignments",
