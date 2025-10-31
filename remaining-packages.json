@@ -499,7 +499,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "DEFormats": [],
   "DEGreport": [],
   "DELocal": [],
   "DEP": [
@@ -2033,7 +2032,6 @@
     "a4Base"
   ],
   "a4Base": [],
-  "adductomicsR": [],
   "affycoretools": [
     "GOstats",
     "oligoClasses",
@@ -3791,7 +3789,6 @@
   ],
   "regionReport": [
     "derfinder",
-    "DEFormats",
     "bumphunter",
     "GenomicFeatures",
     "GenomicFiles",

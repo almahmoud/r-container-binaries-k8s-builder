@@ -1346,3 +1346,5 @@ MicrobiomeProfiler
 prebs
 scRepertoire
 waddR
+adductomicsR
+DEFormats
