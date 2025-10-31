@@ -7,6 +7,7 @@ ASEB
 ASGSCA
 ASSET
 AWAggregator
+AWFisher
 AlphaBeta
 AlphaMissenseR
 AlpsNMR
@@ -80,6 +81,7 @@ treeio
 tripr
 ttgsea
 tximport
+unifiedWMWqPCR
 vbmp
 veloviz
 weaver

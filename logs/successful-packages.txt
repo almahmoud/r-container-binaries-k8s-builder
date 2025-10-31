@@ -470,3 +470,15 @@ Polytect
 scFeatureFilter
 scMitoMut
 SUITOR
+AWFisher
+Biobase
+BiocBook
+BiocHail
+BrowserViz
+EBImage
+EnMCB
+FamAgg
+interactiveDisplayBase
+ROSeq
+snpStats
+unifiedWMWqPCR
