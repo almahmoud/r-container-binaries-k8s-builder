@@ -1669,3 +1669,7 @@ xenLite
 gDR
 GSEABase
 recount3
+GDCRNATools
+rmspc
+scRNAseqApp
+tidyCoverage

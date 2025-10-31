@@ -499,7 +499,6 @@
     "EDASeq",
     "GenomicFeatures"
   ],
-  "GDCRNATools": [],
   "GNOSIS": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -2554,7 +2553,6 @@
     "TFBSTools"
   ],
   "rifiComparative": [],
-  "rmspc": [],
   "rnaEditr": [
     "bumphunter",
     "GenomicFeatures"
@@ -2604,7 +2602,6 @@
   "scPipe": [
     "DropletUtils"
   ],
-  "scRNAseqApp": [],
   "scTGIF": [],
   "scTensor": [
     "Category",
@@ -2815,7 +2812,6 @@
     "TCGAutils",
     "GenomicFeatures"
   ],
-  "tidyCoverage": [],
   "tidyomics": [
     "plyranges",
     "nullranges"
