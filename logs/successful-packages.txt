@@ -738,3 +738,5 @@ flowCore
 ClustAll
 markeR
 S4Arrays
+alabaster.bumpy
+SPIA

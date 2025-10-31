@@ -2759,7 +2759,6 @@
     "AnnotationDbi",
     "GSEABase",
     "KEGGREST",
-    "SPIA",
     "graphite",
     "pathview",
     "safe",
@@ -3306,7 +3305,6 @@
     "ExperimentHub",
     "KEGGREST",
     "GSEABase",
-    "SPIA",
     "graphite",
     "pathview",
     "safe",
@@ -7141,7 +7139,6 @@
     "cigarillo",
     "h5mread"
   ],
-  "SPIA": [],
   "SPIAT": [
     "SpatialExperiment",
     "dittoSeq",
@@ -8703,7 +8700,6 @@
     "alabaster.spatial",
     "alabaster.string",
     "alabaster.vcf",
-    "alabaster.bumpy",
     "alabaster.mae",
     "MultiAssayExperiment",
     "DelayedArray",
@@ -8726,7 +8722,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "alabaster.bumpy": [],
   "alabaster.files": [
     "Rsamtools",
     "Seqinfo",
@@ -11045,7 +11040,6 @@
     "Seqinfo",
     "EnrichmentBrowser",
     "KEGGREST",
-    "SPIA",
     "graphite",
     "pathview",
     "safe",
@@ -18105,7 +18099,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "KEGGREST",
-    "SPIA",
     "graphite",
     "pathview",
     "safe",
