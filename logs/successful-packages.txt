@@ -2104,3 +2104,4 @@ demuxSNP
 iSEEhex
 MetaboSignal
 svaRetro
+svaNUMT

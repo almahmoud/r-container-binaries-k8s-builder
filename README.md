@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2106 (91%)
+- **Successfully Built:** 2107 (91%)
 - **Failed:** 20 (0%)
-- **In Progress:** 73
-- **Not Started:** 111
+- **In Progress:** 79
+- **Not Started:** 104
 
 **Progress:** 92%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2106)
+## Successfully Built Packages (2107)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2056 more ...*
+*... and 2057 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,10 +101,12 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (73)
+## In Progress (79)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
+- ⏳ `BubbleTree`
 - ⏳ `CexoR`
+- ⏳ `ChIPexoQual`
 - ⏳ `DEScan2`
 - ⏳ `ENmix`
 - ⏳ `EpiCompare`
@@ -114,6 +116,7 @@
 - ⏳ `GRaNIE`
 - ⏳ `GSReg`
 - ⏳ `GUIDEseq`
+- ⏳ `Gviz`
 - ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethylAid`
@@ -126,6 +129,7 @@
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rhisat2`
 - ⏳ `RiboCrypt`
+- ⏳ `Rqc`
 - ⏳ `SMITE`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFHAZ`
@@ -147,28 +151,22 @@
 - ⏳ `fCCAC`
 - ⏳ `funtooNorm`
 - ⏳ `geneXtendeR`
-- ⏳ `glmSparseNet`
-- ⏳ `hiReadsProcessor`
-- ⏳ `iNETgrate`
-- ⏳ `iSEEtree`
-- ⏳ `imcRtools`
+- ⏳ `ggbio`
 
-... and 23 more ...
+... and 29 more ...
 
-## Not Yet Started (111)
+## Not Yet Started (104)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPexoQual`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DMRcate`
@@ -183,7 +181,6 @@
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
@@ -201,14 +198,17 @@
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
 - ⏸️ `RnBeads`
-- ⏸️ `Rqc`
 - ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
 - ⏸️ `TVTB`
 - ⏸️ `VariantFiltering`
+- ⏸️ `YAPSA`
+- ⏸️ `affycoretools`
+- ⏸️ `arrayMvout`
+- ⏸️ `bigmelon`
 
-... and 61 more ...
+... and 54 more ...
 
 ---
-*Last updated: 2025-10-31 10:17:20 UTC*
+*Last updated: 2025-10-31 10:18:18 UTC*
 *Packages with verified BBS status: 162*
