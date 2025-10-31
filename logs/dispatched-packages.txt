@@ -880,3 +880,4 @@ LymphoSeq
 odseq
 sangeranalyseR
 scifer
+CONFESS

@@ -760,9 +760,7 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "CONFESS": [
-    "flowMerge"
-  ],
+  "CONFESS": [],
   "COTAN": [
     "BiocSingular",
     "SingleCellExperiment",
@@ -7234,7 +7232,6 @@
     "flowWorkspace",
     "ggcyto"
   ],
-  "flowMerge": [],
   "flowStats": [
     "flowWorkspace"
   ],
