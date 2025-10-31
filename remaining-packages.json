@@ -145,7 +145,6 @@
     "bsseq"
   ],
   "CODEX": [],
-  "CRISPRball": [],
   "CRISPRseek": [],
   "CSSQ": [],
   "Category": [],
@@ -923,15 +922,12 @@
   ],
   "airpart": [],
   "alabaster": [
-    "alabaster.spatial",
     "alabaster.vcf",
     "VariantAnnotation"
   ],
   "alabaster.sfe": [
-    "SpatialFeatureExperiment",
-    "alabaster.spatial"
+    "SpatialFeatureExperiment"
   ],
-  "alabaster.spatial": [],
   "alabaster.vcf": [
     "VariantAnnotation"
   ],
@@ -1996,7 +1992,6 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "velociraptor": [],
   "visiumStitched": [],
   "vissE": [],
   "vmrseq": [

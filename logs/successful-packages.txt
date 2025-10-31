@@ -1720,3 +1720,6 @@ BEAT
 scTGIF
 singscore
 splineTimeR
+alabaster.spatial
+CRISPRball
+velociraptor
