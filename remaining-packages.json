@@ -196,7 +196,6 @@
     "UCSC.utils",
     "Biostrings"
   ],
-  "ANCOMBC": [],
   "ANF": [
     "Biobase",
     "BiocGenerics"
@@ -8218,7 +8217,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "MSstatsBig": [],
   "MSstatsBioNet": [
     "RCy3",
     "BiocGenerics",
@@ -8232,11 +8230,9 @@
     "IRanges",
     "XVector",
     "GenomeInfoDb",
-    "MSstatsTMT",
     "UCSC.utils"
   ],
   "MSstatsPTM": [
-    "MSstatsTMT",
     "Biostrings",
     "BiocGenerics",
     "S4Vectors",
@@ -8301,7 +8297,6 @@
     "XVector"
   ],
   "MSstatsShiny": [
-    "MSstatsTMT",
     "MSstatsPTM",
     "Biostrings",
     "BiocGenerics",
@@ -8311,7 +8306,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "MSstatsTMT": [],
   "MWASTools": [
     "SummarizedExperiment",
     "KEGGgraph",
@@ -16012,7 +16006,6 @@
     "ALDEx2",
     "SummarizedExperiment",
     "MAST",
-    "ANCOMBC",
     "microbiome",
     "NOISeq",
     "Maaslin2",
@@ -16784,7 +16777,6 @@
     "GenomicAlignments",
     "BiocIO"
   ],
-  "cbpManager": [],
   "ccImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -17401,7 +17393,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "clstutils": [],
   "clustSIGNAL": [
     "SpatialExperiment",
     "bluster",
@@ -18854,7 +18845,6 @@
     "GenomeInfoDb",
     "IRanges",
     "SummarizedExperiment",
-    "demuxmix",
     "GenomicRanges",
     "GenomicFeatures",
     "AnnotationFilter",
@@ -18874,7 +18864,6 @@
     "SparseArray",
     "GenomicAlignments"
   ],
-  "demuxmix": [],
   "densvis": [],
   "derfinder": [
     "BiocGenerics",
@@ -21056,7 +21045,6 @@
     "SparseArray",
     "XVector"
   ],
-  "ggkegg": [],
   "ggmanh": [
     "SeqArray",
     "S4Vectors",
@@ -26957,7 +26945,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "rawDiag": [],
   "rbsurv": [
     "Biobase",
     "BiocGenerics"
@@ -30652,7 +30639,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "timeOmics": [],
   "timecourse": [
     "Biobase",
     "BiocGenerics"

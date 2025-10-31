@@ -6,22 +6,23 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 429 (18%)
+- **Successfully Built:** 438 (18%)
 - **Failed:** 4 (0%)
-- **In Progress:** 55
+- **In Progress:** 46
 - **Not Started:** 1822
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (429)
+## Successfully Built Packages (438)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.21/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
+| [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.21/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.21/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.21/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASEB) |
@@ -44,13 +45,11 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.21/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.21/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocFileCache) |
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
-| [BiocParallel](https://bioconductor.org/packages/3.21/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocParallel) |
 
-*... and 379 more ...*
+*... and 388 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssrch](https://bioconductor.org/packages/3.21/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.21/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/statTarget) |
 | [stepNorm](https://bioconductor.org/packages/3.21/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.21/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/survcomp) |
@@ -61,6 +60,7 @@
 | [tanggle](https://bioconductor.org/packages/3.21/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.21/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.21/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tidysbml) |
+| [timeOmics](https://bioconductor.org/packages/3.21/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timeOmics) |
 | [timescape](https://bioconductor.org/packages/3.21/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
@@ -85,8 +85,7 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (55)
-- ⏳ `ANCOMBC`
+## In Progress (46)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
 - ⏳ `AnVILWorkflow`
@@ -102,8 +101,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `MSstatsBig`
-- ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
 - ⏳ `OSTA.data`
@@ -116,28 +113,25 @@
 - ⏳ `Wrench`
 - ⏳ `bacon`
 - ⏳ `brendaDb`
-- ⏳ `cbpManager`
-- ⏳ `clstutils`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
-- ⏳ `demuxmix`
 - ⏳ `densvis`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
-- ⏳ `ggkegg`
 - ⏳ `hca`
 - ⏳ `koinar`
 - ⏳ `maftools`
 - ⏳ `mitch`
 - ⏳ `philr`
 - ⏳ `planet`
-- ⏳ `rawDiag`
 - ⏳ `rhdf5`
 - ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
-
-... and 5 more ...
+- ⏳ `scRecover`
+- ⏳ `shiny.gosling`
+- ⏳ `systemPipeShiny`
+- ⏳ `tximport`
 
 ## Not Yet Started (1822)
 - ⏸️ `ABarray`
@@ -194,5 +188,5 @@
 ... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:14:13 UTC*
-*Packages with verified BBS status: 78*
+*Last updated: 2025-10-31 00:14:56 UTC*
+*Packages with verified BBS status: 80*

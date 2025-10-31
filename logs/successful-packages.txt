@@ -427,3 +427,12 @@ abseqR
 IntramiRExploreR
 OLINgui
 Rigraphlib
+ANCOMBC
+cbpManager
+clstutils
+demuxmix
+ggkegg
+MSstatsBig
+MSstatsTMT
+rawDiag
+timeOmics
