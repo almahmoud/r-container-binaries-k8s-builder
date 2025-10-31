@@ -75,6 +75,7 @@ Repitools
 XNAString
 amplican
 cisPath
+cytofQC
 debCAM
 genoCN
 gpuMagic

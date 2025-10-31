@@ -7,9 +7,9 @@
 ## Summary
 - **Total Packages:** 2310
 - **Successfully Built:** 2210 (95%)
-- **Failed:** 21 (0%)
-- **In Progress:** 56
-- **Not Started:** 23
+- **Failed:** 22 (0%)
+- **In Progress:** 57
+- **Not Started:** 21
 
 **Progress:** 96%
 ```
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (21)
+## Failed Packages (22)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -92,6 +92,7 @@
 | [XNAString](https://bioconductor.org/packages/3.21/bioc/html/XNAString.html) | [log](logs/XNAString/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/XNAString) | Build failed with unknown error |
 | [amplican](https://bioconductor.org/packages/3.21/bioc/html/amplican.html) | [log](logs/amplican/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/amplican) | Build failed with unknown error |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
+| [cytofQC](https://bioconductor.org/packages/3.21/bioc/html/cytofQC.html) | [log](logs/cytofQC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cytofQC) | Build failed with unknown error |
 | [debCAM](https://bioconductor.org/packages/3.21/bioc/html/debCAM.html) | [log](logs/debCAM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/debCAM) | Build failed with unknown error |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
@@ -102,7 +103,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (56)
+## In Progress (57)
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
 - ⏳ `CAGEfightR`
@@ -129,7 +130,8 @@
 - ⏳ `canceR`
 - ⏳ `chevreulShiny`
 - ⏳ `chimeraviz`
-- ⏳ `cytofQC`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
 - ⏳ `derfinderPlot`
 - ⏳ `epimutacions`
 - ⏳ `epivizr`
@@ -152,11 +154,10 @@
 - ⏳ `regutools`
 - ⏳ `saseR`
 - ⏳ `scruff`
-- ⏳ `singleCellTK`
 
-... and 6 more ...
+... and 7 more ...
 
-## Not Yet Started (23)
+## Not Yet Started (21)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
@@ -173,8 +174,6 @@
 - ⏸️ `affycoretools`
 - ⏸️ `bigmelon`
 - ⏸️ `compEpiTools`
-- ⏸️ `crisprShiny`
-- ⏸️ `crisprVerse`
 - ⏸️ `epivizrStandalone`
 - ⏸️ `geomeTriD`
 - ⏸️ `methylGSA`
@@ -182,5 +181,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:19:38 UTC*
-*Packages with verified BBS status: 166*
+*Last updated: 2025-10-31 11:20:44 UTC*
+*Packages with verified BBS status: 167*

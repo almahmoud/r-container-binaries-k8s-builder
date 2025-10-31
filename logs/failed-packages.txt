@@ -19,3 +19,4 @@ rGADEM
 ChIPQC
 miRspongeR
 miRSM
+cytofQC
