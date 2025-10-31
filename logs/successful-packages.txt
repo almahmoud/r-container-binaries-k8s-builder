@@ -964,3 +964,5 @@ genomeIntervals
 SAIGEgds
 seqPattern
 SeqVarTools
+gtrellis
+Rbowtie2

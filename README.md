@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 966 (41%)
+- **Successfully Built:** 968 (41%)
 - **Failed:** 7 (0%)
-- **In Progress:** 38
-- **Not Started:** 1299
+- **In Progress:** 37
+- **Not Started:** 1298
 
 **Progress:** 42%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (966)
+## Successfully Built Packages (968)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 
-*... and 916 more ...*
+*... and 918 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,14 +88,14 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (38)
+## In Progress (37)
 - ⏳ `AnnotationDbi`
 - ⏳ `BiocSingular`
 - ⏳ `CINdex`
+- ⏳ `GENESIS`
 - ⏳ `GeoDiff`
 - ⏳ `Harshlight`
 - ⏳ `QDNAseq`
-- ⏳ `Rbowtie2`
 - ⏳ `SIAMCAT`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
@@ -110,7 +110,6 @@
 - ⏳ `flowWorkspace`
 - ⏳ `gcrma`
 - ⏳ `ggmanh`
-- ⏳ `gtrellis`
 - ⏳ `h5mread`
 - ⏳ `h5vc`
 - ⏳ `heatmaps`
@@ -128,7 +127,7 @@
 - ⏳ `tRNA`
 - ⏳ `tracktables`
 
-## Not Yet Started (1299)
+## Not Yet Started (1298)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -180,8 +179,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1249 more ...
+... and 1248 more ...
 
 ---
-*Last updated: 2025-10-31 03:45:51 UTC*
+*Last updated: 2025-10-31 03:46:22 UTC*
 *Packages with verified BBS status: 113*

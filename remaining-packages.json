@@ -901,7 +901,6 @@
   ],
   "CircSeqAlignTk": [
     "ShortRead",
-    "Rbowtie2",
     "Rhisat2",
     "txdbmaker",
     "SGSeq",
@@ -3452,7 +3451,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "Rbowtie2": [],
   "RbowtieCuda": [],
   "RcisTarget": [
     "AUCell",
@@ -4261,7 +4259,6 @@
     "regioneR",
     "BSgenome",
     "DESeq2",
-    "Rbowtie2",
     "GenomicAlignments",
     "annotate",
     "GenomicFeatures",
@@ -4449,7 +4446,6 @@
   "YAPSA": [
     "SomaticSignatures",
     "VariantAnnotation",
-    "gtrellis",
     "BSgenome",
     "ggbio",
     "SummarizedExperiment",
@@ -6112,7 +6108,6 @@
   "esATAC": [
     "ShortRead",
     "pipeFrame",
-    "Rbowtie2",
     "rtracklayer",
     "ChIPseeker",
     "clusterProfiler",
@@ -6522,7 +6517,6 @@
     "biomaRt",
     "AnnotationDbi"
   ],
-  "gtrellis": [],
   "gwascat": [
     "GenomicFeatures",
     "AnnotationDbi",
