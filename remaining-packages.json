@@ -1860,7 +1860,6 @@
     "S4Arrays",
     "SparseArray"
   ],
-  "ClustAll": [],
   "ClusterFoldSimilarity": [
     "SingleCellExperiment",
     "SummarizedExperiment",

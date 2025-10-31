@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 737 (32%)
+- **Successfully Built:** 738 (32%)
 - **Failed:** 1 (0%)
-- **In Progress:** 15
-- **Not Started:** 1491
+- **In Progress:** 34
+- **Not Started:** 1471
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (737)
+## Successfully Built Packages (738)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 687 more ...*
+*... and 688 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,24 +82,43 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (15)
-- ⏳ `ClustAll`
+## In Progress (34)
+- ⏳ `CytoDx`
 - ⏳ `DEGraph`
+- ⏳ `FlowSOM`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `MAPFX`
 - ⏳ `S4Arrays`
 - ⏳ `SPIA`
+- ⏳ `Sconify`
 - ⏳ `Seqinfo`
 - ⏳ `Spectra`
 - ⏳ `alabaster.bumpy`
 - ⏳ `bluster`
 - ⏳ `cola`
+- ⏳ `cytoMEM`
+- ⏳ `flowAI`
+- ⏳ `flowBeads`
+- ⏳ `flowCHIC`
+- ⏳ `flowClean`
+- ⏳ `flowClust`
+- ⏳ `flowMatch`
+- ⏳ `flowMeans`
+- ⏳ `flowPloidy`
+- ⏳ `flowSpecs`
+- ⏳ `flowTime`
+- ⏳ `flowViz`
+- ⏳ `immunoClust`
+- ⏳ `infinityFlow`
 - ⏳ `markeR`
 - ⏳ `msPurity`
+- ⏳ `ncdfFlow`
 - ⏳ `nempi`
 - ⏳ `rebook`
 - ⏳ `simona`
+- ⏳ `tidyFlowCore`
 
-## Not Yet Started (1491)
+## Not Yet Started (1471)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -151,8 +170,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1441 more ...
+... and 1421 more ...
 
 ---
-*Last updated: 2025-10-31 23:05:28 UTC*
+*Last updated: 2025-10-31 23:06:29 UTC*
 *Packages with verified BBS status: 105*
