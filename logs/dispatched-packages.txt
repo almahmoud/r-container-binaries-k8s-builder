@@ -2007,3 +2007,13 @@ nullranges
 plotgardener
 plyinteractions
 scClassify
+BUSpaRse
+CleanUpRNAseq
+GRaNIE
+RAIDS
+RITAN
+biovizBase
+chevreulProcess
+demuxSNP
+diffUTR
+drugTargetInteractions

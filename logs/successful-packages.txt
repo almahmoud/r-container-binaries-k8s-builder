@@ -1775,3 +1775,7 @@ MMDiff2
 RFLOMICS
 signatureSearch
 ORFhunteR
+bambu
+ensembldb
+Motif2Site
+scPipe
