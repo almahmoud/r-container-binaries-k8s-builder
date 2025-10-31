@@ -1969,7 +1969,6 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "GateFinder": [],
   "GeDi": [
     "GOSemSim",
     "GeneTonic",
@@ -2315,7 +2314,6 @@
     "SummarizedExperiment",
     "rtracklayer"
   ],
-  "IMMAN": [],
   "INSPEcT": [
     "GenomicFeatures",
     "GenomicAlignments",
@@ -2474,7 +2472,6 @@
   "LimROTS": [
     "SummarizedExperiment"
   ],
-  "LinTInd": [],
   "LinkHD": [
     "MultiAssayExperiment",
     "SummarizedExperiment"
@@ -2876,7 +2873,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "MethTargetedNGS": [],
   "MethylAid": [
     "minfi",
     "SummarizedExperiment",
@@ -3484,7 +3480,6 @@
     "MultiAssayExperiment",
     "SummarizedExperiment"
   ],
-  "QSutils": [],
   "QTLExperiment": [
     "SummarizedExperiment"
   ],
@@ -4499,7 +4494,6 @@
     "SingleCellExperiment",
     "phyloseq"
   ],
-  "SynMut": [],
   "TADCompare": [
     "HiCcompare",
     "InteractionSet",
@@ -4599,7 +4593,6 @@
   "TEQC": [
     "Rsamtools"
   ],
-  "TFARM": [],
   "TFBSTools": [
     "BSgenome",
     "rtracklayer",
@@ -7165,7 +7158,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "ggseqalign": [],
   "ggspavis": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -9353,10 +9345,7 @@
     "AnnotationDbi",
     "biomaRt"
   ],
-  "sangeranalyseR": [
-    "sangerseqR"
-  ],
-  "sangerseqR": [],
+  "sangeranalyseR": [],
   "saseR": [
     "ASpli",
     "GenomicFeatures",
@@ -9656,9 +9645,7 @@
     "SummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "scifer": [
-    "sangerseqR"
-  ],
+  "scifer": [],
   "scmap": [
     "SingleCellExperiment",
     "SummarizedExperiment"

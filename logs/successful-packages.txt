@@ -879,3 +879,12 @@ GenomicDistributions
 MEDME
 motifcounter
 seqArchR
+GateFinder
+ggseqalign
+IMMAN
+LinTInd
+MethTargetedNGS
+QSutils
+sangerseqR
+SynMut
+TFARM
