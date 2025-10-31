@@ -1674,7 +1674,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "SCnorm": [],
   "SEraster": [
     "SpatialExperiment"
   ],
@@ -3870,7 +3869,6 @@
     "scran",
     "scuttle"
   ],
-  "scDDboost": [],
   "scDataviz": [],
   "scDblFinder": [
     "scran",
@@ -3898,7 +3896,6 @@
   ],
   "scGPS": [],
   "scHOT": [],
-  "scMET": [],
   "scMerge": [
     "M3Drop",
     "scater",

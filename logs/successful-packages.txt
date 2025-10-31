@@ -1359,3 +1359,6 @@ DEGreport
 nipalsMCIA
 tigre
 DEsubs
+scDDboost
+scMET
+SCnorm
