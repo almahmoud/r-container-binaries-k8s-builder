@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2169 (93%)
+- **Successfully Built:** 2170 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 32
-- **Not Started:** 88
+- **In Progress:** 60
+- **Not Started:** 59
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2169)
+## Successfully Built Packages (2170)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2119 more ...*
+*... and 2120 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,22 +102,41 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (32)
+## In Progress (60)
 - ⏳ `AHMassBank`
+- ⏳ `ASpli`
+- ⏳ `AllelicImbalance`
 - ⏳ `CircSeqAlignTk`
+- ⏳ `DuplexDiscovereR`
+- ⏳ `ELMER`
 - ⏳ `ExperimentHubData`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
+- ⏳ `GeneStructureTools`
 - ⏳ `GeneTonic`
+- ⏳ `GenomicInteractions`
+- ⏳ `OGRE`
+- ⏳ `Pviz`
 - ⏳ `RITAN`
+- ⏳ `RNAmodR`
 - ⏳ `RnBeads`
+- ⏳ `SPLINTER`
+- ⏳ `TVTB`
 - ⏳ `Ularcirc`
+- ⏳ `VariantFiltering`
 - ⏳ `appreci8R`
+- ⏳ `biomvRCNS`
 - ⏳ `biscuiteer`
 - ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
+- ⏳ `chimeraviz`
+- ⏳ `cicero`
+- ⏳ `comapr`
+- ⏳ `crisprViz`
+- ⏳ `cummeRbund`
 - ⏳ `cytofQC`
 - ⏳ `decontX`
+- ⏳ `epimutacions`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
 - ⏳ `ggbio`
@@ -127,19 +146,18 @@
 - ⏳ `ideal`
 - ⏳ `karyoploteR`
 - ⏳ `lumi`
+- ⏳ `mCSEA`
+- ⏳ `maser`
+- ⏳ `methylPipe`
 - ⏳ `missMethyl`
-- ⏳ `octad`
+- ⏳ `motifbreakR`
 - ⏳ `pcaExplorer`
-- ⏳ `seqArchRplus`
-- ⏳ `shinyDSP`
-- ⏳ `singleCellTK`
-- ⏳ `vulcan`
-- ⏳ `yarn`
+- ⏳ `primirTSS`
 
-## Not Yet Started (88)
-- ⏸️ `ASpli`
+... and 10 more ...
+
+## Not Yet Started (59)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -150,13 +168,9 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
-- ⏸️ `DuplexDiscovereR`
-- ⏸️ `ELMER`
 - ⏸️ `FLAMES`
 - ⏸️ `GNOSIS`
 - ⏸️ `GeDi`
-- ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `MAGAR`
@@ -164,32 +178,38 @@
 - ⏸️ `MEAT`
 - ⏸️ `MineICA`
 - ⏸️ `NADfinder`
-- ⏸️ `OGRE`
 - ⏸️ `PING`
-- ⏸️ `Pviz`
 - ⏸️ `R3CPET`
-- ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
-- ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
-- ⏸️ `TVTB`
-- ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `arrayMvout`
 - ⏸️ `bigmelon`
 - ⏸️ `bioCancer`
-- ⏸️ `biomvRCNS`
 - ⏸️ `cageminer`
 - ⏸️ `canceR`
 - ⏸️ `cbaf`
+- ⏸️ `chevreulShiny`
+- ⏸️ `compEpiTools`
+- ⏸️ `crisprShiny`
+- ⏸️ `crisprVerse`
+- ⏸️ `derfinderPlot`
+- ⏸️ `epivizrStandalone`
+- ⏸️ `ffpe`
+- ⏸️ `geomeTriD`
+- ⏸️ `iCheck`
+- ⏸️ `iSEEfier`
+- ⏸️ `intansv`
+- ⏸️ `methylGSA`
+- ⏸️ `methylclock`
 
-... and 38 more ...
+... and 9 more ...
 
 ---
-*Last updated: 2025-10-31 10:54:30 UTC*
+*Last updated: 2025-10-31 10:56:24 UTC*
 *Packages with verified BBS status: 163*
