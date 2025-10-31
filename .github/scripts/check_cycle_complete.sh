@@ -50,8 +50,15 @@ with open('remaining-packages.json') as f:
 with open('logs/failed-packages.txt') as f:
     failed = set(line.strip() for line in f if line.strip())
 
+# Exclude failed packages from remaining (we only care about blocked packages)
+remaining_not_failed = [pkg for pkg in remaining if pkg not in failed]
+
+if not remaining_not_failed:
+    print("All remaining packages have already failed - no blocked packages")
+    sys.exit(1)
+
 blocked_by_failures = []
-for pkg in remaining:
+for pkg in remaining_not_failed:
     if pkg in all_deps:
         deps = all_deps[pkg]
         # Check if any dependency is in failed packages
@@ -59,17 +66,19 @@ for pkg in remaining:
         if failed_deps:
             blocked_by_failures.append(f"{pkg} (blocked by: {', '.join(failed_deps[:3])})")
 
-if len(blocked_by_failures) == len(remaining):
-    print(f"✅ Confirmed: All {len(remaining)} remaining packages are blocked by failed dependencies")
-    print(f"\nSuccessful builds: {len(open('logs/successful-packages.txt').readlines())}")
+if len(blocked_by_failures) == len(remaining_not_failed):
+    print(f"CONFIRMED: All {len(remaining_not_failed)} remaining packages are blocked by failed dependencies")
+    print(f"")
+    print(f"Successful builds: {len(open('logs/successful-packages.txt').readlines())}")
     print(f"Failed builds: {len(failed)}")
-    print(f"Blocked packages: {len(remaining)}")
-    print(f"\nExamples of blocked packages:")
+    print(f"Blocked packages: {len(remaining_not_failed)}")
+    print(f"")
+    print(f"Examples of blocked packages:")
     for example in blocked_by_failures[:5]:
-        print(f"  - {example}")
+        print(f"  {example}")
     sys.exit(0)
 else:
-    print("Some packages may not be blocked by failures")
+    print(f"Some packages may not be blocked by failures ({len(blocked_by_failures)}/{len(remaining_not_failed)})")
     sys.exit(1)
 PYEOF
   
