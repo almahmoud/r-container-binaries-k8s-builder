@@ -663,3 +663,7 @@ KCsmart
 mosbi
 parglms
 RNAseqCovarImpute
+netresponse
+paircompviz
+panp
+subSeq

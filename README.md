@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 665 (28%)
+- **Successfully Built:** 669 (28%)
 - **Failed:** 5 (0%)
-- **In Progress:** 61
-- **Not Started:** 1579
+- **In Progress:** 58
+- **Not Started:** 1578
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (665)
+## Successfully Built Packages (669)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 615 more ...*
+*... and 619 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,8 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (61)
+## In Progress (58)
+- ⏳ `BiGGR`
 - ⏳ `Cardinal`
 - ⏳ `CellMapper`
 - ⏳ `CellNOptR`
@@ -133,14 +134,13 @@
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
 - ⏳ `mzR`
-- ⏳ `netresponse`
-- ⏳ `paircompviz`
-- ⏳ `panp`
 - ⏳ `progeny`
+- ⏳ `pvac`
+- ⏳ `qcmetrics`
 
-... and 11 more ...
+... and 8 more ...
 
-## Not Yet Started (1579)
+## Not Yet Started (1578)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1529 more ...
+... and 1528 more ...
 
 ---
-*Last updated: 2025-10-31 00:39:46 UTC*
+*Last updated: 2025-10-31 00:40:14 UTC*
 *Packages with verified BBS status: 100*

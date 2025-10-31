@@ -19070,7 +19070,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "netresponse": [],
   "ngsReports": [
     "Biostrings",
     "IRanges",
@@ -19546,7 +19545,6 @@
     "SparseArray",
     "GenomicAlignments"
   ],
-  "paircompviz": [],
   "pairedGSEA": [
     "DESeq2",
     "DEXSeq",
@@ -19592,7 +19590,6 @@
     "XVector",
     "Biostrings"
   ],
-  "panp": [],
   "partCNV": [
     "SingleCellExperiment",
     "AnnotationHub",
@@ -23096,7 +23093,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "subSeq": [],
   "supersigs": [
     "Biostrings",
     "SummarizedExperiment",
