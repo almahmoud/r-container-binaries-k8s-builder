@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2282 (98%)
-- **Failed:** 0 (0%)
-- **In Progress:** 26
+- **Successfully Built:** 2283 (98%)
+- **Failed:** 24 (1%)
+- **In Progress:** 1
 - **Not Started:** 2
 
-**Progress:** 98%
+**Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2282)
+## Successfully Built Packages (2283)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2232 more ...*
+*... and 2233 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,38 +76,42 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## In Progress (26)
-- ⏳ `AneuFinder`
-- ⏳ `BiGGR`
-- ⏳ `CNEr`
+## Failed Packages (24)
+
+| Package | Log | BBS Status | Failure Reasons |
+|---------|-----|------------|------------------|
+| [AneuFinder](https://bioconductor.org/packages/3.21/bioc/html/AneuFinder.html) | [log](logs/AneuFinder/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AneuFinder) | Build failed with unknown error |
+| [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
+| [CNEr](https://bioconductor.org/packages/3.21/bioc/html/CNEr.html) | [log](logs/CNEr/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/CNEr) | Build failed with unknown error |
+| [ChIPQC](https://bioconductor.org/packages/3.21/bioc/html/ChIPQC.html) | [log](logs/ChIPQC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ChIPQC) | Build failed with unknown error |
+| [GeneTonic](https://bioconductor.org/packages/3.21/bioc/html/GeneTonic.html) | [log](logs/GeneTonic/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/GeneTonic) | Build failed with unknown error |
+| [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
+| [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
+| [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
+| [RITAN](https://bioconductor.org/packages/3.21/bioc/html/RITAN.html) | [log](logs/RITAN/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RITAN) | Build failed with unknown error |
+| [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
+| [Repitools](https://bioconductor.org/packages/3.21/bioc/html/Repitools.html) | [log](logs/Repitools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Repitools) | Build failed with unknown error |
+| [XNAString](https://bioconductor.org/packages/3.21/bioc/html/XNAString.html) | [log](logs/XNAString/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/XNAString) | Build failed with unknown error |
+| [amplican](https://bioconductor.org/packages/3.21/bioc/html/amplican.html) | [log](logs/amplican/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/amplican) | Build failed with unknown error |
+| [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
+| [cytofQC](https://bioconductor.org/packages/3.21/bioc/html/cytofQC.html) | [log](logs/cytofQC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cytofQC) | Build failed with unknown error |
+| [debCAM](https://bioconductor.org/packages/3.21/bioc/html/debCAM.html) | [log](logs/debCAM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/debCAM) | Build failed with unknown error |
+| [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
+| [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
+| [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
+| [miRSM](https://bioconductor.org/packages/3.21/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/miRSM) | Build failed with unknown error |
+| [miRspongeR](https://bioconductor.org/packages/3.21/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/miRspongeR) | Build failed with unknown error |
+| [rGADEM](https://bioconductor.org/packages/3.21/bioc/html/rGADEM.html) | [log](logs/rGADEM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/rGADEM) | Build failed with unknown error |
+| [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
+| [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
+
+## In Progress (1)
 - ⏳ `ChAMP`
-- ⏳ `ChIPQC`
-- ⏳ `GeneTonic`
-- ⏳ `Harshlight`
-- ⏳ `PICS`
-- ⏳ `PhenStat`
-- ⏳ `RITAN`
-- ⏳ `RbowtieCuda`
-- ⏳ `Repitools`
-- ⏳ `XNAString`
-- ⏳ `amplican`
-- ⏳ `bigmelon`
-- ⏳ `cisPath`
-- ⏳ `cytofQC`
-- ⏳ `debCAM`
-- ⏳ `genoCN`
-- ⏳ `gpuMagic`
-- ⏳ `hypeR`
-- ⏳ `miRSM`
-- ⏳ `miRspongeR`
-- ⏳ `rGADEM`
-- ⏳ `signeR`
-- ⏳ `trigger`
 
 ## Not Yet Started (2)
 - ⏸️ `GeDi`
 - ⏸️ `PING`
 
 ---
-*Last updated: 2025-10-31 13:27:17 UTC*
-*Packages with verified BBS status: 146*
+*Last updated: 2025-10-31 13:31:20 UTC*
+*Packages with verified BBS status: 170*
