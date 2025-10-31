@@ -1686,3 +1686,6 @@ sSNAPPY
 BatchSVG
 CBNplot
 DESpace
+AGDEX
+r3Cseq
+sevenC

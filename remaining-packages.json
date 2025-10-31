@@ -1,5 +1,4 @@
 {
-  "AGDEX": [],
   "AHMassBank": [
     "AnnotationHubData",
     "GenomicFeatures",
@@ -2461,7 +2460,6 @@
     "bumphunter",
     "GenomicFeatures"
   ],
-  "r3Cseq": [],
   "rCGH": [
     "GenomicFeatures"
   ],
@@ -2648,7 +2646,6 @@
     "GenomicFeatures"
   ],
   "seqsetvis": [],
-  "sevenC": [],
   "shinyDSP": [
     "scater",
     "standR",

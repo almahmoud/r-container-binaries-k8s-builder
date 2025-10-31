@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1688 (73%)
+- **Successfully Built:** 1691 (73%)
 - **Failed:** 12 (0%)
-- **In Progress:** 86
+- **In Progress:** 83
 - **Not Started:** 524
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1688)
+## Successfully Built Packages (1691)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,6 +29,7 @@
 | [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
 | [ADImpute](https://bioconductor.org/packages/3.21/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.21/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADaCGH2) |
+| [AGDEX](https://bioconductor.org/packages/3.21/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AGDEX) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.21/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
-| [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1638 more ...*
+*... and 1641 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,8 +93,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (86)
-- ⏳ `AGDEX`
+## In Progress (83)
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
 - ⏳ `BicARE`
@@ -144,8 +143,9 @@
 - ⏳ `geneXtendeR`
 - ⏳ `gep2pep`
 - ⏳ `groHMM`
+- ⏳ `hicVennDiagram`
 
-... and 36 more ...
+... and 33 more ...
 
 ## Not Yet Started (524)
 - ⏸️ `AHMassBank`
@@ -202,5 +202,5 @@
 ... and 474 more ...
 
 ---
-*Last updated: 2025-10-31 07:03:09 UTC*
-*Packages with verified BBS status: 143*
+*Last updated: 2025-10-31 07:04:19 UTC*
+*Packages with verified BBS status: 144*
