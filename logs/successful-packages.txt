@@ -1422,3 +1422,11 @@ orthos
 SPOTlight
 CellBarcode
 omicade4
+CellTrails
+ChIPsim
+FastqCleaner
+idiogram
+lemur
+mspms
+OTUbase
+TSCAN

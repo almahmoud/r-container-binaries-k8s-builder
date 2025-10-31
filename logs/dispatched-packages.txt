@@ -1621,3 +1621,4 @@ stJoincount
 tidySpatialExperiment
 tpSVG
 xenLite
+FEAST

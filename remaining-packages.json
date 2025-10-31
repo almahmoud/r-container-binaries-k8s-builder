@@ -322,7 +322,6 @@
     "scater",
     "scuttle"
   ],
-  "CellTrails": [],
   "CelliD": [
     "scater",
     "scuttle"
@@ -395,7 +394,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "ChIPsim": [],
   "ChromHeatMap": [
     "rtracklayer"
   ],
@@ -655,9 +653,7 @@
     "txdbmaker"
   ],
   "ExperimentSubset": [],
-  "FEAST": [
-    "TSCAN"
-  ],
+  "FEAST": [],
   "FLAMES": [
     "bambu",
     "DropletUtils",
@@ -681,7 +677,6 @@
     "rtracklayer",
     "txdbmaker"
   ],
-  "FastqCleaner": [],
   "FindIT2": [
     "rtracklayer",
     "GenomicFeatures"
@@ -1206,7 +1201,6 @@
     "rtracklayer",
     "txdbmaker"
   ],
-  "OTUbase": [],
   "OUTRIDER": [
     "GenomicFeatures",
     "txdbmaker",
@@ -1756,7 +1750,6 @@
     "rtracklayer",
     "GenomicFeatures"
   ],
-  "TSCAN": [],
   "TVTB": [
     "ensembldb",
     "Gviz",
@@ -2871,7 +2864,6 @@
     "GSEABase",
     "txdbmaker"
   ],
-  "idiogram": [],
   "igvR": [
     "rtracklayer",
     "VariantAnnotation",
@@ -2928,7 +2920,6 @@
     "scater",
     "scuttle"
   ],
-  "lemur": [],
   "lineagespot": [
     "VariantAnnotation",
     "rtracklayer",
@@ -3215,7 +3206,6 @@
     "msmsEDA",
     "PSMatch"
   ],
-  "mspms": [],
   "msqrob2": [],
   "multiGSEA": [
     "graphite"
@@ -3817,7 +3807,6 @@
     "GSEABase",
     "zinbwave",
     "scDblFinder",
-    "TSCAN",
     "scuttle",
     "alabaster.se",
     "GenomicFeatures",
