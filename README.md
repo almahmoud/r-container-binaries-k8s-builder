@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 718 (31%)
+- **Successfully Built:** 719 (32%)
 - **Failed:** 1 (0%)
-- **In Progress:** 9
-- **Not Started:** 1516
+- **In Progress:** 23
+- **Not Started:** 1501
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (718)
+## Successfully Built Packages (719)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 668 more ...*
+*... and 669 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,18 +82,32 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (9)
+## In Progress (23)
+- ⏳ `BumpyMatrix`
+- ⏳ `ComplexHeatmap`
+- ⏳ `DirichletMultinomial`
+- ⏳ `MEIGOR`
+- ⏳ `NCIgraph`
+- ⏳ `S4Arrays`
 - ⏳ `SIMAT`
+- ⏳ `SPIA`
+- ⏳ `Seqinfo`
+- ⏳ `Spectra`
+- ⏳ `TPP`
 - ⏳ `TargetDecoy`
+- ⏳ `XVector`
 - ⏳ `bluster`
+- ⏳ `dStruct`
+- ⏳ `derfinderHelper`
 - ⏳ `epiNEM`
 - ⏳ `flowCore`
-- ⏳ `monocle`
+- ⏳ `lpNet`
 - ⏳ `msPurity`
+- ⏳ `nucleoSim`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 
-## Not Yet Started (1516)
+## Not Yet Started (1501)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -145,8 +159,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1466 more ...
+... and 1451 more ...
 
 ---
-*Last updated: 2025-10-31 22:59:34 UTC*
+*Last updated: 2025-10-31 23:00:33 UTC*
 *Packages with verified BBS status: 104*

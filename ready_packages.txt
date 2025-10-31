@@ -1,15 +1,1 @@
-BumpyMatrix
-ComplexHeatmap
-DirichletMultinomial
-MEIGOR
-NCIgraph
-S4Arrays
-SPIA
-Seqinfo
-Spectra
-TPP
-XVector
-dStruct
-derfinderHelper
-lpNet
-nucleoSim
+uSORT

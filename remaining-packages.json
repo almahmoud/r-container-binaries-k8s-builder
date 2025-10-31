@@ -11388,7 +11388,6 @@
     "cigarillo"
   ],
   "cicero": [
-    "monocle",
     "Gviz",
     "GenomicRanges",
     "Seqinfo",
@@ -15817,7 +15816,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "monocle": [],
   "mosaics": [
     "GenomicRanges",
     "GenomicAlignments",
@@ -20472,9 +20470,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "uSORT": [
-    "monocle"
-  ],
+  "uSORT": [],
   "uncoverappLib": [
     "Gviz",
     "OrganismDbi",
