@@ -967,3 +967,11 @@ SeqVarTools
 gtrellis
 Rbowtie2
 ggmanh
+ddPCRclust
+gcrma
+QDNAseq
+rfPred
+scifer
+ssviz
+tracktables
+tRNA

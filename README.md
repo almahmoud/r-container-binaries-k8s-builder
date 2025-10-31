@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 969 (41%)
+- **Successfully Built:** 977 (42%)
 - **Failed:** 7 (0%)
-- **In Progress:** 36
+- **In Progress:** 28
 - **Not Started:** 1298
 
 **Progress:** 42%
@@ -16,7 +16,7 @@
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (969)
+## Successfully Built Packages (977)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 
-*... and 919 more ...*
+*... and 927 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,14 +88,13 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (36)
+## In Progress (28)
 - ⏳ `AnnotationDbi`
 - ⏳ `BiocSingular`
 - ⏳ `CINdex`
 - ⏳ `GENESIS`
 - ⏳ `GeoDiff`
 - ⏳ `Harshlight`
-- ⏳ `QDNAseq`
 - ⏳ `SIAMCAT`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
@@ -104,11 +103,9 @@
 - ⏳ `beachmat.tiledb`
 - ⏳ `cellbaseR`
 - ⏳ `cyanoFilter`
-- ⏳ `ddPCRclust`
 - ⏳ `flowBin`
 - ⏳ `flowCut`
 - ⏳ `flowWorkspace`
-- ⏳ `gcrma`
 - ⏳ `h5mread`
 - ⏳ `h5vc`
 - ⏳ `heatmaps`
@@ -117,14 +114,9 @@
 - ⏳ `panelcn.mops`
 - ⏳ `phantasusLite`
 - ⏳ `reconsi`
-- ⏳ `rfPred`
 - ⏳ `scPCA`
-- ⏳ `scifer`
 - ⏳ `scrapper`
 - ⏳ `sketchR`
-- ⏳ `ssviz`
-- ⏳ `tRNA`
-- ⏳ `tracktables`
 
 ## Not Yet Started (1298)
 - ⏸️ `ACE`
@@ -181,5 +173,5 @@
 ... and 1248 more ...
 
 ---
-*Last updated: 2025-10-31 03:46:50 UTC*
+*Last updated: 2025-10-31 03:47:35 UTC*
 *Packages with verified BBS status: 113*

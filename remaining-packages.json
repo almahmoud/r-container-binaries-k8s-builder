@@ -1,7 +1,5 @@
 {
-  "ACE": [
-    "QDNAseq"
-  ],
+  "ACE": [],
   "ADAM": [
     "SummarizedExperiment",
     "AnnotationDbi"
@@ -137,7 +135,6 @@
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
-    "gcrma",
     "AnnotationDbi",
     "oligoClasses",
     "ReportingTools",
@@ -1469,7 +1466,6 @@
     "txdbmaker",
     "tRNAdbImport",
     "rtracklayer",
-    "tRNA",
     "biomaRt",
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -1792,9 +1788,7 @@
     "SummarizedExperiment",
     "GenomicAlignments"
   ],
-  "GeneBreak": [
-    "QDNAseq"
-  ],
+  "GeneBreak": [],
   "GeneMeta": [
     "genefilter",
     "AnnotationDbi",
@@ -3150,7 +3144,6 @@
     "biomaRt",
     "BSgenome"
   ],
-  "QDNAseq": [],
   "QFeatures": [
     "MultiAssayExperiment",
     "SummarizedExperiment"
@@ -4489,15 +4482,10 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "affyILM": [
-    "gcrma"
-  ],
-  "affyPLM": [
-    "gcrma"
-  ],
+  "affyILM": [],
+  "affyPLM": [],
   "affycoretools": [
     "GOstats",
-    "gcrma",
     "AnnotationDbi",
     "oligoClasses",
     "ReportingTools",
@@ -4523,7 +4511,6 @@
   ],
   "affylmGUI": [
     "affyPLM",
-    "gcrma",
     "AnnotationDbi"
   ],
   "aggregateBioVar": [
@@ -4699,7 +4686,6 @@
     "affyPLM",
     "beadarray",
     "genefilter",
-    "gcrma",
     "AnnotationDbi",
     "annotate"
   ],
@@ -4906,7 +4892,6 @@
     "VariantAnnotation",
     "SummarizedExperiment",
     "rtracklayer",
-    "QDNAseq",
     "dmrseq",
     "ExperimentHub",
     "AnnotationHub",
@@ -5135,9 +5120,7 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "cfdnakit": [
-    "QDNAseq"
-  ],
+  "cfdnakit": [],
   "cghMCR": [
     "CNTools",
     "genefilter",
@@ -5695,7 +5678,6 @@
     "graphite",
     "AnnotationDbi"
   ],
-  "ddPCRclust": [],
   "debCAM": [
     "SummarizedExperiment"
   ],
@@ -6330,7 +6312,6 @@
     "rtracklayer",
     "SummarizedExperiment"
   ],
-  "gcrma": [],
   "gemma.R": [
     "SummarizedExperiment"
   ],
@@ -6958,7 +6939,6 @@
     "txdbmaker"
   ],
   "maPredictDSC": [
-    "gcrma",
     "AnnotationDbi"
   ],
   "maaslin3": [
@@ -7004,9 +6984,7 @@
     "SummarizedExperiment",
     "VariantAnnotation"
   ],
-  "maskBAD": [
-    "gcrma"
-  ],
+  "maskBAD": [],
   "mastR": [
     "AnnotationDbi",
     "GSEABase",
@@ -7323,7 +7301,6 @@
     "affyPLM",
     "oligo",
     "oligoClasses",
-    "gcrma",
     "SummarizedExperiment"
   ],
   "minfi": [
@@ -8288,7 +8265,6 @@
     "SummarizedExperiment",
     "VariantAnnotation"
   ],
-  "rfPred": [],
   "rgsepd": [
     "DESeq2",
     "goseq",
@@ -8649,7 +8625,6 @@
     "SummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "scifer": [],
   "scmap": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -9168,7 +9143,6 @@
   "ssPATHS": [
     "SummarizedExperiment"
   ],
-  "ssviz": [],
   "stJoincount": [
     "SpatialExperiment",
     "SummarizedExperiment",
@@ -9272,12 +9246,8 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "tRNA": [],
-  "tRNAdbImport": [
-    "tRNA"
-  ],
+  "tRNAdbImport": [],
   "tRNAscanImport": [
-    "tRNA",
     "rtracklayer",
     "BSgenome",
     "GenomicAlignments",
@@ -9400,7 +9370,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "tracktables": [],
   "tradeSeq": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -9619,7 +9588,6 @@
   ],
   "webbioc": [
     "annaffy",
-    "gcrma",
     "AnnotationDbi"
   ],
   "weitrix": [

@@ -1010,3 +1010,10 @@ SpatialDecon
 SpatialOmicsOverlay
 panelcn.mops
 GENESIS
+ACE
+GeneBreak
+affyILM
+affyPLM
+cfdnakit
+maskBAD
+tRNAdbImport
