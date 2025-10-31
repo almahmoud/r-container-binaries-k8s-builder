@@ -1982,3 +1982,7 @@ gmoviz
 mia
 pipeComp
 scDD
+epiregulon
+strandCheckR
+txdbmaker
+visiumStitched

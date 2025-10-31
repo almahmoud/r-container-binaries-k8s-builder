@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1984 (85%)
+- **Successfully Built:** 1988 (86%)
 - **Failed:** 17 (0%)
-- **In Progress:** 122
+- **In Progress:** 118
 - **Not Started:** 187
 
 **Progress:** 86%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1984)
+## Successfully Built Packages (1988)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1934 more ...*
+*... and 1938 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,7 +98,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (122)
+## In Progress (118)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BayesSpace`
@@ -150,7 +150,7 @@
 - ⏳ `benchdamic`
 - ⏳ `biovizBase`
 
-... and 72 more ...
+... and 68 more ...
 
 ## Not Yet Started (187)
 - ⏸️ `AHMassBank`
@@ -207,5 +207,5 @@
 ... and 137 more ...
 
 ---
-*Last updated: 2025-10-31 09:19:22 UTC*
+*Last updated: 2025-10-31 09:20:51 UTC*
 *Packages with verified BBS status: 158*
