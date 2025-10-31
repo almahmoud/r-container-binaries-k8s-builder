@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1360 (58%)
+- **Successfully Built:** 1361 (58%)
 - **Failed:** 9 (0%)
 - **In Progress:** 186
-- **Not Started:** 755
+- **Not Started:** 754
 
 **Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1360)
+## Successfully Built Packages (1361)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1310 more ...*
+*... and 1311 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -116,7 +116,6 @@
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DEXSeq`
-- ⏳ `DEsubs`
 - ⏳ `DifferentialRegulation`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
@@ -141,10 +140,11 @@
 - ⏳ `MetaboAnnotation`
 - ⏳ `MoonlightR`
 - ⏳ `MsDataHub`
+- ⏳ `MsExperiment`
 
 ... and 136 more ...
 
-## Not Yet Started (755)
+## Not Yet Started (754)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 
-... and 705 more ...
+... and 704 more ...
 
 ---
-*Last updated: 2025-10-31 05:19:33 UTC*
+*Last updated: 2025-10-31 05:20:21 UTC*
 *Packages with verified BBS status: 128*
