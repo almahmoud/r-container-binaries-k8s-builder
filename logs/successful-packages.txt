@@ -1369,3 +1369,10 @@ zellkonverter
 CyTOFpower
 glmGamPoi
 oligoClasses
+CaMutQC
+censcyt
+schex
+TOP
+TrajectoryUtils
+TreeSummarizedExperiment
+xcore

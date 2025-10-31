@@ -327,7 +327,6 @@
   "CTSV": [
     "SpatialExperiment"
   ],
-  "CaMutQC": [],
   "Category": [
     "GSEABase"
   ],
@@ -693,13 +692,11 @@
     "txdbmaker"
   ],
   "ExperimentSubset": [
-    "SpatialExperiment",
-    "TreeSummarizedExperiment"
+    "SpatialExperiment"
   ],
   "FEAST": [
     "TSCAN",
-    "SC3",
-    "TrajectoryUtils"
+    "SC3"
   ],
   "FLAMES": [
     "bambu",
@@ -943,9 +940,7 @@
   "HicAggR": [
     "rtracklayer"
   ],
-  "HoloFoodR": [
-    "TreeSummarizedExperiment"
-  ],
+  "HoloFoodR": [],
   "HybridExpress": [],
   "ILoReg": [],
   "IMAS": [
@@ -1080,7 +1075,6 @@
     "rtracklayer"
   ],
   "MGnifyR": [
-    "TreeSummarizedExperiment",
     "mia",
     "scater",
     "scuttle"
@@ -1317,9 +1311,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "PLSDAbatch": [
-    "TreeSummarizedExperiment"
-  ],
+  "PLSDAbatch": [],
   "POMA": [
     "sva"
   ],
@@ -1865,14 +1857,11 @@
   "TMSig": [
     "GSEABase"
   ],
-  "TOP": [],
   "TRESS": [
     "rtracklayer",
     "GenomicFeatures"
   ],
-  "TSCAN": [
-    "TrajectoryUtils"
-  ],
+  "TSCAN": [],
   "TVTB": [
     "ensembldb",
     "Gviz",
@@ -1891,8 +1880,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "TrajectoryUtils": [],
-  "TreeSummarizedExperiment": [],
   "UCell": [],
   "UMI4Cats": [
     "ShortRead",
@@ -2141,7 +2128,6 @@
     "rtracklayer"
   ],
   "benchdamic": [
-    "TreeSummarizedExperiment",
     "zinbwave",
     "MAST",
     "maaslin3"
@@ -2285,7 +2271,6 @@
     "scran",
     "scuttle"
   ],
-  "censcyt": [],
   "cfDNAPro": [
     "plyranges",
     "BSgenome",
@@ -2423,7 +2408,6 @@
   ],
   "condiments": [
     "slingshot",
-    "TrajectoryUtils",
     "distinct",
     "scater",
     "scuttle"
@@ -2579,7 +2563,6 @@
   ],
   "dar": [
     "mia",
-    "TreeSummarizedExperiment",
     "scater",
     "scuttle"
   ],
@@ -3029,7 +3012,6 @@
     "iSEE",
     "miaViz",
     "mia",
-    "TreeSummarizedExperiment",
     "scater",
     "scuttle"
   ],
@@ -3113,7 +3095,6 @@
   "knowYourCG": [],
   "lefser": [
     "mia",
-    "TreeSummarizedExperiment",
     "scater",
     "scuttle"
   ],
@@ -3159,9 +3140,7 @@
     "txdbmaker"
   ],
   "maPredictDSC": [],
-  "maaslin3": [
-    "TreeSummarizedExperiment"
-  ],
+  "maaslin3": [],
   "magpie": [
     "rtracklayer",
     "GenomicFeatures",
@@ -3298,7 +3277,6 @@
     "graphite"
   ],
   "mia": [
-    "TreeSummarizedExperiment",
     "scater",
     "scuttle"
   ],
@@ -3307,22 +3285,16 @@
     "iSEEtree",
     "mia",
     "scater",
-    "TreeSummarizedExperiment",
     "miaViz",
     "scuttle"
   ],
-  "miaSim": [
-    "TreeSummarizedExperiment"
-  ],
+  "miaSim": [],
   "miaViz": [
     "mia",
-    "TreeSummarizedExperiment",
     "scater",
     "scuttle"
   ],
-  "microSTASIS": [
-    "TreeSummarizedExperiment"
-  ],
+  "microSTASIS": [],
   "microbiomeExplorer": [],
   "miloR": [],
   "mimager": [
@@ -3880,19 +3852,16 @@
   "scQTLtools": [],
   "scRNAseqApp": [
     "rtracklayer",
-    "slingshot",
-    "TrajectoryUtils"
+    "slingshot"
   ],
   "scTGIF": [
-    "GSEABase",
-    "schex"
+    "GSEABase"
   ],
   "scTensor": [
     "Category",
     "meshr",
     "GOstats",
     "ReactomePA",
-    "schex",
     "GSEABase",
     "graphite"
   ],
@@ -3918,7 +3887,6 @@
   "scater": [
     "scuttle"
   ],
-  "schex": [],
   "scider": [
     "SpatialExperiment"
   ],
@@ -4060,7 +4028,6 @@
     "zinbwave",
     "scDblFinder",
     "TSCAN",
-    "TrajectoryUtils",
     "scuttle",
     "alabaster.se",
     "GenomicFeatures",
@@ -4089,9 +4056,7 @@
   "slalom": [
     "GSEABase"
   ],
-  "slingshot": [
-    "TrajectoryUtils"
-  ],
+  "slingshot": [],
   "smoothclust": [
     "SpatialExperiment"
   ],
@@ -4273,8 +4238,7 @@
     "VariantAnnotation"
   ],
   "tradeSeq": [
-    "slingshot",
-    "TrajectoryUtils"
+    "slingshot"
   ],
   "transcriptR": [
     "chipseq",
@@ -4293,9 +4257,7 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "treeclimbR": [
-    "TreeSummarizedExperiment"
-  ],
+  "treeclimbR": [],
   "treekoR": [],
   "tricycle": [
     "scater",
@@ -4391,7 +4353,6 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "xcore": [],
   "xenLite": [
     "SpatialExperiment",
     "TENxIO"

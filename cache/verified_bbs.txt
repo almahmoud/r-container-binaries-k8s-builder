@@ -122,6 +122,7 @@ weitrix
 widgetTools
 wpm
 wppi
+xcore
 xmapbridge
 yamss
 zFPKM

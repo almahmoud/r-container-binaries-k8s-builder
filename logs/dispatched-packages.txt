@@ -1560,3 +1560,11 @@ lemur
 mBPCR
 oligo
 transformGamPoi
+HoloFoodR
+PLSDAbatch
+TSCAN
+maaslin3
+miaSim
+microSTASIS
+slingshot
+treeclimbR
