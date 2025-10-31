@@ -468,3 +468,4 @@ shiny.gosling
 DEsingle
 AlpsNMR
 HubPub
+CIMICE

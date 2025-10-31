@@ -1903,7 +1903,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "CIMICE": [],
   "CINdex": [
     "GenomicRanges",
     "S4Vectors",
