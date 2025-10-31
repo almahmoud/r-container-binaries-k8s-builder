@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 437 (19%)
+- **Successfully Built:** 442 (19%)
 - **Failed:** 1 (0%)
-- **In Progress:** 38
+- **In Progress:** 33
 - **Not Started:** 1768
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (437)
+## Successfully Built Packages (442)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 
-*... and 387 more ...*
+*... and 392 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,12 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (38)
+## In Progress (33)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `CIMICE`
 - ⏳ `COMPASS`
-- ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
 - ⏳ `EnMCB`
 - ⏳ `GenProSeq`
@@ -107,7 +106,6 @@
 - ⏳ `Wrench`
 - ⏳ `anndataR`
 - ⏳ `ctsGE`
-- ⏳ `cytolib`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
@@ -116,10 +114,7 @@
 - ⏳ `philr`
 - ⏳ `planet`
 - ⏳ `rawDiag`
-- ⏳ `rhdf5`
-- ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
-- ⏳ `scLANE`
 - ⏳ `tximport`
 
 ## Not Yet Started (1768)
@@ -177,5 +172,5 @@
 ... and 1718 more ...
 
 ---
-*Last updated: 2025-10-31 22:23:13 UTC*
+*Last updated: 2025-10-31 22:23:39 UTC*
 *Packages with verified BBS status: 85*

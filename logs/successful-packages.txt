@@ -435,3 +435,8 @@ mirTarRnaSeq
 OLINgui
 Oscope
 BEclear
+CytoGLMM
+cytolib
+rhdf5
+scBubbletree
+scLANE
