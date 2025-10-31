@@ -3,6 +3,7 @@ ABarray
 ACE
 ACME
 ADAM
+ADAMgui
 ADAPT
 AIMS
 ALDEx2

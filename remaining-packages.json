@@ -1,5 +1,4 @@
 {
-  "ADAMgui": [],
   "ADImpute": [
     "SingleCellExperiment"
   ],
@@ -3680,7 +3679,6 @@
     "MultiDataSet",
     "ropls"
   ],
-  "biotmle": [],
   "biovizBase": [
     "GenomicAlignments",
     "GenomicFeatures",
@@ -4690,7 +4688,6 @@
     "DOSE",
     "enrichplot"
   ],
-  "fastLiquidAssociation": [],
   "fcScan": [
     "VariantAnnotation",
     "rtracklayer",

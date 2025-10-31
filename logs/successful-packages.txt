@@ -1058,3 +1058,6 @@ sechm
 omicplotR
 sigFeature
 stageR
+ADAMgui
+biotmle
+fastLiquidAssociation

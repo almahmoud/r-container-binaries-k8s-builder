@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1060 (45%)
+- **Successfully Built:** 1063 (46%)
 - **Failed:** 8 (0%)
-- **In Progress:** 167
+- **In Progress:** 164
 - **Not Started:** 1075
 
 **Progress:** 46%
@@ -16,7 +16,7 @@
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1060)
+## Successfully Built Packages (1063)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -25,6 +25,7 @@
 | [ACE](https://bioconductor.org/packages/3.21/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.21/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACME) |
 | [ADAM](https://bioconductor.org/packages/3.21/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAM) |
+| [ADAMgui](https://bioconductor.org/packages/3.21/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
@@ -44,9 +45,8 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
-| [AnVILBilling](https://bioconductor.org/packages/3.21/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBilling) |
 
-*... and 1010 more ...*
+*... and 1013 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,8 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (167)
-- ⏳ `ADAMgui`
+## In Progress (164)
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `BiocSklearn`
@@ -140,8 +139,9 @@
 - ⏳ `NormalyzerDE`
 - ⏳ `OVESEG`
 - ⏳ `PADOG`
+- ⏳ `PAIRADISE`
 
-... and 117 more ...
+... and 114 more ...
 
 ## Not Yet Started (1075)
 - ⏸️ `ADImpute`
@@ -198,5 +198,5 @@
 ... and 1025 more ...
 
 ---
-*Last updated: 2025-10-31 04:06:41 UTC*
-*Packages with verified BBS status: 118*
+*Last updated: 2025-10-31 04:07:29 UTC*
+*Packages with verified BBS status: 119*
