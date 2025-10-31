@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1888 (81%)
+- **Successfully Built:** 1895 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 169
-- **Not Started:** 239
+- **In Progress:** 164
+- **Not Started:** 237
 
 **Progress:** 82%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1888)
+## Successfully Built Packages (1895)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1838 more ...*
+*... and 1845 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.21/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.21/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vmrseq) |
@@ -65,6 +64,7 @@
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
 | [xCell2](https://bioconductor.org/packages/3.21/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xCell2) |
+| [xcms](https://bioconductor.org/packages/3.21/bioc/html/xcms.html) | [log](logs/xcms/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xcms) |
 | [xcore](https://bioconductor.org/packages/3.21/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.21/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (169)
+## In Progress (164)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -113,7 +113,6 @@
 - ⏳ `CiteFuse`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
-- ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
 - ⏳ `EDASeq`
@@ -128,12 +127,14 @@
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
+- ⏳ `InPAS`
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MSstatsQC`
 - ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MethylAid`
+- ⏳ `MinimumDistance`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
@@ -144,12 +145,11 @@
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
-- ⏳ `SCOPE`
 - ⏳ `SGCP`
 
-... and 119 more ...
+... and 114 more ...
 
-## Not Yet Started (239)
+## Not Yet Started (237)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -201,8 +201,8 @@
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
 
-... and 189 more ...
+... and 187 more ...
 
 ---
-*Last updated: 2025-10-31 08:28:23 UTC*
-*Packages with verified BBS status: 152*
+*Last updated: 2025-10-31 08:29:24 UTC*
+*Packages with verified BBS status: 153*

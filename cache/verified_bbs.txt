@@ -140,6 +140,7 @@ wiggleplotr
 wpm
 wppi
 xCell2
+xcms
 xcore
 xenLite
 xmapbridge

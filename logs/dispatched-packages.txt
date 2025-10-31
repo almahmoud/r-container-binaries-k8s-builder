@@ -2071,3 +2071,8 @@ motifmatchr
 msmsTests
 InPAS
 MinimumDistance
+CAMERA
+cliqueMS
+cosmiq
+ncGTW
+squallms

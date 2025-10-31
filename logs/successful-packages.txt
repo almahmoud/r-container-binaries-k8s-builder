@@ -1886,3 +1886,10 @@ cliProfiler
 MungeSumstats
 omXplore
 VanillaICE
+branchpointer
+DEP
+dreamlet
+pRolocGUI
+SCOPE
+TENET
+xcms

@@ -74,9 +74,7 @@
     "GenomicInteractions",
     "biovizBase"
   ],
-  "CAMERA": [
-    "xcms"
-  ],
+  "CAMERA": [],
   "CATALYST": [],
   "CNEr": [],
   "CNVfilteR": [
@@ -135,7 +133,6 @@
     "regioneR",
     "biovizBase"
   ],
-  "DEP": [],
   "DEScan2": [
     "ChIPpeakAnno",
     "regioneR"
@@ -277,7 +274,6 @@
   ],
   "INSPEcT": [],
   "IPO": [
-    "xcms",
     "CAMERA"
   ],
   "IVAS": [],
@@ -290,7 +286,6 @@
     "txdbmaker"
   ],
   "LOBSTAHS": [
-    "xcms",
     "CAMERA"
   ],
   "M3Drop": [],
@@ -299,8 +294,7 @@
     "methylumi"
   ],
   "MAIT": [
-    "CAMERA",
-    "xcms"
+    "CAMERA"
   ],
   "MEAL": [
     "Gviz",
@@ -483,7 +477,6 @@
   "Rqc": [
     "biovizBase"
   ],
-  "SCOPE": [],
   "SGCP": [],
   "SGSeq": [],
   "SMITE": [
@@ -515,7 +508,6 @@
   "SplicingGraphs": [],
   "TAPseq": [],
   "TCGAutils": [],
-  "TENET": [],
   "TFHAZ": [
     "ORFik",
     "txdbmaker"
@@ -597,7 +589,6 @@
     "bsseq",
     "DSS"
   ],
-  "branchpointer": [],
   "bsseq": [],
   "cBioPortalData": [
     "RTCGAToolbox",
@@ -645,9 +636,7 @@
   "clipper": [
     "qpgraph"
   ],
-  "cliqueMS": [
-    "xcms"
-  ],
+  "cliqueMS": [],
   "clustSIGNAL": [],
   "clusterExperiment": [],
   "comapr": [
@@ -668,9 +657,7 @@
   ],
   "consensusSeekeR": [],
   "conumee": [],
-  "cosmiq": [
-    "xcms"
-  ],
+  "cosmiq": [],
   "crisprBowtie": [],
   "crisprBwa": [],
   "crisprDesign": [
@@ -739,7 +726,6 @@
     "annotatr",
     "regioneR"
   ],
-  "dreamlet": [],
   "drugTargetInteractions": [],
   "easylift": [],
   "enhancerHomologSearch": [
@@ -795,7 +781,6 @@
     "methylumi"
   ],
   "flagme": [
-    "xcms",
     "CAMERA"
   ],
   "funtooNorm": [],
@@ -893,8 +878,7 @@
     "biovizBase"
   ],
   "metaMS": [
-    "CAMERA",
-    "xcms"
+    "CAMERA"
   ],
   "metagene2": [],
   "metaseqR2": [
@@ -979,9 +963,7 @@
   "mygene": [
     "txdbmaker"
   ],
-  "ncGTW": [
-    "xcms"
-  ],
+  "ncGTW": [],
   "netSmooth": [
     "clusterExperiment"
   ],
@@ -990,7 +972,6 @@
     "EDASeq"
   ],
   "oppar": [],
-  "pRolocGUI": [],
   "pageRank": [
     "motifmatchr"
   ],
@@ -1135,9 +1116,7 @@
   "spillR": [
     "CATALYST"
   ],
-  "squallms": [
-    "xcms"
-  ],
+  "squallms": [],
   "srnadiff": [
     "Gviz",
     "biovizBase"
@@ -1190,7 +1169,6 @@
     "lumi"
   ],
   "wavClusteR": [],
-  "xcms": [],
   "yarn": [
     "quantro"
   ]
