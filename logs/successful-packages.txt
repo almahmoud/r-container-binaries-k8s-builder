@@ -1316,3 +1316,7 @@ RadioGx
 SeqSQC
 SPONGE
 switchde
+aggregateBioVar
+NetSAM
+sccomp
+scmap

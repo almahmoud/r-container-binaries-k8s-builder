@@ -58,6 +58,7 @@ Harshlight
 PhenStat
 RbowtieCuda
 cisPath
+debCAM
 genoCN
 gpuMagic
 hypeR
