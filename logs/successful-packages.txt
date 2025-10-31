@@ -1920,3 +1920,6 @@ chromVAR
 circRNAprofiler
 monaLisa
 regioneR
+EGSEA
+GmicR
+periodicDNA

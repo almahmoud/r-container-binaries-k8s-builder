@@ -1,5 +1,0 @@
-ChIPpeakAnno
-RgnTX
-UMI4Cats
-annotatr
-regioneReloaded

@@ -152,7 +152,6 @@
     "biovizBase"
   ],
   "EDASeq": [],
-  "EGSEA": [],
   "ELMER": [
     "Gviz",
     "biovizBase"
@@ -235,7 +234,6 @@
     "RCAS",
     "txdbmaker"
   ],
-  "GmicR": [],
   "Guitar": [],
   "Gviz": [
     "biovizBase"
@@ -885,7 +883,6 @@
     "txdbmaker"
   ],
   "peco": [],
-  "periodicDNA": [],
   "pipeComp": [],
   "podkat": [],
   "preciseTAD": [
