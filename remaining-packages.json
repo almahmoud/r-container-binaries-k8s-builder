@@ -1778,7 +1778,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "TENxIO": [],
   "TFBSTools": [
     "BSgenome",
     "rtracklayer"
@@ -1901,7 +1900,6 @@
     "BSgenome"
   ],
   "VisiumIO": [
-    "TENxIO",
     "SpatialExperiment"
   ],
   "Voyager": [
@@ -1918,7 +1916,6 @@
     "rtracklayer"
   ],
   "XeniumIO": [
-    "TENxIO",
     "SpatialExperiment",
     "VisiumIO"
   ],
@@ -4246,8 +4243,7 @@
     "PSMatch"
   ],
   "xenLite": [
-    "SpatialExperiment",
-    "TENxIO"
+    "SpatialExperiment"
   ],
   "yarn": [
     "quantro",
