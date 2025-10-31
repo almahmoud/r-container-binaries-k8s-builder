@@ -476,7 +476,6 @@
     "AnnotationFilter",
     "SparseArray"
   ],
-  "AlpsNMR": [],
   "Anaquin": [
     "DESeq2",
     "S4Vectors",
@@ -11269,7 +11268,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "Rigraphlib": [],
   "Rmagpie": [
     "Biobase",
     "BiocGenerics"
@@ -18517,7 +18515,6 @@
     "BiocSingular",
     "bluster",
     "beachmat",
-    "Rigraphlib",
     "SparseArray",
     "Biobase",
     "KEGGREST",
@@ -26951,7 +26948,6 @@
   "scrapper": [
     "beachmat",
     "DelayedArray",
-    "Rigraphlib",
     "SparseArray",
     "BiocGenerics",
     "S4Vectors",

@@ -451,3 +451,5 @@ tximport
 Wrench
 DEqMS
 SpaceMarkers
+AlpsNMR
+Rigraphlib
