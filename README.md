@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2279 (98%)
+- **Successfully Built:** 2282 (98%)
 - **Failed:** 0 (0%)
-- **In Progress:** 29
+- **In Progress:** 26
 - **Not Started:** 2
 
 **Progress:** 98%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2279)
+## Successfully Built Packages (2282)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2229 more ...*
+*... and 2232 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,8 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## In Progress (29)
-- ⏳ `AgiMicroRna`
+## In Progress (26)
 - ⏳ `AneuFinder`
 - ⏳ `BiGGR`
 - ⏳ `CNEr`
@@ -85,7 +84,6 @@
 - ⏳ `ChIPQC`
 - ⏳ `GeneTonic`
 - ⏳ `Harshlight`
-- ⏳ `MEAT`
 - ⏳ `PICS`
 - ⏳ `PhenStat`
 - ⏳ `RITAN`
@@ -104,7 +102,6 @@
 - ⏳ `miRspongeR`
 - ⏳ `rGADEM`
 - ⏳ `signeR`
-- ⏳ `skewr`
 - ⏳ `trigger`
 
 ## Not Yet Started (2)
@@ -112,5 +109,5 @@
 - ⏸️ `PING`
 
 ---
-*Last updated: 2025-10-31 13:19:15 UTC*
-*Packages with verified BBS status: 170*
+*Last updated: 2025-10-31 13:26:40 UTC*
+*Packages with verified BBS status: 146*

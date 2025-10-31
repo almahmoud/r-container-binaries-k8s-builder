@@ -1,5 +1,4 @@
 {
-  "AgiMicroRna": [],
   "AneuFinder": [],
   "BiGGR": [],
   "CNEr": [],
@@ -10,7 +9,6 @@
   ],
   "GeneTonic": [],
   "Harshlight": [],
-  "MEAT": [],
   "PICS": [],
   "PING": [
     "PICS"
@@ -32,6 +30,5 @@
   "miRspongeR": [],
   "rGADEM": [],
   "signeR": [],
-  "skewr": [],
   "trigger": []
 }
