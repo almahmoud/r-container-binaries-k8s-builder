@@ -1806,7 +1806,6 @@
   "GeneBreak": [
     "QDNAseq"
   ],
-  "GeneGeneInteR": [],
   "GeneMeta": [
     "genefilter",
     "AnnotationDbi",
@@ -1995,9 +1994,7 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "Harshlight": [
-    "altcdfenvs"
-  ],
+  "Harshlight": [],
   "HelloRanges": [
     "BSgenome",
     "GenomicFeatures",
@@ -3404,7 +3401,6 @@
   "ROCpAI": [
     "SummarizedExperiment"
   ],
-  "RPA": [],
   "RSVSim": [
     "ShortRead",
     "GenomicAlignments",
@@ -4524,7 +4520,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "adverSCarial": [],
   "affyILM": [
     "gcrma"
   ],
@@ -4658,7 +4653,6 @@
     "GenomicAlignments",
     "h5mread"
   ],
-  "altcdfenvs": [],
   "amplican": [
     "ShortRead",
     "GenomicAlignments",
@@ -8041,7 +8035,6 @@
   ],
   "prebs": [
     "GenomicAlignments",
-    "RPA",
     "SummarizedExperiment"
   ],
   "preciseTAD": [

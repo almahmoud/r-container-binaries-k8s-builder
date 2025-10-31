@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 943 (40%)
+- **Successfully Built:** 947 (40%)
 - **Failed:** 7 (0%)
-- **In Progress:** 53
-- **Not Started:** 1307
+- **In Progress:** 52
+- **Not Started:** 1304
 
 **Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (943)
+## Successfully Built Packages (947)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 893 more ...*
+*... and 897 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,16 +88,15 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (53)
+## In Progress (52)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
+- ⏳ `BiocSingular`
 - ⏳ `CINdex`
 - ⏳ `GDSArray`
-- ⏳ `GeneGeneInteR`
 - ⏳ `GeomxTools`
 - ⏳ `QDNAseq`
 - ⏳ `RCM`
-- ⏳ `RPA`
 - ⏳ `Rbowtie2`
 - ⏳ `SAIGEgds`
 - ⏳ `SIAMCAT`
@@ -106,9 +105,8 @@
 - ⏳ `SimFFPE`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TEQC`
-- ⏳ `adverSCarial`
 - ⏳ `alabaster.files`
-- ⏳ `altcdfenvs`
+- ⏳ `beachmat.tiledb`
 - ⏳ `cellbaseR`
 - ⏳ `cn.mops`
 - ⏳ `cyanoFilter`
@@ -137,12 +135,14 @@
 - ⏳ `rigvf`
 - ⏳ `scPCA`
 - ⏳ `scifer`
+- ⏳ `scrapper`
 - ⏳ `seqPattern`
 - ⏳ `sketchR`
+- ⏳ `ssviz`
 
-... and 3 more ...
+... and 2 more ...
 
-## Not Yet Started (1307)
+## Not Yet Started (1304)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1257 more ...
+... and 1254 more ...
 
 ---
-*Last updated: 2025-10-31 03:42:05 UTC*
+*Last updated: 2025-10-31 03:43:01 UTC*
 *Packages with verified BBS status: 112*

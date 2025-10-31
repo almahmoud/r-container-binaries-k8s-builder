@@ -941,3 +941,7 @@ cnvGSA
 beachmat
 GBScleanR
 riboSeqR
+adverSCarial
+altcdfenvs
+GeneGeneInteR
+RPA
