@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 757 (32%)
 - **Failed:** 7 (0%)
-- **In Progress:** 27
-- **Not Started:** 1519
+- **In Progress:** 33
+- **Not Started:** 1513
 
 **Progress:** 33%
 ```
@@ -88,15 +88,20 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (27)
+## In Progress (33)
+- ⏳ `CCPlotR`
+- ⏳ `ClustAll`
 - ⏳ `CytoDx`
 - ⏳ `DEGraph`
 - ⏳ `FlowSOM`
 - ⏳ `GenomeInfoDb`
+- ⏳ `InteractiveComplexHeatmap`
+- ⏳ `MAPFX`
 - ⏳ `S4Arrays`
 - ⏳ `Sconify`
 - ⏳ `Spectra`
 - ⏳ `alabaster.bumpy`
+- ⏳ `cola`
 - ⏳ `cytoMEM`
 - ⏳ `flowAI`
 - ⏳ `flowBeads`
@@ -113,11 +118,12 @@
 - ⏳ `infinityFlow`
 - ⏳ `ncdfFlow`
 - ⏳ `nempi`
+- ⏳ `simona`
 - ⏳ `tidyFlowCore`
 - ⏳ `tidytof`
 - ⏳ `uSORT`
 
-## Not Yet Started (1519)
+## Not Yet Started (1513)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -169,8 +175,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1469 more ...
+... and 1463 more ...
 
 ---
-*Last updated: 2025-10-31 01:47:54 UTC*
+*Last updated: 2025-10-31 01:48:28 UTC*
 *Packages with verified BBS status: 106*
