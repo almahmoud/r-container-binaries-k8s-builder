@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 637 (28%)
+- **Successfully Built:** 641 (28%)
 - **Failed:** 1 (0%)
-- **In Progress:** 66
-- **Not Started:** 1540
+- **In Progress:** 64
+- **Not Started:** 1538
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (637)
+## Successfully Built Packages (641)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 587 more ...*
+*... and 591 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [synlet](https://bioconductor.org/packages/3.22/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/synlet) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.22/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.22/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.22/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ternarynet) |
@@ -72,6 +71,7 @@
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.22/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
+| [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (66)
+## In Progress (64)
 - ⏳ `BioMVCClass`
 - ⏳ `BiocIO`
 - ⏳ `CTDquerier`
@@ -96,6 +96,7 @@
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
 - ⏳ `IRanges`
+- ⏳ `KCsmart`
 - ⏳ `KEGGgraph`
 - ⏳ `MOGAMUN`
 - ⏳ `MSstatsBioNet`
@@ -132,11 +133,10 @@
 - ⏳ `metabCombiner`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
-- ⏳ `mosbi`
 
-... and 16 more ...
+... and 14 more ...
 
-## Not Yet Started (1540)
+## Not Yet Started (1538)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1490 more ...
+... and 1488 more ...
 
 ---
-*Last updated: 2025-10-31 22:44:40 UTC*
-*Packages with verified BBS status: 100*
+*Last updated: 2025-10-31 22:45:36 UTC*
+*Packages with verified BBS status: 101*

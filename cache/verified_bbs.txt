@@ -95,6 +95,7 @@ unifiedWMWqPCR
 vbmp
 veloviz
 viper
+vsn
 weaver
 widgetTools
 xmapbridge
