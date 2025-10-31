@@ -1,5 +1,4 @@
 {
-  "ABarray": [],
   "ACE": [
     "QDNAseq",
     "GenomicRanges",
@@ -7,7 +6,6 @@
     "IRanges",
     "GenomeInfoDb",
     "XVector",
-    "CGHcall",
     "Rsamtools",
     "UCSC.utils",
     "Biostrings"
@@ -156,7 +154,6 @@
     "UCSC.utils",
     "Biostrings"
   ],
-  "ANF": [],
   "APAlyzer": [
     "GenomicRanges",
     "GenomicFeatures",
@@ -1038,7 +1035,6 @@
   "BiGGR": [
     "rsbml",
     "hyperdraw",
-    "hypergraph",
     "Rgraphviz"
   ],
   "BiSeq": [
@@ -1188,7 +1184,6 @@
     "biocViews",
     "RBGL"
   ],
-  "BiocFHIR": [],
   "BiocHubsShiny": [
     "AnnotationHub",
     "ExperimentHub",
@@ -1576,11 +1571,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "CGHcall": [],
-  "CGHnormaliter": [
-    "CGHcall"
-  ],
-  "CGHregions": [],
+  "CGHnormaliter": [],
   "CHETAH": [
     "SingleCellExperiment",
     "S4Vectors",
@@ -3399,7 +3390,6 @@
     "h5mread",
     "GenomicAlignments"
   ],
-  "DeconRNASeq": [],
   "DeconvoBuddies": [
     "AnnotationHub",
     "ExperimentHub",
@@ -3728,7 +3718,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "EBcoexpress": [],
   "EDASeq": [
     "ShortRead",
     "IRanges",
@@ -4927,7 +4916,6 @@
   ],
   "GeneBreak": [
     "QDNAseq",
-    "CGHcall",
     "GenomicRanges",
     "S4Vectors",
     "IRanges",
@@ -4937,7 +4925,6 @@
     "UCSC.utils",
     "Biostrings"
   ],
-  "GeneExpressionSignature": [],
   "GeneGeneInteR": [
     "Rsamtools",
     "IRanges",
@@ -5364,7 +5351,6 @@
     "XVector",
     "UCSC.utils"
   ],
-  "GraphAT": [],
   "GreyListChIP": [
     "GenomicRanges",
     "GenomicAlignments",
@@ -5479,7 +5465,6 @@
   "HTqPCR": [
     "affy"
   ],
-  "Harman": [],
   "HarmonizR": [
     "sva",
     "SummarizedExperiment",
@@ -5504,7 +5489,6 @@
     "S4Vectors",
     "makecdfenv",
     "Biostrings",
-    "hypergraph",
     "IRanges",
     "XVector",
     "GenomeInfoDb",
@@ -5760,7 +5744,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "IHW": [],
   "ILoReg": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -8076,7 +8059,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "NormqPCR": [],
   "OCplus": [],
   "OGRE": [
     "S4Vectors",
@@ -8941,7 +8923,6 @@
     "SparseArray"
   ],
   "QDNAseq": [
-    "CGHcall",
     "GenomicRanges",
     "IRanges",
     "Rsamtools",
@@ -10089,7 +10070,6 @@
     "SparseArray",
     "biomaRt"
   ],
-  "Rmagpie": [],
   "Rmmquant": [
     "S4Vectors",
     "GenomicRanges",
@@ -12717,7 +12697,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "affycomp": [],
   "affycoretools": [
     "affy",
     "GOstats",
@@ -13032,7 +13011,6 @@
     "affy",
     "makecdfenv",
     "Biostrings",
-    "hypergraph",
     "IRanges",
     "XVector",
     "GenomeInfoDb",
@@ -13840,7 +13818,6 @@
     "AnnotationDbi",
     "OrganismDbi",
     "GenomicFeatures",
-    "CGHcall",
     "GenomicAlignments",
     "BiocIO",
     "KEGGREST",
@@ -14158,7 +14135,6 @@
     "GenomicAlignments",
     "BiocIO"
   ],
-  "cancerclass": [],
   "cardelino": [
     "GenomeInfoDb",
     "GenomicRanges",
@@ -14184,7 +14160,6 @@
   "casper": [
     "IRanges",
     "GenomicRanges",
-    "gaga",
     "GenomeInfoDb",
     "GenomicFeatures",
     "Rsamtools",
@@ -14398,7 +14373,6 @@
     "S4Vectors",
     "UCSC.utils",
     "XVector",
-    "CGHcall",
     "Biostrings"
   ],
   "cghMCR": [
@@ -14857,7 +14831,6 @@
     "XVector",
     "UCSC.utils"
   ],
-  "clusterStab": [],
   "clustifyr": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -15282,7 +15255,6 @@
     "XVector",
     "Biostrings"
   ],
-  "covEB": [],
   "covRNA": [
     "genefilter",
     "AnnotationDbi",
@@ -15893,7 +15865,6 @@
     "clusterProfiler",
     "sva",
     "enrichplot",
-    "Harman",
     "pathview",
     "apeglm",
     "KEGGREST",
@@ -16213,7 +16184,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "discordant": [],
   "distinct": [
     "SummarizedExperiment",
     "SingleCellExperiment",
@@ -16464,7 +16434,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "ecolitk": [],
   "edge": [
     "sva",
     "genefilter",
@@ -17542,7 +17511,6 @@
     "GenomicAlignments",
     "BiocIO"
   ],
-  "gaga": [],
   "gage": [
     "KEGGREST",
     "AnnotationDbi",
@@ -18383,10 +18351,8 @@
   ],
   "hypeR": [],
   "hyperdraw": [
-    "hypergraph",
     "Rgraphviz"
   ],
-  "hypergraph": [],
   "iCNV": [
     "CODEX",
     "Rsamtools",
@@ -18682,7 +18648,6 @@
     "GenomicRanges",
     "IRanges",
     "S4Vectors",
-    "IHW",
     "goseq",
     "GOstats",
     "AnnotationDbi",
@@ -19466,7 +19431,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "massiR": [],
   "mastR": [
     "AnnotationDbi",
     "GSEABase",
@@ -19581,7 +19545,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "metaSeq": [],
   "metabCombiner": [
     "S4Vectors"
   ],
@@ -19986,7 +19949,6 @@
     "GenomicAlignments",
     "BiocIO"
   ],
-  "mfa": [],
   "miQC": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -24235,7 +24197,6 @@
   ],
   "scp": [
     "QFeatures",
-    "IHW",
     "MsCoreUtils",
     "MultiAssayExperiment",
     "S4Vectors",

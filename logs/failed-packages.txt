@@ -2,3 +2,4 @@ cisPath
 genoCN
 RbowtieCuda
 hypeR
+gpuMagic

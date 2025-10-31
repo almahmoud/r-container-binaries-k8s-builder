@@ -6,24 +6,26 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 576 (24%)
-- **Failed:** 4 (0%)
-- **In Progress:** 43
-- **Not Started:** 1687
+- **Successfully Built:** 600 (25%)
+- **Failed:** 5 (0%)
+- **In Progress:** 62
+- **Not Started:** 1643
 
-**Progress:** 25%
+**Progress:** 26%
 ```
-████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (576)
+## Successfully Built Packages (600)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.21/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABSSeq) |
+| [ABarray](https://bioconductor.org/packages/3.21/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.21/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACME) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
+| [ANF](https://bioconductor.org/packages/3.21/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANF) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.21/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.21/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.21/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASEB) |
@@ -43,10 +45,8 @@
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 | [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.21/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BEclear) |
-| [BG2](https://bioconductor.org/packages/3.21/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BG2) |
-| [BUS](https://bioconductor.org/packages/3.21/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BUS) |
 
-*... and 526 more ...*
+*... and 550 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,62 +76,71 @@
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
+| [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (43)
+## In Progress (62)
 - ⏳ `AIMS`
-- ⏳ `ANF`
 - ⏳ `BioQC`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
-- ⏳ `GeneExpressionSignature`
-- ⏳ `Harman`
-- ⏳ `IHW`
+- ⏳ `MetID`
 - ⏳ `NanoTube`
+- ⏳ `OCplus`
+- ⏳ `OrderedList`
 - ⏳ `PROPER`
+- ⏳ `PhenStat`
+- ⏳ `RBGL`
+- ⏳ `RBioinf`
+- ⏳ `RCy3`
+- ⏳ `RCyjs`
+- ⏳ `RGraph2js`
 - ⏳ `RNAseqCovarImpute`
+- ⏳ `RTopper`
 - ⏳ `RUVcorr`
 - ⏳ `RVS`
-- ⏳ `Rmagpie`
+- ⏳ `RbcBook1`
+- ⏳ `Rgraphviz`
+- ⏳ `Rtreemix`
 - ⏳ `S4Vectors`
+- ⏳ `SRAdb`
+- ⏳ `TMixClust`
 - ⏳ `a4Preproc`
+- ⏳ `aCGH`
 - ⏳ `affy`
-- ⏳ `affycomp`
+- ⏳ `anota`
+- ⏳ `bioassayR`
 - ⏳ `biobroom`
-- ⏳ `cancerclass`
-- ⏳ `clusterStab`
 - ⏳ `compcodeR`
-- ⏳ `covEB`
-- ⏳ `discordant`
+- ⏳ `cycle`
+- ⏳ `diggit`
 - ⏳ `dyebias`
-- ⏳ `ecolitk`
+- ⏳ `eiR`
 - ⏳ `factDesign`
+- ⏳ `fmcsR`
 - ⏳ `fobitools`
-- ⏳ `gpuMagic`
+- ⏳ `geNetClassifier`
+- ⏳ `hapFabia`
 - ⏳ `ldblock`
 - ⏳ `martini`
-- ⏳ `massiR`
+- ⏳ `metabomxtr`
 - ⏳ `metagenomeSeq`
-- ⏳ `mfa`
+- ⏳ `mosbi`
 - ⏳ `mzR`
+- ⏳ `nethet`
 - ⏳ `parglms`
 - ⏳ `piano`
-- ⏳ `profileScoreDist`
-- ⏳ `rcellminer`
-- ⏳ `roastgsa`
-- ⏳ `rols`
-- ⏳ `subSeq`
-- ⏳ `variancePartition`
 
-## Not Yet Started (1687)
-- ⏸️ `ABarray`
+... and 12 more ...
+
+## Not Yet Started (1643)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -181,9 +190,10 @@
 - ⏸️ `BUMHMM`
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
+- ⏸️ `BUSseq`
 
-... and 1637 more ...
+... and 1593 more ...
 
 ---
-*Last updated: 2025-10-31 00:32:04 UTC*
-*Packages with verified BBS status: 94*
+*Last updated: 2025-10-31 00:33:43 UTC*
+*Packages with verified BBS status: 97*

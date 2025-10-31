@@ -1,7 +1,9 @@
 ABSSeq
+ABarray
 ACME
 AMOUNTAIN
 ANCOMBC
+ANF
 ARRmNormalization
 ASAFE
 ASEB
@@ -45,6 +47,7 @@ CausalR
 RbowtieCuda
 cisPath
 genoCN
+gpuMagic
 hypeR
 semisup
 seq.hotSPOT
