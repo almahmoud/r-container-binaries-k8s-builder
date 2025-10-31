@@ -1134,3 +1134,5 @@ HiCcompare
 MOFA2
 ReactomeGSA
 weitrix
+biomaRt
+PhosR

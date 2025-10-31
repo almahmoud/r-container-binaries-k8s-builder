@@ -17,8 +17,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "AMARETTO": [
     "ExperimentHub"
@@ -52,7 +51,6 @@
     "Gviz",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase",
@@ -66,7 +64,6 @@
     "rtracklayer",
     "motifStack",
     "GenomicFeatures",
-    "biomaRt",
     "regioneR",
     "ensembldb",
     "TFBSTools"
@@ -103,8 +100,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "AllelicImbalance": [
     "GenomicAlignments",
@@ -113,7 +109,6 @@
     "GenomicFeatures",
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "ensembldb",
     "biovizBase"
   ],
@@ -128,8 +123,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "ArrayExpress": [
     "oligo",
@@ -179,8 +173,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "BSgenome": [
     "rtracklayer",
@@ -192,7 +185,6 @@
     "GenomicAlignments"
   ],
   "BUSpaRse": [
-    "biomaRt",
     "BSgenome",
     "ensembldb",
     "GenomicFeatures",
@@ -208,7 +200,6 @@
   ],
   "BadRegionFinder": [
     "VariantAnnotation",
-    "biomaRt",
     "rtracklayer",
     "BSgenome",
     "GenomicFeatures",
@@ -249,8 +240,7 @@
     "GenomicFeatures",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "BgeeDB": [
     "zellkonverter",
@@ -317,8 +307,7 @@
     "BSgenome",
     "rtracklayer",
     "OrganismDbi",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "CAGEfightR": [
     "rtracklayer",
@@ -328,7 +317,6 @@
     "Gviz",
     "GenomicInteractions",
     "VariantAnnotation",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase"
@@ -343,7 +331,6 @@
     "Gviz",
     "GenomicInteractions",
     "VariantAnnotation",
-    "biomaRt",
     "ensembldb",
     "biovizBase"
   ],
@@ -391,9 +378,7 @@
   "CHETAH": [
     "SingleCellExperiment"
   ],
-  "CHRONOS": [
-    "biomaRt"
-  ],
+  "CHRONOS": [],
   "CNEr": [
     "rtracklayer",
     "GenomicAlignments",
@@ -540,7 +525,6 @@
     "ExperimentHub",
     "bsseq",
     "Gviz",
-    "biomaRt",
     "annotate",
     "rtracklayer",
     "genefilter",
@@ -593,7 +577,6 @@
   "ChIPpeakAnno": [
     "GenomicAlignments",
     "GenomicFeatures",
-    "biomaRt",
     "regioneR",
     "rtracklayer",
     "ensembldb",
@@ -634,8 +617,7 @@
     "SGSeq",
     "GenomicAlignments",
     "GenomicFeatures",
-    "rtracklayer",
-    "biomaRt"
+    "rtracklayer"
   ],
   "CiteFuse": [
     "SingleCellExperiment",
@@ -670,8 +652,7 @@
     "SingleCellExperiment"
   ],
   "CoSIA": [
-    "ExperimentHub",
-    "biomaRt"
+    "ExperimentHub"
   ],
   "Cogito": [
     "GenomicFeatures",
@@ -743,7 +724,6 @@
     "GenomicAlignments",
     "rtracklayer",
     "GenomicFeatures",
-    "biomaRt",
     "regioneR",
     "ensembldb",
     "BSgenome"
@@ -759,7 +739,6 @@
   ],
   "DEXSeq": [
     "DESeq2",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "annotate"
@@ -786,7 +765,6 @@
     "minfi",
     "missMethyl",
     "Gviz",
-    "biomaRt",
     "BSgenome",
     "rtracklayer",
     "GenomicFeatures",
@@ -815,7 +793,6 @@
     "EDASeq",
     "sva",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "genefilter",
     "annotate",
@@ -834,8 +811,7 @@
     "VariantAnnotation",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "DeMixT": [
     "DSS",
@@ -871,8 +847,7 @@
     "GenomicFeatures",
     "txdbmaker",
     "GenomicAlignments",
-    "rtracklayer",
-    "biomaRt"
+    "rtracklayer"
   ],
   "DelayedTensor": [],
   "DiffBind": [
@@ -895,7 +870,6 @@
   ],
   "DiscoRhythm": [],
   "DominoEffect": [
-    "biomaRt",
     "VariantAnnotation",
     "rtracklayer",
     "BSgenome",
@@ -907,7 +881,6 @@
     "scuttle"
   ],
   "DrugVsDisease": [
-    "biomaRt",
     "ArrayExpress",
     "annotate",
     "oligo",
@@ -918,7 +891,6 @@
     "Gviz",
     "rtracklayer",
     "GenomicAlignments",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -930,7 +902,6 @@
   ],
   "EDASeq": [
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -951,7 +922,6 @@
     "GenomicFeatures",
     "TCGAbiolinks",
     "Gviz",
-    "biomaRt",
     "rtracklayer",
     "ensembldb",
     "BSgenome",
@@ -963,7 +933,6 @@
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "ENmix": [
@@ -1010,7 +979,6 @@
     "GenomicAlignments"
   ],
   "EpiMix": [
-    "biomaRt",
     "ExperimentHub",
     "GenomicFeatures",
     "rtracklayer",
@@ -1020,7 +988,6 @@
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "EpipwR": [
@@ -1045,8 +1012,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "ExperimentSubset": [
     "SingleCellExperiment",
@@ -1077,11 +1043,9 @@
     "biovizBase",
     "VariantAnnotation",
     "OrganismDbi",
-    "ensembldb",
-    "biomaRt"
+    "ensembldb"
   ],
   "FRASER": [
-    "biomaRt",
     "BSgenome",
     "GenomicAlignments",
     "GenomicFeatures",
@@ -1121,7 +1085,6 @@
     "EDASeq",
     "sva",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "genefilter",
     "annotate",
@@ -1131,7 +1094,6 @@
   "GDCRNATools": [
     "DESeq2",
     "clusterProfiler",
-    "biomaRt",
     "pathview",
     "enrichplot"
   ],
@@ -1154,9 +1116,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "GOexpress": [
-    "biomaRt"
-  ],
+  "GOexpress": [],
   "GOpro": [],
   "GOstats": [
     "Category",
@@ -1166,7 +1126,6 @@
   ],
   "GRaNIE": [
     "DESeq2",
-    "biomaRt",
     "ensembldb",
     "GenomicFeatures",
     "rtracklayer",
@@ -1195,8 +1154,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "GSVA": [
     "GSEABase",
@@ -1211,7 +1169,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "rtracklayer",
-    "biomaRt",
     "regioneR",
     "ensembldb"
   ],
@@ -1226,11 +1183,9 @@
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "GenVisR": [
-    "biomaRt",
     "GenomicFeatures",
     "BSgenome",
     "VariantAnnotation",
@@ -1245,7 +1200,6 @@
     "Gviz",
     "rtracklayer",
     "BSgenome",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "biovizBase",
@@ -1261,8 +1215,7 @@
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "GenomicAlignments": [],
   "GenomicFeatures": [
@@ -1284,7 +1237,6 @@
   "GenomicInteractions": [
     "rtracklayer",
     "Gviz",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -1293,7 +1245,6 @@
     "VariantAnnotation"
   ],
   "GenomicOZone": [
-    "biomaRt",
     "ggbio",
     "biovizBase",
     "GenomicAlignments",
@@ -1313,8 +1264,7 @@
     "GenomicFeatures",
     "genomation",
     "txdbmaker",
-    "BSgenome",
-    "biomaRt"
+    "BSgenome"
   ],
   "GenomicScores": [],
   "GenomicSuperSignature": [],
@@ -1349,7 +1299,6 @@
   ],
   "Gviz": [
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -1383,7 +1332,6 @@
     "rtracklayer",
     "Gviz",
     "GenomicAlignments",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "biovizBase",
@@ -1480,7 +1428,6 @@
     "GenomicAlignments",
     "DEXSeq",
     "DESeq2",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "rtracklayer",
@@ -1488,9 +1435,7 @@
     "annotate",
     "BSgenome"
   ],
-  "InterCellar": [
-    "biomaRt"
-  ],
+  "InterCellar": [],
   "IsoformSwitchAnalyzeR": [
     "DEXSeq",
     "sva",
@@ -1498,7 +1443,6 @@
     "rtracklayer",
     "tximeta",
     "DESeq2",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "GenomicAlignments",
@@ -1512,9 +1456,7 @@
     "genefilter",
     "annotate"
   ],
-  "LACE": [
-    "biomaRt"
-  ],
+  "LACE": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -1585,7 +1527,6 @@
     "Gviz",
     "missMethyl",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -1617,7 +1558,6 @@
   ],
   "MEDIPS": [
     "BSgenome",
-    "biomaRt",
     "rtracklayer",
     "GenomicAlignments"
   ],
@@ -1625,7 +1565,6 @@
     "annotate"
   ],
   "MGFR": [
-    "biomaRt",
     "annotate"
   ],
   "MGnifyR": [
@@ -1735,7 +1674,6 @@
   ],
   "MetaboSignal": [
     "hpar",
-    "biomaRt",
     "mygene",
     "ensembldb",
     "ExperimentHub",
@@ -1774,7 +1712,6 @@
     "enrichplot"
   ],
   "MineICA": [
-    "biomaRt",
     "GOstats",
     "annotate",
     "lumi",
@@ -1806,15 +1743,13 @@
     "EpiMix",
     "ExperimentHub",
     "enrichplot",
-    "biomaRt",
     "GenomicFeatures",
     "GenomicAlignments"
   ],
   "MoonlightR": [
     "clusterProfiler",
     "TCGAbiolinks",
-    "enrichplot",
-    "biomaRt"
+    "enrichplot"
   ],
   "Motif2Site": [
     "BSgenome",
@@ -1830,9 +1765,7 @@
     "GenomicAlignments",
     "BSgenome"
   ],
-  "MouseFM": [
-    "biomaRt"
-  ],
+  "MouseFM": [],
   "MsDataHub": [
     "ExperimentHub"
   ],
@@ -1881,7 +1814,6 @@
     "GenomicFeatures",
     "Gviz",
     "txdbmaker",
-    "biomaRt",
     "regioneR",
     "ensembldb",
     "biovizBase",
@@ -1905,14 +1837,11 @@
   "NetActivity": [
     "DESeq2"
   ],
-  "NetSAM": [
-    "biomaRt"
-  ],
+  "NetSAM": [],
   "NewWave": [
     "SingleCellExperiment"
   ],
   "NoRCE": [
-    "biomaRt",
     "rtracklayer",
     "GenomicFeatures",
     "GenomicAlignments"
@@ -1920,7 +1849,6 @@
   "OGRE": [
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -1943,7 +1871,6 @@
   ],
   "ORFik": [
     "GenomicAlignments",
-    "biomaRt",
     "BSgenome",
     "DESeq2",
     "GenomicFeatures",
@@ -1959,13 +1886,10 @@
     "DESeq2",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "OmaDB": [],
-  "OncoScore": [
-    "biomaRt"
-  ],
+  "OncoScore": [],
   "Organism.dplyr": [
     "GenomicFeatures",
     "rtracklayer",
@@ -1975,7 +1899,6 @@
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "OutSplice": [
@@ -1995,8 +1918,7 @@
   ],
   "PDATK": [
     "CoreGx",
-    "genefu",
-    "biomaRt"
+    "genefu"
   ],
   "PECA": [
     "genefilter",
@@ -2013,7 +1935,6 @@
     "Gviz",
     "BSgenome",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "biovizBase",
@@ -2034,9 +1955,7 @@
     "SingleCellExperiment",
     "MAST"
   ],
-  "PPInfer": [
-    "biomaRt"
-  ],
+  "PPInfer": [],
   "PREDA": [
     "annotate"
   ],
@@ -2075,7 +1994,6 @@
     "CoreGx"
   ],
   "PhenStat": [],
-  "PhosR": [],
   "Pigengene": [
     "clusterProfiler",
     "ReactomePA",
@@ -2100,9 +2018,7 @@
     "BSgenome",
     "GenomicAlignments"
   ],
-  "ProteoMM": [
-    "biomaRt"
-  ],
+  "ProteoMM": [],
   "PureCN": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -2118,7 +2034,6 @@
     "VariantAnnotation",
     "ensembldb",
     "rtracklayer",
-    "biomaRt",
     "BSgenome"
   ],
   "QFeatures": [],
@@ -2130,8 +2045,7 @@
     "rtracklayer",
     "GenomicFiles",
     "GenomicAlignments",
-    "VariantAnnotation",
-    "biomaRt"
+    "VariantAnnotation"
   ],
   "R3CPET": [
     "ggbio",
@@ -2143,12 +2057,10 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "R453Plus1Toolbox": [
     "VariantAnnotation",
-    "biomaRt",
     "BSgenome",
     "ShortRead",
     "rtracklayer",
@@ -2169,8 +2081,7 @@
     "GenomicFeatures",
     "txdbmaker",
     "genomation",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "RCSL": [
     "SingleCellExperiment"
@@ -2181,7 +2092,6 @@
     "rtracklayer",
     "GenomicAlignments",
     "GenomicFeatures",
-    "biomaRt",
     "regioneR",
     "ensembldb"
   ],
@@ -2247,7 +2157,6 @@
     "rtracklayer",
     "BSgenome",
     "Gviz",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "VariantAnnotation"
@@ -2256,7 +2165,6 @@
     "RNAmodR",
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -2273,7 +2181,6 @@
     "rtracklayer",
     "BSgenome",
     "Gviz",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "VariantAnnotation"
@@ -2282,7 +2189,6 @@
     "RNAmodR",
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -2307,7 +2213,6 @@
   "RUVSeq": [
     "EDASeq",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -2340,7 +2245,6 @@
   ],
   "ReducedExperiment": [
     "clusterProfiler",
-    "biomaRt",
     "enrichplot"
   ],
   "RegEnrich": [
@@ -2354,9 +2258,7 @@
     "scran",
     "scuttle"
   ],
-  "RepViz": [
-    "biomaRt"
-  ],
+  "RepViz": [],
   "Repitools": [
     "GenomicAlignments",
     "rtracklayer",
@@ -2378,8 +2280,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "RgnTX": [
     "GenomicFeatures",
@@ -2393,15 +2294,13 @@
     "SGSeq",
     "GenomicAlignments",
     "GenomicFeatures",
-    "rtracklayer",
-    "biomaRt"
+    "rtracklayer"
   ],
   "RiboCrypt": [
     "ORFik",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments",
-    "biomaRt",
     "BSgenome",
     "DESeq2",
     "txdbmaker"
@@ -2411,8 +2310,7 @@
     "GenomicAlignments",
     "DESeq2",
     "txdbmaker",
-    "rtracklayer",
-    "biomaRt"
+    "rtracklayer"
   ],
   "RiboProfiling": [
     "GenomicFeatures",
@@ -2424,8 +2322,7 @@
     "VariantAnnotation",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "Rmmquant": [
     "DESeq2",
@@ -2445,7 +2342,6 @@
     "GenomicAlignments"
   ],
   "RnaSeqSampleSize": [
-    "biomaRt",
     "recount",
     "derfinder",
     "rtracklayer",
@@ -2536,8 +2432,7 @@
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "SNPhood": [
     "DESeq2",
@@ -2562,7 +2457,6 @@
     "SingleCellExperiment"
   ],
   "SPLINTER": [
-    "biomaRt",
     "GenomicAlignments",
     "GenomicFeatures",
     "Gviz",
@@ -2572,9 +2466,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "SPONGE": [
-    "biomaRt"
-  ],
+  "SPONGE": [],
   "SPOTlight": [
     "SingleCellExperiment"
   ],
@@ -2586,15 +2478,12 @@
     "SingleCellExperiment",
     "SpatialExperiment"
   ],
-  "SWATH2stats": [
-    "biomaRt"
-  ],
+  "SWATH2stats": [],
   "SemDist": [
     "annotate"
   ],
   "SeqGSEA": [
-    "DESeq2",
-    "biomaRt"
+    "DESeq2"
   ],
   "SeqSQC": [
     "ExperimentHub"
@@ -2636,8 +2525,7 @@
     "txdbmaker",
     "ShortRead",
     "GenomicFiles",
-    "VariantAnnotation",
-    "biomaRt"
+    "VariantAnnotation"
   ],
   "SingleR": [],
   "SomaticSignatures": [
@@ -2650,8 +2538,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "SpaNorm": [
     "scran",
@@ -2733,7 +2620,6 @@
     "SPsimSeq",
     "DESeq2",
     "TCGAbiolinks",
-    "biomaRt",
     "SingleCellExperiment"
   ],
   "TADCompare": [],
@@ -2758,9 +2644,7 @@
   "TCC": [
     "DESeq2"
   ],
-  "TCGAbiolinks": [
-    "biomaRt"
-  ],
+  "TCGAbiolinks": [],
   "TCGAutils": [
     "GenomicFeatures",
     "rtracklayer",
@@ -2774,7 +2658,6 @@
   ],
   "TEKRABber": [
     "apeglm",
-    "biomaRt",
     "DESeq2",
     "rtracklayer",
     "GenomicAlignments"
@@ -2785,8 +2668,7 @@
     "ExperimentHub",
     "rtracklayer",
     "BSgenome",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "TENxIO": [
     "SingleCellExperiment"
@@ -2797,7 +2679,6 @@
     "GenomicAlignments"
   ],
   "TFEA.ChIP": [
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -2805,7 +2686,6 @@
   "TFHAZ": [
     "ORFik",
     "GenomicAlignments",
-    "biomaRt",
     "BSgenome",
     "DESeq2",
     "GenomicFeatures",
@@ -2850,7 +2730,6 @@
     "VariantAnnotation",
     "GenomicFeatures",
     "rtracklayer",
-    "biomaRt",
     "BSgenome",
     "biovizBase",
     "GenomicAlignments"
@@ -2962,7 +2841,6 @@
     "GenomicScores",
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "GenomicAlignments"
@@ -2974,12 +2852,8 @@
     "BSgenome",
     "GenomicAlignments"
   ],
-  "VegaMC": [
-    "biomaRt"
-  ],
-  "ViSEAGO": [
-    "biomaRt"
-  ],
+  "VegaMC": [],
+  "ViSEAGO": [],
   "VisiumIO": [
     "TENxIO",
     "SingleCellExperiment",
@@ -3027,8 +2901,7 @@
     "GenomicAlignments",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "ZygosityPredictor": [
     "GenomicAlignments",
@@ -3071,8 +2944,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "aggregateBioVar": [
     "SingleCellExperiment"
@@ -3171,8 +3043,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "arrayMvout": [
     "lumi",
@@ -3230,7 +3101,6 @@
     "pRoloc",
     "PSMatch",
     "MLInterfaces",
-    "biomaRt",
     "annotate",
     "genefilter",
     "QFeatures"
@@ -3294,11 +3164,9 @@
     "geneplotter",
     "annotate"
   ],
-  "biomaRt": [],
   "biomvRCNS": [
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -3331,13 +3199,11 @@
     "GenomicFeatures",
     "GenomicAlignments",
     "regioneR",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "blacksheepr": [
     "DEXSeq",
     "DESeq2",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "annotate"
@@ -3363,7 +3229,6 @@
     "GenomicAlignments"
   ],
   "branchpointer": [
-    "biomaRt",
     "rtracklayer",
     "BSgenome",
     "GenomicAlignments"
@@ -3411,8 +3276,7 @@
     "ensembldb",
     "txdbmaker",
     "genefilter",
-    "annotate",
-    "biomaRt"
+    "annotate"
   ],
   "canceR": [
     "cBioPortalData",
@@ -3422,7 +3286,6 @@
     "TCGAutils",
     "annotate",
     "Category",
-    "biomaRt",
     "genefilter",
     "GenomicFeatures",
     "rtracklayer",
@@ -3537,7 +3400,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "rtracklayer",
-    "biomaRt",
     "BSgenome",
     "biovizBase",
     "VariantAnnotation"
@@ -3550,9 +3412,7 @@
     "ShortRead",
     "GenomicAlignments"
   ],
-  "chromPlot": [
-    "biomaRt"
-  ],
+  "chromPlot": [],
   "chromVAR": [
     "TFBSTools",
     "BSgenome",
@@ -3562,7 +3422,6 @@
   "cicero": [
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -3640,7 +3499,6 @@
   "comapr": [
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -3654,7 +3512,6 @@
     "rtracklayer",
     "Gviz",
     "GenomicAlignments",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase",
@@ -3681,13 +3538,11 @@
     "GenomicFeatures",
     "RUVSeq",
     "ShortRead",
-    "biomaRt",
     "rtracklayer"
   ],
   "consensusOV": [
     "GSVA",
     "genefu",
-    "biomaRt",
     "GSEABase",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -3759,7 +3614,6 @@
     "txdbmaker",
     "VariantAnnotation",
     "GenomicAlignments",
-    "biomaRt",
     "ExperimentHub"
   ],
   "crisprScore": [
@@ -3777,7 +3631,6 @@
     "VariantAnnotation",
     "Gviz",
     "ExperimentHub",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "GenomicAlignments"
@@ -3794,7 +3647,6 @@
     "VariantAnnotation",
     "ExperimentHub",
     "Gviz",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "GenomicAlignments"
@@ -3809,7 +3661,6 @@
     "crisprBowtie",
     "crisprScore",
     "VariantAnnotation",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "GenomicAlignments",
@@ -3830,7 +3681,6 @@
   "cummeRbund": [
     "rtracklayer",
     "Gviz",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -3840,7 +3690,6 @@
   ],
   "customCMPdb": [],
   "customProDB": [
-    "biomaRt",
     "GenomicAlignments",
     "GenomicFeatures",
     "VariantAnnotation",
@@ -3876,7 +3725,6 @@
     "GenomicAlignments"
   ],
   "dagLogo": [
-    "biomaRt",
     "motifStack",
     "TFBSTools",
     "BSgenome",
@@ -3974,8 +3822,7 @@
     "VariantAnnotation",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "destiny": [
     "SingleCellExperiment"
@@ -3990,7 +3837,6 @@
     "rtracklayer",
     "ensembldb",
     "DESeq2",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "GenomicFeatures",
@@ -4017,9 +3863,7 @@
     "BSgenome",
     "GenomicAlignments"
   ],
-  "dominoSignal": [
-    "biomaRt"
-  ],
+  "dominoSignal": [],
   "doppelgangR": [
     "sva",
     "genefilter",
@@ -4041,7 +3885,6 @@
     "safe"
   ],
   "drugTargetInteractions": [
-    "biomaRt",
     "ensembldb",
     "GenomicFeatures",
     "rtracklayer",
@@ -4052,7 +3895,6 @@
     "ExperimentHub"
   ],
   "easyRNASeq": [
-    "biomaRt",
     "GenomicAlignments",
     "ShortRead"
   ],
@@ -4099,7 +3941,6 @@
     "minfi",
     "bumphunter",
     "GenomicFeatures",
-    "biomaRt",
     "Gviz",
     "rtracklayer",
     "ExperimentHub",
@@ -4145,8 +3986,7 @@
     "ensembldb",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "epivizrChart": [
     "epivizrData",
@@ -4155,8 +3995,7 @@
     "ensembldb",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "epivizrData": [
     "OrganismDbi",
@@ -4164,8 +4003,7 @@
     "ensembldb",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "epivizrStandalone": [
     "epivizr",
@@ -4176,8 +4014,7 @@
     "OrganismDbi",
     "ensembldb",
     "GenomicAlignments",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "erma": [
     "GenomicFiles",
@@ -4187,8 +4024,7 @@
     "OrganismDbi",
     "GenomicFeatures",
     "txdbmaker",
-    "BSgenome",
-    "biomaRt"
+    "BSgenome"
   ],
   "esATAC": [
     "ShortRead",
@@ -4313,7 +4149,6 @@
   ],
   "gDRutils": [],
   "gINTomics": [
-    "biomaRt",
     "GenomicFeatures",
     "ReactomePA",
     "clusterProfiler",
@@ -4341,9 +4176,7 @@
   "genefilter": [
     "annotate"
   ],
-  "genefu": [
-    "biomaRt"
-  ],
+  "genefu": [],
   "geneplotter": [
     "annotate"
   ],
@@ -4361,7 +4194,6 @@
     "Gviz",
     "rtracklayer",
     "txdbmaker",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase",
@@ -4385,8 +4217,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "ggsc": [
     "SingleCellExperiment"
@@ -4404,7 +4235,6 @@
     "SingleCellExperiment"
   ],
   "glmSparseNet": [
-    "biomaRt",
     "TCGAutils",
     "GenomicFeatures",
     "rtracklayer",
@@ -4426,9 +4256,7 @@
     "rtracklayer"
   ],
   "goProfiles": [],
-  "goSTAG": [
-    "biomaRt"
-  ],
+  "goSTAG": [],
   "goSorensen": [
     "clusterProfiler",
     "goProfiles",
@@ -4439,8 +4267,7 @@
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "gpuMagic": [],
   "graphite": [],
@@ -4450,8 +4277,7 @@
   ],
   "gscreend": [],
   "gsean": [
-    "PPInfer",
-    "biomaRt"
+    "PPInfer"
   ],
   "gwascat": [
     "GenomicFeatures",
@@ -4471,7 +4297,6 @@
     "QFeatures"
   ],
   "hermes": [
-    "biomaRt",
     "DESeq2"
   ],
   "hiAnnotator": [
@@ -4530,8 +4355,7 @@
     "rtracklayer",
     "txdbmaker",
     "graphite",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "iSEE": [
     "SingleCellExperiment"
@@ -4602,8 +4426,7 @@
     "genefilter",
     "enrichplot",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "idiogram": [
     "annotate"
@@ -4638,8 +4461,7 @@
     "GenomicFeatures",
     "OrganismDbi",
     "ensembldb",
-    "txdbmaker",
-    "biomaRt"
+    "txdbmaker"
   ],
   "interactiveDisplay": [
     "Category",
@@ -4648,9 +4470,7 @@
     "annotate"
   ],
   "ipdDb": [],
-  "isobar": [
-    "biomaRt"
-  ],
+  "isobar": [],
   "isomiRs": [
     "DEGreport",
     "DESeq2"
@@ -4750,7 +4570,6 @@
     "oligoClasses"
   ],
   "mCSEA": [
-    "biomaRt",
     "GenomicFeatures",
     "Gviz",
     "rtracklayer",
@@ -4785,7 +4604,6 @@
   "maser": [
     "rtracklayer",
     "Gviz",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -4826,7 +4644,6 @@
   ],
   "metaseqR2": [
     "DESeq2",
-    "biomaRt",
     "DSS",
     "EDASeq",
     "genefilter",
@@ -4897,7 +4714,6 @@
     "Gviz",
     "GenomicAlignments",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -4923,8 +4739,7 @@
     "rtracklayer",
     "OrganismDbi",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "methylscaper": [],
   "methylumi": [
@@ -4945,8 +4760,7 @@
     "GOstats",
     "GSEABase",
     "genefilter",
-    "annotate",
-    "biomaRt"
+    "annotate"
   ],
   "miRNAmeConverter": [],
   "miRNAtap": [],
@@ -4964,8 +4778,7 @@
     "clusterProfiler",
     "ReactomePA",
     "enrichplot",
-    "graphite",
-    "biomaRt"
+    "graphite"
   ],
   "mia": [
     "SingleCellExperiment",
@@ -5072,8 +4885,7 @@
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "motifStack": [
     "TFBSTools",
@@ -5088,7 +4900,6 @@
     "VariantAnnotation",
     "motifStack",
     "Gviz",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "biovizBase",
@@ -5114,7 +4925,6 @@
     "GenomicFeatures",
     "ggbio",
     "rtracklayer",
-    "biomaRt",
     "ShortRead",
     "biovizBase",
     "VariantAnnotation",
@@ -5183,7 +4993,6 @@
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "myvariant": [
@@ -5246,7 +5055,6 @@
     "EDASeq",
     "GSVA",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "GSEABase",
     "SingleCellExperiment",
@@ -5279,9 +5087,7 @@
   "omicsViewer": [],
   "oncomix": [],
   "ontoProc": [],
-  "oposSOM": [
-    "biomaRt"
-  ],
+  "oposSOM": [],
   "oppar": [
     "GSEABase",
     "GSVA",
@@ -5295,7 +5101,6 @@
   "pRoloc": [
     "MSnbase",
     "MLInterfaces",
-    "biomaRt",
     "annotate",
     "genefilter",
     "PSMatch",
@@ -5306,7 +5111,6 @@
     "MSnbase",
     "PSMatch",
     "MLInterfaces",
-    "biomaRt",
     "annotate",
     "genefilter",
     "QFeatures"
@@ -5323,7 +5127,6 @@
     "DESeq2",
     "DEXSeq",
     "sva",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "annotate"
@@ -5351,7 +5154,6 @@
     "mosdef",
     "genefilter",
     "GOstats",
-    "biomaRt",
     "annotate",
     "Category",
     "clusterProfiler",
@@ -5390,7 +5192,6 @@
   "phenoTest": [
     "annotate",
     "Category",
-    "biomaRt",
     "GSEABase",
     "genefilter"
   ],
@@ -5456,7 +5257,6 @@
     "Gviz",
     "TFBSTools",
     "BSgenome",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "biovizBase",
@@ -5468,15 +5268,13 @@
     "GenomicFeatures",
     "GenomicAlignments",
     "txdbmaker",
-    "rtracklayer",
-    "biomaRt"
+    "rtracklayer"
   ],
   "proBAMr": [
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "profileplyr": [
     "soGGi",
@@ -5586,8 +5384,7 @@
     "rtracklayer"
   ],
   "ramwas": [
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "recount": [
     "derfinder",
@@ -5614,7 +5411,6 @@
   ],
   "recoup": [
     "GenomicAlignments",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "txdbmaker"
@@ -5646,7 +5442,6 @@
   "regutools": [
     "Gviz",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -5657,7 +5452,6 @@
   "rgsepd": [
     "DESeq2",
     "goseq",
-    "biomaRt",
     "rtracklayer",
     "GenomicFeatures",
     "txdbmaker",
@@ -5673,7 +5467,6 @@
     "RUVSeq",
     "txdbmaker",
     "ShortRead",
-    "biomaRt",
     "TFBSTools"
   ],
   "rifi": [
@@ -5716,8 +5509,7 @@
   "sampleClassifier": [
     "MGFM",
     "MGFR",
-    "annotate",
-    "biomaRt"
+    "annotate"
   ],
   "saseR": [
     "ASpli",
@@ -5727,7 +5519,6 @@
     "GenomicAlignments",
     "Gviz",
     "txdbmaker",
-    "biomaRt",
     "geneplotter",
     "genefilter",
     "rtracklayer",
@@ -5824,7 +5615,6 @@
   ],
   "scPipe": [
     "SingleCellExperiment",
-    "biomaRt",
     "DropletUtils",
     "GenomicAlignments",
     "rtracklayer",
@@ -5832,7 +5622,6 @@
   ],
   "scQTLtools": [
     "DESeq2",
-    "biomaRt",
     "SingleCellExperiment"
   ],
   "scRNAseqApp": [
@@ -5880,16 +5669,14 @@
     "scuttle",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "scanMiRApp": [
     "ensembldb",
     "GenomicFeatures",
     "rtracklayer",
     "txdbmaker",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "scater": [
     "SingleCellExperiment",
@@ -5925,7 +5712,6 @@
     "SingleCellExperiment",
     "EDASeq",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -5957,8 +5743,7 @@
     "BSgenome",
     "VariantAnnotation",
     "OrganismDbi",
-    "ensembldb",
-    "biomaRt"
+    "ensembldb"
   ],
   "scry": [
     "SingleCellExperiment"
@@ -5989,9 +5774,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "seq2pathway": [
-    "biomaRt"
-  ],
+  "seq2pathway": [],
   "seqArchRplus": [
     "BSgenome",
     "ChIPseeker",
@@ -6029,7 +5812,6 @@
     "RUVSeq",
     "EDASeq",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -6076,7 +5858,6 @@
     "rtracklayer",
     "GSEABase",
     "SingleCellExperiment",
-    "biomaRt",
     "annotate",
     "GenomicAlignments"
   ],
@@ -6128,7 +5909,6 @@
     "annotate"
   ],
   "sitadela": [
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "txdbmaker",
@@ -6211,7 +5991,6 @@
     "TFBSTools",
     "rtracklayer",
     "Gviz",
-    "biomaRt",
     "ensembldb",
     "biovizBase",
     "GenomicAlignments",
@@ -6267,7 +6046,6 @@
     "GenomicFeatures",
     "GenomicAlignments",
     "Gviz",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase",
@@ -6283,7 +6061,6 @@
     "RUVSeq",
     "EDASeq",
     "ShortRead",
-    "biomaRt",
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments"
@@ -6293,9 +6070,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "surfaltr": [
-    "biomaRt"
-  ],
+  "surfaltr": [],
   "survClust": [],
   "sva": [
     "genefilter",
@@ -6351,7 +6126,6 @@
     "Gviz",
     "VariantAnnotation",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "ensembldb",
     "BSgenome",
@@ -6362,8 +6136,7 @@
     "ontoProc"
   ],
   "terapadog": [
-    "DESeq2",
-    "biomaRt"
+    "DESeq2"
   ],
   "terraTCGAdata": [
     "TCGAutils",
@@ -6415,7 +6188,6 @@
     "Gviz",
     "rtracklayer",
     "txdbmaker",
-    "biomaRt",
     "ensembldb",
     "BSgenome",
     "biovizBase",
@@ -6433,9 +6205,7 @@
     "rtracklayer",
     "ShortRead"
   ],
-  "transcriptogramer": [
-    "biomaRt"
-  ],
+  "transcriptogramer": [],
   "transformGamPoi": [
     "glmGamPoi",
     "SingleCellExperiment"
@@ -6475,13 +6245,11 @@
     "GenomicFeatures",
     "txdbmaker",
     "rtracklayer",
-    "GenomicAlignments",
-    "biomaRt"
+    "GenomicAlignments"
   ],
   "txdbmaker": [
     "GenomicFeatures",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "tximeta": [
@@ -6489,7 +6257,6 @@
     "txdbmaker",
     "ensembldb",
     "rtracklayer",
-    "biomaRt",
     "GenomicAlignments"
   ],
   "uncoverappLib": [
@@ -6497,7 +6264,6 @@
     "OrganismDbi",
     "ensembldb",
     "rtracklayer",
-    "biomaRt",
     "GenomicFeatures",
     "BSgenome",
     "biovizBase",
@@ -6549,7 +6315,6 @@
     "DESeq2",
     "GenomicAlignments",
     "GenomicFeatures",
-    "biomaRt",
     "regioneR",
     "rtracklayer",
     "ensembldb",
@@ -6604,7 +6369,6 @@
     "TENxIO"
   ],
   "yarn": [
-    "biomaRt",
     "quantro",
     "minfi",
     "bumphunter",

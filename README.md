@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1136 (49%)
+- **Successfully Built:** 1138 (49%)
 - **Failed:** 8 (0%)
-- **In Progress:** 146
-- **Not Started:** 1020
+- **In Progress:** 148
+- **Not Started:** 1016
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1136)
+## Successfully Built Packages (1138)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1086 more ...*
+*... and 1088 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (146)
+## In Progress (148)
 - ⏳ `AffiXcan`
 - ⏳ `BiocSklearn`
 - ⏳ `CNVRanger`
@@ -124,14 +124,15 @@
 - ⏳ `MultimodalExperiment`
 - ⏳ `OmaDB`
 - ⏳ `PADOG`
-- ⏳ `PhosR`
 - ⏳ `QFeatures`
 - ⏳ `SVMDO`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
 - ⏳ `SpatialCPie`
+- ⏳ `SpectralTAD`
 - ⏳ `SplicingFactory`
 - ⏳ `SubCellBarCode`
+- ⏳ `TADCompare`
 - ⏳ `TIN`
 - ⏳ `TOAST`
 - ⏳ `TREG`
@@ -139,11 +140,10 @@
 - ⏳ `Trendy`
 - ⏳ `VariantExperiment`
 - ⏳ `XAItest`
-- ⏳ `adSplit`
 
-... and 96 more ...
+... and 98 more ...
 
-## Not Yet Started (1020)
+## Not Yet Started (1016)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BubbleTree`
 
-... and 970 more ...
+... and 966 more ...
 
 ---
-*Last updated: 2025-10-31 04:24:45 UTC*
+*Last updated: 2025-10-31 04:25:43 UTC*
 *Packages with verified BBS status: 122*
