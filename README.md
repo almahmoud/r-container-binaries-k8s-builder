@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1006 (43%)
+- **Successfully Built:** 1018 (44%)
 - **Failed:** 7 (0%)
-- **In Progress:** 212
-- **Not Started:** 1085
+- **In Progress:** 201
+- **Not Started:** 1084
 
-**Progress:** 43%
+**Progress:** 44%
 ```
-█████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1006)
+## Successfully Built Packages (1018)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.21/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 
-*... and 956 more ...*
+*... and 968 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,13 +88,11 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (212)
+## In Progress (201)
 - ⏳ `ADAM`
 - ⏳ `ALDEx2`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
-- ⏳ `BUMHMM`
-- ⏳ `BUScorrect`
 - ⏳ `BioGA`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
@@ -106,7 +104,6 @@
 - ⏳ `CPSM`
 - ⏳ `CaDrA`
 - ⏳ `CellScore`
-- ⏳ `CoCiteStats`
 - ⏳ `DESeq2`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
@@ -123,10 +120,10 @@
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
+- ⏳ `HDF5Array`
 - ⏳ `HERON`
 - ⏳ `Harshlight`
 - ⏳ `IFAA`
-- ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
 - ⏳ `InteractionSet`
 - ⏳ `IsoBayes`
@@ -139,10 +136,13 @@
 - ⏳ `MLP`
 - ⏳ `MPRAnalyze`
 - ⏳ `MWASTools`
+- ⏳ `Macarron`
+- ⏳ `MesKit`
+- ⏳ `MetNet`
 
-... and 162 more ...
+... and 151 more ...
 
-## Not Yet Started (1085)
+## Not Yet Started (1084)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -194,8 +194,8 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 
-... and 1035 more ...
+... and 1034 more ...
 
 ---
-*Last updated: 2025-10-31 03:55:01 UTC*
+*Last updated: 2025-10-31 03:56:47 UTC*
 *Packages with verified BBS status: 114*

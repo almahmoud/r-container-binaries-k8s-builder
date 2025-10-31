@@ -214,8 +214,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "BUMHMM": [],
-  "BUScorrect": [],
   "BUSpaRse": [
     "biomaRt",
     "BSgenome",
@@ -735,7 +733,6 @@
   "ClusterFoldSimilarity": [
     "SingleCellExperiment"
   ],
-  "CoCiteStats": [],
   "CoGAPS": [
     "SingleCellExperiment"
   ],
@@ -1144,7 +1141,6 @@
   "EpiTxDb": [
     "GenomicFeatures",
     "txdbmaker",
-    "tRNAdbImport",
     "rtracklayer",
     "biomaRt",
     "GenomicAlignments"
@@ -1631,7 +1627,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "ISLET": [],
   "ITALICS": [
     "oligo",
     "oligoClasses"
@@ -2377,7 +2372,6 @@
     "graphite"
   ],
   "Pirat": [],
-  "PolySTest": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -2422,7 +2416,6 @@
   "QFeatures": [
     "MultiAssayExperiment"
   ],
-  "QTLExperiment": [],
   "QuasR": [
     "BSgenome",
     "GenomicFeatures",
@@ -2606,7 +2599,6 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "RNAsense": [],
   "ROCpAI": [],
   "RSVSim": [
     "ShortRead",
@@ -2947,7 +2939,6 @@
   "SWATH2stats": [
     "biomaRt"
   ],
-  "Scale4C": [],
   "SemDist": [
     "annotate"
   ],
@@ -4800,7 +4791,6 @@
     "MultiAssayExperiment"
   ],
   "flowBin": [],
-  "flowCut": [],
   "flowGate": [
     "ggcyto"
   ],
@@ -5725,7 +5715,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "motifTestR": [],
   "motifbreakR": [
     "MotifDb",
     "BSgenome",
@@ -5812,9 +5801,7 @@
     "GenomicAlignments",
     "ensembldb"
   ],
-  "multistateQTL": [
-    "QTLExperiment"
-  ],
+  "multistateQTL": [],
   "mumosa": [
     "SingleCellExperiment",
     "scuttle",
@@ -6904,7 +6891,6 @@
     "txdbmaker",
     "GenomicAlignments"
   ],
-  "sketchR": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
@@ -7133,7 +7119,6 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "tRNAdbImport": [],
   "tRNAscanImport": [
     "rtracklayer",
     "BSgenome",

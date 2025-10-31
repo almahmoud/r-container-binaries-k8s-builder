@@ -1004,3 +1004,15 @@ cfdnakit
 h5mread
 heatmaps
 MODA
+BUMHMM
+BUScorrect
+CoCiteStats
+flowCut
+ISLET
+motifTestR
+PolySTest
+QTLExperiment
+RNAsense
+Scale4C
+sketchR
+tRNAdbImport
