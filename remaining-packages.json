@@ -474,7 +474,6 @@
   "RJMCMCNucleosomes": [
     "consensusSeekeR"
   ],
-  "RMassBank": [],
   "RNAAgeCalc": [
     "recount",
     "derfinder",
@@ -630,7 +629,6 @@
     "biovizBase"
   ],
   "VariantTools": [],
-  "Voyager": [],
   "XNAString": [],
   "YAPSA": [
     "SomaticSignatures",
@@ -734,7 +732,6 @@
   ],
   "celaref": [],
   "celda": [],
-  "cfDNAPro": [],
   "chevreulPlot": [
     "chevreulProcess"
   ],
@@ -1024,7 +1021,6 @@
     "regioneR",
     "biovizBase"
   ],
-  "katdetectr": [],
   "kissDE": [
     "DSS",
     "bsseq"
@@ -1200,7 +1196,6 @@
   "pipeComp": [],
   "pipeFrame": [],
   "plotgardener": [],
-  "plyinteractions": [],
   "podkat": [],
   "preciseTAD": [
     "rCGH"
@@ -1225,7 +1220,6 @@
     "derfinder",
     "GenomicFiles"
   ],
-  "qPLEXanalyzer": [],
   "qpgraph": [],
   "qsea": [],
   "quantro": [
@@ -1275,7 +1269,6 @@
     "txdbmaker",
     "biovizBase"
   ],
-  "scClassify": [],
   "scDD": [],
   "scDblFinder": [],
   "scDotPlot": [],

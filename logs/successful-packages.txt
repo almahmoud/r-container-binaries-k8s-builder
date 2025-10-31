@@ -1803,3 +1803,10 @@ pathMED
 ptairMS
 transmogR
 vmrseq
+cfDNAPro
+katdetectr
+plyinteractions
+qPLEXanalyzer
+RMassBank
+scClassify
+Voyager
