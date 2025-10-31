@@ -902,7 +902,6 @@
     "pathview",
     "GSVA",
     "globaltest",
-    "safe",
     "annotate",
     "GSEABase",
     "SingleCellExperiment",
@@ -954,7 +953,6 @@
     "GSEABase",
     "graphite",
     "pathview",
-    "safe",
     "annotate"
   ],
   "EpiCompare": [
@@ -1127,7 +1125,6 @@
     "GSEABase",
     "graphite",
     "pathview",
-    "safe",
     "annotate"
   ],
   "GSRI": [
@@ -3818,8 +3815,7 @@
     "annotate",
     "EnrichmentBrowser",
     "graphite",
-    "pathview",
-    "safe"
+    "pathview"
   ],
   "drugTargetInteractions": [
     "ensembldb",
@@ -4183,13 +4179,10 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "goProfiles": [],
   "goSTAG": [],
   "goSorensen": [
-    "clusterProfiler",
-    "goProfiles"
+    "clusterProfiler"
   ],
-  "goTools": [],
   "goseq": [
     "rtracklayer",
     "GenomicFeatures",
@@ -5420,7 +5413,6 @@
   "sSNAPPY": [
     "graphite"
   ],
-  "safe": [],
   "sampleClassifier": [
     "MGFM",
     "MGFR",
@@ -6294,7 +6286,6 @@
     "GSEABase",
     "graphite",
     "pathview",
-    "safe",
     "annotate"
   ],
   "zinbwave": [

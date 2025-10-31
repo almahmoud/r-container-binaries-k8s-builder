@@ -1157,3 +1157,6 @@ ginmappeR
 OmaDB
 alabaster.matrix
 oposSOM
+goProfiles
+goTools
+safe
