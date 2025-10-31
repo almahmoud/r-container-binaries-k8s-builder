@@ -311,7 +311,6 @@
     "AnnotationHub",
     "ExperimentHub"
   ],
-  "BiocSet": [],
   "BiocSklearn": [],
   "BloodGen3Module": [
     "ExperimentHub",
@@ -1249,7 +1248,6 @@
     "pathview",
     "enrichplot"
   ],
-  "GENESIS": [],
   "GEOexplorer": [
     "sva",
     "GEOquery",
@@ -1925,9 +1923,7 @@
     "GenomicAlignments"
   ],
   "MesKit": [],
-  "MetMashR": [
-    "struct"
-  ],
+  "MetMashR": [],
   "MetNet": [],
   "MetaNeighbor": [
     "SingleCellExperiment"
@@ -2419,7 +2415,6 @@
     "GenomicFeatures"
   ],
   "RAIDS": [
-    "GENESIS",
     "ensembldb",
     "BSgenome",
     "VariantAnnotation",
@@ -2639,7 +2634,6 @@
     "enrichplot"
   ],
   "RegEnrich": [
-    "BiocSet",
     "DOSE",
     "DESeq2"
   ],
@@ -5349,8 +5343,7 @@
     "MultiAssayExperiment"
   ],
   "metabolomicsWorkbenchR": [
-    "MultiAssayExperiment",
-    "struct"
+    "MultiAssayExperiment"
   ],
   "metagene2": [
     "rtracklayer",
@@ -6033,8 +6026,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "plyxp": [],
-  "pmp": [],
   "podkat": [
     "BSgenome",
     "rtracklayer",
@@ -6862,7 +6853,6 @@
     "SingleCellExperiment"
   ],
   "sparrow": [
-    "BiocSet",
     "GSEABase",
     "annotate"
   ],
@@ -6960,7 +6950,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ssPATHS": [],
   "stJoincount": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -6982,10 +6971,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "struct": [],
-  "structToolbox": [
-    "struct"
-  ],
+  "structToolbox": [],
   "supersigs": [],
   "surfaltr": [
     "biomaRt"

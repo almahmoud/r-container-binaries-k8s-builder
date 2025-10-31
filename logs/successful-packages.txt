@@ -1037,3 +1037,9 @@ h5vc
 snapcount
 spqn
 survtype
+BiocSet
+GENESIS
+plyxp
+pmp
+ssPATHS
+struct

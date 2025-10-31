@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1039 (44%)
-- **Failed:** 7 (0%)
-- **In Progress:** 183
-- **Not Started:** 1081
+- **Successfully Built:** 1045 (45%)
+- **Failed:** 8 (0%)
+- **In Progress:** 180
+- **Not Started:** 1077
 
 **Progress:** 45%
 ```
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1039)
+## Successfully Built Packages (1045)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.21/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBilling) |
 
-*... and 989 more ...*
+*... and 995 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,11 +76,12 @@
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (7)
+## Failed Packages (8)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
+| [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
@@ -88,11 +89,10 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (183)
+## In Progress (180)
 - ⏳ `ADAMgui`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
-- ⏳ `BiocSet`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
 - ⏳ `CAEN`
@@ -100,11 +100,11 @@
 - ⏳ `CaDrA`
 - ⏳ `CellScore`
 - ⏳ `DESeq2`
+- ⏳ `DOSE`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
-- ⏳ `GENESIS`
 - ⏳ `GEOquery`
 - ⏳ `GNET2`
 - ⏳ `GOfuncR`
@@ -115,7 +115,6 @@
 - ⏳ `GeoTcgaData`
 - ⏳ `HDF5Array`
 - ⏳ `HERON`
-- ⏳ `Harshlight`
 - ⏳ `IFAA`
 - ⏳ `IgGeneUsage`
 - ⏳ `InteractionSet`
@@ -139,10 +138,12 @@
 - ⏳ `MultiDataSet`
 - ⏳ `NormalyzerDE`
 - ⏳ `OVESEG`
+- ⏳ `PADOG`
+- ⏳ `PAIRADISE`
 
-... and 133 more ...
+... and 130 more ...
 
-## Not Yet Started (1081)
+## Not Yet Started (1077)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -194,8 +195,8 @@
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 
-... and 1031 more ...
+... and 1027 more ...
 
 ---
-*Last updated: 2025-10-31 04:00:31 UTC*
-*Packages with verified BBS status: 117*
+*Last updated: 2025-10-31 04:01:54 UTC*
+*Packages with verified BBS status: 118*

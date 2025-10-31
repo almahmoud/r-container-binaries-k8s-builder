@@ -5,3 +5,4 @@ hypeR
 gpuMagic
 PhenStat
 BiGGR
+Harshlight
