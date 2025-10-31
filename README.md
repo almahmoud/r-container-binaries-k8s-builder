@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 757 (32%)
+- **Successfully Built:** 788 (34%)
 - **Failed:** 7 (0%)
-- **In Progress:** 33
+- **In Progress:** 2
 - **Not Started:** 1513
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (757)
+## Successfully Built Packages (788)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 707 more ...*
+*... and 738 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.21/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.21/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
@@ -63,6 +62,7 @@
 | [twilight](https://bioconductor.org/packages/3.21/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.21/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.21/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.21/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
@@ -88,40 +88,9 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (33)
-- ⏳ `CCPlotR`
-- ⏳ `ClustAll`
-- ⏳ `CytoDx`
-- ⏳ `DEGraph`
-- ⏳ `FlowSOM`
-- ⏳ `GenomeInfoDb`
+## In Progress (2)
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MAPFX`
-- ⏳ `S4Arrays`
-- ⏳ `Sconify`
-- ⏳ `Spectra`
-- ⏳ `alabaster.bumpy`
 - ⏳ `cola`
-- ⏳ `cytoMEM`
-- ⏳ `flowAI`
-- ⏳ `flowBeads`
-- ⏳ `flowCHIC`
-- ⏳ `flowClean`
-- ⏳ `flowClust`
-- ⏳ `flowMatch`
-- ⏳ `flowMeans`
-- ⏳ `flowPloidy`
-- ⏳ `flowSpecs`
-- ⏳ `flowTime`
-- ⏳ `flowViz`
-- ⏳ `immunoClust`
-- ⏳ `infinityFlow`
-- ⏳ `ncdfFlow`
-- ⏳ `nempi`
-- ⏳ `simona`
-- ⏳ `tidyFlowCore`
-- ⏳ `tidytof`
-- ⏳ `uSORT`
 
 ## Not Yet Started (1513)
 - ⏸️ `ACE`
@@ -178,5 +147,5 @@
 ... and 1463 more ...
 
 ---
-*Last updated: 2025-10-31 01:48:28 UTC*
-*Packages with verified BBS status: 106*
+*Last updated: 2025-10-31 02:09:37 UTC*
+*Packages with verified BBS status: 107*
