@@ -683,7 +683,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "cardelino": [],
   "categoryCompare": [
     "GOstats"
   ],
@@ -881,7 +880,6 @@
   "fCCAC": [
     "genomation"
   ],
-  "fcScan": [],
   "ffpe": [
     "lumi",
     "methylumi",
@@ -980,7 +978,6 @@
   "lefser": [
     "mia"
   ],
-  "lineagespot": [],
   "lisaClust": [],
   "lumi": [
     "methylumi",
@@ -1201,7 +1198,6 @@
     "txdbmaker",
     "TFBSTools"
   ],
-  "rnaEditr": [],
   "saseR": [
     "ASpli",
     "Gviz",

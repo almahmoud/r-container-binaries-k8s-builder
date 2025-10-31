@@ -1833,3 +1833,7 @@ UPDhmm
 ZygosityPredictor
 ProteoDisco
 deepSNV
+cardelino
+fcScan
+lineagespot
+rnaEditr
