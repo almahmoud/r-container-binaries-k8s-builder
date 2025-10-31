@@ -600,7 +600,6 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "CNVPanelizer": [],
   "CNVRanger": [
     "RaggedExperiment",
     "GDSArray",
@@ -1610,7 +1609,6 @@
   "FeatSeekR": [
     "SummarizedExperiment"
   ],
-  "FilterFFPE": [],
   "FindIT2": [
     "rtracklayer",
     "GenomicFeatures",
@@ -4636,7 +4634,6 @@
     "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
-    "alabaster.string",
     "alabaster.vcf",
     "alabaster.mae",
     "MultiAssayExperiment",
@@ -4704,11 +4701,9 @@
     "HDF5Array",
     "h5mread"
   ],
-  "alabaster.string": [],
   "alabaster.vcf": [
     "VariantAnnotation",
     "alabaster.se",
-    "alabaster.string",
     "SummarizedExperiment",
     "alabaster.matrix",
     "AnnotationDbi",
@@ -5426,7 +5421,6 @@
     "enrichplot",
     "GOSemSim"
   ],
-  "clusterSeq": [],
   "clustifyr": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -6888,7 +6882,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "igvShiny": [],
   "imcRtools": [
     "SpatialExperiment",
     "SummarizedExperiment",
@@ -8364,7 +8357,6 @@
     "rtracklayer",
     "AnnotationDbi"
   ],
-  "ramr": [],
   "ramwas": [
     "GenomicAlignments",
     "biomaRt",

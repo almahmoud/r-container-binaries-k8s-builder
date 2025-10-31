@@ -931,3 +931,9 @@ ResidualMatrix
 ScaledMatrix
 alabaster.ranges
 universalmotif
+alabaster.string
+clusterSeq
+CNVPanelizer
+FilterFFPE
+igvShiny
+ramr
