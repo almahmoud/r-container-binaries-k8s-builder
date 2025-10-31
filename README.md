@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2172 (94%)
+- **Successfully Built:** 2174 (94%)
 - **Failed:** 21 (0%)
-- **In Progress:** 58
+- **In Progress:** 56
 - **Not Started:** 59
 
-**Progress:** 94%
+**Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2172)
+## Successfully Built Packages (2174)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.21/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.21/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.21/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AGDEX) |
+| [AHMassBank](https://bioconductor.org/packages/3.21/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.21/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
-| [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2122 more ...*
+*... and 2124 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,14 +102,12 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (58)
-- ⏳ `AHMassBank`
+## In Progress (56)
 - ⏳ `ASpli`
 - ⏳ `AllelicImbalance`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DuplexDiscovereR`
 - ⏳ `ELMER`
-- ⏳ `ExperimentHubData`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
 - ⏳ `GeneStructureTools`
@@ -153,8 +151,10 @@
 - ⏳ `pcaExplorer`
 - ⏳ `primirTSS`
 - ⏳ `regutools`
+- ⏳ `seqArchRplus`
+- ⏳ `shinyDSP`
 
-... and 8 more ...
+... and 6 more ...
 
 ## Not Yet Started (59)
 - ⏸️ `AgiMicroRna`
@@ -211,5 +211,5 @@
 ... and 9 more ...
 
 ---
-*Last updated: 2025-10-31 10:57:27 UTC*
-*Packages with verified BBS status: 164*
+*Last updated: 2025-10-31 10:58:08 UTC*
+*Packages with verified BBS status: 165*

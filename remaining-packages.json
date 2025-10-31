@@ -1,5 +1,4 @@
 {
-  "AHMassBank": [],
   "ASpli": [],
   "AgiMicroRna": [
     "affycoretools",
@@ -50,7 +49,6 @@
   ],
   "DuplexDiscovereR": [],
   "ELMER": [],
-  "ExperimentHubData": [],
   "FLAMES": [
     "ggbio"
   ],
@@ -219,9 +217,7 @@
     "missMethyl"
   ],
   "methylPipe": [],
-  "methylclock": [
-    "ExperimentHubData"
-  ],
+  "methylclock": [],
   "miRSM": [],
   "miRspongeR": [],
   "miaDash": [
