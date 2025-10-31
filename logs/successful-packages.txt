@@ -926,3 +926,6 @@ DelayedMatrixStats
 TnT
 bamsignals
 pepStat
+pqsfinder
+ResidualMatrix
+ScaledMatrix
