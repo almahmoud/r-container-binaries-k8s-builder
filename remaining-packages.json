@@ -190,7 +190,6 @@
     "scran",
     "scuttle"
   ],
-  "BiocHubsShiny": [],
   "BubbleTree": [
     "biovizBase",
     "GenomicFeatures",
@@ -355,7 +354,6 @@
   "ChIPQC": [
     "DiffBind",
     "GenomicFeatures",
-    "systemPipeR",
     "GreyListChIP",
     "rtracklayer",
     "BSgenome"
@@ -540,7 +538,6 @@
     "rtracklayer"
   ],
   "DiffBind": [
-    "systemPipeR",
     "GreyListChIP",
     "BSgenome",
     "rtracklayer"
@@ -879,7 +876,6 @@
   "HicAggR": [
     "rtracklayer"
   ],
-  "HoloFoodR": [],
   "HybridExpress": [],
   "ILoReg": [],
   "IMAS": [
@@ -3881,7 +3877,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "systemPipeR": [],
   "tLOH": [
     "VariantAnnotation",
     "rtracklayer",
@@ -4011,7 +4006,6 @@
     "regioneR",
     "rtracklayer",
     "ensembldb",
-    "systemPipeR",
     "GreyListChIP",
     "BSgenome"
   ],

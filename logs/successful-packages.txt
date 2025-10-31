@@ -1456,3 +1456,6 @@ SEraster
 slingshot
 hoodscanR
 oligo
+BiocHubsShiny
+HoloFoodR
+systemPipeR

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1458 (63%)
+- **Successfully Built:** 1461 (63%)
 - **Failed:** 9 (0%)
-- **In Progress:** 159
-- **Not Started:** 684
+- **In Progress:** 163
+- **Not Started:** 677
 
 **Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1458)
+## Successfully Built Packages (1461)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1408 more ...*
+*... and 1411 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,18 +90,18 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (159)
+## In Progress (163)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASICS`
 - ⏳ `ASURAT`
 - ⏳ `AneuFinder`
+- ⏳ `ArrayExpress`
 - ⏳ `BUSseq`
 - ⏳ `BaalChIP`
 - ⏳ `Banksy`
 - ⏳ `BasicSTARRseq`
-- ⏳ `BiocHubsShiny`
 - ⏳ `CDI`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
@@ -121,9 +121,9 @@
 - ⏳ `HIPPO`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
-- ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
+- ⏳ `ITALICS`
 - ⏳ `LoomExperiment`
 - ⏳ `MAST`
 - ⏳ `MDTS`
@@ -142,9 +142,9 @@
 - ⏳ `PSMatch`
 - ⏳ `PathoStat`
 
-... and 109 more ...
+... and 113 more ...
 
-## Not Yet Started (684)
+## Not Yet Started (677)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -157,7 +157,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -195,9 +194,10 @@
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRball`
+- ⏸️ `CRISPRseek`
 
-... and 634 more ...
+... and 627 more ...
 
 ---
-*Last updated: 2025-10-31 05:48:39 UTC*
+*Last updated: 2025-10-31 05:49:38 UTC*
 *Packages with verified BBS status: 131*
