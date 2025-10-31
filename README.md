@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1898 (82%)
+- **Successfully Built:** 1900 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 166
+- **In Progress:** 164
 - **Not Started:** 232
 
 **Progress:** 82%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1898)
+## Successfully Built Packages (1900)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -36,6 +36,7 @@
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.21/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANF) |
+| [APAlyzer](https://bioconductor.org/packages/3.21/bioc/html/APAlyzer.html) | [log](logs/APAlyzer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/APAlyzer) |
 | [APL](https://bioconductor.org/packages/3.21/bioc/html/APL.html) | [log](logs/APL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/APL) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.21/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.21/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASAFE) |
@@ -44,9 +45,8 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
-| [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1848 more ...*
+*... and 1850 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,8 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (166)
-- ⏳ `APAlyzer`
+## In Progress (164)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -146,8 +145,9 @@
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
+- ⏳ `SGCP`
 
-... and 116 more ...
+... and 114 more ...
 
 ## Not Yet Started (232)
 - ⏸️ `AHMassBank`
@@ -204,5 +204,5 @@
 ... and 182 more ...
 
 ---
-*Last updated: 2025-10-31 08:30:41 UTC*
-*Packages with verified BBS status: 153*
+*Last updated: 2025-10-31 08:31:31 UTC*
+*Packages with verified BBS status: 154*

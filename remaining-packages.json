@@ -4,7 +4,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "APAlyzer": [],
   "ASpli": [
     "Gviz",
     "txdbmaker",
@@ -843,7 +842,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "interactiveDisplay": [],
   "karyoploteR": [
     "regioneR",
     "biovizBase"

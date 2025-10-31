@@ -1896,3 +1896,5 @@ xcms
 crisprBowtie
 crisprBwa
 oppar
+APAlyzer
+interactiveDisplay
