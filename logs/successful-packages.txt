@@ -816,3 +816,8 @@ rSWeeP
 ScaledMatrix
 cogeqc
 orthogene
+DelayedDataFrame
+DelayedMatrixStats
+gcrma
+microRNA
+rRDP

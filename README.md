@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 818 (36%)
+- **Successfully Built:** 823 (36%)
 - **Failed:** 1 (0%)
-- **In Progress:** 47
+- **In Progress:** 42
 - **Not Started:** 1378
 
 **Progress:** 36%
@@ -16,7 +16,7 @@
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (818)
+## Successfully Built Packages (823)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 768 more ...*
+*... and 773 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,10 +82,8 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (47)
+## In Progress (42)
 - ⏳ `AnnotationDbi`
-- ⏳ `DelayedDataFrame`
-- ⏳ `DelayedMatrixStats`
 - ⏳ `FELLA`
 - ⏳ `GateFinder`
 - ⏳ `GeneRegionScan`
@@ -112,12 +110,10 @@
 - ⏳ `flowMerge`
 - ⏳ `flowTrans`
 - ⏳ `flowWorkspace`
-- ⏳ `gcrma`
 - ⏳ `ggmsa`
 - ⏳ `idpr`
 - ⏳ `igblastr`
 - ⏳ `kebabs`
-- ⏳ `microRNA`
 - ⏳ `motifcounter`
 - ⏳ `msa`
 - ⏳ `muscle`
@@ -125,7 +121,6 @@
 - ⏳ `phantasusLite`
 - ⏳ `phyloseq`
 - ⏳ `pwalign`
-- ⏳ `rRDP`
 - ⏳ `scPCA`
 - ⏳ `sketchR`
 - ⏳ `transomics2cytoscape`
@@ -186,5 +181,5 @@
 ... and 1328 more ...
 
 ---
-*Last updated: 2025-10-31 23:46:32 UTC*
+*Last updated: 2025-10-31 23:47:07 UTC*
 *Packages with verified BBS status: 105*

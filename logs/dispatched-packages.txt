@@ -864,3 +864,6 @@ SynExtend
 MSstatsLiP
 MSstatsShiny
 scPCA
+affyILM
+affyPLM
+maskBAD
