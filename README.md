@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2003 (86%)
+- **Successfully Built:** 2005 (86%)
 - **Failed:** 18 (0%)
-- **In Progress:** 129
+- **In Progress:** 127
 - **Not Started:** 160
 
 **Progress:** 87%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2003)
+## Successfully Built Packages (2005)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1953 more ...*
+*... and 1955 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,11 +99,10 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (129)
+## In Progress (127)
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
-- ⏳ `BindingSiteFinder`
 - ⏳ `COCOA`
 - ⏳ `CRISPRseek`
 - ⏳ `CexoR`
@@ -118,7 +117,6 @@
 - ⏳ `ENmix`
 - ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
-- ⏳ `FindIT2`
 - ⏳ `GRaNIE`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `HiLDA`
@@ -150,8 +148,10 @@
 - ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
 - ⏳ `SplicingGraphs`
+- ⏳ `TAPseq`
+- ⏳ `TCGAutils`
 
-... and 79 more ...
+... and 77 more ...
 
 ## Not Yet Started (160)
 - ⏸️ `AHMassBank`
@@ -208,5 +208,5 @@
 ... and 110 more ...
 
 ---
-*Last updated: 2025-10-31 09:25:58 UTC*
+*Last updated: 2025-10-31 09:27:35 UTC*
 *Packages with verified BBS status: 160*

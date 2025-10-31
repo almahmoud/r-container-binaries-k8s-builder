@@ -34,7 +34,6 @@
   "BUSpaRse": [],
   "BgeeCall": [],
   "BiGGR": [],
-  "BindingSiteFinder": [],
   "BubbleTree": [
     "biovizBase"
   ],
@@ -144,7 +143,6 @@
   "FRASER": [
     "OUTRIDER"
   ],
-  "FindIT2": [],
   "GARS": [
     "DaMiRseq",
     "EDASeq"
