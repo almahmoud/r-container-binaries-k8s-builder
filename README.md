@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 788 (34%)
+- **Successfully Built:** 789 (34%)
 - **Failed:** 7 (0%)
-- **In Progress:** 2
-- **Not Started:** 1513
+- **In Progress:** 18
+- **Not Started:** 1496
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (788)
+## Successfully Built Packages (789)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 738 more ...*
+*... and 739 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,11 +88,27 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (2)
+## In Progress (18)
+- ⏳ `Biostrings`
+- ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `cola`
+- ⏳ `MetCirc`
+- ⏳ `MetaCyto`
+- ⏳ `MsBackendMassbank`
+- ⏳ `MsBackendMetaboLights`
+- ⏳ `MsBackendMgf`
+- ⏳ `MsBackendMsp`
+- ⏳ `MsBackendRawFileReader`
+- ⏳ `MsBackendSql`
+- ⏳ `SparseArray`
+- ⏳ `SpectraQL`
+- ⏳ `flowDensity`
+- ⏳ `flowFP`
+- ⏳ `flowMerge`
+- ⏳ `flowTrans`
+- ⏳ `optimalFlow`
 
-## Not Yet Started (1513)
+## Not Yet Started (1496)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -144,8 +160,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1463 more ...
+... and 1446 more ...
 
 ---
-*Last updated: 2025-10-31 02:09:37 UTC*
+*Last updated: 2025-10-31 02:10:35 UTC*
 *Packages with verified BBS status: 107*
