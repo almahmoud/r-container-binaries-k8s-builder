@@ -1916,3 +1916,7 @@ motifmatchr
 pipeFrame
 qsea
 SGCP
+chromVAR
+circRNAprofiler
+monaLisa
+regioneR

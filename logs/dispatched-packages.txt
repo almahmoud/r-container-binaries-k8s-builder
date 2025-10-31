@@ -2090,3 +2090,8 @@ ATACseqTFEA
 enhancerHomologSearch
 epiregulon
 pageRank
+ChIPpeakAnno
+RgnTX
+UMI4Cats
+annotatr
+regioneReloaded

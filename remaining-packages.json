@@ -10,8 +10,7 @@
     "biovizBase"
   ],
   "ATACseqQC": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "ATACseqTFEA": [],
   "AgiMicroRna": [
@@ -74,7 +73,6 @@
   "CATALYST": [],
   "CNEr": [],
   "CNVfilteR": [
-    "regioneR",
     "karyoploteR",
     "CopyNumberPlots",
     "biovizBase"
@@ -82,7 +80,6 @@
   "CNViz": [
     "karyoploteR",
     "CopyNumberPlots",
-    "regioneR",
     "biovizBase"
   ],
   "COCOA": [
@@ -108,9 +105,7 @@
   "ChIPexoQual": [
     "biovizBase"
   ],
-  "ChIPpeakAnno": [
-    "regioneR"
-  ],
+  "ChIPpeakAnno": [],
   "ChIPseeker": [],
   "CircSeqAlignTk": [
     "Rhisat2",
@@ -122,12 +117,10 @@
   "Cogito": [],
   "CopyNumberPlots": [
     "karyoploteR",
-    "regioneR",
     "biovizBase"
   ],
   "DEScan2": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "DMRcate": [
     "missMethyl",
@@ -210,8 +203,7 @@
   ],
   "GUIDEseq": [
     "CRISPRseek",
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "GeDi": [
     "GeneTonic",
@@ -325,7 +317,6 @@
     "ChIPpeakAnno",
     "Gviz",
     "txdbmaker",
-    "regioneR",
     "biovizBase"
   ],
   "NanoMethViz": [],
@@ -371,8 +362,7 @@
     "txdbmaker"
   ],
   "REDseq": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "REMP": [],
   "RITAN": [],
@@ -422,9 +412,7 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "RgnTX": [
-    "regioneR"
-  ],
+  "RgnTX": [],
   "Rhisat2": [
     "txdbmaker",
     "SGSeq"
@@ -458,8 +446,7 @@
     "txdbmaker"
   ],
   "SOMNiBUS": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "SPLINTER": [
     "Gviz",
@@ -488,9 +475,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "UMI4Cats": [
-    "regioneR"
-  ],
+  "UMI4Cats": [],
   "Ularcirc": [
     "Organism.dplyr"
   ],
@@ -518,9 +503,7 @@
   "alabaster": [],
   "alabaster.sfe": [],
   "amplican": [],
-  "annotatr": [
-    "regioneR"
-  ],
+  "annotatr": [],
   "appreci8R": [
     "OrganismDbi",
     "txdbmaker"
@@ -551,7 +534,6 @@
     "dmrseq",
     "annotatr",
     "OrganismDbi",
-    "regioneR",
     "txdbmaker"
   ],
   "borealis": [
@@ -592,12 +574,10 @@
     "biovizBase"
   ],
   "chipenrich": [],
-  "chromVAR": [],
   "cicero": [
     "Gviz",
     "biovizBase"
   ],
-  "circRNAprofiler": [],
   "cisPath": [],
   "clipper": [
     "qpgraph"
@@ -679,8 +659,7 @@
   "diffUTR": [],
   "distinct": [],
   "dmrseq": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "drugTargetInteractions": [],
   "easylift": [],
@@ -792,7 +771,6 @@
     "txdbmaker"
   ],
   "karyoploteR": [
-    "regioneR",
     "biovizBase"
   ],
   "kissDE": [
@@ -827,8 +805,7 @@
   ],
   "methInheritSim": [],
   "methodical": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "methrix": [],
   "methylCC": [],
@@ -866,7 +843,6 @@
   "missMethyl": [
     "methylumi"
   ],
-  "monaLisa": [],
   "mosdef": [
     "goseq",
     "txdbmaker"
@@ -886,7 +862,6 @@
   "multicrispr": [
     "CRISPRseek",
     "karyoploteR",
-    "regioneR",
     "biovizBase"
   ],
   "mumosa": [],
@@ -945,10 +920,7 @@
     "txdbmaker"
   ],
   "regionReport": [],
-  "regioneR": [],
-  "regioneReloaded": [
-    "regioneR"
-  ],
+  "regioneReloaded": [],
   "regutools": [
     "Gviz",
     "biovizBase"
@@ -986,8 +958,7 @@
     "txdbmaker"
   ],
   "scmeth": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "scone": [
     "RUVSeq",
@@ -1084,8 +1055,7 @@
   ],
   "visiumStitched": [],
   "vulcan": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "wateRmelon": [
     "methylumi",

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1918 (83%)
+- **Successfully Built:** 1922 (83%)
 - **Failed:** 14 (0%)
 - **In Progress:** 156
-- **Not Started:** 222
+- **Not Started:** 218
 
 **Progress:** 83%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1918)
+## Successfully Built Packages (1922)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1868 more ...*
+*... and 1872 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,6 +96,7 @@
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
 ## In Progress (156)
+- ⏳ `ATACseqTFEA`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -145,15 +146,13 @@
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
-- ⏳ `Repitools`
 
 ... and 106 more ...
 
-## Not Yet Started (222)
+## Not Yet Started (218)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
@@ -200,9 +199,10 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `IMAS`
+- ⏸️ `IPO`
 
-... and 172 more ...
+... and 168 more ...
 
 ---
-*Last updated: 2025-10-31 08:41:10 UTC*
+*Last updated: 2025-10-31 08:42:12 UTC*
 *Packages with verified BBS status: 155*
