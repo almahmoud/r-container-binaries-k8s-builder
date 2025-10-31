@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1913 (82%)
+- **Successfully Built:** 1918 (83%)
 - **Failed:** 14 (0%)
-- **In Progress:** 155
-- **Not Started:** 228
+- **In Progress:** 156
+- **Not Started:** 222
 
 **Progress:** 83%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1913)
+## Successfully Built Packages (1918)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1863 more ...*
+*... and 1868 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (155)
+## In Progress (156)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -115,6 +115,7 @@
 - ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
+- ⏳ `DSS`
 - ⏳ `DeconvoBuddies`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
@@ -131,10 +132,12 @@
 - ⏳ `InPAS`
 - ⏳ `M3Drop`
 - ⏳ `MEB`
+- ⏳ `MIRA`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethReg`
 - ⏳ `MethylAid`
 - ⏳ `MinimumDistance`
+- ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
@@ -143,13 +146,10 @@
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `Repitools`
-- ⏳ `Rmmquant`
-- ⏳ `SGCP`
-- ⏳ `SGSeq`
 
-... and 105 more ...
+... and 106 more ...
 
-## Not Yet Started (228)
+## Not Yet Started (222)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -174,7 +174,6 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
-- ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
@@ -200,9 +199,10 @@
 - ⏸️ `GenomicPlot`
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
+- ⏸️ `IMAS`
 
-... and 178 more ...
+... and 172 more ...
 
 ---
-*Last updated: 2025-10-31 08:39:16 UTC*
+*Last updated: 2025-10-31 08:41:10 UTC*
 *Packages with verified BBS status: 155*

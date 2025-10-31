@@ -1911,3 +1911,8 @@ MatrixRider
 PRONE
 bsseq
 motifStack
+categoryCompare
+motifmatchr
+pipeFrame
+qsea
+SGCP

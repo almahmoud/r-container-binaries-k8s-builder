@@ -13,9 +13,7 @@
     "ChIPpeakAnno",
     "regioneR"
   ],
-  "ATACseqTFEA": [
-    "motifmatchr"
-  ],
+  "ATACseqTFEA": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -454,7 +452,6 @@
   "Rqc": [
     "biovizBase"
   ],
-  "SGCP": [],
   "SGSeq": [],
   "SMITE": [
     "goseq",
@@ -575,7 +572,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "categoryCompare": [],
   "cbaf": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -688,9 +684,7 @@
   ],
   "drugTargetInteractions": [],
   "easylift": [],
-  "enhancerHomologSearch": [
-    "motifmatchr"
-  ],
+  "enhancerHomologSearch": [],
   "epidecodeR": [],
   "epimutacions": [
     "Gviz",
@@ -698,9 +692,7 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "epiregulon": [
-    "motifmatchr"
-  ],
+  "epiregulon": [],
   "epiregulon.extra": [],
   "epivizr": [
     "epivizrData",
@@ -727,9 +719,7 @@
     "txdbmaker"
   ],
   "esATAC": [
-    "pipeFrame",
-    "ChIPseeker",
-    "motifmatchr"
+    "ChIPseeker"
   ],
   "extraChIPs": [],
   "fCCAC": [],
@@ -885,7 +875,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "motifmatchr": [],
   "msImpute": [],
   "msgbsR": [
     "ggbio",
@@ -914,9 +903,7 @@
     "RUVSeq",
     "EDASeq"
   ],
-  "pageRank": [
-    "motifmatchr"
-  ],
+  "pageRank": [],
   "pcaExplorer": [
     "mosdef",
     "goseq",
@@ -925,7 +912,6 @@
   "peco": [],
   "periodicDNA": [],
   "pipeComp": [],
-  "pipeFrame": [],
   "podkat": [],
   "preciseTAD": [
     "rCGH"
@@ -948,7 +934,6 @@
     "recount"
   ],
   "qpgraph": [],
-  "qsea": [],
   "quantro": [],
   "rCGH": [],
   "rGADEM": [],
@@ -1048,7 +1033,6 @@
   ],
   "spatzie": [
     "GenomicInteractions",
-    "motifmatchr",
     "Gviz",
     "biovizBase"
   ],

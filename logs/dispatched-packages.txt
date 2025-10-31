@@ -2086,3 +2086,7 @@ NanoMethViz
 atSNP
 dagLogo
 methylCC
+ATACseqTFEA
+enhancerHomologSearch
+epiregulon
+pageRank
