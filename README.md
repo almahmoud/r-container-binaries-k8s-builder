@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1668 (72%)
+- **Successfully Built:** 1670 (72%)
 - **Failed:** 12 (0%)
-- **In Progress:** 62
-- **Not Started:** 568
+- **In Progress:** 73
+- **Not Started:** 555
 
 **Progress:** 72%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1668)
+## Successfully Built Packages (1670)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1618 more ...*
+*... and 1620 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,24 +93,28 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (62)
+## In Progress (73)
 - ⏳ `BSgenome`
 - ⏳ `BatchSVG`
 - ⏳ `CBNplot`
 - ⏳ `CNEr`
+- ⏳ `CRISPRball`
 - ⏳ `DESpace`
 - ⏳ `DropletUtils`
 - ⏳ `GDCRNATools`
-- ⏳ `GSEABase`
 - ⏳ `GenomicFeatures`
 - ⏳ `Glimma`
 - ⏳ `MIRit`
+- ⏳ `MSnbase`
 - ⏳ `MotifDb`
 - ⏳ `PAST`
 - ⏳ `PICS`
+- ⏳ `POWSC`
+- ⏳ `RFLOMICS`
 - ⏳ `ReactomePA`
 - ⏳ `SBGNview`
 - ⏳ `SCANVIS`
+- ⏳ `SPIAT`
 - ⏳ `SigCheck`
 - ⏳ `SplineDV`
 - ⏳ `TEKRABber`
@@ -119,35 +123,31 @@
 - ⏳ `ballgown`
 - ⏳ `batchelor`
 - ⏳ `bedbaser`
+- ⏳ `benchdamic`
+- ⏳ `celaref`
 - ⏳ `chipenrich`
 - ⏳ `clusterExperiment`
 - ⏳ `consensusSeekeR`
+- ⏳ `dandelionR`
 - ⏳ `dce`
 - ⏳ `debrowser`
 - ⏳ `easylift`
 - ⏳ `epidecodeR`
 - ⏳ `extraChIPs`
-- ⏳ `gDR`
 - ⏳ `geneXtendeR`
 - ⏳ `groHMM`
 - ⏳ `hicVennDiagram`
+- ⏳ `iSEEde`
+- ⏳ `iSEEhex`
+- ⏳ `iSEEhub`
+- ⏳ `iSEEindex`
+- ⏳ `iSEEpathways`
 - ⏳ `imcRtools`
 - ⏳ `metagene2`
-- ⏳ `methylKit`
-- ⏳ `mist`
-- ⏳ `mobileRNA`
-- ⏳ `multiGSEA`
-- ⏳ `normr`
-- ⏳ `plyranges`
-- ⏳ `r3Cseq`
-- ⏳ `recount3`
-- ⏳ `rifiComparative`
-- ⏳ `rmspc`
-- ⏳ `roar`
 
-... and 12 more ...
+... and 23 more ...
 
-## Not Yet Started (568)
+## Not Yet Started (555)
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -187,7 +187,6 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
-- ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 - ⏸️ `Category`
@@ -198,9 +197,10 @@
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
+- ⏸️ `ChIPanalyser`
 
-... and 518 more ...
+... and 505 more ...
 
 ---
-*Last updated: 2025-10-31 06:57:48 UTC*
+*Last updated: 2025-10-31 06:58:45 UTC*
 *Packages with verified BBS status: 143*
