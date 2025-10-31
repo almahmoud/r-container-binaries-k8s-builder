@@ -2032,3 +2032,5 @@ VCFArray
 derfinder
 gDNAx
 RESOLVE
+DegCre
+mariner
