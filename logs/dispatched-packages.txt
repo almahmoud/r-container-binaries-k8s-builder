@@ -1738,3 +1738,5 @@ spoon
 tidyCoverage
 velociraptor
 wiggleplotr
+coseq
+gDR

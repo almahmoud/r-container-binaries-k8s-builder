@@ -462,7 +462,6 @@
     "GenomicFeatures"
   ],
   "EasyCellType": [],
-  "EnrichDO": [],
   "EnrichmentBrowser": [
     "GSEABase"
   ],
@@ -655,7 +654,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HTSFilter": [],
   "Harshlight": [],
   "HelloRanges": [
     "BSgenome",
@@ -671,7 +669,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiCDOC": [],
   "HiLDA": [
     "GenomicFeatures",
     "BSgenome"
@@ -887,7 +884,6 @@
     "bsseq",
     "BSgenome"
   ],
-  "Nebulosa": [],
   "NoRCE": [
     "GenomicFeatures"
   ],
@@ -952,7 +948,6 @@
   "PanomiR": [
     "GSEABase"
   ],
-  "PathoStat": [],
   "PhenStat": [],
   "Pigengene": [
     "ReactomePA"
@@ -1038,8 +1033,7 @@
     "GenomicFeatures"
   ],
   "RFLOMICS": [
-    "coseq",
-    "HTSFilter"
+    "coseq"
   ],
   "RITAN": [
     "GenomicFeatures",
@@ -1473,7 +1467,6 @@
     "GenomicFeatures"
   ],
   "amplican": [],
-  "animalcules": [],
   "annotatr": [
     "GenomicFeatures",
     "regioneR",
@@ -1562,7 +1555,6 @@
     "regioneR",
     "txdbmaker"
   ],
-  "blima": [],
   "borealis": [
     "bsseq",
     "DSS",
@@ -1746,9 +1738,7 @@
     "bumphunter",
     "GenomicFeatures"
   ],
-  "coseq": [
-    "HTSFilter"
-  ],
+  "coseq": [],
   "cosmiq": [
     "xcms",
     "MSnbase",
@@ -1809,7 +1799,6 @@
     "ensembldb",
     "biovizBase"
   ],
-  "crumblr": [],
   "crupR": [
     "GenomicFeatures"
   ],
@@ -2035,7 +2024,6 @@
     "minfi",
     "bumphunter"
   ],
-  "fishpond": [],
   "flagme": [
     "xcms",
     "CAMERA",
@@ -2053,10 +2041,7 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "gDR": [
-    "gDRimport"
-  ],
-  "gDRimport": [],
+  "gDR": [],
   "gINTomics": [
     "GenomicFeatures",
     "ReactomePA"
@@ -2591,7 +2576,6 @@
   "podkat": [
     "BSgenome"
   ],
-  "pogos": [],
   "pram": [],
   "preciseTAD": [
     "rCGH",
@@ -2921,7 +2905,6 @@
   "slalom": [
     "GSEABase"
   ],
-  "smoppix": [],
   "soGGi": [],
   "sparrow": [
     "GSEABase"
@@ -3018,7 +3001,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "tpSVG": [],
   "trackViewer": [
     "GenomicFeatures",
     "Gviz",

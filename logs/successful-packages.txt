@@ -1626,3 +1626,16 @@ XDE
 XeniumIO
 Xeva
 zinbwave
+animalcules
+blima
+crumblr
+EnrichDO
+fishpond
+gDRimport
+HiCDOC
+HTSFilter
+Nebulosa
+PathoStat
+pogos
+smoppix
+tpSVG

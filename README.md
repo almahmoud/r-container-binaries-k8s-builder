@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1628 (70%)
+- **Successfully Built:** 1641 (71%)
 - **Failed:** 11 (0%)
-- **In Progress:** 28
-- **Not Started:** 643
+- **In Progress:** 88
+- **Not Started:** 570
 
-**Progress:** 70%
+**Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1628)
+## Successfully Built Packages (1641)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1578 more ...*
+*... and 1591 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,37 +92,61 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (28)
+## In Progress (88)
 - ⏳ `AneuFinder`
+- ⏳ `BSgenome`
+- ⏳ `BatchSVG`
+- ⏳ `BiSeq`
+- ⏳ `CBNplot`
+- ⏳ `CNEr`
+- ⏳ `ChromHeatMap`
+- ⏳ `CoverageView`
+- ⏳ `DESpace`
+- ⏳ `DMCFB`
+- ⏳ `DMCHMM`
+- ⏳ `DropletUtils`
 - ⏳ `EasyCellType`
-- ⏳ `EnrichDO`
+- ⏳ `ExCluster`
+- ⏳ `GDCRNATools`
 - ⏳ `GSEABase`
+- ⏳ `GenomicFeatures`
 - ⏳ `Glimma`
-- ⏳ `HTSFilter`
-- ⏳ `HiCDOC`
+- ⏳ `HiTC`
+- ⏳ `HicAggR`
+- ⏳ `IdeoViz`
+- ⏳ `InTAD`
 - ⏳ `MAST`
+- ⏳ `MIRit`
+- ⏳ `MotifDb`
 - ⏳ `MuData`
-- ⏳ `Nebulosa`
+- ⏳ `PAST`
 - ⏳ `PICS`
 - ⏳ `PSMatch`
-- ⏳ `PathoStat`
-- ⏳ `animalcules`
-- ⏳ `blima`
+- ⏳ `ReactomePA`
+- ⏳ `SBGNview`
+- ⏳ `SCANVIS`
+- ⏳ `SigCheck`
+- ⏳ `SplineDV`
+- ⏳ `TEKRABber`
+- ⏳ `a4`
+- ⏳ `alabaster.spatial`
+- ⏳ `ballgown`
+- ⏳ `batchelor`
+- ⏳ `bedbaser`
 - ⏳ `ccImpute`
-- ⏳ `crumblr`
+- ⏳ `chipenrich`
+- ⏳ `clusterExperiment`
+- ⏳ `consensusSeekeR`
+- ⏳ `dce`
+- ⏳ `debrowser`
 - ⏳ `destiny`
 - ⏳ `dittoSeq`
-- ⏳ `fishpond`
-- ⏳ `gDRimport`
-- ⏳ `iSEE`
-- ⏳ `pogos`
-- ⏳ `smoppix`
-- ⏳ `tenXplore`
-- ⏳ `tidySpatialExperiment`
-- ⏳ `tpSVG`
-- ⏳ `xenLite`
+- ⏳ `easylift`
+- ⏳ `epidecodeR`
 
-## Not Yet Started (643)
+... and 38 more ...
+
+## Not Yet Started (570)
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -138,16 +162,13 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BatchQC`
-- ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
@@ -158,10 +179,8 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
 - ⏸️ `CATALYST`
-- ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
-- ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
@@ -173,9 +192,14 @@
 - ⏸️ `Category`
 - ⏸️ `CellMixS`
 - ⏸️ `CelliD`
+- ⏸️ `Cepo`
+- ⏸️ `CexoR`
+- ⏸️ `ChAMP`
+- ⏸️ `ChIPComp`
+- ⏸️ `ChIPQC`
 
-... and 593 more ...
+... and 520 more ...
 
 ---
-*Last updated: 2025-10-31 06:43:02 UTC*
+*Last updated: 2025-10-31 06:45:40 UTC*
 *Packages with verified BBS status: 141*
