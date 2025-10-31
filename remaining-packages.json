@@ -8682,7 +8682,6 @@
     "GenomicAlignments",
     "BiocIO"
   ],
-  "MethylMix": [],
   "MethylSeekR": [
     "rtracklayer",
     "IRanges",
@@ -15721,7 +15720,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "bacon": [],
   "ballgown": [
     "GenomicRanges",
     "IRanges",
@@ -16474,7 +16472,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "brendaDb": [],
   "broadSeq": [
     "SummarizedExperiment",
     "DELocal",
@@ -18864,7 +18861,6 @@
     "SparseArray",
     "GenomicAlignments"
   ],
-  "densvis": [],
   "derfinder": [
     "BiocGenerics",
     "AnnotationDbi",
@@ -20651,7 +20647,6 @@
     "InteractiveComplexHeatmap",
     "ComplexHeatmap",
     "shiny.gosling",
-    "MethylMix",
     "Biobase",
     "IRanges",
     "S4Vectors",
@@ -28186,7 +28181,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "scRecover": [],
   "scRepertoire": [
     "S4Vectors",
     "SingleCellExperiment",

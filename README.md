@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 438 (18%)
+- **Successfully Built:** 443 (19%)
 - **Failed:** 4 (0%)
-- **In Progress:** 46
+- **In Progress:** 41
 - **Not Started:** 1822
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (438)
+## Successfully Built Packages (443)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocFileCache](https://bioconductor.org/packages/3.21/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocFileCache) |
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 
-*... and 388 more ...*
+*... and 393 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (46)
+## In Progress (41)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
 - ⏳ `AnVILWorkflow`
@@ -101,7 +101,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `MethylMix`
 - ⏳ `NPARC`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
@@ -111,12 +110,9 @@
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `Wrench`
-- ⏳ `bacon`
-- ⏳ `brendaDb`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
-- ⏳ `densvis`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
 - ⏳ `hca`
@@ -128,7 +124,6 @@
 - ⏳ `rhdf5`
 - ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
-- ⏳ `scRecover`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
 - ⏳ `tximport`
@@ -188,5 +183,5 @@
 ... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:14:56 UTC*
+*Last updated: 2025-10-31 00:15:23 UTC*
 *Packages with verified BBS status: 80*
