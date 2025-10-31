@@ -101,9 +101,7 @@
     "biovizBase",
     "methylumi"
   ],
-  "DaMiRseq": [
-    "EDASeq"
-  ],
+  "DaMiRseq": [],
   "Damsel": [
     "ggbio",
     "goseq",
@@ -116,7 +114,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "EDASeq": [],
   "ELMER": [
     "Gviz",
     "biovizBase"
@@ -144,8 +141,7 @@
     "OUTRIDER"
   ],
   "GARS": [
-    "DaMiRseq",
-    "EDASeq"
+    "DaMiRseq"
   ],
   "GNOSIS": [
     "cBioPortalData",
@@ -196,12 +192,9 @@
     "biovizBase"
   ],
   "HiLDA": [],
-  "IMAS": [
-    "IVAS"
-  ],
+  "IMAS": [],
   "INSPEcT": [],
   "IPO": [],
-  "IVAS": [],
   "IntEREst": [],
   "IsoformSwitchAnalyzeR": [
     "tximeta"
@@ -304,9 +297,7 @@
   "RTCGAToolbox": [
     "TCGAutils"
   ],
-  "RUVSeq": [
-    "EDASeq"
-  ],
+  "RUVSeq": [],
   "RbowtieCuda": [],
   "RegionalST": [],
   "Repitools": [],
@@ -463,7 +454,6 @@
   ],
   "condiments": [],
   "consensusDE": [
-    "EDASeq",
     "RUVSeq"
   ],
   "consensusSeekeR": [],
@@ -617,9 +607,7 @@
   ],
   "metaMS": [],
   "metagene2": [],
-  "metaseqR2": [
-    "EDASeq"
-  ],
+  "metaseqR2": [],
   "methInheritSim": [],
   "methodical": [],
   "methylGSA": [
@@ -665,15 +653,13 @@
     "karyoploteR",
     "biovizBase"
   ],
-  "mumosa": [],
   "musicatk": [],
   "mygene": [],
   "netSmooth": [
     "clusterExperiment"
   ],
   "octad": [
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "pcaExplorer": [
     "mosdef",
@@ -704,7 +690,6 @@
     "goseq"
   ],
   "ribosomeProfilingQC": [
-    "EDASeq",
     "RUVSeq"
   ],
   "saseR": [
@@ -723,8 +708,7 @@
   "scanMiRApp": [],
   "scmeth": [],
   "scone": [
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "scruff": [
     "ggbio",
@@ -742,8 +726,7 @@
   ],
   "shinyDSP": [
     "standR",
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "shinyMethyl": [],
   "shinyepico": [],
@@ -770,8 +753,7 @@
     "biovizBase"
   ],
   "standR": [
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "svaNUMT": [],
   "svaRetro": [],

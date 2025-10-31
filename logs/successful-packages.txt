@@ -2003,3 +2003,6 @@ rCGH
 Guitar
 BindingSiteFinder
 FindIT2
+EDASeq
+IVAS
+mumosa

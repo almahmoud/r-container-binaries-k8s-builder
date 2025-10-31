@@ -2148,3 +2148,7 @@ BASiCStan
 MOSClip
 clipper
 preciseTAD
+DaMiRseq
+IMAS
+RUVSeq
+metaseqR2
