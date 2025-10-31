@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 730 (31%)
 - **Failed:** 6 (0%)
-- **In Progress:** 20
-- **Not Started:** 1554
+- **In Progress:** 21
+- **Not Started:** 1553
 
 **Progress:** 31%
 ```
@@ -87,7 +87,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (20)
+## In Progress (21)
 - ⏳ `BiGGR`
 - ⏳ `IRanges`
 - ⏳ `MEIGOR`
@@ -96,6 +96,7 @@
 - ⏳ `OmicsMLRepoR`
 - ⏳ `SIMAT`
 - ⏳ `SPIA`
+- ⏳ `TPP`
 - ⏳ `TargetDecoy`
 - ⏳ `bluster`
 - ⏳ `epiNEM`
@@ -109,7 +110,7 @@
 - ⏳ `rebook`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1554)
+## Not Yet Started (1553)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -161,8 +162,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1504 more ...
+... and 1503 more ...
 
 ---
-*Last updated: 2025-10-31 00:49:52 UTC*
+*Last updated: 2025-10-31 00:50:21 UTC*
 *Packages with verified BBS status: 104*
