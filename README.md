@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 680 (29%)
+- **Successfully Built:** 690 (29%)
 - **Failed:** 6 (0%)
-- **In Progress:** 49
-- **Not Started:** 1575
+- **In Progress:** 41
+- **Not Started:** 1573
 
-**Progress:** 29%
+**Progress:** 30%
 ```
-██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (680)
+## Successfully Built Packages (690)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 630 more ...*
+*... and 640 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,46 +87,38 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (49)
+## In Progress (41)
 - ⏳ `BiGGR`
-- ⏳ `Cardinal`
 - ⏳ `CellMapper`
-- ⏳ `CellNOptR`
-- ⏳ `Cormotif`
 - ⏳ `DFplyr`
 - ⏳ `Doscheda`
 - ⏳ `ExiMiR`
 - ⏳ `ExploreModelMatrix`
-- ⏳ `GEOsubmission`
 - ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
+- ⏳ `Maaslin2`
 - ⏳ `MsCoreUtils`
-- ⏳ `NanoTube`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `Pedixplorer`
-- ⏳ `RTopper`
-- ⏳ `RVS`
 - ⏳ `ReUseData`
 - ⏳ `Rnits`
 - ⏳ `Streamer`
 - ⏳ `TurboNorm`
-- ⏳ `UCSC.utils`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `biobroom`
-- ⏳ `biocViews`
 - ⏳ `bluster`
 - ⏳ `fgga`
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `ldblock`
+- ⏳ `mbQTL`
 - ⏳ `mnem`
 - ⏳ `mzR`
 - ⏳ `pvca`
@@ -138,7 +130,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1575)
+## Not Yet Started (1573)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -190,8 +182,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1525 more ...
+... and 1523 more ...
 
 ---
-*Last updated: 2025-10-31 00:42:00 UTC*
+*Last updated: 2025-10-31 00:42:46 UTC*
 *Packages with verified BBS status: 102*

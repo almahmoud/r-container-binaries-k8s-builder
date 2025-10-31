@@ -735,3 +735,10 @@ ReUseData
 pvca
 Maaslin2
 mbQTL
+BiocCheck
+BiocPkgTools
+CNORdt
+CNORfeeder
+CNORfuzzy
+CNORode
+monocle

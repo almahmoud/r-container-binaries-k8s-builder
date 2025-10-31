@@ -678,3 +678,13 @@ pvac
 ribor
 STATegRa
 TRONCO
+biocViews
+Cardinal
+CellNOptR
+Cormotif
+GEOsubmission
+ldblock
+NanoTube
+RTopper
+RVS
+UCSC.utils
