@@ -11,7 +11,6 @@
   ],
   "ATACseqQC": [
     "ChIPpeakAnno",
-    "motifStack",
     "regioneR"
   ],
   "ATACseqTFEA": [
@@ -89,8 +88,7 @@
     "biovizBase"
   ],
   "COCOA": [
-    "MIRA",
-    "bsseq"
+    "MIRA"
   ],
   "CRISPRseek": [],
   "CSSQ": [],
@@ -102,7 +100,6 @@
     "wateRmelon",
     "goseq",
     "missMethyl",
-    "bsseq",
     "Gviz",
     "methylumi",
     "lumi",
@@ -135,16 +132,13 @@
     "regioneR"
   ],
   "DMRcate": [
-    "bsseq",
     "missMethyl",
     "Gviz",
     "biovizBase",
     "methylumi"
   ],
   "DNAfusion": [],
-  "DSS": [
-    "bsseq"
-  ],
+  "DSS": [],
   "DaMiRseq": [
     "EDASeq"
   ],
@@ -156,8 +150,7 @@
     "txdbmaker"
   ],
   "DeMixT": [
-    "DSS",
-    "bsseq"
+    "DSS"
   ],
   "DeconvoBuddies": [],
   "DegNorm": [
@@ -306,9 +299,7 @@
   "MGnifyR": [
     "mia"
   ],
-  "MIRA": [
-    "bsseq"
-  ],
+  "MIRA": [],
   "MOSClip": [
     "qpgraph"
   ],
@@ -334,15 +325,12 @@
     "trackViewer",
     "ATACseqQC",
     "ChIPpeakAnno",
-    "motifStack",
     "Gviz",
     "txdbmaker",
     "regioneR",
     "biovizBase"
   ],
-  "NanoMethViz": [
-    "bsseq"
-  ],
+  "NanoMethViz": [],
   "NoRCE": [],
   "OGRE": [
     "Gviz",
@@ -474,7 +462,6 @@
   ],
   "SOMNiBUS": [
     "annotatr",
-    "bsseq",
     "regioneR"
   ],
   "SPLINTER": [
@@ -545,9 +532,7 @@
     "lumi",
     "methylumi"
   ],
-  "atSNP": [
-    "motifStack"
-  ],
+  "atSNP": [],
   "attract": [],
   "benchdamic": [],
   "bigmelon": [
@@ -566,7 +551,6 @@
   ],
   "biovizBase": [],
   "biscuiteer": [
-    "bsseq",
     "dmrseq",
     "annotatr",
     "OrganismDbi",
@@ -574,10 +558,8 @@
     "txdbmaker"
   ],
   "borealis": [
-    "bsseq",
     "DSS"
   ],
-  "bsseq": [],
   "cBioPortalData": [
     "RTCGAToolbox",
     "TCGAutils"
@@ -679,9 +661,7 @@
   "cytofQC": [
     "CATALYST"
   ],
-  "dagLogo": [
-    "motifStack"
-  ],
+  "dagLogo": [],
   "dandelionR": [],
   "dar": [
     "mia"
@@ -703,7 +683,6 @@
   "diffUTR": [],
   "distinct": [],
   "dmrseq": [
-    "bsseq",
     "annotatr",
     "regioneR"
   ],
@@ -827,8 +806,7 @@
     "biovizBase"
   ],
   "kissDE": [
-    "DSS",
-    "bsseq"
+    "DSS"
   ],
   "lefser": [
     "mia"
@@ -855,8 +833,7 @@
   "metaseqR2": [
     "DSS",
     "EDASeq",
-    "txdbmaker",
-    "bsseq"
+    "txdbmaker"
   ],
   "methInheritSim": [],
   "methodical": [
@@ -864,9 +841,7 @@
     "regioneR"
   ],
   "methrix": [],
-  "methylCC": [
-    "bsseq"
-  ],
+  "methylCC": [],
   "methylGSA": [
     "missMethyl",
     "methylumi"
@@ -877,7 +852,6 @@
     "biovizBase"
   ],
   "methylSig": [
-    "bsseq",
     "DSS"
   ],
   "methylclock": [
@@ -907,9 +881,7 @@
     "goseq",
     "txdbmaker"
   ],
-  "motifStack": [],
   "motifbreakR": [
-    "motifStack",
     "Gviz",
     "biovizBase"
   ],
@@ -1002,7 +974,6 @@
   ],
   "ribosomeProfilingQC": [
     "EDASeq",
-    "motifStack",
     "RUVSeq",
     "txdbmaker"
   ],
@@ -1030,7 +1001,6 @@
     "txdbmaker"
   ],
   "scmeth": [
-    "bsseq",
     "annotatr",
     "regioneR"
   ],

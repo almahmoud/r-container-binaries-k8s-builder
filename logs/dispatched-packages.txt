@@ -2080,3 +2080,9 @@ CexoR
 MSstatsQCgui
 fCCAC
 hiReadsProcessor
+DSS
+MIRA
+NanoMethViz
+atSNP
+dagLogo
+methylCC
