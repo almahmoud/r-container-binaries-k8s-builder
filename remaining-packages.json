@@ -299,7 +299,6 @@
     "mygene",
     "txdbmaker"
   ],
-  "MethReg": [],
   "MethylAid": [],
   "MineICA": [
     "lumi",
@@ -510,7 +509,6 @@
     "methylumi"
   ],
   "atSNP": [],
-  "attract": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -1018,7 +1016,6 @@
   "strandCheckR": [],
   "svaNUMT": [],
   "svaRetro": [],
-  "tRNAscanImport": [],
   "tadar": [
     "Gviz",
     "biovizBase"
@@ -1032,7 +1029,6 @@
     "biovizBase"
   ],
   "transcriptR": [],
-  "traseR": [],
   "tricycle": [],
   "trigger": [],
   "txcutr": [

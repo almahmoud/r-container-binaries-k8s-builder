@@ -1925,3 +1925,7 @@ GmicR
 periodicDNA
 MinimumDistance
 miRLAB
+attract
+MethReg
+traseR
+tRNAscanImport
