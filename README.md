@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1995 (86%)
+- **Successfully Built:** 1999 (86%)
 - **Failed:** 18 (0%)
-- **In Progress:** 132
-- **Not Started:** 165
+- **In Progress:** 129
+- **Not Started:** 164
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1995)
+## Successfully Built Packages (1999)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1945 more ...*
+*... and 1949 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,8 +99,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (132)
-- ⏳ `BASiCS`
+## In Progress (129)
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
@@ -111,7 +110,6 @@
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ChIPseeker`
 - ⏳ `CleanUpRNAseq`
-- ⏳ `Cogito`
 - ⏳ `DNAfusion`
 - ⏳ `DeMixT`
 - ⏳ `DegNorm`
@@ -146,14 +144,16 @@
 - ⏳ `RCAS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
+- ⏳ `RegionalST`
 - ⏳ `RiboDiPA`
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
+- ⏳ `SplicingGraphs`
 
-... and 82 more ...
+... and 79 more ...
 
-## Not Yet Started (165)
+## Not Yet Started (164)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -205,8 +205,8 @@
 - ⏸️ `MineICA`
 - ⏸️ `Moonlight2R`
 
-... and 115 more ...
+... and 114 more ...
 
 ---
-*Last updated: 2025-10-31 09:23:04 UTC*
+*Last updated: 2025-10-31 09:23:59 UTC*
 *Packages with verified BBS status: 160*

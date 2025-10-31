@@ -2144,3 +2144,6 @@ sitadela
 txcutr
 tximeta
 RegionalST
+BASiCStan
+MOSClip
+clipper

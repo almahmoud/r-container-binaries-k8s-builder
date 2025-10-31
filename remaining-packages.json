@@ -25,10 +25,7 @@
   "AnnotationHubData": [
     "OrganismDbi"
   ],
-  "BASiCS": [],
-  "BASiCStan": [
-    "BASiCS"
-  ],
+  "BASiCStan": [],
   "BOBaFIT": [
     "ggbio",
     "biovizBase",
@@ -92,7 +89,6 @@
     "SGSeq"
   ],
   "CleanUpRNAseq": [],
-  "Cogito": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "biovizBase"
@@ -232,9 +228,7 @@
     "lumi"
   ],
   "MGnifyR": [],
-  "MOSClip": [
-    "qpgraph"
-  ],
+  "MOSClip": [],
   "MSstatsQCgui": [],
   "MetaboSignal": [
     "mygene"
@@ -392,7 +386,6 @@
     "OrganismDbi"
   ],
   "alabaster": [],
-  "alabaster.sfe": [],
   "amplican": [],
   "appreci8R": [
     "OrganismDbi"
@@ -461,9 +454,7 @@
     "biovizBase"
   ],
   "cisPath": [],
-  "clipper": [
-    "qpgraph"
-  ],
+  "clipper": [],
   "clusterExperiment": [],
   "comapr": [
     "Gviz",
@@ -706,7 +697,6 @@
     "ChIPseeker",
     "rGREAT"
   ],
-  "qpgraph": [],
   "quantro": [],
   "rCGH": [],
   "rGADEM": [],
