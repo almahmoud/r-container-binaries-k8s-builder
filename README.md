@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 359 (15%)
+- **Successfully Built:** 374 (16%)
 - **Failed:** 1 (0%)
-- **In Progress:** 92
-- **Not Started:** 1792
+- **In Progress:** 86
+- **Not Started:** 1783
 
 **Progress:** 16%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (359)
+## Successfully Built Packages (374)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocVersion](https://bioconductor.org/packages/3.22/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocVersion) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.22/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocWorkflowTools) |
 
-*... and 309 more ...*
+*... and 324 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,27 +82,28 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (92)
+## In Progress (86)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
+- ⏳ `AlpsNMR`
+- ⏳ `AnVIL`
+- ⏳ `AnVILGCP`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
-- ⏳ `Chicago`
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
-- ⏳ `DEsingle`
-- ⏳ `DNAcycP2`
 - ⏳ `DepInfeR`
+- ⏳ `DepecheR`
+- ⏳ `EMDomics`
 - ⏳ `EnMCB`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
-- ⏳ `HilbertVisGUI`
 - ⏳ `HubPub`
-- ⏳ `IntramiRExploreR`
 - ⏳ `KinSwingR`
 - ⏳ `Linnorm`
+- ⏳ `MBCB`
 - ⏳ `MSstatsResponse`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
@@ -112,6 +113,7 @@
 - ⏳ `PANR`
 - ⏳ `PCAN`
 - ⏳ `PROcess`
+- ⏳ `Polytect`
 - ⏳ `QRscore`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
@@ -130,13 +132,11 @@
 - ⏳ `dcGSA`
 - ⏳ `decontam`
 - ⏳ `decoupleR`
-- ⏳ `demuxmix`
 - ⏳ `densvis`
-- ⏳ `edgeR`
 
-... and 42 more ...
+... and 36 more ...
 
-## Not Yet Started (1792)
+## Not Yet Started (1783)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -164,9 +164,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlpsNMR`
-- ⏸️ `AnVIL`
-- ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILWorkflow`
 - ⏸️ `Anaquin`
@@ -187,9 +184,12 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
+- ⏸️ `BRAIN`
+- ⏸️ `BREW3R.r`
+- ⏸️ `BSgenome`
 
-... and 1742 more ...
+... and 1733 more ...
 
 ---
-*Last updated: 2025-10-31 22:17:23 UTC*
+*Last updated: 2025-10-31 22:18:18 UTC*
 *Packages with verified BBS status: 72*

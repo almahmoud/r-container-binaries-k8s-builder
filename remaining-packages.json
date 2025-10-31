@@ -859,9 +859,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "BUS": [
-    "minet"
-  ],
+  "BUS": [],
   "BUScorrect": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -1263,7 +1261,6 @@
   "BioNERO": [
     "sva",
     "ComplexHeatmap",
-    "minet",
     "SummarizedExperiment",
     "IRanges",
     "GenomicRanges",
@@ -2775,7 +2772,6 @@
   "ChemmineR": [
     "BiocGenerics"
   ],
-  "Chicago": [],
   "ChromHeatMap": [
     "BiocGenerics",
     "annotate",
@@ -3539,7 +3535,6 @@
     "SparseArray"
   ],
   "DEqMS": [],
-  "DEsingle": [],
   "DEsubs": [
     "graph",
     "RBGL",
@@ -3704,7 +3699,6 @@
     "h5mread",
     "multtest"
   ],
-  "DNAcycP2": [],
   "DNAfusion": [
     "GenomicRanges",
     "IRanges",
@@ -6563,7 +6557,6 @@
     "S4Vectors",
     "Seqinfo"
   ],
-  "HilbertVisGUI": [],
   "HoloFoodR": [
     "MultiAssayExperiment",
     "TreeSummarizedExperiment",
@@ -6941,7 +6934,6 @@
     "IRanges",
     "BiocGenerics"
   ],
-  "IntramiRExploreR": [],
   "IsoBayes": [
     "SummarizedExperiment",
     "S4Vectors",
@@ -6959,7 +6951,6 @@
     "DEXSeq",
     "satuRn",
     "sva",
-    "pfamAnalyzeR",
     "BSgenome",
     "Biostrings",
     "IRanges",
@@ -10883,7 +10874,6 @@
     "cigarillo"
   ],
   "RTN": [
-    "minet",
     "viper",
     "IRanges",
     "S4Vectors",
@@ -10899,7 +10889,6 @@
   ],
   "RTNduals": [
     "RTN",
-    "minet",
     "viper",
     "IRanges",
     "S4Vectors",
@@ -10916,7 +10905,6 @@
   "RTNsurvival": [
     "RTN",
     "RTNduals",
-    "minet",
     "viper",
     "IRanges",
     "S4Vectors",
@@ -12875,7 +12863,6 @@
     "MetaboCoreUtils"
   ],
   "SpliceWiz": [
-    "ompBAM",
     "AnnotationHub",
     "BiocGenerics",
     "Biostrings",
@@ -15593,7 +15580,6 @@
     "GOSemSim",
     "fgsea",
     "EBarrays",
-    "minet",
     "graphite",
     "graph",
     "Biostrings",
@@ -15874,7 +15860,6 @@
     "vsn",
     "BiocGenerics",
     "RBGL",
-    "minet",
     "Linnorm",
     "genefilter",
     "edgeR",
@@ -16033,7 +16018,6 @@
     "BioNERO",
     "sva",
     "ComplexHeatmap",
-    "minet",
     "SummarizedExperiment",
     "BiocGenerics",
     "S4Vectors",
@@ -16083,7 +16067,6 @@
     "SummarizedExperiment",
     "TCGAutils",
     "EBarrays",
-    "minet",
     "annotate",
     "graph",
     "AnnotationDbi",
@@ -18049,7 +18032,6 @@
     "Seqinfo",
     "IRanges",
     "SummarizedExperiment",
-    "demuxmix",
     "GenomicRanges",
     "GenomicFeatures",
     "AnnotationFilter",
@@ -18071,7 +18053,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "demuxmix": [],
   "densvis": [],
   "derfinder": [
     "BiocGenerics",
@@ -18685,7 +18666,6 @@
     "SparseArray"
   ],
   "epiNEM": [
-    "minet",
     "graph",
     "mnem",
     "BiocGenerics",
@@ -19809,7 +19789,6 @@
   "geNetClassifier": [
     "Biobase",
     "EBarrays",
-    "minet",
     "BiocGenerics"
   ],
   "gemma.R": [
@@ -21979,7 +21958,6 @@
     "S4Vectors",
     "BiocGenerics"
   ],
-  "metabinR": [],
   "metabomxtr": [
     "Biobase",
     "multtest",
@@ -22796,7 +22774,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "minet": [],
   "minfi": [
     "BiocGenerics",
     "GenomicRanges",
@@ -22915,7 +22892,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "mistyR": [],
   "mitch": [],
   "mitoClone2": [
     "GenomicRanges",
@@ -23741,7 +23717,6 @@
   "nempi": [
     "mnem",
     "epiNEM",
-    "minet",
     "graph",
     "Rgraphviz",
     "Linnorm",
@@ -23798,7 +23773,6 @@
   ],
   "netresponse": [
     "Rgraphviz",
-    "minet",
     "graph",
     "BiocGenerics"
   ],
@@ -23977,7 +23951,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "occugene": [],
   "octad": [
     "edgeR",
     "RUVSeq",
@@ -24086,7 +24059,6 @@
     "MetaboCoreUtils",
     "XVector"
   ],
-  "omada": [],
   "omicRexposome": [
     "Biobase",
     "rexposome",
@@ -24193,7 +24165,6 @@
     "SparseArray",
     "XVector"
   ],
-  "ompBAM": [],
   "oncomix": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -24764,7 +24735,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "pfamAnalyzeR": [],
   "pgxRpi": [
     "GenomicRanges",
     "SummarizedExperiment",
@@ -24948,7 +24918,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "plotGrouper": [],
   "plotgardener": [
     "GenomeInfoDb",
     "GenomicRanges",
@@ -28239,7 +28208,6 @@
     "SparseArray",
     "XVector"
   ],
-  "snifter": [],
   "snpStats": [
     "BiocGenerics"
   ],
