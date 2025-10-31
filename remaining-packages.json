@@ -220,8 +220,7 @@
     "S4Arrays",
     "SparseArray",
     "AnnotationFilter",
-    "h5mread",
-    "DirichletMultinomial"
+    "h5mread"
   ],
   "ATACseqTFEA": [
     "GenomicRanges",
@@ -239,7 +238,6 @@
     "S4Arrays",
     "DelayedArray",
     "pwalign",
-    "DirichletMultinomial",
     "SparseArray"
   ],
   "AUCell": [
@@ -989,7 +987,6 @@
     "SparseArray",
     "XVector"
   ],
-  "BumpyMatrix": [],
   "CAEN": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -2113,7 +2110,6 @@
   "CoreGx": [
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "BumpyMatrix",
     "DelayedArray",
     "GenomicRanges",
     "Seqinfo",
@@ -2859,7 +2855,6 @@
     "SparseArray",
     "XVector"
   ],
-  "DirichletMultinomial": [],
   "DiscoRhythm": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -5236,7 +5231,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "GenomicRanges",
@@ -5581,7 +5575,6 @@
     "Seqinfo",
     "pwalign",
     "BSgenome",
-    "DirichletMultinomial",
     "GenomicRanges",
     "rtracklayer",
     "Rsamtools",
@@ -5716,7 +5709,6 @@
     "Biostrings",
     "pwalign",
     "BSgenome",
-    "DirichletMultinomial",
     "rtracklayer",
     "XVector",
     "KEGGREST",
@@ -6177,8 +6169,7 @@
     "TFBSTools",
     "VariantAnnotation",
     "AnnotationFilter",
-    "h5mread",
-    "DirichletMultinomial"
+    "h5mread"
   ],
   "NBAMSeq": [
     "SummarizedExperiment",
@@ -6542,7 +6533,6 @@
     "MultiAssayExperiment",
     "CoreGx",
     "genefu",
-    "BumpyMatrix",
     "biomaRt",
     "DelayedArray",
     "GenomicRanges",
@@ -6779,7 +6769,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "BumpyMatrix",
     "DelayedArray",
     "GenomicRanges",
     "Seqinfo",
@@ -7496,7 +7485,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "BumpyMatrix",
     "GenomicRanges",
     "Seqinfo",
     "S4Arrays",
@@ -8141,7 +8129,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "SIMAT": [],
   "SMITE": [
     "GenomicRanges",
     "AnnotationDbi",
@@ -9177,7 +9164,6 @@
     "Biostrings",
     "pwalign",
     "BSgenome",
-    "DirichletMultinomial",
     "Seqinfo",
     "GenomicRanges",
     "rtracklayer",
@@ -9399,7 +9385,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "BumpyMatrix",
     "GenomicRanges",
     "Seqinfo",
     "S4Arrays",
@@ -9830,7 +9815,6 @@
     "CoreGx",
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "BumpyMatrix",
     "DelayedArray",
     "GenomicRanges",
     "Seqinfo",
@@ -10022,7 +10006,6 @@
     "alabaster.vcf",
     "alabaster.bumpy",
     "alabaster.mae",
-    "BumpyMatrix",
     "MultiAssayExperiment",
     "DelayedArray",
     "S4Arrays",
@@ -10046,9 +10029,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "alabaster.bumpy": [
-    "BumpyMatrix"
-  ],
+  "alabaster.bumpy": [],
   "alabaster.files": [
     "Rsamtools",
     "Seqinfo",
@@ -10364,7 +10345,6 @@
     "TFBSTools",
     "GenomicAlignments",
     "pwalign",
-    "DirichletMultinomial",
     "SummarizedExperiment",
     "cigarillo",
     "S4Arrays",
@@ -11381,7 +11361,6 @@
     "S4Arrays",
     "DelayedArray",
     "pwalign",
-    "DirichletMultinomial",
     "SparseArray",
     "GenomicAlignments",
     "cigarillo"
@@ -12247,7 +12226,6 @@
     "KEGGREST",
     "pwalign",
     "BSgenome",
-    "DirichletMultinomial",
     "GenomicRanges",
     "rtracklayer",
     "Rsamtools",
@@ -12271,7 +12249,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "XVector",
@@ -12816,7 +12793,6 @@
     "cigarillo",
     "S4Arrays",
     "DelayedArray",
-    "DirichletMultinomial",
     "SparseArray"
   ],
   "enrichViewNet": [
@@ -12958,7 +12934,6 @@
     "XVector",
     "rtracklayer",
     "pwalign",
-    "DirichletMultinomial",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -13112,7 +13087,6 @@
     "SummarizedExperiment",
     "cigarillo",
     "pwalign",
-    "DirichletMultinomial",
     "S4Arrays",
     "DelayedArray",
     "SparseArray"
@@ -13475,7 +13449,6 @@
     "gDRcore",
     "gDRimport",
     "gDRutils",
-    "BumpyMatrix",
     "MultiAssayExperiment",
     "SummarizedExperiment",
     "CoreGx",
@@ -13488,7 +13461,6 @@
     "XVector"
   ],
   "gDRcore": [
-    "BumpyMatrix",
     "gDRutils",
     "MultiAssayExperiment",
     "SummarizedExperiment",
@@ -13500,7 +13472,6 @@
     "XVector"
   ],
   "gDRimport": [
-    "BumpyMatrix",
     "CoreGx",
     "PharmacoGx",
     "gDRutils",
@@ -13514,7 +13485,6 @@
     "XVector"
   ],
   "gDRutils": [
-    "BumpyMatrix",
     "MultiAssayExperiment",
     "SummarizedExperiment",
     "DelayedArray",
@@ -14297,7 +14267,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "GenomicRanges",
@@ -14548,7 +14517,6 @@
     "XVector"
   ],
   "jazzPanda": [
-    "BumpyMatrix",
     "SpatialExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -14672,7 +14640,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "GenomicRanges",
@@ -15478,7 +15445,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "XVector",
@@ -15507,7 +15473,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "SparseArray",
     "beachmat",
     "BiocSingular",
@@ -15540,7 +15505,6 @@
     "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
-    "DirichletMultinomial",
     "scater",
     "scuttle",
     "GenomicRanges",
@@ -15557,7 +15521,6 @@
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "DelayedArray",
-    "DirichletMultinomial",
     "scater",
     "SingleCellExperiment",
     "S4Arrays",
@@ -15810,7 +15773,6 @@
     "S4Arrays",
     "DelayedArray",
     "pwalign",
-    "DirichletMultinomial",
     "SparseArray",
     "GenomicAlignments",
     "cigarillo"
@@ -15862,7 +15824,6 @@
     "Seqinfo",
     "pwalign",
     "BSgenome",
-    "DirichletMultinomial",
     "GenomicRanges",
     "rtracklayer",
     "Rsamtools",
@@ -15907,8 +15868,7 @@
     "KEGGREST",
     "AnnotationFilter",
     "SparseArray",
-    "cigarillo",
-    "DirichletMultinomial"
+    "cigarillo"
   ],
   "motifcounter": [
     "Biostrings",
@@ -15928,7 +15888,6 @@
     "S4Arrays",
     "DelayedArray",
     "pwalign",
-    "DirichletMultinomial",
     "SparseArray",
     "GenomicAlignments",
     "cigarillo"
@@ -16424,7 +16383,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "nucleoSim": [],
   "nullranges": [
     "GenomicRanges",
     "Seqinfo",
@@ -16773,7 +16731,6 @@
     "S4Arrays",
     "DelayedArray",
     "pwalign",
-    "DirichletMultinomial",
     "SparseArray",
     "GenomicAlignments",
     "cigarillo"
@@ -17274,7 +17231,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "pwalign",
-    "DirichletMultinomial",
     "KEGGREST",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -17955,7 +17911,6 @@
     "pwalign",
     "S4Arrays",
     "DelayedArray",
-    "DirichletMultinomial",
     "SparseArray"
   ],
   "rifi": [

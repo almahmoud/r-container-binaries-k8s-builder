@@ -718,3 +718,7 @@ updateObject
 variancePartition
 monocle
 TPP
+BumpyMatrix
+DirichletMultinomial
+nucleoSim
+SIMAT

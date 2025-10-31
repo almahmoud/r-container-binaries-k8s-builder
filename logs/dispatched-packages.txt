@@ -742,3 +742,4 @@ derfinderHelper
 lpNet
 nucleoSim
 uSORT
+alabaster.bumpy
