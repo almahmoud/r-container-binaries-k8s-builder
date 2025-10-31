@@ -1498,3 +1498,5 @@ puma
 SCArray.sat
 sva
 tilingArray
+mimager
+nnSVG

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1500 (64%)
+- **Successfully Built:** 1502 (65%)
 - **Failed:** 9 (0%)
-- **In Progress:** 127
-- **Not Started:** 674
+- **In Progress:** 156
+- **Not Started:** 643
 
 **Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1500)
+## Successfully Built Packages (1502)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1450 more ...*
+*... and 1452 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,66 +90,64 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (127)
+## In Progress (156)
+- ⏳ `ADaCGH2`
 - ⏳ `APL`
+- ⏳ `ASSIGN`
 - ⏳ `ASURAT`
 - ⏳ `AneuFinder`
+- ⏳ `BERT`
+- ⏳ `BioNERO`
+- ⏳ `ChIPXpress`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
+- ⏳ `DExMA`
 - ⏳ `DifferentialRegulation`
+- ⏳ `DrugVsDisease`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
 - ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
 - ⏳ `ExperimentSubset`
+- ⏳ `GEOexplorer`
 - ⏳ `GSEABase`
 - ⏳ `Glimma`
 - ⏳ `GloScope`
 - ⏳ `HIPPO`
 - ⏳ `HTSFilter`
+- ⏳ `HarmonizR`
 - ⏳ `HiCDOC`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
 - ⏳ `ITALICS`
+- ⏳ `KnowSeq`
 - ⏳ `LoomExperiment`
 - ⏳ `MAST`
+- ⏳ `MBECS`
 - ⏳ `MDTS`
 - ⏳ `MLInterfaces`
+- ⏳ `MSPrep`
+- ⏳ `MatrixQCvis`
 - ⏳ `MetaNeighbor`
 - ⏳ `MuData`
 - ⏳ `MultiBaC`
 - ⏳ `NBAMSeq`
 - ⏳ `Nebulosa`
 - ⏳ `NewWave`
+- ⏳ `PAA`
 - ⏳ `PECA`
 - ⏳ `PICB`
 - ⏳ `PICS`
-- ⏳ `PSMatch`
-- ⏳ `PathoStat`
-- ⏳ `RCSL`
-- ⏳ `RUCova`
-- ⏳ `SIM`
-- ⏳ `SVP`
-- ⏳ `SemDist`
-- ⏳ `SeqGSEA`
-- ⏳ `Statial`
-- ⏳ `TCC`
-- ⏳ `XeniumIO`
-- ⏳ `Xeva`
-- ⏳ `a4Base`
-- ⏳ `amplican`
-- ⏳ `animalcules`
-- ⏳ `annmap`
+- ⏳ `POMA`
+- ⏳ `PROPS`
 
-... and 77 more ...
+... and 106 more ...
 
-## Not Yet Started (674)
-- ⏸️ `ADaCGH2`
+## Not Yet Started (643)
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
-- ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -161,7 +159,6 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
-- ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -176,7 +173,6 @@
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
-- ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
@@ -195,9 +191,13 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
+- ⏸️ `CSSQ`
+- ⏸️ `Category`
+- ⏸️ `CellMixS`
+- ⏸️ `CelliD`
 
-... and 624 more ...
+... and 593 more ...
 
 ---
-*Last updated: 2025-10-31 05:59:21 UTC*
+*Last updated: 2025-10-31 06:00:57 UTC*
 *Packages with verified BBS status: 134*
