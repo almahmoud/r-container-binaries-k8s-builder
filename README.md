@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 704 (30%)
+- **Successfully Built:** 709 (30%)
 - **Failed:** 6 (0%)
-- **In Progress:** 38
-- **Not Started:** 1562
+- **In Progress:** 34
+- **Not Started:** 1561
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (704)
+## Successfully Built Packages (709)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 654 more ...*
+*... and 659 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (38)
+## In Progress (34)
 - ⏳ `BiGGR`
 - ⏳ `BiocCheck`
 - ⏳ `BiocPkgTools`
@@ -95,20 +95,17 @@
 - ⏳ `CNORfeeder`
 - ⏳ `CNORfuzzy`
 - ⏳ `CNORode`
-- ⏳ `CellMapper`
 - ⏳ `ExiMiR`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
-- ⏳ `MsCoreUtils`
+- ⏳ `MMUPHin`
 - ⏳ `OmicsMLRepoR`
-- ⏳ `PROPER`
 - ⏳ `Rnits`
 - ⏳ `SIMAT`
 - ⏳ `Streamer`
 - ⏳ `TargetDecoy`
 - ⏳ `a4Classif`
-- ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `biobroom`
 - ⏳ `bluster`
@@ -116,7 +113,6 @@
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `mnem`
 - ⏳ `monocle`
 - ⏳ `msPurity`
 - ⏳ `nondetects`
@@ -127,7 +123,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1562)
+## Not Yet Started (1561)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -179,8 +175,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1512 more ...
+... and 1511 more ...
 
 ---
-*Last updated: 2025-10-31 00:44:19 UTC*
+*Last updated: 2025-10-31 00:44:50 UTC*
 *Packages with verified BBS status: 102*

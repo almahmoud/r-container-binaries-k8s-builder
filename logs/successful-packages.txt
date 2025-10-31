@@ -702,3 +702,8 @@ OncoSimulR
 Pedixplorer
 ReUseData
 TurboNorm
+affyContam
+CellMapper
+mnem
+MsCoreUtils
+PROPER
