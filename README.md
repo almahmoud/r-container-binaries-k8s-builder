@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 755 (32%)
+- **Successfully Built:** 757 (32%)
 - **Failed:** 7 (0%)
-- **In Progress:** 28
-- **Not Started:** 1520
+- **In Progress:** 27
+- **Not Started:** 1519
 
-**Progress:** 32%
+**Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (755)
+## Successfully Built Packages (757)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 705 more ...*
+*... and 707 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,8 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (28)
-- ⏳ `ComplexHeatmap`
+## In Progress (27)
 - ⏳ `CytoDx`
 - ⏳ `DEGraph`
 - ⏳ `FlowSOM`
@@ -97,7 +96,7 @@
 - ⏳ `S4Arrays`
 - ⏳ `Sconify`
 - ⏳ `Spectra`
-- ⏳ `XVector`
+- ⏳ `alabaster.bumpy`
 - ⏳ `cytoMEM`
 - ⏳ `flowAI`
 - ⏳ `flowBeads`
@@ -118,7 +117,7 @@
 - ⏳ `tidytof`
 - ⏳ `uSORT`
 
-## Not Yet Started (1520)
+## Not Yet Started (1519)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -170,8 +169,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1470 more ...
+... and 1469 more ...
 
 ---
-*Last updated: 2025-10-31 01:47:15 UTC*
+*Last updated: 2025-10-31 01:47:54 UTC*
 *Packages with verified BBS status: 106*

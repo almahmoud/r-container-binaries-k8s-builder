@@ -753,3 +753,5 @@ derfinderHelper
 DirichletMultinomial
 dStruct
 nucleoSim
+ComplexHeatmap
+XVector

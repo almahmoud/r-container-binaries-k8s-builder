@@ -789,3 +789,9 @@ tidyFlowCore
 tidytof
 uSORT
 alabaster.bumpy
+CCPlotR
+ClustAll
+InteractiveComplexHeatmap
+MAPFX
+cola
+simona
