@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2062 (89%)
+- **Successfully Built:** 2099 (90%)
 - **Failed:** 19 (0%)
-- **In Progress:** 94
+- **In Progress:** 57
 - **Not Started:** 135
 
-**Progress:** 90%
+**Progress:** 91%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2062)
+## Successfully Built Packages (2099)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2012 more ...*
+*... and 2049 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,59 +100,59 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (94)
+## In Progress (57)
 - ⏳ `ATACseqQC`
-- ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
 - ⏳ `CexoR`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `DEScan2`
-- ⏳ `DaMiRseq`
 - ⏳ `ENmix`
 - ⏳ `EpiCompare`
 - ⏳ `EventPointer`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
-- ⏳ `GenomicPlot`
-- ⏳ `IMAS`
-- ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MetaboSignal`
 - ⏳ `MethylAid`
 - ⏳ `Moonlight2R`
-- ⏳ `OUTRIDER`
-- ⏳ `OrganismDbi`
-- ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `REDseq`
 - ⏳ `REMP`
 - ⏳ `RITAN`
-- ⏳ `RUVSeq`
-- ⏳ `RegionalST`
 - ⏳ `Rhisat2`
 - ⏳ `RiboCrypt`
-- ⏳ `SplicingGraphs`
-- ⏳ `TAPseq`
-- ⏳ `TCGAutils`
 - ⏳ `TFHAZ`
 - ⏳ `Ularcirc`
 - ⏳ `alabaster`
-- ⏳ `benchdamic`
 - ⏳ `biovizBase`
 - ⏳ `chevreulProcess`
-- ⏳ `chipenrich`
-- ⏳ `clipper`
-- ⏳ `clusterExperiment`
-- ⏳ `consensusSeekeR`
 - ⏳ `conumee`
-- ⏳ `crisprDesign`
 - ⏳ `cytofQC`
-- ⏳ `dandelionR`
 - ⏳ `dce`
-- ⏳ `debrowser`
 - ⏳ `decontX`
+- ⏳ `deconvR`
+- ⏳ `demuxSNP`
+- ⏳ `esATAC`
+- ⏳ `extraChIPs`
+- ⏳ `fCCAC`
+- ⏳ `funtooNorm`
+- ⏳ `geneXtendeR`
+- ⏳ `hiReadsProcessor`
+- ⏳ `iSEEhex`
+- ⏳ `iSEEtree`
+- ⏳ `imcRtools`
+- ⏳ `methylumi`
+- ⏳ `miRSM`
+- ⏳ `miRspongeR`
+- ⏳ `musicatk`
+- ⏳ `profileplyr`
+- ⏳ `quantro`
+- ⏳ `recountmethylation`
+- ⏳ `scFeatures`
+- ⏳ `scMerge`
+- ⏳ `segmenter`
 
-... and 44 more ...
+... and 7 more ...
 
 ## Not Yet Started (135)
 - ⏸️ `AHMassBank`
@@ -209,5 +209,5 @@
 ... and 85 more ...
 
 ---
-*Last updated: 2025-10-31 09:58:03 UTC*
+*Last updated: 2025-10-31 10:15:48 UTC*
 *Packages with verified BBS status: 161*
