@@ -777,3 +777,5 @@ MetCirc
 MsBackendMassbank
 MsBackendMgf
 MsBackendMsp
+Biostrings
+GenomeInfoDb
