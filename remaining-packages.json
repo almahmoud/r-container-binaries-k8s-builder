@@ -82,7 +82,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "GenomeInfoDb",
@@ -425,7 +424,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "GenomeInfoDb",
@@ -995,7 +993,6 @@
     "SparseArray",
     "ScaledMatrix"
   ],
-  "BiocCheck": [],
   "BiocHubsShiny": [
     "AnnotationHub",
     "ExperimentHub",
@@ -3477,7 +3474,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "GenomeInfoDb",
@@ -14699,9 +14695,7 @@
     "SparseArray",
     "XVector"
   ],
-  "gDRstyle": [
-    "BiocCheck"
-  ],
+  "gDRstyle": [],
   "gDRutils": [
     "BumpyMatrix",
     "MultiAssayExperiment",
@@ -16533,7 +16527,6 @@
     "SummarizedExperiment",
     "AnnotationHub",
     "annotatr",
-    "BiocCheck",
     "Biostrings",
     "BSgenome",
     "DelayedArray",
@@ -16744,7 +16737,6 @@
     "KEGGREST",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "OrganismDbi",
     "AnnotationForge",
     "txdbmaker",
