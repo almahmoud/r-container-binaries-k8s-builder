@@ -7120,7 +7120,6 @@
     "IRanges",
     "BiocGenerics"
   ],
-  "IntramiRExploreR": [],
   "IsoBayes": [
     "SummarizedExperiment",
     "S4Vectors",
@@ -9542,7 +9541,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "OLINgui": [],
   "OMICsPCA": [
     "HelloRanges",
     "MultiAssayExperiment",
@@ -11900,7 +11898,6 @@
     "SparseArray",
     "biomaRt"
   ],
-  "Rigraphlib": [],
   "Rmagpie": [
     "Biobase",
     "BiocGenerics"
@@ -14927,7 +14924,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "abseqR": [],
   "adSplit": [
     "AnnotationDbi",
     "Biobase",
@@ -28616,7 +28612,6 @@
   "scrapper": [
     "beachmat",
     "DelayedArray",
-    "Rigraphlib",
     "SparseArray",
     "BiocGenerics",
     "S4Vectors",

@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 425 (18%)
-- **Failed:** 3 (0%)
-- **In Progress:** 60
+- **Successfully Built:** 429 (18%)
+- **Failed:** 4 (0%)
+- **In Progress:** 55
 - **Not Started:** 1822
 
 **Progress:** 18%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (425)
+## Successfully Built Packages (429)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 | [BiocParallel](https://bioconductor.org/packages/3.21/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocParallel) |
 
-*... and 375 more ...*
+*... and 379 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,15 +76,16 @@
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (3)
+## Failed Packages (4)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
+| [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (60)
+## In Progress (55)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
@@ -101,22 +102,18 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `IntramiRExploreR`
 - ⏳ `MSstatsBig`
 - ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
-- ⏳ `OLINgui`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
 - ⏳ `Polytect`
 - ⏳ `QRscore`
-- ⏳ `Rigraphlib`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `Wrench`
-- ⏳ `abseqR`
 - ⏳ `bacon`
 - ⏳ `brendaDb`
 - ⏳ `cbpManager`
@@ -130,13 +127,17 @@
 - ⏳ `fgsea`
 - ⏳ `ggkegg`
 - ⏳ `hca`
-- ⏳ `hypeR`
 - ⏳ `koinar`
 - ⏳ `maftools`
 - ⏳ `mitch`
 - ⏳ `philr`
+- ⏳ `planet`
+- ⏳ `rawDiag`
+- ⏳ `rhdf5`
+- ⏳ `scBubbletree`
+- ⏳ `scFeatureFilter`
 
-... and 10 more ...
+... and 5 more ...
 
 ## Not Yet Started (1822)
 - ⏸️ `ABarray`
@@ -193,5 +194,5 @@
 ... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:13:27 UTC*
-*Packages with verified BBS status: 77*
+*Last updated: 2025-10-31 00:14:13 UTC*
+*Packages with verified BBS status: 78*

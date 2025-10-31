@@ -1,3 +1,4 @@
 cisPath
 genoCN
 RbowtieCuda
+hypeR

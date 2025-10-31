@@ -37,6 +37,7 @@ CausalR
 RbowtieCuda
 cisPath
 genoCN
+hypeR
 semisup
 seq.hotSPOT
 seqLogo

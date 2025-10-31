@@ -423,3 +423,7 @@ SCFA
 snifter
 TPP2D
 tripr
+abseqR
+IntramiRExploreR
+OLINgui
+Rigraphlib
