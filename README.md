@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1767 (76%)
+- **Successfully Built:** 1771 (76%)
 - **Failed:** 13 (0%)
-- **In Progress:** 219
-- **Not Started:** 311
+- **In Progress:** 217
+- **Not Started:** 309
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1767)
+## Successfully Built Packages (1771)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1717 more ...*
+*... and 1721 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (219)
+## In Progress (217)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BBCAnalyzer`
@@ -111,7 +111,6 @@
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
-- ⏳ `Cepo`
 - ⏳ `ChIPseeker`
 - ⏳ `ChromSCape`
 - ⏳ `CiteFuse`
@@ -122,6 +121,7 @@
 - ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
+- ⏳ `DiffBind`
 - ⏳ `Dino`
 - ⏳ `DominoEffect`
 - ⏳ `EDASeq`
@@ -142,13 +142,13 @@
 - ⏳ `M3Drop`
 - ⏳ `MADSEQ`
 - ⏳ `MEB`
-- ⏳ `MEDIPS`
 - ⏳ `MMDiff2`
 - ⏳ `MOSim`
+- ⏳ `MPAC`
 
-... and 169 more ...
+... and 167 more ...
 
-## Not Yet Started (311)
+## Not Yet Started (309)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -184,7 +184,6 @@
 - ⏸️ `DeMixT`
 - ⏸️ `DegCre`
 - ⏸️ `DegNorm`
-- ⏸️ `DiffBind`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
 - ⏸️ `ELViS`
@@ -199,9 +198,10 @@
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GRaNIE`
+- ⏸️ `GSReg`
 
-... and 261 more ...
+... and 259 more ...
 
 ---
-*Last updated: 2025-10-31 07:34:21 UTC*
+*Last updated: 2025-10-31 07:35:25 UTC*
 *Packages with verified BBS status: 149*

@@ -1765,3 +1765,7 @@ GreyListChIP
 iCNV
 iSEEindex
 npGSEA
+Cepo
+geneAttribution
+MEDIPS
+plyranges

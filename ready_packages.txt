@@ -1,2 +1,8 @@
-DiffBind
-epigraHMM
+SARC
+cfDNAPro
+katdetectr
+nearBynding
+nullranges
+plotgardener
+plyinteractions
+scClassify

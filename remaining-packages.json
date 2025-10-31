@@ -49,15 +49,13 @@
   "BBCAnalyzer": [],
   "BOBaFIT": [
     "ggbio",
-    "plyranges",
     "biovizBase",
     "OrganismDbi",
     "ensembldb",
     "txdbmaker"
   ],
   "BUSpaRse": [
-    "ensembldb",
-    "plyranges"
+    "ensembldb"
   ],
   "BadRegionFinder": [],
   "BatchQC": [],
@@ -123,7 +121,6 @@
   "CSSQ": [],
   "CellMixS": [],
   "CelliD": [],
-  "Cepo": [],
   "CexoR": [
     "genomation"
   ],
@@ -198,7 +195,6 @@
   "Damsel": [
     "ggbio",
     "goseq",
-    "plyranges",
     "biovizBase",
     "OrganismDbi",
     "ensembldb",
@@ -210,8 +206,7 @@
   ],
   "DeconvoBuddies": [],
   "DegCre": [
-    "plotgardener",
-    "plyranges"
+    "plotgardener"
   ],
   "DegNorm": [
     "txdbmaker"
@@ -326,7 +321,6 @@
     "txdbmaker"
   ],
   "GenomicPlot": [
-    "plyranges",
     "RCAS",
     "genomation",
     "txdbmaker"
@@ -358,8 +352,7 @@
   ],
   "IVAS": [],
   "InPAS": [
-    "cleanUpdTSeq",
-    "plyranges"
+    "cleanUpdTSeq"
   ],
   "IntEREst": [
     "GenomicFiles",
@@ -400,7 +393,6 @@
     "lumi"
   ],
   "MEB": [],
-  "MEDIPS": [],
   "MGnifyR": [
     "mia"
   ],
@@ -635,9 +627,7 @@
     "GenomicFiles",
     "ensembldb"
   ],
-  "SARC": [
-    "plyranges"
-  ],
+  "SARC": [],
   "SCOPE": [],
   "SGCP": [
     "GOstats"
@@ -661,7 +651,6 @@
   "SigsPack": [],
   "SingleCellSignalR": [],
   "SingleMoleculeFootprinting": [
-    "plyranges",
     "QuasR",
     "txdbmaker",
     "GenomicFiles"
@@ -703,8 +692,7 @@
   "UPDhmm": [],
   "Ularcirc": [
     "Organism.dplyr",
-    "plotgardener",
-    "plyranges"
+    "plotgardener"
   ],
   "Uniquorn": [],
   "VAExprs": [],
@@ -831,9 +819,7 @@
   ],
   "celaref": [],
   "celda": [],
-  "cfDNAPro": [
-    "plyranges"
-  ],
+  "cfDNAPro": [],
   "chevreulPlot": [
     "chevreulProcess",
     "ensembldb"
@@ -1076,7 +1062,6 @@
   ],
   "gINTomics": [],
   "gcapc": [],
-  "geneAttribution": [],
   "geneXtendeR": [],
   "genoCN": [],
   "genomation": [],
@@ -1158,9 +1143,7 @@
     "biovizBase",
     "ensembldb"
   ],
-  "katdetectr": [
-    "plyranges"
-  ],
+  "katdetectr": [],
   "kissDE": [
     "DSS",
     "bsseq"
@@ -1185,7 +1168,6 @@
   ],
   "magpie": [],
   "mariner": [
-    "plyranges",
     "plotgardener"
   ],
   "maser": [
@@ -1215,8 +1197,7 @@
   "methrix": [],
   "methylCC": [
     "minfi",
-    "bsseq",
-    "plyranges"
+    "bsseq"
   ],
   "methylGSA": [
     "missMethyl",
@@ -1304,7 +1285,6 @@
   "multicrispr": [
     "CRISPRseek",
     "karyoploteR",
-    "plyranges",
     "regioneR",
     "biovizBase",
     "ensembldb"
@@ -1321,15 +1301,11 @@
   "ncGTW": [
     "xcms"
   ],
-  "nearBynding": [
-    "plyranges"
-  ],
+  "nearBynding": [],
   "netSmooth": [
     "clusterExperiment"
   ],
-  "nullranges": [
-    "plyranges"
-  ],
+  "nullranges": [],
   "octad": [
     "RUVSeq",
     "EDASeq"
@@ -1357,13 +1333,8 @@
   "phenoTest": [],
   "pipeComp": [],
   "pipeFrame": [],
-  "plotgardener": [
-    "plyranges"
-  ],
-  "plyinteractions": [
-    "plyranges"
-  ],
-  "plyranges": [],
+  "plotgardener": [],
+  "plyinteractions": [],
   "podkat": [],
   "preciseTAD": [
     "rCGH"
@@ -1442,9 +1413,7 @@
     "ensembldb",
     "biovizBase"
   ],
-  "scClassify": [
-    "Cepo"
-  ],
+  "scClassify": [],
   "scDD": [],
   "scDblFinder": [],
   "scDotPlot": [],
@@ -1576,7 +1545,6 @@
     "TCGAutils"
   ],
   "tidyomics": [
-    "plyranges",
     "nullranges"
   ],
   "topdownr": [],
