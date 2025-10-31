@@ -862,3 +862,5 @@ ddPCRclust
 flowCut
 HDF5Array
 MSstatsShiny
+NanoStringNCTools
+scPCA
