@@ -8,6 +8,7 @@ ASGSCA
 ASSET
 AlphaBeta
 AlphaMissenseR
+AlpsNMR
 AnVIL
 AnVILAz
 AnVILBase
