@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1872 (81%)
+- **Successfully Built:** 1873 (81%)
 - **Failed:** 13 (0%)
-- **In Progress:** 160
-- **Not Started:** 265
+- **In Progress:** 170
+- **Not Started:** 254
 
 **Progress:** 81%
 ```
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1872)
+## Successfully Built Packages (1873)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1822 more ...*
+*... and 1823 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (160)
+## In Progress (170)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -119,6 +119,7 @@
 - ⏳ `DegCre`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
+- ⏳ `ENmix`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GOstats`
@@ -131,6 +132,7 @@
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MSstatsQC`
+- ⏳ `MethylAid`
 - ⏳ `MungeSumstats`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
@@ -139,16 +141,14 @@
 - ⏳ `Pigengene`
 - ⏳ `Prostar`
 - ⏳ `RAIDS`
+- ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
-- ⏳ `SCOPE`
-- ⏳ `SGSeq`
-- ⏳ `SpaNorm`
 
-... and 110 more ...
+... and 120 more ...
 
-## Not Yet Started (265)
+## Not Yet Started (254)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -183,7 +183,6 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
 - ⏸️ `ELViS`
-- ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
 - ⏸️ `EpiTxDb`
 - ⏸️ `EventPointer`
@@ -199,9 +198,10 @@
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
+- ⏸️ `GenomicPlot`
 
-... and 215 more ...
+... and 204 more ...
 
 ---
-*Last updated: 2025-10-31 08:21:10 UTC*
+*Last updated: 2025-10-31 08:23:08 UTC*
 *Packages with verified BBS status: 151*

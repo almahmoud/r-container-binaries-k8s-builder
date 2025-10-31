@@ -431,8 +431,7 @@
     "consensusSeekeR"
   ],
   "RNAAgeCalc": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
   "RNAmodR": [
     "txdbmaker",
@@ -500,8 +499,7 @@
     "methylumi"
   ],
   "RnaSeqSampleSize": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
   "Rqc": [
     "biovizBase"
@@ -767,9 +765,7 @@
   ],
   "deconvR": [],
   "demuxSNP": [],
-  "derfinder": [],
   "derfinderPlot": [
-    "derfinder",
     "ggbio",
     "biovizBase",
     "OrganismDbi",
@@ -1086,8 +1082,7 @@
     "rGREAT"
   ],
   "psichomics": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
   "qpgraph": [],
   "qsea": [],
@@ -1096,16 +1091,12 @@
   "rGADEM": [],
   "rGREAT": [],
   "raer": [],
-  "recount": [
-    "derfinder"
-  ],
+  "recount": [],
   "recountmethylation": [],
   "recoup": [
     "txdbmaker"
   ],
-  "regionReport": [
-    "derfinder"
-  ],
+  "regionReport": [],
   "regioneR": [],
   "regioneReloaded": [
     "regioneR"
