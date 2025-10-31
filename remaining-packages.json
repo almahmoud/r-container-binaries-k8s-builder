@@ -234,7 +234,6 @@
     "SummarizedExperiment"
   ],
   "AssessORF": [
-    "DECIPHER",
     "GenomicRanges"
   ],
   "BANDITS": [
@@ -1329,7 +1328,6 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "DECIPHER": [],
   "DEFormats": [
     "DESeq2",
     "GenomicRanges",
@@ -1723,7 +1721,6 @@
     "GenomicRanges"
   ],
   "DspikeIn": [
-    "DECIPHER",
     "DESeq2",
     "microbiome",
     "phyloseq",
@@ -3090,7 +3087,6 @@
     "SummarizedExperiment",
     "mia",
     "SingleCellExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -5242,9 +5238,7 @@
     "SingleCellExperiment",
     "phyloseq"
   ],
-  "SynExtend": [
-    "DECIPHER"
-  ],
+  "SynExtend": [],
   "TADCompare": [
     "HiCcompare",
     "InteractionSet",
@@ -6177,7 +6171,6 @@
   "baySeq": [
     "GenomicRanges"
   ],
-  "bcSeq": [],
   "beachmat": [],
   "beachmat.hdf5": [
     "beachmat",
@@ -6833,7 +6826,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "coRdon": [],
   "codelink": [
     "annotate",
     "AnnotationDbi"
@@ -7219,7 +7211,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -8358,7 +8349,6 @@
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -8576,7 +8566,6 @@
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -9075,7 +9064,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -9095,7 +9083,6 @@
     "TreeSummarizedExperiment",
     "miaViz",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "beachmat",
     "BiocSingular",
@@ -9114,7 +9101,6 @@
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scater",
     "scuttle",
@@ -9130,7 +9116,6 @@
     "scater",
     "SingleCellExperiment",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scuttle",
     "beachmat",
@@ -9754,8 +9739,7 @@
   ],
   "openPrimeR": [
     "pwalign",
-    "GenomicRanges",
-    "DECIPHER"
+    "GenomicRanges"
   ],
   "oposSOM": [
     "biomaRt",
@@ -10280,7 +10264,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "rBLAST": [],
   "rCGH": [
     "GenomicFeatures",
     "GenomicRanges",
@@ -10602,7 +10585,6 @@
   ],
   "sangeranalyseR": [
     "pwalign",
-    "DECIPHER",
     "sangerseqR"
   ],
   "sangerseqR": [
@@ -10940,7 +10922,6 @@
     "GenomicRanges"
   ],
   "scifer": [
-    "DECIPHER",
     "sangerseqR",
     "pwalign"
   ],

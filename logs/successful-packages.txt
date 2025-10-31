@@ -799,3 +799,7 @@ SELEX
 SpectriPy
 SynMut
 TileDBArray
+bcSeq
+coRdon
+DECIPHER
+rBLAST

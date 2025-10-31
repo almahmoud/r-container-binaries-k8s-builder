@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 801 (35%)
+- **Successfully Built:** 805 (35%)
 - **Failed:** 1 (0%)
-- **In Progress:** 54
-- **Not Started:** 1388
+- **In Progress:** 56
+- **Not Started:** 1382
 
 **Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (801)
+## Successfully Built Packages (805)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 751 more ...*
+*... and 755 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,10 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (54)
-- ⏳ `DECIPHER`
+## In Progress (56)
+- ⏳ `AnnotationDbi`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
+- ⏳ `FELLA`
 - ⏳ `GateFinder`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicRanges`
@@ -96,17 +97,16 @@
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
 - ⏳ `PhyloProfile`
+- ⏳ `ROntoTools`
 - ⏳ `ResidualMatrix`
 - ⏳ `ScaledMatrix`
 - ⏳ `Structstrings`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
-- ⏳ `bcSeq`
 - ⏳ `beachmat`
 - ⏳ `cigarillo`
 - ⏳ `cleaver`
-- ⏳ `coRdon`
 - ⏳ `cogeqc`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
@@ -116,6 +116,7 @@
 - ⏳ `flowTrans`
 - ⏳ `flowWorkspace`
 - ⏳ `gcrma`
+- ⏳ `ggmsa`
 - ⏳ `idpr`
 - ⏳ `igblastr`
 - ⏳ `kebabs`
@@ -125,18 +126,17 @@
 - ⏳ `muscle`
 - ⏳ `ngsReports`
 - ⏳ `orthogene`
+- ⏳ `phantasusLite`
 - ⏳ `phyloseq`
 - ⏳ `pwalign`
-- ⏳ `rBLAST`
 - ⏳ `rRDP`
 - ⏳ `rSWeeP`
 - ⏳ `rfaRm`
 - ⏳ `rprimer`
-- ⏳ `sarks`
 
-... and 4 more ...
+... and 6 more ...
 
-## Not Yet Started (1388)
+## Not Yet Started (1382)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -159,7 +159,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
@@ -187,9 +186,10 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
+- ⏸️ `BatchSVG`
 
-... and 1338 more ...
+... and 1332 more ...
 
 ---
-*Last updated: 2025-10-31 23:43:12 UTC*
+*Last updated: 2025-10-31 23:43:57 UTC*
 *Packages with verified BBS status: 105*

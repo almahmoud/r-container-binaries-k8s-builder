@@ -860,3 +860,4 @@ ROntoTools
 ggmsa
 phantasusLite
 transomics2cytoscape
+SynExtend
