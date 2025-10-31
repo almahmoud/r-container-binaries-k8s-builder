@@ -1817,7 +1817,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "CellMapper": [],
   "CellMixS": [
     "scater",
     "SummarizedExperiment",
@@ -5426,7 +5425,6 @@
     "cigarillo",
     "UCSC.utils"
   ],
-  "KCsmart": [],
   "KEGGREST": [
     "Biostrings",
     "IRanges",
@@ -7935,7 +7933,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "RBioFormats": [],
   "RCAS": [
     "GenomicRanges",
     "IRanges",
@@ -8563,12 +8560,8 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "Rcwl": [],
-  "RcwlPipelines": [
-    "Rcwl"
-  ],
+  "RcwlPipelines": [],
   "ReUseData": [
-    "Rcwl",
     "RcwlPipelines"
   ],
   "ReactomeGSA": [
@@ -9887,7 +9880,6 @@
   ],
   "SpatialOmicsOverlay": [
     "GeomxTools",
-    "RBioFormats",
     "NanoStringNCTools",
     "Biostrings",
     "IRanges",
@@ -11423,7 +11415,6 @@
     "alabaster.base",
     "alabaster.sce",
     "alabaster.spatial",
-    "RBioFormats",
     "SingleCellExperiment",
     "SummarizedExperiment",
     "alabaster.se",
@@ -15913,7 +15904,6 @@
     "SparseArray",
     "XVector"
   ],
-  "hyperdraw": [],
   "iCNV": [
     "CODEX",
     "Rsamtools",
@@ -16352,9 +16342,7 @@
     "XVector",
     "Seqinfo"
   ],
-  "islify": [
-    "RBioFormats"
-  ],
+  "islify": [],
   "isobar": [
     "biomaRt",
     "AnnotationDbi",
@@ -16947,7 +16935,6 @@
     "AnnotationFilter",
     "XVector"
   ],
-  "metabCombiner": [],
   "metagene2": [
     "GenomicRanges",
     "rtracklayer",

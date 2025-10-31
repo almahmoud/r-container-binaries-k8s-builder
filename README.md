@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 641 (28%)
+- **Successfully Built:** 647 (28%)
 - **Failed:** 1 (0%)
-- **In Progress:** 64
-- **Not Started:** 1538
+- **In Progress:** 60
+- **Not Started:** 1536
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (641)
+## Successfully Built Packages (647)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 591 more ...*
+*... and 597 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,13 +82,13 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (64)
+## In Progress (60)
 - ⏳ `BioMVCClass`
 - ⏳ `BiocIO`
 - ⏳ `CTDquerier`
 - ⏳ `CardinalIO`
-- ⏳ `CellMapper`
 - ⏳ `CellNOptR`
+- ⏳ `Doscheda`
 - ⏳ `ExiMiR`
 - ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
@@ -96,7 +96,6 @@
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
 - ⏳ `IRanges`
-- ⏳ `KCsmart`
 - ⏳ `KEGGgraph`
 - ⏳ `MOGAMUN`
 - ⏳ `MSstatsBioNet`
@@ -104,10 +103,8 @@
 - ⏳ `NanoTube`
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
-- ⏳ `RBioFormats`
 - ⏳ `RTopper`
 - ⏳ `RVS`
-- ⏳ `Rcwl`
 - ⏳ `Rnits`
 - ⏳ `SRAdb`
 - ⏳ `Streamer`
@@ -129,14 +126,17 @@
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `hyperdraw`
-- ⏳ `metabCombiner`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
+- ⏳ `mosbi`
+- ⏳ `mzR`
+- ⏳ `parglms`
+- ⏳ `piano`
+- ⏳ `progeny`
 
-... and 14 more ...
+... and 10 more ...
 
-## Not Yet Started (1538)
+## Not Yet Started (1536)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1488 more ...
+... and 1486 more ...
 
 ---
-*Last updated: 2025-10-31 22:45:36 UTC*
+*Last updated: 2025-10-31 22:46:16 UTC*
 *Packages with verified BBS status: 101*
