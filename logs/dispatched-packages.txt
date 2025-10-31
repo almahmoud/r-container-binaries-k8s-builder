@@ -2043,3 +2043,14 @@ ChIPQC
 alabaster
 circRNAprofiler
 vtpnet
+ENmix
+MethylAid
+REMP
+conumee
+deconvR
+funtooNorm
+methylumi
+quantro
+recountmethylation
+shinyMethyl
+shinyepico
