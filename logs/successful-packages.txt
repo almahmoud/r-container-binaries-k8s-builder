@@ -469,3 +469,6 @@ DEsingle
 AlpsNMR
 HubPub
 CIMICE
+biomformat
+PCAN
+scMitoMut
