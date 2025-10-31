@@ -183,8 +183,7 @@
   ],
   "BiGGR": [],
   "BiSeq": [
-    "rtracklayer",
-    "globaltest"
+    "rtracklayer"
   ],
   "BicARE": [
     "GSEABase"
@@ -369,7 +368,6 @@
   "ChAMP": [
     "minfi",
     "DMRcate",
-    "globaltest",
     "sva",
     "wateRmelon",
     "goseq",
@@ -649,7 +647,6 @@
   "EGSEA": [
     "pathview",
     "GSVA",
-    "globaltest",
     "GSEABase",
     "SpatialExperiment"
   ],
@@ -911,7 +908,6 @@
   "Glimma": [],
   "GloScope": [],
   "GlobalAncova": [
-    "globaltest",
     "GSEABase"
   ],
   "GmicR": [
@@ -1383,7 +1379,6 @@
     "GSEABase"
   ],
   "PathoStat": [],
-  "PharmacoGx": [],
   "PhenStat": [],
   "Pigengene": [
     "ReactomePA",
@@ -1570,7 +1565,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "RadioGx": [],
   "RareVariantVis": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -1722,9 +1716,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "SIM": [
-    "globaltest"
-  ],
+  "SIM": [],
   "SMITE": [
     "goseq",
     "rtracklayer",
@@ -1758,7 +1750,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "SPONGE": [],
   "SPOTlight": [],
   "SPsimSeq": [],
   "SVP": [
@@ -1766,7 +1757,6 @@
   ],
   "SemDist": [],
   "SeqGSEA": [],
-  "SeqSQC": [],
   "ShortRead": [],
   "SiPSiC": [],
   "SigCheck": [
@@ -2050,9 +2040,7 @@
     "SpatialExperiment",
     "VisiumIO"
   ],
-  "Xeva": [
-    "PharmacoGx"
-  ],
+  "Xeva": [],
   "YAPSA": [
     "SomaticSignatures",
     "VariantAnnotation",
@@ -2944,13 +2932,10 @@
   ],
   "gDR": [
     "gDRcore",
-    "gDRimport",
-    "PharmacoGx"
+    "gDRimport"
   ],
   "gDRcore": [],
-  "gDRimport": [
-    "PharmacoGx"
-  ],
+  "gDRimport": [],
   "gINTomics": [
     "GenomicFeatures",
     "ReactomePA",
@@ -2987,7 +2972,6 @@
   "gep2pep": [
     "GSEABase"
   ],
-  "gg4way": [],
   "ggbio": [
     "biovizBase",
     "BSgenome",
@@ -3011,7 +2995,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "globaltest": [],
   "gmapR": [
     "rtracklayer",
     "GenomicFeatures",
@@ -3387,7 +3370,6 @@
     "graphite"
   ],
   "miRspongeR": [
-    "SPONGE",
     "ReactomePA",
     "graphite"
   ],
@@ -3620,7 +3602,6 @@
   ],
   "omicade4": [],
   "omicsPrint": [],
-  "ontoProc": [],
   "oppar": [
     "GSEABase",
     "GSVA",
@@ -3717,9 +3698,7 @@
   "poem": [
     "SpatialExperiment"
   ],
-  "pogos": [
-    "ontoProc"
-  ],
+  "pogos": [],
   "pram": [
     "rtracklayer"
   ],
@@ -4335,7 +4314,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "switchde": [],
   "synapter": [
     "MSnbase",
     "PSMatch"
@@ -4362,9 +4340,7 @@
     "BSgenome",
     "biovizBase"
   ],
-  "tenXplore": [
-    "ontoProc"
-  ],
+  "tenXplore": [],
   "terraTCGAdata": [
     "TCGAutils",
     "GenomicFeatures",

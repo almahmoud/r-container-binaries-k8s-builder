@@ -1543,3 +1543,8 @@ DEXSeq
 biocGraph
 censcyt
 treekoR
+SIM
+Xeva
+gDRimport
+pogos
+tenXplore

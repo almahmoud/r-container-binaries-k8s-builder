@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1310 (56%)
+- **Successfully Built:** 1318 (57%)
 - **Failed:** 8 (0%)
-- **In Progress:** 222
-- **Not Started:** 770
+- **In Progress:** 219
+- **Not Started:** 765
 
 **Progress:** 57%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1310)
+## Successfully Built Packages (1318)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1260 more ...*
+*... and 1268 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (222)
+## In Progress (219)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -116,12 +116,14 @@
 - ⏳ `CoSIA`
 - ⏳ `CrispRVariants`
 - ⏳ `CuratedAtlasQueryR`
+- ⏳ `CyTOFpower`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DEFormats`
 - ⏳ `DEGreport`
 - ⏳ `DELocal`
 - ⏳ `DEWSeq`
+- ⏳ `DEXSeq`
 - ⏳ `DEsubs`
 - ⏳ `DifferentialRegulation`
 - ⏳ `EBSEA`
@@ -138,12 +140,10 @@
 - ⏳ `HIPPO`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
-- ⏳ `HybridExpress`
-- ⏳ `ILoReg`
 
-... and 172 more ...
+... and 169 more ...
 
-## Not Yet Started (770)
+## Not Yet Started (765)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -195,8 +195,8 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 
-... and 720 more ...
+... and 715 more ...
 
 ---
-*Last updated: 2025-10-31 05:04:55 UTC*
+*Last updated: 2025-10-31 05:07:17 UTC*
 *Packages with verified BBS status: 126*

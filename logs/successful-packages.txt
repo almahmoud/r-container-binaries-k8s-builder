@@ -1308,3 +1308,11 @@ geneplotter
 isobar
 pathlinkR
 tRanslatome
+gg4way
+globaltest
+ontoProc
+PharmacoGx
+RadioGx
+SeqSQC
+SPONGE
+switchde
