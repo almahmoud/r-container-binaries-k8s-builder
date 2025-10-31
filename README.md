@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1795 (77%)
+- **Successfully Built:** 1796 (77%)
 - **Failed:** 13 (0%)
 - **In Progress:** 214
-- **Not Started:** 288
+- **Not Started:** 287
 
 **Progress:** 78%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1795)
+## Successfully Built Packages (1796)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1745 more ...*
+*... and 1746 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -128,7 +128,6 @@
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
-- ⏳ `GA4GHclient`
 - ⏳ `GOstats`
 - ⏳ `GRaNIE`
 - ⏳ `GSEABenchmarkeR`
@@ -145,10 +144,11 @@
 - ⏳ `MEB`
 - ⏳ `MSstatsQC`
 - ⏳ `MungeSumstats`
+- ⏳ `MutationalPatterns`
 
 ... and 164 more ...
 
-## Not Yet Started (288)
+## Not Yet Started (287)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -200,8 +200,8 @@
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
 
-... and 238 more ...
+... and 237 more ...
 
 ---
-*Last updated: 2025-10-31 07:47:52 UTC*
+*Last updated: 2025-10-31 07:49:09 UTC*
 *Packages with verified BBS status: 149*
