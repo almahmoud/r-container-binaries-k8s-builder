@@ -1115,3 +1115,9 @@ AnnotationHub
 csaw
 FeatSeekR
 IgGeneUsage
+beer
+BreastSubtypeR
+CAEN
+doseR
+MicrobiotaProcess
+MultiAssayExperiment
