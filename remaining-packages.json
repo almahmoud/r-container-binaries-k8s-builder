@@ -8618,7 +8618,6 @@
     "GenomicFeatures",
     "DelayedArray"
   ],
-  "kebabs": [],
   "keggorthology": [
     "AnnotationDbi"
   ],
@@ -8929,7 +8928,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "methimpute": [],
   "methodical": [
     "SummarizedExperiment",
     "AnnotationHub",
@@ -9688,8 +9686,7 @@
     "pwalign"
   ],
   "odseq": [
-    "msa",
-    "kebabs"
+    "msa"
   ],
   "oligo": [
     "oligoClasses",
@@ -10141,9 +10138,7 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "procoil": [
-    "kebabs"
-  ],
+  "procoil": [],
   "profileplyr": [
     "SummarizedExperiment",
     "soGGi",
