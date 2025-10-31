@@ -8,6 +8,10 @@ if [ $# -ne 3 ]; then
     exit 1
 fi
 
+sanitize_name() {
+    echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
+}
+
 truncate_build_id() {
     local full_id="$1"
     local version_suffix="${full_id: -3}"
@@ -16,7 +20,7 @@ truncate_build_id() {
     echo "${date_part}-${container_hint}-${version_suffix}"
 }
 
-BUILD_ID=$1
+BUILD_ID=$(sanitize_name "$1")
 BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 OLD_URL=$2
 CONTAINER=$3
@@ -115,10 +119,6 @@ spec:
         env:
         - name: RCLONE_CONFIG
           value: /config/rclone/rclone.conf
-      volumes:
-      - name: bioc-data
-        persistentVolumeClaim:
-          claimName: ${PVC_NAME}
       volumes:
       - name: bioc-data
         persistentVolumeClaim:

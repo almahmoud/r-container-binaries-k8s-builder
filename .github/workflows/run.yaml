@@ -100,7 +100,7 @@ jobs:
             "remaining-packages.json"
           
           # Calculate truncated build ID for PVC name
-          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-.')
+          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
           VERSION_SUFFIX="${BUILD_ID_CLEAN: -3}"
           DATE_PART=$(echo "$BUILD_ID_CLEAN" | cut -d'-' -f1-3 | tr -d '-')
           CONTAINER_HINT=$(echo "$BUILD_ID_CLEAN" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)

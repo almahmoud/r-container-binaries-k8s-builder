@@ -30,14 +30,6 @@ BUILD_ID=$(sanitize_name "$4")
 BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 NAMESPACE="ns-${BUILD_ID_SHORT}"
 
-PKG_SAFE=$(sanitize_name "$1")
-PKG=$1
-CONTAINER=$2
-PVC=$3
-BUILD_ID=$(sanitize_name "$4")
-BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
-NAMESPACE="ns-${BUILD_ID_SHORT}"
-
 # Record dispatched package
 mkdir -p "logs"
 echo "$PKG" >> "logs/dispatched-packages.txt"
