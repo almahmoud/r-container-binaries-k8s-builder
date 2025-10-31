@@ -1394,3 +1394,11 @@ omicsPrint
 SPsimSeq
 tidySingleCellExperiment
 TENxIO
+broadSeq
+easier
+hpar
+isomiRs
+knowYourCG
+PLSDAbatch
+scQTLtools
+treekoR

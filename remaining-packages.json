@@ -1107,7 +1107,6 @@
   ],
   "MetaNeighbor": [],
   "MetaboSignal": [
-    "hpar",
     "mygene",
     "ensembldb",
     "GenomicFeatures",
@@ -1273,7 +1272,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "PLSDAbatch": [],
   "POMA": [
     "sva"
   ],
@@ -1742,8 +1740,7 @@
     "escheR"
   ],
   "Statial": [
-    "SpatialExperiment",
-    "treekoR"
+    "SpatialExperiment"
   ],
   "StructuralVariantAnnotation": [
     "rtracklayer",
@@ -2139,7 +2136,6 @@
     "BSgenome"
   ],
   "breakpointR": [],
-  "broadSeq": [],
   "bsseq": [
     "BSgenome",
     "rtracklayer"
@@ -2596,7 +2592,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "easier": [],
   "easyRNASeq": [],
   "easylift": [
     "rtracklayer"
@@ -2879,7 +2874,6 @@
   "hoodscanR": [
     "SpatialExperiment"
   ],
-  "hpar": [],
   "hypeR": [],
   "iCNV": [
     "CODEX",
@@ -2982,7 +2976,6 @@
     "Category",
     "GSEABase"
   ],
-  "isomiRs": [],
   "jazzPanda": [
     "SpatialExperiment"
   ],
@@ -3009,7 +3002,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "knowYourCG": [],
   "lefser": [
     "mia",
     "scater",
@@ -3754,7 +3746,6 @@
     "rtracklayer",
     "scuttle"
   ],
-  "scQTLtools": [],
   "scRNAseqApp": [
     "rtracklayer",
     "slingshot"
@@ -4149,7 +4140,6 @@
     "rtracklayer"
   ],
   "treeclimbR": [],
-  "treekoR": [],
   "tricycle": [
     "scater",
     "scuttle"
