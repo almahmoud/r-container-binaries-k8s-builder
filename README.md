@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1245 (53%)
+- **Successfully Built:** 1264 (54%)
 - **Failed:** 8 (0%)
-- **In Progress:** 74
-- **Not Started:** 983
+- **In Progress:** 119
+- **Not Started:** 919
 
-**Progress:** 54%
+**Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1245)
+## Successfully Built Packages (1264)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -38,15 +38,15 @@
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
+| [AffiXcan](https://bioconductor.org/packages/3.21/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.21/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.21/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
-| [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1195 more ...*
+*... and 1214 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,61 +89,61 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (74)
-- ⏳ `AffiXcan`
-- ⏳ `CoreGx`
+## In Progress (119)
+- ⏳ `Anaquin`
+- ⏳ `CEMiTool`
+- ⏳ `CaMutQC`
+- ⏳ `CeTF`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
-- ⏳ `ExperimentHub`
-- ⏳ `GOexpress`
+- ⏳ `DEFormats`
+- ⏳ `DEGreport`
+- ⏳ `DELocal`
+- ⏳ `DEWSeq`
+- ⏳ `DEsubs`
+- ⏳ `EBSEA`
+- ⏳ `ERSSA`
+- ⏳ `EasyCellType`
+- ⏳ `EnrichDO`
 - ⏳ `GOpro`
+- ⏳ `GSEABase`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicScores`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
-- ⏳ `InterCellar`
+- ⏳ `Glimma`
+- ⏳ `HTSFilter`
+- ⏳ `HiCDOC`
+- ⏳ `HybridExpress`
 - ⏳ `LACE`
-- ⏳ `Lheuristic`
-- ⏳ `LinkHD`
-- ⏳ `MOMA`
-- ⏳ `MouseFM`
+- ⏳ `MGFM`
+- ⏳ `MGFR`
+- ⏳ `MICSQTL`
+- ⏳ `MLSeq`
+- ⏳ `MetaPhOR`
+- ⏳ `MetaboAnnotation`
+- ⏳ `MicrobiomeProfiler`
+- ⏳ `MsExperiment`
+- ⏳ `MultiRNAflow`
+- ⏳ `NetActivity`
 - ⏳ `NetSAM`
-- ⏳ `OncoScore`
-- ⏳ `PPInfer`
-- ⏳ `ProteoMM`
+- ⏳ `PREDA`
+- ⏳ `PSMatch`
+- ⏳ `PathoStat`
+- ⏳ `ReducedExperiment`
+- ⏳ `RegEnrich`
 - ⏳ `RepViz`
 - ⏳ `SPONGE`
-- ⏳ `SWATH2stats`
+- ⏳ `SemDist`
+- ⏳ `SeqGSEA`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
+- ⏳ `TCC`
 - ⏳ `TCGAbiolinks`
-- ⏳ `VegaMC`
-- ⏳ `alabaster.se`
-- ⏳ `autonomics`
-- ⏳ `awst`
-- ⏳ `beadarray`
-- ⏳ `cTRAP`
-- ⏳ `debCAM`
-- ⏳ `diffcyt`
-- ⏳ `eisaR`
-- ⏳ `epistack`
-- ⏳ `evaluomeR`
-- ⏳ `findIPs`
-- ⏳ `flowGate`
-- ⏳ `flowVS`
-- ⏳ `gDRutils`
-- ⏳ `goSTAG`
-- ⏳ `graphite`
-- ⏳ `hipathia`
-- ⏳ `immunogenViewer`
-- ⏳ `isobar`
-- ⏳ `keggorthology`
-- ⏳ `maPredictDSC`
-- ⏳ `meshes`
 
-... and 24 more ...
+... and 69 more ...
 
-## Not Yet Started (983)
+## Not Yet Started (919)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -160,7 +160,6 @@
 - ⏸️ `AUCell`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `Anaquin`
 - ⏸️ `AneuFinder`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
@@ -194,9 +193,10 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BubbleTree`
 - ⏸️ `BulkSignalR`
+- ⏸️ `CAFE`
 
-... and 933 more ...
+... and 869 more ...
 
 ---
-*Last updated: 2025-10-31 04:48:22 UTC*
-*Packages with verified BBS status: 123*
+*Last updated: 2025-10-31 04:51:05 UTC*
+*Packages with verified BBS status: 124*
