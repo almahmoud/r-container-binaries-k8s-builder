@@ -1,7 +1,9 @@
 ABSSeq
+ABarray
 ACME
 AMOUNTAIN
 ANCOMBC
+ANF
 ARRmNormalization
 ASAFE
 ASEB

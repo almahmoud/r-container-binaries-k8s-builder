@@ -6,24 +6,26 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 566 (25%)
+- **Successfully Built:** 595 (26%)
 - **Failed:** 1 (0%)
-- **In Progress:** 34
-- **Not Started:** 1643
+- **In Progress:** 50
+- **Not Started:** 1598
 
-**Progress:** 25%
+**Progress:** 26%
 ```
-████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (566)
+## Successfully Built Packages (595)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.22/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABSSeq) |
+| [ABarray](https://bioconductor.org/packages/3.22/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.22/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACME) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANCOMBC) |
+| [ANF](https://bioconductor.org/packages/3.22/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANF) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.22/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.22/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.22/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASEB) |
@@ -43,10 +45,8 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.22/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BADER) |
 | [BAGS](https://bioconductor.org/packages/3.22/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BAGS) |
-| [BEclear](https://bioconductor.org/packages/3.22/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BEclear) |
-| [BG2](https://bioconductor.org/packages/3.22/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BG2) |
 
-*... and 516 more ...*
+*... and 545 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,44 +82,59 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (34)
+## In Progress (50)
 - ⏳ `AIMS`
-- ⏳ `ANF`
 - ⏳ `BioQC`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
-- ⏳ `GeneExpressionSignature`
 - ⏳ `Harman`
-- ⏳ `IHW`
+- ⏳ `NanoTube`
 - ⏳ `PROPER`
+- ⏳ `RBGL`
+- ⏳ `RTopper`
 - ⏳ `RUVcorr`
 - ⏳ `RVS`
-- ⏳ `Rvisdiff`
+- ⏳ `Rgraphviz`
 - ⏳ `S4Vectors`
+- ⏳ `SIMD`
+- ⏳ `SRAdb`
 - ⏳ `SuperCellCyto`
+- ⏳ `TMixClust`
 - ⏳ `a4Preproc`
-- ⏳ `affy`
+- ⏳ `aCGH`
+- ⏳ `anota`
+- ⏳ `bioassayR`
 - ⏳ `biobroom`
 - ⏳ `clusterStab`
-- ⏳ `cogena`
 - ⏳ `compcodeR`
-- ⏳ `convert`
+- ⏳ `diggit`
 - ⏳ `dyebias`
-- ⏳ `ecolitk`
-- ⏳ `factDesign`
+- ⏳ `eiR`
+- ⏳ `fmcsR`
+- ⏳ `fobitools`
+- ⏳ `hapFabia`
 - ⏳ `martini`
-- ⏳ `massiR`
+- ⏳ `metabomxtr`
 - ⏳ `metagenomeSeq`
+- ⏳ `metapone`
+- ⏳ `mosbi`
 - ⏳ `mzR`
+- ⏳ `nethet`
 - ⏳ `parglms`
+- ⏳ `piano`
 - ⏳ `profileScoreDist`
+- ⏳ `progeny`
+- ⏳ `rain`
 - ⏳ `rcellminer`
+- ⏳ `rebook`
 - ⏳ `roastgsa`
+- ⏳ `rsbml`
+- ⏳ `scde`
+- ⏳ `siggenes`
 - ⏳ `subSeq`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1643)
-- ⏸️ `ABarray`
+## Not Yet Started (1598)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -169,9 +184,10 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
+- ⏸️ `Banksy`
 
-... and 1593 more ...
+... and 1548 more ...
 
 ---
-*Last updated: 2025-10-31 22:39:04 UTC*
-*Packages with verified BBS status: 95*
+*Last updated: 2025-10-31 22:40:59 UTC*
+*Packages with verified BBS status: 97*
