@@ -1689,3 +1689,7 @@ DESpace
 AGDEX
 r3Cseq
 sevenC
+BSgenome
+SBGNview
+seqsetvis
+TEKRABber
