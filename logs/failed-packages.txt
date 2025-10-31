@@ -3,3 +3,4 @@ genoCN
 RbowtieCuda
 hypeR
 gpuMagic
+PhenStat

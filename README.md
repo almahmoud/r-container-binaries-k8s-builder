@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 674 (29%)
-- **Failed:** 5 (0%)
-- **In Progress:** 53
-- **Not Started:** 1578
+- **Successfully Built:** 680 (29%)
+- **Failed:** 6 (0%)
+- **In Progress:** 49
+- **Not Started:** 1575
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (674)
+## Successfully Built Packages (680)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 624 more ...*
+*... and 630 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,27 +76,28 @@
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (5)
+## Failed Packages (6)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (53)
+## In Progress (49)
 - ⏳ `BiGGR`
 - ⏳ `Cardinal`
 - ⏳ `CellMapper`
 - ⏳ `CellNOptR`
 - ⏳ `Cormotif`
 - ⏳ `DFplyr`
+- ⏳ `Doscheda`
 - ⏳ `ExiMiR`
 - ⏳ `ExploreModelMatrix`
 - ⏳ `GEOsubmission`
-- ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
@@ -108,13 +109,11 @@
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `Pedixplorer`
-- ⏳ `PhenStat`
 - ⏳ `RTopper`
 - ⏳ `RVS`
+- ⏳ `ReUseData`
 - ⏳ `Rnits`
-- ⏳ `STATegRa`
 - ⏳ `Streamer`
-- ⏳ `TRONCO`
 - ⏳ `TurboNorm`
 - ⏳ `UCSC.utils`
 - ⏳ `a4Classif`
@@ -128,19 +127,18 @@
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
 - ⏳ `ldblock`
-- ⏳ `metagenomeSeq`
 - ⏳ `mnem`
 - ⏳ `mzR`
-- ⏳ `pvac`
+- ⏳ `pvca`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
-- ⏳ `ribor`
 - ⏳ `roastgsa`
 - ⏳ `scde`
+- ⏳ `trio`
+- ⏳ `updateObject`
+- ⏳ `variancePartition`
 
-... and 3 more ...
-
-## Not Yet Started (1578)
+## Not Yet Started (1575)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +190,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1528 more ...
+... and 1525 more ...
 
 ---
-*Last updated: 2025-10-31 00:41:03 UTC*
-*Packages with verified BBS status: 101*
+*Last updated: 2025-10-31 00:42:00 UTC*
+*Packages with verified BBS status: 102*

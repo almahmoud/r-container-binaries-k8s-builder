@@ -4277,7 +4277,6 @@
     "annotate",
     "Biostrings"
   ],
-  "GSEAlm": [],
   "GSRI": [
     "genefilter",
     "GSEABase",
@@ -6115,8 +6114,7 @@
     "SparseArray"
   ],
   "MMUPHin": [
-    "Maaslin2",
-    "metagenomeSeq"
+    "Maaslin2"
   ],
   "MODA": [
     "AnnotationDbi",
@@ -6374,9 +6372,7 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "Maaslin2": [
-    "metagenomeSeq"
-  ],
+  "Maaslin2": [],
   "Macarron": [
     "SummarizedExperiment",
     "DelayedArray",
@@ -6384,7 +6380,6 @@
     "IRanges",
     "S4Arrays",
     "SparseArray",
-    "metagenomeSeq",
     "GenomicRanges",
     "GenomeInfoDb",
     "AnnotationDbi",
@@ -9623,7 +9618,6 @@
     "SparseArray",
     "XVector"
   ],
-  "STATegRa": [],
   "SVMDO": [
     "DOSE",
     "AnnotationDbi",
@@ -10720,7 +10714,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "TRONCO": [],
   "TSCAN": [
     "SingleCellExperiment",
     "TrajectoryUtils",
@@ -12237,7 +12230,6 @@
     "microbiome",
     "Maaslin2",
     "maaslin3",
-    "metagenomeSeq",
     "GenomicRanges",
     "IRanges",
     "SingleCellExperiment",
@@ -17550,9 +17542,7 @@
     "XVector",
     "Biostrings"
   ],
-  "mbQTL": [
-    "metagenomeSeq"
-  ],
+  "mbQTL": [],
   "mbkmeans": [
     "DelayedArray",
     "SingleCellExperiment",
@@ -17662,7 +17652,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "metagenomeSeq": [],
   "metaseqR2": [
     "DESeq2",
     "biomaRt",
@@ -18211,7 +18200,6 @@
   ],
   "microbiomeDASim": [
     "phyloseq",
-    "metagenomeSeq",
     "Biostrings",
     "IRanges",
     "XVector",
@@ -18219,7 +18207,6 @@
     "UCSC.utils"
   ],
   "microbiomeExplorer": [
-    "metagenomeSeq",
     "DESeq2",
     "IRanges",
     "GenomicRanges",
@@ -20241,7 +20228,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "pvac": [],
   "pvca": [],
   "pwalign": [
     "IRanges",
@@ -20851,7 +20837,6 @@
     "XVector",
     "Biostrings"
   ],
-  "ribor": [],
   "ribosomeProfilingQC": [
     "GenomicRanges",
     "AnnotationDbi",

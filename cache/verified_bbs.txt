@@ -46,6 +46,7 @@ CGEN
 CONSTANd
 COSNet
 CausalR
+PhenStat
 RbowtieCuda
 cisPath
 genoCN

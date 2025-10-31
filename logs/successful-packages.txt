@@ -672,3 +672,9 @@ makecdfenv
 progeny
 RcwlPipelines
 vsn
+GSEAlm
+metagenomeSeq
+pvac
+ribor
+STATegRa
+TRONCO
