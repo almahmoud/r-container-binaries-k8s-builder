@@ -1937,7 +1937,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "ToxicoGx": [],
   "TrajectoryUtils": [],
   "TreeSummarizedExperiment": [],
   "UCell": [],
