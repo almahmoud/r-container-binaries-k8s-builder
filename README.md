@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1812 (78%)
+- **Successfully Built:** 1819 (78%)
 - **Failed:** 13 (0%)
-- **In Progress:** 199
+- **In Progress:** 192
 - **Not Started:** 286
 
 **Progress:** 79%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1812)
+## Successfully Built Packages (1819)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1762 more ...*
+*... and 1769 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.21/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vissE) |
@@ -72,6 +71,7 @@
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.21/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zellkonverter) |
+| [zenith](https://bioconductor.org/packages/3.21/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zenith) |
 | [zinbwave](https://bioconductor.org/packages/3.21/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (199)
+## In Progress (192)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BBCAnalyzer`
@@ -118,7 +118,6 @@
 - ⏳ `CluMSID`
 - ⏳ `Cogito`
 - ⏳ `DAMEfinder`
-- ⏳ `DAPAR`
 - ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
@@ -133,7 +132,6 @@
 - ⏳ `GenomicFiles`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Guitar`
-- ⏳ `HelloRanges`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
@@ -145,8 +143,10 @@
 - ⏳ `MutationalPatterns`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
+- ⏳ `OutSplice`
+- ⏳ `PRONE`
 
-... and 149 more ...
+... and 142 more ...
 
 ## Not Yet Started (286)
 - ⏸️ `AHMassBank`
@@ -203,5 +203,5 @@
 ... and 236 more ...
 
 ---
-*Last updated: 2025-10-31 07:54:34 UTC*
-*Packages with verified BBS status: 150*
+*Last updated: 2025-10-31 07:56:15 UTC*
+*Packages with verified BBS status: 151*

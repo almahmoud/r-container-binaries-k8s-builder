@@ -149,7 +149,6 @@
     "biovizBase"
   ],
   "DAMEfinder": [],
-  "DAPAR": [],
   "DEP": [],
   "DEScan2": [
     "ChIPpeakAnno",
@@ -293,7 +292,6 @@
     "biovizBase"
   ],
   "Harshlight": [],
-  "HelloRanges": [],
   "HiCDCPlus": [
     "GenomicInteractions",
     "Gviz",
@@ -412,9 +410,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "OMICsPCA": [
-    "HelloRanges"
-  ],
+  "OMICsPCA": [],
   "ORFik": [
     "txdbmaker"
   ],
@@ -435,9 +431,7 @@
   "PRONE": [],
   "PhenStat": [],
   "Pigengene": [],
-  "Prostar": [
-    "DAPAR"
-  ],
+  "Prostar": [],
   "ProteoDisco": [],
   "PureCN": [],
   "Pviz": [
@@ -672,9 +666,7 @@
   "attract": [
     "GOstats"
   ],
-  "bandle": [
-    "pRoloc"
-  ],
+  "bandle": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -868,9 +860,7 @@
     "annotatr",
     "regioneR"
   ],
-  "dreamlet": [
-    "zenith"
-  ],
+  "dreamlet": [],
   "drugTargetInteractions": [],
   "easylift": [],
   "enhancerHomologSearch": [
@@ -878,7 +868,6 @@
     "TFBSTools"
   ],
   "epidecodeR": [],
-  "epigraHMM": [],
   "epimutacions": [
     "minfi",
     "Gviz",
@@ -1176,10 +1165,7 @@
   ],
   "omXplore": [],
   "oppar": [],
-  "pRoloc": [],
-  "pRolocGUI": [
-    "pRoloc"
-  ],
+  "pRolocGUI": [],
   "pageRank": [
     "motifmatchr",
     "TFBSTools"
@@ -1190,7 +1176,6 @@
     "goseq",
     "txdbmaker"
   ],
-  "peakPantheR": [],
   "peco": [],
   "periodicDNA": [],
   "pipeComp": [],
@@ -1373,7 +1358,6 @@
   "svaRetro": [
     "StructuralVariantAnnotation"
   ],
-  "synapter": [],
   "tRNAscanImport": [],
   "tadar": [
     "Gviz",
@@ -1427,6 +1411,5 @@
   "yarn": [
     "quantro",
     "minfi"
-  ],
-  "zenith": []
+  ]
 }

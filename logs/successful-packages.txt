@@ -1810,3 +1810,10 @@ qPLEXanalyzer
 RMassBank
 scClassify
 Voyager
+DAPAR
+epigraHMM
+HelloRanges
+peakPantheR
+pRoloc
+synapter
+zenith
