@@ -69,6 +69,8 @@ Harshlight
 PICS
 PhenStat
 RbowtieCuda
+Repitools
+XNAString
 amplican
 cisPath
 debCAM
@@ -80,6 +82,7 @@ seq.hotSPOT
 seqLogo
 seqTools
 seqcombo
+signeR
 sizepower
 snm
 sparseMatrixStats

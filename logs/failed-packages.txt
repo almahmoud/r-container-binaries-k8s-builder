@@ -12,3 +12,6 @@ trigger
 AneuFinder
 PICS
 CNEr
+Repitools
+signeR
+XNAString
