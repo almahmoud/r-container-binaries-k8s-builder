@@ -1002,7 +1002,6 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "BiocPkgTools": [],
   "BiocSet": [
     "AnnotationDbi",
     "KEGGREST",
@@ -9883,9 +9882,7 @@
     "XVector",
     "Biostrings"
   ],
-  "TPP": [
-    "biobroom"
-  ],
+  "TPP": [],
   "TREG": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -10663,7 +10660,6 @@
     "XVector"
   ],
   "alabaster": [
-    "alabaster.base",
     "alabaster.matrix",
     "alabaster.ranges",
     "alabaster.se",
@@ -10697,14 +10693,11 @@
     "KEGGREST",
     "GenomicAlignments"
   ],
-  "alabaster.base": [],
   "alabaster.bumpy": [
     "BumpyMatrix",
-    "alabaster.base",
     "IRanges"
   ],
   "alabaster.files": [
-    "alabaster.base",
     "Rsamtools",
     "GenomeInfoDb",
     "GenomicRanges",
@@ -10714,7 +10707,6 @@
   ],
   "alabaster.mae": [
     "MultiAssayExperiment",
-    "alabaster.base",
     "alabaster.se",
     "SummarizedExperiment",
     "alabaster.ranges",
@@ -10730,7 +10722,6 @@
     "h5mread"
   ],
   "alabaster.matrix": [
-    "alabaster.base",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -10741,14 +10732,12 @@
   ],
   "alabaster.ranges": [
     "GenomicRanges",
-    "alabaster.base",
     "IRanges",
     "GenomeInfoDb",
     "XVector"
   ],
   "alabaster.sce": [
     "SingleCellExperiment",
-    "alabaster.base",
     "alabaster.se",
     "SummarizedExperiment",
     "alabaster.ranges",
@@ -10765,7 +10754,6 @@
   ],
   "alabaster.se": [
     "SummarizedExperiment",
-    "alabaster.base",
     "alabaster.ranges",
     "alabaster.matrix",
     "IRanges",
@@ -10780,7 +10768,6 @@
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
-    "alabaster.base",
     "alabaster.sce",
     "alabaster.spatial",
     "SingleCellExperiment",
@@ -10805,7 +10792,6 @@
   ],
   "alabaster.spatial": [
     "SpatialExperiment",
-    "alabaster.base",
     "alabaster.sce",
     "SingleCellExperiment",
     "alabaster.se",
@@ -10824,13 +10810,11 @@
   ],
   "alabaster.string": [
     "Biostrings",
-    "alabaster.base",
     "IRanges",
     "XVector",
     "GenomeInfoDb"
   ],
   "alabaster.vcf": [
-    "alabaster.base",
     "VariantAnnotation",
     "alabaster.se",
     "alabaster.string",
@@ -11417,7 +11401,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "biobroom": [],
   "biocGraph": [
     "geneplotter",
     "annotate",
@@ -12084,7 +12067,6 @@
     "SingleCellExperiment",
     "chevreulProcess",
     "chevreulPlot",
-    "alabaster.base",
     "ComplexHeatmap",
     "wiggleplotr",
     "scater",
@@ -13976,7 +13958,6 @@
     "alabaster.matrix",
     "S4Arrays",
     "BiocSingular",
-    "alabaster.base",
     "KEGGREST",
     "ScaledMatrix",
     "rtracklayer",
@@ -20807,7 +20788,6 @@
     "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
-    "alabaster.base",
     "alabaster.matrix",
     "alabaster.se",
     "IRanges",

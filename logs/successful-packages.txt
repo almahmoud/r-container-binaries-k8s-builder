@@ -725,3 +725,6 @@ Streamer
 gDRstyle
 KEGGgraph
 trio
+alabaster.base
+biobroom
+BiocPkgTools

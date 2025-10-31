@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 727 (31%)
+- **Successfully Built:** 730 (31%)
 - **Failed:** 6 (0%)
 - **In Progress:** 20
-- **Not Started:** 1557
+- **Not Started:** 1554
 
 **Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (727)
+## Successfully Built Packages (730)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 677 more ...*
+*... and 680 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,27 +89,27 @@
 
 ## In Progress (20)
 - ⏳ `BiGGR`
-- ⏳ `BiocPkgTools`
 - ⏳ `IRanges`
 - ⏳ `MEIGOR`
 - ⏳ `MMUPHin`
+- ⏳ `NCIgraph`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `SIMAT`
+- ⏳ `SPIA`
 - ⏳ `TargetDecoy`
-- ⏳ `alabaster.base`
-- ⏳ `biobroom`
 - ⏳ `bluster`
 - ⏳ `epiNEM`
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
+- ⏳ `lpNet`
 - ⏳ `monocle`
 - ⏳ `msPurity`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1557)
+## Not Yet Started (1554)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -161,8 +161,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1507 more ...
+... and 1504 more ...
 
 ---
-*Last updated: 2025-10-31 00:49:18 UTC*
+*Last updated: 2025-10-31 00:49:52 UTC*
 *Packages with verified BBS status: 104*
