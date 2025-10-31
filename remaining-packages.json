@@ -171,7 +171,6 @@
     "rtracklayer",
     "txdbmaker"
   ],
-  "BgeeDB": [],
   "BiGGR": [],
   "BiSeq": [
     "rtracklayer"
@@ -397,7 +396,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "ChIPseqR": [],
   "ChIPsim": [],
   "ChromHeatMap": [
     "rtracklayer"
@@ -1372,7 +1370,6 @@
     "HTSFilter"
   ],
   "RITAN": [
-    "BgeeDB",
     "GenomicFeatures",
     "ensembldb",
     "rtracklayer"
@@ -1623,7 +1620,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "SPOTlight": [],
   "SVP": [],
   "SemDist": [],
   "SeqGSEA": [],
@@ -2778,7 +2774,6 @@
   "groHMM": [
     "rtracklayer"
   ],
-  "gsean": [],
   "gwascat": [
     "GenomicFeatures",
     "VariantAnnotation",
@@ -2791,7 +2786,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "hermes": [],
   "hiAnnotator": [
     "rtracklayer",
     "BSgenome"
@@ -3319,7 +3313,6 @@
     "GSEABase",
     "GSVA"
   ],
-  "orthos": [],
   "pRoloc": [
     "MSnbase",
     "MLInterfaces",

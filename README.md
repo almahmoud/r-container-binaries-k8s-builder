@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1416 (61%)
+- **Successfully Built:** 1422 (61%)
 - **Failed:** 9 (0%)
-- **In Progress:** 164
-- **Not Started:** 721
+- **In Progress:** 192
+- **Not Started:** 687
 
 **Progress:** 61%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1416)
+## Successfully Built Packages (1422)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1366 more ...*
+*... and 1372 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (164)
+## In Progress (192)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -99,13 +99,16 @@
 - ⏳ `AneuFinder`
 - ⏳ `BUSseq`
 - ⏳ `BaalChIP`
+- ⏳ `Banksy`
 - ⏳ `BasicSTARRseq`
-- ⏳ `BgeeDB`
 - ⏳ `BiocHubsShiny`
+- ⏳ `BulkSignalR`
+- ⏳ `CARDspa`
 - ⏳ `CDI`
+- ⏳ `CTSV`
+- ⏳ `CatsCradle`
 - ⏳ `CellBarcode`
 - ⏳ `CellTrails`
-- ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CuratedAtlasQueryR`
@@ -116,6 +119,7 @@
 - ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
+- ⏳ `ExperimentSubset`
 - ⏳ `FastqCleaner`
 - ⏳ `GSEABase`
 - ⏳ `GeneMeta`
@@ -134,17 +138,13 @@
 - ⏳ `MDTS`
 - ⏳ `MLInterfaces`
 - ⏳ `MetaNeighbor`
+- ⏳ `MoleculeExperiment`
 - ⏳ `MsQuality`
 - ⏳ `MuData`
-- ⏳ `MultiBaC`
-- ⏳ `NBAMSeq`
-- ⏳ `Nebulosa`
-- ⏳ `NewWave`
-- ⏳ `OTUbase`
 
-... and 114 more ...
+... and 142 more ...
 
-## Not Yet Started (721)
+## Not Yet Started (687)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -168,7 +168,6 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
@@ -181,12 +180,10 @@
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BubbleTree`
-- ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CARDspa`
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
@@ -195,9 +192,12 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
+- ⏸️ `CRISPRball`
 
-... and 671 more ...
+... and 637 more ...
 
 ---
-*Last updated: 2025-10-31 05:35:48 UTC*
+*Last updated: 2025-10-31 05:38:40 UTC*
 *Packages with verified BBS status: 131*

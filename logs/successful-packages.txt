@@ -1414,3 +1414,9 @@ scAnnotatR
 SCArray
 sesame
 SpatialExperiment
+BgeeDB
+ChIPseqR
+gsean
+hermes
+orthos
+SPOTlight
