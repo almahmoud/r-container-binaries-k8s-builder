@@ -1,10 +1,2 @@
-BUSpaRse
-CleanUpRNAseq
-GRaNIE
-RAIDS
-RITAN
-biovizBase
-chevreulProcess
-demuxSNP
-diffUTR
-drugTargetInteractions
+methInheritSim
+methylInheritance

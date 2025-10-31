@@ -2017,3 +2017,5 @@ chevreulProcess
 demuxSNP
 diffUTR
 drugTargetInteractions
+methInheritSim
+methylInheritance

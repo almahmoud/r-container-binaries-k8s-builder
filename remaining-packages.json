@@ -401,7 +401,6 @@
   "Moonlight2R": [
     "EpiMix"
   ],
-  "MotifPeeker": [],
   "MungeSumstats": [],
   "MutationalPatterns": [],
   "NADfinder": [
@@ -809,7 +808,6 @@
   "cosmiq": [
     "xcms"
   ],
-  "cpvSNP": [],
   "crisprBowtie": [],
   "crisprBwa": [],
   "crisprDesign": [
@@ -865,7 +863,6 @@
     "celda"
   ],
   "deconvR": [
-    "methylKit",
     "minfi"
   ],
   "deepSNV": [],
@@ -1084,9 +1081,7 @@
     "txdbmaker",
     "bsseq"
   ],
-  "methInheritSim": [
-    "methylKit"
-  ],
+  "methInheritSim": [],
   "methodical": [
     "annotatr",
     "regioneR"
@@ -1101,10 +1096,7 @@
     "minfi",
     "methylumi"
   ],
-  "methylInheritance": [
-    "methylKit"
-  ],
-  "methylKit": [],
+  "methylInheritance": [],
   "methylPipe": [
     "Gviz",
     "biovizBase"

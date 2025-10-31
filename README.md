@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1781 (77%)
+- **Successfully Built:** 1784 (77%)
 - **Failed:** 13 (0%)
-- **In Progress:** 215
-- **Not Started:** 301
+- **In Progress:** 222
+- **Not Started:** 291
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1781)
+## Successfully Built Packages (1784)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1731 more ...*
+*... and 1734 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,10 +94,11 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (215)
+## In Progress (222)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BBCAnalyzer`
+- ⏳ `BUSpaRse`
 - ⏳ `BadRegionFinder`
 - ⏳ `BatchQC`
 - ⏳ `BayesSpace`
@@ -114,6 +115,7 @@
 - ⏳ `ChIPseeker`
 - ⏳ `ChromSCape`
 - ⏳ `CiteFuse`
+- ⏳ `CleanUpRNAseq`
 - ⏳ `CluMSID`
 - ⏳ `Cogito`
 - ⏳ `DAMEfinder`
@@ -130,6 +132,7 @@
 - ⏳ `FindIT2`
 - ⏳ `GA4GHclient`
 - ⏳ `GOstats`
+- ⏳ `GRaNIE`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GenVisR`
 - ⏳ `GenomicFiles`
@@ -142,13 +145,10 @@
 - ⏳ `M3Drop`
 - ⏳ `MADSEQ`
 - ⏳ `MEB`
-- ⏳ `MOSim`
-- ⏳ `MPAC`
-- ⏳ `MSstatsQC`
 
-... and 165 more ...
+... and 172 more ...
 
-## Not Yet Started (301)
+## Not Yet Started (291)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -158,7 +158,6 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BUSpaRse`
 - ⏸️ `BgeeCall`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
@@ -174,7 +173,6 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
-- ⏸️ `CleanUpRNAseq`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
@@ -197,11 +195,13 @@
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
-- ⏸️ `GRaNIE`
 - ⏸️ `GSReg`
+- ⏸️ `GUIDEseq`
+- ⏸️ `GeDi`
+- ⏸️ `GeneStructureTools`
 
-... and 251 more ...
+... and 241 more ...
 
 ---
-*Last updated: 2025-10-31 07:40:45 UTC*
+*Last updated: 2025-10-31 07:42:04 UTC*
 *Packages with verified BBS status: 149*

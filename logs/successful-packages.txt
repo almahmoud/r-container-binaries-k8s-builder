@@ -1779,3 +1779,6 @@ bambu
 ensembldb
 Motif2Site
 scPipe
+cpvSNP
+methylKit
+MotifPeeker
