@@ -1871,3 +1871,6 @@ DAMEfinder
 minfi
 signifinder
 derfinder
+GOstats
+Prostar
+VarCon

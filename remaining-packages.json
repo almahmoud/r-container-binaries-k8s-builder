@@ -22,7 +22,6 @@
   ],
   "AgiMicroRna": [
     "affycoretools",
-    "GOstats",
     "ReportingTools",
     "ggbio",
     "biovizBase",
@@ -223,7 +222,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOstats": [],
   "GRaNIE": [],
   "GSReg": [
     "OrganismDbi",
@@ -265,9 +263,7 @@
     "genomation",
     "txdbmaker"
   ],
-  "GmicR": [
-    "GOstats"
-  ],
+  "GmicR": [],
   "Guitar": [],
   "Gviz": [
     "biovizBase"
@@ -352,7 +348,6 @@
   ],
   "MethylAid": [],
   "MineICA": [
-    "GOstats",
     "lumi",
     "methylumi"
   ],
@@ -402,7 +397,6 @@
   "PRONE": [],
   "PhenStat": [],
   "Pigengene": [],
-  "Prostar": [],
   "Pviz": [
     "Gviz",
     "biovizBase"
@@ -468,7 +462,6 @@
   ],
   "Repitools": [],
   "ReportingTools": [
-    "GOstats",
     "ggbio",
     "biovizBase",
     "OrganismDbi",
@@ -505,9 +498,7 @@
     "biovizBase"
   ],
   "SCOPE": [],
-  "SGCP": [
-    "GOstats"
-  ],
+  "SGCP": [],
   "SGSeq": [],
   "SMITE": [
     "goseq",
@@ -558,7 +549,6 @@
   ],
   "VAExprs": [],
   "VanillaICE": [],
-  "VarCon": [],
   "VariantFiltering": [
     "Gviz",
     "biovizBase"
@@ -572,7 +562,6 @@
     "txdbmaker"
   ],
   "affycoretools": [
-    "GOstats",
     "ReportingTools",
     "ggbio",
     "biovizBase",
@@ -598,9 +587,7 @@
     "motifStack",
     "TFBSTools"
   ],
-  "attract": [
-    "GOstats"
-  ],
+  "attract": [],
   "bandle": [],
   "benchdamic": [],
   "bigmelon": [
@@ -647,9 +634,7 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "categoryCompare": [
-    "GOstats"
-  ],
+  "categoryCompare": [],
   "cbaf": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -898,7 +883,6 @@
   "ideal": [
     "mosdef",
     "goseq",
-    "GOstats",
     "txdbmaker"
   ],
   "imcRtools": [],
@@ -976,9 +960,7 @@
     "txdbmaker"
   ],
   "methylumi": [],
-  "miRLAB": [
-    "GOstats"
-  ],
+  "miRLAB": [],
   "miRSM": [],
   "miRspongeR": [],
   "mia": [],
@@ -1054,7 +1036,6 @@
   ],
   "pcaExplorer": [
     "mosdef",
-    "GOstats",
     "goseq",
     "txdbmaker"
   ],
@@ -1129,9 +1110,7 @@
   "scMerge": [
     "M3Drop"
   ],
-  "scTensor": [
-    "GOstats"
-  ],
+  "scTensor": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData",

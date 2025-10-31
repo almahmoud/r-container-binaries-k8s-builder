@@ -2056,3 +2056,9 @@ shinyMethyl
 shinyepico
 recount
 regionReport
+GmicR
+SGCP
+attract
+categoryCompare
+miRLAB
+scTensor
