@@ -750,3 +750,4 @@ InteractiveComplexHeatmap
 cola
 markeR
 simona
+DEGraph

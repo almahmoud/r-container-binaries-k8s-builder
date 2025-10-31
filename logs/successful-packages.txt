@@ -730,3 +730,5 @@ ComplexHeatmap
 qcmetrics
 XVector
 TargetDecoy
+MEIGOR
+NCIgraph

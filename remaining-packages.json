@@ -2106,9 +2106,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "DEGraph": [
-    "NCIgraph"
-  ],
+  "DEGraph": [],
   "DEGreport": [
     "DESeq2",
     "SummarizedExperiment",
@@ -4829,7 +4827,6 @@
     "Biostrings",
     "Seqinfo"
   ],
-  "MEIGOR": [],
   "MGFM": [
     "AnnotationDbi",
     "annotate",
@@ -5726,7 +5723,6 @@
     "SparseArray",
     "Biostrings"
   ],
-  "NCIgraph": [],
   "NanoMethViz": [
     "SummarizedExperiment",
     "BiocSingular",
