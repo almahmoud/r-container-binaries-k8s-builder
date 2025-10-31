@@ -170,7 +170,6 @@
   "SPLINTER": [
     "Gviz"
   ],
-  "SingleMoleculeFootprinting": [],
   "SomaticSignatures": [
     "ggbio"
   ],
@@ -345,7 +344,6 @@
   "primirTSS": [
     "Gviz"
   ],
-  "profileplyr": [],
   "rGADEM": [],
   "regutools": [
     "Gviz"
@@ -355,7 +353,6 @@
     "ASpli",
     "Gviz"
   ],
-  "scFeatures": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData"

@@ -2139,3 +2139,6 @@ shinyMethyl
 standR
 terraTCGAdata
 methylumi
+profileplyr
+scFeatures
+SingleMoleculeFootprinting

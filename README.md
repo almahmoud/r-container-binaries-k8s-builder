@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2141 (92%)
+- **Successfully Built:** 2144 (92%)
 - **Failed:** 21 (0%)
 - **In Progress:** 50
-- **Not Started:** 98
+- **Not Started:** 95
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2141)
+## Successfully Built Packages (2144)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2091 more ...*
+*... and 2094 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -119,9 +119,9 @@
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rhisat2`
 - ⏳ `RiboCrypt`
+- ⏳ `RnBeads`
 - ⏳ `Rqc`
 - ⏳ `SMITE`
-- ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFHAZ`
 - ⏳ `Ularcirc`
 - ⏳ `appreci8R`
@@ -139,12 +139,12 @@
 - ⏳ `iSEEtree`
 - ⏳ `iSEEu`
 - ⏳ `karyoploteR`
+- ⏳ `lumi`
+- ⏳ `missMethyl`
 - ⏳ `mosdef`
 - ⏳ `netSmooth`
 - ⏳ `octad`
-- ⏳ `profileplyr`
 - ⏳ `rgsepd`
-- ⏳ `scFeatures`
 - ⏳ `scone`
 - ⏳ `segmenter`
 - ⏳ `seqArchRplus`
@@ -154,7 +154,7 @@
 - ⏳ `vulcan`
 - ⏳ `yarn`
 
-## Not Yet Started (98)
+## Not Yet Started (95)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -194,7 +194,6 @@
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
-- ⏸️ `RnBeads`
 - ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
 - ⏸️ `TVTB`
@@ -205,9 +204,10 @@
 - ⏸️ `bigmelon`
 - ⏸️ `bioCancer`
 - ⏸️ `biomvRCNS`
+- ⏸️ `cBioPortalData`
 
-... and 48 more ...
+... and 45 more ...
 
 ---
-*Last updated: 2025-10-31 10:41:38 UTC*
+*Last updated: 2025-10-31 10:42:33 UTC*
 *Packages with verified BBS status: 163*
