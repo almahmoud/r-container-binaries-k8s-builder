@@ -658,3 +658,14 @@ Doscheda
 piano
 pvca
 ribor
+BioMVCClass
+CellNOptR
+CTDquerier
+GEOsubmission
+GSEAlm
+HTqPCR
+islify
+metagenomeSeq
+MsCoreUtils
+progeny
+RcwlPipelines

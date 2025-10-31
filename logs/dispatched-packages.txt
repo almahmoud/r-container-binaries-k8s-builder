@@ -711,3 +711,11 @@ islify
 BiocCheck
 BiocPkgTools
 monocle
+CNORdt
+CNORfeeder
+CNORfuzzy
+CNORode
+MetaboCoreUtils
+ReUseData
+mbQTL
+nondetects

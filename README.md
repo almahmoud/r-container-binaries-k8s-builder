@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 660 (29%)
+- **Successfully Built:** 671 (29%)
 - **Failed:** 1 (0%)
-- **In Progress:** 49
-- **Not Started:** 1534
+- **In Progress:** 41
+- **Not Started:** 1531
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (660)
+## Successfully Built Packages (671)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 610 more ...*
+*... and 621 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,27 +82,21 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (49)
-- ⏳ `BioMVCClass`
-- ⏳ `CTDquerier`
+## In Progress (41)
+- ⏳ `BiocCheck`
+- ⏳ `BiocPkgTools`
 - ⏳ `CardinalIO`
-- ⏳ `CellNOptR`
 - ⏳ `ExiMiR`
-- ⏳ `GEOsubmission`
-- ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
-- ⏳ `HTqPCR`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
 - ⏳ `MOGAMUN`
 - ⏳ `MSstatsBioNet`
-- ⏳ `MsCoreUtils`
 - ⏳ `NanoTube`
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `RTopper`
-- ⏳ `RcwlPipelines`
 - ⏳ `SRAdb`
 - ⏳ `Streamer`
 - ⏳ `TMixClust`
@@ -120,11 +114,9 @@
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `islify`
-- ⏳ `metagenomeSeq`
 - ⏳ `mnem`
+- ⏳ `monocle`
 - ⏳ `mzR`
-- ⏳ `progeny`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
@@ -133,7 +125,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1534)
+## Not Yet Started (1531)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -185,8 +177,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1484 more ...
+... and 1481 more ...
 
 ---
-*Last updated: 2025-10-31 22:48:01 UTC*
+*Last updated: 2025-10-31 22:49:02 UTC*
 *Packages with verified BBS status: 101*
