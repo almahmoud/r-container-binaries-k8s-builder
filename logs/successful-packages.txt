@@ -1727,3 +1727,10 @@ Basic4Cseq
 CODEX
 SPIAT
 SplineDV
+bedbaser
+BioCor
+ChIPComp
+iSEEpathways
+rTRMui
+SpatialExperimentIO
+VaSP

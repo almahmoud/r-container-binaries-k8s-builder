@@ -79,7 +79,6 @@
   ],
   "BiGGR": [],
   "BindingSiteFinder": [],
-  "BioCor": [],
   "BioTIP": [],
   "BubbleTree": [
     "biovizBase",
@@ -168,7 +167,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ChIPComp": [],
   "ChIPQC": [
     "DiffBind",
     "GreyListChIP"
@@ -824,7 +822,6 @@
   "SpaNorm": [],
   "Spaniel": [],
   "SparseSignatures": [],
-  "SpatialExperimentIO": [],
   "SpatialFeatureExperiment": [],
   "SpliceWiz": [],
   "SplicingGraphs": [],
@@ -876,7 +873,6 @@
     "VariantAnnotation",
     "GenomicFiles"
   ],
-  "VaSP": [],
   "VanillaICE": [],
   "VarCon": [],
   "VariantAnnotation": [],
@@ -957,7 +953,6 @@
     "pRoloc"
   ],
   "batchelor": [],
-  "bedbaser": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -1393,7 +1388,6 @@
   "iSEEhex": [],
   "iSEEhub": [],
   "iSEEindex": [],
-  "iSEEpathways": [],
   "iSEEtree": [
     "miaViz",
     "mia"
@@ -1734,7 +1728,6 @@
   "rCGH": [],
   "rGADEM": [],
   "rGREAT": [],
-  "rTRMui": [],
   "raer": [],
   "recount": [
     "derfinder",

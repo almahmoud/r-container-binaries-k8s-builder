@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1729 (74%)
+- **Successfully Built:** 1736 (75%)
 - **Failed:** 13 (0%)
-- **In Progress:** 176
-- **Not Started:** 392
+- **In Progress:** 170
+- **Not Started:** 391
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1729)
+## Successfully Built Packages (1736)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1679 more ...*
+*... and 1686 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,13 +94,12 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (176)
+## In Progress (170)
 - ⏳ `BASiCS`
 - ⏳ `BSgenomeForge`
 - ⏳ `BatchQC`
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
-- ⏳ `BioCor`
 - ⏳ `BioTIP`
 - ⏳ `CATALYST`
 - ⏳ `CNEr`
@@ -110,7 +109,6 @@
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `Cepo`
-- ⏳ `ChIPComp`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `CiteFuse`
@@ -145,10 +143,12 @@
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
 - ⏳ `Pigengene`
+- ⏳ `RFLOMICS`
+- ⏳ `RcisTarget`
 
-... and 126 more ...
+... and 120 more ...
 
-## Not Yet Started (392)
+## Not Yet Started (391)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -200,8 +200,8 @@
 - ⏸️ `EGSEA`
 - ⏸️ `ELMER`
 
-... and 342 more ...
+... and 341 more ...
 
 ---
-*Last updated: 2025-10-31 07:20:19 UTC*
+*Last updated: 2025-10-31 07:21:47 UTC*
 *Packages with verified BBS status: 147*
