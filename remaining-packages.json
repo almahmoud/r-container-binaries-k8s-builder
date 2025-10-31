@@ -9493,7 +9493,6 @@
     "ComplexHeatmap",
     "XVector"
   ],
-  "Streamer": [],
   "Structstrings": [
     "IRanges",
     "Biostrings",
