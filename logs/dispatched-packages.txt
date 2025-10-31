@@ -708,3 +708,6 @@ Doscheda
 pvca
 RcwlPipelines
 islify
+BiocCheck
+BiocPkgTools
+monocle

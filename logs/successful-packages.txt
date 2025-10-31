@@ -652,3 +652,9 @@ RVS
 subSeq
 TRONCO
 UCSC.utils
+BiocIO
+biocViews
+Doscheda
+piano
+pvca
+ribor
