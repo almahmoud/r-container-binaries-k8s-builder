@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2233 (96%)
+- **Successfully Built:** 2235 (96%)
 - **Failed:** 23 (0%)
 - **In Progress:** 38
-- **Not Started:** 16
+- **Not Started:** 14
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2233)
+## Successfully Built Packages (2235)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2183 more ...*
+*... and 2185 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,7 +105,8 @@
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
 ## In Progress (38)
-- ⏳ `CAGEfightR`
+- ⏳ `CNVfilteR`
+- ⏳ `CNViz`
 - ⏳ `Damsel`
 - ⏳ `FLAMES`
 - ⏳ `GeneTonic`
@@ -114,7 +115,6 @@
 - ⏳ `NADfinder`
 - ⏳ `R3CPET`
 - ⏳ `RNAmodR.ML`
-- ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `ReportingTools`
 - ⏳ `RnBeads`
 - ⏳ `SomaticSignatures`
@@ -144,11 +144,9 @@
 - ⏳ `uncoverappLib`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (16)
+## Not Yet Started (14)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
-- ⏸️ `CNVfilteR`
-- ⏸️ `CNViz`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
 - ⏸️ `GeDi`
@@ -163,5 +161,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:37:41 UTC*
+*Last updated: 2025-10-31 11:38:33 UTC*
 *Packages with verified BBS status: 168*

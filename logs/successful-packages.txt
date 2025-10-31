@@ -2231,3 +2231,5 @@ singleCellTK
 CopyNumberPlots
 RiboProfiling
 RNAmodR.AlkAnilineSeq
+CAGEfightR
+RNAmodR.RiboMethSeq

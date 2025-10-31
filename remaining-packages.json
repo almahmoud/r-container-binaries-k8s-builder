@@ -5,10 +5,7 @@
   ],
   "AneuFinder": [],
   "BiGGR": [],
-  "CAGEfightR": [],
-  "CAGEr": [
-    "CAGEfightR"
-  ],
+  "CAGEr": [],
   "CNEr": [],
   "CNVfilteR": [],
   "CNViz": [],
@@ -48,7 +45,6 @@
   "R3CPET": [],
   "RITAN": [],
   "RNAmodR.ML": [],
-  "RNAmodR.RiboMethSeq": [],
   "RbowtieCuda": [],
   "Repitools": [],
   "ReportingTools": [],
