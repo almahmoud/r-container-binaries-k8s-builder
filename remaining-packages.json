@@ -9606,9 +9606,7 @@
     "GenomicAlignments",
     "biomaRt"
   ],
-  "scanMiR": [],
   "scanMiRApp": [
-    "scanMiR",
     "AnnotationDbi",
     "AnnotationHub",
     "ensembldb",

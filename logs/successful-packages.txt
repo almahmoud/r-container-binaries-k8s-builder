@@ -888,3 +888,4 @@ QSutils
 sangerseqR
 SynMut
 TFARM
+scanMiR

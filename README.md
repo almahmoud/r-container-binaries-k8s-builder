@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 890 (38%)
+- **Successfully Built:** 891 (38%)
 - **Failed:** 7 (0%)
-- **In Progress:** 68
-- **Not Started:** 1345
+- **In Progress:** 69
+- **Not Started:** 1343
 
 **Progress:** 38%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (890)
+## Successfully Built Packages (891)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 840 more ...*
+*... and 841 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (68)
+## In Progress (69)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CINdex`
@@ -140,9 +140,9 @@
 - ⏳ `h5mread`
 - ⏳ `heatmaps`
 
-... and 18 more ...
+... and 19 more ...
 
-## Not Yet Started (1345)
+## Not Yet Started (1343)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1295 more ...
+... and 1293 more ...
 
 ---
-*Last updated: 2025-10-31 03:30:38 UTC*
+*Last updated: 2025-10-31 03:31:24 UTC*
 *Packages with verified BBS status: 111*
