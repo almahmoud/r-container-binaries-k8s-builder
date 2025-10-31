@@ -710,3 +710,15 @@ sevenbridges
 twoddpcr
 updateObject
 vsn
+BioMVCClass
+GeneNetworkBuilder
+KCsmart
+KEGGgraph
+OncoSimulR
+TRONCO
+a4Classif
+hyperdraw
+mnem
+netresponse
+paircompviz
+trio

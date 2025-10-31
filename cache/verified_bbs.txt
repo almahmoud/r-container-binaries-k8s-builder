@@ -1,6 +1,7 @@
 ABSSeq
 ABarray
 ACME
+AIMS
 AMOUNTAIN
 ANCOMBC
 ANF
@@ -85,6 +86,7 @@ tripr
 ttgsea
 tweeDEseq
 twilight
+twoddpcr
 tximport
 unifiedWMWqPCR
 vbmp
