@@ -62,8 +62,6 @@
   "crisprVerse": [],
   "cytofQC": [],
   "debCAM": [],
-  "derfinderPlot": [],
-  "epimutacions": [],
   "epivizrStandalone": [],
   "ffpe": [],
   "genoCN": [],
@@ -78,12 +76,9 @@
   "miRSM": [],
   "miRspongeR": [],
   "missMethyl": [],
-  "msgbsR": [],
   "multicrispr": [],
   "rGADEM": [],
-  "saseR": [],
   "scTreeViz": [],
-  "scruff": [],
   "signeR": [],
   "skewr": [
     "wateRmelon"

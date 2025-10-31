@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2245 (97%)
+- **Successfully Built:** 2250 (97%)
 - **Failed:** 23 (0%)
-- **In Progress:** 30
+- **In Progress:** 25
 - **Not Started:** 12
 
 **Progress:** 98%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2245)
+## Successfully Built Packages (2250)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2195 more ...*
+*... and 2200 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,7 +104,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (30)
+## In Progress (25)
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
 - ⏳ `CNViz`
@@ -120,19 +120,14 @@
 - ⏳ `compEpiTools`
 - ⏳ `crisprShiny`
 - ⏳ `crisprVerse`
-- ⏳ `derfinderPlot`
-- ⏳ `epimutacions`
 - ⏳ `epivizrStandalone`
 - ⏳ `ffpe`
 - ⏳ `geomeTriD`
 - ⏳ `iCheck`
 - ⏳ `iSEEfier`
 - ⏳ `missMethyl`
-- ⏳ `msgbsR`
 - ⏳ `multicrispr`
-- ⏳ `saseR`
 - ⏳ `scTreeViz`
-- ⏳ `scruff`
 - ⏳ `spatzie`
 - ⏳ `wateRmelon`
 
@@ -151,5 +146,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:44:26 UTC*
+*Last updated: 2025-10-31 11:45:37 UTC*
 *Packages with verified BBS status: 168*

@@ -2243,3 +2243,8 @@ intansv
 mCSEA
 motifbreakR
 R3CPET
+derfinderPlot
+epimutacions
+msgbsR
+saseR
+scruff
