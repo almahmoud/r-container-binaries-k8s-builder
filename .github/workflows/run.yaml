@@ -184,26 +184,14 @@ jobs:
             SUCCESSFUL=$(wc -l < logs/successful-packages.txt 2>/dev/null || echo 0)
             FAILED=$(wc -l < logs/failed-packages.txt 2>/dev/null || echo 0)
             REMAINING=$(python3 -c "import json; print(len(json.load(open('remaining-packages.json'))))" 2>/dev/null || echo 0)
-            CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc 2>/dev/null || echo 'unknown')
             
-            # Create notification message
-            MSG="🏁 *Build Cycle Ready to Finalize*\n\n"
-            MSG+="*Branch:* \`${GITHUB_REF#refs/heads/}\`\n"
-            MSG+="*Build ID:* \`${CONTAINER}\`\n\n"
-            MSG+="*Statistics:*\n"
-            MSG+="• Successful builds: ${SUCCESSFUL}\n"
-            MSG+="• Failed builds: ${FAILED}\n"
-            MSG+="• Blocked packages: ${REMAINING}\n\n"
-            MSG+="$(cat /tmp/cycle-check-output.txt)\n\n"
-            MSG+="🎯 *Action Required:* Run the 'Finish Build Cycle' workflow\n"
-            MSG+="<https://github.com/${{ github.repository }}/actions/workflows/finish_cycle.yaml|Finish Cycle Workflow>"
+            # Create simple single-line notification message (avoid quotes to prevent JSON escaping issues)
+            MSG="Build cycle ready: ${SUCCESSFUL} successful, ${FAILED} failed, ${REMAINING} blocked. Run finish_cycle: https://github.com/${{ github.repository }}/actions/workflows/finish_cycle.yaml"
             
-            # Export to environment
-            {
-              echo 'SLACK_MESSAGE<<EOF'
-              echo -e "${MSG}"
-              echo EOF
-            } >> "$GITHUB_ENV"
+            # Replace any double quotes with single quotes to avoid JSON issues
+            MSG="${MSG//\"/\'}"
+            
+            echo "SLACK_MESSAGE=${MSG}" >> "$GITHUB_ENV"
           else
             echo "notify=no" >> $GITHUB_OUTPUT
             cat /tmp/cycle-check-output.txt || true
@@ -215,8 +203,10 @@ jobs:
           method: chat.postMessage
           token: ${{ secrets.SLACK_BOT_TOKEN }}
           payload: |
-            channel: ${{ secrets.SLACK_CHANNEL_ID }}
-            text: ${{ env.SLACK_MESSAGE }}
+            {
+              "channel": "${{ secrets.SLACK_CHANNEL_ID }}",
+              "text": "${{ env.SLACK_MESSAGE }}"
+            }
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
