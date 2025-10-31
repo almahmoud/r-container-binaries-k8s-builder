@@ -2923,7 +2923,6 @@
     "GenomicAlignments",
     "GenomicFeatures"
   ],
-  "SimBu": [],
   "SingleCellAlleleExperiment": [
     "SingleCellExperiment"
   ],
@@ -5726,7 +5725,6 @@
     "GenomicAlignments",
     "ensembldb"
   ],
-  "multistateQTL": [],
   "mumosa": [
     "SingleCellExperiment",
     "scuttle",
@@ -6187,7 +6185,6 @@
   "rGenomeTracks": [
     "AnnotationHub"
   ],
-  "rScudo": [],
   "rTRM": [],
   "rTRMui": [
     "rTRM",
@@ -6206,7 +6203,6 @@
     "GenomicAlignments",
     "biomaRt"
   ],
-  "receptLoss": [],
   "recount": [
     "derfinder",
     "GEOquery",
@@ -6266,7 +6262,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "regsplice": [],
   "regutools": [
     "AnnotationHub",
     "Gviz",
@@ -6337,7 +6332,6 @@
     "GenomicAlignments"
   ],
   "runibic": [],
-  "sRACIPE": [],
   "sSNAPPY": [
     "graphite"
   ],

@@ -1043,3 +1043,9 @@ plyxp
 pmp
 ssPATHS
 struct
+multistateQTL
+receptLoss
+regsplice
+rScudo
+SimBu
+sRACIPE
