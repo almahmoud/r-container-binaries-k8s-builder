@@ -3884,7 +3884,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "PhyloProfile": [],
   "Pigengene": [
     "clusterProfiler",
     "ReactomePA",
@@ -8713,7 +8712,6 @@
     "annotate",
     "h5mread"
   ],
-  "loci2path": [],
   "lumi": [
     "methylumi",
     "GenomicFeatures",
@@ -9200,7 +9198,6 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "microRNA": [],
   "microSTASIS": [
     "TreeSummarizedExperiment",
     "SingleCellExperiment",
@@ -9544,7 +9541,6 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "muscle": [],
   "musicatk": [
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -9622,7 +9618,6 @@
   "netboost": [
     "AnnotationDbi"
   ],
-  "ngsReports": [],
   "nipalsMCIA": [
     "MultiAssayExperiment",
     "SummarizedExperiment",
@@ -9749,7 +9744,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "oncoscanR": [],
   "ontoProc": [
     "AnnotationHub",
     "SummarizedExperiment",

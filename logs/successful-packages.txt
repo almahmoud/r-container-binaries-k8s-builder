@@ -833,3 +833,9 @@ MSstatsPTM
 ncRNAtools
 Site2Target
 transite
+loci2path
+microRNA
+muscle
+ngsReports
+oncoscanR
+PhyloProfile
