@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1461 (63%)
+- **Successfully Built:** 1467 (63%)
 - **Failed:** 9 (0%)
-- **In Progress:** 163
+- **In Progress:** 157
 - **Not Started:** 677
 
 **Progress:** 63%
@@ -16,7 +16,7 @@
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1461)
+## Successfully Built Packages (1467)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1411 more ...*
+*... and 1417 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (163)
+## In Progress (157)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -112,7 +112,6 @@
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
 - ⏳ `ExperimentSubset`
-- ⏳ `FEAST`
 - ⏳ `GSEABase`
 - ⏳ `GeneMeta`
 - ⏳ `GeoTcgaData`
@@ -129,8 +128,6 @@
 - ⏳ `MDTS`
 - ⏳ `MLInterfaces`
 - ⏳ `MetaNeighbor`
-- ⏳ `MoleculeExperiment`
-- ⏳ `MsQuality`
 - ⏳ `MuData`
 - ⏳ `MultiBaC`
 - ⏳ `NBAMSeq`
@@ -141,8 +138,11 @@
 - ⏳ `PICS`
 - ⏳ `PSMatch`
 - ⏳ `PathoStat`
+- ⏳ `RCSL`
+- ⏳ `RUCova`
+- ⏳ `Rbec`
 
-... and 113 more ...
+... and 107 more ...
 
 ## Not Yet Started (677)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 627 more ...
 
 ---
-*Last updated: 2025-10-31 05:49:38 UTC*
+*Last updated: 2025-10-31 05:51:18 UTC*
 *Packages with verified BBS status: 131*

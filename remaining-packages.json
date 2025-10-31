@@ -640,7 +640,6 @@
     "txdbmaker"
   ],
   "ExperimentSubset": [],
-  "FEAST": [],
   "FLAMES": [
     "bambu",
     "DropletUtils",
@@ -1098,7 +1097,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "MoleculeExperiment": [],
   "Moonlight2R": [
     "rtracklayer",
     "EpiMix",
@@ -1115,7 +1113,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "MsQuality": [],
   "MuData": [],
   "MultiBaC": [],
   "MungeSumstats": [
@@ -2626,7 +2623,6 @@
     "rtracklayer",
     "bumphunter"
   ],
-  "findIPs": [],
   "fishpond": [],
   "flagme": [
     "xcms",
@@ -3231,7 +3227,6 @@
   "npGSEA": [
     "GSEABase"
   ],
-  "nucleR": [],
   "nullranges": [
     "plyranges",
     "rtracklayer"
@@ -3627,7 +3622,6 @@
   "scater": [
     "scuttle"
   ],
-  "scider": [],
   "scmeth": [
     "bsseq",
     "BSgenome",

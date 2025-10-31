@@ -1459,3 +1459,9 @@ oligo
 BiocHubsShiny
 HoloFoodR
 systemPipeR
+FEAST
+findIPs
+MoleculeExperiment
+MsQuality
+nucleR
+scider
