@@ -13722,7 +13722,6 @@
     "Biostrings",
     "cigarillo"
   ],
-  "markeR": [],
   "marr": [
     "SummarizedExperiment",
     "GenomicRanges",
