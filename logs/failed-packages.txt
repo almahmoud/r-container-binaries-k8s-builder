@@ -7,3 +7,5 @@ PhenStat
 BiGGR
 Harshlight
 debCAM
+amplican
+trigger

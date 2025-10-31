@@ -1,0 +1,145 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\'''\'', '\'''\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''amplican'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.21 (BiocManager 1.30.26), R 4.5.1 (2025-06-13)
+Installing package(s) 'amplican'
+Warning: dependency ‘waffle’ is not available
+also installing the dependencies ‘deldir’, ‘RcppEigen’, ‘formatR’, ‘abind’, ‘SparseArray’, ‘bitops’, ‘png’, ‘jpeg’, ‘RColorBrewer’, ‘interp’, ‘httr’, ‘lambda.r’, ‘futile.options’, ‘farver’, ‘labeling’, ‘viridisLite’, ‘MatrixGenerics’, ‘S4Arrays’, ‘DelayedArray’, ‘generics’, ‘XVector’, ‘Rsamtools’, ‘Biobase’, ‘hwriter’, ‘latticeExtra’, ‘Rhtslib’, ‘UCSC.utils’, ‘GenomeInfoDbData’, ‘futile.logger’, ‘snow’, ‘BH’, ‘isoband’, ‘S7’, ‘scales’, ‘tidyselect’, ‘bookdown’, ‘SummarizedExperiment’, ‘BiocGenerics’, ‘Biostrings’, ‘pwalign’, ‘data.table’, ‘S4Vectors’, ‘ShortRead’, ‘IRanges’, ‘GenomicRanges’, ‘GenomeInfoDb’, ‘BiocParallel’, ‘gtable’, ‘gridExtra’, ‘ggplot2’, ‘ggthemes’, ‘matrixStats’, ‘dplyr’, ‘BiocStyle’, ‘GenomicAlignments’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/deldir_2.0-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppEigen_0.3.4.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formatR_1.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/abind_1.4-8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/SparseArray_1.8.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bitops_1.0-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/png_0.1-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/jpeg_0.1-11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/interp_1.1-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httr_1.4.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lambda.r_1.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.options_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/farver_2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/labeling_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/viridisLite_0.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/MatrixGenerics_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/S4Arrays_1.8.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/DelayedArray_0.34.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/generics_0.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/XVector_0.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/Rsamtools_2.24.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/Biobase_2.68.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hwriter_1.3.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/latticeExtra_0.6-31.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/Rhtslib_3.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/UCSC.utils_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/data/annotation/src/contrib/GenomeInfoDbData_1.2.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.logger_1.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snow_0.4-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/BH_1.87.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/isoband_0.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/S7_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scales_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bookdown_0.45.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/SummarizedExperiment_1.38.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocGenerics_0.54.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/Biostrings_2.76.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/pwalign_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.table_1.17.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/S4Vectors_0.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/ShortRead_1.66.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/IRanges_2.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/GenomicRanges_1.60.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/GenomeInfoDb_1.44.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocParallel_1.42.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gtable_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gridExtra_2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggplot2_4.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggthemes_5.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/matrixStats_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dplyr_1.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocStyle_2.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/GenomicAlignments_1.44.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.21/bioc/src/contrib/amplican_1.30.0.tar.gz'
+* installing *binary* package ‘deldir’ ...
+* ‘deldir’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘deldir’ as ‘deldir_2.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deldir)
+* installing *binary* package ‘RcppEigen’ ...
+* ‘RcppEigen’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.4.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *binary* package ‘formatR’ ...
+* ‘formatR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *binary* package ‘abind’ ...
+* ‘abind’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *binary* package ‘bitops’ ...
+* ‘bitops’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *binary* package ‘png’ ...
+* ‘png’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (png)
+* installing *binary* package ‘jpeg’ ...
+* ‘jpeg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *binary* package ‘RColorBrewer’ ...
+* ‘RColorBrewer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *binary* package ‘httr’ ...
+* ‘httr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘httr’ as ‘httr_1.4.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httr)
+* installing *binary* package ‘futile.options’ ...
+* ‘futile.options’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *binary* package ‘farver’ ...
+* ‘farver’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* ‘labeling’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *binary* package ‘viridisLite’ ...
+* ‘viridisLite’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *binary* package ‘generics’ ...
+* ‘generics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘hwriter’ ...
+* ‘hwriter’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hwriter’ as ‘hwriter_1.3.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hwriter)

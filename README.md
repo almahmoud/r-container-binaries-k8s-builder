@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1508 (65%)
-- **Failed:** 9 (0%)
-- **In Progress:** 150
+- **Successfully Built:** 1628 (70%)
+- **Failed:** 11 (0%)
+- **In Progress:** 28
 - **Not Started:** 643
 
-**Progress:** 65%
+**Progress:** 70%
 ```
-████████████████████████████████░░░░░░░░░░░░░░░░░░
+███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1508)
+## Successfully Built Packages (1628)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -28,29 +28,28 @@
 | [ADAMgui](https://bioconductor.org/packages/3.21/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
 | [ADImpute](https://bioconductor.org/packages/3.21/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADImpute) |
+| [ADaCGH2](https://bioconductor.org/packages/3.21/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADaCGH2) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.21/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMARETTO) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.21/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANF) |
+| [APL](https://bioconductor.org/packages/3.21/bioc/html/APL.html) | [log](logs/APL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/APL) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.21/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.21/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.21/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
+| [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
-| [AffiXcan](https://bioconductor.org/packages/3.21/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffiXcan) |
-| [AffyRNADegradation](https://bioconductor.org/packages/3.21/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffyRNADegradation) |
-| [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 
-*... and 1458 more ...*
+*... and 1578 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [uSORT](https://bioconductor.org/packages/3.21/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.21/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.21/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/updateObject) |
@@ -73,10 +72,11 @@
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.21/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zellkonverter) |
+| [zinbwave](https://bioconductor.org/packages/3.21/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (9)
+## Failed Packages (11)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,65 +84,43 @@
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
+| [amplican](https://bioconductor.org/packages/3.21/bioc/html/amplican.html) | [log](logs/amplican/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/amplican) | Build failed with unknown error |
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [debCAM](https://bioconductor.org/packages/3.21/bioc/html/debCAM.html) | [log](logs/debCAM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/debCAM) | Build failed with unknown error |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
+| [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (150)
-- ⏳ `ADaCGH2`
-- ⏳ `APL`
-- ⏳ `ASSIGN`
+## In Progress (28)
 - ⏳ `AneuFinder`
-- ⏳ `BERT`
-- ⏳ `BioNERO`
-- ⏳ `ChIPXpress`
-- ⏳ `CuratedAtlasQueryR`
-- ⏳ `CytoPipelineGUI`
-- ⏳ `DExMA`
-- ⏳ `DifferentialRegulation`
-- ⏳ `DrugVsDisease`
-- ⏳ `EBSEA`
-- ⏳ `ERSSA`
-- ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
-- ⏳ `GEOexplorer`
 - ⏳ `GSEABase`
 - ⏳ `Glimma`
-- ⏳ `GloScope`
-- ⏳ `HIPPO`
 - ⏳ `HTSFilter`
-- ⏳ `HarmonizR`
 - ⏳ `HiCDOC`
-- ⏳ `HybridExpress`
-- ⏳ `ILoReg`
-- ⏳ `ITALICS`
-- ⏳ `KnowSeq`
-- ⏳ `LoomExperiment`
 - ⏳ `MAST`
-- ⏳ `MBECS`
-- ⏳ `MDTS`
-- ⏳ `MLInterfaces`
-- ⏳ `MSPrep`
-- ⏳ `MatrixQCvis`
-- ⏳ `MetaNeighbor`
 - ⏳ `MuData`
-- ⏳ `MultiBaC`
 - ⏳ `Nebulosa`
-- ⏳ `NewWave`
-- ⏳ `PAA`
-- ⏳ `PICB`
 - ⏳ `PICS`
-- ⏳ `POMA`
-- ⏳ `PROPS`
 - ⏳ `PSMatch`
 - ⏳ `PathoStat`
-- ⏳ `RCSL`
-- ⏳ `RUCova`
-
-... and 100 more ...
+- ⏳ `animalcules`
+- ⏳ `blima`
+- ⏳ `ccImpute`
+- ⏳ `crumblr`
+- ⏳ `destiny`
+- ⏳ `dittoSeq`
+- ⏳ `fishpond`
+- ⏳ `gDRimport`
+- ⏳ `iSEE`
+- ⏳ `pogos`
+- ⏳ `smoppix`
+- ⏳ `tenXplore`
+- ⏳ `tidySpatialExperiment`
+- ⏳ `tpSVG`
+- ⏳ `xenLite`
 
 ## Not Yet Started (643)
 - ⏸️ `AGDEX`
@@ -199,5 +177,5 @@
 ... and 593 more ...
 
 ---
-*Last updated: 2025-10-31 06:03:57 UTC*
-*Packages with verified BBS status: 135*
+*Last updated: 2025-10-31 06:43:02 UTC*
+*Packages with verified BBS status: 141*

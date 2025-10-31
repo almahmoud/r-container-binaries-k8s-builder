@@ -6,18 +6,21 @@ ADAM
 ADAMgui
 ADAPT
 ADImpute
+ADaCGH2
 AIMS
 ALDEx2
 AMARETTO
 AMOUNTAIN
 ANCOMBC
 ANF
+APL
 ARRmNormalization
 ASAFE
 ASEB
 ASGSCA
 ASICS
 ASSET
+ASSIGN
 ASURAT
 AWFisher
 AffiXcan
@@ -61,6 +64,7 @@ CausalR
 Harshlight
 PhenStat
 RbowtieCuda
+amplican
 cisPath
 debCAM
 genoCN
@@ -100,6 +104,7 @@ topconfects
 transite
 transomics2cytoscape
 treeio
+trigger
 trio
 triplex
 tripr
@@ -131,5 +136,6 @@ xmapbridge
 yamss
 zFPKM
 zellkonverter
+zinbwave
 zitools
 zlibbioc
