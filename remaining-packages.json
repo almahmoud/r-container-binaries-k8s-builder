@@ -190,7 +190,6 @@
     "txdbmaker"
   ],
   "DiffBind": [],
-  "DominoEffect": [],
   "DuplexDiscovereR": [
     "Gviz",
     "biovizBase"
@@ -366,7 +365,6 @@
     "qpgraph"
   ],
   "MOSim": [],
-  "MPAC": [],
   "MSnID": [
     "msmsTests",
     "msmsEDA"
@@ -1369,7 +1367,6 @@
     "minfi",
     "lumi"
   ],
-  "sparrow": [],
   "spatzie": [
     "GenomicInteractions",
     "motifmatchr",

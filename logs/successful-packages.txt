@@ -1785,3 +1785,6 @@ MotifPeeker
 Dino
 phenoTest
 SingleCellSignalR
+DominoEffect
+MPAC
+sparrow
