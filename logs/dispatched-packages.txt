@@ -987,3 +987,11 @@ phantasusLite
 rfPred
 ssviz
 tracktables
+ADAPT
+GeomxTools
+RCM
+RPA
+SIAMCAT
+microbiome
+microbiomeDASim
+reconsi

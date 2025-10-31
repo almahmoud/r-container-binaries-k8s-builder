@@ -902,3 +902,9 @@ Rsamtools
 SeqArray
 SigFuge
 SQLDataFrame
+CONFESS
+DelayedRandomArray
+NanoStringNCTools
+odseq
+phyloseq
+syntenet

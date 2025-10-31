@@ -11,9 +11,7 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "ADAPT": [
-    "phyloseq"
-  ],
+  "ADAPT": [],
   "ADImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -680,7 +678,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "CONFESS": [],
   "COTAN": [
     "BiocSingular",
     "SingleCellExperiment",
@@ -1320,11 +1317,9 @@
   ],
   "DelayedDataFrame": [],
   "DelayedMatrixStats": [],
-  "DelayedRandomArray": [],
   "DelayedTensor": [
     "HDF5Array",
     "BiocSingular",
-    "DelayedRandomArray",
     "ScaledMatrix",
     "beachmat",
     "h5mread"
@@ -2007,15 +2002,12 @@
     "SummarizedExperiment"
   ],
   "GeoDiff": [
-    "GeomxTools",
-    "NanoStringNCTools"
+    "GeomxTools"
   ],
   "GeoTcgaData": [
     "SummarizedExperiment"
   ],
-  "GeomxTools": [
-    "NanoStringNCTools"
-  ],
+  "GeomxTools": [],
   "Glimma": [
     "DESeq2",
     "SummarizedExperiment"
@@ -2412,7 +2404,6 @@
     "SummarizedExperiment"
   ],
   "MBECS": [
-    "phyloseq",
     "sva",
     "genefilter",
     "AnnotationDbi",
@@ -2954,7 +2945,6 @@
     "h5mread",
     "GenomicAlignments"
   ],
-  "NanoStringNCTools": [],
   "Nebulosa": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3204,7 +3194,6 @@
     "annotate"
   ],
   "PathoStat": [
-    "phyloseq",
     "DESeq2",
     "SummarizedExperiment"
   ],
@@ -3363,9 +3352,7 @@
     "biomaRt",
     "SummarizedExperiment"
   ],
-  "RCM": [
-    "phyloseq"
-  ],
+  "RCM": [],
   "RCSL": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3532,9 +3519,7 @@
   "ROCpAI": [
     "SummarizedExperiment"
   ],
-  "RPA": [
-    "phyloseq"
-  ],
+  "RPA": [],
   "RSVSim": [
     "ShortRead",
     "GenomicAlignments",
@@ -3899,9 +3884,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "SIAMCAT": [
-    "phyloseq"
-  ],
+  "SIAMCAT": [],
   "SICtools": [],
   "SIM": [
     "globaltest",
@@ -3974,7 +3957,6 @@
   ],
   "SPsimSeq": [
     "SingleCellExperiment",
-    "phyloseq",
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
@@ -4042,7 +4024,6 @@
     "GenomicFeatures"
   ],
   "SimBu": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "SimFFPE": [],
@@ -4131,8 +4112,7 @@
     "SummarizedExperiment"
   ],
   "SpatialDecon": [
-    "GeomxTools",
-    "NanoStringNCTools"
+    "GeomxTools"
   ],
   "SpatialExperiment": [
     "SingleCellExperiment",
@@ -4161,8 +4141,7 @@
     "h5mread"
   ],
   "SpatialOmicsOverlay": [
-    "GeomxTools",
-    "NanoStringNCTools"
+    "GeomxTools"
   ],
   "SpectralTAD": [
     "HiCcompare",
@@ -4244,8 +4223,7 @@
     "biomaRt",
     "SummarizedExperiment",
     "AnnotationDbi",
-    "SingleCellExperiment",
-    "phyloseq"
+    "SingleCellExperiment"
   ],
   "TADCompare": [
     "HiCcompare",
@@ -5054,7 +5032,6 @@
     "SummarizedExperiment"
   ],
   "benchdamic": [
-    "phyloseq",
     "TreeSummarizedExperiment",
     "zinbwave",
     "DESeq2",
@@ -5637,7 +5614,6 @@
     "VariantAnnotation"
   ],
   "combi": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "compEpiTools": [
@@ -5986,7 +5962,6 @@
   ],
   "dar": [
     "mia",
-    "phyloseq",
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -6194,7 +6169,6 @@
     "SummarizedExperiment"
   ],
   "doubletrouble": [
-    "syntenet",
     "AnnotationDbi",
     "GenomicFeatures",
     "rtracklayer",
@@ -7694,12 +7668,8 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "microbiome": [
-    "phyloseq"
-  ],
-  "microbiomeDASim": [
-    "phyloseq"
-  ],
+  "microbiome": [],
+  "microbiomeDASim": [],
   "microbiomeExplorer": [
     "DESeq2",
     "SummarizedExperiment"
@@ -8096,7 +8066,6 @@
     "h5mread",
     "GenomicAlignments"
   ],
-  "odseq": [],
   "oligo": [
     "oligoClasses",
     "SummarizedExperiment"
@@ -8345,7 +8314,6 @@
   "phenopath": [
     "SummarizedExperiment"
   ],
-  "phyloseq": [],
   "pipeComp": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -8415,8 +8383,7 @@
   "prebs": [
     "GenomicAlignments",
     "RPA",
-    "SummarizedExperiment",
-    "phyloseq"
+    "SummarizedExperiment"
   ],
   "preciseTAD": [
     "rCGH",
@@ -8635,9 +8602,7 @@
   "receptLoss": [
     "SummarizedExperiment"
   ],
-  "reconsi": [
-    "phyloseq"
-  ],
+  "reconsi": [],
   "recount": [
     "SummarizedExperiment",
     "derfinder",
@@ -9762,7 +9727,6 @@
     "MultiAssayExperiment",
     "SummarizedExperiment"
   ],
-  "syntenet": [],
   "systemPipeR": [
     "ShortRead",
     "SummarizedExperiment",
@@ -10234,7 +10198,6 @@
     "annotate"
   ],
   "zitools": [
-    "phyloseq",
     "SummarizedExperiment",
     "DESeq2"
   ]
