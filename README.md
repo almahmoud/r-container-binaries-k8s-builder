@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1905 (82%)
+- **Successfully Built:** 1906 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 163
+- **In Progress:** 162
 - **Not Started:** 228
 
 **Progress:** 83%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1905)
+## Successfully Built Packages (1906)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1855 more ...*
+*... and 1856 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.21/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.21/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.21/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
+| [vtpnet](https://bioconductor.org/packages/3.21/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vtpnet) |
 | [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (163)
+## In Progress (162)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchQC`
@@ -147,7 +147,7 @@
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
 
-... and 113 more ...
+... and 112 more ...
 
 ## Not Yet Started (228)
 - ⏸️ `AHMassBank`
@@ -204,5 +204,5 @@
 ... and 178 more ...
 
 ---
-*Last updated: 2025-10-31 08:34:14 UTC*
-*Packages with verified BBS status: 154*
+*Last updated: 2025-10-31 08:35:05 UTC*
+*Packages with verified BBS status: 155*

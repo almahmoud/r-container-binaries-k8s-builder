@@ -1903,3 +1903,4 @@ genomation
 hiAnnotator
 MSstatsQC
 SpliceWiz
+vtpnet

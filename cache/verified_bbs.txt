@@ -132,6 +132,7 @@ vissE
 vmrseq
 vsclust
 vsn
+vtpnet
 waddR
 weaver
 webbioc
