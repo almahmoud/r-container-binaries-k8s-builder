@@ -5847,7 +5847,6 @@
   "omicade4": [
     "made4"
   ],
-  "omicplotR": [],
   "omicsPrint": [
     "MultiAssayExperiment",
     "RaggedExperiment"
@@ -6697,7 +6696,6 @@
     "GenomicFeatures",
     "annotate"
   ],
-  "sigFeature": [],
   "signatureSearch": [
     "ExperimentHub",
     "HDF5Array",
@@ -6940,7 +6938,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "stageR": [],
   "standR": [
     "SpatialExperiment",
     "SingleCellExperiment",

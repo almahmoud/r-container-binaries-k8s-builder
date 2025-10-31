@@ -1055,3 +1055,6 @@ runibic
 scMultiSim
 screenCounter
 sechm
+omicplotR
+sigFeature
+stageR
