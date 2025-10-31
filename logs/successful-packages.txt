@@ -722,3 +722,6 @@ updateObject
 fgga
 GeneNetworkBuilder
 Streamer
+gDRstyle
+KEGGgraph
+trio

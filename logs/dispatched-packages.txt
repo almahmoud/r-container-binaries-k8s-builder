@@ -751,3 +751,6 @@ MetaboCoreUtils
 epiNEM
 gDRstyle
 MEIGOR
+NCIgraph
+SPIA
+lpNet

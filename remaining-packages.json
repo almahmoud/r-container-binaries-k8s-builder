@@ -569,7 +569,6 @@
     "PADOG",
     "AnnotationDbi",
     "KEGGREST",
-    "KEGGgraph",
     "IRanges",
     "Biostrings",
     "XVector",
@@ -2456,7 +2455,6 @@
     "SparseArray"
   ],
   "DEGraph": [
-    "KEGGgraph",
     "NCIgraph"
   ],
   "DEGreport": [
@@ -3170,7 +3168,6 @@
     "DelayedMatrixStats",
     "HDF5Array",
     "BiocSingular",
-    "KEGGgraph",
     "ScaledMatrix",
     "beachmat",
     "S4Arrays",
@@ -3321,7 +3318,6 @@
     "AnnotationDbi",
     "GSEABase",
     "KEGGREST",
-    "KEGGgraph",
     "SPIA",
     "graphite",
     "pathview",
@@ -3749,7 +3745,6 @@
     "IRanges",
     "GenomicRanges",
     "SummarizedExperiment",
-    "KEGGgraph",
     "KEGGREST",
     "GenomeInfoDb",
     "XVector",
@@ -3966,7 +3961,6 @@
     "IRanges",
     "KEGGREST",
     "GSEABase",
-    "KEGGgraph",
     "SPIA",
     "graphite",
     "pathview",
@@ -5113,10 +5107,8 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "KEGGgraph": [],
   "KEGGlincs": [
     "AnnotationDbi",
-    "KEGGgraph",
     "KEGGREST",
     "IRanges",
     "Biostrings",
@@ -5897,7 +5889,6 @@
   ],
   "MWASTools": [
     "SummarizedExperiment",
-    "KEGGgraph",
     "KEGGREST",
     "ComplexHeatmap",
     "IRanges",
@@ -6068,7 +6059,6 @@
     "SparseArray"
   ],
   "MetaboSignal": [
-    "KEGGgraph",
     "hpar",
     "KEGGREST",
     "biomaRt",
@@ -6607,9 +6597,7 @@
     "XVector",
     "Biostrings"
   ],
-  "NCIgraph": [
-    "KEGGgraph"
-  ],
+  "NCIgraph": [],
   "NanoMethViz": [
     "SummarizedExperiment",
     "BiocSingular",
@@ -7919,7 +7907,6 @@
   ],
   "ROntoTools": [
     "KEGGREST",
-    "KEGGgraph",
     "Biostrings",
     "IRanges",
     "XVector",
@@ -8542,7 +8529,6 @@
     "KEGGREST",
     "IRanges",
     "Biostrings",
-    "KEGGgraph",
     "GenomicRanges",
     "GenomeInfoDb",
     "S4Arrays",
@@ -8827,9 +8813,7 @@
     "S4Arrays",
     "h5mread"
   ],
-  "SPIA": [
-    "KEGGgraph"
-  ],
+  "SPIA": [],
   "SPIAT": [
     "SpatialExperiment",
     "dittoSeq",
@@ -12317,7 +12301,6 @@
   ],
   "clipper": [
     "qpgraph",
-    "KEGGgraph",
     "annotate",
     "AnnotationDbi",
     "IRanges",
@@ -13309,7 +13292,6 @@
     "GOSemSim",
     "GenomeInfoDb",
     "XVector",
-    "KEGGgraph",
     "S4Arrays",
     "DelayedArray",
     "genefilter",
@@ -13719,7 +13701,6 @@
     "GenomeInfoDb",
     "EnrichmentBrowser",
     "KEGGREST",
-    "KEGGgraph",
     "SPIA",
     "graphite",
     "pathview",
@@ -14650,7 +14631,6 @@
     "SparseArray",
     "XVector"
   ],
-  "gDRstyle": [],
   "gDRutils": [
     "BumpyMatrix",
     "MultiAssayExperiment",
@@ -16090,9 +16070,7 @@
     "GenomeInfoDb",
     "XVector"
   ],
-  "lpNet": [
-    "KEGGgraph"
-  ],
+  "lpNet": [],
   "lumi": [
     "methylumi",
     "GenomicFeatures",
@@ -17021,7 +16999,6 @@
     "AnnotationDbi",
     "IRanges",
     "KEGGREST",
-    "KEGGgraph",
     "Biostrings",
     "XVector",
     "GenomeInfoDb"
@@ -18221,7 +18198,6 @@
     "GenomeInfoDb"
   ],
   "pathview": [
-    "KEGGgraph",
     "AnnotationDbi",
     "KEGGREST",
     "IRanges",
@@ -22085,7 +22061,6 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "trio": [],
   "triplex": [
     "IRanges",
     "XVector",
@@ -22569,7 +22544,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "KEGGREST",
-    "KEGGgraph",
     "SPIA",
     "graphite",
     "pathview",
