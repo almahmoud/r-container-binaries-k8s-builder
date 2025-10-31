@@ -2274,3 +2274,6 @@ NADfinder
 scTreeViz
 wateRmelon
 YAPSA
+DMRcate
+MEAL
+methylGSA

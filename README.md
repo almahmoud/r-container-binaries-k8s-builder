@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2276 (98%)
+- **Successfully Built:** 2279 (98%)
 - **Failed:** 24 (1%)
-- **In Progress:** 7
+- **In Progress:** 4
 - **Not Started:** 3
 
 **Progress:** 99%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2276)
+## Successfully Built Packages (2279)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2226 more ...*
+*... and 2229 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,13 +105,10 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (7)
+## In Progress (4)
 - ⏳ `AgiMicroRna`
-- ⏳ `DMRcate`
-- ⏳ `MEAL`
 - ⏳ `MEAT`
 - ⏳ `bigmelon`
-- ⏳ `methylGSA`
 - ⏳ `skewr`
 
 ## Not Yet Started (3)
@@ -120,5 +117,5 @@
 - ⏸️ `PING`
 
 ---
-*Last updated: 2025-10-31 12:57:11 UTC*
+*Last updated: 2025-10-31 13:16:58 UTC*
 *Packages with verified BBS status: 170*

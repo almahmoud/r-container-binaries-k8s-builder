@@ -3,17 +3,13 @@
   "AneuFinder": [],
   "BiGGR": [],
   "CNEr": [],
-  "ChAMP": [
-    "DMRcate"
-  ],
+  "ChAMP": [],
   "ChIPQC": [],
-  "DMRcate": [],
   "GeDi": [
     "GeneTonic"
   ],
   "GeneTonic": [],
   "Harshlight": [],
-  "MEAL": [],
   "MEAT": [],
   "PICS": [],
   "PING": [
@@ -32,7 +28,6 @@
   "genoCN": [],
   "gpuMagic": [],
   "hypeR": [],
-  "methylGSA": [],
   "miRSM": [],
   "miRspongeR": [],
   "rGADEM": [],
