@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1388 (60%)
+- **Successfully Built:** 1395 (60%)
 - **Failed:** 9 (0%)
-- **In Progress:** 173
-- **Not Started:** 740
+- **In Progress:** 183
+- **Not Started:** 723
 
 **Progress:** 60%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1388)
+## Successfully Built Packages (1395)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1338 more ...*
+*... and 1345 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (173)
+## In Progress (183)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -104,20 +104,22 @@
 - ⏳ `BiocHubsShiny`
 - ⏳ `CDI`
 - ⏳ `COTAN`
+- ⏳ `CellBarcode`
 - ⏳ `CellTrails`
+- ⏳ `ChIPseqR`
+- ⏳ `ChIPsim`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `CrispRVariants`
 - ⏳ `CuratedAtlasQueryR`
-- ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
-- ⏳ `DEXSeq`
 - ⏳ `DifferentialRegulation`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
 - ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
+- ⏳ `FastqCleaner`
 - ⏳ `GSEABase`
 - ⏳ `GeneMeta`
 - ⏳ `GeoTcgaData`
@@ -129,22 +131,20 @@
 - ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
+- ⏳ `IONiseR`
 - ⏳ `LoomExperiment`
 - ⏳ `MAST`
 - ⏳ `MDTS`
 - ⏳ `MLInterfaces`
 - ⏳ `MetaNeighbor`
-- ⏳ `MetaboAnnotation`
+- ⏳ `MsQuality`
 - ⏳ `MuData`
 - ⏳ `MultiBaC`
 - ⏳ `NBAMSeq`
-- ⏳ `Nebulosa`
-- ⏳ `NewWave`
-- ⏳ `PECA`
 
-... and 123 more ...
+... and 133 more ...
 
-## Not Yet Started (740)
+## Not Yet Started (723)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 
-... and 690 more ...
+... and 673 more ...
 
 ---
-*Last updated: 2025-10-31 05:27:47 UTC*
+*Last updated: 2025-10-31 05:29:20 UTC*
 *Packages with verified BBS status: 131*

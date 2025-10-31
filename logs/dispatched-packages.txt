@@ -1585,3 +1585,5 @@ girafe
 nucleR
 segmentSeq
 systemPipeR
+SurfR
+blacksheepr

@@ -464,7 +464,6 @@
   ],
   "CrispRVariants": [],
   "CuratedAtlasQueryR": [],
-  "CytoMDS": [],
   "CytoPipelineGUI": [],
   "DAMEfinder": [
     "VariantAnnotation",
@@ -493,7 +492,6 @@
     "SpatialExperiment",
     "scuttle"
   ],
-  "DEXSeq": [],
   "DExMA": [
     "sva"
   ],
@@ -962,13 +960,11 @@
     "GenomicFiles",
     "GenomicFeatures",
     "txdbmaker",
-    "DEXSeq",
     "rtracklayer",
     "VariantAnnotation",
     "BSgenome"
   ],
   "IsoformSwitchAnalyzeR": [
-    "DEXSeq",
     "sva",
     "BSgenome",
     "rtracklayer",
@@ -1110,7 +1106,6 @@
     "rtracklayer"
   ],
   "MetaNeighbor": [],
-  "MetaboAnnotation": [],
   "MetaboSignal": [
     "hpar",
     "mygene",
@@ -1662,7 +1657,6 @@
     "VariantAnnotation"
   ],
   "SPOTlight": [],
-  "SPsimSeq": [],
   "SVP": [
     "SpatialExperiment"
   ],
@@ -1757,9 +1751,7 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "SurfR": [
-    "SPsimSeq"
-  ],
+  "SurfR": [],
   "TAPseq": [
     "BSgenome",
     "GenomicFeatures",
@@ -2131,9 +2123,7 @@
     "regioneR",
     "txdbmaker"
   ],
-  "blacksheepr": [
-    "DEXSeq"
-  ],
+  "blacksheepr": [],
   "blima": [],
   "bnbc": [
     "sva"
@@ -2227,7 +2217,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "cfTools": [],
   "chevreulPlot": [
     "chevreulProcess",
     "scater",
@@ -2573,7 +2562,6 @@
     "rtracklayer"
   ],
   "diffUTR": [
-    "DEXSeq",
     "rtracklayer",
     "ensembldb",
     "GenomicFeatures"
@@ -3417,7 +3405,6 @@
     "omicade4"
   ],
   "omicade4": [],
-  "omicsPrint": [],
   "oppar": [
     "GSEABase",
     "GSVA",
@@ -3442,7 +3429,6 @@
     "rtracklayer"
   ],
   "pairedGSEA": [
-    "DEXSeq",
     "sva"
   ],
   "partCNV": [],
@@ -3708,7 +3694,6 @@
   "saseR": [
     "ASpli",
     "GenomicFeatures",
-    "DEXSeq",
     "Gviz",
     "txdbmaker",
     "rtracklayer",
@@ -4121,13 +4106,10 @@
   "tidyCoverage": [
     "rtracklayer"
   ],
-  "tidySingleCellExperiment": [],
   "tidySpatialExperiment": [
-    "SpatialExperiment",
-    "tidySingleCellExperiment"
+    "SpatialExperiment"
   ],
   "tidyomics": [
-    "tidySingleCellExperiment",
     "plyranges",
     "nullranges",
     "rtracklayer"
