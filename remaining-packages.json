@@ -63,7 +63,6 @@
     "ensembldb",
     "txdbmaker"
   ],
-  "BSgenomeForge": [],
   "BUSpaRse": [
     "ensembldb",
     "plyranges"
@@ -179,9 +178,7 @@
     "ensembldb"
   ],
   "ChIPseeker": [],
-  "ChromSCape": [
-    "batchelor"
-  ],
+  "ChromSCape": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "txdbmaker",
@@ -788,7 +785,6 @@
   "SpaNorm": [],
   "Spaniel": [],
   "SparseSignatures": [],
-  "SpatialFeatureExperiment": [],
   "SpliceWiz": [],
   "SplicingGraphs": [],
   "StructuralVariantAnnotation": [
@@ -799,7 +795,6 @@
   "TCGAutils": [],
   "TENET": [],
   "TFBSTools": [],
-  "TFEA.ChIP": [],
   "TFHAZ": [
     "ORFik",
     "txdbmaker"
@@ -848,9 +843,7 @@
   "VariantTools": [
     "VariantAnnotation"
   ],
-  "Voyager": [
-    "SpatialFeatureExperiment"
-  ],
+  "Voyager": [],
   "XNAString": [],
   "YAPSA": [
     "SomaticSignatures",
@@ -879,9 +872,7 @@
     "alabaster.vcf",
     "VariantAnnotation"
   ],
-  "alabaster.sfe": [
-    "SpatialFeatureExperiment"
-  ],
+  "alabaster.sfe": [],
   "alabaster.vcf": [
     "VariantAnnotation"
   ],
@@ -911,7 +902,6 @@
   "bandle": [
     "pRoloc"
   ],
-  "batchelor": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -988,17 +978,14 @@
   ],
   "chevreulPlot": [
     "chevreulProcess",
-    "batchelor",
     "ensembldb"
   ],
   "chevreulProcess": [
-    "batchelor",
     "ensembldb"
   ],
   "chevreulShiny": [
     "chevreulProcess",
     "chevreulPlot",
-    "batchelor",
     "ensembldb"
   ],
   "chimeraviz": [
@@ -1494,7 +1481,6 @@
     "minfi",
     "bumphunter"
   ],
-  "mist": [],
   "mitoClone2": [
     "deepSNV",
     "VariantAnnotation"
@@ -1544,9 +1530,7 @@
     "VariantAnnotation",
     "ensembldb"
   ],
-  "mumosa": [
-    "batchelor"
-  ],
+  "mumosa": [],
   "muscat": [],
   "musicatk": [
     "VariantAnnotation",
@@ -1708,8 +1692,7 @@
     "SingleCellSignalR"
   ],
   "scMerge": [
-    "M3Drop",
-    "batchelor"
+    "M3Drop"
   ],
   "scPipe": [],
   "scTensor": [
@@ -1783,7 +1766,6 @@
     "ensembldb"
   ],
   "singleCellTK": [
-    "batchelor",
     "ensembldb",
     "scMerge",
     "celda",
@@ -1800,7 +1782,6 @@
     "bumphunter",
     "lumi"
   ],
-  "slalom": [],
   "sparrow": [],
   "spatzie": [
     "GenomicInteractions",
@@ -1887,7 +1868,6 @@
     "VariantAnnotation"
   ],
   "visiumStitched": [],
-  "vissE": [],
   "vmrseq": [
     "bumphunter"
   ],
@@ -1909,7 +1889,6 @@
     "bumphunter"
   ],
   "wavClusteR": [],
-  "xCell2": [],
   "xcms": [],
   "yarn": [
     "quantro",

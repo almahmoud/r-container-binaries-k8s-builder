@@ -126,6 +126,7 @@ velociraptor
 veloviz
 vidger
 viper
+vissE
 vsclust
 vsn
 waddR
@@ -136,6 +137,7 @@ widgetTools
 wiggleplotr
 wpm
 wppi
+xCell2
 xcore
 xenLite
 xmapbridge

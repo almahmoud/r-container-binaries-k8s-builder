@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1744 (75%)
+- **Successfully Built:** 1752 (75%)
 - **Failed:** 13 (0%)
-- **In Progress:** 163
-- **Not Started:** 390
+- **In Progress:** 181
+- **Not Started:** 364
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1744)
+## Successfully Built Packages (1752)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,15 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1694 more ...*
+*... and 1702 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
-| [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [velociraptor](https://bioconductor.org/packages/3.21/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
+| [vissE](https://bioconductor.org/packages/3.21/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vissE) |
 | [vsclust](https://bioconductor.org/packages/3.21/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
@@ -66,6 +65,7 @@
 | [wiggleplotr](https://bioconductor.org/packages/3.21/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
+| [xCell2](https://bioconductor.org/packages/3.21/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xCell2) |
 | [xcore](https://bioconductor.org/packages/3.21/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.21/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
@@ -94,9 +94,8 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (163)
+## In Progress (181)
 - ⏳ `BASiCS`
-- ⏳ `BSgenomeForge`
 - ⏳ `BatchQC`
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
@@ -111,15 +110,20 @@
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `CiteFuse`
+- ⏳ `CluMSID`
 - ⏳ `Cogito`
+- ⏳ `DAPAR`
+- ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
 - ⏳ `Dino`
 - ⏳ `EDASeq`
+- ⏳ `EGSEA`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
+- ⏳ `GOstats`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GreyListChIP`
 - ⏳ `Guitar`
@@ -132,6 +136,7 @@
 - ⏳ `MMDiff2`
 - ⏳ `MOSim`
 - ⏳ `MPAC`
+- ⏳ `MSstatsQC`
 - ⏳ `MethylSeekR`
 - ⏳ `Motif2Site`
 - ⏳ `MotifPeeker`
@@ -139,16 +144,11 @@
 - ⏳ `ORFhunteR`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
-- ⏳ `Pigengene`
-- ⏳ `RFLOMICS`
-- ⏳ `Repitools`
-- ⏳ `Rmmquant`
-- ⏳ `SCOPE`
-- ⏳ `SGSeq`
+- ⏳ `PRONE`
 
-... and 113 more ...
+... and 131 more ...
 
-## Not Yet Started (390)
+## Not Yet Started (364)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -181,11 +181,8 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
-- ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
-- ⏸️ `DAPAR`
-- ⏸️ `DEP`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `DSS`
@@ -197,11 +194,14 @@
 - ⏸️ `DiffBind`
 - ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
-- ⏸️ `EGSEA`
 - ⏸️ `ELMER`
+- ⏸️ `ELViS`
+- ⏸️ `ENmix`
+- ⏸️ `EpiCompare`
+- ⏸️ `EpiTxDb`
 
-... and 340 more ...
+... and 314 more ...
 
 ---
-*Last updated: 2025-10-31 07:26:31 UTC*
-*Packages with verified BBS status: 147*
+*Last updated: 2025-10-31 07:28:26 UTC*
+*Packages with verified BBS status: 149*

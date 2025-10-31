@@ -1742,3 +1742,11 @@ casper
 Category
 GSVA
 MSnbase
+batchelor
+BSgenomeForge
+mist
+slalom
+SpatialFeatureExperiment
+TFEA.ChIP
+vissE
+xCell2
