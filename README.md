@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 724 (32%)
+- **Successfully Built:** 728 (32%)
 - **Failed:** 1 (0%)
-- **In Progress:** 19
-- **Not Started:** 1500
+- **In Progress:** 16
+- **Not Started:** 1499
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (724)
+## Successfully Built Packages (728)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 674 more ...*
+*... and 678 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (19)
+## In Progress (16)
 - ⏳ `ComplexHeatmap`
 - ⏳ `MEIGOR`
 - ⏳ `NCIgraph`
@@ -92,18 +92,15 @@
 - ⏳ `Spectra`
 - ⏳ `TargetDecoy`
 - ⏳ `XVector`
+- ⏳ `alabaster.bumpy`
 - ⏳ `bluster`
-- ⏳ `dStruct`
-- ⏳ `derfinderHelper`
-- ⏳ `epiNEM`
 - ⏳ `flowCore`
-- ⏳ `lpNet`
 - ⏳ `msPurity`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `uSORT`
 
-## Not Yet Started (1500)
+## Not Yet Started (1499)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -155,8 +152,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1450 more ...
+... and 1449 more ...
 
 ---
-*Last updated: 2025-10-31 23:01:29 UTC*
+*Last updated: 2025-10-31 23:02:04 UTC*
 *Packages with verified BBS status: 104*

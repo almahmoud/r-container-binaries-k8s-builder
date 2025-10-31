@@ -722,3 +722,7 @@ BumpyMatrix
 DirichletMultinomial
 nucleoSim
 SIMAT
+derfinderHelper
+dStruct
+epiNEM
+lpNet
