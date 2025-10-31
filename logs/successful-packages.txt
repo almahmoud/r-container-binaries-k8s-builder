@@ -2144,3 +2144,4 @@ scFeatures
 SingleMoleculeFootprinting
 glmSparseNet
 RTCGAToolbox
+esATAC

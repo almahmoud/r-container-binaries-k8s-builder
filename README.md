@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2146 (92%)
+- **Successfully Built:** 2147 (92%)
 - **Failed:** 21 (0%)
 - **In Progress:** 48
-- **Not Started:** 95
+- **Not Started:** 94
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2146)
+## Successfully Built Packages (2147)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2096 more ...*
+*... and 2097 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -125,13 +125,13 @@
 - ⏳ `Ularcirc`
 - ⏳ `appreci8R`
 - ⏳ `biscuiteer`
+- ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
 - ⏳ `consensusDE`
 - ⏳ `cytofQC`
 - ⏳ `decontX`
 - ⏳ `epivizrData`
 - ⏳ `erma`
-- ⏳ `esATAC`
 - ⏳ `ggbio`
 - ⏳ `iNETgrate`
 - ⏳ `iSEEtree`
@@ -152,7 +152,7 @@
 - ⏳ `vulcan`
 - ⏳ `yarn`
 
-## Not Yet Started (95)
+## Not Yet Started (94)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -202,10 +202,10 @@
 - ⏸️ `bigmelon`
 - ⏸️ `bioCancer`
 - ⏸️ `biomvRCNS`
-- ⏸️ `cBioPortalData`
+- ⏸️ `cageminer`
 
-... and 45 more ...
+... and 44 more ...
 
 ---
-*Last updated: 2025-10-31 10:43:28 UTC*
+*Last updated: 2025-10-31 10:44:10 UTC*
 *Packages with verified BBS status: 163*
