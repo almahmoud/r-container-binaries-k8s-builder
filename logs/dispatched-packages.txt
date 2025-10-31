@@ -868,3 +868,8 @@ affyILM
 affyPLM
 maskBAD
 procoil
+IMMAN
+MethTargetedNGS
+QSutils
+ggseqalign
+sangerseqR

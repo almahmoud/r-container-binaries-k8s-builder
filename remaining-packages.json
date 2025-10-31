@@ -114,7 +114,6 @@
     "rtracklayer",
     "motifStack",
     "AnnotationDbi",
-    "pwalign",
     "GenomicFeatures",
     "SummarizedExperiment",
     "biomaRt",
@@ -137,8 +136,7 @@
     "TFBSTools",
     "rtracklayer",
     "cigarillo",
-    "BSgenome",
-    "pwalign"
+    "BSgenome"
   ],
   "AUCell": [
     "GSEABase",
@@ -278,7 +276,6 @@
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -701,7 +698,6 @@
     "AnnotationDbi"
   ],
   "CNEr": [
-    "pwalign",
     "GenomicRanges",
     "rtracklayer",
     "GenomicAlignments",
@@ -909,7 +905,6 @@
     "Rsamtools",
     "GenomicRanges",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1041,7 +1036,6 @@
   "ChIPpeakAnno": [
     "GenomicRanges",
     "AnnotationDbi",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "Rsamtools",
@@ -1074,7 +1068,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1083,7 +1076,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1121,7 +1113,6 @@
     "SGSeq",
     "GenomicRanges",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo",
     "AnnotationDbi",
@@ -1330,7 +1321,6 @@
     "rtracklayer",
     "SummarizedExperiment",
     "AnnotationDbi",
-    "pwalign",
     "GenomicFeatures",
     "Rsamtools",
     "biomaRt",
@@ -1516,7 +1506,6 @@
     "annotate",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "Damsel": [
@@ -1628,8 +1617,7 @@
     "cigarillo",
     "BSgenome",
     "rtracklayer",
-    "ShortRead",
-    "pwalign"
+    "ShortRead"
   ],
   "DifferentialRegulation": [
     "BANDITS",
@@ -1653,7 +1641,6 @@
   ],
   "DominoEffect": [
     "biomaRt",
-    "pwalign",
     "SummarizedExperiment",
     "VariantAnnotation",
     "AnnotationDbi",
@@ -1730,7 +1717,6 @@
     "GenomicRanges",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1982,8 +1968,7 @@
     "ensembldb",
     "AnnotationFilter",
     "beachmat",
-    "BiocSingular",
-    "pwalign"
+    "BiocSingular"
   ],
   "FRASER": [
     "Rsamtools",
@@ -2006,7 +1991,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2090,7 +2074,6 @@
     "annotate",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "GBScleanR": [
@@ -2156,7 +2139,6 @@
     "ShortRead",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2250,7 +2232,6 @@
   ],
   "GUIDEseq": [
     "GenomicRanges",
-    "pwalign",
     "CRISPRseek",
     "ChIPpeakAnno",
     "BSgenome",
@@ -2654,9 +2635,7 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "IMMAN": [
-    "pwalign"
-  ],
+  "IMMAN": [],
   "INSPEcT": [
     "GenomicFeatures",
     "GenomicRanges",
@@ -2673,7 +2652,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2795,7 +2773,6 @@
     "rtracklayer",
     "tximeta",
     "SummarizedExperiment",
-    "pwalign",
     "Rsamtools",
     "DESeq2",
     "AnnotationDbi",
@@ -3146,8 +3123,7 @@
     "GenomicRanges"
   ],
   "MSA2dist": [
-    "GenomicRanges",
-    "pwalign"
+    "GenomicRanges"
   ],
   "MSPrep": [
     "SummarizedExperiment",
@@ -3216,7 +3192,6 @@
   ],
   "MatrixRider": [
     "TFBSTools",
-    "pwalign",
     "BSgenome",
     "GenomicRanges",
     "rtracklayer",
@@ -3289,16 +3264,13 @@
     "ExperimentHub",
     "TFBSTools",
     "AnnotationDbi",
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
     "cigarillo"
   ],
-  "MethTargetedNGS": [
-    "pwalign"
-  ],
+  "MethTargetedNGS": [],
   "MethylAid": [
     "minfi",
     "SummarizedExperiment",
@@ -3547,7 +3519,6 @@
     "AnnotationDbi",
     "InteractionSet",
     "txdbmaker",
-    "pwalign",
     "biomaRt",
     "regioneR",
     "universalmotif",
@@ -3678,7 +3649,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -3977,9 +3947,7 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "QSutils": [
-    "pwalign"
-  ],
+  "QSutils": [],
   "QTLExperiment": [
     "SummarizedExperiment",
     "GenomicRanges"
@@ -4000,7 +3968,6 @@
     "SummarizedExperiment",
     "GenomicAlignments",
     "VariantAnnotation",
-    "pwalign",
     "biomaRt",
     "cigarillo"
   ],
@@ -4068,7 +4035,6 @@
     "GenomicRanges",
     "rtracklayer",
     "Rsamtools",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "SummarizedExperiment",
@@ -4273,7 +4239,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -4321,7 +4286,6 @@
     "GenomicRanges",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -4356,7 +4320,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -4581,7 +4544,6 @@
     "AnnotationFilter",
     "cigarillo",
     "rtracklayer",
-    "pwalign",
     "BSgenome"
   ],
   "Rsamtools": [
@@ -4759,7 +4721,6 @@
     "cigarillo"
   ],
   "SPLINTER": [
-    "pwalign",
     "biomaRt",
     "GenomicAlignments",
     "GenomicRanges",
@@ -4861,7 +4822,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -4931,7 +4891,6 @@
     "SummarizedExperiment",
     "cigarillo",
     "VariantAnnotation",
-    "pwalign",
     "biomaRt"
   ],
   "SingleR": [
@@ -5120,7 +5079,6 @@
     "GenomicRanges",
     "rtracklayer",
     "VariantAnnotation",
-    "pwalign",
     "GenomicFeatures",
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -5266,7 +5224,6 @@
     "GenomicRanges"
   ],
   "TFBSTools": [
-    "pwalign",
     "BSgenome",
     "GenomicRanges",
     "rtracklayer",
@@ -5429,8 +5386,7 @@
     "GenomicFeatures",
     "AnnotationDbi",
     "rtracklayer",
-    "cigarillo",
-    "pwalign"
+    "cigarillo"
   ],
   "UPDhmm": [
     "VariantAnnotation",
@@ -5951,7 +5907,6 @@
     "Rsamtools",
     "TFBSTools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -6034,7 +5989,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -6531,7 +6485,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -6550,7 +6503,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -6765,8 +6717,7 @@
     "biomaRt",
     "AnnotationFilter",
     "rtracklayer",
-    "cigarillo",
-    "pwalign"
+    "cigarillo"
   ],
   "consensusOV": [
     "GSVA",
@@ -6914,7 +6865,6 @@
     "crisprDesign",
     "crisprScore",
     "crisprViz",
-    "pwalign",
     "GenomicRanges",
     "rtracklayer",
     "Rsamtools",
@@ -7052,7 +7002,6 @@
     "Rsamtools",
     "GenomicAlignments",
     "GenomicRanges",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -7062,7 +7011,6 @@
     "motifStack",
     "AnnotationDbi",
     "TFBSTools",
-    "pwalign",
     "BSgenome",
     "GenomicRanges",
     "rtracklayer",
@@ -7313,7 +7261,6 @@
     "AnnotationDbi",
     "GenomicFeatures",
     "rtracklayer",
-    "pwalign",
     "Rsamtools",
     "GenomicAlignments",
     "SummarizedExperiment",
@@ -7365,8 +7312,7 @@
     "Rsamtools",
     "ShortRead",
     "AnnotationDbi",
-    "cigarillo",
-    "pwalign"
+    "cigarillo"
   ],
   "easylift": [
     "GenomicRanges",
@@ -7390,7 +7336,6 @@
     "BSgenome",
     "GenomicRanges",
     "motifmatchr",
-    "pwalign",
     "rtracklayer",
     "Rsamtools",
     "TFBSTools",
@@ -7486,7 +7431,6 @@
     "BiocSingular",
     "beachmat",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -7586,8 +7530,7 @@
     "DOSE",
     "GOSemSim",
     "SummarizedExperiment",
-    "cigarillo",
-    "pwalign"
+    "cigarillo"
   ],
   "escape": [
     "SummarizedExperiment",
@@ -7925,9 +7868,7 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "ggseqalign": [
-    "pwalign"
-  ],
+  "ggseqalign": [],
   "ggspavis": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -8230,7 +8171,6 @@
     "DESeq2",
     "cigarillo",
     "AnnotationDbi",
-    "pwalign",
     "BSgenome"
   ],
   "ideal": [
@@ -8263,7 +8203,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "idpr": [],
   "idr2d": [
     "GenomicRanges"
   ],
@@ -8663,8 +8602,7 @@
     "cigarillo",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
-    "pwalign"
+    "beachmat"
   ],
   "methInheritSim": [
     "methylKit",
@@ -8823,7 +8761,6 @@
     "cigarillo"
   ],
   "methylscaper": [
-    "pwalign",
     "SummarizedExperiment",
     "GenomicRanges"
   ],
@@ -9078,7 +9015,6 @@
     "TFBSTools",
     "rtracklayer",
     "Rsamtools",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -9110,7 +9046,6 @@
   ],
   "motifStack": [
     "TFBSTools",
-    "pwalign",
     "BSgenome",
     "GenomicRanges",
     "rtracklayer",
@@ -9132,7 +9067,6 @@
     "motifStack",
     "Gviz",
     "SummarizedExperiment",
-    "pwalign",
     "biomaRt",
     "AnnotationDbi",
     "Rsamtools",
@@ -9152,7 +9086,6 @@
     "GenomicRanges",
     "Rsamtools",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -9189,8 +9122,7 @@
     "VariantAnnotation",
     "OrganismDbi",
     "ensembldb",
-    "AnnotationFilter",
-    "pwalign"
+    "AnnotationFilter"
   ],
   "mslp": [
     "AnnotationDbi"
@@ -9380,7 +9312,6 @@
   "netboost": [
     "AnnotationDbi"
   ],
-  "ngsReports": [],
   "nipalsMCIA": [
     "MultiAssayExperiment",
     "SummarizedExperiment",
@@ -9425,7 +9356,6 @@
     "Rsamtools",
     "ShortRead",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -9462,7 +9392,6 @@
     "rtracklayer",
     "annotate",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "odseq": [
@@ -9546,7 +9475,6 @@
     "flowWorkspace"
   ],
   "openPrimeR": [
-    "pwalign",
     "GenomicRanges"
   ],
   "oposSOM": [
@@ -9619,7 +9547,6 @@
     "SummarizedExperiment",
     "Rsamtools",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -9905,7 +9832,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "VariantAnnotation",
     "AnnotationFilter",
@@ -9984,7 +9910,6 @@
     "GenomicRanges",
     "SummarizedExperiment"
   ],
-  "pwalign": [],
   "qPLEXanalyzer": [
     "MSnbase",
     "PSMatch",
@@ -10262,8 +10187,7 @@
   "rhinotypeR": [
     "MSA2dist",
     "msa",
-    "GenomicRanges",
-    "pwalign"
+    "GenomicRanges"
   ],
   "riboSeqR": [
     "GenomicRanges",
@@ -10286,8 +10210,7 @@
     "biomaRt",
     "SummarizedExperiment",
     "cigarillo",
-    "TFBSTools",
-    "pwalign"
+    "TFBSTools"
   ],
   "rifi": [
     "SummarizedExperiment",
@@ -10377,12 +10300,9 @@
     "AnnotationDbi"
   ],
   "sangeranalyseR": [
-    "pwalign",
     "sangerseqR"
   ],
-  "sangerseqR": [
-    "pwalign"
-  ],
+  "sangerseqR": [],
   "saseR": [
     "ASpli",
     "DESeq2",
@@ -10651,7 +10571,6 @@
     "cigarillo"
   ],
   "scanMiR": [
-    "pwalign",
     "GenomicRanges"
   ],
   "scanMiRApp": [
@@ -10666,7 +10585,6 @@
     "txdbmaker",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "biomaRt",
     "SummarizedExperiment",
     "cigarillo"
@@ -10701,8 +10619,7 @@
     "GenomicRanges"
   ],
   "scifer": [
-    "sangerseqR",
-    "pwalign"
+    "sangerseqR"
   ],
   "scmap": [
     "SingleCellExperiment",
@@ -10739,7 +10656,6 @@
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "scoreInvHap": [
@@ -10796,7 +10712,6 @@
     "OrganismDbi",
     "ensembldb",
     "AnnotationFilter",
-    "pwalign",
     "biomaRt"
   ],
   "scry": [
@@ -10831,7 +10746,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -10922,7 +10836,6 @@
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "shinyMethyl": [
@@ -11340,7 +11253,6 @@
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "strandCheckR": [
@@ -11382,7 +11294,6 @@
     "VariantAnnotation",
     "StructuralVariantAnnotation",
     "GenomicFeatures",
-    "pwalign",
     "AnnotationDbi",
     "Rsamtools",
     "GenomicAlignments",
@@ -11399,7 +11310,6 @@
     "AnnotationDbi",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "BSgenome",
     "cigarillo"
@@ -11418,7 +11328,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "systemPipeTools": [
@@ -11632,8 +11541,7 @@
     "ShortRead",
     "SummarizedExperiment",
     "cigarillo",
-    "AnnotationDbi",
-    "pwalign"
+    "AnnotationDbi"
   ],
   "transcriptogramer": [
     "biomaRt",
@@ -11838,7 +11746,6 @@
     "csaw",
     "DESeq2",
     "AnnotationDbi",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "Rsamtools",

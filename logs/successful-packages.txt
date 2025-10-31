@@ -828,3 +828,6 @@ transomics2cytoscape
 ggmsa
 muscle
 ROntoTools
+idpr
+ngsReports
+pwalign
