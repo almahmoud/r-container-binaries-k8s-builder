@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 609 (26%)
+- **Successfully Built:** 618 (26%)
 - **Failed:** 5 (0%)
-- **In Progress:** 54
-- **Not Started:** 1642
+- **In Progress:** 46
+- **Not Started:** 1641
 
 **Progress:** 26%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (609)
+## Successfully Built Packages (618)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.21/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BEclear) |
 
-*... and 559 more ...*
+*... and 568 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,22 +86,18 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (54)
+## In Progress (46)
 - ⏳ `AIMS`
 - ⏳ `BioQC`
 - ⏳ `CGHnormaliter`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `NanoTube`
-- ⏳ `OCplus`
-- ⏳ `OrderedList`
+- ⏳ `OmicsMLRepoR`
 - ⏳ `PROPER`
 - ⏳ `PhenStat`
 - ⏳ `RBGL`
 - ⏳ `RBioinf`
-- ⏳ `RCy3`
-- ⏳ `RCyjs`
-- ⏳ `RGraph2js`
 - ⏳ `RNAseqCovarImpute`
 - ⏳ `RTopper`
 - ⏳ `RUVcorr`
@@ -119,17 +115,13 @@
 - ⏳ `bioassayR`
 - ⏳ `biobroom`
 - ⏳ `cycle`
-- ⏳ `diggit`
 - ⏳ `dyebias`
 - ⏳ `eiR`
-- ⏳ `fmcsR`
 - ⏳ `fobitools`
 - ⏳ `ldblock`
-- ⏳ `metabomxtr`
 - ⏳ `metagenomeSeq`
 - ⏳ `mosbi`
 - ⏳ `mzR`
-- ⏳ `nethet`
 - ⏳ `parglms`
 - ⏳ `piano`
 - ⏳ `profileScoreDist`
@@ -137,10 +129,12 @@
 - ⏳ `rcellminer`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
+- ⏳ `scde`
+- ⏳ `siggenes`
+- ⏳ `subSeq`
+- ⏳ `variancePartition`
 
-... and 4 more ...
-
-## Not Yet Started (1642)
+## Not Yet Started (1641)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +186,8 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 
-... and 1592 more ...
+... and 1591 more ...
 
 ---
-*Last updated: 2025-10-31 00:34:19 UTC*
+*Last updated: 2025-10-31 00:34:59 UTC*
 *Packages with verified BBS status: 97*

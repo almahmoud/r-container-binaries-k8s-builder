@@ -2042,7 +2042,6 @@
     "ComplexHeatmap",
     "clusterProfiler",
     "DESeq2",
-    "RCy3",
     "SummarizedExperiment",
     "S4Vectors",
     "AnnotationDbi",
@@ -2953,8 +2952,7 @@
     "KEGGgraph",
     "RBGL",
     "Rgraphviz",
-    "NCIgraph",
-    "RCy3"
+    "NCIgraph"
   ],
   "DEGreport": [
     "ComplexHeatmap",
@@ -4947,8 +4945,7 @@
     "UCSC.utils"
   ],
   "GeneNetworkBuilder": [
-    "Rgraphviz",
-    "RCy3"
+    "Rgraphviz"
   ],
   "GeneRegionScan": [
     "Biostrings",
@@ -6804,9 +6801,7 @@
     "h5mread",
     "XVector"
   ],
-  "MOGAMUN": [
-    "RCy3"
-  ],
+  "MOGAMUN": [],
   "MOMA": [
     "ComplexHeatmap",
     "MultiAssayExperiment",
@@ -6979,9 +6974,7 @@
     "UCSC.utils",
     "XVector"
   ],
-  "MSstatsBioNet": [
-    "RCy3"
-  ],
+  "MSstatsBioNet": [],
   "MSstatsLiP": [
     "Biostrings",
     "MSstatsPTM",
@@ -7221,7 +7214,6 @@
   ],
   "MetaPhOR": [
     "clusterProfiler",
-    "RCy3",
     "AnnotationDbi",
     "DOSE",
     "enrichplot",
@@ -7928,7 +7920,6 @@
   "NCIgraph": [
     "KEGGgraph",
     "RBGL",
-    "RCy3",
     "Rgraphviz"
   ],
   "NanoMethViz": [
@@ -8056,7 +8047,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "OCplus": [],
   "OGRE": [
     "S4Vectors",
     "GenomicRanges",
@@ -8238,7 +8228,6 @@
   "OncoSimulR": [
     "Rgraphviz"
   ],
-  "OrderedList": [],
   "Organism.dplyr": [
     "AnnotationFilter",
     "S4Vectors",
@@ -9141,8 +9130,6 @@
     "XVector",
     "UCSC.utils"
   ],
-  "RCy3": [],
-  "RCyjs": [],
   "REDseq": [
     "Biostrings",
     "BSgenome",
@@ -9254,7 +9241,6 @@
     "h5mread",
     "Biostrings"
   ],
-  "RGraph2js": [],
   "RITAN": [
     "BgeeDB",
     "GenomicFeatures",
@@ -14176,7 +14162,6 @@
     "Category",
     "GOstats",
     "annotate",
-    "RCy3",
     "IRanges",
     "S4Vectors",
     "KEGGREST",
@@ -16162,7 +16147,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "diggit": [],
   "dinoR": [
     "SummarizedExperiment",
     "ComplexHeatmap",
@@ -16475,7 +16459,6 @@
     "SparseArray"
   ],
   "enrichViewNet": [
-    "RCy3",
     "enrichplot",
     "DOSE",
     "AnnotationDbi",
@@ -17076,9 +17059,7 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "fedup": [
-    "RCy3"
-  ],
+  "fedup": [],
   "ffpe": [
     "affy",
     "lumi",
@@ -17303,7 +17284,6 @@
     "SparseArray",
     "XVector"
   ],
-  "fmcsR": [],
   "fobitools": [],
   "frma": [
     "affy",
@@ -19550,7 +19530,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "metabomxtr": [],
   "metagene2": [
     "GenomicRanges",
     "rtracklayer",
@@ -21069,7 +21048,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "nethet": [],
   "netresponse": [
     "Rgraphviz"
   ],
@@ -23019,7 +22997,6 @@
     "GenomicRanges",
     "Gviz",
     "IRanges",
-    "RCy3",
     "S4Vectors",
     "KEGGREST",
     "XVector",
@@ -26186,7 +26163,6 @@
     "GenomicAlignments"
   ],
   "transomics2cytoscape": [
-    "RCy3",
     "KEGGREST",
     "Biostrings",
     "S4Vectors",
