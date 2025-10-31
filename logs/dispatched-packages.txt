@@ -491,3 +491,13 @@ biomformat
 scMitoMut
 CIMICE
 alevinQC
+AWFisher
+PROPER
+ROSeq
+Rvisdiff
+ScreenR
+compcodeR
+erccdashboard
+methylMnM
+ppcseq
+tweeDEseq

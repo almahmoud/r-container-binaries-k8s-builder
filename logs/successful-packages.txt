@@ -476,3 +476,6 @@ GenProSeq
 GSCA
 SUITOR
 systemPipeShiny
+edgeR
+mitch
+OSTA.data

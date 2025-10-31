@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 478 (20%)
+- **Successfully Built:** 481 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 11
+- **In Progress:** 8
 - **Not Started:** 1817
 
 **Progress:** 20%
@@ -16,7 +16,7 @@
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (478)
+## Successfully Built Packages (481)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.21/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 
-*... and 428 more ...*
+*... and 431 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,17 +85,14 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (11)
+## In Progress (8)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `EnMCB`
 - ⏳ `Harman`
-- ⏳ `OSTA.data`
 - ⏳ `Polytect`
 - ⏳ `decoupleR`
-- ⏳ `edgeR`
 - ⏳ `fgsea`
-- ⏳ `mitch`
 - ⏳ `philr`
 
 ## Not Yet Started (1817)
@@ -153,5 +150,5 @@
 ... and 1767 more ...
 
 ---
-*Last updated: 2025-10-31 00:23:41 UTC*
+*Last updated: 2025-10-31 00:24:47 UTC*
 *Packages with verified BBS status: 86*
