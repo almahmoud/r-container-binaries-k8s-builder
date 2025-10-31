@@ -1,7 +1,6 @@
 {
   "AgiMicroRna": [
-    "affycoretools",
-    "ReportingTools"
+    "affycoretools"
   ],
   "AneuFinder": [],
   "BiGGR": [],
@@ -11,14 +10,10 @@
   "CNViz": [],
   "ChAMP": [
     "DMRcate",
-    "wateRmelon",
-    "missMethyl"
+    "wateRmelon"
   ],
   "ChIPQC": [],
-  "DMRcate": [
-    "missMethyl"
-  ],
-  "FLAMES": [],
+  "DMRcate": [],
   "GeDi": [
     "GeneTonic"
   ],
@@ -27,13 +22,10 @@
   "MAGAR": [
     "RnBeads"
   ],
-  "MEAL": [
-    "missMethyl"
-  ],
+  "MEAL": [],
   "MEAT": [
     "wateRmelon"
   ],
-  "MineICA": [],
   "NADfinder": [],
   "PICS": [],
   "PING": [
@@ -43,47 +35,31 @@
   "RITAN": [],
   "RbowtieCuda": [],
   "Repitools": [],
-  "ReportingTools": [],
   "RnBeads": [],
   "XNAString": [],
   "YAPSA": [],
-  "affycoretools": [
-    "ReportingTools"
-  ],
+  "affycoretools": [],
   "amplican": [],
-  "arrayMvout": [],
   "bigmelon": [
     "wateRmelon"
   ],
-  "chevreulShiny": [],
   "cisPath": [],
-  "compEpiTools": [],
-  "crisprShiny": [],
-  "crisprVerse": [],
   "cytofQC": [],
   "debCAM": [],
-  "epivizrStandalone": [],
-  "ffpe": [],
   "genoCN": [],
   "geomeTriD": [],
   "gpuMagic": [],
   "hypeR": [],
-  "iCheck": [],
   "iSEEfier": [],
-  "methylGSA": [
-    "missMethyl"
-  ],
+  "methylGSA": [],
   "miRSM": [],
   "miRspongeR": [],
-  "missMethyl": [],
-  "multicrispr": [],
   "rGADEM": [],
   "scTreeViz": [],
   "signeR": [],
   "skewr": [
     "wateRmelon"
   ],
-  "spatzie": [],
   "trigger": [],
   "wateRmelon": []
 }

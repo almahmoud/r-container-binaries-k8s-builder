@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2250 (97%)
+- **Successfully Built:** 2264 (98%)
 - **Failed:** 23 (0%)
-- **In Progress:** 25
+- **In Progress:** 11
 - **Not Started:** 12
 
-**Progress:** 98%
+**Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2250)
+## Successfully Built Packages (2264)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2200 more ...*
+*... and 2214 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,31 +104,17 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (25)
+## In Progress (11)
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
 - ⏳ `CNViz`
-- ⏳ `FLAMES`
 - ⏳ `GeneTonic`
-- ⏳ `MineICA`
 - ⏳ `NADfinder`
-- ⏳ `ReportingTools`
 - ⏳ `RnBeads`
 - ⏳ `YAPSA`
-- ⏳ `arrayMvout`
-- ⏳ `chevreulShiny`
-- ⏳ `compEpiTools`
-- ⏳ `crisprShiny`
-- ⏳ `crisprVerse`
-- ⏳ `epivizrStandalone`
-- ⏳ `ffpe`
 - ⏳ `geomeTriD`
-- ⏳ `iCheck`
 - ⏳ `iSEEfier`
-- ⏳ `missMethyl`
-- ⏳ `multicrispr`
 - ⏳ `scTreeViz`
-- ⏳ `spatzie`
 - ⏳ `wateRmelon`
 
 ## Not Yet Started (12)
@@ -146,5 +132,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:46:29 UTC*
+*Last updated: 2025-10-31 11:56:40 UTC*
 *Packages with verified BBS status: 168*

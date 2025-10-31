@@ -2248,3 +2248,17 @@ epimutacions
 msgbsR
 saseR
 scruff
+arrayMvout
+chevreulShiny
+compEpiTools
+crisprShiny
+crisprVerse
+epivizrStandalone
+ffpe
+FLAMES
+iCheck
+MineICA
+missMethyl
+multicrispr
+ReportingTools
+spatzie

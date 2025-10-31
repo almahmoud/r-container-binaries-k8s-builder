@@ -2296,3 +2296,7 @@ CNVfilteR
 CNViz
 CAGEr
 YAPSA
+DMRcate
+MEAL
+affycoretools
+methylGSA
