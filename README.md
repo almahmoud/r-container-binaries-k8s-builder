@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 709 (30%)
+- **Successfully Built:** 712 (30%)
 - **Failed:** 6 (0%)
-- **In Progress:** 34
-- **Not Started:** 1561
+- **In Progress:** 33
+- **Not Started:** 1559
 
-**Progress:** 30%
+**Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (709)
+## Successfully Built Packages (712)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 659 more ...*
+*... and 662 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (34)
+## In Progress (33)
 - ⏳ `BiGGR`
 - ⏳ `BiocCheck`
 - ⏳ `BiocPkgTools`
@@ -95,13 +95,12 @@
 - ⏳ `CNORfeeder`
 - ⏳ `CNORfuzzy`
 - ⏳ `CNORode`
-- ⏳ `ExiMiR`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
 - ⏳ `MMUPHin`
+- ⏳ `MetaboCoreUtils`
 - ⏳ `OmicsMLRepoR`
-- ⏳ `Rnits`
 - ⏳ `SIMAT`
 - ⏳ `Streamer`
 - ⏳ `TargetDecoy`
@@ -109,13 +108,13 @@
 - ⏳ `alabaster.base`
 - ⏳ `biobroom`
 - ⏳ `bluster`
+- ⏳ `epiNEM`
 - ⏳ `fgga`
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
 - ⏳ `monocle`
 - ⏳ `msPurity`
-- ⏳ `nondetects`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
@@ -123,7 +122,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1561)
+## Not Yet Started (1559)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -175,8 +174,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1511 more ...
+... and 1509 more ...
 
 ---
-*Last updated: 2025-10-31 00:44:50 UTC*
+*Last updated: 2025-10-31 00:45:32 UTC*
 *Packages with verified BBS status: 102*

@@ -3459,7 +3459,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "ExiMiR": [],
   "ExperimentHub": [
     "AnnotationHub",
     "AnnotationDbi",
@@ -8503,7 +8502,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "Rnits": [],
   "RolDE": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -17776,7 +17774,6 @@
     "SparseArray",
     "XVector"
   ],
-  "nondetects": [],
   "normr": [
     "GenomeInfoDb",
     "GenomicRanges",
