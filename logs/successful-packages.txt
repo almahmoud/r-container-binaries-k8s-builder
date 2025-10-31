@@ -1348,3 +1348,8 @@ scRepertoire
 waddR
 adductomicsR
 DEFormats
+DELocal
+DEWSeq
+padma
+scReClassify
+survClust

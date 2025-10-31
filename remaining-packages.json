@@ -500,7 +500,6 @@
     "PSMatch"
   ],
   "DEGreport": [],
-  "DELocal": [],
   "DEP": [
     "MSnbase",
     "PSMatch"
@@ -517,7 +516,6 @@
     "SpatialExperiment",
     "scuttle"
   ],
-  "DEWSeq": [],
   "DEXSeq": [],
   "DEsubs": [],
   "DExMA": [
@@ -2237,9 +2235,7 @@
     "BSgenome"
   ],
   "breakpointR": [],
-  "broadSeq": [
-    "DELocal"
-  ],
+  "broadSeq": [],
   "bsseq": [
     "BSgenome",
     "rtracklayer"
@@ -3579,7 +3575,6 @@
     "PSMatch",
     "MLInterfaces"
   ],
-  "padma": [],
   "pageRank": [
     "motifmatchr",
     "TFBSTools",
@@ -3929,7 +3924,6 @@
     "slingshot",
     "TrajectoryUtils"
   ],
-  "scReClassify": [],
   "scTGIF": [
     "GSEABase",
     "schex"
@@ -4242,7 +4236,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "survClust": [],
   "sva": [],
   "svaNUMT": [
     "rtracklayer",

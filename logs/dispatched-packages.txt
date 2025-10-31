@@ -1552,3 +1552,4 @@ MoonlightR
 cghMCR
 TOP
 sampleClassifier
+broadSeq
