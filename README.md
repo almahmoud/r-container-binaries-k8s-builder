@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 1739 (75%)
 - **Failed:** 13 (0%)
-- **In Progress:** 167
-- **Not Started:** 391
+- **In Progress:** 168
+- **Not Started:** 390
 
 **Progress:** 75%
 ```
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (167)
+## In Progress (168)
 - ⏳ `BASiCS`
 - ⏳ `BSgenomeForge`
 - ⏳ `BatchQC`
@@ -146,9 +146,9 @@
 - ⏳ `RFLOMICS`
 - ⏳ `Repitools`
 
-... and 117 more ...
+... and 118 more ...
 
-## Not Yet Started (391)
+## Not Yet Started (390)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -200,8 +200,8 @@
 - ⏸️ `EGSEA`
 - ⏸️ `ELMER`
 
-... and 341 more ...
+... and 340 more ...
 
 ---
-*Last updated: 2025-10-31 07:22:50 UTC*
+*Last updated: 2025-10-31 07:23:52 UTC*
 *Packages with verified BBS status: 147*
