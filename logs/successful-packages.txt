@@ -2138,3 +2138,4 @@ selectKSigs
 shinyMethyl
 standR
 terraTCGAdata
+methylumi

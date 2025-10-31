@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2140 (92%)
+- **Successfully Built:** 2141 (92%)
 - **Failed:** 21 (0%)
-- **In Progress:** 45
-- **Not Started:** 104
+- **In Progress:** 50
+- **Not Started:** 98
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2140)
+## Successfully Built Packages (2141)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2090 more ...*
+*... and 2091 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,12 +102,14 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (45)
+## In Progress (50)
+- ⏳ `AHMassBank`
 - ⏳ `ATACseqQC`
 - ⏳ `BubbleTree`
 - ⏳ `ChIPexoQual`
 - ⏳ `EpiCompare`
 - ⏳ `EventPointer`
+- ⏳ `ExperimentHubData`
 - ⏳ `FRASER`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
@@ -124,6 +126,7 @@
 - ⏳ `Ularcirc`
 - ⏳ `appreci8R`
 - ⏳ `biscuiteer`
+- ⏳ `chevreulPlot`
 - ⏳ `consensusDE`
 - ⏳ `cytofQC`
 - ⏳ `decontX`
@@ -136,7 +139,6 @@
 - ⏳ `iSEEtree`
 - ⏳ `iSEEu`
 - ⏳ `karyoploteR`
-- ⏳ `methylumi`
 - ⏳ `mosdef`
 - ⏳ `netSmooth`
 - ⏳ `octad`
@@ -146,11 +148,13 @@
 - ⏳ `scone`
 - ⏳ `segmenter`
 - ⏳ `seqArchRplus`
+- ⏳ `shinyDSP`
 - ⏳ `shinyepico`
+- ⏳ `singleCellTK`
 - ⏳ `vulcan`
+- ⏳ `yarn`
 
-## Not Yet Started (104)
-- ⏸️ `AHMassBank`
+## Not Yet Started (98)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -167,7 +171,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
 - ⏸️ `GNOSIS`
 - ⏸️ `GeDi`
@@ -200,9 +203,11 @@
 - ⏸️ `affycoretools`
 - ⏸️ `arrayMvout`
 - ⏸️ `bigmelon`
+- ⏸️ `bioCancer`
+- ⏸️ `biomvRCNS`
 
-... and 54 more ...
+... and 48 more ...
 
 ---
-*Last updated: 2025-10-31 10:40:49 UTC*
+*Last updated: 2025-10-31 10:41:38 UTC*
 *Packages with verified BBS status: 163*

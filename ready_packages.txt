@@ -1,6 +1,3 @@
-AHMassBank
-ExperimentHubData
-chevreulPlot
-shinyDSP
-singleCellTK
-yarn
+RnBeads
+lumi
+missMethyl

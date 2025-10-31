@@ -44,7 +44,6 @@
     "wateRmelon",
     "missMethyl",
     "Gviz",
-    "methylumi",
     "lumi"
   ],
   "ChIPQC": [],
@@ -57,8 +56,7 @@
   ],
   "DMRcate": [
     "missMethyl",
-    "Gviz",
-    "methylumi"
+    "Gviz"
   ],
   "Damsel": [
     "ggbio"
@@ -105,22 +103,18 @@
     "Gviz"
   ],
   "MAGAR": [
-    "RnBeads",
-    "methylumi"
+    "RnBeads"
   ],
   "MEAL": [
     "Gviz",
-    "missMethyl",
-    "methylumi"
+    "missMethyl"
   ],
   "MEAT": [
     "wateRmelon",
-    "methylumi",
     "lumi"
   ],
   "MineICA": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "Moonlight2R": [],
   "NADfinder": [
@@ -170,9 +164,7 @@
   "RiboProfiling": [
     "ggbio"
   ],
-  "RnBeads": [
-    "methylumi"
-  ],
+  "RnBeads": [],
   "Rqc": [],
   "SMITE": [],
   "SPLINTER": [
@@ -202,12 +194,10 @@
   "amplican": [],
   "appreci8R": [],
   "arrayMvout": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "bigmelon": [
     "wateRmelon",
-    "methylumi",
     "lumi"
   ],
   "bioCancer": [
@@ -288,8 +278,7 @@
   "erma": [],
   "esATAC": [],
   "ffpe": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "genoCN": [],
   "geomeTriD": [
@@ -301,8 +290,7 @@
   "gpuMagic": [],
   "hypeR": [],
   "iCheck": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "iNETgrate": [],
   "iSEEfier": [
@@ -317,9 +305,7 @@
     "ggbio"
   ],
   "karyoploteR": [],
-  "lumi": [
-    "methylumi"
-  ],
+  "lumi": [],
   "mCSEA": [
     "Gviz"
   ],
@@ -327,8 +313,7 @@
     "Gviz"
   ],
   "methylGSA": [
-    "missMethyl",
-    "methylumi"
+    "missMethyl"
   ],
   "methylPipe": [
     "Gviz"
@@ -336,15 +321,12 @@
   "methylclock": [
     "ExperimentHubData"
   ],
-  "methylumi": [],
   "miRSM": [],
   "miRspongeR": [],
   "miaDash": [
     "iSEEtree"
   ],
-  "missMethyl": [
-    "methylumi"
-  ],
+  "missMethyl": [],
   "mosdef": [],
   "motifbreakR": [
     "Gviz"
@@ -389,7 +371,6 @@
   "signeR": [],
   "singleCellTK": [],
   "skewr": [
-    "methylumi",
     "wateRmelon",
     "lumi"
   ],
@@ -412,7 +393,6 @@
   ],
   "vulcan": [],
   "wateRmelon": [
-    "methylumi",
     "lumi"
   ],
   "yarn": []
