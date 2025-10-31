@@ -1326,3 +1326,9 @@ MGFR
 phantasus
 SingleR
 VplotR
+CNTools
+CTexploreR
+famat
+ramwas
+TCGAbiolinks
+VDJdive

@@ -279,7 +279,6 @@
   "CNEr": [
     "rtracklayer"
   ],
-  "CNTools": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -334,7 +333,6 @@
   "CTSV": [
     "SpatialExperiment"
   ],
-  "CTexploreR": [],
   "CaMutQC": [],
   "Category": [
     "GSEABase"
@@ -651,7 +649,6 @@
   ],
   "ELMER": [
     "GenomicFeatures",
-    "TCGAbiolinks",
     "Gviz",
     "rtracklayer",
     "ensembldb",
@@ -1220,9 +1217,7 @@
     "EpiMix",
     "GenomicFeatures"
   ],
-  "MoonlightR": [
-    "TCGAbiolinks"
-  ],
+  "MoonlightR": [],
   "Motif2Site": [
     "BSgenome",
     "rtracklayer"
@@ -1844,8 +1839,7 @@
     "BSgenome"
   ],
   "SurfR": [
-    "SPsimSeq",
-    "TCGAbiolinks"
+    "SPsimSeq"
   ],
   "TAPseq": [
     "BSgenome",
@@ -1861,7 +1855,6 @@
     "SpatialExperiment"
   ],
   "TCC": [],
-  "TCGAbiolinks": [],
   "TCGAutils": [
     "GenomicFeatures",
     "rtracklayer"
@@ -1871,7 +1864,6 @@
     "rtracklayer"
   ],
   "TENET": [
-    "TCGAbiolinks",
     "sesame",
     "rtracklayer",
     "BSgenome"
@@ -1972,7 +1964,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "VDJdive": [],
   "VaSP": [
     "ballgown",
     "sva",
@@ -2339,9 +2330,7 @@
     "rtracklayer"
   ],
   "cfTools": [],
-  "cghMCR": [
-    "CNTools"
-  ],
+  "cghMCR": [],
   "chevreulPlot": [
     "chevreulProcess",
     "scater",
@@ -2877,7 +2866,6 @@
     "rtracklayer",
     "wiggleplotr"
   ],
-  "famat": [],
   "fcScan": [
     "VariantAnnotation",
     "rtracklayer",
@@ -3344,7 +3332,6 @@
   ],
   "miQC": [],
   "miRLAB": [
-    "TCGAbiolinks",
     "Category",
     "GOstats",
     "GSEABase"
@@ -3794,7 +3781,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "ramwas": [],
   "recount": [
     "derfinder",
     "rtracklayer",
