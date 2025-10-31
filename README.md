@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 769 (34%)
 - **Failed:** 1 (0%)
-- **In Progress:** 21
-- **Not Started:** 1453
+- **In Progress:** 23
+- **Not Started:** 1451
 
 **Progress:** 34%
 ```
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (21)
+## In Progress (23)
 - ⏳ `Biostrings`
 - ⏳ `Chromatograms`
 - ⏳ `DelayedArray`
@@ -100,12 +100,14 @@
 - ⏳ `SpectraQL`
 - ⏳ `SpectriPy`
 - ⏳ `flowClust`
+- ⏳ `flowDensity`
+- ⏳ `flowFP`
 - ⏳ `flowTime`
 - ⏳ `h5mread`
 - ⏳ `ldblock`
 - ⏳ `optimalFlow`
 
-## Not Yet Started (1453)
+## Not Yet Started (1451)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -157,8 +159,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1403 more ...
+... and 1401 more ...
 
 ---
-*Last updated: 2025-10-31 23:27:07 UTC*
+*Last updated: 2025-10-31 23:27:45 UTC*
 *Packages with verified BBS status: 105*
