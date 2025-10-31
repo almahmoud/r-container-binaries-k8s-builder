@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1980 (85%)
+- **Successfully Built:** 1983 (85%)
 - **Failed:** 17 (0%)
-- **In Progress:** 105
-- **Not Started:** 208
+- **In Progress:** 119
+- **Not Started:** 191
 
 **Progress:** 86%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1980)
+## Successfully Built Packages (1983)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1930 more ...*
+*... and 1933 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,11 +98,12 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (105)
+## In Progress (119)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
+- ⏳ `COCOA`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CexoR`
@@ -112,6 +113,7 @@
 - ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
+- ⏳ `DeMixT`
 - ⏳ `DeconvoBuddies`
 - ⏳ `EDASeq`
 - ⏳ `ENmix`
@@ -122,7 +124,10 @@
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
+- ⏳ `IPO`
 - ⏳ `IVAS`
+- ⏳ `LOBSTAHS`
+- ⏳ `MAIT`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethylAid`
 - ⏳ `NanoMethViz`
@@ -134,6 +139,7 @@
 - ⏳ `RITAN`
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
+- ⏳ `SOMNiBUS`
 - ⏳ `Spaniel`
 - ⏳ `SplicingGraphs`
 - ⏳ `TAPseq`
@@ -142,17 +148,11 @@
 - ⏳ `alabaster.sfe`
 - ⏳ `benchdamic`
 - ⏳ `biovizBase`
-- ⏳ `celaref`
-- ⏳ `celda`
-- ⏳ `chevreulProcess`
-- ⏳ `chipenrich`
-- ⏳ `clusterExperiment`
-- ⏳ `consensusSeekeR`
-- ⏳ `conumee`
+- ⏳ `borealis`
 
-... and 55 more ...
+... and 69 more ...
 
-## Not Yet Started (208)
+## Not Yet Started (191)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -168,7 +168,6 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `COCOA`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `CircSeqAlignTk`
@@ -177,7 +176,6 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
-- ⏸️ `DeMixT`
 - ⏸️ `DegNorm`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
@@ -201,11 +199,13 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `IMAS`
-- ⏸️ `IPO`
 - ⏸️ `IntEREst`
+- ⏸️ `IsoformSwitchAnalyzeR`
+- ⏸️ `MAGAR`
+- ⏸️ `MEAL`
 
-... and 158 more ...
+... and 141 more ...
 
 ---
-*Last updated: 2025-10-31 09:16:56 UTC*
+*Last updated: 2025-10-31 09:18:28 UTC*
 *Packages with verified BBS status: 158*

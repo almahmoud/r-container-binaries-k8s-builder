@@ -2117,3 +2117,7 @@ methodical
 methylSig
 scmeth
 spillR
+MGnifyR
+dar
+lefser
+miaViz

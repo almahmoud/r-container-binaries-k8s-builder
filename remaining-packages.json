@@ -262,9 +262,7 @@
     "methylumi",
     "lumi"
   ],
-  "MGnifyR": [
-    "mia"
-  ],
+  "MGnifyR": [],
   "MOSClip": [
     "qpgraph"
   ],
@@ -581,9 +579,7 @@
   ],
   "cytofQC": [],
   "dandelionR": [],
-  "dar": [
-    "mia"
-  ],
+  "dar": [],
   "dce": [],
   "debCAM": [],
   "debrowser": [],
@@ -662,7 +658,6 @@
   "glmSparseNet": [
     "TCGAutils"
   ],
-  "gmoviz": [],
   "goseq": [
     "txdbmaker"
   ],
@@ -687,8 +682,7 @@
   "iSEEhex": [],
   "iSEEhub": [],
   "iSEEtree": [
-    "miaViz",
-    "mia"
+    "miaViz"
   ],
   "iSEEu": [
     "iSEEhex"
@@ -709,9 +703,7 @@
     "biovizBase"
   ],
   "kissDE": [],
-  "lefser": [
-    "mia"
-  ],
+  "lefser": [],
   "lisaClust": [],
   "lumi": [
     "methylumi"
@@ -753,15 +745,11 @@
   "methylumi": [],
   "miRSM": [],
   "miRspongeR": [],
-  "mia": [],
   "miaDash": [
     "iSEEtree",
-    "mia",
     "miaViz"
   ],
-  "miaViz": [
-    "mia"
-  ],
+  "miaViz": [],
   "missMethyl": [
     "methylumi"
   ],
@@ -801,7 +789,6 @@
     "goseq",
     "txdbmaker"
   ],
-  "pipeComp": [],
   "preciseTAD": [
     "rCGH"
   ],
