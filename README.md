@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2224 (96%)
+- **Successfully Built:** 2225 (96%)
 - **Failed:** 22 (0%)
-- **In Progress:** 46
+- **In Progress:** 45
 - **Not Started:** 18
 
 **Progress:** 97%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2224)
+## Successfully Built Packages (2225)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2174 more ...*
+*... and 2175 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -103,7 +103,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (46)
+## In Progress (45)
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
 - ⏳ `CAGEfightR`
@@ -141,7 +141,6 @@
 - ⏳ `motifbreakR`
 - ⏳ `msgbsR`
 - ⏳ `multicrispr`
-- ⏳ `primirTSS`
 - ⏳ `saseR`
 - ⏳ `scTreeViz`
 - ⏳ `scruff`
@@ -172,5 +171,5 @@
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:32:29 UTC*
+*Last updated: 2025-10-31 11:33:29 UTC*
 *Packages with verified BBS status: 167*
