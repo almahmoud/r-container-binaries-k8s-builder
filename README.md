@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2177 (94%)
+- **Successfully Built:** 2206 (95%)
 - **Failed:** 21 (0%)
-- **In Progress:** 59
+- **In Progress:** 30
 - **Not Started:** 53
 
-**Progress:** 95%
+**Progress:** 96%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2177)
+## Successfully Built Packages (2206)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2127 more ...*
+*... and 2156 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsclust](https://bioconductor.org/packages/3.21/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.21/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.21/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vulcan) |
@@ -69,6 +68,7 @@
 | [xenLite](https://bioconductor.org/packages/3.21/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
+| [yarn](https://bioconductor.org/packages/3.21/bioc/html/yarn.html) | [log](logs/yarn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yarn) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.21/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zellkonverter) |
 | [zenith](https://bioconductor.org/packages/3.21/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zenith) |
@@ -102,49 +102,22 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (59)
-- ⏳ `ASpli`
-- ⏳ `AllelicImbalance`
-- ⏳ `CircSeqAlignTk`
-- ⏳ `DuplexDiscovereR`
-- ⏳ `ELMER`
-- ⏳ `GNOSIS`
-- ⏳ `GRaNIE`
-- ⏳ `GUIDEseq`
-- ⏳ `GeneStructureTools`
+## In Progress (30)
 - ⏳ `GeneTonic`
-- ⏳ `GenomicInteractions`
-- ⏳ `OGRE`
-- ⏳ `Pviz`
 - ⏳ `RITAN`
-- ⏳ `RNAmodR`
 - ⏳ `RnBeads`
-- ⏳ `SPLINTER`
-- ⏳ `TVTB`
 - ⏳ `VariantFiltering`
-- ⏳ `appreci8R`
 - ⏳ `bioCancer`
-- ⏳ `biomvRCNS`
-- ⏳ `biscuiteer`
 - ⏳ `canceR`
 - ⏳ `cbaf`
-- ⏳ `chevreulPlot`
 - ⏳ `chimeraviz`
-- ⏳ `cicero`
-- ⏳ `comapr`
 - ⏳ `crisprViz`
-- ⏳ `cummeRbund`
 - ⏳ `cytofQC`
-- ⏳ `decontX`
 - ⏳ `epimutacions`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
-- ⏳ `ggbio`
-- ⏳ `iNETgrate`
 - ⏳ `iSEEu`
 - ⏳ `ideal`
-- ⏳ `karyoploteR`
-- ⏳ `lumi`
 - ⏳ `mCSEA`
 - ⏳ `maser`
 - ⏳ `methylPipe`
@@ -153,8 +126,13 @@
 - ⏳ `missMethyl`
 - ⏳ `motifbreakR`
 - ⏳ `pcaExplorer`
-
-... and 9 more ...
+- ⏳ `primirTSS`
+- ⏳ `regutools`
+- ⏳ `singleCellTK`
+- ⏳ `srnadiff`
+- ⏳ `tadar`
+- ⏳ `trackViewer`
+- ⏳ `uncoverappLib`
 
 ## Not Yet Started (53)
 - ⏸️ `AgiMicroRna`
@@ -211,5 +189,5 @@
 ... and 3 more ...
 
 ---
-*Last updated: 2025-10-31 11:00:13 UTC*
-*Packages with verified BBS status: 165*
+*Last updated: 2025-10-31 11:16:36 UTC*
+*Packages with verified BBS status: 166*
