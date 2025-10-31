@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1707 (73%)
+- **Successfully Built:** 1710 (74%)
 - **Failed:** 13 (0%)
 - **In Progress:** 113
-- **Not Started:** 477
+- **Not Started:** 474
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1707)
+## Successfully Built Packages (1710)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1657 more ...*
+*... and 1660 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -110,7 +110,6 @@
 - ⏳ `EnrichmentBrowser`
 - ⏳ `GOTHiC`
 - ⏳ `GSVA`
-- ⏳ `GenomicFeatures`
 - ⏳ `GlobalAncova`
 - ⏳ `GreyListChIP`
 - ⏳ `MEDIPS`
@@ -121,6 +120,7 @@
 - ⏳ `MotifPeeker`
 - ⏳ `ORFhunteR`
 - ⏳ `PanomiR`
+- ⏳ `Pigengene`
 - ⏳ `RFLOMICS`
 - ⏳ `RcisTarget`
 - ⏳ `Repitools`
@@ -148,7 +148,7 @@
 
 ... and 63 more ...
 
-## Not Yet Started (477)
+## Not Yet Started (474)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -200,8 +200,8 @@
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 
-... and 427 more ...
+... and 424 more ...
 
 ---
-*Last updated: 2025-10-31 07:10:45 UTC*
+*Last updated: 2025-10-31 07:11:46 UTC*
 *Packages with verified BBS status: 146*

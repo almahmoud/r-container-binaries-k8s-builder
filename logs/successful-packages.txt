@@ -1705,3 +1705,6 @@ cosmosR
 GSRI
 MIRit
 ReactomePA
+GenomicFeatures
+gep2pep
+spicyR
