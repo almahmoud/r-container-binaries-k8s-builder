@@ -1803,7 +1803,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "CIMICE": [],
   "CMA": [
     "Biobase",
     "BiocGenerics"
@@ -7860,7 +7859,6 @@
     "SparseArray",
     "XVector"
   ],
-  "MSstatsBig": [],
   "MSstatsBioNet": [
     "RCy3",
     "BiocGenerics",
@@ -7873,11 +7871,9 @@
     "S4Vectors",
     "IRanges",
     "XVector",
-    "Seqinfo",
-    "MSstatsTMT"
+    "Seqinfo"
   ],
   "MSstatsPTM": [
-    "MSstatsTMT",
     "Biostrings",
     "BiocGenerics",
     "S4Vectors",
@@ -7939,7 +7935,6 @@
     "XVector"
   ],
   "MSstatsShiny": [
-    "MSstatsTMT",
     "MSstatsPTM",
     "MSstatsBioNet",
     "RCy3",
@@ -7951,7 +7946,6 @@
     "Seqinfo",
     "graph"
   ],
-  "MSstatsTMT": [],
   "MWASTools": [
     "SummarizedExperiment",
     "KEGGgraph",
@@ -17405,7 +17399,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "ctsGE": [],
   "customCMPdb": [
     "AnnotationHub",
     "ChemmineR",

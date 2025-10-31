@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 444 (19%)
+- **Successfully Built:** 448 (19%)
 - **Failed:** 1 (0%)
-- **In Progress:** 34
+- **In Progress:** 30
 - **Not Started:** 1765
 
-**Progress:** 19%
+**Progress:** 20%
 ```
-█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (444)
+## Successfully Built Packages (448)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 
-*... and 394 more ...*
+*... and 398 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,10 +82,9 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (34)
+## In Progress (30)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
-- ⏳ `CIMICE`
 - ⏳ `COMPASS`
 - ⏳ `DEqMS`
 - ⏳ `EnMCB`
@@ -93,8 +92,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `MSstatsBig`
-- ⏳ `MSstatsTMT`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
 - ⏳ `PCAN`
@@ -106,7 +103,6 @@
 - ⏳ `Wrench`
 - ⏳ `anndataR`
 - ⏳ `biomformat`
-- ⏳ `ctsGE`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
@@ -173,5 +169,5 @@
 ... and 1715 more ...
 
 ---
-*Last updated: 2025-10-31 22:24:19 UTC*
+*Last updated: 2025-10-31 22:24:39 UTC*
 *Packages with verified BBS status: 85*

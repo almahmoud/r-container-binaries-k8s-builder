@@ -442,3 +442,7 @@ scBubbletree
 scLANE
 MSstatsResponse
 planet
+CIMICE
+ctsGE
+MSstatsBig
+MSstatsTMT
