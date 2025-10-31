@@ -18,7 +18,6 @@
   "DMRcate": [
     "missMethyl"
   ],
-  "Damsel": [],
   "FLAMES": [],
   "GeDi": [
     "GeneTonic"
@@ -49,11 +48,8 @@
   "Repitools": [],
   "ReportingTools": [],
   "RnBeads": [],
-  "SomaticSignatures": [],
   "XNAString": [],
-  "YAPSA": [
-    "SomaticSignatures"
-  ],
+  "YAPSA": [],
   "affycoretools": [
     "ReportingTools"
   ],
