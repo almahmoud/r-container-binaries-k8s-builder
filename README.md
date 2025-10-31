@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1819 (78%)
+- **Successfully Built:** 1821 (78%)
 - **Failed:** 13 (0%)
-- **In Progress:** 192
-- **Not Started:** 286
+- **In Progress:** 195
+- **Not Started:** 281
 
 **Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1819)
+## Successfully Built Packages (1821)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1769 more ...*
+*... and 1771 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (192)
+## In Progress (195)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BBCAnalyzer`
@@ -129,26 +129,26 @@
 - ⏳ `GA4GHshiny`
 - ⏳ `GOstats`
 - ⏳ `GRaNIE`
-- ⏳ `GenomicFiles`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
 - ⏳ `M3Drop`
-- ⏳ `MADSEQ`
 - ⏳ `MEB`
 - ⏳ `MSstatsQC`
 - ⏳ `MungeSumstats`
 - ⏳ `MutationalPatterns`
 - ⏳ `NoRCE`
+- ⏳ `OMICsPCA`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
 - ⏳ `PRONE`
+- ⏳ `Pigengene`
 
-... and 142 more ...
+... and 145 more ...
 
-## Not Yet Started (286)
+## Not Yet Started (281)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -200,8 +200,8 @@
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
 
-... and 236 more ...
+... and 231 more ...
 
 ---
-*Last updated: 2025-10-31 07:56:15 UTC*
+*Last updated: 2025-10-31 07:58:28 UTC*
 *Packages with verified BBS status: 151*

@@ -1,5 +1,4 @@
-OMICsPCA
-Prostar
-bandle
-dreamlet
-pRolocGUI
+TFutils
+VCFArray
+derfinder
+gDNAx
