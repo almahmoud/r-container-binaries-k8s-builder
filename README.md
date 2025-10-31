@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 807 (35%)
+- **Successfully Built:** 812 (36%)
 - **Failed:** 1 (0%)
-- **In Progress:** 55
-- **Not Started:** 1381
+- **In Progress:** 52
+- **Not Started:** 1379
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (807)
+## Successfully Built Packages (812)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 757 more ...*
+*... and 762 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (55)
+## In Progress (52)
 - ⏳ `AnnotationDbi`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
@@ -92,12 +92,13 @@
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
 - ⏳ `MEDME`
+- ⏳ `MSstatsLiP`
+- ⏳ `MSstatsShiny`
 - ⏳ `MetaCyto`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
 - ⏳ `PhyloProfile`
 - ⏳ `ROntoTools`
-- ⏳ `ResidualMatrix`
 - ⏳ `ScaledMatrix`
 - ⏳ `Structstrings`
 - ⏳ `SynExtend`
@@ -131,12 +132,11 @@
 - ⏳ `rRDP`
 - ⏳ `rSWeeP`
 - ⏳ `rfaRm`
-- ⏳ `rprimer`
-- ⏳ `sarks`
+- ⏳ `sketchR`
 
-... and 5 more ...
+... and 2 more ...
 
-## Not Yet Started (1381)
+## Not Yet Started (1379)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1331 more ...
+... and 1329 more ...
 
 ---
-*Last updated: 2025-10-31 23:44:32 UTC*
+*Last updated: 2025-10-31 23:45:05 UTC*
 *Packages with verified BBS status: 105*

@@ -805,3 +805,8 @@ DECIPHER
 rBLAST
 cleaver
 MSstatsPTM
+ResidualMatrix
+rprimer
+sarks
+scoup
+sscu

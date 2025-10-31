@@ -1128,7 +1128,6 @@
     "BiocSingular",
     "DelayedMatrixStats",
     "scuttle",
-    "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
     "GenomicAlignments",
@@ -4511,7 +4510,6 @@
     "AnnotationForge",
     "cigarillo"
   ],
-  "ResidualMatrix": [],
   "RgnTX": [
     "GenomicFeatures",
     "GenomicRanges",
@@ -6152,7 +6150,6 @@
     "BiocSingular",
     "DelayedMatrixStats",
     "scuttle",
-    "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
     "GenomicRanges"
@@ -6585,7 +6582,6 @@
     "GenomicRanges",
     "rtracklayer",
     "DelayedMatrixStats",
-    "ResidualMatrix",
     "ScaledMatrix",
     "AnnotationFilter",
     "AnnotationDbi",
@@ -6605,7 +6601,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "DelayedMatrixStats",
-    "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
     "GenomicRanges",
@@ -9457,7 +9452,6 @@
     "scuttle",
     "scran",
     "batchelor",
-    "ResidualMatrix",
     "GenomicRanges"
   ],
   "muscat": [
@@ -10540,7 +10534,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "rprimer": [],
   "rqt": [
     "SummarizedExperiment",
     "ropls",
@@ -10583,7 +10576,6 @@
   "sangerseqR": [
     "pwalign"
   ],
-  "sarks": [],
   "saseR": [
     "ASpli",
     "DESeq2",
@@ -10739,7 +10731,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "scuttle",
-    "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
     "GenomicRanges"
@@ -10970,7 +10961,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "scoup": [],
   "scp": [
     "QFeatures",
     "MultiAssayExperiment",
@@ -11281,7 +11271,6 @@
     "zellkonverter",
     "AnnotationDbi",
     "BiocSingular",
-    "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
     "alabaster.matrix",
@@ -11525,7 +11514,6 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "sscu": [],
   "ssviz": [
     "Rsamtools",
     "GenomicRanges"
