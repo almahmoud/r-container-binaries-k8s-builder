@@ -1,3 +1,2 @@
-AssessORF
-BANDITS
-SynExtend
+MSstatsLiP
+MSstatsShiny

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 830 (35%)
+- **Successfully Built:** 835 (36%)
 - **Failed:** 7 (0%)
-- **In Progress:** 95
-- **Not Started:** 1378
+- **In Progress:** 93
+- **Not Started:** 1375
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (830)
+## Successfully Built Packages (835)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,14 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 780 more ...*
+*... and 785 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timescape](https://bioconductor.org/packages/3.21/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
+| [transite](https://bioconductor.org/packages/3.21/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transite) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.21/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
@@ -88,16 +88,17 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (95)
+## In Progress (93)
 - ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
+- ⏳ `AssessORF`
+- ⏳ `BANDITS`
 - ⏳ `BREW3R.r`
 - ⏳ `CINdex`
 - ⏳ `CONFESS`
 - ⏳ `CSAR`
 - ⏳ `DNAshapeR`
 - ⏳ `DelayedArray`
-- ⏳ `EnrichedHeatmap`
 - ⏳ `FELLA`
 - ⏳ `G4SNVHunter`
 - ⏳ `GateFinder`
@@ -107,7 +108,6 @@
 - ⏳ `GenomicTuples`
 - ⏳ `HiCBricks`
 - ⏳ `MEDME`
-- ⏳ `MSstatsPTM`
 - ⏳ `Melissa`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
@@ -116,8 +116,8 @@
 - ⏳ `Rsamtools`
 - ⏳ `SeqArray`
 - ⏳ `SigFuge`
-- ⏳ `Site2Target`
 - ⏳ `Structstrings`
+- ⏳ `SynExtend`
 - ⏳ `SynMut`
 - ⏳ `TDbasedUFE`
 - ⏳ `TFARM`
@@ -140,9 +140,9 @@
 - ⏳ `fastseg`
 - ⏳ `flowBin`
 
-... and 45 more ...
+... and 43 more ...
 
-## Not Yet Started (1378)
+## Not Yet Started (1375)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -171,8 +171,6 @@
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `AssessORF`
-- ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -193,9 +191,11 @@
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
+- ⏸️ `BayesSpace`
+- ⏸️ `BgeeCall`
 
-... and 1328 more ...
+... and 1325 more ...
 
 ---
-*Last updated: 2025-10-31 03:21:35 UTC*
-*Packages with verified BBS status: 107*
+*Last updated: 2025-10-31 03:22:21 UTC*
+*Packages with verified BBS status: 108*

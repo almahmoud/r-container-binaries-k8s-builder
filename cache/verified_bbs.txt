@@ -84,6 +84,7 @@ timescape
 tkWidgets
 tomoseqr
 topconfects
+transite
 treeio
 trio
 tripr

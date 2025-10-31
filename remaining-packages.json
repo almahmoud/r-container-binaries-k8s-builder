@@ -1814,7 +1814,6 @@
     "enrichplot",
     "GOSemSim"
   ],
-  "EnrichedHeatmap": [],
   "EnrichmentBrowser": [
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -3156,10 +3155,7 @@
     "AnnotationFilter",
     "DelayedArray"
   ],
-  "MSstatsLiP": [
-    "MSstatsPTM"
-  ],
-  "MSstatsPTM": [],
+  "MSstatsLiP": [],
   "MSstatsQC": [
     "MSnbase",
     "PSMatch",
@@ -3179,9 +3175,7 @@
     "AnnotationFilter",
     "DelayedArray"
   ],
-  "MSstatsShiny": [
-    "MSstatsPTM"
-  ],
+  "MSstatsShiny": [],
   "MWASTools": [
     "SummarizedExperiment",
     "DelayedArray"
@@ -4944,7 +4938,6 @@
     "DelayedMatrixStats",
     "beachmat"
   ],
-  "Site2Target": [],
   "SomaticSignatures": [
     "VariantAnnotation",
     "ggbio",
@@ -9598,7 +9591,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "ncRNAtools": [],
   "nearBynding": [
     "plyranges",
     "Rsamtools",
@@ -10164,7 +10156,6 @@
     "ChIPseeker",
     "GenomicFeatures",
     "rGREAT",
-    "EnrichedHeatmap",
     "rtracklayer",
     "Rsamtools",
     "AnnotationDbi",
@@ -11953,7 +11944,6 @@
     "SingleCellExperiment",
     "h5mread"
   ],
-  "transite": [],
   "transmogR": [
     "BSgenome",
     "GenomicFeatures",

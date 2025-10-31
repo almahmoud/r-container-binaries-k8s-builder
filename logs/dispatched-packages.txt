@@ -933,3 +933,5 @@ transomics2cytoscape
 AssessORF
 BANDITS
 SynExtend
+MSstatsLiP
+MSstatsShiny
