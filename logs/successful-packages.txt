@@ -977,3 +977,6 @@ tracktables
 tRNA
 AnnotationDbi
 cyanoFilter
+GeoDiff
+SpatialDecon
+SummarizedExperiment
