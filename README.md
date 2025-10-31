@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 669 (28%)
+- **Successfully Built:** 674 (29%)
 - **Failed:** 5 (0%)
-- **In Progress:** 58
+- **In Progress:** 53
 - **Not Started:** 1578
 
 **Progress:** 29%
@@ -16,7 +16,7 @@
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (669)
+## Successfully Built Packages (674)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 619 more ...*
+*... and 624 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tanggle](https://bioconductor.org/packages/3.21/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.21/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.21/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tidysbml) |
 | [timeOmics](https://bioconductor.org/packages/3.21/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timeOmics) |
@@ -70,6 +69,7 @@
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
+| [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.21/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
@@ -86,7 +86,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (58)
+## In Progress (53)
 - ⏳ `BiGGR`
 - ⏳ `Cardinal`
 - ⏳ `CellMapper`
@@ -111,7 +111,6 @@
 - ⏳ `PhenStat`
 - ⏳ `RTopper`
 - ⏳ `RVS`
-- ⏳ `RcwlPipelines`
 - ⏳ `Rnits`
 - ⏳ `STATegRa`
 - ⏳ `Streamer`
@@ -128,17 +127,18 @@
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `islify`
 - ⏳ `ldblock`
-- ⏳ `makecdfenv`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
 - ⏳ `mzR`
-- ⏳ `progeny`
 - ⏳ `pvac`
 - ⏳ `qcmetrics`
+- ⏳ `rebook`
+- ⏳ `ribor`
+- ⏳ `roastgsa`
+- ⏳ `scde`
 
-... and 8 more ...
+... and 3 more ...
 
 ## Not Yet Started (1578)
 - ⏸️ `ACE`
@@ -195,5 +195,5 @@
 ... and 1528 more ...
 
 ---
-*Last updated: 2025-10-31 00:40:14 UTC*
-*Packages with verified BBS status: 100*
+*Last updated: 2025-10-31 00:41:03 UTC*
+*Packages with verified BBS status: 101*

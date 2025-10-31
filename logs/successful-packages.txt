@@ -667,3 +667,8 @@ netresponse
 paircompviz
 panp
 subSeq
+islify
+makecdfenv
+progeny
+RcwlPipelines
+vsn
