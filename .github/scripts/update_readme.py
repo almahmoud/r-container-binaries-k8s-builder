@@ -89,11 +89,11 @@ def check_failure_reason(log_path):
     reasons = []
     # More comprehensive error patterns with all quote types
     patterns = [
-        (r"there is no package called [\"'""'']([^\"'""'']+)[\"'""'']", "Missing R dependency"),
-        (r"dependenc(?:y|ies) [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"Warning: dependenc(?:y|ies) [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"ERROR: dependencies? [\"'""'']([^\"'""'']+)[\"'""''] (?:is|are) not available", "Missing dependency"),
-        (r"ERROR: package [\"'""'']([^\"'""'']+)[\"'""''] (?:is|was) not found", "Package not found"),
+        (r"there is no package called [\"'""''‘]([^\"'""''’]+)[\"'""''’]", "Missing R dependency"),
+        (r"dependenc(?:y|ies) [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"Warning: dependenc(?:y|ies) [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"ERROR: dependencies? [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|are) not available", "Missing dependency"),
+        (r"ERROR: package [\"'""''‘]([^\"'""''’]+)[\"'""''’] (?:is|was) not found", "Package not found"),
         (r"ERROR: System command error.*?:\n\s*([^\n]+)", "System command failed"),
         (r"Installation failed:[\r\n]+\s*([^\r\n]+)", "Installation failed"),
         (r"error: command .*? failed with exit status \d+[\r\n]+\s*([^\r\n]+)", "Command error"),
