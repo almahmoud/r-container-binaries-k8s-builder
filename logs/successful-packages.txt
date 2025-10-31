@@ -714,3 +714,6 @@ BiocCheck
 a4Classif
 MetaboCoreUtils
 roastgsa
+CNORdt
+CNORfeeder
+CNORfuzzy

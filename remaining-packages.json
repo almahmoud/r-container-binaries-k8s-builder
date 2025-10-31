@@ -1361,9 +1361,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "CNORdt": [],
-  "CNORfeeder": [],
-  "CNORfuzzy": [],
   "CNORode": [],
   "CNTools": [
     "genefilter",
