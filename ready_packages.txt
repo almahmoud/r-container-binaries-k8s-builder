@@ -1,6 +1,0 @@
-CircSeqAlignTk
-GeneTonic
-epivizr
-epivizrChart
-ideal
-pcaExplorer

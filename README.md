@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2166 (93%)
+- **Successfully Built:** 2167 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 29
-- **Not Started:** 94
+- **In Progress:** 34
+- **Not Started:** 88
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2166)
+## Successfully Built Packages (2167)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2116 more ...*
+*... and 2117 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,12 +102,13 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (29)
+## In Progress (34)
 - ⏳ `AHMassBank`
+- ⏳ `CircSeqAlignTk`
 - ⏳ `ExperimentHubData`
-- ⏳ `FRASER`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
+- ⏳ `GeneTonic`
 - ⏳ `Gviz`
 - ⏳ `RITAN`
 - ⏳ `RnBeads`
@@ -119,21 +120,25 @@
 - ⏳ `chevreulPlot`
 - ⏳ `cytofQC`
 - ⏳ `decontX`
+- ⏳ `epivizr`
+- ⏳ `epivizrChart`
 - ⏳ `ggbio`
 - ⏳ `iNETgrate`
 - ⏳ `iSEEtree`
 - ⏳ `iSEEu`
+- ⏳ `ideal`
 - ⏳ `karyoploteR`
 - ⏳ `lumi`
 - ⏳ `missMethyl`
 - ⏳ `octad`
+- ⏳ `pcaExplorer`
 - ⏳ `seqArchRplus`
 - ⏳ `shinyDSP`
 - ⏳ `singleCellTK`
 - ⏳ `vulcan`
 - ⏳ `yarn`
 
-## Not Yet Started (94)
+## Not Yet Started (88)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -144,7 +149,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `ChAMP`
-- ⏸️ `CircSeqAlignTk`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
@@ -154,7 +158,6 @@
 - ⏸️ `GNOSIS`
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
-- ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
@@ -184,9 +187,11 @@
 - ⏸️ `bioCancer`
 - ⏸️ `biomvRCNS`
 - ⏸️ `cageminer`
+- ⏸️ `canceR`
+- ⏸️ `cbaf`
 
-... and 44 more ...
+... and 38 more ...
 
 ---
-*Last updated: 2025-10-31 10:52:55 UTC*
+*Last updated: 2025-10-31 10:53:46 UTC*
 *Packages with verified BBS status: 163*
