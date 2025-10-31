@@ -441,3 +441,8 @@ brendaDb
 densvis
 MethylMix
 scRecover
+AnVILWorkflow
+DepecheR
+DNAcycP2
+NPARC
+scBubbletree

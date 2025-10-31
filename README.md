@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 443 (19%)
+- **Successfully Built:** 448 (19%)
 - **Failed:** 4 (0%)
-- **In Progress:** 41
+- **In Progress:** 36
 - **Not Started:** 1822
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (443)
+## Successfully Built Packages (448)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,6 +35,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.21/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.21/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
+| [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 | [BG2](https://bioconductor.org/packages/3.21/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.21/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BUS) |
@@ -44,9 +45,8 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.21/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.21/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.21/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocFileCache) |
-| [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 
-*... and 393 more ...*
+*... and 398 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,23 +85,19 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (41)
+## In Progress (36)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
-- ⏳ `AnVILWorkflow`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
-- ⏳ `DNAcycP2`
-- ⏳ `DepecheR`
 - ⏳ `EnMCB`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `NPARC`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
@@ -122,7 +118,6 @@
 - ⏳ `philr`
 - ⏳ `planet`
 - ⏳ `rhdf5`
-- ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
@@ -183,5 +178,5 @@
 ... and 1772 more ...
 
 ---
-*Last updated: 2025-10-31 00:15:23 UTC*
-*Packages with verified BBS status: 80*
+*Last updated: 2025-10-31 00:15:50 UTC*
+*Packages with verified BBS status: 81*
