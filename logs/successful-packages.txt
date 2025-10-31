@@ -1723,3 +1723,7 @@ splineTimeR
 alabaster.spatial
 CRISPRball
 velociraptor
+Basic4Cseq
+CODEX
+SPIAT
+SplineDV

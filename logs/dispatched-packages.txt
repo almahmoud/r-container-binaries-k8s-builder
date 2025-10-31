@@ -1916,3 +1916,4 @@ pipeComp
 scDD
 scDblFinder
 xCell2
+iCNV

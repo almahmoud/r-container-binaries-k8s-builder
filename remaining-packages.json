@@ -72,7 +72,6 @@
   "BadRegionFinder": [
     "VariantAnnotation"
   ],
-  "Basic4Cseq": [],
   "BatchQC": [],
   "BayesSpace": [],
   "BgeeCall": [
@@ -144,7 +143,6 @@
     "MIRA",
     "bsseq"
   ],
-  "CODEX": [],
   "CRISPRseek": [],
   "CSSQ": [],
   "Category": [],
@@ -798,7 +796,6 @@
     "bsseq",
     "regioneR"
   ],
-  "SPIAT": [],
   "SPLINTER": [
     "Gviz",
     "ensembldb",
@@ -831,7 +828,6 @@
   "SpatialFeatureExperiment": [],
   "SpliceWiz": [],
   "SplicingGraphs": [],
-  "SplineDV": [],
   "StructuralVariantAnnotation": [
     "VariantAnnotation"
   ],
@@ -1375,9 +1371,7 @@
   ],
   "hicVennDiagram": [],
   "hypeR": [],
-  "iCNV": [
-    "CODEX"
-  ],
+  "iCNV": [],
   "iCheck": [
     "lumi",
     "methylumi",
