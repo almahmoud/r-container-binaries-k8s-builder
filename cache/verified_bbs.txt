@@ -140,6 +140,7 @@ vmrseq
 vsclust
 vsn
 vtpnet
+vulcan
 waddR
 wavClusteR
 weaver
