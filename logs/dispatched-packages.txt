@@ -697,3 +697,8 @@ ribor
 sevenbridges
 twoddpcr
 updateObject
+CellNOptR
+Streamer
+a4Classif
+biocViews
+fgga
