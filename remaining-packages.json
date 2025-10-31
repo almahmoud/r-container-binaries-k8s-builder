@@ -302,7 +302,6 @@
     "annotate"
   ],
   "BLMA": [
-    "ROntoTools",
     "PADOG",
     "AnnotationDbi"
   ],
@@ -2376,7 +2375,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "GenomicTuples": [],
   "GeoDiff": [
     "GeomxTools",
     "NanoStringNCTools"
@@ -3162,7 +3160,6 @@
   "MeSHDbi": [
     "AnnotationDbi"
   ],
-  "Melissa": [],
   "MesKit": [
     "AnnotationDbi"
   ],
@@ -4189,7 +4186,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "ROntoTools": [],
   "RPA": [
     "phyloseq"
   ],
@@ -7999,7 +7995,6 @@
   "ggmanh": [
     "SeqArray"
   ],
-  "ggmsa": [],
   "ggsc": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -9132,7 +9127,6 @@
     "GenomicAlignments"
   ],
   "mirIntegrator": [
-    "ROntoTools",
     "AnnotationDbi"
   ],
   "missMethyl": [

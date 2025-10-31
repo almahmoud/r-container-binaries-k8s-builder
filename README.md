@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 847 (36%)
+- **Successfully Built:** 851 (36%)
 - **Failed:** 7 (0%)
-- **In Progress:** 84
-- **Not Started:** 1372
+- **In Progress:** 81
+- **Not Started:** 1371
 
-**Progress:** 36%
+**Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (847)
+## Successfully Built Packages (851)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 797 more ...*
+*... and 801 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (84)
+## In Progress (81)
 - ⏳ `AnnotationDbi`
 - ⏳ `AssessORF`
 - ⏳ `BANDITS`
@@ -96,6 +96,7 @@
 - ⏳ `CINdex`
 - ⏳ `CONFESS`
 - ⏳ `CSAR`
+- ⏳ `CompoundDb`
 - ⏳ `DNAshapeR`
 - ⏳ `DelayedArray`
 - ⏳ `FELLA`
@@ -104,14 +105,11 @@
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
-- ⏳ `GenomicTuples`
 - ⏳ `MEDME`
 - ⏳ `MSstatsLiP`
 - ⏳ `MSstatsShiny`
-- ⏳ `Melissa`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
-- ⏳ `ROntoTools`
 - ⏳ `Rsamtools`
 - ⏳ `SeqArray`
 - ⏳ `SigFuge`
@@ -139,10 +137,12 @@
 - ⏳ `fastseg`
 - ⏳ `flowBin`
 - ⏳ `flowCut`
+- ⏳ `gcrma`
+- ⏳ `geneRxCluster`
 
-... and 34 more ...
+... and 31 more ...
 
-## Not Yet Started (1372)
+## Not Yet Started (1371)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1322 more ...
+... and 1321 more ...
 
 ---
-*Last updated: 2025-10-31 03:24:27 UTC*
+*Last updated: 2025-10-31 03:25:27 UTC*
 *Packages with verified BBS status: 110*

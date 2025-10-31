@@ -845,3 +845,7 @@ AnnotationFilter
 HiCBricks
 rRDP
 transomics2cytoscape
+GenomicTuples
+ggmsa
+Melissa
+ROntoTools
