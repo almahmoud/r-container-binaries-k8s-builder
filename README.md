@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 458 (20%)
+- **Successfully Built:** 472 (21%)
 - **Failed:** 1 (0%)
-- **In Progress:** 21
+- **In Progress:** 7
 - **Not Started:** 1764
 
-**Progress:** 20%
+**Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (458)
+## Successfully Built Packages (472)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.22/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 
-*... and 408 more ...*
+*... and 422 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,28 +82,14 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (21)
-- ⏳ `BiocGenerics`
-- ⏳ `COMPASS`
+## In Progress (7)
 - ⏳ `EnMCB`
-- ⏳ `GSCA`
 - ⏳ `Harman`
-- ⏳ `HubPub`
-- ⏳ `OPWeight`
 - ⏳ `OSTA.data`
-- ⏳ `PCAN`
-- ⏳ `Polytect`
-- ⏳ `SUITOR`
 - ⏳ `SuperCellCyto`
-- ⏳ `anndataR`
-- ⏳ `biomformat`
 - ⏳ `decoupleR`
-- ⏳ `edgeR`
 - ⏳ `fgsea`
-- ⏳ `iscream`
 - ⏳ `philr`
-- ⏳ `scFeatureFilter`
-- ⏳ `scMitoMut`
 
 ## Not Yet Started (1764)
 - ⏸️ `ABarray`
@@ -160,5 +146,5 @@
 ... and 1714 more ...
 
 ---
-*Last updated: 2025-10-31 22:26:57 UTC*
+*Last updated: 2025-10-31 22:33:12 UTC*
 *Packages with verified BBS status: 87*

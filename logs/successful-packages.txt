@@ -456,3 +456,17 @@ Rigraphlib
 alevinQC
 GenProSeq
 mitch
+anndataR
+BiocGenerics
+biomformat
+COMPASS
+edgeR
+GSCA
+HubPub
+iscream
+OPWeight
+PCAN
+Polytect
+scFeatureFilter
+scMitoMut
+SUITOR
