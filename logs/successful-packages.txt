@@ -616,3 +616,10 @@ OrderedList
 RCy3
 RCyjs
 RGraph2js
+aCGH
+affy
+CGHnormaliter
+dyebias
+eiR
+RbcBook1
+S4Vectors

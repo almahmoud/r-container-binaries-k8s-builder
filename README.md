@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 618 (26%)
+- **Successfully Built:** 625 (27%)
 - **Failed:** 5 (0%)
-- **In Progress:** 46
-- **Not Started:** 1641
+- **In Progress:** 42
+- **Not Started:** 1638
 
-**Progress:** 26%
+**Progress:** 27%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (618)
+## Successfully Built Packages (625)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.21/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BEclear) |
 
-*... and 568 more ...*
+*... and 575 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,12 +86,13 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (46)
+## In Progress (42)
 - ⏳ `AIMS`
 - ⏳ `BioQC`
-- ⏳ `CGHnormaliter`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
+- ⏳ `MOGAMUN`
+- ⏳ `MSstatsBioNet`
 - ⏳ `NanoTube`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `PROPER`
@@ -102,21 +103,16 @@
 - ⏳ `RTopper`
 - ⏳ `RUVcorr`
 - ⏳ `RVS`
-- ⏳ `RbcBook1`
 - ⏳ `Rgraphviz`
 - ⏳ `Rtreemix`
-- ⏳ `S4Vectors`
 - ⏳ `SRAdb`
 - ⏳ `TMixClust`
 - ⏳ `a4Preproc`
-- ⏳ `aCGH`
-- ⏳ `affy`
 - ⏳ `anota`
 - ⏳ `bioassayR`
 - ⏳ `biobroom`
 - ⏳ `cycle`
-- ⏳ `dyebias`
-- ⏳ `eiR`
+- ⏳ `fedup`
 - ⏳ `fobitools`
 - ⏳ `ldblock`
 - ⏳ `metagenomeSeq`
@@ -134,7 +130,7 @@
 - ⏳ `subSeq`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1641)
+## Not Yet Started (1638)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -186,8 +182,8 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 
-... and 1591 more ...
+... and 1588 more ...
 
 ---
-*Last updated: 2025-10-31 00:34:59 UTC*
+*Last updated: 2025-10-31 00:35:27 UTC*
 *Packages with verified BBS status: 97*
