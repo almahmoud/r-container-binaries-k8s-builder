@@ -291,9 +291,7 @@
   "MOSClip": [
     "qpgraph"
   ],
-  "MSnID": [
-    "msmsTests"
-  ],
+  "MSnID": [],
   "MSstatsQCgui": [],
   "MetaboSignal": [
     "mygene",
@@ -365,9 +363,7 @@
   "RJMCMCNucleosomes": [
     "consensusSeekeR"
   ],
-  "RNAAgeCalc": [
-    "recount"
-  ],
+  "RNAAgeCalc": [],
   "RNAmodR": [
     "txdbmaker",
     "Gviz",
@@ -430,9 +426,7 @@
   "RnBeads": [
     "methylumi"
   ],
-  "RnaSeqSampleSize": [
-    "recount"
-  ],
+  "RnaSeqSampleSize": [],
   "Rqc": [
     "biovizBase"
   ],
@@ -852,7 +846,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "msmsTests": [],
   "multicrispr": [
     "CRISPRseek",
     "karyoploteR",
@@ -898,16 +891,13 @@
     "ChIPseeker",
     "rGREAT"
   ],
-  "psichomics": [
-    "recount"
-  ],
+  "psichomics": [],
   "qpgraph": [],
   "quantro": [],
   "rCGH": [],
   "rGADEM": [],
   "rGREAT": [],
   "raer": [],
-  "recount": [],
   "recountmethylation": [],
   "recoup": [
     "txdbmaker"
@@ -1000,7 +990,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "spiky": [],
   "spillR": [
     "CATALYST"
   ],

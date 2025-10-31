@@ -1929,3 +1929,6 @@ attract
 MethReg
 traseR
 tRNAscanImport
+msmsTests
+recount
+spiky
