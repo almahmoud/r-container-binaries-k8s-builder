@@ -1465,3 +1465,8 @@ MoleculeExperiment
 MsQuality
 nucleR
 scider
+ADImpute
+BUSseq
+GeoTcgaData
+SpotClean
+VisiumIO

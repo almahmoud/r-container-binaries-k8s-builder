@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1467 (63%)
+- **Successfully Built:** 1472 (63%)
 - **Failed:** 9 (0%)
-- **In Progress:** 157
+- **In Progress:** 152
 - **Not Started:** 677
 
-**Progress:** 63%
+**Progress:** 64%
 ```
-███████████████████████████████░░░░░░░░░░░░░░░░░░░
+████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1467)
+## Successfully Built Packages (1472)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,6 +27,7 @@
 | [ADAM](https://bioconductor.org/packages/3.21/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAM) |
 | [ADAMgui](https://bioconductor.org/packages/3.21/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
+| [ADImpute](https://bioconductor.org/packages/3.21/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADImpute) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
@@ -44,9 +45,8 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.21/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
-| [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1417 more ...*
+*... and 1422 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,15 +90,13 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (157)
-- ⏳ `ADImpute`
+## In Progress (152)
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASICS`
 - ⏳ `ASURAT`
 - ⏳ `AneuFinder`
 - ⏳ `ArrayExpress`
-- ⏳ `BUSseq`
 - ⏳ `BaalChIP`
 - ⏳ `Banksy`
 - ⏳ `BasicSTARRseq`
@@ -114,7 +112,6 @@
 - ⏳ `ExperimentSubset`
 - ⏳ `GSEABase`
 - ⏳ `GeneMeta`
-- ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `GloScope`
 - ⏳ `HIPPO`
@@ -141,8 +138,11 @@
 - ⏳ `RCSL`
 - ⏳ `RUCova`
 - ⏳ `Rbec`
+- ⏳ `SCArray.sat`
+- ⏳ `SIM`
+- ⏳ `SVP`
 
-... and 107 more ...
+... and 102 more ...
 
 ## Not Yet Started (677)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 627 more ...
 
 ---
-*Last updated: 2025-10-31 05:51:18 UTC*
-*Packages with verified BBS status: 131*
+*Last updated: 2025-10-31 05:52:59 UTC*
+*Packages with verified BBS status: 132*

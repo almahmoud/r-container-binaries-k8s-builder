@@ -1,5 +1,4 @@
 {
-  "ADImpute": [],
   "ADaCGH2": [
     "tilingArray"
   ],
@@ -137,7 +136,6 @@
     "plyranges",
     "rtracklayer"
   ],
-  "BUSseq": [],
   "BaalChIP": [],
   "BadRegionFinder": [
     "VariantAnnotation",
@@ -814,7 +812,6 @@
     "txdbmaker",
     "BSgenome"
   ],
-  "GeoTcgaData": [],
   "Glimma": [],
   "GloScope": [],
   "GlobalAncova": [
@@ -1657,7 +1654,6 @@
   "SplineDV": [
     "scuttle"
   ],
-  "SpotClean": [],
   "SpotSweeper": [
     "escheR"
   ],
@@ -1810,7 +1806,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "VisiumIO": [],
   "Voyager": [
     "SpatialFeatureExperiment",
     "DropletUtils",
@@ -1823,9 +1818,7 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "XeniumIO": [
-    "VisiumIO"
-  ],
+  "XeniumIO": [],
   "Xeva": [],
   "YAPSA": [
     "SomaticSignatures",
