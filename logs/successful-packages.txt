@@ -1837,3 +1837,8 @@ cardelino
 fcScan
 lineagespot
 rnaEditr
+decompTumor2Sig
+GA4GHshiny
+igvR
+myvariant
+PureCN

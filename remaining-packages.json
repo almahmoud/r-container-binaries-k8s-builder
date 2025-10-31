@@ -226,7 +226,6 @@
     "txdbmaker"
   ],
   "FindIT2": [],
-  "GA4GHshiny": [],
   "GARS": [
     "DaMiRseq",
     "EDASeq"
@@ -423,7 +422,6 @@
   "PhenStat": [],
   "Pigengene": [],
   "Prostar": [],
-  "PureCN": [],
   "Pviz": [
     "Gviz",
     "biovizBase"
@@ -801,7 +799,6 @@
   "dce": [],
   "debCAM": [],
   "debrowser": [],
-  "decompTumor2Sig": [],
   "decontX": [
     "celda"
   ],
@@ -958,7 +955,6 @@
     "GOstats",
     "txdbmaker"
   ],
-  "igvR": [],
   "imcRtools": [],
   "intansv": [
     "ggbio",
@@ -1101,13 +1097,10 @@
   ],
   "mumosa": [],
   "muscat": [],
-  "musicatk": [
-    "decompTumor2Sig"
-  ],
+  "musicatk": [],
   "mygene": [
     "txdbmaker"
   ],
-  "myvariant": [],
   "ncGTW": [
     "xcms"
   ],
