@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1083 (46%)
+- **Successfully Built:** 1092 (47%)
 - **Failed:** 8 (0%)
-- **In Progress:** 146
-- **Not Started:** 1073
+- **In Progress:** 149
+- **Not Started:** 1061
 
 **Progress:** 47%
 ```
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1083)
+## Successfully Built Packages (1092)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1033 more ...*
+*... and 1042 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (146)
+## In Progress (149)
 - ⏳ `AnnotationHub`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
@@ -99,8 +99,10 @@
 - ⏳ `CaDrA`
 - ⏳ `CellScore`
 - ⏳ `DESeq2`
+- ⏳ `DelayedTensor`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
+- ⏳ `EDIRquery`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
 - ⏳ `GEOquery`
@@ -111,16 +113,14 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
 - ⏳ `HERON`
+- ⏳ `HiCExperiment`
+- ⏳ `HiCParser`
+- ⏳ `HiCcompare`
 - ⏳ `IFAA`
 - ⏳ `IgGeneUsage`
-- ⏳ `IsoBayes`
-- ⏳ `LimROTS`
-- ⏳ `MAI`
-- ⏳ `MBASED`
-- ⏳ `MBQN`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
-- ⏳ `MPRAnalyze`
+- ⏳ `MOFA2`
 - ⏳ `MWASTools`
 - ⏳ `Macarron`
 - ⏳ `MesKit`
@@ -136,14 +136,14 @@
 - ⏳ `OVESEG`
 - ⏳ `PADOG`
 - ⏳ `PCAtools`
-- ⏳ `PeacoQC`
 - ⏳ `PhosR`
 - ⏳ `RTNduals`
 - ⏳ `ReactomeGSA`
+- ⏳ `SVMDO`
 
-... and 96 more ...
+... and 99 more ...
 
-## Not Yet Started (1073)
+## Not Yet Started (1061)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 
-... and 1023 more ...
+... and 1011 more ...
 
 ---
-*Last updated: 2025-10-31 04:12:13 UTC*
+*Last updated: 2025-10-31 04:14:14 UTC*
 *Packages with verified BBS status: 120*

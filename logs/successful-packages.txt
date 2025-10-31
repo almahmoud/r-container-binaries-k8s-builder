@@ -1081,3 +1081,12 @@ InteractionSet
 PhIPData
 satuRn
 yamss
+combi
+IsoBayes
+LimROTS
+MAI
+MBASED
+MBQN
+MPRAnalyze
+PeacoQC
+smartid

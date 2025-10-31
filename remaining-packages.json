@@ -738,21 +738,18 @@
   ],
   "CytoMDS": [
     "CytoPipeline",
-    "ggcyto",
-    "PeacoQC"
+    "ggcyto"
   ],
   "CytoML": [
     "openCyto",
     "ggcyto"
   ],
   "CytoPipeline": [
-    "ggcyto",
-    "PeacoQC"
+    "ggcyto"
   ],
   "CytoPipelineGUI": [
     "CytoPipeline",
-    "ggcyto",
-    "PeacoQC"
+    "ggcyto"
   ],
   "DAMEfinder": [
     "GenomicAlignments",
@@ -1580,7 +1577,6 @@
   "InterCellar": [
     "biomaRt"
   ],
-  "IsoBayes": [],
   "IsoformSwitchAnalyzeR": [
     "DEXSeq",
     "sva",
@@ -1623,7 +1619,6 @@
   "Lheuristic": [
     "MultiAssayExperiment"
   ],
-  "LimROTS": [],
   "LinkHD": [
     "MultiAssayExperiment"
   ],
@@ -1660,7 +1655,6 @@
     "GEOquery",
     "GenomicAlignments"
   ],
-  "MAI": [],
   "MAIT": [
     "CAMERA",
     "xcms",
@@ -1674,13 +1668,11 @@
   "MAST": [
     "SingleCellExperiment"
   ],
-  "MBASED": [],
   "MBECS": [
     "sva",
     "genefilter",
     "annotate"
   ],
-  "MBQN": [],
   "MCbiclust": [],
   "MDTS": [
     "GenomicAlignments"
@@ -1796,7 +1788,6 @@
     "scran",
     "scuttle"
   ],
-  "MPRAnalyze": [],
   "MSPrep": [
     "sva",
     "genefilter",
@@ -2230,7 +2221,6 @@
   "PathoStat": [
     "DESeq2"
   ],
-  "PeacoQC": [],
   "PharmacoGx": [
     "CoreGx",
     "MultiAssayExperiment"
@@ -3878,7 +3868,6 @@
     "GenomicAlignments",
     "VariantAnnotation"
   ],
-  "combi": [],
   "compEpiTools": [
     "topGO",
     "GenomicFeatures",
@@ -6548,7 +6537,6 @@
     "TrajectoryUtils",
     "SingleCellExperiment"
   ],
-  "smartid": [],
   "smoothclust": [
     "SpatialExperiment",
     "SingleCellExperiment"
