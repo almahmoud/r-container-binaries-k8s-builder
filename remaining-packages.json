@@ -55,7 +55,6 @@
     "MultiAssayExperiment",
     "AnnotationHub",
     "ExperimentHub",
-    "HDF5Array",
     "SummarizedExperiment",
     "GenomicRanges",
     "AnnotationDbi"
@@ -120,7 +119,6 @@
     "universalmotif",
     "ensembldb",
     "AnnotationHub",
-    "HDF5Array",
     "TFBSTools",
     "AnnotationFilter"
   ],
@@ -244,7 +242,6 @@
     "scuttle",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "HDF5Array",
     "BiocSingular",
     "GenomicRanges"
   ],
@@ -424,7 +421,6 @@
   "BgeeDB": [
     "topGO",
     "zellkonverter",
-    "HDF5Array",
     "AnnotationDbi",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -747,7 +743,6 @@
     "bsseq",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -890,7 +885,6 @@
   ],
   "Cepo": [
     "GSEABase",
-    "HDF5Array",
     "SingleCellExperiment",
     "SummarizedExperiment",
     "annotate",
@@ -929,7 +923,6 @@
     "rtracklayer",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "methylumi",
     "lumi",
     "BSgenome",
@@ -1174,7 +1167,6 @@
   "CuratedAtlasQueryR": [
     "SummarizedExperiment",
     "SingleCellExperiment",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "CyTOFpower": [
@@ -1340,7 +1332,6 @@
     "biomaRt",
     "AnnotationDbi",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "GenomicFeatures",
     "ensembldb",
@@ -1387,7 +1378,6 @@
     "SingleCellExperiment",
     "GenomicRanges",
     "SummarizedExperiment",
-    "HDF5Array",
     "scuttle",
     "BiocSingular",
     "scran",
@@ -1404,7 +1394,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -1453,7 +1442,6 @@
     "GenomicRanges",
     "genefilter",
     "BSgenome",
-    "HDF5Array",
     "AnnotationDbi",
     "annotate",
     "rtracklayer",
@@ -1511,7 +1499,6 @@
     "biomaRt"
   ],
   "DelayedTensor": [
-    "HDF5Array",
     "BiocSingular"
   ],
   "DiffBind": [
@@ -1562,7 +1549,6 @@
     "SingleCellExperiment",
     "GenomicRanges",
     "SummarizedExperiment",
-    "HDF5Array",
     "scuttle"
   ],
   "DrugVsDisease": [
@@ -1642,7 +1628,6 @@
     "globaltest",
     "safe",
     "annotate",
-    "HDF5Array",
     "SummarizedExperiment",
     "GSEABase",
     "SingleCellExperiment",
@@ -1691,7 +1676,6 @@
     "GenomicRanges",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "rtracklayer",
     "Rsamtools",
@@ -1868,7 +1852,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "GenomicRanges",
-    "HDF5Array",
     "OUTRIDER",
     "rtracklayer",
     "DESeq2",
@@ -2097,7 +2080,6 @@
     "SummarizedExperiment"
   ],
   "GSVA": [
-    "HDF5Array",
     "SummarizedExperiment",
     "GSEABase",
     "SingleCellExperiment",
@@ -2252,7 +2234,6 @@
   "GenomicScores": [
     "GenomicRanges",
     "AnnotationHub",
-    "HDF5Array",
     "AnnotationDbi"
   ],
   "GenomicSuperSignature": [
@@ -2333,7 +2314,6 @@
     "VariantAnnotation",
     "AnnotationFilter"
   ],
-  "HDF5Array": [],
   "HERON": [
     "SummarizedExperiment",
     "GenomicRanges"
@@ -2698,8 +2678,7 @@
   "LoomExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "LymphoSeq": [],
   "M3Drop": [
@@ -2716,7 +2695,6 @@
     "AnnotationDbi"
   ],
   "MAGAR": [
-    "HDF5Array",
     "RnBeads",
     "crlmm",
     "oligoClasses",
@@ -2799,7 +2777,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "methylumi",
     "sva",
     "VariantAnnotation",
@@ -2814,7 +2791,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "methylumi",
     "lumi",
     "GenomicFeatures",
@@ -2867,7 +2843,6 @@
     "bsseq",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -2910,9 +2885,7 @@
   "MODA": [
     "AnnotationDbi"
   ],
-  "MOFA2": [
-    "HDF5Array"
-  ],
+  "MOFA2": [],
   "MOMA": [
     "MultiAssayExperiment",
     "SummarizedExperiment",
@@ -3003,7 +2976,6 @@
     "AnnotationFilter",
     "GenomicRanges"
   ],
-  "MSstatsShiny": [],
   "MWASTools": [
     "SummarizedExperiment",
     "GenomicRanges"
@@ -3102,7 +3074,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -3153,7 +3124,6 @@
     "SummarizedExperiment",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -3337,7 +3307,6 @@
     "universalmotif",
     "ensembldb",
     "AnnotationHub",
-    "HDF5Array",
     "biovizBase",
     "TFBSTools",
     "VariantAnnotation",
@@ -3359,7 +3328,6 @@
     "GenomicRanges",
     "Rsamtools",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "GenomicAlignments"
   ],
@@ -3845,7 +3813,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicAlignments",
     "GenomicFeatures",
     "annotate"
@@ -3874,7 +3841,6 @@
     "GOSemSim",
     "DESeq2",
     "HTSFilter",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "RITAN": [
@@ -3885,7 +3851,6 @@
     "GenomicRanges",
     "topGO",
     "zellkonverter",
-    "HDF5Array",
     "AnnotationDbi",
     "rtracklayer",
     "Rsamtools",
@@ -4085,7 +4050,6 @@
     "Rsamtools",
     "AnnotationDbi",
     "AnnotationHub",
-    "HDF5Array",
     "GenomicAlignments"
   ],
   "Rbec": [
@@ -4266,7 +4230,6 @@
     "rtracklayer",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -4451,7 +4414,6 @@
     "regioneR",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -4685,7 +4647,6 @@
     "SpatialExperimentIO",
     "SingleCellExperiment",
     "GenomicRanges",
-    "HDF5Array",
     "BiocSingular"
   ],
   "Spaniel": [
@@ -4695,7 +4656,6 @@
     "scran",
     "DropletUtils",
     "GenomicRanges",
-    "HDF5Array",
     "scuttle",
     "BiocSingular"
   ],
@@ -4726,7 +4686,6 @@
     "SingleCellExperiment",
     "GenomicRanges",
     "SummarizedExperiment",
-    "HDF5Array",
     "scuttle"
   ],
   "SpatialFeatureExperiment": [
@@ -4735,7 +4694,6 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "GenomicRanges",
-    "HDF5Array",
     "scuttle"
   ],
   "SpatialOmicsOverlay": [
@@ -4753,7 +4711,6 @@
     "BSgenome",
     "genefilter",
     "GenomicRanges",
-    "HDF5Array",
     "rtracklayer",
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -4859,7 +4816,6 @@
     "SummarizedExperiment",
     "sva",
     "GenomicRanges",
-    "HDF5Array",
     "GSEABase",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -4938,8 +4894,7 @@
   "TENxIO": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "TEQC": [
     "Rsamtools",
@@ -5229,7 +5184,6 @@
     "Gviz",
     "rtracklayer",
     "AnnotationHub",
-    "HDF5Array",
     "biomaRt",
     "ensembldb",
     "biovizBase",
@@ -5263,8 +5217,7 @@
     "SingleCellExperiment",
     "SpatialExperiment",
     "SummarizedExperiment",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "Voyager": [
     "SpatialFeatureExperiment",
@@ -5273,7 +5226,6 @@
     "SummarizedExperiment",
     "GenomicRanges",
     "DropletUtils",
-    "HDF5Array",
     "scuttle"
   ],
   "VplotR": [
@@ -5298,8 +5250,7 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "VisiumIO",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "Xeva": [
     "PharmacoGx",
@@ -5410,7 +5361,6 @@
     "alabaster.vcf",
     "alabaster.mae",
     "MultiAssayExperiment",
-    "HDF5Array",
     "GenomicRanges",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -5433,12 +5383,9 @@
     "SummarizedExperiment",
     "alabaster.ranges",
     "alabaster.matrix",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
-  "alabaster.matrix": [
-    "HDF5Array"
-  ],
+  "alabaster.matrix": [],
   "alabaster.ranges": [
     "GenomicRanges"
   ],
@@ -5448,15 +5395,13 @@
     "SummarizedExperiment",
     "alabaster.ranges",
     "alabaster.matrix",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "alabaster.se": [
     "SummarizedExperiment",
     "alabaster.ranges",
     "alabaster.matrix",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
@@ -5470,7 +5415,6 @@
     "DropletUtils",
     "alabaster.ranges",
     "alabaster.matrix",
-    "HDF5Array",
     "scuttle"
   ],
   "alabaster.spatial": [
@@ -5481,8 +5425,7 @@
     "SummarizedExperiment",
     "alabaster.ranges",
     "alabaster.matrix",
-    "GenomicRanges",
-    "HDF5Array"
+    "GenomicRanges"
   ],
   "alabaster.vcf": [
     "VariantAnnotation",
@@ -5496,7 +5439,6 @@
     "rtracklayer",
     "BSgenome",
     "GenomicFeatures",
-    "HDF5Array",
     "GenomicAlignments"
   ],
   "anansi": [
@@ -5565,7 +5507,6 @@
     "rtracklayer",
     "AnnotationDbi",
     "AnnotationHub",
-    "HDF5Array",
     "OrganismDbi",
     "GenomicAlignments"
   ],
@@ -5582,7 +5523,6 @@
     "genefilter",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -5696,9 +5636,7 @@
   "baySeq": [
     "GenomicRanges"
   ],
-  "beachmat.hdf5": [
-    "HDF5Array"
-  ],
+  "beachmat.hdf5": [],
   "beachmat.tiledb": [],
   "bedbaser": [
     "GenomicRanges",
@@ -5732,7 +5670,6 @@
     "AnnotationDbi",
     "GenomicFeatures",
     "bumphunter",
-    "HDF5Array",
     "lumi",
     "rtracklayer",
     "Rsamtools",
@@ -5809,7 +5746,6 @@
   ],
   "biscuiteer": [
     "bsseq",
-    "HDF5Array",
     "Rsamtools",
     "GenomicRanges",
     "VariantAnnotation",
@@ -5869,7 +5805,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -5884,7 +5819,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -6105,9 +6039,7 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "chihaya": [
-    "HDF5Array"
-  ],
+  "chihaya": [],
   "chimeraviz": [
     "GenomicRanges",
     "Gviz",
@@ -6239,7 +6171,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "BiocSingular",
-    "HDF5Array",
     "zinbwave",
     "mbkmeans",
     "GenomicRanges",
@@ -6361,7 +6292,6 @@
     "GSVA",
     "genefu",
     "biomaRt",
-    "HDF5Array",
     "SummarizedExperiment",
     "GSEABase",
     "SingleCellExperiment",
@@ -6386,7 +6316,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments",
     "GenomicFeatures",
@@ -6612,7 +6541,6 @@
   "cytomapper": [
     "SingleCellExperiment",
     "SpatialExperiment",
-    "HDF5Array",
     "SummarizedExperiment",
     "GenomicRanges"
   ],
@@ -6621,7 +6549,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "SpatialExperiment",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "dada2": [
@@ -6656,7 +6583,6 @@
     "GenomicRanges",
     "BiocSingular"
   ],
-  "ddPCRclust": [],
   "debrowser": [
     "annotate",
     "AnnotationDbi",
@@ -6704,7 +6630,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -6846,7 +6771,6 @@
     "regioneR",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -7012,7 +6936,6 @@
     "OrganismDbi",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "VariantAnnotation",
     "annotate"
   ],
@@ -7199,7 +7122,6 @@
     "rtracklayer",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -7225,7 +7147,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "flowCut": [],
   "flowGate": [
     "flowWorkspace",
     "ggcyto"
@@ -7254,7 +7175,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -7457,7 +7377,6 @@
     "AnnotationDbi"
   ],
   "glmGamPoi": [
-    "HDF5Array",
     "SummarizedExperiment",
     "SingleCellExperiment",
     "GenomicRanges"
@@ -7641,7 +7560,6 @@
     "genefilter",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -7789,7 +7707,6 @@
     "scuttle",
     "cytomapper",
     "SingleCellExperiment",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "immApex": [
@@ -7886,7 +7803,6 @@
     "SummarizedExperiment",
     "bsseq",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -7916,7 +7832,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "glmGamPoi",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "limpca": [
@@ -7968,7 +7883,6 @@
     "ClassifyR",
     "MultiAssayExperiment",
     "genefilter",
-    "HDF5Array",
     "AnnotationDbi",
     "annotate"
   ],
@@ -7992,7 +7906,6 @@
     "genefilter",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -8040,7 +7953,6 @@
     "GenomicRanges",
     "InteractionSet",
     "plyranges",
-    "HDF5Array",
     "SummarizedExperiment",
     "plotgardener",
     "rtracklayer",
@@ -8142,8 +8054,7 @@
     "bsseq",
     "ShortRead",
     "annotate",
-    "BSgenome",
-    "HDF5Array"
+    "BSgenome"
   ],
   "methInheritSim": [
     "methylKit",
@@ -8164,7 +8075,6 @@
     "annotatr",
     "BSgenome",
     "ExperimentHub",
-    "HDF5Array",
     "rtracklayer",
     "AnnotationDbi",
     "GenomicFeatures",
@@ -8175,7 +8085,6 @@
   "methrix": [
     "SummarizedExperiment",
     "rtracklayer",
-    "HDF5Array",
     "BSgenome",
     "GenomicRanges",
     "Rsamtools",
@@ -8194,7 +8103,6 @@
     "genefilter",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -8219,7 +8127,6 @@
     "GenomicFeatures",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -8263,7 +8170,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "BSgenome",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -8278,7 +8184,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "AnnotationDbi",
     "GenomicFeatures",
     "AnnotationHubData",
@@ -8304,7 +8209,6 @@
     "rtracklayer",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -8443,7 +8347,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -8465,7 +8368,6 @@
     "GenomicFeatures",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -8798,7 +8700,6 @@
     "clusterExperiment",
     "SummarizedExperiment",
     "SingleCellExperiment",
-    "HDF5Array",
     "BiocSingular",
     "zinbwave",
     "mbkmeans",
@@ -8879,7 +8780,6 @@
     "Rsamtools",
     "biomaRt",
     "GenomicFeatures",
-    "HDF5Array",
     "GSEABase",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -8977,7 +8877,6 @@
     "GSVA",
     "annotate",
     "AnnotationDbi",
-    "HDF5Array",
     "SummarizedExperiment",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -8988,7 +8887,6 @@
     "SummarizedExperiment",
     "AnnotationHub",
     "ExperimentHub",
-    "HDF5Array",
     "AnnotationDbi",
     "GenomicRanges"
   ],
@@ -9071,7 +8969,6 @@
   "pathMED": [
     "GSVA",
     "singscore",
-    "HDF5Array",
     "SummarizedExperiment",
     "GSEABase",
     "SingleCellExperiment",
@@ -9298,7 +9195,6 @@
     "TFBSTools",
     "BSgenome",
     "AnnotationHub",
-    "HDF5Array",
     "biomaRt",
     "AnnotationDbi",
     "GenomicFeatures",
@@ -9437,7 +9333,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -9540,7 +9435,6 @@
   ],
   "recountmethylation": [
     "minfi",
-    "HDF5Array",
     "GenomicRanges",
     "SummarizedExperiment",
     "bumphunter",
@@ -9788,13 +9682,11 @@
     "SummarizedExperiment",
     "DropletUtils",
     "GenomicRanges",
-    "HDF5Array",
     "scuttle"
   ],
   "scClassify": [
     "Cepo",
     "GSEABase",
-    "HDF5Array",
     "SingleCellExperiment",
     "SummarizedExperiment",
     "annotate",
@@ -9904,7 +9796,6 @@
     "Rsamtools",
     "rtracklayer",
     "SummarizedExperiment",
-    "HDF5Array",
     "scuttle"
   ],
   "scRNAseqApp": [
@@ -10056,7 +9947,6 @@
     "BSgenome",
     "annotatr",
     "SummarizedExperiment",
-    "HDF5Array",
     "AnnotationDbi",
     "GenomicFeatures",
     "regioneR",
@@ -10249,7 +10139,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -10265,7 +10154,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments",
     "GenomicFeatures",
@@ -10280,7 +10168,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "ExperimentHub",
-    "HDF5Array",
     "clusterProfiler",
     "DOSE",
     "GSEABase",
@@ -10314,7 +10201,6 @@
     "AnnotationFilter",
     "rtracklayer",
     "Rsamtools",
-    "HDF5Array",
     "GSEABase",
     "SingleCellExperiment",
     "BiocSingular",
@@ -10333,7 +10219,6 @@
     "cytomapper",
     "SingleCellExperiment",
     "SpatialExperiment",
-    "HDF5Array",
     "GenomicRanges"
   ],
   "simplifyEnrichment": [
@@ -10369,7 +10254,6 @@
     "alabaster.matrix",
     "alabaster.se",
     "GenomicRanges",
-    "HDF5Array",
     "GenomicFeatures",
     "AnnotationFilter",
     "rtracklayer",
@@ -10413,7 +10297,6 @@
     "GenomicFeatures",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "lumi",
     "rtracklayer",
     "Rsamtools",
@@ -10519,7 +10402,6 @@
     "genefilter",
     "cytomapper",
     "GenomicRanges",
-    "HDF5Array",
     "AnnotationDbi",
     "annotate"
   ],
@@ -10613,7 +10495,6 @@
     "SingleCellExperiment",
     "SpatialExperiment",
     "GenomicRanges",
-    "HDF5Array",
     "scuttle",
     "AnnotationDbi",
     "biomaRt",
@@ -10921,7 +10802,6 @@
   "transformGamPoi": [
     "glmGamPoi",
     "SummarizedExperiment",
-    "HDF5Array",
     "SingleCellExperiment",
     "GenomicRanges"
   ],
@@ -11044,7 +10924,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "GenomicRanges",
-    "HDF5Array",
     "scuttle",
     "AnnotationHub",
     "scater",
@@ -11065,7 +10944,6 @@
   "vmrseq": [
     "bumphunter",
     "GenomicRanges",
-    "HDF5Array",
     "SummarizedExperiment",
     "GenomicFeatures",
     "AnnotationDbi",
@@ -11138,7 +11016,6 @@
     "rtracklayer",
     "bumphunter",
     "GEOquery",
-    "HDF5Array",
     "Rsamtools",
     "GenomicAlignments"
   ],
@@ -11199,7 +11076,6 @@
   "xenLite": [
     "SpatialExperiment",
     "SummarizedExperiment",
-    "HDF5Array",
     "SingleCellExperiment",
     "TENxIO",
     "GenomicRanges"
@@ -11218,7 +11094,6 @@
     "bumphunter",
     "genefilter",
     "GEOquery",
-    "HDF5Array",
     "GenomicFeatures",
     "annotate",
     "rtracklayer",

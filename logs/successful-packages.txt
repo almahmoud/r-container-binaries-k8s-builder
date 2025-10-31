@@ -858,3 +858,7 @@ phantasusLite
 flowMerge
 flowBin
 GateFinder
+ddPCRclust
+flowCut
+HDF5Array
+MSstatsShiny

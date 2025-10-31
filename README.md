@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 860 (38%)
+- **Successfully Built:** 864 (38%)
 - **Failed:** 1 (0%)
-- **In Progress:** 22
+- **In Progress:** 18
 - **Not Started:** 1361
 
 **Progress:** 38%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (860)
+## Successfully Built Packages (864)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 810 more ...*
+*... and 814 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,20 +82,16 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (22)
+## In Progress (18)
 - ⏳ `AnnotationDbi`
 - ⏳ `BiocSingular`
 - ⏳ `CONFESS`
 - ⏳ `FELLA`
 - ⏳ `GenomicRanges`
-- ⏳ `HDF5Array`
 - ⏳ `LymphoSeq`
-- ⏳ `MSstatsShiny`
 - ⏳ `NanoStringNCTools`
 - ⏳ `beachmat.tiledb`
 - ⏳ `cyanoFilter`
-- ⏳ `ddPCRclust`
-- ⏳ `flowCut`
 - ⏳ `flowWorkspace`
 - ⏳ `odseq`
 - ⏳ `phyloseq`
@@ -161,5 +157,5 @@
 ... and 1311 more ...
 
 ---
-*Last updated: 2025-10-31 23:55:06 UTC*
+*Last updated: 2025-10-31 23:55:43 UTC*
 *Packages with verified BBS status: 106*
