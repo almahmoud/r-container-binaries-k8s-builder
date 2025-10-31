@@ -867,3 +867,4 @@ scPCA
 affyILM
 affyPLM
 maskBAD
+procoil

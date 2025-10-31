@@ -8387,7 +8387,6 @@
     "GenomicFeatures",
     "cigarillo"
   ],
-  "kebabs": [],
   "keggorthology": [
     "AnnotationDbi"
   ],
@@ -9476,8 +9475,7 @@
     "cigarillo"
   ],
   "odseq": [
-    "msa",
-    "kebabs"
+    "msa"
   ],
   "oligo": [
     "oligoClasses",
@@ -9951,9 +9949,7 @@
     "SummarizedExperiment",
     "GenomicRanges"
   ],
-  "procoil": [
-    "kebabs"
-  ],
+  "procoil": [],
   "projectR": [
     "SingleCellExperiment",
     "SummarizedExperiment",
