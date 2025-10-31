@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1476 (63%)
+- **Successfully Built:** 1500 (64%)
 - **Failed:** 9 (0%)
-- **In Progress:** 151
+- **In Progress:** 127
 - **Not Started:** 674
 
-**Progress:** 64%
+**Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1476)
+## Successfully Built Packages (1500)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.21/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADImpute) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.21/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ALDEx2) |
+| [AMARETTO](https://bioconductor.org/packages/3.21/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMARETTO) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.21/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANF) |
@@ -44,9 +45,8 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.21/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
-| [AlpsNMR](https://bioconductor.org/packages/3.21/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlpsNMR) |
 
-*... and 1426 more ...*
+*... and 1450 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,16 +90,10 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (151)
-- ⏳ `AMARETTO`
+## In Progress (127)
 - ⏳ `APL`
 - ⏳ `ASURAT`
 - ⏳ `AneuFinder`
-- ⏳ `ArrayExpress`
-- ⏳ `BaalChIP`
-- ⏳ `Banksy`
-- ⏳ `BasicSTARRseq`
-- ⏳ `CDI`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DifferentialRegulation`
@@ -110,7 +104,6 @@
 - ⏳ `EnrichDO`
 - ⏳ `ExperimentSubset`
 - ⏳ `GSEABase`
-- ⏳ `GeneMeta`
 - ⏳ `Glimma`
 - ⏳ `GloScope`
 - ⏳ `HIPPO`
@@ -136,13 +129,20 @@
 - ⏳ `PathoStat`
 - ⏳ `RCSL`
 - ⏳ `RUCova`
-- ⏳ `SCArray.sat`
 - ⏳ `SIM`
 - ⏳ `SVP`
 - ⏳ `SemDist`
 - ⏳ `SeqGSEA`
+- ⏳ `Statial`
+- ⏳ `TCC`
+- ⏳ `XeniumIO`
+- ⏳ `Xeva`
+- ⏳ `a4Base`
+- ⏳ `amplican`
+- ⏳ `animalcules`
+- ⏳ `annmap`
 
-... and 101 more ...
+... and 77 more ...
 
 ## Not Yet Started (674)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 624 more ...
 
 ---
-*Last updated: 2025-10-31 05:54:38 UTC*
-*Packages with verified BBS status: 133*
+*Last updated: 2025-10-31 05:59:21 UTC*
+*Packages with verified BBS status: 134*
