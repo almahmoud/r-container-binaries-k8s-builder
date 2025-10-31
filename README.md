@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 858 (38%)
+- **Successfully Built:** 860 (38%)
 - **Failed:** 1 (0%)
-- **In Progress:** 23
-- **Not Started:** 1362
+- **In Progress:** 22
+- **Not Started:** 1361
 
 **Progress:** 38%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (858)
+## Successfully Built Packages (860)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 808 more ...*
+*... and 810 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,11 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (23)
+## In Progress (22)
 - ⏳ `AnnotationDbi`
 - ⏳ `BiocSingular`
+- ⏳ `CONFESS`
 - ⏳ `FELLA`
-- ⏳ `GateFinder`
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
 - ⏳ `LymphoSeq`
@@ -95,7 +95,6 @@
 - ⏳ `beachmat.tiledb`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
-- ⏳ `flowBin`
 - ⏳ `flowCut`
 - ⏳ `flowWorkspace`
 - ⏳ `odseq`
@@ -107,7 +106,7 @@
 - ⏳ `sketchR`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1362)
+## Not Yet Started (1361)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -159,8 +158,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1312 more ...
+... and 1311 more ...
 
 ---
-*Last updated: 2025-10-31 23:54:30 UTC*
+*Last updated: 2025-10-31 23:55:06 UTC*
 *Packages with verified BBS status: 106*

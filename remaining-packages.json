@@ -2130,7 +2130,6 @@
     "GenomicRanges",
     "AnnotationDbi"
   ],
-  "GateFinder": [],
   "GeneBreak": [
     "QDNAseq",
     "GenomicRanges",
@@ -7226,7 +7225,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "flowBin": [],
   "flowCut": [],
   "flowGate": [
     "flowWorkspace",

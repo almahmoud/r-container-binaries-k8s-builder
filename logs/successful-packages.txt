@@ -856,3 +856,5 @@ flowTrans
 motifcounter
 phantasusLite
 flowMerge
+flowBin
+GateFinder
