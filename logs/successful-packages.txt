@@ -682,3 +682,12 @@ MetaboCoreUtils
 MSstatsBioNet
 OncoSimulR
 SRAdb
+affyContam
+BiocCheck
+CRImage
+ExiMiR
+fedup
+mbQTL
+nondetects
+scde
+TurboNorm

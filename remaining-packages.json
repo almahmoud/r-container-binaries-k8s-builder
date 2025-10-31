@@ -82,7 +82,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "Seqinfo",
@@ -397,7 +396,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "Seqinfo",
@@ -984,7 +982,6 @@
     "XVector",
     "Biostrings"
   ],
-  "BiocCheck": [],
   "BiocHubsShiny": [
     "AnnotationHub",
     "ExperimentHub",
@@ -1558,7 +1555,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "CRImage": [],
   "CSAR": [
     "IRanges",
     "Seqinfo",
@@ -3549,7 +3545,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "ExiMiR": [],
   "ExperimentHub": [
     "AnnotationHub",
     "AnnotationDbi",
@@ -3568,7 +3563,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
     "Seqinfo",
@@ -10166,7 +10160,6 @@
     "SparseArray",
     "XVector"
   ],
-  "TurboNorm": [],
   "UCell": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -10694,7 +10687,6 @@
     "SparseArray",
     "XVector"
   ],
-  "affyContam": [],
   "affyILM": [
     "gcrma",
     "XVector",
@@ -11128,7 +11120,6 @@
     "cigarillo"
   ],
   "arrayMvout": [
-    "affyContam",
     "lumi",
     "methylumi",
     "GenomicFeatures",
@@ -14237,7 +14228,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "fedup": [],
   "ffpe": [
     "lumi",
     "methylumi",
@@ -14541,9 +14531,7 @@
     "SparseArray",
     "XVector"
   ],
-  "gDRstyle": [
-    "BiocCheck"
-  ],
+  "gDRstyle": [],
   "gDRutils": [
     "BumpyMatrix",
     "MultiAssayExperiment",
@@ -16143,7 +16131,6 @@
     "Biostrings",
     "XVector"
   ],
-  "mbQTL": [],
   "mbkmeans": [
     "DelayedArray",
     "SingleCellExperiment",
@@ -16295,7 +16282,6 @@
     "SummarizedExperiment",
     "AnnotationHub",
     "annotatr",
-    "BiocCheck",
     "Biostrings",
     "BSgenome",
     "DelayedArray",
@@ -16517,7 +16503,6 @@
     "KEGGREST",
     "Rsamtools",
     "rtracklayer",
-    "BiocCheck",
     "GenomeInfoDb",
     "OrganismDbi",
     "AnnotationForge",
@@ -17600,7 +17585,6 @@
     "SparseArray",
     "XVector"
   ],
-  "nondetects": [],
   "normr": [
     "GenomeInfoDb",
     "GenomicRanges",
@@ -20077,7 +20061,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "scde": [],
   "scds": [
     "SingleCellExperiment",
     "SummarizedExperiment",
