@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2237 (96%)
+- **Successfully Built:** 2239 (96%)
 - **Failed:** 23 (0%)
-- **In Progress:** 37
-- **Not Started:** 13
+- **In Progress:** 36
+- **Not Started:** 12
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2237)
+## Successfully Built Packages (2239)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2187 more ...*
+*... and 2189 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,7 +104,7 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (37)
+## In Progress (36)
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
 - ⏳ `CNViz`
@@ -114,9 +114,9 @@
 - ⏳ `MineICA`
 - ⏳ `NADfinder`
 - ⏳ `R3CPET`
-- ⏳ `RNAmodR.ML`
 - ⏳ `ReportingTools`
 - ⏳ `RnBeads`
+- ⏳ `YAPSA`
 - ⏳ `arrayMvout`
 - ⏳ `cageminer`
 - ⏳ `chevreulShiny`
@@ -140,10 +140,9 @@
 - ⏳ `scTreeViz`
 - ⏳ `scruff`
 - ⏳ `spatzie`
-- ⏳ `uncoverappLib`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (13)
+## Not Yet Started (12)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
@@ -152,12 +151,11 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `PING`
-- ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `bigmelon`
 - ⏸️ `methylGSA`
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:39:19 UTC*
+*Last updated: 2025-10-31 11:40:16 UTC*
 *Packages with verified BBS status: 168*
