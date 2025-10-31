@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 2266 (98%)
 - **Failed:** 23 (0%)
-- **In Progress:** 13
-- **Not Started:** 8
+- **In Progress:** 14
+- **Not Started:** 7
 
 **Progress:** 99%
 ```
@@ -104,11 +104,12 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (13)
+## In Progress (14)
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
 - ⏳ `DMRcate`
 - ⏳ `GeneTonic`
+- ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `NADfinder`
 - ⏳ `YAPSA`
@@ -119,16 +120,15 @@
 - ⏳ `scTreeViz`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (8)
+## Not Yet Started (7)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `ChAMP`
 - ⏸️ `GeDi`
-- ⏸️ `MAGAR`
 - ⏸️ `MEAT`
 - ⏸️ `PING`
 - ⏸️ `bigmelon`
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:57:25 UTC*
+*Last updated: 2025-10-31 11:58:04 UTC*
 *Packages with verified BBS status: 168*
