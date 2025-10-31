@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 868 (38%)
+- **Successfully Built:** 872 (38%)
 - **Failed:** 1 (0%)
-- **In Progress:** 19
-- **Not Started:** 1356
+- **In Progress:** 80
+- **Not Started:** 1291
 
 **Progress:** 38%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (868)
+## Successfully Built Packages (872)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 818 more ...*
+*... and 822 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,28 +82,61 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (19)
+## In Progress (80)
 - ⏳ `AnnotationDbi`
+- ⏳ `AnnotationFilter`
+- ⏳ `AssessORF`
+- ⏳ `BREW3R.r`
+- ⏳ `BiFET`
+- ⏳ `CNVMetrics`
 - ⏳ `CONFESS`
-- ⏳ `FELLA`
+- ⏳ `CSAR`
+- ⏳ `DMRScan`
+- ⏳ `DNAshapeR`
+- ⏳ `DRIMSeq`
+- ⏳ `DelayedTensor`
+- ⏳ `EnrichedHeatmap`
+- ⏳ `GMRP`
+- ⏳ `GenomAutomorphism`
+- ⏳ `GenomicDataCommons`
+- ⏳ `GenomicDistributions`
+- ⏳ `GenomicTuples`
 - ⏳ `GeomxTools`
+- ⏳ `GrafGen`
+- ⏳ `HiCBricks`
+- ⏳ `HilbertCurve`
+- ⏳ `IWTomics`
+- ⏳ `LOLA`
 - ⏳ `LymphoSeq`
 - ⏳ `MOFA2`
+- ⏳ `MSA2dist`
+- ⏳ `Modstrings`
+- ⏳ `OmicCircos`
+- ⏳ `PIPETS`
+- ⏳ `Qtlizer`
+- ⏳ `Rsamtools`
+- ⏳ `SeqArray`
+- ⏳ `Site2Target`
+- ⏳ `SummarizedExperiment`
+- ⏳ `TDbasedUFE`
+- ⏳ `TFARM`
+- ⏳ `TnT`
 - ⏳ `alabaster.matrix`
+- ⏳ `alabaster.ranges`
+- ⏳ `bamsignals`
+- ⏳ `baySeq`
 - ⏳ `beachmat.hdf5`
-- ⏳ `beachmat.tiledb`
 - ⏳ `chihaya`
-- ⏳ `cyanoFilter`
+- ⏳ `chromDraw`
+- ⏳ `cnvGSA`
+- ⏳ `crisprBase`
+- ⏳ `epialleleR`
+- ⏳ `fastseg`
 - ⏳ `flowWorkspace`
-- ⏳ `odseq`
-- ⏳ `phyloseq`
-- ⏳ `sangeranalyseR`
-- ⏳ `scifer`
-- ⏳ `scrapper`
-- ⏳ `sketchR`
-- ⏳ `universalmotif`
 
-## Not Yet Started (1356)
+... and 30 more ...
+
+## Not Yet Started (1291)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -126,12 +159,10 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `AssessORF`
 - ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
@@ -140,7 +171,6 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
@@ -154,9 +184,12 @@
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
+- ⏸️ `BayesSpace`
+- ⏸️ `BgeeCall`
+- ⏸️ `BgeeDB`
 
-... and 1306 more ...
+... and 1241 more ...
 
 ---
-*Last updated: 2025-10-31 23:56:51 UTC*
+*Last updated: 2025-10-31 23:59:11 UTC*
 *Packages with verified BBS status: 106*

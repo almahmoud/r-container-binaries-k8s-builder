@@ -12,9 +12,7 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "ADAPT": [
-    "phyloseq"
-  ],
+  "ADAPT": [],
   "ADImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -1377,7 +1375,6 @@
   "DspikeIn": [
     "DESeq2",
     "microbiome",
-    "phyloseq",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
@@ -1604,7 +1601,6 @@
     "SC3",
     "TrajectoryUtils"
   ],
-  "FELLA": [],
   "FLAMES": [
     "bambu",
     "GenomicFeatures",
@@ -1661,9 +1657,7 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "FinfoMDS": [
-    "phyloseq"
-  ],
+  "FinfoMDS": [],
   "FuseSOM": [
     "SummarizedExperiment"
   ],
@@ -2405,7 +2399,6 @@
     "SummarizedExperiment"
   ],
   "MBECS": [
-    "phyloseq",
     "sva",
     "genefilter",
     "AnnotationDbi",
@@ -3173,7 +3166,6 @@
     "annotate"
   ],
   "PathoStat": [
-    "phyloseq",
     "DESeq2",
     "SummarizedExperiment"
   ],
@@ -3322,9 +3314,7 @@
     "biomaRt",
     "SummarizedExperiment"
   ],
-  "RCM": [
-    "phyloseq"
-  ],
+  "RCM": [],
   "RCSL": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3505,9 +3495,7 @@
   "ROCpAI": [
     "SummarizedExperiment"
   ],
-  "RPA": [
-    "phyloseq"
-  ],
+  "RPA": [],
   "RSVSim": [
     "ShortRead",
     "Rsamtools",
@@ -3849,9 +3837,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "SIAMCAT": [
-    "phyloseq"
-  ],
+  "SIAMCAT": [],
   "SICtools": [
     "Rsamtools"
   ],
@@ -3935,7 +3921,6 @@
   ],
   "SPsimSeq": [
     "SingleCellExperiment",
-    "phyloseq",
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
@@ -4018,7 +4003,6 @@
     "GenomicFeatures"
   ],
   "SimBu": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "SimFFPE": [
@@ -4210,8 +4194,7 @@
     "biomaRt",
     "SummarizedExperiment",
     "AnnotationDbi",
-    "SingleCellExperiment",
-    "phyloseq"
+    "SingleCellExperiment"
   ],
   "TADCompare": [
     "HiCcompare",
@@ -4959,7 +4942,6 @@
   ],
   "baySeq": [],
   "beachmat.hdf5": [],
-  "beachmat.tiledb": [],
   "bedbaser": [
     "rtracklayer",
     "Rsamtools",
@@ -5485,7 +5467,6 @@
     "AnnotationDbi"
   ],
   "combi": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "compEpiTools": [
@@ -5752,7 +5733,6 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "cyanoFilter": [],
   "cydar": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -5796,7 +5776,6 @@
   ],
   "dar": [
     "mia",
-    "phyloseq",
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -7339,12 +7318,8 @@
     "MultiAssayExperiment",
     "scuttle"
   ],
-  "microbiome": [
-    "phyloseq"
-  ],
-  "microbiomeDASim": [
-    "phyloseq"
-  ],
+  "microbiome": [],
+  "microbiomeDASim": [],
   "microbiomeExplorer": [
     "DESeq2",
     "SummarizedExperiment"
@@ -8010,7 +7985,6 @@
   "phenopath": [
     "SummarizedExperiment"
   ],
-  "phyloseq": [],
   "pipeComp": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -8084,8 +8058,7 @@
     "GenomicAlignments",
     "RPA",
     "SummarizedExperiment",
-    "Rsamtools",
-    "phyloseq"
+    "Rsamtools"
   ],
   "preciseTAD": [
     "rCGH",
@@ -8292,9 +8265,7 @@
     "AnnotationDbi",
     "SummarizedExperiment"
   ],
-  "reconsi": [
-    "phyloseq"
-  ],
+  "reconsi": [],
   "recount": [
     "SummarizedExperiment",
     "derfinder",
@@ -9799,7 +9770,6 @@
     "annotate"
   ],
   "zitools": [
-    "phyloseq",
     "SummarizedExperiment",
     "DESeq2"
   ]

@@ -866,3 +866,7 @@ NanoStringNCTools
 scPCA
 BiocSingular
 GenomicRanges
+beachmat.tiledb
+cyanoFilter
+FELLA
+phyloseq
