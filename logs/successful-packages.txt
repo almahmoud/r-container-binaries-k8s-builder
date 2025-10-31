@@ -1074,3 +1074,10 @@ PepSetTest
 Pirat
 PIUMA
 structToolbox
+AnnotationForge
+DOSE
+HDF5Array
+InteractionSet
+PhIPData
+satuRn
+yamss

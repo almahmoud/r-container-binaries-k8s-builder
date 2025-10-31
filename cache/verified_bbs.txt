@@ -115,5 +115,6 @@ weaver
 widgetTools
 wppi
 xmapbridge
+yamss
 zFPKM
 zlibbioc

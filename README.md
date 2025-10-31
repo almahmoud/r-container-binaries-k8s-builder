@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1076 (46%)
+- **Successfully Built:** 1083 (46%)
 - **Failed:** 8 (0%)
-- **In Progress:** 153
+- **In Progress:** 146
 - **Not Started:** 1073
 
-**Progress:** 46%
+**Progress:** 47%
 ```
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1076)
+## Successfully Built Packages (1083)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1026 more ...*
+*... and 1033 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [transomics2cytoscape](https://bioconductor.org/packages/3.21/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.21/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trio) |
 | [triplex](https://bioconductor.org/packages/3.21/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/triplex) |
@@ -73,6 +72,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.21/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
+| [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
@@ -89,8 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (153)
-- ⏳ `AnnotationForge`
+## In Progress (146)
 - ⏳ `AnnotationHub`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
@@ -100,7 +99,6 @@
 - ⏳ `CaDrA`
 - ⏳ `CellScore`
 - ⏳ `DESeq2`
-- ⏳ `DOSE`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `ExpressionAtlas`
@@ -112,11 +110,9 @@
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
-- ⏳ `HDF5Array`
 - ⏳ `HERON`
 - ⏳ `IFAA`
 - ⏳ `IgGeneUsage`
-- ⏳ `InteractionSet`
 - ⏳ `IsoBayes`
 - ⏳ `LimROTS`
 - ⏳ `MAI`
@@ -140,8 +136,12 @@
 - ⏳ `OVESEG`
 - ⏳ `PADOG`
 - ⏳ `PCAtools`
+- ⏳ `PeacoQC`
+- ⏳ `PhosR`
+- ⏳ `RTNduals`
+- ⏳ `ReactomeGSA`
 
-... and 103 more ...
+... and 96 more ...
 
 ## Not Yet Started (1073)
 - ⏸️ `ADImpute`
@@ -198,5 +198,5 @@
 ... and 1023 more ...
 
 ---
-*Last updated: 2025-10-31 04:10:33 UTC*
-*Packages with verified BBS status: 119*
+*Last updated: 2025-10-31 04:12:13 UTC*
+*Packages with verified BBS status: 120*

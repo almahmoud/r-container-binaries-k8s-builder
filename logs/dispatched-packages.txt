@@ -1235,3 +1235,15 @@ MetMashR
 structToolbox
 CNVRanger
 RTNduals
+DelayedTensor
+EDIRquery
+HiCExperiment
+HiCParser
+HiCcompare
+MOFA2
+SVMDO
+alabaster.matrix
+beachmat.hdf5
+beer
+chihaya
+enrichplot
