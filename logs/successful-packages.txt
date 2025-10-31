@@ -1857,3 +1857,7 @@ meshr
 RESOLVE
 VariantTools
 VCFArray
+CCAFE
+coMethDMR
+gDNAx
+OMICsPCA

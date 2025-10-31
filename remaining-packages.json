@@ -81,7 +81,6 @@
     "xcms"
   ],
   "CATALYST": [],
-  "CCAFE": [],
   "CNEr": [],
   "CNVfilteR": [
     "regioneR",
@@ -395,7 +394,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "OMICsPCA": [],
   "ORFik": [
     "txdbmaker"
   ],
@@ -712,7 +710,6 @@
   ],
   "clustSIGNAL": [],
   "clusterExperiment": [],
-  "coMethDMR": [],
   "comapr": [
     "Gviz",
     "biovizBase"
@@ -876,7 +873,6 @@
   "funtooNorm": [
     "minfi"
   ],
-  "gDNAx": [],
   "gcapc": [],
   "geneXtendeR": [],
   "genoCN": [],
