@@ -1703,3 +1703,5 @@ wiggleplotr
 AUCell
 cosmosR
 GSRI
+MIRit
+ReactomePA

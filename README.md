@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1705 (73%)
+- **Successfully Built:** 1707 (73%)
 - **Failed:** 13 (0%)
-- **In Progress:** 114
-- **Not Started:** 478
+- **In Progress:** 113
+- **Not Started:** 477
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1705)
+## Successfully Built Packages (1707)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1655 more ...*
+*... and 1657 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (114)
+## In Progress (113)
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
@@ -114,7 +114,6 @@
 - ⏳ `GlobalAncova`
 - ⏳ `GreyListChIP`
 - ⏳ `MEDIPS`
-- ⏳ `MIRit`
 - ⏳ `MMDiff2`
 - ⏳ `MSnbase`
 - ⏳ `MethylSeekR`
@@ -123,7 +122,7 @@
 - ⏳ `ORFhunteR`
 - ⏳ `PanomiR`
 - ⏳ `RFLOMICS`
-- ⏳ `ReactomePA`
+- ⏳ `RcisTarget`
 - ⏳ `Repitools`
 - ⏳ `SCOPE`
 - ⏳ `SPIAT`
@@ -145,10 +144,11 @@
 - ⏳ `benchdamic`
 - ⏳ `branchpointer`
 - ⏳ `bsseq`
+- ⏳ `celaref`
 
-... and 64 more ...
+... and 63 more ...
 
-## Not Yet Started (478)
+## Not Yet Started (477)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -200,8 +200,8 @@
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 
-... and 428 more ...
+... and 427 more ...
 
 ---
-*Last updated: 2025-10-31 07:10:00 UTC*
+*Last updated: 2025-10-31 07:10:45 UTC*
 *Packages with verified BBS status: 146*

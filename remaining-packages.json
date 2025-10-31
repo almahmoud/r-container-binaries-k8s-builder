@@ -634,7 +634,6 @@
   "MIRA": [
     "bsseq"
   ],
-  "MIRit": [],
   "MMDiff2": [],
   "MOSClip": [
     "qpgraph",
@@ -768,9 +767,7 @@
   ],
   "PanomiR": [],
   "PhenStat": [],
-  "Pigengene": [
-    "ReactomePA"
-  ],
+  "Pigengene": [],
   "PrInCE": [
     "MSnbase"
   ],
@@ -906,7 +903,6 @@
   ],
   "RbowtieCuda": [],
   "RcisTarget": [],
-  "ReactomePA": [],
   "RegionalST": [
     "scater",
     "BayesSpace",
@@ -1233,7 +1229,6 @@
   ],
   "bioCancer": [
     "cBioPortalData",
-    "ReactomePA",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures"
@@ -1676,8 +1671,7 @@
     "VariantAnnotation"
   ],
   "gINTomics": [
-    "GenomicFeatures",
-    "ReactomePA"
+    "GenomicFeatures"
   ],
   "gcapc": [],
   "geneAttribution": [
@@ -1751,7 +1745,6 @@
     "OrganismDbi",
     "GenomicFeatures",
     "bumphunter",
-    "ReactomePA",
     "txdbmaker"
   ],
   "iSEEde": [],
@@ -1934,12 +1927,8 @@
     "Category",
     "GOstats"
   ],
-  "miRSM": [
-    "ReactomePA"
-  ],
-  "miRspongeR": [
-    "ReactomePA"
-  ],
+  "miRSM": [],
+  "miRspongeR": [],
   "mia": [
     "scater"
   ],
@@ -2270,8 +2259,7 @@
   "scTensor": [
     "Category",
     "meshr",
-    "GOstats",
-    "ReactomePA"
+    "GOstats"
   ],
   "scTreeViz": [
     "epivizr",

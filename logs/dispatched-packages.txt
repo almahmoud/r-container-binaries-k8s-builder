@@ -1831,3 +1831,6 @@ traseR
 CCPROMISE
 VaSP
 RcisTarget
+Pigengene
+miRSM
+miRspongeR
