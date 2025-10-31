@@ -119,6 +119,10 @@ spec:
       - name: bioc-data
         persistentVolumeClaim:
           claimName: ${PVC_NAME}
+      volumes:
+      - name: bioc-data
+        persistentVolumeClaim:
+          claimName: ${PVC_NAME}
       - name: rclone-config
         secret:
           secretName: rclone-config
@@ -126,6 +130,13 @@ spec:
           - key: rclone.conf
             path: rclone.conf
       restartPolicy: OnFailure
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: node-role.kubernetes.io/control-plane
+                operator: DoesNotExist
 EOF
 
 echo "Waiting for indexing to complete..."

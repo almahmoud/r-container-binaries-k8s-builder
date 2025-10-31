@@ -115,6 +115,13 @@ spec:
       - name: bioc-data
         persistentVolumeClaim:
           claimName: ${PVC}
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: node-role.kubernetes.io/control-plane
+                operator: DoesNotExist
 EOF
 
 echo "Dispatched job for package: ${PKG} with build-id: ${BUILD_ID_SHORT}"
