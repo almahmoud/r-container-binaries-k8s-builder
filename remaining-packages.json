@@ -94,7 +94,6 @@
     "regioneR",
     "biovizBase"
   ],
-  "CNVrd2": [],
   "COCOA": [
     "MIRA",
     "bsseq"
@@ -696,9 +695,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "circRNAprofiler": [
-    "gwascat"
-  ],
+  "circRNAprofiler": [],
   "cisPath": [],
   "cleanUpdTSeq": [],
   "cliProfiler": [],
@@ -891,14 +888,12 @@
   "glmSparseNet": [
     "TCGAutils"
   ],
-  "gmapR": [],
   "gmoviz": [],
   "goseq": [
     "txdbmaker"
   ],
   "gpuMagic": [],
   "groHMM": [],
-  "gwascat": [],
   "hiAnnotator": [],
   "hiReadsProcessor": [
     "hiAnnotator"
@@ -1037,7 +1032,6 @@
     "methylumi",
     "minfi"
   ],
-  "mitoClone2": [],
   "monaLisa": [
     "TFBSTools"
   ],
@@ -1281,7 +1275,6 @@
   "terraTCGAdata": [
     "TCGAutils"
   ],
-  "tidyomics": [],
   "topdownr": [],
   "trackViewer": [
     "Gviz",
@@ -1306,9 +1299,7 @@
     "txdbmaker"
   ],
   "visiumStitched": [],
-  "vtpnet": [
-    "gwascat"
-  ],
+  "vtpnet": [],
   "vulcan": [
     "ChIPpeakAnno",
     "regioneR"

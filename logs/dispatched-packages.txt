@@ -2041,3 +2041,5 @@ svaNUMT
 svaRetro
 ChIPQC
 alabaster
+circRNAprofiler
+vtpnet

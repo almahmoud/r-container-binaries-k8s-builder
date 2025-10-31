@@ -1861,3 +1861,8 @@ CCAFE
 coMethDMR
 gDNAx
 OMICsPCA
+CNVrd2
+gmapR
+gwascat
+mitoClone2
+tidyomics

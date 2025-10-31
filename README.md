@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1863 (80%)
+- **Successfully Built:** 1868 (80%)
 - **Failed:** 13 (0%)
-- **In Progress:** 167
+- **In Progress:** 162
 - **Not Started:** 267
 
 **Progress:** 81%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1863)
+## Successfully Built Packages (1868)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1813 more ...*
+*... and 1818 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (167)
+## In Progress (162)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -104,7 +104,6 @@
 - ⏳ `BioTIP`
 - ⏳ `CATALYST`
 - ⏳ `CNEr`
-- ⏳ `CNVrd2`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
@@ -145,8 +144,9 @@
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
 - ⏳ `SCOPE`
+- ⏳ `SGSeq`
 
-... and 117 more ...
+... and 112 more ...
 
 ## Not Yet Started (267)
 - ⏸️ `AHMassBank`
@@ -203,5 +203,5 @@
 ... and 217 more ...
 
 ---
-*Last updated: 2025-10-31 08:15:51 UTC*
+*Last updated: 2025-10-31 08:17:44 UTC*
 *Packages with verified BBS status: 151*
