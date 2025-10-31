@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1302 (56%)
+- **Successfully Built:** 1310 (56%)
 - **Failed:** 8 (0%)
-- **In Progress:** 211
-- **Not Started:** 789
+- **In Progress:** 222
+- **Not Started:** 770
 
-**Progress:** 56%
+**Progress:** 57%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1302)
+## Successfully Built Packages (1310)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1252 more ...*
+*... and 1260 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (211)
+## In Progress (222)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -103,17 +103,21 @@
 - ⏳ `CDI`
 - ⏳ `CEMiTool`
 - ⏳ `CHETAH`
+- ⏳ `CNTools`
 - ⏳ `COTAN`
+- ⏳ `CTexploreR`
 - ⏳ `CaMutQC`
 - ⏳ `CeTF`
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
+- ⏳ `ClassifyR`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `CoSIA`
 - ⏳ `CrispRVariants`
 - ⏳ `CuratedAtlasQueryR`
-- ⏳ `CytoML`
+- ⏳ `CytoMDS`
+- ⏳ `CytoPipelineGUI`
 - ⏳ `DEFormats`
 - ⏳ `DEGreport`
 - ⏳ `DELocal`
@@ -126,6 +130,7 @@
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
 - ⏳ `GSEABase`
+- ⏳ `GeneMeta`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
@@ -135,15 +140,10 @@
 - ⏳ `HiCDOC`
 - ⏳ `HybridExpress`
 - ⏳ `ILoReg`
-- ⏳ `LoomExperiment`
-- ⏳ `MAST`
-- ⏳ `MDTS`
-- ⏳ `MGFM`
-- ⏳ `MGFR`
 
-... and 161 more ...
+... and 172 more ...
 
-## Not Yet Started (789)
+## Not Yet Started (770)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -192,11 +192,11 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CNEr`
-- ⏸️ `CNTools`
 - ⏸️ `CNVfilteR`
+- ⏸️ `CNViz`
 
-... and 739 more ...
+... and 720 more ...
 
 ---
-*Last updated: 2025-10-31 05:03:11 UTC*
+*Last updated: 2025-10-31 05:04:55 UTC*
 *Packages with verified BBS status: 126*

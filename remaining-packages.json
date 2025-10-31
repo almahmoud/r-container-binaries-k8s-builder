@@ -492,11 +492,8 @@
   ],
   "CrispRVariants": [],
   "CuratedAtlasQueryR": [],
-  "CyTOFpower": [
-    "diffcyt"
-  ],
+  "CyTOFpower": [],
   "CytoMDS": [],
-  "CytoML": [],
   "CytoPipelineGUI": [],
   "DAMEfinder": [
     "VariantAnnotation",
@@ -529,9 +526,7 @@
     "scuttle"
   ],
   "DEWSeq": [],
-  "DEXSeq": [
-    "geneplotter"
-  ],
+  "DEXSeq": [],
   "DEsubs": [],
   "DExMA": [
     "sva"
@@ -674,7 +669,6 @@
     "rtracklayer"
   ],
   "ENmix": [
-    "geneplotter",
     "minfi",
     "bumphunter",
     "GenomicFeatures",
@@ -1025,7 +1019,6 @@
     "GenomicFeatures",
     "txdbmaker",
     "DEXSeq",
-    "geneplotter",
     "rtracklayer",
     "VariantAnnotation",
     "BSgenome"
@@ -1036,7 +1029,6 @@
     "BSgenome",
     "rtracklayer",
     "tximeta",
-    "geneplotter",
     "GenomicFeatures",
     "txdbmaker",
     "ensembldb"
@@ -1206,8 +1198,7 @@
   ],
   "MethylSeekR": [
     "rtracklayer",
-    "BSgenome",
-    "geneplotter"
+    "BSgenome"
   ],
   "MicrobiomeProfiler": [],
   "MineICA": [
@@ -1861,8 +1852,7 @@
   ],
   "Statial": [
     "SpatialExperiment",
-    "treekoR",
-    "diffcyt"
+    "treekoR"
   ],
   "StructuralVariantAnnotation": [
     "rtracklayer",
@@ -2242,9 +2232,7 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "biocGraph": [
-    "geneplotter"
-  ],
+  "biocGraph": [],
   "biomvRCNS": [
     "Gviz",
     "rtracklayer",
@@ -2276,8 +2264,7 @@
     "txdbmaker"
   ],
   "blacksheepr": [
-    "DEXSeq",
-    "geneplotter"
+    "DEXSeq"
   ],
   "blima": [],
   "bnbc": [
@@ -2369,9 +2356,7 @@
     "scran",
     "scuttle"
   ],
-  "censcyt": [
-    "diffcyt"
-  ],
+  "censcyt": [],
   "cfDNAPro": [
     "plyranges",
     "BSgenome",
@@ -2746,10 +2731,8 @@
     "DEXSeq",
     "rtracklayer",
     "ensembldb",
-    "geneplotter",
     "GenomicFeatures"
   ],
-  "diffcyt": [],
   "distinct": [
     "scater",
     "scuttle"
@@ -2905,7 +2888,6 @@
   "escheR": [
     "SpatialExperiment"
   ],
-  "esetVis": [],
   "extraChIPs": [
     "rtracklayer"
   ],
@@ -2943,7 +2925,6 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "flowVS": [],
   "frma": [
     "oligo",
     "oligoClasses"
@@ -2987,7 +2968,6 @@
   "geneXtendeR": [
     "rtracklayer"
   ],
-  "geneplotter": [],
   "genoCN": [],
   "genomation": [
     "BSgenome",
@@ -3188,7 +3168,6 @@
     "Category",
     "GSEABase"
   ],
-  "isobar": [],
   "isomiRs": [
     "DEGreport"
   ],
@@ -3668,8 +3647,7 @@
   ],
   "pairedGSEA": [
     "DEXSeq",
-    "sva",
-    "geneplotter"
+    "sva"
   ],
   "partCNV": [],
   "pathMED": [
@@ -3679,7 +3657,6 @@
     "SpatialExperiment"
   ],
   "pathRender": [],
-  "pathlinkR": [],
   "pathview": [],
   "pcaExplorer": [
     "mosdef",
@@ -3953,7 +3930,6 @@
     "DEXSeq",
     "Gviz",
     "txdbmaker",
-    "geneplotter",
     "rtracklayer",
     "ensembldb",
     "BSgenome",
@@ -4377,7 +4353,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "tRanslatome": [],
   "tadar": [
     "Gviz",
     "VariantAnnotation",
@@ -4452,12 +4427,9 @@
     "rtracklayer"
   ],
   "treeclimbR": [
-    "TreeSummarizedExperiment",
-    "diffcyt"
+    "TreeSummarizedExperiment"
   ],
-  "treekoR": [
-    "diffcyt"
-  ],
+  "treekoR": [],
   "tricycle": [
     "scater",
     "scuttle"
