@@ -1,4 +1,1 @@
-DMRcate
-MEAL
-affycoretools
-methylGSA
+MAGAR

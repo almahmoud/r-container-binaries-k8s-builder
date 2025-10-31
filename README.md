@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2264 (98%)
+- **Successfully Built:** 2266 (98%)
 - **Failed:** 23 (0%)
-- **In Progress:** 11
-- **Not Started:** 12
+- **In Progress:** 13
+- **Not Started:** 8
 
 **Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2264)
+## Successfully Built Packages (2266)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 
-*... and 2214 more ...*
+*... and 2216 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,33 +104,31 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (11)
+## In Progress (13)
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
-- ⏳ `CNViz`
+- ⏳ `DMRcate`
 - ⏳ `GeneTonic`
+- ⏳ `MEAL`
 - ⏳ `NADfinder`
-- ⏳ `RnBeads`
 - ⏳ `YAPSA`
+- ⏳ `affycoretools`
 - ⏳ `geomeTriD`
 - ⏳ `iSEEfier`
+- ⏳ `methylGSA`
 - ⏳ `scTreeViz`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (12)
+## Not Yet Started (8)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `ChAMP`
-- ⏸️ `DMRcate`
 - ⏸️ `GeDi`
 - ⏸️ `MAGAR`
-- ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `PING`
-- ⏸️ `affycoretools`
 - ⏸️ `bigmelon`
-- ⏸️ `methylGSA`
 - ⏸️ `skewr`
 
 ---
-*Last updated: 2025-10-31 11:56:40 UTC*
+*Last updated: 2025-10-31 11:57:25 UTC*
 *Packages with verified BBS status: 168*

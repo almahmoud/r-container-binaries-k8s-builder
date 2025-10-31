@@ -7,7 +7,6 @@
   "CAGEr": [],
   "CNEr": [],
   "CNVfilteR": [],
-  "CNViz": [],
   "ChAMP": [
     "DMRcate",
     "wateRmelon"
@@ -19,9 +18,7 @@
   ],
   "GeneTonic": [],
   "Harshlight": [],
-  "MAGAR": [
-    "RnBeads"
-  ],
+  "MAGAR": [],
   "MEAL": [],
   "MEAT": [
     "wateRmelon"
@@ -35,7 +32,6 @@
   "RITAN": [],
   "RbowtieCuda": [],
   "Repitools": [],
-  "RnBeads": [],
   "XNAString": [],
   "YAPSA": [],
   "affycoretools": [],
