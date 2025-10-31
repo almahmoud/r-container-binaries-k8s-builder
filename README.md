@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1504 (65%)
+- **Successfully Built:** 1508 (65%)
 - **Failed:** 9 (0%)
-- **In Progress:** 154
+- **In Progress:** 150
 - **Not Started:** 643
 
 **Progress:** 65%
@@ -16,7 +16,7 @@
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1504)
+## Successfully Built Packages (1508)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,13 +40,13 @@
 | [ASGSCA](https://bioconductor.org/packages/3.21/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASGSCA) |
 | [ASICS](https://bioconductor.org/packages/3.21/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
+| [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 | [AffiXcan](https://bioconductor.org/packages/3.21/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.21/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
-| [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1454 more ...*
+*... and 1458 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,11 +90,10 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (154)
+## In Progress (150)
 - ⏳ `ADaCGH2`
 - ⏳ `APL`
 - ⏳ `ASSIGN`
-- ⏳ `ASURAT`
 - ⏳ `AneuFinder`
 - ⏳ `BERT`
 - ⏳ `BioNERO`
@@ -131,18 +130,19 @@
 - ⏳ `MetaNeighbor`
 - ⏳ `MuData`
 - ⏳ `MultiBaC`
-- ⏳ `NBAMSeq`
 - ⏳ `Nebulosa`
 - ⏳ `NewWave`
 - ⏳ `PAA`
-- ⏳ `PECA`
 - ⏳ `PICB`
 - ⏳ `PICS`
 - ⏳ `POMA`
 - ⏳ `PROPS`
 - ⏳ `PSMatch`
+- ⏳ `PathoStat`
+- ⏳ `RCSL`
+- ⏳ `RUCova`
 
-... and 104 more ...
+... and 100 more ...
 
 ## Not Yet Started (643)
 - ⏸️ `AGDEX`
@@ -199,5 +199,5 @@
 ... and 593 more ...
 
 ---
-*Last updated: 2025-10-31 06:01:56 UTC*
-*Packages with verified BBS status: 134*
+*Last updated: 2025-10-31 06:03:03 UTC*
+*Packages with verified BBS status: 135*

@@ -18,6 +18,7 @@ ASEB
 ASGSCA
 ASICS
 ASSET
+ASURAT
 AWFisher
 AffiXcan
 AffyRNADegradation

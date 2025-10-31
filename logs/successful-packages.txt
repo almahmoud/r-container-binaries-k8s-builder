@@ -1502,3 +1502,7 @@ mimager
 nnSVG
 ExperimentSubset
 smoothclust
+ASURAT
+NBAMSeq
+PECA
+scDesign3
