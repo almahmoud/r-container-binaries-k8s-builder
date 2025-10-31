@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2099 (90%)
-- **Failed:** 19 (0%)
-- **In Progress:** 57
-- **Not Started:** 135
+- **Successfully Built:** 2106 (91%)
+- **Failed:** 20 (0%)
+- **In Progress:** 73
+- **Not Started:** 111
 
-**Progress:** 91%
+**Progress:** 92%
 ```
-█████████████████████████████████████████████░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2099)
+## Successfully Built Packages (2106)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2049 more ...*
+*... and 2056 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (19)
+## Failed Packages (20)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -96,70 +96,70 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
+| [miRspongeR](https://bioconductor.org/packages/3.21/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [rGADEM](https://bioconductor.org/packages/3.21/bioc/html/rGADEM.html) | [log](logs/rGADEM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/rGADEM) | Build failed with unknown error |
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (57)
+## In Progress (73)
 - ⏳ `ATACseqQC`
-- ⏳ `BUSpaRse`
+- ⏳ `AnnotationHubData`
 - ⏳ `CexoR`
-- ⏳ `CleanUpRNAseq`
 - ⏳ `DEScan2`
 - ⏳ `ENmix`
 - ⏳ `EpiCompare`
 - ⏳ `EventPointer`
+- ⏳ `FRASER`
+- ⏳ `GARS`
 - ⏳ `GRaNIE`
+- ⏳ `GSReg`
 - ⏳ `GUIDEseq`
+- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MSstatsQCgui`
-- ⏳ `MetaboSignal`
 - ⏳ `MethylAid`
 - ⏳ `Moonlight2R`
 - ⏳ `RAIDS`
 - ⏳ `REDseq`
 - ⏳ `REMP`
 - ⏳ `RITAN`
+- ⏳ `RJMCMCNucleosomes`
+- ⏳ `RTCGAToolbox`
 - ⏳ `Rhisat2`
 - ⏳ `RiboCrypt`
+- ⏳ `SMITE`
+- ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFHAZ`
 - ⏳ `Ularcirc`
 - ⏳ `alabaster`
-- ⏳ `biovizBase`
+- ⏳ `appreci8R`
+- ⏳ `biscuiteer`
 - ⏳ `chevreulProcess`
+- ⏳ `consensusDE`
 - ⏳ `conumee`
 - ⏳ `cytofQC`
 - ⏳ `dce`
 - ⏳ `decontX`
 - ⏳ `deconvR`
-- ⏳ `demuxSNP`
+- ⏳ `epivizrData`
+- ⏳ `erma`
 - ⏳ `esATAC`
 - ⏳ `extraChIPs`
 - ⏳ `fCCAC`
 - ⏳ `funtooNorm`
 - ⏳ `geneXtendeR`
+- ⏳ `glmSparseNet`
 - ⏳ `hiReadsProcessor`
-- ⏳ `iSEEhex`
+- ⏳ `iNETgrate`
 - ⏳ `iSEEtree`
 - ⏳ `imcRtools`
-- ⏳ `methylumi`
-- ⏳ `miRSM`
-- ⏳ `miRspongeR`
-- ⏳ `musicatk`
-- ⏳ `profileplyr`
-- ⏳ `quantro`
-- ⏳ `recountmethylation`
-- ⏳ `scFeatures`
-- ⏳ `scMerge`
-- ⏳ `segmenter`
 
-... and 7 more ...
+... and 23 more ...
 
-## Not Yet Started (135)
+## Not Yet Started (111)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnnotationHubData`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
@@ -177,10 +177,7 @@
 - ⏸️ `ELMER`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
-- ⏸️ `FRASER`
-- ⏸️ `GARS`
 - ⏸️ `GNOSIS`
-- ⏸️ `GSReg`
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
@@ -188,7 +185,6 @@
 - ⏸️ `GenomicOZone`
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
-- ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
@@ -198,16 +194,21 @@
 - ⏸️ `PING`
 - ⏸️ `Pviz`
 - ⏸️ `R3CPET`
-- ⏸️ `RJMCMCNucleosomes`
 - ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
-- ⏸️ `RTCGAToolbox`
 - ⏸️ `ReportingTools`
+- ⏸️ `RiboProfiling`
+- ⏸️ `RnBeads`
+- ⏸️ `Rqc`
+- ⏸️ `SPLINTER`
+- ⏸️ `SomaticSignatures`
+- ⏸️ `TVTB`
+- ⏸️ `VariantFiltering`
 
-... and 85 more ...
+... and 61 more ...
 
 ---
-*Last updated: 2025-10-31 10:15:48 UTC*
-*Packages with verified BBS status: 161*
+*Last updated: 2025-10-31 10:17:20 UTC*
+*Packages with verified BBS status: 162*

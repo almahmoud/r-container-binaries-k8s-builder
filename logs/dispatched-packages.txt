@@ -2197,3 +2197,10 @@ ribosomeProfilingQC
 scone
 standR
 terraTCGAdata
+BubbleTree
+ChIPexoQual
+Gviz
+Rqc
+ggbio
+iSEEu
+karyoploteR

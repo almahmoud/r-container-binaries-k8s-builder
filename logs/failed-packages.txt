@@ -17,3 +17,4 @@ signeR
 XNAString
 rGADEM
 ChIPQC
+miRspongeR

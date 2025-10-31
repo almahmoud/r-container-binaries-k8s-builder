@@ -78,6 +78,7 @@ debCAM
 genoCN
 gpuMagic
 hypeR
+miRspongeR
 rGADEM
 semisup
 seq.hotSPOT

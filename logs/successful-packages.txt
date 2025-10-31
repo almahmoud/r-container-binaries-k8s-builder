@@ -2097,3 +2097,10 @@ TAPseq
 TCGAutils
 txcutr
 tximeta
+biovizBase
+BUSpaRse
+CleanUpRNAseq
+demuxSNP
+iSEEhex
+MetaboSignal
+svaRetro
