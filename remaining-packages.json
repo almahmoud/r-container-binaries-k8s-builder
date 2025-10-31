@@ -2507,7 +2507,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "recount3": [],
   "recountmethylation": [
     "minfi",
     "bumphunter",
