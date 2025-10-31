@@ -75,13 +75,14 @@ spec:
         
             comm -23 <(sort /tmp/old_packages.txt) <(sort /tmp/new_packages.txt) | while read -r pkg; do
               # Escape the package name for use in a regex
-              pkg_escaped=$(printf '%s' "$pkg" | sed 's/[][\.^$*]/\\&/g')
-              pkg_pattern="${pkg_escaped}_.*\.tar\.gz"
+              pkg_escaped=\$(printf '%s' "\$pkg" | sed 's/[][\.^$*]/\\\\&/g')
+              pkg_pattern="\${pkg_escaped}_.*\.tar\.gz"
         
-              old_tarball=$(grep -E "$pkg_pattern" /tmp/old_packages | grep "^Filename:" | cut -d' ' -f2 | head -n1)
+              old_tarball=\$(grep -E "\$pkg_pattern" /tmp/old_packages | grep "^Filename:" | cut -d' ' -f2 | head -n1)
         
-              if [ -n "$old_tarball" ]; then
-                curl -sfL "${OLD_URL%/*}/$old_tarball" -o "/tmp/pkglinks/$(basename "$old_tarball")"
+              if [ -n "\$old_tarball" ]; then
+                old_url_base="${OLD_URL%/*}"
+                curl -sfL "\$old_url_base/\$old_tarball" -o "/tmp/pkglinks/\$(basename "\$old_tarball")"
               fi
             done
           fi
