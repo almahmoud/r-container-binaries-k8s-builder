@@ -1130,3 +1130,7 @@ RTNsurvival
 simplifyEnrichment
 topGO
 UniProt.ws
+HiCcompare
+MOFA2
+ReactomeGSA
+weitrix

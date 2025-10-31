@@ -1,6 +1,4 @@
-OmaDB
-cellity
-consICA
-ginmappeR
-immunogenViewer
-moanin
+SpectralTAD
+TADCompare
+multiHiCcompare
+scHiCcompare

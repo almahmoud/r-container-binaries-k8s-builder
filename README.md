@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1132 (49%)
+- **Successfully Built:** 1136 (49%)
 - **Failed:** 8 (0%)
-- **In Progress:** 144
-- **Not Started:** 1026
+- **In Progress:** 146
+- **Not Started:** 1020
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1132)
+## Successfully Built Packages (1136)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1082 more ...*
+*... and 1086 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [trio](https://bioconductor.org/packages/3.21/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trio) |
 | [triplex](https://bioconductor.org/packages/3.21/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
@@ -68,6 +67,7 @@
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
+| [weitrix](https://bioconductor.org/packages/3.21/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.21/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/widgetTools) |
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (144)
+## In Progress (146)
 - ⏳ `AffiXcan`
 - ⏳ `BiocSklearn`
 - ⏳ `CNVRanger`
@@ -111,23 +111,21 @@
 - ⏳ `GeoTcgaData`
 - ⏳ `HERON`
 - ⏳ `HiCExperiment`
-- ⏳ `HiCcompare`
 - ⏳ `IFAA`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
-- ⏳ `MOFA2`
 - ⏳ `MOMA`
 - ⏳ `MesKit`
 - ⏳ `MetMashR`
 - ⏳ `MiRaGE`
 - ⏳ `MultiDataSet`
 - ⏳ `MultimodalExperiment`
+- ⏳ `OmaDB`
 - ⏳ `PADOG`
 - ⏳ `PhosR`
 - ⏳ `QFeatures`
-- ⏳ `ReactomeGSA`
 - ⏳ `SVMDO`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
@@ -140,10 +138,12 @@
 - ⏳ `TTMap`
 - ⏳ `Trendy`
 - ⏳ `VariantExperiment`
+- ⏳ `XAItest`
+- ⏳ `adSplit`
 
-... and 94 more ...
+... and 96 more ...
 
-## Not Yet Started (1026)
+## Not Yet Started (1020)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BubbleTree`
 
-... and 976 more ...
+... and 970 more ...
 
 ---
-*Last updated: 2025-10-31 04:23:54 UTC*
-*Packages with verified BBS status: 121*
+*Last updated: 2025-10-31 04:24:45 UTC*
+*Packages with verified BBS status: 122*

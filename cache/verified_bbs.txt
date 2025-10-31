@@ -112,6 +112,7 @@ veloviz
 viper
 vsn
 weaver
+weitrix
 widgetTools
 wpm
 wppi

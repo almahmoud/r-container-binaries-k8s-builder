@@ -1390,11 +1390,9 @@
     "VariantAnnotation"
   ],
   "HiCDOC": [
-    "multiHiCcompare",
-    "HiCcompare"
+    "multiHiCcompare"
   ],
   "HiCExperiment": [],
-  "HiCcompare": [],
   "HiContacts": [
     "HiCExperiment"
   ],
@@ -1665,7 +1663,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "MOFA2": [],
   "MOMA": [],
   "MOSClip": [
     "graphite",
@@ -2210,7 +2207,6 @@
     "coseq",
     "clusterProfiler",
     "enrichplot",
-    "MOFA2",
     "DESeq2",
     "HTSFilter"
   ],
@@ -2338,7 +2334,6 @@
     "GSEABase",
     "annotate"
   ],
-  "ReactomeGSA": [],
   "ReactomePA": [
     "enrichplot",
     "graphite"
@@ -2692,9 +2687,7 @@
     "SpatialExperiment",
     "scuttle"
   ],
-  "SpectralTAD": [
-    "HiCcompare"
-  ],
+  "SpectralTAD": [],
   "SpliceWiz": [
     "BSgenome",
     "genefilter",
@@ -2743,9 +2736,7 @@
     "biomaRt",
     "SingleCellExperiment"
   ],
-  "TADCompare": [
-    "HiCcompare"
-  ],
+  "TADCompare": [],
   "TAPseq": [
     "GenomicAlignments",
     "BSgenome",
@@ -5152,9 +5143,7 @@
   "multiGSEA": [
     "graphite"
   ],
-  "multiHiCcompare": [
-    "HiCcompare"
-  ],
+  "multiHiCcompare": [],
   "multiMiR": [],
   "multiWGCNA": [],
   "multicrispr": [
@@ -5821,9 +5810,7 @@
   "scHOT": [
     "SingleCellExperiment"
   ],
-  "scHiCcompare": [
-    "HiCcompare"
-  ],
+  "scHiCcompare": [],
   "scMET": [
     "SingleCellExperiment"
   ],
@@ -6594,7 +6581,6 @@
   "webbioc": [
     "annaffy"
   ],
-  "weitrix": [],
   "wiggleplotr": [
     "rtracklayer",
     "GenomicAlignments"
