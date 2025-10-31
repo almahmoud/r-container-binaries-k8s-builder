@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 458 (19%)
+- **Successfully Built:** 461 (19%)
 - **Failed:** 4 (0%)
-- **In Progress:** 29
+- **In Progress:** 26
 - **Not Started:** 1819
 
 **Progress:** 20%
@@ -16,7 +16,7 @@
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (458)
+## Successfully Built Packages (461)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiRewire](https://bioconductor.org/packages/3.21/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.21/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BioCartaImage) |
 
-*... and 408 more ...*
+*... and 411 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [statTarget](https://bioconductor.org/packages/3.21/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/statTarget) |
 | [stepNorm](https://bioconductor.org/packages/3.21/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.21/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.21/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/swfdr) |
@@ -68,6 +67,7 @@
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.21/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
+| [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
@@ -85,7 +85,7 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (29)
+## In Progress (26)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
@@ -100,13 +100,11 @@
 - ⏳ `PCAN`
 - ⏳ `Polytect`
 - ⏳ `SUITOR`
-- ⏳ `SpaceMarkers`
 - ⏳ `biomformat`
 - ⏳ `ctsGE`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `fgsea`
-- ⏳ `maftools`
 - ⏳ `mitch`
 - ⏳ `philr`
 - ⏳ `planet`
@@ -114,7 +112,6 @@
 - ⏳ `scMitoMut`
 - ⏳ `shiny.gosling`
 - ⏳ `systemPipeShiny`
-- ⏳ `tximport`
 
 ## Not Yet Started (1819)
 - ⏸️ `ABarray`
@@ -171,5 +168,5 @@
 ... and 1769 more ...
 
 ---
-*Last updated: 2025-10-31 00:17:19 UTC*
-*Packages with verified BBS status: 83*
+*Last updated: 2025-10-31 00:17:45 UTC*
+*Packages with verified BBS status: 84*

@@ -456,3 +456,6 @@ koinar
 QRscore
 rhdf5
 Wrench
+maftools
+SpaceMarkers
+tximport

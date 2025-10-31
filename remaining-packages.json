@@ -1149,7 +1149,6 @@
   "BgeeCall": [
     "AnnotationDbi",
     "GenomicFeatures",
-    "tximport",
     "Biostrings",
     "rtracklayer",
     "txdbmaker",
@@ -1905,9 +1904,7 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "CIMICE": [
-    "maftools"
-  ],
+  "CIMICE": [],
   "CINdex": [
     "GenomicRanges",
     "S4Vectors",
@@ -2365,7 +2362,6 @@
   "CaMutQC": [
     "clusterProfiler",
     "MesKit",
-    "maftools",
     "AnnotationDbi",
     "DOSE",
     "enrichplot",
@@ -3029,7 +3025,6 @@
     "qsmooth",
     "Rsamtools",
     "SummarizedExperiment",
-    "tximport",
     "S4Vectors",
     "IRanges",
     "XVector",
@@ -4170,7 +4165,6 @@
     "BANDITS",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "tximport",
     "DRIMSeq",
     "S4Vectors",
     "BiocGenerics",
@@ -4782,7 +4776,6 @@
     "IRanges",
     "BSgenome",
     "Biostrings",
-    "tximport",
     "fgsea",
     "BiocGenerics",
     "XVector",
@@ -5333,7 +5326,6 @@
     "XVector"
   ],
   "GNOSIS": [
-    "maftools",
     "cBioPortalData",
     "MultiAssayExperiment",
     "GenomeInfoDb",
@@ -7084,7 +7076,6 @@
     "GenomicRanges",
     "rtracklayer",
     "GenomeInfoDb",
-    "tximport",
     "tximeta",
     "edgeR",
     "XVector",
@@ -12982,7 +12973,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "SpaceMarkers": [],
   "Spaniel": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -13595,7 +13585,6 @@
   ],
   "TDbasedUFE": [
     "GenomicRanges",
-    "tximport",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -13617,7 +13606,6 @@
     "IRanges",
     "GenomeInfoDb",
     "XVector",
-    "tximport",
     "KEGGREST",
     "UCSC.utils",
     "Biostrings"
@@ -15219,9 +15207,7 @@
     "GenomicAlignments",
     "h5mread"
   ],
-  "alevinQC": [
-    "tximport"
-  ],
+  "alevinQC": [],
   "altcdfenvs": [
     "BiocGenerics",
     "S4Vectors",
@@ -22170,7 +22156,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "IRanges",
-    "maftools",
     "plyranges",
     "S4Vectors",
     "VariantAnnotation",
@@ -22614,7 +22599,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "maftools": [],
   "magpie": [
     "rtracklayer",
     "S4Vectors",
@@ -24473,7 +24457,6 @@
     "S4Vectors",
     "decompTumor2Sig",
     "ComplexHeatmap",
-    "maftools",
     "BiocGenerics",
     "XVector",
     "BiocIO",
@@ -28990,7 +28973,6 @@
     "celda",
     "DropletUtils",
     "scds",
-    "tximport",
     "GSEABase",
     "zinbwave",
     "scDblFinder",
@@ -30782,7 +30764,6 @@
   ],
   "tximeta": [
     "SummarizedExperiment",
-    "tximport",
     "S4Vectors",
     "IRanges",
     "GenomicRanges",
@@ -30808,7 +30789,6 @@
     "SparseArray",
     "GenomicAlignments"
   ],
-  "tximport": [],
   "uSORT": [
     "Biobase",
     "BiocGenerics",

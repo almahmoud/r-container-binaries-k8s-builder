@@ -489,3 +489,5 @@ OLINgui
 GSCA
 biomformat
 scMitoMut
+CIMICE
+alevinQC
