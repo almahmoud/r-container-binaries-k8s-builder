@@ -604,11 +604,8 @@
     "txdbmaker"
   ],
   "airpart": [],
-  "alabaster": [
-    "alabaster.vcf"
-  ],
+  "alabaster": [],
   "alabaster.sfe": [],
-  "alabaster.vcf": [],
   "amplican": [],
   "annotatr": [
     "regioneR"
@@ -1081,7 +1078,6 @@
   "msmsTests": [
     "msmsEDA"
   ],
-  "multiGSEA": [],
   "multicrispr": [
     "CRISPRseek",
     "karyoploteR",

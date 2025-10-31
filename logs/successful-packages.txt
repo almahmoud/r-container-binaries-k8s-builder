@@ -1849,3 +1849,5 @@ DiffBind
 RareVariantVis
 gwasurvivr
 icetea
+alabaster.vcf
+multiGSEA
