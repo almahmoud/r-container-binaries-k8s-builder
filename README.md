@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2002 (86%)
+- **Successfully Built:** 2003 (86%)
 - **Failed:** 18 (0%)
 - **In Progress:** 129
-- **Not Started:** 161
+- **Not Started:** 160
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2002)
+## Successfully Built Packages (2003)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1952 more ...*
+*... and 1953 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -121,7 +121,6 @@
 - ⏳ `FindIT2`
 - ⏳ `GRaNIE`
 - ⏳ `GenomicInteractionNodes`
-- ⏳ `Guitar`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IPO`
@@ -150,10 +149,11 @@
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
+- ⏳ `SplicingGraphs`
 
 ... and 79 more ...
 
-## Not Yet Started (161)
+## Not Yet Started (160)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -205,8 +205,8 @@
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 
-... and 111 more ...
+... and 110 more ...
 
 ---
-*Last updated: 2025-10-31 09:25:06 UTC*
+*Last updated: 2025-10-31 09:25:58 UTC*
 *Packages with verified BBS status: 160*
