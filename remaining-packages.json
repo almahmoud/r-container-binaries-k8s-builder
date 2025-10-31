@@ -441,7 +441,6 @@
   "PRONE": [],
   "PhenStat": [],
   "Pigengene": [],
-  "PrInCE": [],
   "Prostar": [
     "DAPAR"
   ],
@@ -602,7 +601,6 @@
   "SplicingGraphs": [],
   "StructuralVariantAnnotation": [],
   "TAPseq": [],
-  "TBSignatureProfiler": [],
   "TCGAutils": [],
   "TENET": [],
   "TFBSTools": [],
@@ -794,7 +792,6 @@
     "EDASeq",
     "RUVSeq"
   ],
-  "consensusOV": [],
   "consensusSeekeR": [],
   "conumee": [
     "minfi"
@@ -1348,9 +1345,7 @@
     "minfi"
   ],
   "signeR": [],
-  "signifinder": [
-    "consensusOV"
-  ],
+  "signifinder": [],
   "singleCellTK": [
     "scMerge",
     "celda",
@@ -1396,7 +1391,6 @@
     "StructuralVariantAnnotation"
   ],
   "synapter": [],
-  "tLOH": [],
   "tRNAscanImport": [],
   "tadar": [
     "Gviz",
