@@ -929,3 +929,5 @@ pepStat
 pqsfinder
 ResidualMatrix
 ScaledMatrix
+alabaster.ranges
+universalmotif

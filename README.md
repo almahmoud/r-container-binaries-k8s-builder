@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 931 (40%)
+- **Successfully Built:** 933 (40%)
 - **Failed:** 7 (0%)
-- **In Progress:** 62
-- **Not Started:** 1310
+- **In Progress:** 61
+- **Not Started:** 1309
 
 **Progress:** 40%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (931)
+## Successfully Built Packages (933)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 881 more ...*
+*... and 883 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
 | [transite](https://bioconductor.org/packages/3.21/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.21/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
@@ -64,6 +63,7 @@
 | [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.21/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
+| [universalmotif](https://bioconductor.org/packages/3.21/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.21/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
@@ -88,7 +88,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (62)
+## In Progress (61)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `CINdex`
@@ -111,7 +111,6 @@
 - ⏳ `TEQC`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.files`
-- ⏳ `alabaster.ranges`
 - ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
 - ⏳ `beachmat`
@@ -139,10 +138,11 @@
 - ⏳ `microbiome`
 - ⏳ `microbiomeDASim`
 - ⏳ `phantasusLite`
+- ⏳ `ramr`
 
-... and 12 more ...
+... and 11 more ...
 
-## Not Yet Started (1310)
+## Not Yet Started (1309)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +194,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1260 more ...
+... and 1259 more ...
 
 ---
-*Last updated: 2025-10-31 03:38:47 UTC*
-*Packages with verified BBS status: 111*
+*Last updated: 2025-10-31 03:39:38 UTC*
+*Packages with verified BBS status: 112*
