@@ -85,6 +85,7 @@ tkWidgets
 tomoseqr
 topconfects
 treeio
+trio
 tripr
 ttgsea
 tweeDEseq
@@ -92,6 +93,8 @@ twilight
 twoddpcr
 tximport
 unifiedWMWqPCR
+updateObject
+variancePartition
 vbmp
 veloviz
 viper
