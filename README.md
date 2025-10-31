@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1895 (82%)
+- **Successfully Built:** 1898 (82%)
 - **Failed:** 14 (0%)
-- **In Progress:** 164
-- **Not Started:** 237
+- **In Progress:** 166
+- **Not Started:** 232
 
 **Progress:** 82%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1895)
+## Successfully Built Packages (1898)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1845 more ...*
+*... and 1848 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (164)
+## In Progress (166)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
@@ -103,6 +103,7 @@
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioTIP`
+- ⏳ `CAMERA`
 - ⏳ `CATALYST`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
@@ -145,11 +146,10 @@
 - ⏳ `RITAN`
 - ⏳ `Repitools`
 - ⏳ `Rmmquant`
-- ⏳ `SGCP`
 
-... and 114 more ...
+... and 116 more ...
 
-## Not Yet Started (237)
+## Not Yet Started (232)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -164,7 +164,6 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CAMERA`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `COCOA`
@@ -200,9 +199,10 @@
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
+- ⏸️ `Gviz`
 
-... and 187 more ...
+... and 182 more ...
 
 ---
-*Last updated: 2025-10-31 08:29:24 UTC*
+*Last updated: 2025-10-31 08:30:41 UTC*
 *Packages with verified BBS status: 153*

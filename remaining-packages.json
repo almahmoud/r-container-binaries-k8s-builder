@@ -658,22 +658,17 @@
   "consensusSeekeR": [],
   "conumee": [],
   "cosmiq": [],
-  "crisprBowtie": [],
-  "crisprBwa": [],
   "crisprDesign": [
-    "crisprBowtie",
     "txdbmaker"
   ],
   "crisprShiny": [
     "crisprDesign",
     "crisprViz",
-    "crisprBowtie",
     "txdbmaker",
     "Gviz",
     "biovizBase"
   ],
   "crisprVerse": [
-    "crisprBowtie",
     "crisprDesign",
     "crisprViz",
     "txdbmaker",
@@ -684,7 +679,6 @@
     "crisprDesign",
     "Gviz",
     "txdbmaker",
-    "crisprBowtie",
     "biovizBase"
   ],
   "cummeRbund": [
@@ -971,7 +965,6 @@
     "RUVSeq",
     "EDASeq"
   ],
-  "oppar": [],
   "pageRank": [
     "motifmatchr"
   ],

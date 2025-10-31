@@ -1893,3 +1893,6 @@ pRolocGUI
 SCOPE
 TENET
 xcms
+crisprBowtie
+crisprBwa
+oppar
