@@ -60,6 +60,7 @@ tidysbml
 timescape
 tkWidgets
 tomoseqr
+topconfects
 treeio
 ttgsea
 vbmp

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 374 (16%)
+- **Successfully Built:** 390 (16%)
 - **Failed:** 3 (0%)
-- **In Progress:** 83
-- **Not Started:** 1850
+- **In Progress:** 77
+- **Not Started:** 1840
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (374)
+## Successfully Built Packages (390)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiocNeighbors](https://bioconductor.org/packages/3.21/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocNeighbors) |
 | [BiocParallel](https://bioconductor.org/packages/3.21/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiocParallel) |
 
-*... and 324 more ...*
+*... and 340 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sparseMatrixStats](https://bioconductor.org/packages/3.21/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/sparseMatrixStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.21/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.21/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.21/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/spikeLI) |
@@ -66,6 +65,7 @@
 | [timescape](https://bioconductor.org/packages/3.21/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.21/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.21/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tomoseqr) |
+| [topconfects](https://bioconductor.org/packages/3.21/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.21/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/treeio) |
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
@@ -84,7 +84,7 @@
 | [cisPath](https://bioconductor.org/packages/3.21/bioc/html/cisPath.html) | [log](logs/cisPath/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/cisPath) | Compilation failed:  ‘cisPath’ |
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 
-## In Progress (83)
+## In Progress (77)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `AnVILWorkflow`
@@ -96,10 +96,10 @@
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
 - ⏳ `EnMCB`
+- ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
 - ⏳ `IntramiRExploreR`
-- ⏳ `Linnorm`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
 - ⏳ `OPWeight`
@@ -109,36 +109,36 @@
 - ⏳ `QRscore`
 - ⏳ `RTCGA`
 - ⏳ `RedisParam`
+- ⏳ `Rigraphlib`
 - ⏳ `SCFA`
-- ⏳ `SNPRelate`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `TPP2D`
 - ⏳ `Wrench`
 - ⏳ `abseqR`
 - ⏳ `bacon`
+- ⏳ `basilisk`
 - ⏳ `brendaDb`
 - ⏳ `clstutils`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
-- ⏳ `dcGSA`
 - ⏳ `decoupleR`
 - ⏳ `demuxmix`
 - ⏳ `dupRadar`
-- ⏳ `easyreporting`
 - ⏳ `edgeR`
 - ⏳ `epistasisGA`
-- ⏳ `faers`
 - ⏳ `fenr`
 - ⏳ `fgsea`
 - ⏳ `flowPeaks`
 - ⏳ `ggkegg`
+- ⏳ `ggtreeDendro`
+- ⏳ `ggtreeExtra`
+- ⏳ `ggtreeSpace`
 - ⏳ `hca`
-- ⏳ `hypeR`
 
-... and 33 more ...
+... and 27 more ...
 
-## Not Yet Started (1850)
+## Not Yet Started (1840)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BPRMeth`
 - ⏸️ `BRAIN`
 
-... and 1800 more ...
+... and 1790 more ...
 
 ---
-*Last updated: 2025-10-31 00:09:24 UTC*
-*Packages with verified BBS status: 71*
+*Last updated: 2025-10-31 00:10:19 UTC*
+*Packages with verified BBS status: 72*
