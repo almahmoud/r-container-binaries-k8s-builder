@@ -1069,3 +1069,8 @@ RolDE
 RTN
 SDAMS
 supersigs
+PAIRADISE
+PepSetTest
+Pirat
+PIUMA
+structToolbox

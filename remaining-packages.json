@@ -2225,7 +2225,6 @@
     "annotate"
   ],
   "PADOG": [],
-  "PAIRADISE": [],
   "PAST": [
     "rtracklayer",
     "GenomicAlignments"
@@ -2259,7 +2258,6 @@
     "GenomicAlignments",
     "VariantAnnotation"
   ],
-  "PIUMA": [],
   "PLSDAbatch": [
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
@@ -2316,7 +2314,6 @@
     "DESeq2"
   ],
   "PeacoQC": [],
-  "PepSetTest": [],
   "PhIPData": [],
   "PharmacoGx": [
     "CoreGx",
@@ -2331,7 +2328,6 @@
     "enrichplot",
     "graphite"
   ],
-  "Pirat": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -6928,7 +6924,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "structToolbox": [],
   "surfaltr": [
     "biomaRt"
   ],
