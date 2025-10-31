@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 671 (29%)
+- **Successfully Built:** 678 (30%)
 - **Failed:** 1 (0%)
-- **In Progress:** 41
-- **Not Started:** 1531
+- **In Progress:** 42
+- **Not Started:** 1523
 
-**Progress:** 29%
+**Progress:** 30%
 ```
-██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (671)
+## Successfully Built Packages (678)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 621 more ...*
+*... and 628 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,30 +82,31 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (41)
+## In Progress (42)
 - ⏳ `BiocCheck`
 - ⏳ `BiocPkgTools`
-- ⏳ `CardinalIO`
+- ⏳ `CNORdt`
+- ⏳ `CNORfeeder`
+- ⏳ `CNORfuzzy`
+- ⏳ `CNORode`
 - ⏳ `ExiMiR`
 - ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
-- ⏳ `MOGAMUN`
 - ⏳ `MSstatsBioNet`
+- ⏳ `MetaboCoreUtils`
 - ⏳ `NanoTube`
 - ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `RTopper`
+- ⏳ `ReUseData`
 - ⏳ `SRAdb`
 - ⏳ `Streamer`
-- ⏳ `TMixClust`
 - ⏳ `TurboNorm`
 - ⏳ `a4Classif`
-- ⏳ `aCGH`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
-- ⏳ `anota`
 - ⏳ `biobroom`
 - ⏳ `bluster`
 - ⏳ `fedup`
@@ -114,9 +115,9 @@
 - ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `mnem`
+- ⏳ `mbQTL`
 - ⏳ `monocle`
-- ⏳ `mzR`
+- ⏳ `nondetects`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
@@ -125,7 +126,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1531)
+## Not Yet Started (1523)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -177,8 +178,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1481 more ...
+... and 1473 more ...
 
 ---
-*Last updated: 2025-10-31 22:49:02 UTC*
+*Last updated: 2025-10-31 22:49:44 UTC*
 *Packages with verified BBS status: 101*

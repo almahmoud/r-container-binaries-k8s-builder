@@ -669,3 +669,10 @@ metagenomeSeq
 MsCoreUtils
 progeny
 RcwlPipelines
+aCGH
+anota
+CardinalIO
+mnem
+MOGAMUN
+mzR
+TMixClust
