@@ -313,7 +313,6 @@
     "rtracklayer",
     "GenomicFeatures"
   ],
-  "CTSV": [],
   "Category": [
     "GSEABase"
   ],
@@ -1427,7 +1426,6 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "RSVSim": [],
   "RTCGAToolbox": [
     "TCGAutils",
     "GenomicFeatures",
