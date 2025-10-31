@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 919 (39%)
+- **Successfully Built:** 924 (40%)
 - **Failed:** 7 (0%)
-- **In Progress:** 73
+- **In Progress:** 68
 - **Not Started:** 1311
 
 **Progress:** 40%
@@ -16,7 +16,7 @@
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (919)
+## Successfully Built Packages (924)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 869 more ...*
+*... and 874 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,12 +88,11 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (73)
+## In Progress (68)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `CINdex`
 - ⏳ `CNVPanelizer`
-- ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
 - ⏳ `FilterFFPE`
 - ⏳ `GBScleanR`
@@ -111,7 +110,6 @@
 - ⏳ `ScaledMatrix`
 - ⏳ `SeqVarTools`
 - ⏳ `SimFFPE`
-- ⏳ `Structstrings`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TEQC`
 - ⏳ `TnT`
@@ -123,12 +121,9 @@
 - ⏳ `bamsignals`
 - ⏳ `beachmat`
 - ⏳ `cellbaseR`
-- ⏳ `cleaver`
 - ⏳ `clusterSeq`
 - ⏳ `cn.mops`
 - ⏳ `cnvGSA`
-- ⏳ `cogeqc`
-- ⏳ `crisprBase`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
 - ⏳ `epialleleR`
@@ -139,8 +134,13 @@
 - ⏳ `flowWorkspace`
 - ⏳ `gcrma`
 - ⏳ `geneRxCluster`
+- ⏳ `genomeIntervals`
+- ⏳ `ggmanh`
+- ⏳ `gtrellis`
+- ⏳ `h5mread`
+- ⏳ `h5vc`
 
-... and 23 more ...
+... and 18 more ...
 
 ## Not Yet Started (1311)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1261 more ...
 
 ---
-*Last updated: 2025-10-31 03:36:09 UTC*
+*Last updated: 2025-10-31 03:37:04 UTC*
 *Packages with verified BBS status: 111*

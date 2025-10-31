@@ -1314,7 +1314,6 @@
     "rtracklayer",
     "biomaRt"
   ],
-  "DelayedDataFrame": [],
   "DelayedMatrixStats": [],
   "DelayedTensor": [
     "HDF5Array",
@@ -1546,7 +1545,6 @@
     "txdbmaker",
     "tRNAdbImport",
     "rtracklayer",
-    "Structstrings",
     "tRNA",
     "biomaRt",
     "GenomicAlignments",
@@ -3243,7 +3241,6 @@
     "SummarizedExperiment"
   ],
   "ProteoDisco": [
-    "cleaver",
     "GenomicFeatures",
     "VariantAnnotation",
     "AnnotationDbi",
@@ -4199,7 +4196,6 @@
     "treekoR",
     "diffcyt"
   ],
-  "Structstrings": [],
   "StructuralVariantAnnotation": [
     "rtracklayer",
     "VariantAnnotation",
@@ -4539,8 +4535,7 @@
   ],
   "VariantExperiment": [
     "SummarizedExperiment",
-    "GDSArray",
-    "DelayedDataFrame"
+    "GDSArray"
   ],
   "VariantFiltering": [
     "VariantAnnotation",
@@ -5503,7 +5498,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "cleaver": [],
   "cliProfiler": [
     "rtracklayer",
     "BSgenome",
@@ -5588,7 +5582,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "cogeqc": [],
   "comapr": [
     "SummarizedExperiment",
     "Gviz",
@@ -5738,23 +5731,19 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "crisprBase": [],
   "crisprBowtie": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
   "crisprBwa": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
   "crisprDesign": [
-    "crisprBase",
     "AnnotationDbi",
     "BSgenome",
     "crisprBowtie",
@@ -5776,7 +5765,6 @@
   ],
   "crisprShiny": [
     "BSgenome",
-    "crisprBase",
     "crisprDesign",
     "crisprScore",
     "crisprViz",
@@ -5796,7 +5784,6 @@
     "SummarizedExperiment"
   ],
   "crisprVerse": [
-    "crisprBase",
     "crisprBowtie",
     "crisprScore",
     "crisprDesign",
@@ -5817,7 +5804,6 @@
     "SummarizedExperiment"
   ],
   "crisprViz": [
-    "crisprBase",
     "crisprDesign",
     "BSgenome",
     "GenomicFeatures",
@@ -9704,7 +9690,6 @@
   ],
   "synapter": [
     "MSnbase",
-    "cleaver",
     "PSMatch",
     "QFeatures",
     "MultiAssayExperiment",
@@ -9728,16 +9713,12 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "tRNA": [
-    "Structstrings"
-  ],
+  "tRNA": [],
   "tRNAdbImport": [
-    "Structstrings",
     "tRNA"
   ],
   "tRNAscanImport": [
     "tRNA",
-    "Structstrings",
     "rtracklayer",
     "BSgenome",
     "GenomicAlignments",

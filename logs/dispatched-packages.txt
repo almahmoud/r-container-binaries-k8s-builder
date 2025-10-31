@@ -997,3 +997,4 @@ microbiomeDASim
 reconsi
 clusterSeq
 riboSeqR
+tRNA

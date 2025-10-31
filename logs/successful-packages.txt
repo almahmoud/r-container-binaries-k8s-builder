@@ -917,3 +917,8 @@ coRdon
 idpr
 orthogene
 sangeranalyseR
+cleaver
+cogeqc
+crisprBase
+DelayedDataFrame
+Structstrings
