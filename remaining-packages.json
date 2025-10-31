@@ -487,7 +487,6 @@
     "AnnotationFilter",
     "SparseArray"
   ],
-  "AlphaBeta": [],
   "AlphaMissenseR": [],
   "AlpsNMR": [
     "mixOmics"
@@ -6114,7 +6113,6 @@
     "Seqinfo"
   ],
   "GeoTcgaData": [
-    "topconfects",
     "SummarizedExperiment",
     "GenomicRanges",
     "Biobase",
@@ -11925,7 +11923,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "SCFA": [],
   "SCOPE": [
     "GenomicRanges",
     "IRanges",
@@ -18843,7 +18840,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "easyreporting": [],
   "ecolitk": [
     "Biobase",
     "BiocGenerics"
@@ -20964,7 +20960,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "iCOBRA": [],
   "iCheck": [
     "Biobase",
     "lumi",
@@ -21740,7 +21735,6 @@
     "rhdf5filters",
     "XVector"
   ],
-  "limmaGUI": [],
   "limpa": [],
   "limpca": [
     "SummarizedExperiment",
@@ -25097,7 +25091,6 @@
     "ScaledMatrix",
     "XVector"
   ],
-  "pengls": [],
   "pepStat": [
     "Biobase",
     "IRanges",
@@ -27376,7 +27369,6 @@
     "SparseArray",
     "XVector"
   ],
-  "scShapes": [],
   "scTGIF": [
     "GSEABase",
     "Biobase",
@@ -29728,7 +29720,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "topconfects": [],
   "topdownr": [
     "BiocGenerics",
     "Biostrings",
@@ -30517,7 +30508,6 @@
     "DelayedArray",
     "DelayedMatrixStats",
     "BiocGenerics",
-    "topconfects",
     "IRanges",
     "S4Arrays",
     "SparseArray",

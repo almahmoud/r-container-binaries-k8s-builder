@@ -324,3 +324,11 @@ rgoslin
 similaRpeak
 TreeAndLeaf
 XINA
+AlphaBeta
+easyreporting
+iCOBRA
+limmaGUI
+pengls
+SCFA
+scShapes
+topconfects
