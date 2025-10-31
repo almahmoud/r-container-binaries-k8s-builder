@@ -1446,3 +1446,8 @@ miaSim
 microbiomeExplorer
 transformGamPoi
 UCell
+BulkSignalR
+chipseq
+girafe
+SurfR
+treeclimbR

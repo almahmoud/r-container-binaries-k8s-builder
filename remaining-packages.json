@@ -201,7 +201,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "BulkSignalR": [],
   "CAFE": [
     "biovizBase",
     "ggbio",
@@ -357,7 +356,6 @@
   ],
   "ChIPQC": [
     "DiffBind",
-    "chipseq",
     "GenomicFeatures",
     "systemPipeR",
     "GreyListChIP",
@@ -1686,7 +1684,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "SurfR": [],
   "TAPseq": [
     "BSgenome",
     "GenomicFeatures",
@@ -2177,7 +2174,6 @@
   "chipenrich": [
     "rtracklayer"
   ],
-  "chipseq": [],
   "chromVAR": [
     "TFBSTools",
     "BSgenome",
@@ -2724,7 +2720,6 @@
   ],
   "ggsc": [],
   "ggspavis": [],
-  "girafe": [],
   "glmSparseNet": [
     "TCGAutils",
     "GenomicFeatures",
@@ -3399,8 +3394,7 @@
     "ChIPseeker",
     "GenomicFeatures",
     "rGREAT",
-    "rtracklayer",
-    "chipseq"
+    "rtracklayer"
   ],
   "protGear": [],
   "psichomics": [
@@ -3819,8 +3813,7 @@
   "smoothclust": [],
   "smoppix": [],
   "soGGi": [
-    "rtracklayer",
-    "chipseq"
+    "rtracklayer"
   ],
   "sosta": [],
   "spaSim": [],
@@ -3967,7 +3960,6 @@
     "slingshot"
   ],
   "transcriptR": [
-    "chipseq",
     "GenomicFeatures",
     "rtracklayer"
   ],
@@ -3981,7 +3973,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "treeclimbR": [],
   "tricycle": [
     "scater",
     "scuttle"
