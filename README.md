@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 272 (12%)
+- **Successfully Built:** 293 (13%)
 - **Failed:** 1 (0%)
-- **In Progress:** 116
-- **Not Started:** 1855
+- **In Progress:** 97
+- **Not Started:** 1853
 
-**Progress:** 12%
+**Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (272)
+## Successfully Built Packages (293)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -38,19 +38,18 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.22/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.22/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocFileCache) |
+| [BiocNeighbors](https://bioconductor.org/packages/3.22/bioc/html/BiocNeighbors.html) | [log](logs/BiocNeighbors/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocNeighbors) |
 | [BiocStyle](https://bioconductor.org/packages/3.22/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocStyle) |
 | [BiocVersion](https://bioconductor.org/packages/3.22/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.22/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.22/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/CARNIVAL) |
-| [CFAssay](https://bioconductor.org/packages/3.22/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/CFAssay) |
 
-*... and 222 more ...*
+*... and 243 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [shinybiocloader](https://bioconductor.org/packages/3.22/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.22/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sights) |
 | [sizepower](https://bioconductor.org/packages/3.22/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.22/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/snm) |
@@ -68,6 +67,7 @@
 | [tidysbml](https://bioconductor.org/packages/3.22/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
+| [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
@@ -82,18 +82,17 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (116)
+## In Progress (97)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `BiocGenerics`
-- ⏳ `BiocNeighbors`
 - ⏳ `BiocParallel`
 - ⏳ `BiocWorkflowTools`
 - ⏳ `CNAnorm`
 - ⏳ `COMPASS`
 - ⏳ `Chicago`
+- ⏳ `DeepPINCS`
 - ⏳ `EnMCB`
-- ⏳ `FGNet`
 - ⏳ `GCPtools`
 - ⏳ `HVP`
 - ⏳ `Harman`
@@ -112,31 +111,32 @@
 - ⏳ `VennDetail`
 - ⏳ `XINA`
 - ⏳ `a4Reporting`
-- ⏳ `affxparser`
 - ⏳ `anndataR`
 - ⏳ `banocc`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
-- ⏳ `biodbChebi`
 - ⏳ `bugsigdbr`
 - ⏳ `ccrepe`
 - ⏳ `cellxgenedp`
 - ⏳ `clst`
 - ⏳ `cytolib`
-- ⏳ `dearseq`
 - ⏳ `decontam`
 - ⏳ `demuxmix`
 - ⏳ `dupRadar`
 - ⏳ `easyreporting`
 - ⏳ `fdrame`
 - ⏳ `fenr`
-- ⏳ `flowCyBar`
 - ⏳ `flowPeaks`
+- ⏳ `ggkegg`
+- ⏳ `ggtree`
+- ⏳ `imageTCGA`
+- ⏳ `immunotation`
+- ⏳ `iscream`
 
-... and 66 more ...
+... and 47 more ...
 
-## Not Yet Started (1855)
+## Not Yet Started (1853)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1805 more ...
+... and 1803 more ...
 
 ---
-*Last updated: 2025-10-31 22:10:53 UTC*
-*Packages with verified BBS status: 62*
+*Last updated: 2025-10-31 22:11:57 UTC*
+*Packages with verified BBS status: 64*

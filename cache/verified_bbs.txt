@@ -16,6 +16,7 @@ BiRewire
 BioCartaImage
 BiocBaseUtils
 BiocFileCache
+BiocNeighbors
 BiocStyle
 BiocVersion
 BridgeDbR
@@ -53,6 +54,7 @@ synlet
 tidysbml
 timescape
 tkWidgets
+tomoseqr
 treeio
 ttgsea
 vbmp
