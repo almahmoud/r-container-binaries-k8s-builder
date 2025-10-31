@@ -600,7 +600,6 @@
     "karyoploteR",
     "CopyNumberPlots",
     "VariantAnnotation",
-    "cn.mops",
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
@@ -615,7 +614,6 @@
     "regioneR",
     "SummarizedExperiment",
     "VariantAnnotation",
-    "cn.mops",
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
@@ -979,7 +977,6 @@
     "regioneR",
     "SummarizedExperiment",
     "VariantAnnotation",
-    "cn.mops",
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
@@ -5341,7 +5338,6 @@
     "oligo",
     "SummarizedExperiment"
   ],
-  "cn.mops": [],
   "coMethDMR": [
     "AnnotationHub",
     "bumphunter",
@@ -7840,9 +7836,7 @@
   "pairkat": [
     "SummarizedExperiment"
   ],
-  "panelcn.mops": [
-    "cn.mops"
-  ],
+  "panelcn.mops": [],
   "partCNV": [
     "SingleCellExperiment",
     "AnnotationHub",

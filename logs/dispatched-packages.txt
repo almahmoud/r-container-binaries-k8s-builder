@@ -1008,3 +1008,4 @@ Harshlight
 GeoDiff
 SpatialDecon
 SpatialOmicsOverlay
+panelcn.mops
