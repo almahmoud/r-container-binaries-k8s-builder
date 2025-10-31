@@ -767,3 +767,13 @@ tidyFlowCore
 cola
 flowViz
 ncdfFlow
+DelayedArray
+flowClust
+FlowSOM
+flowTime
+h5mread
+InteractiveComplexHeatmap
+MetCirc
+MsBackendMassbank
+MsBackendMgf
+MsBackendMsp

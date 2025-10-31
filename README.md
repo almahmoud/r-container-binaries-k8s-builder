@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 769 (34%)
+- **Successfully Built:** 779 (34%)
 - **Failed:** 1 (0%)
-- **In Progress:** 23
+- **In Progress:** 13
 - **Not Started:** 1451
 
 **Progress:** 34%
@@ -16,7 +16,7 @@
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (769)
+## Successfully Built Packages (779)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 719 more ...*
+*... and 729 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,28 +82,18 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (23)
+## In Progress (13)
 - ⏳ `Biostrings`
 - ⏳ `Chromatograms`
-- ⏳ `DelayedArray`
-- ⏳ `FlowSOM`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MetCirc`
-- ⏳ `MsBackendMassbank`
 - ⏳ `MsBackendMetaboLights`
-- ⏳ `MsBackendMgf`
-- ⏳ `MsBackendMsp`
 - ⏳ `MsBackendRawFileReader`
 - ⏳ `MsBackendSql`
 - ⏳ `SpectraQL`
 - ⏳ `SpectriPy`
-- ⏳ `flowClust`
 - ⏳ `flowDensity`
 - ⏳ `flowFP`
-- ⏳ `flowTime`
-- ⏳ `h5mread`
 - ⏳ `ldblock`
 - ⏳ `optimalFlow`
 
@@ -162,5 +152,5 @@
 ... and 1401 more ...
 
 ---
-*Last updated: 2025-10-31 23:27:45 UTC*
+*Last updated: 2025-10-31 23:38:44 UTC*
 *Packages with verified BBS status: 105*
