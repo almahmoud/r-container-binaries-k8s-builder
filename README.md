@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 410 (18%)
+- **Successfully Built:** 418 (18%)
 - **Failed:** 1 (0%)
-- **In Progress:** 60
+- **In Progress:** 52
 - **Not Started:** 1773
 
 **Progress:** 18%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (410)
+## Successfully Built Packages (418)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,13 @@
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 360 more ...*
+*... and 368 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssize](https://bioconductor.org/packages/3.22/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.22/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.22/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/statTarget) |
+| [stepNorm](https://bioconductor.org/packages/3.22/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.22/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.22/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.22/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/switchBox) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (60)
+## In Progress (52)
 - ⏳ `AlpsNMR`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
@@ -101,7 +101,6 @@
 - ⏳ `MSstatsResponse`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
-- ⏳ `OLIN`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
@@ -109,32 +108,33 @@
 - ⏳ `PCAN`
 - ⏳ `PROcess`
 - ⏳ `Polytect`
-- ⏳ `RBM`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
 - ⏳ `Wrench`
-- ⏳ `abseqR`
 - ⏳ `anndataR`
 - ⏳ `arrayQuality`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
-- ⏳ `brendaDb`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
 - ⏳ `epistasisGA`
-- ⏳ `faers`
 - ⏳ `fgsea`
 - ⏳ `iscream`
 - ⏳ `maftools`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
-- ⏳ `nnNorm`
 - ⏳ `pathwayPCA`
+- ⏳ `philr`
+- ⏳ `planet`
+- ⏳ `rawDiag`
+- ⏳ `rhdf5`
+- ⏳ `scBubbletree`
+- ⏳ `scFeatureFilter`
 
-... and 10 more ...
+... and 2 more ...
 
 ## Not Yet Started (1773)
 - ⏸️ `ABarray`
@@ -191,5 +191,5 @@
 ... and 1723 more ...
 
 ---
-*Last updated: 2025-10-31 22:20:47 UTC*
-*Packages with verified BBS status: 83*
+*Last updated: 2025-10-31 22:21:21 UTC*
+*Packages with verified BBS status: 84*

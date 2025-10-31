@@ -469,3 +469,4 @@ arrayQuality
 nnNorm
 rawDiag
 stepNorm
+OLINgui

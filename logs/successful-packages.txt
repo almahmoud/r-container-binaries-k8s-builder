@@ -408,3 +408,11 @@ DepecheR
 miRBaseConverter
 timeOmics
 TPP2D
+abseqR
+brendaDb
+faers
+nnNorm
+OLIN
+randRotation
+RBM
+stepNorm

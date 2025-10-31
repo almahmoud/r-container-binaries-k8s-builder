@@ -9197,10 +9197,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "OLIN": [],
-  "OLINgui": [
-    "OLIN"
-  ],
+  "OLINgui": [],
   "OMICsPCA": [
     "HelloRanges",
     "MultiAssayExperiment",
@@ -10252,7 +10249,6 @@
     "graph",
     "BiocGenerics"
   ],
-  "RBM": [],
   "RBioFormats": [
     "EBImage",
     "S4Vectors",
@@ -14399,7 +14395,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "abseqR": [],
   "adSplit": [
     "AnnotationDbi",
     "Biobase",
@@ -15858,7 +15853,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "brendaDb": [],
   "bsseq": [
     "BiocGenerics",
     "GenomicRanges",
@@ -19067,7 +19061,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "faers": [],
   "fastLiquidAssociation": [
     "LiquidAssociation",
     "Biobase",
@@ -23709,7 +23702,6 @@
     "SparseArray",
     "XVector"
   ],
-  "nnNorm": [],
   "nnSVG": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -25695,7 +25687,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "randRotation": [],
   "rawDiag": [],
   "rbsurv": [
     "Biobase",
@@ -28583,7 +28574,6 @@
     "cigarillo",
     "BiocIO"
   ],
-  "stepNorm": [],
   "strandCheckR": [
     "Rsamtools",
     "S4Vectors",
