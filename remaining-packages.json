@@ -190,7 +190,6 @@
     "txdbmaker"
   ],
   "DiffBind": [],
-  "Dino": [],
   "DominoEffect": [],
   "DuplexDiscovereR": [
     "Gviz",
@@ -588,7 +587,6 @@
     "biovizBase"
   ],
   "SigsPack": [],
-  "SingleCellSignalR": [],
   "SingleMoleculeFootprinting": [
     "QuasR",
     "txdbmaker",
@@ -733,7 +731,6 @@
   ],
   "canceR": [
     "cBioPortalData",
-    "phenoTest",
     "RTCGAToolbox",
     "TCGAutils"
   ],
@@ -1215,7 +1212,6 @@
   "peakPantheR": [],
   "peco": [],
   "periodicDNA": [],
-  "phenoTest": [],
   "pipeComp": [],
   "pipeFrame": [],
   "plotgardener": [],
@@ -1299,9 +1295,7 @@
   "scDD": [],
   "scDblFinder": [],
   "scDotPlot": [],
-  "scFeatures": [
-    "SingleCellSignalR"
-  ],
+  "scFeatures": [],
   "scMerge": [
     "M3Drop"
   ],

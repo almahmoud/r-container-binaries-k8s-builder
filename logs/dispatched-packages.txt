@@ -2019,3 +2019,4 @@ diffUTR
 drugTargetInteractions
 methInheritSim
 methylInheritance
+scFeatures

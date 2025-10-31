@@ -1,2 +1,1 @@
-methInheritSim
-methylInheritance
+scFeatures
