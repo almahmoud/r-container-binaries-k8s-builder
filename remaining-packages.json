@@ -1,7 +1,5 @@
 {
-  "AHMassBank": [
-    "AnnotationHubData"
-  ],
+  "AHMassBank": [],
   "ASpli": [
     "Gviz"
   ],
@@ -15,7 +13,6 @@
     "Gviz"
   ],
   "AneuFinder": [],
-  "AnnotationHubData": [],
   "BOBaFIT": [
     "ggbio"
   ],
@@ -42,7 +39,6 @@
     "karyoploteR",
     "CopyNumberPlots"
   ],
-  "CexoR": [],
   "ChAMP": [
     "DMRcate",
     "wateRmelon",
@@ -59,7 +55,6 @@
   "CopyNumberPlots": [
     "karyoploteR"
   ],
-  "DEScan2": [],
   "DMRcate": [
     "missMethyl",
     "Gviz",
@@ -74,23 +69,18 @@
   "ELMER": [
     "Gviz"
   ],
-  "ENmix": [],
   "EpiCompare": [],
   "EventPointer": [],
-  "ExperimentHubData": [
-    "AnnotationHubData"
-  ],
+  "ExperimentHubData": [],
   "FLAMES": [
     "ggbio"
   ],
   "FRASER": [],
-  "GARS": [],
   "GNOSIS": [
     "cBioPortalData",
     "RTCGAToolbox"
   ],
   "GRaNIE": [],
-  "GSReg": [],
   "GUIDEseq": [],
   "GeDi": [
     "GeneTonic",
@@ -114,7 +104,6 @@
     "GenomicInteractions",
     "Gviz"
   ],
-  "IsoformSwitchAnalyzeR": [],
   "MAGAR": [
     "RnBeads",
     "methylumi"
@@ -129,8 +118,6 @@
     "methylumi",
     "lumi"
   ],
-  "MSstatsQCgui": [],
-  "MethylAid": [],
   "MineICA": [
     "lumi",
     "methylumi"
@@ -156,11 +143,7 @@
   "R3CPET": [
     "ggbio"
   ],
-  "RAIDS": [],
-  "REDseq": [],
-  "REMP": [],
   "RITAN": [],
-  "RJMCMCNucleosomes": [],
   "RNAmodR": [
     "Gviz"
   ],
@@ -216,7 +199,6 @@
     "ReportingTools",
     "ggbio"
   ],
-  "alabaster": [],
   "amplican": [],
   "appreci8R": [],
   "arrayMvout": [
@@ -250,12 +232,8 @@
     "cBioPortalData",
     "RTCGAToolbox"
   ],
-  "chevreulPlot": [
-    "chevreulProcess"
-  ],
-  "chevreulProcess": [],
+  "chevreulPlot": [],
   "chevreulShiny": [
-    "chevreulProcess",
     "chevreulPlot"
   ],
   "chimeraviz": [
@@ -273,7 +251,6 @@
     "Gviz"
   ],
   "consensusDE": [],
-  "conumee": [],
   "crisprShiny": [
     "crisprViz",
     "Gviz"
@@ -289,10 +266,8 @@
     "Gviz"
   ],
   "cytofQC": [],
-  "dce": [],
   "debCAM": [],
   "decontX": [],
-  "deconvR": [],
   "derfinderPlot": [
     "ggbio"
   ],
@@ -312,14 +287,10 @@
   ],
   "erma": [],
   "esATAC": [],
-  "extraChIPs": [],
-  "fCCAC": [],
   "ffpe": [
     "lumi",
     "methylumi"
   ],
-  "funtooNorm": [],
-  "geneXtendeR": [],
   "genoCN": [],
   "geomeTriD": [
     "trackViewer",
@@ -328,7 +299,6 @@
   "ggbio": [],
   "glmSparseNet": [],
   "gpuMagic": [],
-  "hiReadsProcessor": [],
   "hypeR": [],
   "iCheck": [
     "lumi",
@@ -343,7 +313,6 @@
   "ideal": [
     "mosdef"
   ],
-  "imcRtools": [],
   "intansv": [
     "ggbio"
   ],
@@ -365,8 +334,7 @@
     "Gviz"
   ],
   "methylclock": [
-    "ExperimentHubData",
-    "AnnotationHubData"
+    "ExperimentHubData"
   ],
   "methylumi": [],
   "miRSM": [],
@@ -387,7 +355,6 @@
   "multicrispr": [
     "karyoploteR"
   ],
-  "musicatk": [],
   "netSmooth": [],
   "octad": [],
   "pcaExplorer": [
@@ -397,20 +364,16 @@
     "Gviz"
   ],
   "profileplyr": [],
-  "quantro": [],
   "rGADEM": [],
-  "recountmethylation": [],
   "regutools": [
     "Gviz"
   ],
   "rgsepd": [],
-  "ribosomeProfilingQC": [],
   "saseR": [
     "ASpli",
     "Gviz"
   ],
   "scFeatures": [],
-  "scMerge": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData"
@@ -420,17 +383,11 @@
     "ggbio"
   ],
   "segmenter": [],
-  "selectKSigs": [],
   "seqArchRplus": [],
-  "shinyDSP": [
-    "standR"
-  ],
-  "shinyMethyl": [],
+  "shinyDSP": [],
   "shinyepico": [],
   "signeR": [],
-  "singleCellTK": [
-    "scMerge"
-  ],
+  "singleCellTK": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
@@ -443,11 +400,9 @@
   "srnadiff": [
     "Gviz"
   ],
-  "standR": [],
   "tadar": [
     "Gviz"
   ],
-  "terraTCGAdata": [],
   "trackViewer": [
     "Gviz"
   ],
@@ -460,7 +415,5 @@
     "methylumi",
     "lumi"
   ],
-  "yarn": [
-    "quantro"
-  ]
+  "yarn": []
 }

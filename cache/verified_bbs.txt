@@ -78,6 +78,7 @@ debCAM
 genoCN
 gpuMagic
 hypeR
+miRSM
 miRspongeR
 rGADEM
 semisup

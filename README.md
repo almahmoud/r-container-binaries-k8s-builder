@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2107 (91%)
-- **Failed:** 20 (0%)
-- **In Progress:** 79
+- **Successfully Built:** 2140 (92%)
+- **Failed:** 21 (0%)
+- **In Progress:** 45
 - **Not Started:** 104
 
-**Progress:** 92%
+**Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2107)
+## Successfully Built Packages (2140)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2057 more ...*
+*... and 2090 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (20)
+## Failed Packages (21)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -96,36 +96,24 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
+| [miRSM](https://bioconductor.org/packages/3.21/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [miRspongeR](https://bioconductor.org/packages/3.21/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [rGADEM](https://bioconductor.org/packages/3.21/bioc/html/rGADEM.html) | [log](logs/rGADEM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/rGADEM) | Build failed with unknown error |
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (79)
+## In Progress (45)
 - ⏳ `ATACseqQC`
-- ⏳ `AnnotationHubData`
 - ⏳ `BubbleTree`
-- ⏳ `CexoR`
 - ⏳ `ChIPexoQual`
-- ⏳ `DEScan2`
-- ⏳ `ENmix`
 - ⏳ `EpiCompare`
 - ⏳ `EventPointer`
 - ⏳ `FRASER`
-- ⏳ `GARS`
 - ⏳ `GRaNIE`
-- ⏳ `GSReg`
 - ⏳ `GUIDEseq`
 - ⏳ `Gviz`
-- ⏳ `IsoformSwitchAnalyzeR`
-- ⏳ `MSstatsQCgui`
-- ⏳ `MethylAid`
 - ⏳ `Moonlight2R`
-- ⏳ `RAIDS`
-- ⏳ `REDseq`
-- ⏳ `REMP`
 - ⏳ `RITAN`
-- ⏳ `RJMCMCNucleosomes`
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rhisat2`
 - ⏳ `RiboCrypt`
@@ -134,26 +122,32 @@
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFHAZ`
 - ⏳ `Ularcirc`
-- ⏳ `alabaster`
 - ⏳ `appreci8R`
 - ⏳ `biscuiteer`
-- ⏳ `chevreulProcess`
 - ⏳ `consensusDE`
-- ⏳ `conumee`
 - ⏳ `cytofQC`
-- ⏳ `dce`
 - ⏳ `decontX`
-- ⏳ `deconvR`
 - ⏳ `epivizrData`
 - ⏳ `erma`
 - ⏳ `esATAC`
-- ⏳ `extraChIPs`
-- ⏳ `fCCAC`
-- ⏳ `funtooNorm`
-- ⏳ `geneXtendeR`
 - ⏳ `ggbio`
-
-... and 29 more ...
+- ⏳ `glmSparseNet`
+- ⏳ `iNETgrate`
+- ⏳ `iSEEtree`
+- ⏳ `iSEEu`
+- ⏳ `karyoploteR`
+- ⏳ `methylumi`
+- ⏳ `mosdef`
+- ⏳ `netSmooth`
+- ⏳ `octad`
+- ⏳ `profileplyr`
+- ⏳ `rgsepd`
+- ⏳ `scFeatures`
+- ⏳ `scone`
+- ⏳ `segmenter`
+- ⏳ `seqArchRplus`
+- ⏳ `shinyepico`
+- ⏳ `vulcan`
 
 ## Not Yet Started (104)
 - ⏸️ `AHMassBank`
@@ -210,5 +204,5 @@
 ... and 54 more ...
 
 ---
-*Last updated: 2025-10-31 10:18:55 UTC*
-*Packages with verified BBS status: 162*
+*Last updated: 2025-10-31 10:40:49 UTC*
+*Packages with verified BBS status: 163*

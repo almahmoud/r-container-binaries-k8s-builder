@@ -18,3 +18,4 @@ XNAString
 rGADEM
 ChIPQC
 miRspongeR
+miRSM

@@ -2204,3 +2204,9 @@ Rqc
 ggbio
 iSEEu
 karyoploteR
+AHMassBank
+ExperimentHubData
+chevreulPlot
+shinyDSP
+singleCellTK
+yarn
