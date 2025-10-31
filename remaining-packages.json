@@ -35,7 +35,6 @@
     "OrganismDbi"
   ],
   "BUSpaRse": [],
-  "BayesSpace": [],
   "BgeeCall": [],
   "BiGGR": [],
   "BindingSiteFinder": [],
@@ -71,7 +70,6 @@
   ],
   "COCOA": [],
   "CRISPRseek": [],
-  "CSSQ": [],
   "CexoR": [],
   "ChAMP": [
     "DMRcate",
@@ -119,7 +117,6 @@
     "OrganismDbi"
   ],
   "DeMixT": [],
-  "DeconvoBuddies": [],
   "DegNorm": [],
   "DuplexDiscovereR": [
     "Gviz",
@@ -321,9 +318,7 @@
     "EDASeq"
   ],
   "RbowtieCuda": [],
-  "RegionalST": [
-    "BayesSpace"
-  ],
+  "RegionalST": [],
   "Repitools": [],
   "ReportingTools": [
     "ggbio",
@@ -366,7 +361,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "Spaniel": [],
   "SplicingGraphs": [],
   "TAPseq": [],
   "TCGAutils": [],
@@ -737,7 +731,6 @@
     "biovizBase"
   ],
   "scDblFinder": [],
-  "scDotPlot": [],
   "scFeatures": [],
   "scMerge": [],
   "scTreeViz": [
@@ -811,7 +804,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "transcriptR": [],
   "trigger": [],
   "txcutr": [],
   "tximeta": [],
@@ -827,7 +819,6 @@
     "methylumi",
     "lumi"
   ],
-  "wavClusteR": [],
   "yarn": [
     "quantro"
   ]

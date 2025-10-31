@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1988 (86%)
-- **Failed:** 17 (0%)
-- **In Progress:** 118
-- **Not Started:** 187
+- **Successfully Built:** 1995 (86%)
+- **Failed:** 18 (0%)
+- **In Progress:** 132
+- **Not Started:** 165
 
-**Progress:** 86%
+**Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1988)
+## Successfully Built Packages (1995)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1938 more ...*
+*... and 1945 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vissE](https://bioconductor.org/packages/3.21/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.21/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.21/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.21/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vtpnet) |
 | [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.21/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.21/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weitrix) |
@@ -76,7 +76,7 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (17)
+## Failed Packages (18)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -95,17 +95,17 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
+| [rGADEM](https://bioconductor.org/packages/3.21/bioc/html/rGADEM.html) | [log](logs/rGADEM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/rGADEM) | Build failed with unknown error |
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (118)
+## In Progress (132)
 - ⏳ `BASiCS`
 - ⏳ `BUSpaRse`
-- ⏳ `BayesSpace`
+- ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `COCOA`
 - ⏳ `CRISPRseek`
-- ⏳ `CSSQ`
 - ⏳ `CexoR`
 - ⏳ `ChIPQC`
 - ⏳ `ChIPpeakAnno`
@@ -114,10 +114,12 @@
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
 - ⏳ `DeMixT`
-- ⏳ `DeconvoBuddies`
+- ⏳ `DegNorm`
 - ⏳ `EDASeq`
+- ⏳ `ELViS`
 - ⏳ `ENmix`
 - ⏳ `EpiMix`
+- ⏳ `EpiTxDb`
 - ⏳ `FindIT2`
 - ⏳ `GRaNIE`
 - ⏳ `GenomicInteractionNodes`
@@ -126,6 +128,7 @@
 - ⏳ `INSPEcT`
 - ⏳ `IPO`
 - ⏳ `IVAS`
+- ⏳ `IntEREst`
 - ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
 - ⏳ `MGnifyR`
@@ -133,26 +136,24 @@
 - ⏳ `MethylAid`
 - ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
+- ⏳ `ORFik`
+- ⏳ `OUTRIDER`
 - ⏳ `Organism.dplyr`
+- ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
+- ⏳ `QuasR`
 - ⏳ `RAIDS`
+- ⏳ `RCAS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
+- ⏳ `RiboDiPA`
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
-- ⏳ `Spaniel`
-- ⏳ `SplicingGraphs`
-- ⏳ `TAPseq`
-- ⏳ `TCGAutils`
-- ⏳ `alabaster`
-- ⏳ `alabaster.sfe`
-- ⏳ `benchdamic`
-- ⏳ `biovizBase`
 
-... and 68 more ...
+... and 82 more ...
 
-## Not Yet Started (187)
+## Not Yet Started (165)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -161,7 +162,6 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BgeeCall`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -176,12 +176,9 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
-- ⏸️ `DegNorm`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `ELViS`
 - ⏸️ `EpiCompare`
-- ⏸️ `EpiTxDb`
 - ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
@@ -199,13 +196,17 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `IMAS`
-- ⏸️ `IntEREst`
 - ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MOSClip`
+- ⏸️ `MetaboSignal`
+- ⏸️ `MineICA`
+- ⏸️ `Moonlight2R`
 
-... and 137 more ...
+... and 115 more ...
 
 ---
-*Last updated: 2025-10-31 09:20:51 UTC*
-*Packages with verified BBS status: 158*
+*Last updated: 2025-10-31 09:23:04 UTC*
+*Packages with verified BBS status: 160*

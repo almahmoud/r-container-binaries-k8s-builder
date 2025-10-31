@@ -15,3 +15,4 @@ CNEr
 Repitools
 signeR
 XNAString
+rGADEM

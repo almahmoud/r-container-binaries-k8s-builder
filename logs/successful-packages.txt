@@ -1986,3 +1986,10 @@ epiregulon
 strandCheckR
 txdbmaker
 visiumStitched
+BayesSpace
+CSSQ
+DeconvoBuddies
+scDotPlot
+Spaniel
+transcriptR
+wavClusteR
