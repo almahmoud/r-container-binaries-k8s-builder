@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 436 (19%)
+- **Successfully Built:** 437 (19%)
 - **Failed:** 1 (0%)
-- **In Progress:** 39
+- **In Progress:** 38
 - **Not Started:** 1768
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (436)
+## Successfully Built Packages (437)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -39,14 +39,14 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.22/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BADER) |
+| [BEclear](https://bioconductor.org/packages/3.22/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.22/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.22/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.22/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
-| [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 386 more ...*
+*... and 387 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,9 +82,8 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (39)
+## In Progress (38)
 - ⏳ `AlpsNMR`
-- ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `CIMICE`
 - ⏳ `COMPASS`
@@ -178,5 +177,5 @@
 ... and 1718 more ...
 
 ---
-*Last updated: 2025-10-31 22:22:50 UTC*
-*Packages with verified BBS status: 84*
+*Last updated: 2025-10-31 22:23:13 UTC*
+*Packages with verified BBS status: 85*
