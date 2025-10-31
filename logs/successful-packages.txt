@@ -1148,3 +1148,10 @@ beachmat.hdf5
 csdR
 HiCExperiment
 MultimodalExperiment
+adSplit
+annaffy
+apComplex
+ccmap
+chihaya
+ginmappeR
+OmaDB

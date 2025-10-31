@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1150 (49%)
+- **Successfully Built:** 1157 (50%)
 - **Failed:** 8 (0%)
-- **In Progress:** 165
-- **Not Started:** 987
+- **In Progress:** 160
+- **Not Started:** 985
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1150)
+## Successfully Built Packages (1157)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1100 more ...*
+*... and 1107 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (165)
+## In Progress (160)
 - ⏳ `AffiXcan`
 - ⏳ `BLMA`
 - ⏳ `CHRONOS`
@@ -111,6 +111,8 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
 - ⏳ `HERON`
+- ⏳ `HiContacts`
+- ⏳ `HiCool`
 - ⏳ `IFAA`
 - ⏳ `InterCellar`
 - ⏳ `LACE`
@@ -124,7 +126,6 @@
 - ⏳ `MouseFM`
 - ⏳ `MultiDataSet`
 - ⏳ `NetSAM`
-- ⏳ `OmaDB`
 - ⏳ `OncoScore`
 - ⏳ `PPInfer`
 - ⏳ `ProteoMM`
@@ -139,11 +140,10 @@
 - ⏳ `SplicingFactory`
 - ⏳ `TADCompare`
 - ⏳ `TCGAbiolinks`
-- ⏳ `TDbasedUFEadv`
 
-... and 115 more ...
+... and 110 more ...
 
-## Not Yet Started (987)
+## Not Yet Started (985)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BubbleTree`
 - ⏸️ `BulkSignalR`
 
-... and 937 more ...
+... and 935 more ...
 
 ---
-*Last updated: 2025-10-31 04:28:31 UTC*
+*Last updated: 2025-10-31 04:29:41 UTC*
 *Packages with verified BBS status: 122*

@@ -1860,7 +1860,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "OmaDB": [],
   "OncoScore": [],
   "Organism.dplyr": [
     "GenomicFeatures",
@@ -2873,16 +2872,13 @@
   ],
   "a4": [
     "a4Base",
-    "annaffy",
     "genefilter",
     "annotate"
   ],
   "a4Base": [
-    "annaffy",
     "genefilter",
     "annotate"
   ],
-  "adSplit": [],
   "adductomicsR": [
     "ExperimentHub"
   ],
@@ -2978,7 +2974,6 @@
   "animalcules": [
     "DESeq2"
   ],
-  "annaffy": [],
   "annmap": [
     "genefilter",
     "annotate"
@@ -2994,7 +2989,6 @@
   "anota2seq": [
     "DESeq2"
   ],
-  "apComplex": [],
   "apeglm": [],
   "appreci8R": [
     "VariantAnnotation",
@@ -3284,7 +3278,6 @@
   "ccfindR": [
     "SingleCellExperiment"
   ],
-  "ccmap": [],
   "celaref": [
     "MAST",
     "SingleCellExperiment"
@@ -3351,7 +3344,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "chihaya": [],
   "chimeraviz": [
     "Gviz",
     "ensembldb",
@@ -4173,7 +4165,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "ginmappeR": [],
   "girafe": [
     "ShortRead",
     "GenomicAlignments"
@@ -6274,9 +6265,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "webbioc": [
-    "annaffy"
-  ],
+  "webbioc": [],
   "wiggleplotr": [
     "rtracklayer",
     "GenomicAlignments"
