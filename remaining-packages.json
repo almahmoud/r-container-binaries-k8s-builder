@@ -139,7 +139,6 @@
   ],
   "CiteFuse": [],
   "CleanUpRNAseq": [],
-  "CluMSID": [],
   "Cogito": [],
   "CopyNumberPlots": [
     "karyoploteR",
@@ -385,7 +384,6 @@
     "EpiMix"
   ],
   "MungeSumstats": [],
-  "MutationalPatterns": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -455,9 +453,7 @@
   "REMP": [
     "minfi"
   ],
-  "RESOLVE": [
-    "MutationalPatterns"
-  ],
+  "RESOLVE": [],
   "RITAN": [],
   "RJMCMCNucleosomes": [
     "consensusSeekeR"
@@ -560,7 +556,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "SigsPack": [],
   "SingleMoleculeFootprinting": [
     "QuasR",
     "txdbmaker"

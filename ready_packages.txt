@@ -1,4 +1,1 @@
-TFutils
-VCFArray
-derfinder
-gDNAx
+RESOLVE

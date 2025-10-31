@@ -1819,3 +1819,6 @@ synapter
 zenith
 GenomicFiles
 MADSEQ
+CluMSID
+MutationalPatterns
+SigsPack
