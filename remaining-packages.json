@@ -134,7 +134,6 @@
     "regioneR"
   ],
   "ChIPseeker": [],
-  "ChromSCape": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "txdbmaker",
@@ -260,7 +259,6 @@
     "goseq",
     "txdbmaker"
   ],
-  "GenVisR": [],
   "GeneStructureTools": [
     "Gviz",
     "biovizBase"
@@ -948,7 +946,6 @@
   "gDNAx": [
     "GenomicFiles"
   ],
-  "gINTomics": [],
   "gcapc": [],
   "geneXtendeR": [],
   "genoCN": [],
@@ -1173,7 +1170,6 @@
   "ncGTW": [
     "xcms"
   ],
-  "nearBynding": [],
   "netSmooth": [
     "clusterExperiment"
   ],
@@ -1192,7 +1188,6 @@
     "motifmatchr",
     "TFBSTools"
   ],
-  "pathMED": [],
   "pcaExplorer": [
     "mosdef",
     "GOstats",

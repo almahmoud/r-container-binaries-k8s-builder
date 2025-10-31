@@ -1795,3 +1795,8 @@ TBSignatureProfiler
 tLOH
 GA4GHclient
 GSEABenchmarkeR
+ChromSCape
+GenVisR
+gINTomics
+nearBynding
+pathMED
