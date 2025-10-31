@@ -65,6 +65,7 @@ CNEr
 CONSTANd
 COSNet
 CausalR
+ChIPQC
 Harshlight
 PICS
 PhenStat

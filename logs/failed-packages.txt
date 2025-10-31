@@ -16,3 +16,4 @@ Repitools
 signeR
 XNAString
 rGADEM
+ChIPQC

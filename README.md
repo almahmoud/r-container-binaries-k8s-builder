@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2017 (87%)
-- **Failed:** 18 (0%)
-- **In Progress:** 129
+- **Successfully Built:** 2048 (88%)
+- **Failed:** 19 (0%)
+- **In Progress:** 97
 - **Not Started:** 146
 
-**Progress:** 88%
+**Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2017)
+## Successfully Built Packages (2048)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1967 more ...*
+*... and 1998 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,13 +76,14 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (18)
+## Failed Packages (19)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [AneuFinder](https://bioconductor.org/packages/3.21/bioc/html/AneuFinder.html) | [log](logs/AneuFinder/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AneuFinder) | Build failed with unknown error |
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
 | [CNEr](https://bioconductor.org/packages/3.21/bioc/html/CNEr.html) | [log](logs/CNEr/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/CNEr) | Build failed with unknown error |
+| [ChIPQC](https://bioconductor.org/packages/3.21/bioc/html/ChIPQC.html) | [log](logs/ChIPQC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ChIPQC) | Build failed with unknown error |
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
@@ -99,42 +100,27 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (129)
+## In Progress (97)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
-- ⏳ `BgeeCall`
-- ⏳ `COCOA`
-- ⏳ `CRISPRseek`
 - ⏳ `CexoR`
-- ⏳ `ChIPQC`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `DEScan2`
 - ⏳ `DaMiRseq`
-- ⏳ `DeMixT`
-- ⏳ `DegNorm`
-- ⏳ `ELViS`
 - ⏳ `ENmix`
 - ⏳ `EpiCompare`
-- ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
 - ⏳ `GRaNIE`
 - ⏳ `IMAS`
-- ⏳ `IPO`
 - ⏳ `IntEREst`
-- ⏳ `LOBSTAHS`
-- ⏳ `MAIT`
-- ⏳ `MGnifyR`
 - ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethylAid`
 - ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
-- ⏳ `ORFik`
 - ⏳ `OUTRIDER`
-- ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
-- ⏳ `OutSplice`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `RCAS`
@@ -143,15 +129,30 @@
 - ⏳ `RITAN`
 - ⏳ `RUVSeq`
 - ⏳ `RegionalST`
-- ⏳ `RiboDiPA`
-- ⏳ `Rmmquant`
-- ⏳ `SGSeq`
-- ⏳ `SOMNiBUS`
 - ⏳ `SplicingGraphs`
 - ⏳ `TAPseq`
 - ⏳ `TCGAutils`
+- ⏳ `alabaster`
+- ⏳ `benchdamic`
+- ⏳ `biovizBase`
+- ⏳ `celaref`
+- ⏳ `chevreulProcess`
+- ⏳ `chipenrich`
+- ⏳ `clipper`
+- ⏳ `clusterExperiment`
+- ⏳ `consensusSeekeR`
+- ⏳ `conumee`
+- ⏳ `crisprDesign`
+- ⏳ `customProDB`
+- ⏳ `cytofQC`
+- ⏳ `dandelionR`
+- ⏳ `dce`
+- ⏳ `debrowser`
+- ⏳ `deconvR`
+- ⏳ `demuxSNP`
+- ⏳ `diffUTR`
 
-... and 79 more ...
+... and 47 more ...
 
 ## Not Yet Started (146)
 - ⏸️ `AHMassBank`
@@ -208,5 +209,5 @@
 ... and 96 more ...
 
 ---
-*Last updated: 2025-10-31 09:38:11 UTC*
-*Packages with verified BBS status: 160*
+*Last updated: 2025-10-31 09:51:19 UTC*
+*Packages with verified BBS status: 161*

@@ -30,7 +30,6 @@
     "OrganismDbi"
   ],
   "BUSpaRse": [],
-  "BgeeCall": [],
   "BiGGR": [],
   "BubbleTree": [
     "biovizBase"
@@ -62,8 +61,6 @@
     "CopyNumberPlots",
     "biovizBase"
   ],
-  "COCOA": [],
-  "CRISPRseek": [],
   "CexoR": [],
   "ChAMP": [
     "DMRcate",
@@ -80,8 +77,7 @@
     "biovizBase"
   ],
   "CircSeqAlignTk": [
-    "Rhisat2",
-    "SGSeq"
+    "Rhisat2"
   ],
   "CleanUpRNAseq": [],
   "CopyNumberPlots": [
@@ -102,8 +98,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "DeMixT": [],
-  "DegNorm": [],
   "DuplexDiscovereR": [
     "Gviz",
     "biovizBase"
@@ -112,14 +106,10 @@
     "Gviz",
     "biovizBase"
   ],
-  "ELViS": [],
   "ENmix": [],
   "EpiCompare": [],
-  "EpiMix": [],
   "EpiTxDb": [],
-  "EventPointer": [
-    "SGSeq"
-  ],
+  "EventPointer": [],
   "ExperimentHubData": [
     "AnnotationHubData",
     "OrganismDbi"
@@ -144,9 +134,7 @@
   "GSReg": [
     "OrganismDbi"
   ],
-  "GUIDEseq": [
-    "CRISPRseek"
-  ],
+  "GUIDEseq": [],
   "GeDi": [
     "GeneTonic",
     "mosdef",
@@ -182,17 +170,14 @@
     "biovizBase"
   ],
   "IMAS": [],
-  "IPO": [],
   "IntEREst": [],
   "IsoformSwitchAnalyzeR": [
     "tximeta"
   ],
-  "LOBSTAHS": [],
   "MAGAR": [
     "RnBeads",
     "methylumi"
   ],
-  "MAIT": [],
   "MEAL": [
     "Gviz",
     "missMethyl",
@@ -204,7 +189,6 @@
     "methylumi",
     "lumi"
   ],
-  "MGnifyR": [],
   "MOSClip": [],
   "MSstatsQCgui": [],
   "MetaboSignal": [
@@ -215,9 +199,7 @@
     "lumi",
     "methylumi"
   ],
-  "Moonlight2R": [
-    "EpiMix"
-  ],
+  "Moonlight2R": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -230,11 +212,8 @@
     "Gviz",
     "biovizBase"
   ],
-  "ORFik": [],
   "OUTRIDER": [],
-  "Organism.dplyr": [],
   "OrganismDbi": [],
-  "OutSplice": [],
   "PICS": [],
   "PING": [
     "PICS",
@@ -291,30 +270,22 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "Rhisat2": [
-    "SGSeq"
-  ],
-  "RiboCrypt": [
-    "ORFik"
-  ],
-  "RiboDiPA": [],
+  "Rhisat2": [],
+  "RiboCrypt": [],
   "RiboProfiling": [
     "ggbio",
     "biovizBase",
     "OrganismDbi"
   ],
-  "Rmmquant": [],
   "RnBeads": [
     "methylumi"
   ],
   "Rqc": [
     "biovizBase"
   ],
-  "SGSeq": [],
   "SMITE": [
     "goseq"
   ],
-  "SOMNiBUS": [],
   "SPLINTER": [
     "Gviz",
     "biovizBase"
@@ -330,16 +301,12 @@
   "SplicingGraphs": [],
   "TAPseq": [],
   "TCGAutils": [],
-  "TFHAZ": [
-    "ORFik"
-  ],
+  "TFHAZ": [],
   "TVTB": [
     "Gviz",
     "biovizBase"
   ],
-  "Ularcirc": [
-    "Organism.dplyr"
-  ],
+  "Ularcirc": [],
   "VariantFiltering": [
     "Gviz",
     "biovizBase"
@@ -383,10 +350,8 @@
   ],
   "biovizBase": [],
   "biscuiteer": [
-    "dmrseq",
     "OrganismDbi"
   ],
-  "borealis": [],
   "cBioPortalData": [
     "RTCGAToolbox",
     "TCGAutils"
@@ -407,7 +372,6 @@
     "TCGAutils"
   ],
   "celaref": [],
-  "celda": [],
   "chevreulPlot": [
     "chevreulProcess"
   ],
@@ -467,13 +431,10 @@
   "customProDB": [],
   "cytofQC": [],
   "dandelionR": [],
-  "dar": [],
   "dce": [],
   "debCAM": [],
   "debrowser": [],
-  "decontX": [
-    "celda"
-  ],
+  "decontX": [],
   "deconvR": [],
   "demuxSNP": [],
   "derfinderPlot": [
@@ -482,7 +443,6 @@
     "OrganismDbi"
   ],
   "diffUTR": [],
-  "dmrseq": [],
   "drugTargetInteractions": [],
   "easylift": [],
   "epidecodeR": [],
@@ -491,7 +451,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "epiregulon.extra": [],
   "epivizr": [
     "epivizrData",
     "OrganismDbi"
@@ -518,7 +477,6 @@
     "lumi",
     "methylumi"
   ],
-  "flagme": [],
   "funtooNorm": [],
   "geneXtendeR": [],
   "genoCN": [],
@@ -554,9 +512,7 @@
   ],
   "iSEEhex": [],
   "iSEEhub": [],
-  "iSEEtree": [
-    "miaViz"
-  ],
+  "iSEEtree": [],
   "iSEEu": [
     "iSEEhex"
   ],
@@ -573,8 +529,6 @@
   "karyoploteR": [
     "biovizBase"
   ],
-  "kissDE": [],
-  "lefser": [],
   "lumi": [
     "methylumi"
   ],
@@ -591,7 +545,6 @@
   "metagene2": [],
   "metaseqR2": [],
   "methInheritSim": [],
-  "methodical": [],
   "methylGSA": [
     "missMethyl",
     "methylumi"
@@ -601,7 +554,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "methylSig": [],
   "methylclock": [
     "ExperimentHubData",
     "AnnotationHubData",
@@ -611,10 +563,8 @@
   "miRSM": [],
   "miRspongeR": [],
   "miaDash": [
-    "iSEEtree",
-    "miaViz"
+    "iSEEtree"
   ],
-  "miaViz": [],
   "missMethyl": [
     "methylumi"
   ],
@@ -631,7 +581,6 @@
     "OrganismDbi"
   ],
   "multicrispr": [
-    "CRISPRseek",
     "karyoploteR",
     "biovizBase"
   ],
@@ -647,7 +596,6 @@
     "mosdef",
     "goseq"
   ],
-  "preciseTAD": [],
   "primirTSS": [
     "Gviz",
     "biovizBase"
@@ -702,8 +650,7 @@
   "shinyepico": [],
   "signeR": [],
   "singleCellTK": [
-    "scMerge",
-    "celda"
+    "scMerge"
   ],
   "sitadela": [],
   "skewr": [
@@ -716,7 +663,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "spillR": [],
   "srnadiff": [
     "Gviz",
     "biovizBase"
