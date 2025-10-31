@@ -676,3 +676,9 @@ mnem
 MOGAMUN
 mzR
 TMixClust
+fobitools
+GWASTools
+MetaboCoreUtils
+MSstatsBioNet
+OncoSimulR
+SRAdb

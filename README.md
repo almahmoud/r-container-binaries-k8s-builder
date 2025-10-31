@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 678 (30%)
+- **Successfully Built:** 684 (30%)
 - **Failed:** 1 (0%)
 - **In Progress:** 42
-- **Not Started:** 1523
+- **Not Started:** 1517
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (678)
+## Successfully Built Packages (684)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 628 more ...*
+*... and 634 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,34 +89,34 @@
 - ⏳ `CNORfeeder`
 - ⏳ `CNORfuzzy`
 - ⏳ `CNORode`
+- ⏳ `CRImage`
+- ⏳ `Cardinal`
 - ⏳ `ExiMiR`
-- ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
-- ⏳ `MSstatsBioNet`
-- ⏳ `MetaboCoreUtils`
 - ⏳ `NanoTube`
-- ⏳ `OncoSimulR`
 - ⏳ `PROPER`
 - ⏳ `RTopper`
 - ⏳ `ReUseData`
-- ⏳ `SRAdb`
+- ⏳ `SIMAT`
 - ⏳ `Streamer`
+- ⏳ `TargetDecoy`
 - ⏳ `TurboNorm`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `biobroom`
 - ⏳ `bluster`
+- ⏳ `epiNEM`
 - ⏳ `fedup`
 - ⏳ `fgga`
 - ⏳ `flowCore`
-- ⏳ `fobitools`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
 - ⏳ `mbQTL`
 - ⏳ `monocle`
+- ⏳ `msPurity`
 - ⏳ `nondetects`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
@@ -126,7 +126,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1523)
+## Not Yet Started (1517)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -178,8 +178,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1473 more ...
+... and 1467 more ...
 
 ---
-*Last updated: 2025-10-31 22:49:44 UTC*
+*Last updated: 2025-10-31 22:50:52 UTC*
 *Packages with verified BBS status: 101*

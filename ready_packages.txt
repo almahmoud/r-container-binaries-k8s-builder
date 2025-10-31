@@ -1,6 +1,0 @@
-CRImage
-Cardinal
-SIMAT
-TargetDecoy
-epiNEM
-msPurity
