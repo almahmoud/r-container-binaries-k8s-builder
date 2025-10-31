@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1752 (75%)
+- **Successfully Built:** 1753 (75%)
 - **Failed:** 13 (0%)
-- **In Progress:** 181
-- **Not Started:** 364
+- **In Progress:** 184
+- **Not Started:** 360
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1752)
+## Successfully Built Packages (1753)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1702 more ...*
+*... and 1703 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (181)
+## In Progress (184)
 - ⏳ `BASiCS`
 - ⏳ `BatchQC`
 - ⏳ `BayesSpace`
@@ -109,6 +109,7 @@
 - ⏳ `Cepo`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
+- ⏳ `ChromSCape`
 - ⏳ `CiteFuse`
 - ⏳ `CluMSID`
 - ⏳ `Cogito`
@@ -144,11 +145,10 @@
 - ⏳ `ORFhunteR`
 - ⏳ `Organism.dplyr`
 - ⏳ `OutSplice`
-- ⏳ `PRONE`
 
-... and 131 more ...
+... and 134 more ...
 
-## Not Yet Started (364)
+## Not Yet Started (360)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -178,7 +178,6 @@
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
-- ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `CopyNumberPlots`
@@ -199,9 +198,10 @@
 - ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
 - ⏸️ `EpiTxDb`
+- ⏸️ `EventPointer`
 
-... and 314 more ...
+... and 310 more ...
 
 ---
-*Last updated: 2025-10-31 07:28:26 UTC*
+*Last updated: 2025-10-31 07:29:44 UTC*
 *Packages with verified BBS status: 149*

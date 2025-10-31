@@ -1750,3 +1750,4 @@ SpatialFeatureExperiment
 TFEA.ChIP
 vissE
 xCell2
+doubletrouble
