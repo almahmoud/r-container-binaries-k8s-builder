@@ -77,8 +77,8 @@ spec:
               # Escape the package name for use in a regex
               pkg_escaped=\$(printf '%s' "\$pkg" | sed 's/[][\\.^\$*]/\\\\&/g')
               pkg_pattern="\${pkg_escaped}_.*\.tar\.gz"
-        
-              old_tarball=\$(grep -E "\$pkg_pattern" /tmp/old_packages | grep "^Filename:" | cut -d' ' -f2 | head -n1)
+
+              old_tarball=\$(grep -E "\$pkg_pattern" /tmp/old_packages | grep "^File:" | cut -d' ' -f2 | head -n1)
         
               if [ -n "\$old_tarball" ]; then
                 old_url_base="${OLD_URL%/*}"
