@@ -10,19 +10,14 @@
     "CAGEfightR"
   ],
   "CNEr": [],
-  "CNVfilteR": [
-    "CopyNumberPlots"
-  ],
-  "CNViz": [
-    "CopyNumberPlots"
-  ],
+  "CNVfilteR": [],
+  "CNViz": [],
   "ChAMP": [
     "DMRcate",
     "wateRmelon",
     "missMethyl"
   ],
   "ChIPQC": [],
-  "CopyNumberPlots": [],
   "DMRcate": [
     "missMethyl"
   ],
@@ -52,13 +47,11 @@
   "PhenStat": [],
   "R3CPET": [],
   "RITAN": [],
-  "RNAmodR.AlkAnilineSeq": [],
   "RNAmodR.ML": [],
   "RNAmodR.RiboMethSeq": [],
   "RbowtieCuda": [],
   "Repitools": [],
   "ReportingTools": [],
-  "RiboProfiling": [],
   "RnBeads": [],
   "SomaticSignatures": [],
   "XNAString": [],

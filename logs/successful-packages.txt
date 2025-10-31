@@ -2228,3 +2228,6 @@ CAFE
 GenomicOZone
 trackViewer
 singleCellTK
+CopyNumberPlots
+RiboProfiling
+RNAmodR.AlkAnilineSeq

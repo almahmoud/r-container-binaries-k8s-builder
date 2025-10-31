@@ -2292,3 +2292,5 @@ epivizrStandalone
 scTreeViz
 NADfinder
 geomeTriD
+CNVfilteR
+CNViz
