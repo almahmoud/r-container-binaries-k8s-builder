@@ -1332,3 +1332,11 @@ famat
 ramwas
 TCGAbiolinks
 VDJdive
+ClassifyR
+CoSIA
+MGFM
+MICSQTL
+MLSeq
+PDATK
+projectR
+scds
