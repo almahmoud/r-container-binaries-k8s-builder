@@ -2913,7 +2913,6 @@
     "scuttle"
   ],
   "alabaster": [
-    "alabaster.matrix",
     "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
@@ -2928,18 +2927,13 @@
     "GenomicAlignments"
   ],
   "alabaster.mae": [
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
-  "alabaster.matrix": [],
   "alabaster.sce": [
     "SingleCellExperiment",
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
-  "alabaster.se": [
-    "alabaster.matrix"
-  ],
+  "alabaster.se": [],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
     "alabaster.sce",
@@ -2948,20 +2942,17 @@
     "alabaster.se",
     "SpatialExperiment",
     "DropletUtils",
-    "alabaster.matrix",
     "scuttle"
   ],
   "alabaster.spatial": [
     "SpatialExperiment",
     "alabaster.sce",
     "SingleCellExperiment",
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
   "alabaster.vcf": [
     "VariantAnnotation",
     "alabaster.se",
-    "alabaster.matrix",
     "rtracklayer",
     "BSgenome",
     "GenomicFeatures",
@@ -3907,7 +3898,6 @@
     "GSEABase",
     "BSgenome",
     "TFBSTools",
-    "alabaster.matrix",
     "rtracklayer",
     "annotate",
     "GenomicAlignments"
@@ -5016,7 +5006,6 @@
   "omicsViewer": [],
   "oncomix": [],
   "ontoProc": [],
-  "oposSOM": [],
   "oppar": [
     "GSEABase",
     "GSVA",
@@ -5815,7 +5804,6 @@
     "TrajectoryUtils",
     "scuttle",
     "zellkonverter",
-    "alabaster.matrix",
     "alabaster.se",
     "GenomicFeatures",
     "rtracklayer",

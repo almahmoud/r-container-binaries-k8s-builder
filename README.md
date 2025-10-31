@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1157 (50%)
+- **Successfully Built:** 1159 (50%)
 - **Failed:** 8 (0%)
-- **In Progress:** 160
-- **Not Started:** 985
+- **In Progress:** 159
+- **Not Started:** 984
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1157)
+## Successfully Built Packages (1159)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1107 more ...*
+*... and 1109 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (160)
+## In Progress (159)
 - ⏳ `AffiXcan`
 - ⏳ `BLMA`
 - ⏳ `CHRONOS`
@@ -141,9 +141,9 @@
 - ⏳ `TADCompare`
 - ⏳ `TCGAbiolinks`
 
-... and 110 more ...
+... and 109 more ...
 
-## Not Yet Started (985)
+## Not Yet Started (984)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BubbleTree`
 - ⏸️ `BulkSignalR`
 
-... and 935 more ...
+... and 934 more ...
 
 ---
-*Last updated: 2025-10-31 04:29:41 UTC*
+*Last updated: 2025-10-31 04:30:52 UTC*
 *Packages with verified BBS status: 122*
