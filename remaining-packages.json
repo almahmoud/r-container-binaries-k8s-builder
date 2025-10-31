@@ -850,7 +850,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "BUS": [],
   "BUScorrect": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -4266,7 +4265,6 @@
     "DECIPHER",
     "DESeq2",
     "edgeR",
-    "ggtreeExtra",
     "microbiome",
     "phyloseq",
     "S4Vectors",
@@ -4511,7 +4509,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "EMDomics": [],
   "ENmix": [
     "SummarizedExperiment",
     "geneplotter",
@@ -8444,7 +8441,6 @@
   "MicrobiotaProcess": [
     "Biostrings",
     "SummarizedExperiment",
-    "ggtreeExtra",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -20061,7 +20057,6 @@
     "SparseArray",
     "XVector"
   ],
-  "ggkegg": [],
   "ggmanh": [
     "SeqArray",
     "S4Vectors",
@@ -20119,8 +20114,6 @@
     "SparseArray",
     "XVector"
   ],
-  "ggtreeDendro": [],
-  "ggtreeExtra": [],
   "ggtreeSpace": [],
   "ginmappeR": [
     "KEGGREST",
@@ -21515,7 +21508,6 @@
     "KEGGREST",
     "Biostrings"
   ],
-  "lmdme": [],
   "loci2path": [
     "GenomicRanges",
     "S4Vectors",
@@ -23878,7 +23870,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "nuCpos": [],
   "nucleR": [
     "Biobase",
     "BiocGenerics",
@@ -24881,7 +24872,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "plasmut": [],
   "plgem": [
     "Biobase",
     "BiocGenerics"
@@ -26898,7 +26888,6 @@
     "SparseArray",
     "XVector"
   ],
-  "scRecover": [],
   "scRepertoire": [
     "immApex",
     "S4Vectors",
@@ -29545,7 +29534,6 @@
     "BiocGenerics",
     "Seqinfo"
   ],
-  "tripr": [],
   "tweeDEseq": [
     "edgeR"
   ],

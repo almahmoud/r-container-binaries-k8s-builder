@@ -15,6 +15,7 @@ AnVILBilling
 AnVILGCP
 BADER
 BG2
+BUS
 BaseSpaceR
 BeadDataPackR
 BiRewire
@@ -69,6 +70,7 @@ tkWidgets
 tomoseqr
 topconfects
 treeio
+tripr
 ttgsea
 vbmp
 veloviz
