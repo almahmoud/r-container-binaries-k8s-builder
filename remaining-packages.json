@@ -1033,7 +1033,6 @@
     "UCSC.utils"
   ],
   "BiGGR": [
-    "rsbml",
     "hyperdraw",
     "Rgraphviz"
   ],
@@ -7177,12 +7176,10 @@
     "IRanges",
     "MetaboCoreUtils"
   ],
-  "MetID": [],
   "MetMashR": [
     "struct",
     "SummarizedExperiment",
     "S4Vectors",
-    "rols",
     "GenomicRanges",
     "IRanges",
     "GenomeInfoDb",
@@ -8226,9 +8223,7 @@
     "XVector",
     "UCSC.utils"
   ],
-  "OmicsMLRepoR": [
-    "rols"
-  ],
+  "OmicsMLRepoR": [],
   "OncoScore": [
     "biomaRt",
     "AnnotationDbi",
@@ -13652,7 +13647,6 @@
   "bioCancer": [
     "cBioPortalData",
     "AnnotationDbi",
-    "geNetClassifier",
     "DOSE",
     "clusterProfiler",
     "ReactomePA",
@@ -14104,7 +14098,6 @@
   "canceR": [
     "cBioPortalData",
     "GSEABase",
-    "geNetClassifier",
     "phenoTest",
     "MultiAssayExperiment",
     "GenomeInfoDb",
@@ -15015,7 +15008,6 @@
     "AnnotationFilter",
     "SparseArray"
   ],
-  "compcodeR": [],
   "concordexR": [
     "bluster",
     "DelayedArray",
@@ -17008,7 +17000,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "factDesign": [],
   "factR": [
     "Biostrings",
     "GenomeInfoDb",
@@ -17560,7 +17551,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "geNetClassifier": [],
   "gemma.R": [
     "SummarizedExperiment",
     "S4Vectors",
@@ -18187,7 +18177,6 @@
     "XVector",
     "UCSC.utils"
   ],
-  "hapFabia": [],
   "hdxmsqc": [
     "QFeatures",
     "S4Vectors",
@@ -19393,7 +19382,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "martini": [],
   "maser": [
     "GenomicRanges",
     "rtracklayer",
@@ -19556,7 +19544,6 @@
     "GenomicRanges",
     "IRanges",
     "S4Vectors",
-    "rols",
     "GenomeInfoDb",
     "S4Arrays",
     "SparseArray",
@@ -22787,7 +22774,6 @@
     "KEGGREST",
     "SparseArray"
   ],
-  "rain": [],
   "ramr": [
     "GenomeInfoDb",
     "GenomicRanges",
@@ -23258,7 +23244,6 @@
     "SparseArray"
   ],
   "roastgsa": [],
-  "rols": [],
   "ropls": [
     "MultiAssayExperiment",
     "MultiDataSet",
@@ -23307,7 +23292,6 @@
     "GenomeInfoDb",
     "UCSC.utils"
   ],
-  "rsbml": [],
   "rtracklayer": [
     "GenomicRanges",
     "S4Vectors",
@@ -25488,7 +25472,6 @@
   "struct": [
     "SummarizedExperiment",
     "S4Vectors",
-    "rols",
     "GenomicRanges",
     "IRanges",
     "GenomeInfoDb",
@@ -25502,7 +25485,6 @@
     "struct",
     "SummarizedExperiment",
     "S4Vectors",
-    "rols",
     "GenomicRanges",
     "IRanges",
     "GenomeInfoDb",

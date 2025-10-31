@@ -598,3 +598,12 @@ metaSeq
 mfa
 NormqPCR
 Rmagpie
+compcodeR
+factDesign
+geNetClassifier
+hapFabia
+martini
+MetID
+rain
+rols
+rsbml

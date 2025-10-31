@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 600 (25%)
+- **Successfully Built:** 609 (26%)
 - **Failed:** 5 (0%)
-- **In Progress:** 62
-- **Not Started:** 1643
+- **In Progress:** 54
+- **Not Started:** 1642
 
 **Progress:** 26%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (600)
+## Successfully Built Packages (609)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BAGS](https://bioconductor.org/packages/3.21/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.21/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BEclear) |
 
-*... and 550 more ...*
+*... and 559 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,12 +86,12 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (62)
+## In Progress (54)
 - ⏳ `AIMS`
 - ⏳ `BioQC`
+- ⏳ `CGHnormaliter`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
-- ⏳ `MetID`
 - ⏳ `NanoTube`
 - ⏳ `OCplus`
 - ⏳ `OrderedList`
@@ -118,18 +118,13 @@
 - ⏳ `anota`
 - ⏳ `bioassayR`
 - ⏳ `biobroom`
-- ⏳ `compcodeR`
 - ⏳ `cycle`
 - ⏳ `diggit`
 - ⏳ `dyebias`
 - ⏳ `eiR`
-- ⏳ `factDesign`
 - ⏳ `fmcsR`
 - ⏳ `fobitools`
-- ⏳ `geNetClassifier`
-- ⏳ `hapFabia`
 - ⏳ `ldblock`
-- ⏳ `martini`
 - ⏳ `metabomxtr`
 - ⏳ `metagenomeSeq`
 - ⏳ `mosbi`
@@ -137,10 +132,15 @@
 - ⏳ `nethet`
 - ⏳ `parglms`
 - ⏳ `piano`
+- ⏳ `profileScoreDist`
+- ⏳ `progeny`
+- ⏳ `rcellminer`
+- ⏳ `rebook`
+- ⏳ `roastgsa`
 
-... and 12 more ...
+... and 4 more ...
 
-## Not Yet Started (1643)
+## Not Yet Started (1642)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 
-... and 1593 more ...
+... and 1592 more ...
 
 ---
-*Last updated: 2025-10-31 00:33:43 UTC*
+*Last updated: 2025-10-31 00:34:19 UTC*
 *Packages with verified BBS status: 97*
