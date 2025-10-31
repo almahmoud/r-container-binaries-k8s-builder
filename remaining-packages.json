@@ -1116,7 +1116,6 @@
     "ShortRead",
     "GenomicAlignments"
   ],
-  "FeatSeekR": [],
   "FindIT2": [
     "rtracklayer",
     "GenomicFeatures",
@@ -1496,7 +1495,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "IgGeneUsage": [],
   "InPAS": [
     "BSgenome",
     "cleanUpdTSeq",

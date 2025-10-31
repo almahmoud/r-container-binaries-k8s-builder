@@ -1113,3 +1113,5 @@ openCyto
 proDA
 AnnotationHub
 csaw
+FeatSeekR
+IgGeneUsage
