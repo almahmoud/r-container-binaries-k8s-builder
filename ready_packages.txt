@@ -1,0 +1,17 @@
+Biostrings
+Chromatograms
+DelayedArray
+GenomeInfoDb
+GenomicRanges
+MetCirc
+MsBackendMassbank
+MsBackendMetaboLights
+MsBackendMgf
+MsBackendMsp
+MsBackendRawFileReader
+MsBackendSql
+SpectraQL
+SpectriPy
+h5mread
+ldblock
+optimalFlow
