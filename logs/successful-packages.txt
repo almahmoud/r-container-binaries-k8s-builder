@@ -1898,3 +1898,7 @@ crisprBwa
 oppar
 APAlyzer
 interactiveDisplay
+gcapc
+genomation
+hiAnnotator
+MSstatsQC

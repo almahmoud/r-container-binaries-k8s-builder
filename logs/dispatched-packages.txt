@@ -2076,3 +2076,7 @@ cliqueMS
 cosmiq
 ncGTW
 squallms
+CexoR
+MSstatsQCgui
+fCCAC
+hiReadsProcessor

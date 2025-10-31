@@ -96,9 +96,7 @@
   "CSSQ": [],
   "CellMixS": [],
   "CelliD": [],
-  "CexoR": [
-    "genomation"
-  ],
+  "CexoR": [],
   "ChAMP": [
     "DMRcate",
     "wateRmelon",
@@ -180,8 +178,7 @@
   ],
   "ENmix": [],
   "EpiCompare": [
-    "ChIPseeker",
-    "genomation"
+    "ChIPseeker"
   ],
   "EpiMix": [],
   "EpiTxDb": [
@@ -253,7 +250,6 @@
   ],
   "GenomicPlot": [
     "RCAS",
-    "genomation",
     "txdbmaker"
   ],
   "GmicR": [],
@@ -319,10 +315,7 @@
   "MSnID": [
     "msmsTests"
   ],
-  "MSstatsQC": [],
-  "MSstatsQCgui": [
-    "MSstatsQC"
-  ],
+  "MSstatsQCgui": [],
   "MatrixRider": [],
   "MetaboSignal": [
     "mygene",
@@ -391,8 +384,7 @@
   ],
   "RAIDS": [],
   "RCAS": [
-    "txdbmaker",
-    "genomation"
+    "txdbmaker"
   ],
   "REDseq": [
     "ChIPpeakAnno",
@@ -766,9 +758,7 @@
   ],
   "escape": [],
   "extraChIPs": [],
-  "fCCAC": [
-    "genomation"
-  ],
+  "fCCAC": [],
   "ffpe": [
     "lumi",
     "methylumi"
@@ -777,10 +767,8 @@
     "CAMERA"
   ],
   "funtooNorm": [],
-  "gcapc": [],
   "geneXtendeR": [],
   "genoCN": [],
-  "genomation": [],
   "geomeTriD": [
     "trackViewer",
     "Gviz",
@@ -801,10 +789,7 @@
   ],
   "gpuMagic": [],
   "groHMM": [],
-  "hiAnnotator": [],
-  "hiReadsProcessor": [
-    "hiAnnotator"
-  ],
+  "hiReadsProcessor": [],
   "hicVennDiagram": [],
   "hypeR": [],
   "iCheck": [
