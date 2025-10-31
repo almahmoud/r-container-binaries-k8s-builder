@@ -1214,3 +1214,12 @@ weitrix
 wpm
 yamss
 zFPKM
+PCAtools
+PeacoQC
+ReactomeGSA
+StabMap
+affylmGUI
+fastLiquidAssociation
+flowStats
+ggcyto
+openCyto

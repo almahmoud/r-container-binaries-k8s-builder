@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 982 (42%)
+- **Successfully Built:** 1000 (43%)
 - **Failed:** 7 (0%)
-- **In Progress:** 80
-- **Not Started:** 1241
+- **In Progress:** 209
+- **Not Started:** 1094
 
-**Progress:** 42%
+**Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (982)
+## Successfully Built Packages (1000)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 
-*... and 932 more ...*
+*... and 950 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,68 +88,66 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (80)
+## In Progress (209)
 - ⏳ `ACE`
+- ⏳ `ADAM`
+- ⏳ `ALDEx2`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
+- ⏳ `BUMHMM`
+- ⏳ `BUScorrect`
+- ⏳ `BioGA`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
 - ⏳ `BiocSet`
-- ⏳ `BiocSingular`
+- ⏳ `BiocSklearn`
+- ⏳ `BreastSubtypeR`
+- ⏳ `CAEN`
 - ⏳ `CINdex`
+- ⏳ `CPSM`
+- ⏳ `CaDrA`
+- ⏳ `CellScore`
 - ⏳ `CoCiteStats`
+- ⏳ `DESeq2`
+- ⏳ `DiscoRhythm`
+- ⏳ `Dune`
+- ⏳ `ExpressionAtlas`
+- ⏳ `FeatSeekR`
+- ⏳ `FuseSOM`
 - ⏳ `GENESIS`
+- ⏳ `GEOquery`
+- ⏳ `GNET2`
 - ⏳ `GOSemSim`
 - ⏳ `GOfuncR`
-- ⏳ `GeneBreak`
+- ⏳ `GRmetrics`
+- ⏳ `GWENA`
+- ⏳ `GenomicAlignments`
+- ⏳ `GenomicSuperSignature`
+- ⏳ `GeoTcgaData`
+- ⏳ `HERON`
 - ⏳ `Harshlight`
+- ⏳ `IFAA`
+- ⏳ `ISLET`
+- ⏳ `IgGeneUsage`
+- ⏳ `InteractionSet`
+- ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
-- ⏳ `LRBaseDbi`
-- ⏳ `LiquidAssociation`
+- ⏳ `LimROTS`
+- ⏳ `MAI`
+- ⏳ `MBASED`
+- ⏳ `MBQN`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
 - ⏳ `MODA`
-- ⏳ `MeSHDbi`
-- ⏳ `MesKit`
-- ⏳ `MiRaGE`
-- ⏳ `PADOG`
-- ⏳ `SIAMCAT`
-- ⏳ `SpatialOmicsOverlay`
-- ⏳ `SubCellBarCode`
-- ⏳ `TIN`
-- ⏳ `UniProt.ws`
-- ⏳ `adSplit`
-- ⏳ `affyILM`
-- ⏳ `affyPLM`
-- ⏳ `alabaster.files`
-- ⏳ `annaffy`
-- ⏳ `annotate`
-- ⏳ `apComplex`
-- ⏳ `artMS`
-- ⏳ `beachmat.tiledb`
-- ⏳ `beadarray`
-- ⏳ `biomaRt`
-- ⏳ `ccmap`
-- ⏳ `cellbaseR`
-- ⏳ `cfdnakit`
-- ⏳ `csdR`
-- ⏳ `flowBin`
-- ⏳ `flowCut`
-- ⏳ `flowWorkspace`
-- ⏳ `funOmics`
-- ⏳ `gage`
-- ⏳ `goProfiles`
 
-... and 30 more ...
+... and 159 more ...
 
-## Not Yet Started (1241)
-- ⏸️ `ADAM`
+## Not Yet Started (1094)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
-- ⏸️ `ALDEx2`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
 - ⏸️ `APL`
@@ -176,8 +174,6 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
-- ⏸️ `BUMHMM`
-- ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
@@ -193,9 +189,13 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
+- ⏸️ `BioCor`
+- ⏸️ `BioNERO`
+- ⏸️ `BioTIP`
+- ⏸️ `BiocHubsShiny`
 
-... and 1191 more ...
+... and 1044 more ...
 
 ---
-*Last updated: 2025-10-31 03:50:01 UTC*
+*Last updated: 2025-10-31 03:53:59 UTC*
 *Packages with verified BBS status: 113*
