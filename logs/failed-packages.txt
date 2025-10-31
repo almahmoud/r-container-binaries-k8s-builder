@@ -4,3 +4,4 @@ RbowtieCuda
 hypeR
 gpuMagic
 PhenStat
+BiGGR

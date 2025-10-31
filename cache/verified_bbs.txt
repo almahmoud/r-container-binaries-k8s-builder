@@ -29,6 +29,7 @@ BG2
 BUS
 BaseSpaceR
 BeadDataPackR
+BiGGR
 BiRewire
 BioCartaImage
 BiocBaseUtils
@@ -93,6 +94,7 @@ twoddpcr
 tximport
 unifiedWMWqPCR
 updateObject
+variancePartition
 vbmp
 veloviz
 viper
