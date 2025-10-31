@@ -281,9 +281,7 @@
     "CAMERA"
   ],
   "IVAS": [],
-  "InPAS": [
-    "cleanUpdTSeq"
-  ],
+  "InPAS": [],
   "IntEREst": [
     "txdbmaker"
   ],
@@ -343,13 +341,10 @@
     "lumi",
     "methylumi"
   ],
-  "MinimumDistance": [
-    "VanillaICE"
-  ],
+  "MinimumDistance": [],
   "Moonlight2R": [
     "EpiMix"
   ],
-  "MungeSumstats": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -536,7 +531,6 @@
     "Organism.dplyr"
   ],
   "VAExprs": [],
-  "VanillaICE": [],
   "VariantFiltering": [
     "Gviz",
     "biovizBase"
@@ -575,7 +569,6 @@
     "motifStack"
   ],
   "attract": [],
-  "bandle": [],
   "benchdamic": [],
   "bigmelon": [
     "wateRmelon",
@@ -649,8 +642,6 @@
   ],
   "circRNAprofiler": [],
   "cisPath": [],
-  "cleanUpdTSeq": [],
-  "cliProfiler": [],
   "clipper": [
     "qpgraph"
   ],
@@ -998,7 +989,6 @@
     "RUVSeq",
     "EDASeq"
   ],
-  "omXplore": [],
   "oppar": [],
   "pRolocGUI": [],
   "pageRank": [

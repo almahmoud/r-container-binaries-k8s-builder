@@ -1880,3 +1880,9 @@ SparseSignatures
 TFBSTools
 TFutils
 topdownr
+bandle
+cleanUpdTSeq
+cliProfiler
+MungeSumstats
+omXplore
+VanillaICE
