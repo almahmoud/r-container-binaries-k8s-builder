@@ -2285,3 +2285,5 @@ scruff
 spatzie
 wateRmelon
 iSEEfier
+crisprShiny
+crisprVerse

@@ -88,13 +88,8 @@
   "compEpiTools": [
     "methylPipe"
   ],
-  "crisprShiny": [
-    "crisprViz"
-  ],
-  "crisprVerse": [
-    "crisprViz"
-  ],
-  "crisprViz": [],
+  "crisprShiny": [],
+  "crisprVerse": [],
   "cytofQC": [],
   "debCAM": [],
   "derfinderPlot": [],
@@ -129,7 +124,6 @@
   "motifbreakR": [],
   "msgbsR": [],
   "multicrispr": [],
-  "pcaExplorer": [],
   "primirTSS": [],
   "rGADEM": [],
   "regutools": [],
