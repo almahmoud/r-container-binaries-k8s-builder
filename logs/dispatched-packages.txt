@@ -937,3 +937,14 @@ MSstatsLiP
 MSstatsShiny
 procoil
 CompoundDb
+IMMAN
+LinTInd
+LymphoSeq
+MSA2dist
+MethTargetedNGS
+QSutils
+ggseqalign
+odseq
+openPrimeR
+sangerseqR
+scanMiR

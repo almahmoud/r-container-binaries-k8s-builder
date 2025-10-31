@@ -849,3 +849,10 @@ GenomicTuples
 ggmsa
 Melissa
 ROntoTools
+AssessORF
+BREW3R.r
+CSAR
+msa
+pwalign
+rBLAST
+SynExtend

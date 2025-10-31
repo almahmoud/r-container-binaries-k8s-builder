@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 851 (36%)
+- **Successfully Built:** 858 (37%)
 - **Failed:** 7 (0%)
-- **In Progress:** 81
+- **In Progress:** 74
 - **Not Started:** 1371
 
 **Progress:** 37%
@@ -16,7 +16,7 @@
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (851)
+## Successfully Built Packages (858)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 801 more ...*
+*... and 808 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,14 +88,11 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (81)
+## In Progress (74)
 - ⏳ `AnnotationDbi`
-- ⏳ `AssessORF`
 - ⏳ `BANDITS`
-- ⏳ `BREW3R.r`
 - ⏳ `CINdex`
 - ⏳ `CONFESS`
-- ⏳ `CSAR`
 - ⏳ `CompoundDb`
 - ⏳ `DNAshapeR`
 - ⏳ `DelayedArray`
@@ -114,7 +111,6 @@
 - ⏳ `SeqArray`
 - ⏳ `SigFuge`
 - ⏳ `Structstrings`
-- ⏳ `SynExtend`
 - ⏳ `SynMut`
 - ⏳ `TDbasedUFE`
 - ⏳ `TFARM`
@@ -139,8 +135,12 @@
 - ⏳ `flowCut`
 - ⏳ `gcrma`
 - ⏳ `geneRxCluster`
+- ⏳ `genomeIntervals`
+- ⏳ `gtrellis`
+- ⏳ `h5mread`
+- ⏳ `heatmaps`
 
-... and 31 more ...
+... and 24 more ...
 
 ## Not Yet Started (1371)
 - ⏸️ `ACE`
@@ -197,5 +197,5 @@
 ... and 1321 more ...
 
 ---
-*Last updated: 2025-10-31 03:25:27 UTC*
+*Last updated: 2025-10-31 03:26:42 UTC*
 *Packages with verified BBS status: 110*
