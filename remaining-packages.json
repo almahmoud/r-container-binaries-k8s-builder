@@ -941,9 +941,7 @@
     "XVector",
     "UCSC.utils"
   ],
-  "BiGGR": [
-    "hyperdraw"
-  ],
+  "BiGGR": [],
   "BiSeq": [
     "IRanges",
     "GenomicRanges",
@@ -1016,7 +1014,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "BioMVCClass": [],
   "BioNAR": [
     "AnnotationDbi",
     "IRanges",
@@ -5502,7 +5499,6 @@
     "AnnotationFilter",
     "annotate"
   ],
-  "KCsmart": [],
   "KEGGREST": [
     "Biostrings",
     "IRanges",
@@ -8575,7 +8571,6 @@
     "UCSC.utils",
     "XVector"
   ],
-  "RNAseqCovarImpute": [],
   "ROCpAI": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -12368,7 +12363,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "bioassayR": [],
   "biobroom": [],
   "biocGraph": [
     "geneplotter",
@@ -15479,7 +15473,6 @@
     "SparseArray",
     "UCSC.utils"
   ],
-  "fedup": [],
   "ffpe": [
     "lumi",
     "methylumi",
@@ -16594,7 +16587,6 @@
     "UCSC.utils"
   ],
   "hypeR": [],
-  "hyperdraw": [],
   "iCNV": [
     "CODEX",
     "Rsamtools",
@@ -18523,7 +18515,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "mosbi": [],
   "mosdef": [
     "AnnotationDbi",
     "topGO",
@@ -19602,7 +19593,6 @@
     "Biostrings"
   ],
   "panp": [],
-  "parglms": [],
   "partCNV": [
     "SingleCellExperiment",
     "AnnotationHub",

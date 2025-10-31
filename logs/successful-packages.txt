@@ -655,3 +655,11 @@ fobitools
 metabCombiner
 rexposome
 RUVcorr
+bioassayR
+BioMVCClass
+fedup
+hyperdraw
+KCsmart
+mosbi
+parglms
+RNAseqCovarImpute

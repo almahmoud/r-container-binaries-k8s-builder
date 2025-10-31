@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 657 (28%)
+- **Successfully Built:** 665 (28%)
 - **Failed:** 5 (0%)
-- **In Progress:** 68
-- **Not Started:** 1580
+- **In Progress:** 61
+- **Not Started:** 1579
 
-**Progress:** 28%
+**Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (657)
+## Successfully Built Packages (665)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 607 more ...*
+*... and 615 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,8 +86,8 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (68)
-- ⏳ `BioMVCClass`
+## In Progress (61)
+- ⏳ `Cardinal`
 - ⏳ `CellMapper`
 - ⏳ `CellNOptR`
 - ⏳ `Cormotif`
@@ -100,7 +100,6 @@
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `HTqPCR`
 - ⏳ `IRanges`
-- ⏳ `KCsmart`
 - ⏳ `KEGGgraph`
 - ⏳ `MsCoreUtils`
 - ⏳ `NanoTube`
@@ -109,7 +108,6 @@
 - ⏳ `PROPER`
 - ⏳ `Pedixplorer`
 - ⏳ `PhenStat`
-- ⏳ `RNAseqCovarImpute`
 - ⏳ `RTopper`
 - ⏳ `RVS`
 - ⏳ `RcwlPipelines`
@@ -122,25 +120,27 @@
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
-- ⏳ `bioassayR`
 - ⏳ `biobroom`
 - ⏳ `biocViews`
 - ⏳ `bluster`
-- ⏳ `fedup`
 - ⏳ `fgga`
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `hmdbQuery`
-- ⏳ `hyperdraw`
 - ⏳ `islify`
 - ⏳ `ldblock`
 - ⏳ `makecdfenv`
 - ⏳ `metagenomeSeq`
 - ⏳ `mnem`
+- ⏳ `mzR`
+- ⏳ `netresponse`
+- ⏳ `paircompviz`
+- ⏳ `panp`
+- ⏳ `progeny`
 
-... and 18 more ...
+... and 11 more ...
 
-## Not Yet Started (1580)
+## Not Yet Started (1579)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1530 more ...
+... and 1529 more ...
 
 ---
-*Last updated: 2025-10-31 00:39:14 UTC*
+*Last updated: 2025-10-31 00:39:46 UTC*
 *Packages with verified BBS status: 100*
