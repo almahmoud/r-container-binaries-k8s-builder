@@ -7203,7 +7203,6 @@
     "KEGGREST",
     "Biostrings"
   ],
-  "PROPER": [],
   "PROPS": [
     "sva",
     "genefilter",
@@ -8166,7 +8165,6 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "ReUseData": [],
   "ReactomeGSA": [
     "BiocSingular",
     "SummarizedExperiment",
@@ -10639,7 +10637,6 @@
   ],
   "a4": [
     "a4Base",
-    "a4Classif",
     "annaffy",
     "genefilter",
     "AnnotationDbi",
@@ -10661,7 +10658,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "a4Classif": [],
   "adSplit": [
     "AnnotationDbi",
     "KEGGREST",
@@ -13100,7 +13096,6 @@
   "cypress": [
     "TOAST",
     "SummarizedExperiment",
-    "PROPER",
     "DESeq2",
     "IRanges",
     "GenomicRanges",
