@@ -819,3 +819,12 @@ OmicCircos
 PIPETS
 Qtlizer
 R4RNA
+CNVMetrics
+DECIPHER
+DRIMSeq
+GenomAutomorphism
+GrafGen
+HilbertCurve
+Modstrings
+SELEX
+target

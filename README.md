@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 821 (35%)
+- **Successfully Built:** 830 (35%)
 - **Failed:** 7 (0%)
-- **In Progress:** 98
-- **Not Started:** 1384
+- **In Progress:** 95
+- **Not Started:** 1378
 
-**Progress:** 35%
+**Progress:** 36%
 ```
-█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (821)
+## Successfully Built Packages (830)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 771 more ...*
+*... and 780 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,36 +88,32 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (98)
+## In Progress (95)
+- ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
 - ⏳ `CINdex`
-- ⏳ `CNVMetrics`
 - ⏳ `CONFESS`
 - ⏳ `CSAR`
-- ⏳ `DECIPHER`
 - ⏳ `DNAshapeR`
-- ⏳ `DRIMSeq`
 - ⏳ `DelayedArray`
 - ⏳ `EnrichedHeatmap`
+- ⏳ `FELLA`
 - ⏳ `G4SNVHunter`
 - ⏳ `GateFinder`
 - ⏳ `GeneRegionScan`
-- ⏳ `GenomAutomorphism`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
-- ⏳ `GrafGen`
 - ⏳ `HiCBricks`
-- ⏳ `HilbertCurve`
 - ⏳ `MEDME`
 - ⏳ `MSstatsPTM`
-- ⏳ `Modstrings`
+- ⏳ `Melissa`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PWMEnrich`
 - ⏳ `PhyloProfile`
+- ⏳ `ROntoTools`
 - ⏳ `Rsamtools`
-- ⏳ `SELEX`
 - ⏳ `SeqArray`
 - ⏳ `SigFuge`
 - ⏳ `Site2Target`
@@ -139,10 +135,14 @@
 - ⏳ `cogeqc`
 - ⏳ `crisprBase`
 - ⏳ `cyanoFilter`
+- ⏳ `ddPCRclust`
+- ⏳ `epialleleR`
+- ⏳ `fastseg`
+- ⏳ `flowBin`
 
-... and 48 more ...
+... and 45 more ...
 
-## Not Yet Started (1384)
+## Not Yet Started (1378)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -167,7 +167,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
 - ⏸️ `AneuFinder`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
@@ -193,9 +192,10 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatchQC`
+- ⏸️ `BatchSVG`
 
-... and 1334 more ...
+... and 1328 more ...
 
 ---
-*Last updated: 2025-10-31 03:20:33 UTC*
+*Last updated: 2025-10-31 03:21:35 UTC*
 *Packages with verified BBS status: 107*

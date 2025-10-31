@@ -1,6 +1,3 @@
-AnnotationDbi
-FELLA
-Melissa
-ROntoTools
-ggmsa
-transomics2cytoscape
+AssessORF
+BANDITS
+SynExtend

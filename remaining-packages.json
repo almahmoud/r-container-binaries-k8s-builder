@@ -250,12 +250,8 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "AssessORF": [
-    "DECIPHER"
-  ],
-  "BANDITS": [
-    "DRIMSeq"
-  ],
+  "AssessORF": [],
+  "BANDITS": [],
   "BASiCS": [
     "SingleCellExperiment",
     "scran",
@@ -733,7 +729,6 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "CNVMetrics": [],
   "CNVPanelizer": [
     "Rsamtools"
   ],
@@ -1327,7 +1322,6 @@
     "AnnotationFilter",
     "DelayedArray"
   ],
-  "DECIPHER": [],
   "DEFormats": [
     "DESeq2",
     "SummarizedExperiment",
@@ -1471,7 +1465,6 @@
     "AnnotationDbi",
     "GOSemSim"
   ],
-  "DRIMSeq": [],
   "DSS": [
     "bsseq",
     "SummarizedExperiment",
@@ -1623,7 +1616,6 @@
     "BANDITS",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "DRIMSeq",
     "DelayedArray"
   ],
   "Dino": [
@@ -1864,7 +1856,6 @@
   ],
   "EpiTxDb": [
     "AnnotationDbi",
-    "Modstrings",
     "GenomicFeatures",
     "txdbmaker",
     "tRNAdbImport",
@@ -2324,7 +2315,6 @@
     "GenomicAlignments",
     "biomaRt"
   ],
-  "GenomAutomorphism": [],
   "GenomicAlignments": [
     "SummarizedExperiment",
     "Rsamtools",
@@ -2459,7 +2449,6 @@
     "annotate",
     "AnnotationForge"
   ],
-  "GrafGen": [],
   "GreyListChIP": [
     "GenomicAlignments",
     "BSgenome",
@@ -2610,7 +2599,6 @@
     "GenomicAlignments",
     "DelayedArray"
   ],
-  "HilbertCurve": [],
   "HoloFoodR": [
     "MultiAssayExperiment",
     "TreeSummarizedExperiment",
@@ -3024,7 +3012,6 @@
     "SummarizedExperiment",
     "mia",
     "SingleCellExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scater",
@@ -3379,7 +3366,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "Modstrings": [],
   "MoleculeExperiment": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -4202,7 +4188,6 @@
     "BSgenome"
   ],
   "RNAmodR": [
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -4231,7 +4216,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -4240,7 +4224,6 @@
   ],
   "RNAmodR.ML": [
     "RNAmodR",
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -4269,7 +4252,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -4697,7 +4679,6 @@
     "SummarizedExperiment",
     "DelayedArray"
   ],
-  "SELEX": [],
   "SEraster": [
     "SpatialExperiment",
     "SummarizedExperiment",
@@ -5157,9 +5138,7 @@
     "phyloseq",
     "DelayedArray"
   ],
-  "SynExtend": [
-    "DECIPHER"
-  ],
+  "SynExtend": [],
   "SynMut": [],
   "TADCompare": [
     "HiCcompare",
@@ -7229,7 +7208,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scater",
@@ -8468,7 +8446,6 @@
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scater",
@@ -8683,7 +8660,6 @@
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scater",
@@ -9186,7 +9162,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scater",
@@ -9205,7 +9180,6 @@
     "TreeSummarizedExperiment",
     "miaViz",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedArray",
     "DelayedMatrixStats",
     "scuttle",
@@ -9227,7 +9201,6 @@
     "scater",
     "SingleCellExperiment",
     "MultiAssayExperiment",
-    "DECIPHER",
     "DelayedMatrixStats",
     "scuttle",
     "beachmat",
@@ -9796,8 +9769,7 @@
     "DelayedArray"
   ],
   "openPrimeR": [
-    "pwalign",
-    "DECIPHER"
+    "pwalign"
   ],
   "oposSOM": [
     "biomaRt",
@@ -10644,7 +10616,6 @@
   ],
   "sangeranalyseR": [
     "pwalign",
-    "DECIPHER",
     "sangerseqR"
   ],
   "sangerseqR": [
@@ -10993,7 +10964,6 @@
     "DelayedArray"
   ],
   "scifer": [
-    "DECIPHER",
     "sangerseqR",
     "pwalign"
   ],
@@ -11789,11 +11759,9 @@
     "DelayedArray"
   ],
   "tRNA": [
-    "Structstrings",
-    "Modstrings"
+    "Structstrings"
   ],
   "tRNAdbImport": [
-    "Modstrings",
     "Structstrings",
     "tRNA"
   ],
@@ -11804,7 +11772,6 @@
     "BSgenome",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "SummarizedExperiment",
     "DelayedArray"
   ],
@@ -11832,7 +11799,6 @@
     "AnnotationFilter",
     "DelayedArray"
   ],
-  "target": [],
   "tenXplore": [
     "ontoProc",
     "SummarizedExperiment",
