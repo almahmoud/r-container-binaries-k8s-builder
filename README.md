@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1796 (77%)
+- **Successfully Built:** 1797 (77%)
 - **Failed:** 13 (0%)
 - **In Progress:** 214
-- **Not Started:** 287
+- **Not Started:** 286
 
 **Progress:** 78%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1796)
+## Successfully Built Packages (1797)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1746 more ...*
+*... and 1747 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -128,9 +128,9 @@
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
+- ⏳ `GA4GHshiny`
 - ⏳ `GOstats`
 - ⏳ `GRaNIE`
-- ⏳ `GSEABenchmarkeR`
 - ⏳ `GenVisR`
 - ⏳ `GenomicFiles`
 - ⏳ `GenomicInteractionNodes`
@@ -148,7 +148,7 @@
 
 ... and 164 more ...
 
-## Not Yet Started (287)
+## Not Yet Started (286)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -192,16 +192,16 @@
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
 - ⏸️ `FRASER`
-- ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GSReg`
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
+- ⏸️ `GeneTonic`
 
-... and 237 more ...
+... and 236 more ...
 
 ---
-*Last updated: 2025-10-31 07:49:09 UTC*
+*Last updated: 2025-10-31 07:50:07 UTC*
 *Packages with verified BBS status: 149*

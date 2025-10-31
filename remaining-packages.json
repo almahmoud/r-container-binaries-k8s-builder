@@ -245,7 +245,6 @@
   ],
   "GOstats": [],
   "GRaNIE": [],
-  "GSEABenchmarkeR": [],
   "GSReg": [
     "OrganismDbi",
     "txdbmaker"
