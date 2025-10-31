@@ -6417,7 +6417,6 @@
   "ggcyto": [
     "flowWorkspace"
   ],
-  "ggmanh": [],
   "ggsc": [
     "SingleCellExperiment",
     "SummarizedExperiment"

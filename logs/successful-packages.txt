@@ -966,3 +966,4 @@ seqPattern
 SeqVarTools
 gtrellis
 Rbowtie2
+ggmanh
