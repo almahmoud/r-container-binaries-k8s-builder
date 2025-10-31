@@ -1324,13 +1324,8 @@
   "HiCDOC": [
     "multiHiCcompare"
   ],
-  "HiCExperiment": [],
-  "HiContacts": [
-    "HiCExperiment"
-  ],
-  "HiCool": [
-    "HiCExperiment"
-  ],
+  "HiContacts": [],
+  "HiCool": [],
   "HiLDA": [
     "GenomicFeatures",
     "BSgenome",
@@ -1765,7 +1760,6 @@
   "MultiRNAflow": [
     "DESeq2"
   ],
-  "MultimodalExperiment": [],
   "MungeSumstats": [
     "BSgenome",
     "VariantAnnotation",
@@ -3085,7 +3079,6 @@
   "bayNorm": [
     "SingleCellExperiment"
   ],
-  "beachmat.hdf5": [],
   "beadarray": [],
   "bedbaser": [
     "rtracklayer",
@@ -3640,7 +3633,6 @@
     "GenomicAlignments",
     "GenomicFeatures"
   ],
-  "csdR": [],
   "cummeRbund": [
     "rtracklayer",
     "Gviz",

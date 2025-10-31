@@ -1144,3 +1144,7 @@ PADOG
 SubCellBarCode
 SVMDO
 TIN
+beachmat.hdf5
+csdR
+HiCExperiment
+MultimodalExperiment
