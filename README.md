@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 697 (30%)
+- **Successfully Built:** 704 (30%)
 - **Failed:** 6 (0%)
-- **In Progress:** 41
-- **Not Started:** 1566
+- **In Progress:** 38
+- **Not Started:** 1562
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (697)
+## Successfully Built Packages (704)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.21/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BADER) |
 
-*... and 647 more ...*
+*... and 654 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (41)
+## In Progress (38)
 - ⏳ `BiGGR`
 - ⏳ `BiocCheck`
 - ⏳ `BiocPkgTools`
@@ -96,22 +96,17 @@
 - ⏳ `CNORfuzzy`
 - ⏳ `CNORode`
 - ⏳ `CellMapper`
-- ⏳ `DFplyr`
 - ⏳ `ExiMiR`
-- ⏳ `GWASTools`
 - ⏳ `GeneNetworkBuilder`
 - ⏳ `IRanges`
 - ⏳ `KEGGgraph`
-- ⏳ `Maaslin2`
 - ⏳ `MsCoreUtils`
 - ⏳ `OmicsMLRepoR`
-- ⏳ `OncoSimulR`
 - ⏳ `PROPER`
-- ⏳ `Pedixplorer`
-- ⏳ `ReUseData`
 - ⏳ `Rnits`
+- ⏳ `SIMAT`
 - ⏳ `Streamer`
-- ⏳ `TurboNorm`
+- ⏳ `TargetDecoy`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
@@ -123,6 +118,8 @@
 - ⏳ `hmdbQuery`
 - ⏳ `mnem`
 - ⏳ `monocle`
+- ⏳ `msPurity`
+- ⏳ `nondetects`
 - ⏳ `qcmetrics`
 - ⏳ `rebook`
 - ⏳ `roastgsa`
@@ -130,7 +127,7 @@
 - ⏳ `updateObject`
 - ⏳ `variancePartition`
 
-## Not Yet Started (1566)
+## Not Yet Started (1562)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -182,8 +179,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1516 more ...
+... and 1512 more ...
 
 ---
-*Last updated: 2025-10-31 00:43:29 UTC*
+*Last updated: 2025-10-31 00:44:19 UTC*
 *Packages with verified BBS status: 102*

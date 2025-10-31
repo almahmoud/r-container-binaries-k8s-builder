@@ -2625,7 +2625,6 @@
     "XVector",
     "Biostrings"
   ],
-  "DFplyr": [],
   "DMCFB": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -3791,7 +3790,6 @@
     "XVector"
   ],
   "GENESIS": [
-    "GWASTools",
     "GenomicRanges",
     "IRanges",
     "SeqArray",
@@ -4083,7 +4081,6 @@
     "SparseArray",
     "AnnotationFilter"
   ],
-  "GWASTools": [],
   "GWENA": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -5712,9 +5709,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "MMUPHin": [
-    "Maaslin2"
-  ],
+  "MMUPHin": [],
   "MODA": [
     "AnnotationDbi",
     "IRanges",
@@ -5951,11 +5946,9 @@
     "XVector",
     "SparseArray"
   ],
-  "Maaslin2": [],
   "Macarron": [
     "SummarizedExperiment",
     "DelayedArray",
-    "Maaslin2",
     "IRanges",
     "S4Arrays",
     "SparseArray",
@@ -6936,7 +6929,6 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "OncoSimulR": [],
   "Organism.dplyr": [
     "AnnotationFilter",
     "GenomeInfoDb",
@@ -7312,7 +7304,6 @@
     "SparseArray",
     "XVector"
   ],
-  "Pedixplorer": [],
   "PepSetTest": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -7644,7 +7635,6 @@
     "rtracklayer",
     "XVector",
     "GenomicFeatures",
-    "GWASTools",
     "SeqArray",
     "SeqVarTools",
     "SummarizedExperiment",
@@ -8222,7 +8212,6 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "ReUseData": [],
   "ReactomeGSA": [
     "BiocSingular",
     "SummarizedExperiment",
@@ -10160,7 +10149,6 @@
     "SparseArray",
     "XVector"
   ],
-  "TurboNorm": [],
   "UCell": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -11438,7 +11426,6 @@
     "SummarizedExperiment",
     "MAST",
     "microbiome",
-    "Maaslin2",
     "maaslin3",
     "GenomicRanges",
     "IRanges",
@@ -15334,7 +15321,6 @@
     "SparseArray"
   ],
   "gwasurvivr": [
-    "GWASTools",
     "VariantAnnotation",
     "SummarizedExperiment",
     "GenomicRanges",
@@ -16273,7 +16259,6 @@
   ],
   "mBPCR": [
     "oligoClasses",
-    "GWASTools",
     "IRanges",
     "GenomicRanges",
     "SummarizedExperiment",

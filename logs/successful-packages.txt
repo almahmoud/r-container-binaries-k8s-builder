@@ -695,3 +695,10 @@ mbQTL
 mzR
 pvca
 scde
+DFplyr
+GWASTools
+Maaslin2
+OncoSimulR
+Pedixplorer
+ReUseData
+TurboNorm
