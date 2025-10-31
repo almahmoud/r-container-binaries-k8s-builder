@@ -849,3 +849,8 @@ sarks
 scoup
 sscu
 universalmotif
+GateFinder
+cyanoFilter
+ddPCRclust
+flowBin
+flowCut

@@ -1201,7 +1201,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "Chromatograms": [],
   "CircSeqAlignTk": [
     "ShortRead",
     "Rsamtools",
@@ -2453,9 +2452,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "GateFinder": [
-    "flowFP"
-  ],
+  "GateFinder": [],
   "GeneBreak": [
     "QDNAseq",
     "GenomicRanges",
@@ -3712,9 +3709,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "MsBackendMetaboLights": [],
   "MsBackendRawFileReader": [],
-  "MsBackendSql": [],
   "MsDataHub": [
     "ExperimentHub",
     "AnnotationHub",
@@ -5431,7 +5426,6 @@
     "GeomxTools",
     "NanoStringNCTools"
   ],
-  "SpectraQL": [],
   "SpectralTAD": [
     "HiCcompare",
     "GenomicRanges",
@@ -7561,9 +7555,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "cyanoFilter": [
-    "flowDensity"
-  ],
+  "cyanoFilter": [],
   "cydar": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -7635,9 +7627,7 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "ddPCRclust": [
-    "flowDensity"
-  ],
+  "ddPCRclust": [],
   "debrowser": [
     "annotate",
     "AnnotationDbi",
@@ -8288,14 +8278,8 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "flowBin": [
-    "flowFP"
-  ],
-  "flowCut": [
-    "flowDensity"
-  ],
-  "flowDensity": [],
-  "flowFP": [],
+  "flowBin": [],
+  "flowCut": [],
   "flowGate": [
     "flowWorkspace",
     "ggcyto"
@@ -10323,7 +10307,6 @@
     "beachmat",
     "GenomicRanges"
   ],
-  "optimalFlow": [],
   "orthogene": [],
   "orthos": [
     "SummarizedExperiment",

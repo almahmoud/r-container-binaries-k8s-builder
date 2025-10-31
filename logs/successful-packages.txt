@@ -779,3 +779,10 @@ MsBackendMgf
 MsBackendMsp
 Biostrings
 GenomeInfoDb
+Chromatograms
+flowDensity
+flowFP
+MsBackendMetaboLights
+MsBackendSql
+optimalFlow
+SpectraQL

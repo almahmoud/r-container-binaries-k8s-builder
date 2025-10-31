@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 781 (34%)
+- **Successfully Built:** 788 (35%)
 - **Failed:** 1 (0%)
-- **In Progress:** 28
-- **Not Started:** 1434
+- **In Progress:** 62
+- **Not Started:** 1393
 
-**Progress:** 34%
+**Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (781)
+## Successfully Built Packages (788)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 731 more ...*
+*... and 738 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,37 +82,61 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (28)
-- ⏳ `Chromatograms`
+## In Progress (62)
+- ⏳ `BCRANK`
+- ⏳ `BRAIN`
+- ⏳ `DECIPHER`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
 - ⏳ `DelayedRandomArray`
+- ⏳ `GeneRegionScan`
 - ⏳ `GenomicRanges`
 - ⏳ `HDF5Array`
+- ⏳ `KEGGREST`
+- ⏳ `MEDME`
+- ⏳ `MSstatsPTM`
 - ⏳ `MetaCyto`
-- ⏳ `MsBackendMetaboLights`
 - ⏳ `MsBackendRawFileReader`
-- ⏳ `MsBackendSql`
+- ⏳ `NanoStringNCTools`
+- ⏳ `PWMEnrich`
+- ⏳ `PhyloProfile`
+- ⏳ `R4RNA`
 - ⏳ `Rarr`
 - ⏳ `ResidualMatrix`
+- ⏳ `SELEX`
 - ⏳ `ScaledMatrix`
-- ⏳ `SpectraQL`
 - ⏳ `SpectriPy`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
 - ⏳ `TileDBArray`
 - ⏳ `adverSCarial`
+- ⏳ `alabaster.string`
+- ⏳ `altcdfenvs`
+- ⏳ `bcSeq`
 - ⏳ `beachmat`
-- ⏳ `flowDensity`
-- ⏳ `flowFP`
+- ⏳ `cigarillo`
+- ⏳ `cleaver`
+- ⏳ `coRdon`
+- ⏳ `cogeqc`
 - ⏳ `flowMerge`
 - ⏳ `flowTrans`
 - ⏳ `flowWorkspace`
+- ⏳ `gcrma`
+- ⏳ `idpr`
+- ⏳ `igblastr`
+- ⏳ `kebabs`
 - ⏳ `ldblock`
-- ⏳ `optimalFlow`
+- ⏳ `microRNA`
+- ⏳ `motifcounter`
+- ⏳ `msa`
+- ⏳ `muscle`
+- ⏳ `ngsReports`
 - ⏳ `orthogene`
-- ⏳ `rhdf5client`
-- ⏳ `sketchR`
+- ⏳ `phyloseq`
 
-## Not Yet Started (1434)
+... and 12 more ...
+
+## Not Yet Started (1393)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -146,12 +170,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -163,9 +185,11 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
+- ⏸️ `BatchQC`
 
-... and 1384 more ...
+... and 1343 more ...
 
 ---
-*Last updated: 2025-10-31 23:39:50 UTC*
+*Last updated: 2025-10-31 23:41:54 UTC*
 *Packages with verified BBS status: 105*
