@@ -533,7 +533,6 @@
   "Rqc": [
     "biovizBase"
   ],
-  "SARC": [],
   "SCOPE": [],
   "SGCP": [
     "GOstats"
@@ -584,7 +583,6 @@
   "UMI4Cats": [
     "regioneR"
   ],
-  "UPDhmm": [],
   "Ularcirc": [
     "Organism.dplyr"
   ],
@@ -605,7 +603,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "ZygosityPredictor": [],
   "affycoretools": [
     "GOstats",
     "ReportingTools",
@@ -1124,7 +1121,6 @@
   "netSmooth": [
     "clusterExperiment"
   ],
-  "nullranges": [],
   "octad": [
     "RUVSeq",
     "EDASeq"
@@ -1328,9 +1324,7 @@
   "terraTCGAdata": [
     "TCGAutils"
   ],
-  "tidyomics": [
-    "nullranges"
-  ],
+  "tidyomics": [],
   "topdownr": [],
   "trackViewer": [
     "Gviz",

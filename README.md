@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1829 (79%)
+- **Successfully Built:** 1833 (79%)
 - **Failed:** 13 (0%)
-- **In Progress:** 192
-- **Not Started:** 276
+- **In Progress:** 190
+- **Not Started:** 274
 
 **Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1829)
+## Successfully Built Packages (1833)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1779 more ...*
+*... and 1783 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (192)
+## In Progress (190)
 - ⏳ `APAlyzer`
 - ⏳ `BASiCS`
 - ⏳ `BBCAnalyzer`
@@ -120,6 +120,7 @@
 - ⏳ `DEP`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
+- ⏳ `DegCre`
 - ⏳ `DiffBind`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
@@ -144,11 +145,10 @@
 - ⏳ `PRONE`
 - ⏳ `Pigengene`
 - ⏳ `Prostar`
-- ⏳ `ProteoDisco`
 
-... and 142 more ...
+... and 140 more ...
 
-## Not Yet Started (276)
+## Not Yet Started (274)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -180,7 +180,6 @@
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
-- ⏸️ `DegCre`
 - ⏸️ `DegNorm`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
@@ -199,9 +198,10 @@
 - ⏸️ `GeDi`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
+- ⏸️ `GenomicInteractions`
 
-... and 226 more ...
+... and 224 more ...
 
 ---
-*Last updated: 2025-10-31 08:01:32 UTC*
+*Last updated: 2025-10-31 08:02:29 UTC*
 *Packages with verified BBS status: 151*
