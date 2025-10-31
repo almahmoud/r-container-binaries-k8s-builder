@@ -1852,3 +1852,8 @@ icetea
 alabaster.vcf
 multiGSEA
 BBCAnalyzer
+BadRegionFinder
+meshr
+RESOLVE
+VariantTools
+VCFArray
