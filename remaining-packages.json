@@ -435,9 +435,7 @@
     "genefilter",
     "annotate"
   ],
-  "CNVRanger": [
-    "RaggedExperiment"
-  ],
+  "CNVRanger": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -1258,7 +1256,6 @@
   "GNOSIS": [
     "cBioPortalData",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures",
@@ -1274,7 +1271,6 @@
   "GOexpress": [
     "biomaRt"
   ],
-  "GOfuncR": [],
   "GOpro": [
     "MultiAssayExperiment"
   ],
@@ -2561,25 +2557,19 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "ROCpAI": [],
   "RSVSim": [
     "ShortRead",
     "GenomicAlignments"
   ],
   "RTCGAToolbox": [
-    "RaggedExperiment",
     "TCGAutils",
     "GenomicFeatures",
     "MultiAssayExperiment",
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "RTN": [],
-  "RTNduals": [
-    "RTN"
-  ],
+  "RTNduals": [],
   "RTNsurvival": [
-    "RTN",
     "RTNduals"
   ],
   "RUCova": [
@@ -2597,7 +2587,6 @@
     "CoreGx",
     "MultiAssayExperiment"
   ],
-  "RaggedExperiment": [],
   "RareVariantVis": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -2749,7 +2738,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "RolDE": [],
   "Rqc": [
     "ShortRead",
     "biovizBase",
@@ -2762,7 +2750,6 @@
     "BSgenome"
   ],
   "SARC": [
-    "RaggedExperiment",
     "plyranges",
     "GenomicFeatures",
     "rtracklayer",
@@ -2801,7 +2788,6 @@
   "SCnorm": [
     "SingleCellExperiment"
   ],
-  "SDAMS": [],
   "SEraster": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -3080,7 +3066,6 @@
   "TCGAutils": [
     "GenomicFeatures",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "rtracklayer",
     "GenomicAlignments"
   ],
@@ -3649,7 +3634,6 @@
     "clusterProfiler",
     "ReactomePA",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "enrichplot",
@@ -3765,7 +3749,6 @@
   ],
   "cBioPortalData": [
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures",
@@ -3797,7 +3780,6 @@
     "GSEABase",
     "phenoTest",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "annotate",
@@ -3832,7 +3814,6 @@
     "cBioPortalData",
     "genefilter",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "annotate",
@@ -4474,7 +4455,6 @@
     "GenomicAlignments"
   ],
   "easier": [
-    "quantiseqr",
     "DESeq2",
     "ExperimentHub",
     "AnnotationHub"
@@ -4880,7 +4860,6 @@
     "MultiAssayExperiment",
     "TCGAutils",
     "GenomicFeatures",
-    "RaggedExperiment",
     "rtracklayer",
     "GenomicAlignments"
   ],
@@ -5845,8 +5824,7 @@
     "made4"
   ],
   "omicsPrint": [
-    "MultiAssayExperiment",
-    "RaggedExperiment"
+    "MultiAssayExperiment"
   ],
   "omicsViewer": [],
   "oncomix": [],
@@ -6143,7 +6121,6 @@
     "genefilter",
     "annotate"
   ],
-  "quantiseqr": [],
   "quantro": [
     "minfi",
     "bumphunter",
@@ -6952,7 +6929,6 @@
     "rtracklayer"
   ],
   "structToolbox": [],
-  "supersigs": [],
   "surfaltr": [
     "biomaRt"
   ],
@@ -7032,7 +7008,6 @@
   ],
   "terraTCGAdata": [
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "TCGAutils",
     "GenomicFeatures",
     "rtracklayer",

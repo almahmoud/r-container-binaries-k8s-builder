@@ -1061,3 +1061,11 @@ stageR
 ADAMgui
 biotmle
 fastLiquidAssociation
+GOfuncR
+quantiseqr
+RaggedExperiment
+ROCpAI
+RolDE
+RTN
+SDAMS
+supersigs

@@ -1233,3 +1233,5 @@ gatom
 rrvgo
 MetMashR
 structToolbox
+CNVRanger
+RTNduals
