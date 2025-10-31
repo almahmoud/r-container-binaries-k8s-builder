@@ -1092,7 +1092,6 @@
     "GenomicFeatures",
     "biovizBase"
   ],
-  "TissueEnrich": [],
   "TitanCNA": [
     "VariantAnnotation",
     "GenomicFeatures"
@@ -1123,9 +1122,7 @@
     "GenomicFiles",
     "GenomicFeatures"
   ],
-  "VaSP": [
-    "ballgown"
-  ],
+  "VaSP": [],
   "VanillaICE": [],
   "VarCon": [],
   "VariantAnnotation": [
@@ -1220,7 +1217,6 @@
     "GOstats",
     "Category"
   ],
-  "ballgown": [],
   "bambu": [
     "GenomicFeatures"
   ],
@@ -1329,7 +1325,6 @@
     "chevreulProcess",
     "scater",
     "scran",
-    "wiggleplotr",
     "batchelor",
     "ensembldb",
     "GenomicFeatures"
@@ -1344,7 +1339,6 @@
   "chevreulShiny": [
     "chevreulProcess",
     "chevreulPlot",
-    "wiggleplotr",
     "scater",
     "scran",
     "batchelor",
@@ -1660,8 +1654,7 @@
     "genomation"
   ],
   "factR": [
-    "GenomicFeatures",
-    "wiggleplotr"
+    "GenomicFeatures"
   ],
   "fcScan": [
     "VariantAnnotation",
@@ -2550,7 +2543,6 @@
   "wavClusteR": [
     "GenomicFeatures"
   ],
-  "wiggleplotr": [],
   "xCell2": [
     "singscore"
   ],

@@ -1697,3 +1697,6 @@ BicARE
 POWSC
 PROMISE
 TMSig
+ballgown
+TissueEnrich
+wiggleplotr

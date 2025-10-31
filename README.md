@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1699 (73%)
-- **Failed:** 12 (0%)
-- **In Progress:** 119
-- **Not Started:** 480
+- **Successfully Built:** 1702 (73%)
+- **Failed:** 13 (0%)
+- **In Progress:** 116
+- **Not Started:** 479
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1699)
+## Successfully Built Packages (1702)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 
-*... and 1649 more ...*
+*... and 1652 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [universalmotif](https://bioconductor.org/packages/3.21/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.21/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
@@ -64,6 +63,7 @@
 | [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.21/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.21/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/widgetTools) |
+| [wiggleplotr](https://bioconductor.org/packages/3.21/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
 | [xcore](https://bioconductor.org/packages/3.21/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xcore) |
@@ -76,13 +76,14 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (12)
+## Failed Packages (13)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [AneuFinder](https://bioconductor.org/packages/3.21/bioc/html/AneuFinder.html) | [log](logs/AneuFinder/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AneuFinder) | Build failed with unknown error |
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
+| [PICS](https://bioconductor.org/packages/3.21/bioc/html/PICS.html) | [log](logs/PICS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PICS) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.21/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [amplican](https://bioconductor.org/packages/3.21/bioc/html/amplican.html) | [log](logs/amplican/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/amplican) | Build failed with unknown error |
@@ -93,12 +94,13 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (119)
+## In Progress (116)
 - ⏳ `AUCell`
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
 - ⏳ `BioCor`
+- ⏳ `CCPROMISE`
 - ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRball`
@@ -121,7 +123,6 @@
 - ⏳ `Motif2Site`
 - ⏳ `MotifPeeker`
 - ⏳ `ORFhunteR`
-- ⏳ `PICS`
 - ⏳ `PanomiR`
 - ⏳ `RFLOMICS`
 - ⏳ `ReactomePA`
@@ -135,19 +136,19 @@
 - ⏳ `SplineDV`
 - ⏳ `TENET`
 - ⏳ `TFBSTools`
-- ⏳ `TissueEnrich`
 - ⏳ `VanillaICE`
 - ⏳ `VarCon`
 - ⏳ `XNAString`
 - ⏳ `a4`
 - ⏳ `alabaster.spatial`
-- ⏳ `ballgown`
 - ⏳ `batchelor`
 - ⏳ `bedbaser`
+- ⏳ `benchdamic`
+- ⏳ `branchpointer`
 
-... and 69 more ...
+... and 66 more ...
 
-## Not Yet Started (480)
+## Not Yet Started (479)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -174,7 +175,6 @@
 - ⏸️ `CAMERA`
 - ⏸️ `CATALYST`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
@@ -198,9 +198,10 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DAPAR`
+- ⏸️ `DEP`
 
-... and 430 more ...
+... and 429 more ...
 
 ---
-*Last updated: 2025-10-31 07:07:35 UTC*
-*Packages with verified BBS status: 144*
+*Last updated: 2025-10-31 07:08:59 UTC*
+*Packages with verified BBS status: 146*

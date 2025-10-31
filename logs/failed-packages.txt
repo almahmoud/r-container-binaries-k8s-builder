@@ -10,3 +10,4 @@ debCAM
 amplican
 trigger
 AneuFinder
+PICS

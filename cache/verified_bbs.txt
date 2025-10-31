@@ -64,6 +64,7 @@ CONSTANd
 COSNet
 CausalR
 Harshlight
+PICS
 PhenStat
 RbowtieCuda
 amplican
@@ -131,6 +132,7 @@ weaver
 webbioc
 weitrix
 widgetTools
+wiggleplotr
 wpm
 wppi
 xcore
