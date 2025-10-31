@@ -810,3 +810,7 @@ rprimer
 sarks
 scoup
 sscu
+PhyloProfile
+rfaRm
+rSWeeP
+ScaledMatrix

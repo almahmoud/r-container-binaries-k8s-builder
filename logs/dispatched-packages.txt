@@ -863,3 +863,4 @@ transomics2cytoscape
 SynExtend
 MSstatsLiP
 MSstatsShiny
+scPCA
