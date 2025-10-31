@@ -2145,3 +2145,4 @@ SingleMoleculeFootprinting
 glmSparseNet
 RTCGAToolbox
 esATAC
+EpiCompare

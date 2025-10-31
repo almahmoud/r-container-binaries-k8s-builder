@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2147 (92%)
+- **Successfully Built:** 2148 (92%)
 - **Failed:** 21 (0%)
-- **In Progress:** 48
+- **In Progress:** 47
 - **Not Started:** 94
 
 **Progress:** 93%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2147)
+## Successfully Built Packages (2148)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2097 more ...*
+*... and 2098 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,12 +102,11 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (48)
+## In Progress (47)
 - ⏳ `AHMassBank`
 - ⏳ `ATACseqQC`
 - ⏳ `BubbleTree`
 - ⏳ `ChIPexoQual`
-- ⏳ `EpiCompare`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
 - ⏳ `FRASER`
@@ -207,5 +206,5 @@
 ... and 44 more ...
 
 ---
-*Last updated: 2025-10-31 10:44:10 UTC*
+*Last updated: 2025-10-31 10:44:57 UTC*
 *Packages with verified BBS status: 163*
