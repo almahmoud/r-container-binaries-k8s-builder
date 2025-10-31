@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 731 (32%)
+- **Successfully Built:** 732 (32%)
 - **Failed:** 1 (0%)
-- **In Progress:** 20
+- **In Progress:** 19
 - **Not Started:** 1492
 
 **Progress:** 32%
@@ -16,7 +16,7 @@
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (731)
+## Successfully Built Packages (732)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 681 more ...*
+*... and 682 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (20)
+## In Progress (19)
 - ⏳ `CCPlotR`
 - ⏳ `ClustAll`
 - ⏳ `InteractiveComplexHeatmap`
@@ -92,7 +92,6 @@
 - ⏳ `SPIA`
 - ⏳ `Seqinfo`
 - ⏳ `Spectra`
-- ⏳ `TargetDecoy`
 - ⏳ `alabaster.bumpy`
 - ⏳ `bluster`
 - ⏳ `cola`
@@ -159,5 +158,5 @@
 ... and 1442 more ...
 
 ---
-*Last updated: 2025-10-31 23:03:13 UTC*
+*Last updated: 2025-10-31 23:03:53 UTC*
 *Packages with verified BBS status: 104*

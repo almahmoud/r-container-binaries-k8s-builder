@@ -8661,7 +8661,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "TargetDecoy": [],
   "TileDBArray": [
     "SparseArray",
     "DelayedArray",
