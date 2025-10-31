@@ -1402,3 +1402,8 @@ knowYourCG
 PLSDAbatch
 scQTLtools
 treekoR
+COTAN
+crlmm
+maaslin3
+mBPCR
+microSTASIS

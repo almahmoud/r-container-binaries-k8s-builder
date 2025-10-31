@@ -308,7 +308,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "COTAN": [],
   "CRISPRball": [
     "dittoSeq"
   ],
@@ -995,7 +994,6 @@
   ],
   "MAGAR": [
     "RnBeads",
-    "crlmm",
     "methylumi",
     "minfi",
     "GenomicFeatures",
@@ -1142,7 +1140,6 @@
   ],
   "MinimumDistance": [
     "VanillaICE",
-    "crlmm",
     "BSgenome",
     "rtracklayer"
   ],
@@ -1868,7 +1865,6 @@
     "rtracklayer"
   ],
   "VanillaICE": [
-    "crlmm",
     "BSgenome",
     "rtracklayer"
   ],
@@ -2066,8 +2062,7 @@
   ],
   "benchdamic": [
     "zinbwave",
-    "MAST",
-    "maaslin3"
+    "MAST"
   ],
   "bigmelon": [
     "wateRmelon",
@@ -2436,7 +2431,6 @@
     "ensembldb",
     "biovizBase"
   ],
-  "crlmm": [],
   "crumblr": [],
   "crupR": [
     "rtracklayer",
@@ -3036,7 +3030,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "mBPCR": [],
   "mCSEA": [
     "GenomicFeatures",
     "Gviz",
@@ -3049,7 +3042,6 @@
     "txdbmaker"
   ],
   "maPredictDSC": [],
-  "maaslin3": [],
   "magpie": [
     "rtracklayer",
     "GenomicFeatures",
@@ -3201,7 +3193,6 @@
     "scater",
     "scuttle"
   ],
-  "microSTASIS": [],
   "microbiomeExplorer": [],
   "miloR": [],
   "mimager": [
