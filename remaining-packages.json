@@ -1447,7 +1447,6 @@
   "ReactomePA": [
     "graphite"
   ],
-  "RegEnrich": [],
   "RegionalST": [
     "scater",
     "BayesSpace",
@@ -1557,7 +1556,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "SEraster": [],
   "SEtools": [
     "sva"
   ],
@@ -2253,7 +2251,6 @@
   ],
   "concordexR": [],
   "condiments": [
-    "slingshot",
     "distinct",
     "scater",
     "scuttle"
@@ -3618,8 +3615,7 @@
     "scuttle"
   ],
   "scRNAseqApp": [
-    "rtracklayer",
-    "slingshot"
+    "rtracklayer"
   ],
   "scTGIF": [
     "GSEABase"
@@ -3809,7 +3805,6 @@
   "slalom": [
     "GSEABase"
   ],
-  "slingshot": [],
   "smoothclust": [],
   "smoppix": [],
   "soGGi": [
@@ -3956,9 +3951,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "tradeSeq": [
-    "slingshot"
-  ],
+  "tradeSeq": [],
   "transcriptR": [
     "GenomicFeatures",
     "rtracklayer"

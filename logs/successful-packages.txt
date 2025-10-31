@@ -1451,3 +1451,6 @@ chipseq
 girafe
 SurfR
 treeclimbR
+RegEnrich
+SEraster
+slingshot
