@@ -474,7 +474,6 @@
     "BSgenome"
   ],
   "BulkSignalR": [
-    "orthogene",
     "SpatialExperiment",
     "SummarizedExperiment",
     "SingleCellExperiment"
@@ -1489,7 +1488,6 @@
   "EWCE": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "orthogene",
     "ExperimentHub",
     "AnnotationHub",
     "AnnotationDbi"
@@ -5005,7 +5003,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "bcSeq": [],
   "beachmat": [],
   "beachmat.hdf5": [
     "beachmat",
@@ -5462,7 +5459,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "chromDraw": [],
   "chromPlot": [
     "biomaRt",
     "AnnotationDbi"
@@ -5588,7 +5584,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "coRdon": [],
   "codelink": [
     "annotate",
     "AnnotationDbi"
@@ -7053,7 +7048,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "idpr": [],
   "igvR": [
     "GenomicAlignments",
     "rtracklayer",
@@ -8130,7 +8124,6 @@
     "beachmat",
     "h5mread"
   ],
-  "orthogene": [],
   "orthos": [
     "SummarizedExperiment",
     "AnnotationHub",
@@ -8787,7 +8780,6 @@
     "AnnotationDbi",
     "biomaRt"
   ],
-  "sangeranalyseR": [],
   "saseR": [
     "ASpli",
     "GenomicFeatures",

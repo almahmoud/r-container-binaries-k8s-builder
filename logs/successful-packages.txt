@@ -911,3 +911,9 @@ syntenet
 baySeq
 LymphoSeq
 TileDBArray
+bcSeq
+chromDraw
+coRdon
+idpr
+orthogene
+sangeranalyseR
