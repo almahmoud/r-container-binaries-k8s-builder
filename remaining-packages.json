@@ -3480,7 +3480,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "DEqMS": [],
   "DEsubs": [
     "graph",
     "RBGL",
@@ -9609,7 +9608,6 @@
     "vsn",
     "Biobase",
     "POMA",
-    "DEqMS",
     "BiocGenerics",
     "IRanges",
     "mzR",
@@ -12459,7 +12457,6 @@
     "ScaledMatrix",
     "XVector"
   ],
-  "SpaceMarkers": [],
   "SpaceTrooper": [
     "SpatialExperiment",
     "DropletUtils",

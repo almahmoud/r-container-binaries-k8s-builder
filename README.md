@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 451 (20%)
+- **Successfully Built:** 453 (20%)
 - **Failed:** 1 (0%)
-- **In Progress:** 27
-- **Not Started:** 1765
+- **In Progress:** 26
+- **Not Started:** 1764
 
 **Progress:** 20%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (451)
+## Successfully Built Packages (453)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.22/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BeadDataPackR) |
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 
-*... and 401 more ...*
+*... and 403 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,11 +82,10 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (27)
+## In Progress (26)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
-- ⏳ `DEqMS`
 - ⏳ `EnMCB`
 - ⏳ `GSCA`
 - ⏳ `GenProSeq`
@@ -98,8 +97,8 @@
 - ⏳ `Polytect`
 - ⏳ `Rigraphlib`
 - ⏳ `SUITOR`
-- ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
+- ⏳ `alevinQC`
 - ⏳ `anndataR`
 - ⏳ `biomformat`
 - ⏳ `decoupleR`
@@ -111,7 +110,7 @@
 - ⏳ `scFeatureFilter`
 - ⏳ `scMitoMut`
 
-## Not Yet Started (1765)
+## Not Yet Started (1764)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -163,8 +162,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1715 more ...
+... and 1714 more ...
 
 ---
-*Last updated: 2025-10-31 22:25:12 UTC*
+*Last updated: 2025-10-31 22:25:38 UTC*
 *Packages with verified BBS status: 86*
