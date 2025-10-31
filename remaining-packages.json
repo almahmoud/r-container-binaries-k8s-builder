@@ -1081,7 +1081,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "CompoundDb": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -1283,7 +1282,6 @@
     "AnnotationDbi",
     "rtracklayer"
   ],
-  "DNAshapeR": [],
   "DOSE": [
     "AnnotationDbi",
     "GOSemSim"
@@ -1771,7 +1769,6 @@
   "FuseSOM": [
     "SummarizedExperiment"
   ],
-  "G4SNVHunter": [],
   "GA4GHclient": [
     "VariantAnnotation",
     "SummarizedExperiment",
@@ -1819,7 +1816,6 @@
     "DOSE",
     "biomaRt",
     "pathview",
-    "GenomicDataCommons",
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
@@ -1855,7 +1851,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -2053,8 +2048,6 @@
     "SummarizedExperiment",
     "Rsamtools"
   ],
-  "GenomicDataCommons": [],
-  "GenomicDistributions": [],
   "GenomicFeatures": [
     "AnnotationDbi",
     "rtracklayer",
@@ -2642,7 +2635,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "MEDME": [],
   "MGFM": [
     "AnnotationDbi",
     "annotate"
@@ -2850,7 +2842,6 @@
     "SummarizedExperiment",
     "QFeatures",
     "AnnotationHub",
-    "CompoundDb",
     "AnnotationDbi",
     "MultiAssayExperiment"
   ],
@@ -3760,7 +3751,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "MultiAssayExperiment",
     "rtracklayer",
     "Rsamtools",
@@ -4556,7 +4546,6 @@
   "TCGAutils": [
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "MultiAssayExperiment",
     "RaggedExperiment",
     "SummarizedExperiment",
@@ -5421,7 +5410,6 @@
     "GOSemSim",
     "graphite",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -5588,7 +5576,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -5632,7 +5619,6 @@
     "biomaRt",
     "genefilter",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -5675,7 +5661,6 @@
     "AnnotationDbi",
     "annotate",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -7212,7 +7197,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "RaggedExperiment",
     "rtracklayer",
     "Rsamtools",
@@ -8325,7 +8309,6 @@
     "GenomicAlignments",
     "TFBSTools"
   ],
-  "motifcounter": [],
   "motifmatchr": [
     "TFBSTools",
     "BSgenome",
@@ -9817,13 +9800,11 @@
     "biomaRt",
     "AnnotationDbi"
   ],
-  "seqArchR": [],
   "seqArchRplus": [
     "BSgenome",
     "ChIPseeker",
     "clusterProfiler",
     "heatmaps",
-    "seqArchR",
     "seqPattern",
     "rtracklayer",
     "Rsamtools",
@@ -10424,7 +10405,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"

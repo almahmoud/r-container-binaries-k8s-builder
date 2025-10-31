@@ -871,3 +871,11 @@ PWMEnrich
 scoup
 sscu
 triplex
+CompoundDb
+DNAshapeR
+G4SNVHunter
+GenomicDataCommons
+GenomicDistributions
+MEDME
+motifcounter
+seqArchR
