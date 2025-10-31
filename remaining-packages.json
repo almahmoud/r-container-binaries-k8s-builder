@@ -81,7 +81,6 @@
     "scran"
   ],
   "BayesSpace": [
-    "scater",
     "scran"
   ],
   "BgeeCall": [
@@ -127,13 +126,10 @@
     "xcms",
     "MSnbase"
   ],
-  "CATALYST": [
-    "scater"
-  ],
+  "CATALYST": [],
   "CCAFE": [
     "VariantAnnotation"
   ],
-  "CCPROMISE": [],
   "CNEr": [],
   "CNVfilteR": [
     "regioneR",
@@ -163,12 +159,8 @@
   "CRISPRseek": [],
   "CSSQ": [],
   "Category": [],
-  "CellMixS": [
-    "scater"
-  ],
-  "CelliD": [
-    "scater"
-  ],
+  "CellMixS": [],
+  "CelliD": [],
   "Cepo": [],
   "CexoR": [
     "genomation"
@@ -207,8 +199,7 @@
   "ChIPseeker": [],
   "ChromSCape": [
     "batchelor",
-    "scran",
-    "scater"
+    "scran"
   ],
   "CircSeqAlignTk": [
     "Rhisat2",
@@ -280,8 +271,7 @@
     "bsseq"
   ],
   "DeconvoBuddies": [
-    "scran",
-    "scater"
+    "scran"
   ],
   "DegCre": [
     "plotgardener",
@@ -343,7 +333,6 @@
     "bambu",
     "txdbmaker",
     "ggbio",
-    "scater",
     "scran",
     "biovizBase",
     "VariantAnnotation",
@@ -436,7 +425,6 @@
     "genomation",
     "txdbmaker"
   ],
-  "GlobalAncova": [],
   "GmicR": [
     "Category",
     "GOstats"
@@ -489,9 +477,7 @@
     "CAMERA",
     "MSnbase"
   ],
-  "M3Drop": [
-    "scater"
-  ],
+  "M3Drop": [],
   "MADSEQ": [
     "VariantAnnotation"
   ],
@@ -523,13 +509,10 @@
     "methylumi",
     "lumi"
   ],
-  "MEB": [
-    "scater"
-  ],
+  "MEB": [],
   "MEDIPS": [],
   "MGnifyR": [
-    "mia",
-    "scater"
+    "mia"
   ],
   "MIRA": [
     "bsseq"
@@ -764,7 +747,6 @@
   "RbowtieCuda": [],
   "RcisTarget": [],
   "RegionalST": [
-    "scater",
     "BayesSpace",
     "scran"
   ],
@@ -873,7 +855,6 @@
     "scran"
   ],
   "Spaniel": [
-    "scater",
     "scran"
   ],
   "SparseSignatures": [],
@@ -926,9 +907,7 @@
   "Uniquorn": [
     "VariantAnnotation"
   ],
-  "VAExprs": [
-    "scater"
-  ],
+  "VAExprs": [],
   "VCFArray": [
     "VariantAnnotation",
     "GenomicFiles"
@@ -962,7 +941,6 @@
   "ZygosityPredictor": [
     "VariantAnnotation"
   ],
-  "a4": [],
   "affycoretools": [
     "GOstats",
     "ReportingTools",
@@ -974,9 +952,7 @@
     "ensembldb",
     "txdbmaker"
   ],
-  "airpart": [
-    "scater"
-  ],
+  "airpart": [],
   "alabaster": [
     "alabaster.spatial",
     "alabaster.vcf",
@@ -1095,7 +1071,6 @@
   ],
   "celaref": [],
   "celda": [
-    "scater",
     "scran"
   ],
   "cfDNAPro": [
@@ -1103,13 +1078,11 @@
   ],
   "chevreulPlot": [
     "chevreulProcess",
-    "scater",
     "scran",
     "batchelor",
     "ensembldb"
   ],
   "chevreulProcess": [
-    "scater",
     "batchelor",
     "ensembldb",
     "scran"
@@ -1117,7 +1090,6 @@
   "chevreulShiny": [
     "chevreulProcess",
     "chevreulPlot",
-    "scater",
     "scran",
     "batchelor",
     "ensembldb"
@@ -1152,9 +1124,7 @@
     "xcms",
     "MSnbase"
   ],
-  "clustSIGNAL": [
-    "scater"
-  ],
+  "clustSIGNAL": [],
   "clusterExperiment": [],
   "coMethDMR": [
     "bumphunter"
@@ -1173,8 +1143,7 @@
     "VariantAnnotation"
   ],
   "condiments": [
-    "distinct",
-    "scater"
+    "distinct"
   ],
   "consensusDE": [
     "EDASeq",
@@ -1242,8 +1211,7 @@
     "txdbmaker"
   ],
   "cytofQC": [
-    "CATALYST",
-    "scater"
+    "CATALYST"
   ],
   "dagLogo": [
     "motifStack",
@@ -1251,8 +1219,7 @@
   ],
   "dandelionR": [],
   "dar": [
-    "mia",
-    "scater"
+    "mia"
   ],
   "dce": [],
   "debCAM": [],
@@ -1262,7 +1229,6 @@
   ],
   "decontX": [
     "celda",
-    "scater",
     "scran"
   ],
   "deconvR": [
@@ -1297,9 +1263,7 @@
   "diffUTR": [
     "ensembldb"
   ],
-  "distinct": [
-    "scater"
-  ],
+  "distinct": [],
   "dmrseq": [
     "bsseq",
     "bumphunter",
@@ -1340,8 +1304,7 @@
     "TFBSTools"
   ],
   "epiregulon.extra": [
-    "scran",
-    "scater"
+    "scran"
   ],
   "epivizr": [
     "epivizrData",
@@ -1483,8 +1446,7 @@
   "iSEEpathways": [],
   "iSEEtree": [
     "miaViz",
-    "mia",
-    "scater"
+    "mia"
   ],
   "iSEEu": [
     "iSEEhex"
@@ -1529,8 +1491,7 @@
     "bsseq"
   ],
   "lefser": [
-    "mia",
-    "scater"
+    "mia"
   ],
   "lineagespot": [
     "VariantAnnotation"
@@ -1634,18 +1595,14 @@
   ],
   "miRSM": [],
   "miRspongeR": [],
-  "mia": [
-    "scater"
-  ],
+  "mia": [],
   "miaDash": [
     "iSEEtree",
     "mia",
-    "scater",
     "miaViz"
   ],
   "miaViz": [
-    "mia",
-    "scater"
+    "mia"
   ],
   "minfi": [
     "bumphunter"
@@ -1661,7 +1618,6 @@
     "VariantAnnotation"
   ],
   "mobileRNA": [],
-  "mogsa": [],
   "monaLisa": [
     "TFBSTools"
   ],
@@ -1715,9 +1671,7 @@
     "scran",
     "batchelor"
   ],
-  "muscat": [
-    "scater"
-  ],
+  "muscat": [],
   "musicatk": [
     "VariantAnnotation",
     "decompTumor2Sig"
@@ -1736,7 +1690,6 @@
     "plyranges"
   ],
   "netSmooth": [
-    "scater",
     "clusterExperiment"
   ],
   "normr": [],
@@ -1780,16 +1733,13 @@
   "peakPantheR": [
     "MSnbase"
   ],
-  "peco": [
-    "scater"
-  ],
+  "peco": [],
   "periodicDNA": [],
   "phenoTest": [
     "Category"
   ],
   "pipeComp": [
-    "scran",
-    "scater"
+    "scran"
   ],
   "pipeFrame": [],
   "plotgardener": [
@@ -1903,12 +1853,9 @@
     "scran"
   ],
   "scDblFinder": [
-    "scran",
-    "scater"
+    "scran"
   ],
-  "scDotPlot": [
-    "scater"
-  ],
+  "scDotPlot": [],
   "scFeatures": [
     "GSVA",
     "ensembldb",
@@ -1917,7 +1864,6 @@
   ],
   "scMerge": [
     "M3Drop",
-    "scater",
     "batchelor",
     "scran"
   ],
@@ -1932,7 +1878,6 @@
     "epivizr",
     "scran",
     "epivizrData",
-    "scater",
     "bumphunter",
     "OrganismDbi",
     "ensembldb",
@@ -1942,7 +1887,6 @@
     "ensembldb",
     "txdbmaker"
   ],
-  "scater": [],
   "scmeth": [
     "bsseq",
     "annotatr",
@@ -1964,9 +1908,7 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "scviR": [
-    "scater"
-  ],
+  "scviR": [],
   "segmenter": [
     "ChIPseeker"
   ],
@@ -1980,7 +1922,6 @@
     "VariantAnnotation"
   ],
   "shinyDSP": [
-    "scater",
     "standR",
     "RUVSeq",
     "EDASeq"
@@ -2006,7 +1947,6 @@
     "batchelor",
     "ensembldb",
     "GSVA",
-    "scater",
     "scMerge",
     "scran",
     "celda",
@@ -2037,10 +1977,8 @@
   ],
   "spiky": [],
   "spillR": [
-    "CATALYST",
-    "scater"
+    "CATALYST"
   ],
-  "splatter": [],
   "splineTimeR": [],
   "squallms": [
     "xcms",
@@ -2100,9 +2038,7 @@
     "VariantAnnotation"
   ],
   "traseR": [],
-  "tricycle": [
-    "scater"
-  ],
+  "tricycle": [],
   "trigger": [],
   "txcutr": [
     "txdbmaker"
@@ -2121,9 +2057,7 @@
     "VariantAnnotation"
   ],
   "velociraptor": [],
-  "visiumStitched": [
-    "scater"
-  ],
+  "visiumStitched": [],
   "vissE": [],
   "vmrseq": [
     "bumphunter"

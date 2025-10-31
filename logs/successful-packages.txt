@@ -1708,3 +1708,9 @@ ReactomePA
 GenomicFeatures
 gep2pep
 spicyR
+a4
+CCPROMISE
+GlobalAncova
+mogsa
+scater
+splatter
