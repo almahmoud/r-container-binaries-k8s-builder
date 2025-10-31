@@ -546,7 +546,6 @@
     "goseq",
     "txdbmaker"
   ],
-  "SNPhood": [],
   "SOMNiBUS": [
     "annotatr",
     "bsseq",
@@ -585,7 +584,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "TitanCNA": [],
   "UMI4Cats": [
     "regioneR"
   ],

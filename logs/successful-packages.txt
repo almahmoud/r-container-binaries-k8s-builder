@@ -1822,3 +1822,5 @@ MADSEQ
 CluMSID
 MutationalPatterns
 SigsPack
+SNPhood
+TitanCNA
