@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1999 (86%)
+- **Successfully Built:** 2002 (86%)
 - **Failed:** 18 (0%)
 - **In Progress:** 129
-- **Not Started:** 164
+- **Not Started:** 161
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1999)
+## Successfully Built Packages (2002)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 1949 more ...*
+*... and 1952 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,6 +100,7 @@
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
 ## In Progress (129)
+- ⏳ `BASiCStan`
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
@@ -110,7 +111,6 @@
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ChIPseeker`
 - ⏳ `CleanUpRNAseq`
-- ⏳ `DNAfusion`
 - ⏳ `DeMixT`
 - ⏳ `DegNorm`
 - ⏳ `EDASeq`
@@ -130,6 +130,7 @@
 - ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
 - ⏳ `MGnifyR`
+- ⏳ `MOSClip`
 - ⏳ `MSstatsQCgui`
 - ⏳ `MethylAid`
 - ⏳ `NanoMethViz`
@@ -149,18 +150,16 @@
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
-- ⏳ `SplicingGraphs`
 
 ... and 79 more ...
 
-## Not Yet Started (164)
+## Not Yet Started (161)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `BASiCStan`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BubbleTree`
 - ⏸️ `CAFE`
@@ -200,13 +199,14 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MOSClip`
 - ⏸️ `MetaboSignal`
 - ⏸️ `MineICA`
 - ⏸️ `Moonlight2R`
+- ⏸️ `NADfinder`
+- ⏸️ `OGRE`
 
-... and 114 more ...
+... and 111 more ...
 
 ---
-*Last updated: 2025-10-31 09:23:59 UTC*
+*Last updated: 2025-10-31 09:25:06 UTC*
 *Packages with verified BBS status: 160*

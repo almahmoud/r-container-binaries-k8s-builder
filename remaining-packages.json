@@ -102,7 +102,6 @@
     "biovizBase",
     "methylumi"
   ],
-  "DNAfusion": [],
   "DaMiRseq": [
     "EDASeq"
   ],
@@ -607,7 +606,6 @@
   ],
   "kissDE": [],
   "lefser": [],
-  "lisaClust": [],
   "lumi": [
     "methylumi"
   ],
@@ -684,9 +682,7 @@
     "mosdef",
     "goseq"
   ],
-  "preciseTAD": [
-    "rCGH"
-  ],
+  "preciseTAD": [],
   "primirTSS": [
     "Gviz",
     "biovizBase"
@@ -698,7 +694,6 @@
     "rGREAT"
   ],
   "quantro": [],
-  "rCGH": [],
   "rGADEM": [],
   "rGREAT": [],
   "raer": [],

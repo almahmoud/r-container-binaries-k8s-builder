@@ -1997,3 +1997,6 @@ alabaster.sfe
 BASiCS
 Cogito
 qpgraph
+DNAfusion
+lisaClust
+rCGH
