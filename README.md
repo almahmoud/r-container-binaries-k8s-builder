@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1138 (49%)
+- **Successfully Built:** 1146 (49%)
 - **Failed:** 8 (0%)
-- **In Progress:** 148
-- **Not Started:** 1016
+- **In Progress:** 164
+- **Not Started:** 992
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1138)
+## Successfully Built Packages (1146)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.21/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILBase) |
 
-*... and 1088 more ...*
+*... and 1096 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,19 +89,19 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (148)
+## In Progress (164)
 - ⏳ `AffiXcan`
-- ⏳ `BiocSklearn`
+- ⏳ `CHRONOS`
 - ⏳ `CNVRanger`
 - ⏳ `CoreGx`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `DelayedTensor`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `ExperimentHub`
 - ⏳ `ExpressionAtlas`
+- ⏳ `GOexpress`
 - ⏳ `GOpro`
 - ⏳ `GRmetrics`
 - ⏳ `GWENA`
@@ -112,38 +112,38 @@
 - ⏳ `HERON`
 - ⏳ `HiCExperiment`
 - ⏳ `IFAA`
+- ⏳ `InterCellar`
+- ⏳ `LACE`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
 - ⏳ `MCbiclust`
 - ⏳ `MLP`
 - ⏳ `MOMA`
 - ⏳ `MesKit`
-- ⏳ `MetMashR`
 - ⏳ `MiRaGE`
+- ⏳ `MouseFM`
 - ⏳ `MultiDataSet`
 - ⏳ `MultimodalExperiment`
+- ⏳ `NetSAM`
 - ⏳ `OmaDB`
-- ⏳ `PADOG`
+- ⏳ `OncoScore`
+- ⏳ `PPInfer`
+- ⏳ `ProteoMM`
 - ⏳ `QFeatures`
-- ⏳ `SVMDO`
+- ⏳ `RepViz`
+- ⏳ `SPONGE`
+- ⏳ `SWATH2stats`
 - ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
 - ⏳ `SpatialCPie`
 - ⏳ `SpectralTAD`
 - ⏳ `SplicingFactory`
-- ⏳ `SubCellBarCode`
 - ⏳ `TADCompare`
-- ⏳ `TIN`
-- ⏳ `TOAST`
-- ⏳ `TREG`
-- ⏳ `TTMap`
-- ⏳ `Trendy`
-- ⏳ `VariantExperiment`
-- ⏳ `XAItest`
+- ⏳ `TCGAbiolinks`
 
-... and 98 more ...
+... and 114 more ...
 
-## Not Yet Started (1016)
+## Not Yet Started (992)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,8 +195,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BubbleTree`
 
-... and 966 more ...
+... and 942 more ...
 
 ---
-*Last updated: 2025-10-31 04:25:43 UTC*
+*Last updated: 2025-10-31 04:27:12 UTC*
 *Packages with verified BBS status: 122*

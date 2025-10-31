@@ -1316,3 +1316,8 @@ oposSOM
 seq2pathway
 surfaltr
 transcriptogramer
+BLMA
+TDbasedUFEadv
+clusterProfiler
+enrichViewNet
+meshes

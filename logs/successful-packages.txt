@@ -1136,3 +1136,11 @@ ReactomeGSA
 weitrix
 biomaRt
 PhosR
+BiocSklearn
+DelayedTensor
+enrichplot
+MetMashR
+PADOG
+SubCellBarCode
+SVMDO
+TIN
