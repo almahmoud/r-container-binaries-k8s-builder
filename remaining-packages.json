@@ -88,9 +88,7 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "ArrayExpress": [
-    "oligo"
-  ],
+  "ArrayExpress": [],
   "BASiCS": [
     "scran",
     "scuttle"
@@ -363,8 +361,7 @@
     "BSgenome"
   ],
   "ChIPXpress": [
-    "frma",
-    "oligo"
+    "frma"
   ],
   "ChIPanalyser": [
     "BSgenome",
@@ -563,8 +560,7 @@
     "scuttle"
   ],
   "DrugVsDisease": [
-    "ArrayExpress",
-    "oligo"
+    "ArrayExpress"
   ],
   "DuplexDiscovereR": [
     "Gviz",
@@ -901,9 +897,7 @@
     "MSnbase",
     "PSMatch"
   ],
-  "ITALICS": [
-    "oligo"
-  ],
+  "ITALICS": [],
   "IVAS": [
     "GenomicFeatures",
     "rtracklayer"
@@ -1545,7 +1539,6 @@
     "pathview"
   ],
   "SCAN.UPC": [
-    "oligo",
     "sva"
   ],
   "SCANVIS": [
@@ -2221,9 +2214,7 @@
     "mbkmeans"
   ],
   "clustifyr": [],
-  "cn.farms": [
-    "oligo"
-  ],
+  "cn.farms": [],
   "coMethDMR": [
     "bumphunter",
     "GenomicFeatures",
@@ -2647,9 +2638,7 @@
     "MSnbase",
     "PSMatch"
   ],
-  "frma": [
-    "oligo"
-  ],
+  "frma": [],
   "funtooNorm": [
     "minfi",
     "bumphunter",
@@ -2767,7 +2756,6 @@
   "hicVennDiagram": [
     "rtracklayer"
   ],
-  "hoodscanR": [],
   "hypeR": [],
   "iCNV": [
     "CODEX",
@@ -3087,9 +3075,7 @@
     "scuttle"
   ],
   "miloR": [],
-  "mimager": [
-    "oligo"
-  ],
+  "mimager": [],
   "minfi": [
     "bumphunter",
     "GenomicFeatures",
@@ -3262,7 +3248,6 @@
     "GSEABase",
     "rtracklayer"
   ],
-  "oligo": [],
   "omXplore": [
     "MSnbase",
     "PSMatch"
@@ -3312,9 +3297,7 @@
     "GenomicFeatures",
     "txdbmaker"
   ],
-  "pdInfoBuilder": [
-    "oligo"
-  ],
+  "pdInfoBuilder": [],
   "peakPantheR": [
     "MSnbase",
     "PSMatch"
@@ -3408,9 +3391,7 @@
     "MSnbase",
     "PSMatch"
   ],
-  "puma": [
-    "oligo"
-  ],
+  "puma": [],
   "qPLEXanalyzer": [
     "MSnbase",
     "PSMatch"
