@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 481 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 8
-- **Not Started:** 1817
+- **In Progress:** 18
+- **Not Started:** 1807
 
 **Progress:** 20%
 ```
@@ -85,17 +85,27 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (8)
+## In Progress (18)
+- ⏳ `AWFisher`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `EnMCB`
 - ⏳ `Harman`
+- ⏳ `PROPER`
 - ⏳ `Polytect`
+- ⏳ `ROSeq`
+- ⏳ `Rvisdiff`
+- ⏳ `ScreenR`
+- ⏳ `compcodeR`
 - ⏳ `decoupleR`
+- ⏳ `erccdashboard`
 - ⏳ `fgsea`
+- ⏳ `methylMnM`
 - ⏳ `philr`
+- ⏳ `ppcseq`
+- ⏳ `tweeDEseq`
 
-## Not Yet Started (1817)
+## Not Yet Started (1807)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -119,7 +129,6 @@
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
-- ⏸️ `AWFisher`
 - ⏸️ `AffiXcan`
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
@@ -146,9 +155,10 @@
 - ⏸️ `BPRMeth`
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
+- ⏸️ `BSgenome`
 
-... and 1767 more ...
+... and 1757 more ...
 
 ---
-*Last updated: 2025-10-31 00:24:47 UTC*
+*Last updated: 2025-10-31 00:25:26 UTC*
 *Packages with verified BBS status: 86*
