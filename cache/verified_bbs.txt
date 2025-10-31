@@ -114,6 +114,7 @@ veloviz
 vidger
 viper
 vsn
+waddR
 weaver
 webbioc
 weitrix

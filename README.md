@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1342 (58%)
+- **Successfully Built:** 1348 (58%)
 - **Failed:** 9 (0%)
-- **In Progress:** 201
-- **Not Started:** 758
+- **In Progress:** 197
+- **Not Started:** 756
 
 **Progress:** 58%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1342)
+## Successfully Built Packages (1348)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1292 more ...*
+*... and 1298 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.21/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.21/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
@@ -64,6 +63,7 @@
 | [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
+| [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.21/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.21/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weitrix) |
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (201)
+## In Progress (197)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -142,9 +142,9 @@
 - ⏳ `MAST`
 - ⏳ `MDTS`
 
-... and 151 more ...
+... and 147 more ...
 
-## Not Yet Started (758)
+## Not Yet Started (756)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -196,8 +196,8 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 
-... and 708 more ...
+... and 706 more ...
 
 ---
-*Last updated: 2025-10-31 05:14:01 UTC*
-*Packages with verified BBS status: 127*
+*Last updated: 2025-10-31 05:16:00 UTC*
+*Packages with verified BBS status: 128*

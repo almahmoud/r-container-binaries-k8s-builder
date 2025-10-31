@@ -1340,3 +1340,9 @@ MLSeq
 PDATK
 projectR
 scds
+biocGraph
+MetaPhOR
+MicrobiomeProfiler
+prebs
+scRepertoire
+waddR
