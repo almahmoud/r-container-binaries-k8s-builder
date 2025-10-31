@@ -416,3 +416,11 @@ OLIN
 randRotation
 RBM
 stepNorm
+arrayQuality
+DepInfeR
+epistasisGA
+GWAS.BAYES
+KinSwingR
+maftools
+MethylMix
+pathwayPCA

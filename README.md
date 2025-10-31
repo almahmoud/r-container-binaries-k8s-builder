@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 418 (18%)
+- **Successfully Built:** 426 (18%)
 - **Failed:** 1 (0%)
-- **In Progress:** 52
-- **Not Started:** 1773
+- **In Progress:** 45
+- **Not Started:** 1772
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (418)
+## Successfully Built Packages (426)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 368 more ...*
+*... and 376 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,25 +82,22 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (52)
+## In Progress (45)
 - ⏳ `AlpsNMR`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
-- ⏳ `DepInfeR`
 - ⏳ `EnMCB`
-- ⏳ `GWAS.BAYES`
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `KinSwingR`
 - ⏳ `Linnorm`
 - ⏳ `MSstats`
 - ⏳ `MSstatsResponse`
-- ⏳ `MethylMix`
 - ⏳ `NPARC`
+- ⏳ `OLINgui`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
@@ -113,30 +110,26 @@
 - ⏳ `SuperCellCyto`
 - ⏳ `Wrench`
 - ⏳ `anndataR`
-- ⏳ `arrayQuality`
 - ⏳ `basilisk.utils`
 - ⏳ `biocmake`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
 - ⏳ `edgeR`
-- ⏳ `epistasisGA`
 - ⏳ `fgsea`
 - ⏳ `iscream`
-- ⏳ `maftools`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
-- ⏳ `pathwayPCA`
 - ⏳ `philr`
 - ⏳ `planet`
 - ⏳ `rawDiag`
 - ⏳ `rhdf5`
 - ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
+- ⏳ `scLANE`
+- ⏳ `tximport`
 
-... and 2 more ...
-
-## Not Yet Started (1773)
+## Not Yet Started (1772)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -188,8 +181,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1723 more ...
+... and 1722 more ...
 
 ---
-*Last updated: 2025-10-31 22:21:21 UTC*
+*Last updated: 2025-10-31 22:21:57 UTC*
 *Packages with verified BBS status: 84*

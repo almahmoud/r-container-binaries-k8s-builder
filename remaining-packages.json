@@ -1812,9 +1812,7 @@
     "XVector",
     "Seqinfo"
   ],
-  "CIMICE": [
-    "maftools"
-  ],
+  "CIMICE": [],
   "CMA": [
     "Biobase",
     "BiocGenerics"
@@ -2257,7 +2255,6 @@
   "CaMutQC": [
     "clusterProfiler",
     "MesKit",
-    "maftools",
     "AnnotationDbi",
     "DOSE",
     "enrichplot",
@@ -4089,7 +4086,6 @@
     "rhdf5",
     "XVector"
   ],
-  "DepInfeR": [],
   "DiffBind": [
     "GenomicRanges",
     "SummarizedExperiment",
@@ -5287,7 +5283,6 @@
     "XVector"
   ],
   "GNOSIS": [
-    "maftools",
     "cBioPortalData",
     "MultiAssayExperiment",
     "Seqinfo",
@@ -5610,7 +5605,6 @@
     "SparseArray",
     "AnnotationFilter"
   ],
-  "GWAS.BAYES": [],
   "GWASTools": [
     "Biobase",
     "BiocGenerics"
@@ -6996,7 +6990,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "KinSwingR": [],
   "KnowSeq": [
     "sva",
     "edgeR",
@@ -8352,7 +8345,6 @@
     "BiocIO",
     "cigarillo"
   ],
-  "MethylMix": [],
   "MethylSeekR": [
     "rtracklayer",
     "IRanges",
@@ -15059,7 +15051,6 @@
     "rhdf5",
     "multtest"
   ],
-  "arrayQuality": [],
   "artMS": [
     "AnnotationDbi",
     "MSstats",
@@ -18778,7 +18769,6 @@
     "SparseArray",
     "XVector"
   ],
-  "epistasisGA": [],
   "epivizr": [
     "epivizrData",
     "GenomicRanges",
@@ -21175,7 +21165,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "IRanges",
-    "maftools",
     "plyranges",
     "S4Vectors",
     "VariantAnnotation",
@@ -21599,7 +21588,6 @@
     "SparseArray",
     "XVector"
   ],
-  "maftools": [],
   "magpie": [
     "rtracklayer",
     "S4Vectors",
@@ -23461,7 +23449,6 @@
     "S4Vectors",
     "decompTumor2Sig",
     "ComplexHeatmap",
-    "maftools",
     "BiocGenerics",
     "XVector",
     "Seqinfo",
@@ -24489,7 +24476,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "pathwayPCA": [],
   "pcaExplorer": [
     "DESeq2",
     "SummarizedExperiment",

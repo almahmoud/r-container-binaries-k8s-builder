@@ -470,3 +470,4 @@ nnNorm
 rawDiag
 stepNorm
 OLINgui
+CIMICE
