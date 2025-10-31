@@ -1361,7 +1361,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "CNORode": [],
   "CNTools": [
     "genefilter",
     "AnnotationDbi",
@@ -5538,9 +5537,7 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "MEIGOR": [
-    "CNORode"
-  ],
+  "MEIGOR": [],
   "MGFM": [
     "AnnotationDbi",
     "annotate",
@@ -22193,7 +22190,6 @@
     "XVector",
     "GenomeInfoDb"
   ],
-  "updateObject": [],
   "variancePartition": [],
   "velociraptor": [
     "SummarizedExperiment",

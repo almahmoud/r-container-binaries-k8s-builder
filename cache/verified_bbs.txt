@@ -91,6 +91,7 @@ twilight
 twoddpcr
 tximport
 unifiedWMWqPCR
+updateObject
 vbmp
 veloviz
 viper
