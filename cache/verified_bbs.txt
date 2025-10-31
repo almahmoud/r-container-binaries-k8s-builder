@@ -35,6 +35,7 @@ AnVILBilling
 AnVILGCP
 AnVILPublish
 AnVILWorkflow
+AneuFinder
 AnnotationFilter
 BADER
 BAGS
@@ -132,6 +133,7 @@ widgetTools
 wpm
 wppi
 xcore
+xenLite
 xmapbridge
 yamss
 zFPKM

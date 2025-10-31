@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1641 (71%)
-- **Failed:** 11 (0%)
-- **In Progress:** 90
+- **Successfully Built:** 1668 (72%)
+- **Failed:** 12 (0%)
+- **In Progress:** 62
 - **Not Started:** 568
 
-**Progress:** 71%
+**Progress:** 72%
 ```
-███████████████████████████████████░░░░░░░░░░░░░░░
+████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1641)
+## Successfully Built Packages (1668)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASURAT](https://bioconductor.org/packages/3.21/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASURAT) |
 | [AWFisher](https://bioconductor.org/packages/3.21/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AWFisher) |
 
-*... and 1591 more ...*
+*... and 1618 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.21/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.21/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.21/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/variancePartition) |
@@ -68,6 +67,7 @@
 | [wpm](https://bioconductor.org/packages/3.21/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.21/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/wppi) |
 | [xcore](https://bioconductor.org/packages/3.21/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xcore) |
+| [xenLite](https://bioconductor.org/packages/3.21/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
@@ -76,10 +76,11 @@
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
-## Failed Packages (11)
+## Failed Packages (12)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [AneuFinder](https://bioconductor.org/packages/3.21/bioc/html/AneuFinder.html) | [log](logs/AneuFinder/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AneuFinder) | Build failed with unknown error |
 | [BiGGR](https://bioconductor.org/packages/3.21/bioc/html/BiGGR.html) | [log](logs/BiGGR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BiGGR) | Build failed with unknown error |
 | [Harshlight](https://bioconductor.org/packages/3.21/bioc/html/Harshlight.html) | [log](logs/Harshlight/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/Harshlight) | Build failed with unknown error |
 | [PhenStat](https://bioconductor.org/packages/3.21/bioc/html/PhenStat.html) | [log](logs/PhenStat/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/PhenStat) | Build failed with unknown error |
@@ -92,36 +93,21 @@
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (90)
-- ⏳ `AneuFinder`
+## In Progress (62)
 - ⏳ `BSgenome`
 - ⏳ `BatchSVG`
-- ⏳ `BiSeq`
 - ⏳ `CBNplot`
 - ⏳ `CNEr`
-- ⏳ `ChromHeatMap`
-- ⏳ `CoverageView`
 - ⏳ `DESpace`
-- ⏳ `DMCFB`
-- ⏳ `DMCHMM`
 - ⏳ `DropletUtils`
-- ⏳ `EasyCellType`
-- ⏳ `ExCluster`
 - ⏳ `GDCRNATools`
 - ⏳ `GSEABase`
 - ⏳ `GenomicFeatures`
 - ⏳ `Glimma`
-- ⏳ `HiTC`
-- ⏳ `HicAggR`
-- ⏳ `IdeoViz`
-- ⏳ `InTAD`
-- ⏳ `MAST`
 - ⏳ `MIRit`
 - ⏳ `MotifDb`
-- ⏳ `MuData`
 - ⏳ `PAST`
 - ⏳ `PICS`
-- ⏳ `PSMatch`
 - ⏳ `ReactomePA`
 - ⏳ `SBGNview`
 - ⏳ `SCANVIS`
@@ -133,18 +119,33 @@
 - ⏳ `ballgown`
 - ⏳ `batchelor`
 - ⏳ `bedbaser`
-- ⏳ `ccImpute`
 - ⏳ `chipenrich`
 - ⏳ `clusterExperiment`
 - ⏳ `consensusSeekeR`
-- ⏳ `coseq`
 - ⏳ `dce`
 - ⏳ `debrowser`
-- ⏳ `destiny`
-- ⏳ `dittoSeq`
 - ⏳ `easylift`
+- ⏳ `epidecodeR`
+- ⏳ `extraChIPs`
+- ⏳ `gDR`
+- ⏳ `geneXtendeR`
+- ⏳ `groHMM`
+- ⏳ `hicVennDiagram`
+- ⏳ `imcRtools`
+- ⏳ `metagene2`
+- ⏳ `methylKit`
+- ⏳ `mist`
+- ⏳ `mobileRNA`
+- ⏳ `multiGSEA`
+- ⏳ `normr`
+- ⏳ `plyranges`
+- ⏳ `r3Cseq`
+- ⏳ `recount3`
+- ⏳ `rifiComparative`
+- ⏳ `rmspc`
+- ⏳ `roar`
 
-... and 40 more ...
+... and 12 more ...
 
 ## Not Yet Started (568)
 - ⏸️ `AGDEX`
@@ -201,5 +202,5 @@
 ... and 518 more ...
 
 ---
-*Last updated: 2025-10-31 06:46:50 UTC*
-*Packages with verified BBS status: 141*
+*Last updated: 2025-10-31 06:57:48 UTC*
+*Packages with verified BBS status: 143*

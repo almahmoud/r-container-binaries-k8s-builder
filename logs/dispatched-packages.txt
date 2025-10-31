@@ -1740,3 +1740,16 @@ velociraptor
 wiggleplotr
 coseq
 gDR
+CRISPRball
+MSnbase
+POWSC
+RFLOMICS
+SPIAT
+benchdamic
+celaref
+dandelionR
+iSEEde
+iSEEhex
+iSEEhub
+iSEEindex
+iSEEpathways
