@@ -75,11 +75,6 @@ jobs:
           touch logs/successful-packages.txt
           touch logs/failed-packages.txt
           
-          # Uncomment the schedule in run.yaml for this build branch
-          sed -i.bak 's/^  # schedule:/  schedule:/' .github/workflows/run.yaml
-          sed -i.bak 's/^  #   - cron:/    - cron:/' .github/workflows/run.yaml
-          rm -f .github/workflows/run.yaml.bak
-          
           # Commit initial branch state
           git add .
           git commit -m "Initialize build cycle branch: ${BRANCH_NAME} | Container: ${CONTAINER_IMAGE} | Started: ${BRANCH_DATE} EST"
@@ -89,13 +84,23 @@ jobs:
           
           echo "Successfully created build branch: ${BRANCH_NAME}"
 
-      - name: Trigger build workflow
+      - name: Trigger initial build workflow
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
         run: |
-          echo "Build cycle started on branch: ${{ steps.create_branch.outputs.branch_name }}"
-          echo "The build workflow will start automatically on this branch."
+          BRANCH_NAME="${{ steps.create_branch.outputs.branch_name }}"
+          
+          echo "Build cycle started on branch: ${BRANCH_NAME}"
+          echo "Triggering initial build workflow..."
+          
+          # Trigger the build workflow on the new branch
+          gh workflow run run.yaml --ref "${BRANCH_NAME}"
+          
+          echo ""
+          echo "Initial build dispatched. The scheduled dispatcher on main will continue builds every 5 minutes."
           echo ""
           echo "To monitor progress:"
-          echo "  git checkout ${{ steps.create_branch.outputs.branch_name }}"
+          echo "  git checkout ${BRANCH_NAME}"
           echo ""
           echo "To finish the cycle:"
           echo "  Run the 'Finish Build Cycle' workflow on the build branch"

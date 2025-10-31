@@ -1,0 +1,116 @@
+name: Dispatch Builds to Active Branches
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch:
+
+concurrency:
+  group: dispatch-builds
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0  # Fetch all branches
+          ref: main
+
+      - name: Find and dispatch to incomplete build branches
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+        run: |
+          set -euxo pipefail
+          
+          # Configure git
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # Ensure we're on main and up to date
+          git checkout main
+          git pull origin main || true
+          
+          # Create completed branches tracking file if it doesn't exist
+          COMPLETED_FILE=".completed-build-branches"
+          touch "${COMPLETED_FILE}"
+          
+          # Get all build/* branches
+          git fetch --all
+          ALL_BRANCHES_FILE=".all-build-branches"
+          git branch -r | grep 'origin/build/' | sed 's|origin/||' | sed 's|^[[:space:]]*||' | xargs -n1 > "${ALL_BRANCHES_FILE}" || touch "${ALL_BRANCHES_FILE}"
+          
+          if [[ ! -s "${ALL_BRANCHES_FILE}" ]]; then
+            echo "No build branches found"
+            exit 0
+          fi
+          
+          echo "=== All build branches ==="
+          cat "${ALL_BRANCHES_FILE}"
+          echo ""
+          
+          echo "=== Completed branches ==="
+          cat "${COMPLETED_FILE}"
+          echo ""
+          
+          # Create list of incomplete branches (all branches minus completed branches)
+          INCOMPLETE_FILE=".incomplete-build-branches"
+          if [[ -s "${COMPLETED_FILE}" ]]; then
+            # Use grep to exclude completed branches from all branches
+            grep -v -F -f "${COMPLETED_FILE}" "${ALL_BRANCHES_FILE}" > "${INCOMPLETE_FILE}" || touch "${INCOMPLETE_FILE}"
+          else
+            # No completed branches yet, all are incomplete
+            cp "${ALL_BRANCHES_FILE}" "${INCOMPLETE_FILE}"
+          fi
+          
+          echo "=== Incomplete branches to check ==="
+          cat "${INCOMPLETE_FILE}"
+          echo ""
+          
+          if [[ ! -s "${INCOMPLETE_FILE}" ]]; then
+            echo "No incomplete branches to process"
+            exit 0
+          fi
+          
+          # Track if we found any new completed branches
+          FOUND_NEW_COMPLETED=false
+          
+          # Check each incomplete branch for completion
+          while IFS= read -r BRANCH; do
+            BRANCH=$(echo "${BRANCH}" | xargs)  # Trim whitespace
+            
+            if [[ -z "${BRANCH}" ]]; then
+              continue
+            fi
+            
+            echo "Checking branch: ${BRANCH}"
+            
+            # Check if cycle is complete by looking for PACKAGES file at root (exact match only)
+            if git ls-tree -r "origin/${BRANCH}" --name-only | grep -q '^PACKAGES$'; then
+              echo "  → Cycle FINISHED (PACKAGES file exists) - marking as complete"
+              echo "${BRANCH}" >> "${COMPLETED_FILE}"
+              FOUND_NEW_COMPLETED=true
+            else
+              echo "  → Cycle incomplete (no PACKAGES file) - dispatching workflow"
+              
+              # Trigger the build workflow on this branch
+              gh workflow run run.yaml --ref "${BRANCH}" || true
+              
+              # Small delay between dispatches to avoid overwhelming the system
+              sleep 2
+            fi
+          done < "${INCOMPLETE_FILE}"
+          
+          # Commit updated completed branches file if we found new ones
+          if [[ "${FOUND_NEW_COMPLETED}" == "true" ]]; then
+            git add "${COMPLETED_FILE}"
+            git commit -m "Update completed build branches list"
+            git push origin main || true
+            echo "Updated completed branches list"
+          fi
+          
+          echo ""
+          echo "Dispatch complete"

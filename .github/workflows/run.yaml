@@ -2,10 +2,6 @@ name: Build R Packages
 
 on:
   workflow_dispatch:
-  # Schedule is disabled on main branch - only runs on build/* branches
-  # Uncomment the schedule trigger below on build branches to enable automatic builds
-  # schedule:
-  #   - cron: '*/5 * * * *'
   push:
     branches:
       - 'build/**'
