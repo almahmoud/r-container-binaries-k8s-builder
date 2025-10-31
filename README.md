@@ -8,8 +8,8 @@
 - **Total Packages:** 2310
 - **Successfully Built:** 2177 (94%)
 - **Failed:** 21 (0%)
-- **In Progress:** 54
-- **Not Started:** 58
+- **In Progress:** 59
+- **Not Started:** 53
 
 **Progress:** 95%
 ```
@@ -102,12 +102,13 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (54)
+## In Progress (59)
 - ⏳ `ASpli`
 - ⏳ `AllelicImbalance`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DuplexDiscovereR`
 - ⏳ `ELMER`
+- ⏳ `GNOSIS`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
 - ⏳ `GeneStructureTools`
@@ -122,8 +123,11 @@
 - ⏳ `TVTB`
 - ⏳ `VariantFiltering`
 - ⏳ `appreci8R`
+- ⏳ `bioCancer`
 - ⏳ `biomvRCNS`
 - ⏳ `biscuiteer`
+- ⏳ `canceR`
+- ⏳ `cbaf`
 - ⏳ `chevreulPlot`
 - ⏳ `chimeraviz`
 - ⏳ `cicero`
@@ -145,18 +149,14 @@
 - ⏳ `maser`
 - ⏳ `methylPipe`
 - ⏳ `methylclock`
+- ⏳ `miaDash`
 - ⏳ `missMethyl`
 - ⏳ `motifbreakR`
 - ⏳ `pcaExplorer`
-- ⏳ `primirTSS`
-- ⏳ `regutools`
-- ⏳ `shinyDSP`
-- ⏳ `singleCellTK`
-- ⏳ `srnadiff`
 
-... and 4 more ...
+... and 9 more ...
 
-## Not Yet Started (58)
+## Not Yet Started (53)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
@@ -169,7 +169,6 @@
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `FLAMES`
-- ⏸️ `GNOSIS`
 - ⏸️ `GeDi`
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
@@ -190,10 +189,7 @@
 - ⏸️ `affycoretools`
 - ⏸️ `arrayMvout`
 - ⏸️ `bigmelon`
-- ⏸️ `bioCancer`
 - ⏸️ `cageminer`
-- ⏸️ `canceR`
-- ⏸️ `cbaf`
 - ⏸️ `chevreulShiny`
 - ⏸️ `compEpiTools`
 - ⏸️ `crisprShiny`
@@ -206,10 +202,14 @@
 - ⏸️ `iSEEfier`
 - ⏸️ `intansv`
 - ⏸️ `methylGSA`
-- ⏸️ `miaDash`
+- ⏸️ `msgbsR`
+- ⏸️ `multicrispr`
+- ⏸️ `saseR`
+- ⏸️ `scTreeViz`
+- ⏸️ `scruff`
 
-... and 8 more ...
+... and 3 more ...
 
 ---
-*Last updated: 2025-10-31 10:59:21 UTC*
+*Last updated: 2025-10-31 11:00:13 UTC*
 *Packages with verified BBS status: 165*
