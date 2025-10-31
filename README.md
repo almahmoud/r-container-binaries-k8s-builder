@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1364 (59%)
+- **Successfully Built:** 1368 (59%)
 - **Failed:** 9 (0%)
-- **In Progress:** 183
+- **In Progress:** 179
 - **Not Started:** 754
 
 **Progress:** 59%
@@ -16,7 +16,7 @@
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1364)
+## Successfully Built Packages (1368)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AnVIL](https://bioconductor.org/packages/3.21/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.21/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILAz) |
 
-*... and 1314 more ...*
+*... and 1318 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [twilight](https://bioconductor.org/packages/3.21/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twilight) |
-| [twoddpcr](https://bioconductor.org/packages/3.21/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.21/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
@@ -62,6 +60,7 @@
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.21/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.21/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/viper) |
+| [vsclust](https://bioconductor.org/packages/3.21/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.21/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.21/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/waddR) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
@@ -73,6 +72,7 @@
 | [xmapbridge](https://bioconductor.org/packages/3.21/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.21/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.21/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zFPKM) |
+| [zellkonverter](https://bioconductor.org/packages/3.21/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.21/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zitools) |
 | [zlibbioc](https://bioconductor.org/packages/3.21/bioc/html/zlibbioc.html) | [log](logs/zlibbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/zlibbioc) |
 
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (183)
+## In Progress (179)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -142,7 +142,7 @@
 - ⏳ `MsDataHub`
 - ⏳ `MsExperiment`
 
-... and 133 more ...
+... and 129 more ...
 
 ## Not Yet Started (754)
 - ⏸️ `ADaCGH2`
@@ -199,5 +199,5 @@
 ... and 704 more ...
 
 ---
-*Last updated: 2025-10-31 05:21:17 UTC*
-*Packages with verified BBS status: 128*
+*Last updated: 2025-10-31 05:22:32 UTC*
+*Packages with verified BBS status: 130*

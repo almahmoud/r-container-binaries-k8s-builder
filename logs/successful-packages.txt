@@ -1362,3 +1362,7 @@ DEsubs
 scDDboost
 scMET
 SCnorm
+scp
+SiPSiC
+vsclust
+zellkonverter

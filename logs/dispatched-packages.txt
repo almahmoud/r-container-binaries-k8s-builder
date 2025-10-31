@@ -1554,3 +1554,4 @@ TOP
 sampleClassifier
 broadSeq
 isomiRs
+BgeeDB

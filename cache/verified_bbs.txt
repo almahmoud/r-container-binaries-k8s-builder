@@ -113,6 +113,7 @@ vbmp
 veloviz
 vidger
 viper
+vsclust
 vsn
 waddR
 weaver
@@ -124,5 +125,6 @@ wppi
 xmapbridge
 yamss
 zFPKM
+zellkonverter
 zitools
 zlibbioc

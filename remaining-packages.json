@@ -177,9 +177,7 @@
     "rtracklayer",
     "txdbmaker"
   ],
-  "BgeeDB": [
-    "zellkonverter"
-  ],
+  "BgeeDB": [],
   "BiGGR": [],
   "BiSeq": [
     "rtracklayer"
@@ -1461,7 +1459,6 @@
     "BgeeDB",
     "GenomicFeatures",
     "ensembldb",
-    "zellkonverter",
     "rtracklayer"
   ],
   "RJMCMCNucleosomes": [
@@ -1731,7 +1728,6 @@
   "SemDist": [],
   "SeqGSEA": [],
   "ShortRead": [],
-  "SiPSiC": [],
   "SigCheck": [
     "MLInterfaces"
   ],
@@ -3974,7 +3970,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "scp": [],
   "scran": [
     "scuttle"
   ],
@@ -4094,7 +4089,6 @@
     "TSCAN",
     "TrajectoryUtils",
     "scuttle",
-    "zellkonverter",
     "alabaster.se",
     "GenomicFeatures",
     "rtracklayer",
@@ -4366,7 +4360,6 @@
     "VariantAnnotation"
   ],
   "velociraptor": [
-    "zellkonverter",
     "scuttle"
   ],
   "visiumStitched": [
@@ -4384,7 +4377,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "vsclust": [],
   "vtpnet": [
     "gwascat",
     "GenomicFeatures",
@@ -4440,7 +4432,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "zellkonverter": [],
   "zenith": [
     "EnrichmentBrowser",
     "GSEABase",
