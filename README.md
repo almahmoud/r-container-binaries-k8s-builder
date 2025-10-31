@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 1502 (65%)
+- **Successfully Built:** 1504 (65%)
 - **Failed:** 9 (0%)
-- **In Progress:** 156
+- **In Progress:** 154
 - **Not Started:** 643
 
 **Progress:** 65%
@@ -16,7 +16,7 @@
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1502)
+## Successfully Built Packages (1504)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.21/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.21/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1452 more ...*
+*... and 1454 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (156)
+## In Progress (154)
 - ⏳ `ADaCGH2`
 - ⏳ `APL`
 - ⏳ `ASSIGN`
@@ -109,7 +109,6 @@
 - ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichDO`
-- ⏳ `ExperimentSubset`
 - ⏳ `GEOexplorer`
 - ⏳ `GSEABase`
 - ⏳ `Glimma`
@@ -141,8 +140,9 @@
 - ⏳ `PICS`
 - ⏳ `POMA`
 - ⏳ `PROPS`
+- ⏳ `PSMatch`
 
-... and 106 more ...
+... and 104 more ...
 
 ## Not Yet Started (643)
 - ⏸️ `AGDEX`
@@ -199,5 +199,5 @@
 ... and 593 more ...
 
 ---
-*Last updated: 2025-10-31 06:00:57 UTC*
+*Last updated: 2025-10-31 06:01:56 UTC*
 *Packages with verified BBS status: 134*

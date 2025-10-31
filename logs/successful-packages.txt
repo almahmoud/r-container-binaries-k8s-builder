@@ -1500,3 +1500,5 @@ sva
 tilingArray
 mimager
 nnSVG
+ExperimentSubset
+smoothclust

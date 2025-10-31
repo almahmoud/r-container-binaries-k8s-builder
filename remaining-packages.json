@@ -611,7 +611,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "ExperimentSubset": [],
   "FLAMES": [
     "bambu",
     "DropletUtils",
@@ -3655,7 +3654,6 @@
   "slalom": [
     "GSEABase"
   ],
-  "smoothclust": [],
   "smoppix": [],
   "soGGi": [
     "rtracklayer"
