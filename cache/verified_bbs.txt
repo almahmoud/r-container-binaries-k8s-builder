@@ -5,8 +5,10 @@ ASEB
 ASGSCA
 ASSET
 AWAggregator
+AnVILAz
 AnVILBase
 AnVILBilling
+BADER
 BG2
 BaseSpaceR
 BeadDataPackR
@@ -18,6 +20,7 @@ BiocStyle
 BiocVersion
 BridgeDbR
 BufferedMatrix
+BufferedMatrixMethods
 CARNIVAL
 CFAssay
 CGEN
@@ -33,8 +36,10 @@ seahtrue
 seq.hotSPOT
 seqLogo
 shinybiocloader
+sights
 sizepower
 snm
+sparseMatrixStats
 sparsenetgls
 specL
 spikeLI
@@ -43,7 +48,13 @@ ssrch
 survcomp
 swfdr
 switchBox
+synergyfinder
+synlet
+tidysbml
 timescape
+tkWidgets
+treeio
+ttgsea
 vbmp
 veloviz
 weaver

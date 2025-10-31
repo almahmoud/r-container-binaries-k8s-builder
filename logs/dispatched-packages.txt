@@ -387,3 +387,5 @@ sparseMatrixStats
 synlet
 tkWidgets
 tomoseqr
+DeepPINCS
+ggtree
