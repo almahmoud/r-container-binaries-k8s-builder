@@ -424,3 +424,10 @@ KinSwingR
 maftools
 MethylMix
 pathwayPCA
+basilisk.utils
+biocmake
+Linnorm
+MSstats
+NPARC
+PANR
+PROcess

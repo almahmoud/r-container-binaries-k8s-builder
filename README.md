@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 426 (18%)
+- **Successfully Built:** 433 (19%)
 - **Failed:** 1 (0%)
-- **In Progress:** 45
-- **Not Started:** 1772
+- **In Progress:** 39
+- **Not Started:** 1771
 
 **Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (426)
+## Successfully Built Packages (433)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiRewire](https://bioconductor.org/packages/3.22/bioc/html/BiRewire.html) | [log](logs/BiRewire/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BiRewire) |
 | [BioCartaImage](https://bioconductor.org/packages/3.22/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/BioCartaImage) |
 
-*... and 376 more ...*
+*... and 383 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,10 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (45)
+## In Progress (39)
 - ⏳ `AlpsNMR`
 - ⏳ `BEclear`
 - ⏳ `BiocGenerics`
+- ⏳ `CIMICE`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `DEqMS`
@@ -93,25 +94,18 @@
 - ⏳ `GenProSeq`
 - ⏳ `Harman`
 - ⏳ `HubPub`
-- ⏳ `Linnorm`
-- ⏳ `MSstats`
 - ⏳ `MSstatsResponse`
-- ⏳ `NPARC`
 - ⏳ `OLINgui`
 - ⏳ `OPWeight`
 - ⏳ `OSTA.data`
 - ⏳ `Oscope`
-- ⏳ `PANR`
 - ⏳ `PCAN`
-- ⏳ `PROcess`
 - ⏳ `Polytect`
 - ⏳ `SUITOR`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
 - ⏳ `Wrench`
 - ⏳ `anndataR`
-- ⏳ `basilisk.utils`
-- ⏳ `biocmake`
 - ⏳ `ctsGE`
 - ⏳ `cytolib`
 - ⏳ `decoupleR`
@@ -129,7 +123,7 @@
 - ⏳ `scLANE`
 - ⏳ `tximport`
 
-## Not Yet Started (1772)
+## Not Yet Started (1771)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -181,8 +175,8 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 
-... and 1722 more ...
+... and 1721 more ...
 
 ---
-*Last updated: 2025-10-31 22:21:57 UTC*
+*Last updated: 2025-10-31 22:22:26 UTC*
 *Packages with verified BBS status: 84*

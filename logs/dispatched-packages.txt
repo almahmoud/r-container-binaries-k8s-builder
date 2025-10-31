@@ -471,3 +471,6 @@ rawDiag
 stepNorm
 OLINgui
 CIMICE
+MSstatsBig
+MSstatsTMT
+Rigraphlib

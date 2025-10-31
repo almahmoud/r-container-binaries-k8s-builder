@@ -7125,7 +7125,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "Linnorm": [],
   "LipidTrend": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -7926,18 +7925,13 @@
     "SparseArray",
     "XVector"
   ],
-  "MSstats": [],
-  "MSstatsBig": [
-    "MSstats"
-  ],
+  "MSstatsBig": [],
   "MSstatsBioNet": [
-    "MSstats",
     "RCy3",
     "BiocGenerics",
     "graph"
   ],
   "MSstatsLiP": [
-    "MSstats",
     "Biostrings",
     "MSstatsPTM",
     "BiocGenerics",
@@ -7949,7 +7943,6 @@
   ],
   "MSstatsPTM": [
     "MSstatsTMT",
-    "MSstats",
     "Biostrings",
     "BiocGenerics",
     "S4Vectors",
@@ -8012,7 +8005,6 @@
   ],
   "MSstatsResponse": [],
   "MSstatsShiny": [
-    "MSstats",
     "MSstatsTMT",
     "MSstatsPTM",
     "MSstatsBioNet",
@@ -8025,9 +8017,7 @@
     "Seqinfo",
     "graph"
   ],
-  "MSstatsTMT": [
-    "MSstats"
-  ],
+  "MSstatsTMT": [],
   "MWASTools": [
     "SummarizedExperiment",
     "KEGGgraph",
@@ -9001,7 +8991,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "NPARC": [],
   "NanoMethViz": [
     "S4Vectors",
     "SummarizedExperiment",
@@ -9480,7 +9469,6 @@
     "SparseArray",
     "XVector"
   ],
-  "PANR": [],
   "PAST": [
     "rtracklayer",
     "GenomicRanges",
@@ -9753,7 +9741,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "PROcess": [],
   "PSMatch": [
     "S4Vectors",
     "Spectra",
@@ -11380,9 +11367,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "Rigraphlib": [
-    "biocmake"
-  ],
+  "Rigraphlib": [],
   "Rmagpie": [
     "Biobase",
     "BiocGenerics"
@@ -15053,7 +15038,6 @@
   ],
   "artMS": [
     "AnnotationDbi",
-    "MSstats",
     "BiocGenerics",
     "Biobase",
     "IRanges",
@@ -15285,7 +15269,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "basilisk.utils": [],
   "batchCorr": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -15557,7 +15540,6 @@
     "RBGL",
     "BiocGenerics"
   ],
-  "biocmake": [],
   "biomaRt": [
     "AnnotationDbi",
     "BiocGenerics",
@@ -15786,7 +15768,6 @@
     "vsn",
     "BiocGenerics",
     "RBGL",
-    "Linnorm",
     "genefilter",
     "edgeR",
     "AnnotationDbi",
@@ -18583,7 +18564,6 @@
     "mnem",
     "BiocGenerics",
     "Rgraphviz",
-    "Linnorm",
     "RBGL"
   ],
   "epialleleR": [
@@ -18719,7 +18699,6 @@
     "XVector",
     "BiocIO",
     "rtracklayer",
-    "biocmake",
     "pwalign",
     "DirichletMultinomial",
     "GenomicAlignments",
@@ -22831,7 +22810,6 @@
   "mnem": [
     "graph",
     "Rgraphviz",
-    "Linnorm",
     "BiocGenerics"
   ],
   "moanin": [
@@ -23608,7 +23586,6 @@
     "epiNEM",
     "graph",
     "Rgraphviz",
-    "Linnorm",
     "BiocGenerics",
     "RBGL"
   ],
@@ -27081,7 +27058,6 @@
     "DECIPHER",
     "sangerseqR",
     "flowCore",
-    "basilisk.utils",
     "pwalign",
     "BiocGenerics",
     "S4Vectors",
@@ -27251,7 +27227,6 @@
     "S4Vectors",
     "IRanges",
     "S4Arrays",
-    "biocmake",
     "XVector"
   ],
   "screenCounter": [
