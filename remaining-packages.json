@@ -733,19 +733,12 @@
     "diffcyt"
   ],
   "CytoMDS": [
-    "CytoPipeline",
-    "ggcyto"
+    "CytoPipeline"
   ],
-  "CytoML": [
-    "openCyto",
-    "ggcyto"
-  ],
-  "CytoPipeline": [
-    "ggcyto"
-  ],
+  "CytoML": [],
+  "CytoPipeline": [],
   "CytoPipelineGUI": [
-    "CytoPipeline",
-    "ggcyto"
+    "CytoPipeline"
   ],
   "DAMEfinder": [
     "GenomicAlignments",
@@ -976,7 +969,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "EDIRquery": [],
   "EGAD": [],
   "EGSEA": [
     "gage",
@@ -1803,7 +1795,6 @@
   ],
   "MatrixQCvis": [
     "ExperimentHub",
-    "proDA",
     "sva",
     "AnnotationHub",
     "genefilter",
@@ -1829,7 +1820,6 @@
     "AnnotationHub",
     "MultiAssayExperiment"
   ],
-  "MetaboDynamics": [],
   "MetaboSignal": [
     "hpar",
     "biomaRt",
@@ -4475,13 +4465,8 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "flowGate": [
-    "ggcyto"
-  ],
-  "flowStats": [],
-  "flowVS": [
-    "flowStats"
-  ],
+  "flowGate": [],
+  "flowVS": [],
   "frma": [
     "oligo",
     "oligoClasses"
@@ -4539,7 +4524,6 @@
     "GenomicAlignments"
   ],
   "gage": [],
-  "gatom": [],
   "gcapc": [
     "BSgenome",
     "GenomicAlignments",
@@ -4605,7 +4589,6 @@
     "txdbmaker",
     "biomaRt"
   ],
-  "ggcyto": [],
   "ggsc": [
     "SingleCellExperiment"
   ],
@@ -5553,7 +5536,6 @@
   "ontoProc": [
     "AnnotationHub"
   ],
-  "openCyto": [],
   "oposSOM": [
     "biomaRt"
   ],
@@ -5764,7 +5746,6 @@
     "GenomicAlignments",
     "biomaRt"
   ],
-  "proDA": [],
   "profileplyr": [
     "soGGi",
     "ChIPseeker",

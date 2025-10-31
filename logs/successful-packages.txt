@@ -1104,3 +1104,10 @@ Macarron
 NormalyzerDE
 OVESEG
 StabMap
+EDIRquery
+flowStats
+gatom
+ggcyto
+MetaboDynamics
+openCyto
+proDA
