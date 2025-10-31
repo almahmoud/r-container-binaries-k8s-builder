@@ -78,6 +78,7 @@ topconfects
 treeio
 tripr
 ttgsea
+tximport
 vbmp
 veloviz
 weaver

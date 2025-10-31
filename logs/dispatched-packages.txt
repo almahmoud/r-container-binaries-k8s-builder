@@ -477,3 +477,4 @@ Rigraphlib
 GSCA
 biomformat
 scMitoMut
+alevinQC

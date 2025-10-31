@@ -446,3 +446,6 @@ CIMICE
 ctsGE
 MSstatsBig
 MSstatsTMT
+rawDiag
+tximport
+Wrench
