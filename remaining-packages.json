@@ -1,16 +1,12 @@
 {
   "AHMassBank": [],
-  "ASpli": [
-    "Gviz"
-  ],
+  "ASpli": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
     "ggbio"
   ],
-  "AllelicImbalance": [
-    "Gviz"
-  ],
+  "AllelicImbalance": [],
   "AneuFinder": [],
   "BOBaFIT": [
     "ggbio"
@@ -20,12 +16,10 @@
     "ggbio"
   ],
   "CAGEfightR": [
-    "Gviz",
     "GenomicInteractions"
   ],
   "CAGEr": [
     "CAGEfightR",
-    "Gviz",
     "GenomicInteractions"
   ],
   "CNEr": [],
@@ -41,7 +35,6 @@
     "DMRcate",
     "wateRmelon",
     "missMethyl",
-    "Gviz",
     "lumi"
   ],
   "ChIPQC": [],
@@ -50,18 +43,13 @@
     "karyoploteR"
   ],
   "DMRcate": [
-    "missMethyl",
-    "Gviz"
+    "missMethyl"
   ],
   "Damsel": [
     "ggbio"
   ],
-  "DuplexDiscovereR": [
-    "Gviz"
-  ],
-  "ELMER": [
-    "Gviz"
-  ],
+  "DuplexDiscovereR": [],
+  "ELMER": [],
   "ExperimentHubData": [],
   "FLAMES": [
     "ggbio"
@@ -74,27 +62,20 @@
   "GeDi": [
     "GeneTonic"
   ],
-  "GeneStructureTools": [
-    "Gviz"
-  ],
+  "GeneStructureTools": [],
   "GeneTonic": [],
-  "GenomicInteractions": [
-    "Gviz"
-  ],
+  "GenomicInteractions": [],
   "GenomicOZone": [
     "ggbio"
   ],
-  "Gviz": [],
   "Harshlight": [],
   "HiCDCPlus": [
-    "GenomicInteractions",
-    "Gviz"
+    "GenomicInteractions"
   ],
   "MAGAR": [
     "RnBeads"
   ],
   "MEAL": [
-    "Gviz",
     "missMethyl"
   ],
   "MEAT": [
@@ -105,39 +86,28 @@
     "lumi"
   ],
   "NADfinder": [
-    "trackViewer",
-    "Gviz"
+    "trackViewer"
   ],
-  "OGRE": [
-    "Gviz"
-  ],
+  "OGRE": [],
   "PICS": [],
   "PING": [
-    "PICS",
-    "Gviz"
+    "PICS"
   ],
   "PhenStat": [],
-  "Pviz": [
-    "Gviz"
-  ],
+  "Pviz": [],
   "R3CPET": [
     "ggbio"
   ],
   "RITAN": [],
-  "RNAmodR": [
-    "Gviz"
-  ],
+  "RNAmodR": [],
   "RNAmodR.AlkAnilineSeq": [
-    "RNAmodR",
-    "Gviz"
+    "RNAmodR"
   ],
   "RNAmodR.ML": [
-    "RNAmodR",
-    "Gviz"
+    "RNAmodR"
   ],
   "RNAmodR.RiboMethSeq": [
-    "RNAmodR",
-    "Gviz"
+    "RNAmodR"
   ],
   "RbowtieCuda": [],
   "Repitools": [],
@@ -148,20 +118,13 @@
     "ggbio"
   ],
   "RnBeads": [],
-  "Rqc": [],
-  "SPLINTER": [
-    "Gviz"
-  ],
+  "SPLINTER": [],
   "SomaticSignatures": [
     "ggbio"
   ],
-  "TVTB": [
-    "Gviz"
-  ],
+  "TVTB": [],
   "Ularcirc": [],
-  "VariantFiltering": [
-    "Gviz"
-  ],
+  "VariantFiltering": [],
   "XNAString": [],
   "YAPSA": [
     "SomaticSignatures",
@@ -183,9 +146,7 @@
   "bioCancer": [
     "cBioPortalData"
   ],
-  "biomvRCNS": [
-    "Gviz"
-  ],
+  "biomvRCNS": [],
   "biscuiteer": [],
   "cBioPortalData": [],
   "cageminer": [
@@ -201,43 +162,28 @@
   "chevreulShiny": [
     "chevreulPlot"
   ],
-  "chimeraviz": [
-    "Gviz"
-  ],
-  "cicero": [
-    "Gviz"
-  ],
+  "chimeraviz": [],
+  "cicero": [],
   "cisPath": [],
-  "comapr": [
-    "Gviz"
-  ],
+  "comapr": [],
   "compEpiTools": [
-    "methylPipe",
-    "Gviz"
+    "methylPipe"
   ],
   "crisprShiny": [
-    "crisprViz",
-    "Gviz"
+    "crisprViz"
   ],
   "crisprVerse": [
-    "crisprViz",
-    "Gviz"
+    "crisprViz"
   ],
-  "crisprViz": [
-    "Gviz"
-  ],
-  "cummeRbund": [
-    "Gviz"
-  ],
+  "crisprViz": [],
+  "cummeRbund": [],
   "cytofQC": [],
   "debCAM": [],
   "decontX": [],
   "derfinderPlot": [
     "ggbio"
   ],
-  "epimutacions": [
-    "Gviz"
-  ],
+  "epimutacions": [],
   "epivizr": [],
   "epivizrChart": [],
   "epivizrStandalone": [
@@ -248,8 +194,7 @@
   ],
   "genoCN": [],
   "geomeTriD": [
-    "trackViewer",
-    "Gviz"
+    "trackViewer"
   ],
   "ggbio": [],
   "gpuMagic": [],
@@ -269,18 +214,12 @@
   ],
   "karyoploteR": [],
   "lumi": [],
-  "mCSEA": [
-    "Gviz"
-  ],
-  "maser": [
-    "Gviz"
-  ],
+  "mCSEA": [],
+  "maser": [],
   "methylGSA": [
     "missMethyl"
   ],
-  "methylPipe": [
-    "Gviz"
-  ],
+  "methylPipe": [],
   "methylclock": [
     "ExperimentHubData"
   ],
@@ -290,9 +229,7 @@
     "iSEEtree"
   ],
   "missMethyl": [],
-  "motifbreakR": [
-    "Gviz"
-  ],
+  "motifbreakR": [],
   "msgbsR": [
     "ggbio"
   ],
@@ -301,16 +238,11 @@
   ],
   "octad": [],
   "pcaExplorer": [],
-  "primirTSS": [
-    "Gviz"
-  ],
+  "primirTSS": [],
   "rGADEM": [],
-  "regutools": [
-    "Gviz"
-  ],
+  "regutools": [],
   "saseR": [
-    "ASpli",
-    "Gviz"
+    "ASpli"
   ],
   "scTreeViz": [
     "epivizr"
@@ -327,22 +259,13 @@
     "lumi"
   ],
   "spatzie": [
-    "GenomicInteractions",
-    "Gviz"
+    "GenomicInteractions"
   ],
-  "srnadiff": [
-    "Gviz"
-  ],
-  "tadar": [
-    "Gviz"
-  ],
-  "trackViewer": [
-    "Gviz"
-  ],
+  "srnadiff": [],
+  "tadar": [],
+  "trackViewer": [],
   "trigger": [],
-  "uncoverappLib": [
-    "Gviz"
-  ],
+  "uncoverappLib": [],
   "vulcan": [],
   "wateRmelon": [
     "lumi"

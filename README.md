@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 2167 (93%)
+- **Successfully Built:** 2169 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 34
+- **In Progress:** 32
 - **Not Started:** 88
 
 **Progress:** 94%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2167)
+## Successfully Built Packages (2169)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.21/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.21/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ASSIGN) |
 
-*... and 2117 more ...*
+*... and 2119 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,17 +102,15 @@
 | [signeR](https://bioconductor.org/packages/3.21/bioc/html/signeR.html) | [log](logs/signeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/signeR) | Build failed with unknown error |
 | [trigger](https://bioconductor.org/packages/3.21/bioc/html/trigger.html) | [log](logs/trigger/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/trigger) | Build failed with unknown error |
 
-## In Progress (34)
+## In Progress (32)
 - ⏳ `AHMassBank`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `ExperimentHubData`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
 - ⏳ `GeneTonic`
-- ⏳ `Gviz`
 - ⏳ `RITAN`
 - ⏳ `RnBeads`
-- ⏳ `Rqc`
 - ⏳ `Ularcirc`
 - ⏳ `appreci8R`
 - ⏳ `biscuiteer`
@@ -193,5 +191,5 @@
 ... and 38 more ...
 
 ---
-*Last updated: 2025-10-31 10:53:46 UTC*
+*Last updated: 2025-10-31 10:54:30 UTC*
 *Packages with verified BBS status: 163*
