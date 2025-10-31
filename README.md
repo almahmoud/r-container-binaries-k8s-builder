@@ -6,23 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 947 (40%)
+- **Successfully Built:** 956 (41%)
 - **Failed:** 7 (0%)
-- **In Progress:** 52
-- **Not Started:** 1304
+- **In Progress:** 44
+- **Not Started:** 1303
 
 **Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (947)
+## Successfully Built Packages (956)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.21/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.21/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.21/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ACME) |
+| [ADAPT](https://bioconductor.org/packages/3.21/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.21/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.21/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.21/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ANCOMBC) |
@@ -44,9 +45,8 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.21/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.21/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.21/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnVILWorkflow) |
-| [AnnotationFilter](https://bioconductor.org/packages/3.21/bioc/html/AnnotationFilter.html) | [log](logs/AnnotationFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/AnnotationFilter) |
 
-*... and 897 more ...*
+*... and 906 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,23 +88,18 @@
 | [gpuMagic](https://bioconductor.org/packages/3.21/bioc/html/gpuMagic.html) | [log](logs/gpuMagic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/gpuMagic) | Compilation failed:  ‘gpuMagic’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (52)
-- ⏳ `ADAPT`
+## In Progress (44)
 - ⏳ `AnnotationDbi`
 - ⏳ `BiocSingular`
 - ⏳ `CINdex`
 - ⏳ `GDSArray`
-- ⏳ `GeomxTools`
+- ⏳ `Harshlight`
 - ⏳ `QDNAseq`
-- ⏳ `RCM`
 - ⏳ `Rbowtie2`
 - ⏳ `SAIGEgds`
 - ⏳ `SIAMCAT`
-- ⏳ `SICtools`
 - ⏳ `SeqVarTools`
-- ⏳ `SimFFPE`
 - ⏳ `SummarizedExperiment`
-- ⏳ `TEQC`
 - ⏳ `alabaster.files`
 - ⏳ `beachmat.tiledb`
 - ⏳ `cellbaseR`
@@ -126,23 +121,20 @@
 - ⏳ `h5vc`
 - ⏳ `heatmaps`
 - ⏳ `memes`
-- ⏳ `microbiome`
-- ⏳ `microbiomeDASim`
 - ⏳ `motifTestR`
 - ⏳ `phantasusLite`
 - ⏳ `reconsi`
 - ⏳ `rfPred`
-- ⏳ `rigvf`
 - ⏳ `scPCA`
 - ⏳ `scifer`
 - ⏳ `scrapper`
 - ⏳ `seqPattern`
 - ⏳ `sketchR`
 - ⏳ `ssviz`
+- ⏳ `tRNA`
+- ⏳ `tracktables`
 
-... and 2 more ...
-
-## Not Yet Started (1304)
+## Not Yet Started (1303)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -194,8 +186,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1254 more ...
+... and 1253 more ...
 
 ---
-*Last updated: 2025-10-31 03:43:01 UTC*
-*Packages with verified BBS status: 112*
+*Last updated: 2025-10-31 03:43:59 UTC*
+*Packages with verified BBS status: 113*

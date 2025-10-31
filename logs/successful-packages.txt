@@ -945,3 +945,12 @@ adverSCarial
 altcdfenvs
 GeneGeneInteR
 RPA
+ADAPT
+GeomxTools
+microbiome
+microbiomeDASim
+RCM
+rigvf
+SICtools
+SimFFPE
+TEQC

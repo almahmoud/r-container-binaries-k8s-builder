@@ -11,7 +11,6 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "ADAPT": [],
   "ADImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -1918,13 +1917,10 @@
   "GenomicSuperSignature": [
     "SummarizedExperiment"
   ],
-  "GeoDiff": [
-    "GeomxTools"
-  ],
+  "GeoDiff": [],
   "GeoTcgaData": [
     "SummarizedExperiment"
   ],
-  "GeomxTools": [],
   "Glimma": [
     "DESeq2",
     "SummarizedExperiment"
@@ -3236,7 +3232,6 @@
     "biomaRt",
     "SummarizedExperiment"
   ],
-  "RCM": [],
   "RCSL": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3753,7 +3748,6 @@
     "rtracklayer"
   ],
   "SIAMCAT": [],
-  "SICtools": [],
   "SIM": [
     "globaltest",
     "AnnotationDbi",
@@ -3890,7 +3884,6 @@
   "SimBu": [
     "SummarizedExperiment"
   ],
-  "SimFFPE": [],
   "SingleCellAlleleExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3966,9 +3959,7 @@
   "SpatialCPie": [
     "SummarizedExperiment"
   ],
-  "SpatialDecon": [
-    "GeomxTools"
-  ],
+  "SpatialDecon": [],
   "SpatialExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3991,9 +3982,7 @@
     "scuttle",
     "h5mread"
   ],
-  "SpatialOmicsOverlay": [
-    "GeomxTools"
-  ],
+  "SpatialOmicsOverlay": [],
   "SpectralTAD": [
     "HiCcompare",
     "InteractionSet",
@@ -4157,7 +4146,6 @@
     "HDF5Array",
     "h5mread"
   ],
-  "TEQC": [],
   "TFBSTools": [
     "BSgenome",
     "rtracklayer",
@@ -4844,7 +4832,6 @@
     "ALDEx2",
     "SummarizedExperiment",
     "MAST",
-    "microbiome",
     "maaslin3",
     "SingleCellExperiment",
     "genefilter",
@@ -7355,8 +7342,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "microbiome": [],
-  "microbiomeDASim": [],
   "microbiomeExplorer": [
     "DESeq2",
     "SummarizedExperiment"
@@ -8379,7 +8364,6 @@
     "SummarizedExperiment",
     "GenomicAlignments"
   ],
-  "rigvf": [],
   "rmspc": [
     "rtracklayer",
     "GenomicAlignments",
