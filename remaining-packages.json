@@ -963,7 +963,6 @@
     "OrganismDbi",
     "txdbmaker"
   ],
-  "mariner": [],
   "maser": [
     "Gviz",
     "biovizBase"
