@@ -493,3 +493,9 @@ BiocBook
 BrowserViz
 EBImage
 interactiveDisplayBase
+Biobase
+BiocHail
+FamAgg
+SIMD
+snpStats
+unifiedWMWqPCR

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2310
-- **Successfully Built:** 495 (21%)
+- **Successfully Built:** 501 (21%)
 - **Failed:** 4 (0%)
-- **In Progress:** 28
-- **Not Started:** 1783
+- **In Progress:** 25
+- **Not Started:** 1780
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (495)
+## Successfully Built Packages (501)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.21/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.21/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/BeadDataPackR) |
 
-*... and 445 more ...*
+*... and 451 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [swfdr](https://bioconductor.org/packages/3.21/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.21/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.21/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synergyfinder) |
 | [synlet](https://bioconductor.org/packages/3.21/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/synlet) |
@@ -68,6 +67,7 @@
 | [ttgsea](https://bioconductor.org/packages/3.21/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.21/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tweeDEseq) |
 | [tximport](https://bioconductor.org/packages/3.21/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/tximport) |
+| [unifiedWMWqPCR](https://bioconductor.org/packages/3.21/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/unifiedWMWqPCR) |
 | [vbmp](https://bioconductor.org/packages/3.21/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.21/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.21/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.21/bioc-LATEST/weaver) |
@@ -85,23 +85,21 @@
 | [genoCN](https://bioconductor.org/packages/3.21/bioc/html/genoCN.html) | [log](logs/genoCN/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/genoCN) | Compilation failed:  ‘genoCN’ |
 | [hypeR](https://bioconductor.org/packages/3.21/bioc/html/hypeR.html) | [log](logs/hypeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.21/bioc-LATEST/hypeR) | Build failed with unknown error |
 
-## In Progress (28)
-- ⏳ `Biobase`
-- ⏳ `BiocHail`
+## In Progress (25)
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
 - ⏳ `EnMCB`
-- ⏳ `FamAgg`
+- ⏳ `FISHalyseR`
 - ⏳ `Harman`
 - ⏳ `IHW`
 - ⏳ `PROPER`
 - ⏳ `RGSEA`
 - ⏳ `Rvisdiff`
 - ⏳ `S4Vectors`
-- ⏳ `SIMD`
 - ⏳ `SharedObject`
 - ⏳ `compcodeR`
 - ⏳ `decoupleR`
+- ⏳ `flowcatchR`
 - ⏳ `fobitools`
 - ⏳ `gpuMagic`
 - ⏳ `graph`
@@ -112,10 +110,9 @@
 - ⏳ `philr`
 - ⏳ `ppcseq`
 - ⏳ `profileScoreDist`
-- ⏳ `snpStats`
-- ⏳ `unifiedWMWqPCR`
+- ⏳ `synapsis`
 
-## Not Yet Started (1783)
+## Not Yet Started (1780)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -167,8 +164,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1733 more ...
+... and 1730 more ...
 
 ---
-*Last updated: 2025-10-31 00:28:10 UTC*
-*Packages with verified BBS status: 88*
+*Last updated: 2025-10-31 00:28:35 UTC*
+*Packages with verified BBS status: 89*
