@@ -873,7 +873,6 @@
   ],
   "peco": [],
   "pipeComp": [],
-  "podkat": [],
   "preciseTAD": [
     "rCGH"
   ],
@@ -902,7 +901,6 @@
   "recoup": [
     "txdbmaker"
   ],
-  "regionReport": [],
   "regioneReloaded": [],
   "regutools": [
     "Gviz",
