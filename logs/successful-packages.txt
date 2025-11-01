@@ -1119,3 +1119,9 @@ TADCompare
 multiHiCcompare
 RTN
 scHiCcompare
+diffcyt
+GOfuncR
+ipdDb
+NetActivity
+rGenomeTracks
+rtracklayer
