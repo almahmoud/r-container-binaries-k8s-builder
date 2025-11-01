@@ -172,7 +172,6 @@
     "biovizBase"
   ],
   "Coralysis": [],
-  "CoreGx": [],
   "CuratedAtlasQueryR": [],
   "DAMEfinder": [
     "VariantAnnotation"
@@ -533,9 +532,7 @@
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
-  "PDATK": [
-    "CoreGx"
-  ],
+  "PDATK": [],
   "PLSDAbatch": [
     "TreeSummarizedExperiment"
   ],
@@ -550,9 +547,7 @@
   "PSMatch": [
     "QFeatures"
   ],
-  "PharmacoGx": [
-    "CoreGx"
-  ],
+  "PharmacoGx": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -643,9 +638,7 @@
     "TCGAutils"
   ],
   "RUCova": [],
-  "RadioGx": [
-    "CoreGx"
-  ],
+  "RadioGx": [],
   "RareVariantVis": [
     "VariantAnnotation"
   ],
@@ -811,9 +804,7 @@
     "VariantAnnotation",
     "biovizBase"
   ],
-  "ToxicoGx": [
-    "CoreGx"
-  ],
+  "ToxicoGx": [],
   "TrajectoryUtils": [],
   "TreeSummarizedExperiment": [],
   "UCell": [],
@@ -861,8 +852,7 @@
     "VisiumIO"
   ],
   "Xeva": [
-    "PharmacoGx",
-    "CoreGx"
+    "PharmacoGx"
   ],
   "YAPSA": [
     "SomaticSignatures",
@@ -1215,11 +1205,9 @@
   ],
   "gDR": [
     "gDRimport",
-    "CoreGx",
     "PharmacoGx"
   ],
   "gDRimport": [
-    "CoreGx",
     "PharmacoGx"
   ],
   "gcapc": [],
@@ -1659,7 +1647,6 @@
   ],
   "scDblFinder": [],
   "scDotPlot": [],
-  "scMerge": [],
   "scRNAseqApp": [
     "slingshot",
     "TrajectoryUtils"
@@ -1682,7 +1669,6 @@
     "VariantAnnotation",
     "OrganismDbi"
   ],
-  "scanMiRApp": [],
   "scider": [
     "SpatialExperiment"
   ],
@@ -1703,7 +1689,6 @@
     "VariantAnnotation",
     "OrganismDbi"
   ],
-  "scviR": [],
   "segmenter": [
     "ChIPseeker"
   ],
@@ -1732,7 +1717,6 @@
   "singleCellTK": [
     "GSVA",
     "MAST",
-    "scMerge",
     "celda",
     "scDblFinder",
     "TSCAN",

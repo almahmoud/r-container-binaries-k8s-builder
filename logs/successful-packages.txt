@@ -1649,3 +1649,7 @@ ASSIGN
 COTAN
 CSSQ
 muscat
+CoreGx
+scanMiRApp
+scMerge
+scviR

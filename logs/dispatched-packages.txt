@@ -1836,3 +1836,7 @@ quantro
 recountmethylation
 shinyMethyl
 shinyepico
+PDATK
+PharmacoGx
+RadioGx
+ToxicoGx
