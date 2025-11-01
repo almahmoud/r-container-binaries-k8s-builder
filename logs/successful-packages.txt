@@ -1116,3 +1116,6 @@ RNAsense
 ROCpAI
 SpectralTAD
 TADCompare
+multiHiCcompare
+RTN
+scHiCcompare

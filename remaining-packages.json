@@ -1107,9 +1107,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiCDOC": [
-    "multiHiCcompare"
-  ],
+  "HiCDOC": [],
   "HiCPotts": [
     "rtracklayer",
     "BSgenome"
@@ -1890,12 +1888,8 @@
     "MultiAssayExperiment",
     "rtracklayer"
   ],
-  "RTN": [],
-  "RTNduals": [
-    "RTN"
-  ],
+  "RTNduals": [],
   "RTNsurvival": [
-    "RTN",
     "RTNduals"
   ],
   "RUCova": [
@@ -4162,7 +4156,6 @@
   "multiGSEA": [
     "graphite"
   ],
-  "multiHiCcompare": [],
   "multiMiR": [],
   "multiWGCNA": [],
   "multicrispr": [
@@ -4717,7 +4710,6 @@
   "scHOT": [
     "SingleCellExperiment"
   ],
-  "scHiCcompare": [],
   "scMET": [
     "SingleCellExperiment"
   ],

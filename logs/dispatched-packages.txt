@@ -1322,3 +1322,5 @@ segmentSeq
 systemPipeR
 SBGNview
 multistateQTL
+HiCDOC
+RTNduals
