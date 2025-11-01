@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1843 (82%)
+- **Successfully Built:** 1849 (82%)
 - **Failed:** 2 (0%)
-- **In Progress:** 114
-- **Not Started:** 285
+- **In Progress:** 125
+- **Not Started:** 268
 
 **Progress:** 82%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1843)
+## Successfully Built Packages (1849)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1793 more ...*
+*... and 1799 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (114)
+## In Progress (125)
+- ⏳ `ASICS`
 - ⏳ `CexoR`
 - ⏳ `ChIPexoQual`
+- ⏳ `ChIPpeakAnno`
 - ⏳ `DOtools`
 - ⏳ `DspikeIn`
 - ⏳ `EasyCellType`
@@ -95,19 +97,17 @@
 - ⏳ `GenomicFiles`
 - ⏳ `Gviz`
 - ⏳ `HelloRanges`
-- ⏳ `LRcell`
 - ⏳ `LoomExperiment`
 - ⏳ `MACSr`
 - ⏳ `MAST`
 - ⏳ `MIRit`
-- ⏳ `MOMA`
 - ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MineICA`
 - ⏳ `MsDataHub`
 - ⏳ `MuData`
+- ⏳ `MultiBaC`
 - ⏳ `MungeSumstats`
-- ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
@@ -116,6 +116,7 @@
 - ⏳ `RCSL`
 - ⏳ `RESOLVE`
 - ⏳ `RUCova`
+- ⏳ `RgnTX`
 - ⏳ `Rmmquant`
 - ⏳ `RnBeads`
 - ⏳ `SC3`
@@ -133,13 +134,11 @@
 - ⏳ `SimBu`
 - ⏳ `SimFFPE`
 - ⏳ `SingleCellAlleleExperiment`
-- ⏳ `SmartPhos`
 
-... and 64 more ...
+... and 75 more ...
 
-## Not Yet Started (285)
+## Not Yet Started (268)
 - ⏸️ `AHMassBank`
-- ⏸️ `ASICS`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -160,7 +159,6 @@
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
@@ -188,9 +186,11 @@
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
+- ⏸️ `GenomicPlot`
+- ⏸️ `HiCDCPlus`
 
-... and 235 more ...
+... and 218 more ...
 
 ---
-*Last updated: 2025-11-01 05:44:16 UTC*
+*Last updated: 2025-11-01 05:45:51 UTC*
 *Packages with verified BBS status: 145*

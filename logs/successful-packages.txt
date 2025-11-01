@@ -1841,3 +1841,9 @@ traseR
 treeclimbR
 tRNAscanImport
 UCell
+borealis
+LRcell
+metaseqR2
+MOMA
+NoRCE
+svaNUMT
