@@ -1482,3 +1482,6 @@ MBECS
 miRSM
 MSPrep
 zinbwave
+ballgown
+CEMiTool
+RUVSeq

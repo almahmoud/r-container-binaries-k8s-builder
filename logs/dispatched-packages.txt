@@ -1731,3 +1731,5 @@ splatter
 cghMCR
 selectKSigs
 scBFA
+VaSP
+scone

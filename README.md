@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1484 (66%)
+- **Successfully Built:** 1487 (66%)
 - **Failed:** 2 (0%)
-- **In Progress:** 246
-- **Not Started:** 512
+- **In Progress:** 244
+- **Not Started:** 511
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1484)
+## Successfully Built Packages (1487)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1434 more ...*
+*... and 1437 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (246)
+## In Progress (244)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -97,7 +97,6 @@
 - ⏳ `BioNERO`
 - ⏳ `CBNplot`
 - ⏳ `CDI`
-- ⏳ `CEMiTool`
 - ⏳ `CHETAH`
 - ⏳ `COTAN`
 - ⏳ `CRISPRseek`
@@ -134,10 +133,11 @@
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GloScope`
 - ⏳ `Guitar`
+- ⏳ `HIPPO`
 
-... and 196 more ...
+... and 194 more ...
 
-## Not Yet Started (512)
+## Not Yet Started (511)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 
-... and 462 more ...
+... and 461 more ...
 
 ---
-*Last updated: 2025-11-01 03:28:01 UTC*
+*Last updated: 2025-11-01 03:29:25 UTC*
 *Packages with verified BBS status: 130*

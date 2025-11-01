@@ -146,7 +146,6 @@
     "VariantAnnotation"
   ],
   "CDI": [],
-  "CEMiTool": [],
   "CHETAH": [],
   "CNVfilteR": [
     "regioneR",
@@ -879,7 +878,6 @@
     "TCGAutils"
   ],
   "RUCova": [],
-  "RUVSeq": [],
   "RadioGx": [
     "CoreGx"
   ],
@@ -1122,9 +1120,7 @@
     "GenomicFiles"
   ],
   "VDJdive": [],
-  "VaSP": [
-    "ballgown"
-  ],
+  "VaSP": [],
   "VanillaICE": [
     "crlmm"
   ],
@@ -1234,7 +1230,6 @@
     "Category"
   ],
   "autonomics": [],
-  "ballgown": [],
   "bambu": [],
   "bandle": [
     "MSnbase",
@@ -1411,8 +1406,7 @@
     "scater"
   ],
   "consensusDE": [
-    "ensembldb",
-    "RUVSeq"
+    "ensembldb"
   ],
   "consensusOV": [
     "GSVA",
@@ -2027,7 +2021,6 @@
   "notameStats": [],
   "notameViz": [],
   "octad": [
-    "RUVSeq",
     "GSVA",
     "SpatialExperiment"
   ],
@@ -2191,7 +2184,6 @@
   ],
   "ribosomeProfilingQC": [
     "motifStack",
-    "RUVSeq",
     "txdbmaker",
     "TFBSTools"
   ],
@@ -2286,9 +2278,7 @@
     "annotatr",
     "regioneR"
   ],
-  "scone": [
-    "RUVSeq"
-  ],
+  "scone": [],
   "scoreInvHap": [
     "VariantAnnotation"
   ],
@@ -2318,8 +2308,7 @@
   "shinyDSP": [
     "scater",
     "standR",
-    "SpatialExperiment",
-    "RUVSeq"
+    "SpatialExperiment"
   ],
   "shinyMethyl": [
     "minfi",
@@ -2440,8 +2429,7 @@
     "SpatialExperiment"
   ],
   "standR": [
-    "SpatialExperiment",
-    "RUVSeq"
+    "SpatialExperiment"
   ],
   "strandCheckR": [],
   "survClust": [],
