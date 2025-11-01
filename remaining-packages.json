@@ -1,5 +1,4 @@
 {
-  "ABarray": [],
   "AWFisher": [
     "edgeR"
   ],
@@ -15,19 +14,13 @@
     "Rgraphviz"
   ],
   "BiocBook": [],
-  "BiocFHIR": [],
   "BiocHail": [
     "basilisk"
   ],
-  "BiocIO": [
-    "S4Vectors"
-  ],
+  "BiocIO": [],
   "BiocNeighbors": [],
   "BrowserViz": [],
-  "CGHcall": [],
-  "CGHnormaliter": [
-    "CGHcall"
-  ],
+  "CGHnormaliter": [],
   "CGHregions": [],
   "CMA": [],
   "CNORdt": [
@@ -59,31 +52,23 @@
     "flowMerge",
     "flowPeaks",
     "cytolib",
-    "S4Vectors",
     "Rgraphviz"
   ],
   "CRImage": [
-    "EBImage",
-    "aCGH"
+    "EBImage"
   ],
-  "CTDquerier": [
-    "S4Vectors"
-  ],
+  "CTDquerier": [],
   "Cardinal": [
     "ProtGenerics",
-    "S4Vectors",
     "CardinalIO",
     "EBImage",
     "matter"
   ],
   "CardinalIO": [
     "matter",
-    "S4Vectors",
     "ProtGenerics"
   ],
-  "CellMapper": [
-    "S4Vectors"
-  ],
+  "CellMapper": [],
   "CellNOptR": [
     "RBGL",
     "Rgraphviz"
@@ -92,18 +77,13 @@
   "ConsensusClusterPlus": [],
   "CytoDx": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "CytoGLMM": [],
   "DCATS": [],
-  "DEGseq": [],
-  "DEqMS": [],
   "DEsingle": [],
   "DFP": [],
-  "DFplyr": [
-    "S4Vectors"
-  ],
+  "DFplyr": [],
   "DNAcycP2": [
     "basilisk"
   ],
@@ -120,27 +100,21 @@
     "EBarrays"
   ],
   "EnrichDO": [
-    "Rgraphviz",
-    "S4Vectors"
+    "Rgraphviz"
   ],
-  "ExploreModelMatrix": [
-    "S4Vectors"
-  ],
+  "ExploreModelMatrix": [],
   "FISHalyseR": [
     "EBImage"
   ],
-  "FamAgg": [],
   "FlowSOM": [
     "ConsensusClusterPlus",
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "GSCA": [
     "rhdf5",
     "rhdf5filters"
   ],
-  "GWAS.BAYES": [],
   "GWASTools": [
     "gdsfmt"
   ],
@@ -148,7 +122,6 @@
     "flowCore",
     "flowFP",
     "cytolib",
-    "S4Vectors",
     "flowViz"
   ],
   "GenProSeq": [
@@ -161,29 +134,19 @@
     "RCy3"
   ],
   "GeneSelectMMD": [],
-  "GraphAT": [],
   "HDTD": [],
   "HELP": [],
   "HEM": [],
-  "HGC": [],
   "HIBAG": [],
   "HVP": [],
   "HilbertVisGUI": [],
   "HybridMTest": [],
-  "IHW": [],
-  "IMPCdata": [],
   "INDEED": [],
   "INPower": [],
   "ISAnalytics": [],
-  "KBoost": [],
-  "KCsmart": [
-    "siggenes"
-  ],
-  "LEA": [],
+  "KCsmart": [],
   "LedPred": [],
   "MACSQuantifyR": [],
-  "MBAmethyl": [],
-  "MBttest": [],
   "MEIGOR": [
     "CNORode",
     "CellNOptR",
@@ -217,21 +180,17 @@
     "flowCore",
     "FlowSOM",
     "cytolib",
-    "S4Vectors",
     "ConsensusClusterPlus"
   ],
   "MetaDICT": [
     "edgeR"
   ],
   "MetaboCoreUtils": [
-    "MsCoreUtils",
-    "S4Vectors"
+    "MsCoreUtils"
   ],
   "MiPP": [],
   "ModCon": [],
-  "MsCoreUtils": [
-    "S4Vectors"
-  ],
+  "MsCoreUtils": [],
   "Mulcom": [],
   "NOISeq": [],
   "NPARC": [],
@@ -257,9 +216,7 @@
   "PROcess": [],
   "Path2PPI": [],
   "PathNet": [],
-  "Pedixplorer": [
-    "S4Vectors"
-  ],
+  "Pedixplorer": [],
   "PepsNMR": [],
   "PhenoGeneRanker": [],
   "Polytect": [
@@ -272,8 +229,7 @@
   "RAREsim": [],
   "RBGL": [],
   "RBioFormats": [
-    "EBImage",
-    "S4Vectors"
+    "EBImage"
   ],
   "RCASPAR": [],
   "RCX": [],
@@ -283,7 +239,6 @@
   ],
   "REBET": [],
   "RGraph2js": [],
-  "RIVER": [],
   "RImmPort": [],
   "RLMM": [],
   "RNAseqCovarImpute": [
@@ -292,25 +247,20 @@
   "ROSeq": [
     "edgeR"
   ],
-  "ROTS": [],
   "RSeqAn": [],
   "RTCGA": [],
   "RTopper": [],
   "RVS": [],
-  "RbcBook1": [],
   "Rcwl": [
-    "S4Vectors",
     "basilisk"
   ],
   "RcwlPipelines": [
     "Rcwl",
-    "S4Vectors",
     "basilisk"
   ],
   "ReUseData": [
     "Rcwl",
     "RcwlPipelines",
-    "S4Vectors",
     "basilisk"
   ],
   "ReadqPCR": [],
@@ -320,12 +270,10 @@
     "biocmake"
   ],
   "Rmagpie": [],
-  "Rsubread": [],
   "Rtpca": [],
   "Rvisdiff": [
     "edgeR"
   ],
-  "S4Vectors": [],
   "SBMLR": [],
   "SCBN": [],
   "SCFA": [],
@@ -346,14 +294,11 @@
   "SUITOR": [],
   "Sconify": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
-  "SharedObject": [],
   "SpaceMarkers": [],
   "SuperCellCyto": [],
   "TIN": [],
-  "TMixClust": [],
   "TPP": [
     "biobroom"
   ],
@@ -369,24 +314,18 @@
   ],
   "TargetScore": [],
   "TreeAndLeaf": [],
-  "UCSC.utils": [
-    "S4Vectors"
-  ],
+  "UCSC.utils": [],
   "VERSO": [],
   "Wrench": [],
   "XINA": [],
-  "a4Core": [],
-  "aCGH": [],
   "abseqR": [],
   "acde": [],
   "alabaster.base": [
-    "S4Vectors",
     "rhdf5",
     "rhdf5filters"
   ],
   "alevinQC": [],
   "anndataR": [],
-  "anota": [],
   "bacon": [],
   "basilisk": [],
   "basilisk.utils": [],
@@ -400,22 +339,17 @@
     "rhdf5filters"
   ],
   "bluster": [
-    "S4Vectors",
     "BiocNeighbors"
   ],
   "brendaDb": [],
   "cbpManager": [
     "basilisk"
   ],
-  "cellmig": [
-    "ggtree"
-  ],
+  "cellmig": [],
   "cellmigRation": [],
   "clevRvis": [],
-  "clippda": [],
   "clusterStab": [],
   "coGPS": [],
-  "cogena": [],
   "compSPOT": [],
   "compcodeR": [
     "edgeR"
@@ -430,13 +364,11 @@
     "flowDensity",
     "flowClust",
     "cytolib",
-    "S4Vectors",
     "flowViz"
   ],
   "cytoMEM": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "cytolib": [],
   "daMA": [],
@@ -446,7 +378,6 @@
     "flowDensity",
     "flowPeaks",
     "cytolib",
-    "S4Vectors",
     "flowViz"
   ],
   "decoupleR": [],
@@ -455,11 +386,8 @@
     "basilisk"
   ],
   "diggit": [],
-  "discordant": [],
   "dks": [],
-  "dupRadar": [
-    "Rsubread"
-  ],
+  "dupRadar": [],
   "dyebias": [],
   "edgeR": [],
   "epistasisGA": [],
@@ -480,105 +408,87 @@
   ],
   "flowAI": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowBeads": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowBin": [
     "flowCore",
     "flowFP",
     "cytolib",
-    "S4Vectors",
     "flowViz"
   ],
   "flowCHIC": [
     "flowCore",
     "EBImage",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowClean": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowClust": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowCore": [
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowCut": [
     "flowCore",
     "flowDensity",
     "cytolib",
-    "S4Vectors",
     "flowViz"
   ],
   "flowDensity": [
     "flowCore",
     "flowViz",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowFP": [
     "flowCore",
     "flowViz",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowMatch": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowMeans": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowMerge": [
     "flowClust",
     "Rgraphviz",
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowPeaks": [],
   "flowPloidy": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowPlots": [],
   "flowSpecs": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowTime": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowTrans": [
     "flowCore",
     "flowViz",
     "flowClust",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowViz": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "flowcatchR": [
     "EBImage"
@@ -595,55 +505,38 @@
   "geneClassifiers": [],
   "geneRecommender": [],
   "ggkegg": [],
-  "ggtree": [],
-  "ggtreeDendro": [
-    "ggtree"
-  ],
-  "ggtreeExtra": [
-    "ggtree"
-  ],
-  "ggtreeSpace": [
-    "ggtree"
-  ],
+  "ggtreeDendro": [],
+  "ggtreeExtra": [],
+  "ggtreeSpace": [],
   "hapFabia": [
     "fabia"
   ],
-  "hmdbQuery": [
-    "S4Vectors"
-  ],
+  "hmdbQuery": [],
   "hopach": [],
   "hyperdraw": [
-    "hypergraph",
     "Rgraphviz"
   ],
-  "hypergraph": [],
-  "iASeq": [],
   "iBMQ": [],
   "iCOBRA": [],
   "iChip": [],
   "imageTCGA": [],
   "immunoClust": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "infinityFlow": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "iscream": [],
   "islify": [
     "RBioFormats",
-    "EBImage",
-    "S4Vectors"
+    "EBImage"
   ],
   "iterativeBMA": [],
-  "koinar": [],
   "limmaGUI": [],
   "limpa": [],
   "logicFS": [],
-  "martini": [],
   "matter": [
     "ProtGenerics"
   ],
@@ -652,9 +545,7 @@
   "metaSeq": [
     "NOISeq"
   ],
-  "metabCombiner": [
-    "S4Vectors"
-  ],
+  "metabCombiner": [],
   "metabinR": [],
   "metabomxtr": [],
   "metahdep": [],
@@ -688,8 +579,7 @@
   ],
   "ncdfFlow": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "ndexr": [
     "RCX"
@@ -699,12 +589,10 @@
   "netresponse": [
     "Rgraphviz"
   ],
-  "normalize450K": [],
   "optimalFlow": [
     "flowMeans",
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "paircompviz": [
     "Rgraphviz"
@@ -716,11 +604,8 @@
   "pepXMLTab": [],
   "pfamAnalyzeR": [],
   "pgca": [],
-  "philr": [
-    "ggtree"
-  ],
+  "philr": [],
   "phosphonormalizer": [],
-  "planet": [],
   "plasmut": [],
   "ppcseq": [
     "edgeR"
@@ -728,19 +613,14 @@
   "progeny": [
     "decoupleR"
   ],
-  "qcmetrics": [
-    "S4Vectors"
-  ],
-  "rain": [],
+  "qcmetrics": [],
   "rawDiag": [
     "rawrr"
   ],
   "rawrr": [],
   "rcellminer": [],
   "retrofit": [],
-  "rexposome": [
-    "S4Vectors"
-  ],
+  "rexposome": [],
   "rgoslin": [],
   "rhdf5": [
     "rhdf5filters"
@@ -748,16 +628,12 @@
   "rhdf5filters": [],
   "ribor": [
     "rhdf5",
-    "S4Vectors",
     "rhdf5filters"
   ],
   "rmelting": [],
   "rnaseqcomp": [],
-  "rsbml": [],
   "rsemmed": [],
-  "scBubbletree": [
-    "ggtree"
-  ],
+  "scBubbletree": [],
   "scFeatureFilter": [],
   "scLANE": [],
   "scMitoMut": [
@@ -773,15 +649,10 @@
   "seahtrue": [],
   "semisup": [],
   "seq.hotSPOT": [],
-  "sevenbridges": [
-    "S4Vectors"
-  ],
+  "sevenbridges": [],
   "shinybiocloader": [],
-  "siggenes": [],
   "sights": [],
-  "sitePath": [
-    "ggtree"
-  ],
+  "sitePath": [],
   "sizepower": [],
   "snifter": [
     "basilisk"
@@ -793,37 +664,27 @@
   ],
   "synergyfinder": [],
   "systemPipeShiny": [],
-  "tanggle": [
-    "ggtree"
-  ],
+  "tanggle": [],
   "tidyFlowCore": [
     "flowCore",
-    "cytolib",
-    "S4Vectors"
+    "cytolib"
   ],
   "tidysbml": [],
   "timeOmics": [
     "mixOmics"
   ],
-  "timescape": [],
-  "trio": [
-    "siggenes"
-  ],
+  "trio": [],
   "ttgsea": [],
   "tweeDEseq": [
     "edgeR",
     "cqn"
   ],
-  "twoddpcr": [
-    "S4Vectors"
-  ],
+  "twoddpcr": [],
   "uSORT": [
     "monocle",
     "biocViews",
     "RBGL"
   ],
-  "updateObject": [
-    "S4Vectors"
-  ],
+  "updateObject": [],
   "variancePartition": []
 }

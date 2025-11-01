@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 310 (44%)
+- **Successfully Built:** 349 (50%)
 - **Failed:** 1 (0%)
-- **In Progress:** 209
-- **Not Started:** 174
+- **In Progress:** 196
+- **Not Started:** 148
 
-**Progress:** 44%
+**Progress:** 50%
 ```
-██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (310)
+## Successfully Built Packages (349)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
+| [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
@@ -44,13 +45,11 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
-| [Biobase](https://bioconductor.org/packages/3.23/bioc/html/Biobase.html) | [log](logs/Biobase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Biobase) |
 
-*... and 260 more ...*
+*... and 299 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [spikeLI](https://bioconductor.org/packages/3.23/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spikeLI) |
 | [spkTools](https://bioconductor.org/packages/3.23/bioc/html/spkTools.html) | [log](logs/spkTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spkTools) |
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
@@ -63,6 +62,7 @@
 | [synlet](https://bioconductor.org/packages/3.23/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synlet) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
+| [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 
-## In Progress (209)
+## In Progress (196)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AnVILPublish`
 - ⏳ `AnVILWorkflow`
@@ -91,41 +91,32 @@
 - ⏳ `BiocBook`
 - ⏳ `BiocNeighbors`
 - ⏳ `BrowserViz`
+- ⏳ `CGHregions`
 - ⏳ `CMA`
 - ⏳ `COMPASS`
 - ⏳ `ChemmineOB`
 - ⏳ `ConsensusClusterPlus`
 - ⏳ `CytoGLMM`
 - ⏳ `DCATS`
-- ⏳ `DEGseq`
-- ⏳ `DEqMS`
 - ⏳ `DEsingle`
 - ⏳ `DFP`
 - ⏳ `DepInfeR`
 - ⏳ `EBImage`
 - ⏳ `EBarrays`
-- ⏳ `FamAgg`
-- ⏳ `GWAS.BAYES`
 - ⏳ `GeneExpressionSignature`
 - ⏳ `GeneSelectMMD`
 - ⏳ `HDTD`
 - ⏳ `HELP`
 - ⏳ `HEM`
-- ⏳ `HGC`
 - ⏳ `HIBAG`
 - ⏳ `HVP`
+- ⏳ `HilbertVisGUI`
 - ⏳ `HybridMTest`
-- ⏳ `IHW`
-- ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INPower`
 - ⏳ `ISAnalytics`
-- ⏳ `KBoost`
-- ⏳ `LEA`
 - ⏳ `LedPred`
 - ⏳ `MACSQuantifyR`
-- ⏳ `MBAmethyl`
-- ⏳ `MBttest`
 - ⏳ `MODA`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
@@ -133,20 +124,25 @@
 - ⏳ `MiPP`
 - ⏳ `ModCon`
 - ⏳ `Mulcom`
+- ⏳ `NOISeq`
+- ⏳ `NPARC`
+- ⏳ `NanoStringDiff`
+- ⏳ `NuPoP`
+- ⏳ `OCplus`
+- ⏳ `OPWeight`
+- ⏳ `OSAT`
+- ⏳ `Omixer`
+- ⏳ `OpenStats`
 
-... and 159 more ...
+... and 146 more ...
 
-## Not Yet Started (174)
-- ⏸️ `ABarray`
+## Not Yet Started (148)
 - ⏸️ `AWFisher`
 - ⏸️ `AlpsNMR`
 - ⏸️ `BioMVCClass`
-- ⏸️ `BiocFHIR`
 - ⏸️ `BiocHail`
 - ⏸️ `BiocIO`
-- ⏸️ `CGHcall`
 - ⏸️ `CGHnormaliter`
-- ⏸️ `CGHregions`
 - ⏸️ `CNORdt`
 - ⏸️ `CNORfeeder`
 - ⏸️ `CNORfuzzy`
@@ -173,8 +169,6 @@
 - ⏸️ `GateFinder`
 - ⏸️ `GenProSeq`
 - ⏸️ `GeneNetworkBuilder`
-- ⏸️ `GraphAT`
-- ⏸️ `HilbertVisGUI`
 - ⏸️ `KCsmart`
 - ⏸️ `MEIGOR`
 - ⏸️ `MOGAMUN`
@@ -187,9 +181,15 @@
 - ⏸️ `MetaboCoreUtils`
 - ⏸️ `MsCoreUtils`
 - ⏸️ `NormqPCR`
+- ⏸️ `OncoSimulR`
+- ⏸️ `PROPER`
+- ⏸️ `Pedixplorer`
+- ⏸️ `Polytect`
+- ⏸️ `RBioFormats`
+- ⏸️ `RCyjs`
 
-... and 124 more ...
+... and 98 more ...
 
 ---
-*Last updated: 2025-11-01 15:34:35 UTC*
-*Packages with verified BBS status: 91*
+*Last updated: 2025-11-01 15:36:27 UTC*
+*Packages with verified BBS status: 93*

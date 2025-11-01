@@ -1,0 +1,233 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''FamAgg'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'FamAgg'
+also installing the dependencies ‘gap.datasets’, ‘minqa’, ‘mitools’, ‘kinship2’, ‘gap’, ‘survey’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gap.datasets_0.0.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/minqa_1.2.8.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mitools_2.4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/kinship2_1.9.6.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/gap_1.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/survey_4.4-8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/FamAgg_1.39.0.tar.gz'
+* installing *source* package ‘gap.datasets’ ...
+** this is package ‘gap.datasets’ version ‘0.0.6’
+** package ‘gap.datasets’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gap.datasets’ as ‘gap.datasets_0.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap.datasets)
+* installing *source* package ‘minqa’ ...
+** this is package ‘minqa’ version ‘1.2.8’
+** package ‘minqa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c altmov.f -o altmov.o
+gfortran  -fpic  -g -O2  -c bigden.f -o bigden.o
+gfortran  -fpic  -g -O2  -c biglag.f -o biglag.o
+gfortran  -fpic  -g -O2  -c bobyqa.f -o bobyqa.o
+gfortran  -fpic  -g -O2  -c bobyqb.f -o bobyqb.o
+gfortran  -fpic  -g -O2  -c lagmax.f -o lagmax.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c minqa.cpp -o minqa.o
+gfortran  -fpic  -g -O2  -c newuoa.f -o newuoa.o
+gfortran  -fpic  -g -O2  -c newuob.f -o newuob.o
+gfortran  -fpic  -g -O2  -c prelim.f -o prelim.o
+gfortran  -fpic  -g -O2  -c rescue.f -o rescue.o
+gfortran  -fpic  -g -O2  -c trsapp.f -o trsapp.o
+gfortran  -fpic  -g -O2  -c trsbox.f -o trsbox.o
+gfortran  -fpic  -g -O2  -c trstep.f -o trstep.o
+gfortran  -fpic  -g -O2  -c uobyqa.f -o uobyqa.o
+gfortran  -fpic  -g -O2  -c uobyqb.f -o uobyqb.o
+gfortran  -fpic  -g -O2  -c update.f -o update.o
+gfortran  -fpic  -g -O2  -c updatebobyqa.f -o updatebobyqa.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o minqa.so altmov.o bigden.o biglag.o bobyqa.o bobyqb.o lagmax.o minqa.o newuoa.o newuob.o prelim.o rescue.o trsapp.o trsbox.o trstep.o uobyqa.o uobyqb.o update.o updatebobyqa.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-minqa/00new/minqa/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘minqa’ as ‘minqa_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minqa)
+* installing *source* package ‘mitools’ ...
+** this is package ‘mitools’ version ‘2.4’
+** package ‘mitools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mitools’ as ‘mitools_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitools)
+* installing *source* package ‘kinship2’ ...
+** this is package ‘kinship2’ version ‘1.9.6.2’
+** package ‘kinship2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kinship2’ as ‘kinship2_1.9.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kinship2)
+* installing *source* package ‘gap’ ...
+** this is package ‘gap’ version ‘1.6’
+** package ‘gap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c 2k.c -o 2k.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c 2ld.c -o 2ld.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cline.c -o cline.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcontrol_c.c -o gcontrol_c.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcx.c -o gcx.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gif_c.c -o gif_c.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hap_c.c -o hap_c.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hwe.hardy.c -o hwe.hardy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kin.morgan.c -o kin.morgan.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c makeped_c.c -o makeped_c.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mia.c -o mia.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c muvar.c -o muvar.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c package_native_routine_registration_skeleton.c -o package_native_routine_registration_skeleton.o
+gfortran  -fpic  -g -O2  -c pfc.f -o pfc.o
+gfortran  -fpic  -g -O2  -c pfc.sim.f -o pfc.sim.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pgc_c.c -o pgc_c.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c whscore.c -o whscore.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gap.so 2k.o 2ld.o cline.o gcontrol_c.o gcx.o gif_c.o hap_c.o hwe.hardy.o kin.morgan.o makeped_c.o mia.o muvar.o package_native_routine_registration_skeleton.o pfc.o pfc.sim.o pgc_c.o whscore.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-gap/00new/gap/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gap’ as ‘gap_1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap)
+* installing *source* package ‘survey’ ...
+** this is package ‘survey’ version ‘4.4-8’
+** package ‘survey’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c arma_multistage.cpp -o arma_multistage.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o survey.so RcppExports.o arma_multistage.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-survey/00new/survey/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘survey’ as ‘survey_4.4-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survey)
+* installing *source* package ‘FamAgg’ ...
+** this is package ‘FamAgg’ version ‘1.39.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pedigree’ in package ‘FamAgg’
+in method for ‘countGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘countGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘generationsFrom’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘generationsFrom’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getChildren’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getChildren’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSiblings’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSiblings’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getAll’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAll’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getExternalMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getExternalMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FamAgg’ as ‘FamAgg_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FamAgg)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8ggt5O/downloaded_packages’
+Old packages: 'promises'
+
+real	1m17.813s
+user	1m6.110s
+sys	0m12.264s
