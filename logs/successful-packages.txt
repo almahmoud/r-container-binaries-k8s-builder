@@ -1312,3 +1312,9 @@ enrichplot
 ExCluster
 findIPs
 SeqGSEA
+BiocHubsShiny
+DEGreport
+easyRNASeq
+eudysbiome
+nullranges
+SVMDO

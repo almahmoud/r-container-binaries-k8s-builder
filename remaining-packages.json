@@ -187,7 +187,6 @@
     "SingleCellExperiment",
     "scuttle"
   ],
-  "BiocHubsShiny": [],
   "BloodGen3Module": [],
   "BulkSignalR": [
     "SpatialExperiment",
@@ -481,7 +480,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "DEGreport": [],
   "DEP": [
     "MSnbase",
     "PSMatch",
@@ -1712,7 +1710,6 @@
   "SPsimSeq": [
     "SingleCellExperiment"
   ],
-  "SVMDO": [],
   "SVP": [
     "SingleCellExperiment",
     "SpatialExperiment"
@@ -2662,7 +2659,6 @@
     "GenomicFeatures"
   ],
   "easier": [],
-  "easyRNASeq": [],
   "edge": [
     "sva",
     "genefilter"
@@ -2750,7 +2746,6 @@
     "SingleCellExperiment"
   ],
   "esetVis": [],
-  "eudysbiome": [],
   "evaluomeR": [
     "MultiAssayExperiment"
   ],
@@ -3316,7 +3311,6 @@
   ],
   "msgbsR": [
     "BSgenome",
-    "easyRNASeq",
     "GenomicFeatures",
     "ggbio",
     "biovizBase",
@@ -3417,7 +3411,6 @@
   "notameViz": [
     "notame"
   ],
-  "nullranges": [],
   "octad": [
     "RUVSeq",
     "EDASeq",
