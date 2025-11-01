@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 2111 (94%)
 - **Failed:** 2 (0%)
-- **In Progress:** 74
-- **Not Started:** 57
+- **In Progress:** 75
+- **Not Started:** 56
 
 **Progress:** 94%
 ```
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (74)
+## In Progress (75)
 - ⏳ `AnnotationHubData`
 - ⏳ `CluMSID`
 - ⏳ `DAPAR`
@@ -135,9 +135,9 @@
 - ⏳ `methylGSA`
 - ⏳ `msmsEDA`
 
-... and 24 more ...
+... and 25 more ...
 
-## Not Yet Started (57)
+## Not Yet Started (56)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -189,8 +189,8 @@
 - ⏸️ `psichomics`
 - ⏸️ `recount`
 
-... and 7 more ...
+... and 6 more ...
 
 ---
-*Last updated: 2025-11-01 07:31:16 UTC*
+*Last updated: 2025-11-01 07:32:00 UTC*
 *Packages with verified BBS status: 149*
