@@ -1601,3 +1601,6 @@ goSorensen
 BgeeDB
 gDRcore
 Moonlight2R
+BatchQC
+dittoSeq
+fishpond

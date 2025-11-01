@@ -66,7 +66,6 @@
   "Banksy": [
     "SpatialExperiment"
   ],
-  "BatchQC": [],
   "BatchSVG": [],
   "BayesSpace": [],
   "BindingSiteFinder": [],
@@ -754,8 +753,7 @@
     "regioneR"
   ],
   "SPIAT": [
-    "SpatialExperiment",
-    "dittoSeq"
+    "SpatialExperiment"
   ],
   "SPICEY": [],
   "SPLINTER": [
@@ -1201,7 +1199,6 @@
   "diffHic": [],
   "diffUTR": [],
   "distinct": [],
-  "dittoSeq": [],
   "dmrseq": [
     "bsseq",
     "annotatr",
@@ -1265,7 +1262,6 @@
     "methylumi",
     "minfi"
   ],
-  "fishpond": [],
   "flagme": [
     "xcms",
     "CAMERA",
