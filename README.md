@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1531 (68%)
+- **Successfully Built:** 1541 (68%)
 - **Failed:** 2 (0%)
-- **In Progress:** 207
+- **In Progress:** 197
 - **Not Started:** 504
 
 **Progress:** 68%
@@ -16,7 +16,7 @@
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1531)
+## Successfully Built Packages (1541)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1481 more ...*
+*... and 1491 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [uSORT](https://bioconductor.org/packages/3.22/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/uSORT) |
-| [unifiedWMWqPCR](https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.22/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.22/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
@@ -63,6 +61,7 @@
 | [vsclust](https://bioconductor.org/packages/3.22/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.22/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.22/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.22/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.22/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weitrix) |
@@ -70,6 +69,7 @@
 | [wiggleplotr](https://bioconductor.org/packages/3.22/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.22/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wpm) |
 | [xCell2](https://bioconductor.org/packages/3.22/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xCell2) |
+| [xcore](https://bioconductor.org/packages/3.22/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xcore) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.22/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (207)
+## In Progress (197)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -121,7 +121,6 @@
 - ⏳ `GDCRNATools`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
-- ⏳ `GenomicInteractionNodes`
 - ⏳ `HarmonizR`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
@@ -134,8 +133,9 @@
 - ⏳ `MOMA`
 - ⏳ `MetaNeighbor`
 - ⏳ `MetaPhOR`
+- ⏳ `MicrobiomeProfiler`
 
-... and 157 more ...
+... and 147 more ...
 
 ## Not Yet Started (504)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 454 more ...
 
 ---
-*Last updated: 2025-11-01 03:43:43 UTC*
-*Packages with verified BBS status: 132*
+*Last updated: 2025-11-01 03:45:51 UTC*
+*Packages with verified BBS status: 134*

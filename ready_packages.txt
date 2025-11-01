@@ -1,0 +1,15 @@
+BgeeCall
+DegNorm
+ELViS
+EpiTxDb
+MinimumDistance
+ORFik
+OUTRIDER
+RiboDiPA
+goseq
+mygene
+proActiv
+proBAMr
+recoup
+sitadela
+txcutr

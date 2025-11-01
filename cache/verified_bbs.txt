@@ -118,6 +118,7 @@ vissE
 vsclust
 vsn
 waddR
+wavClusteR
 weaver
 webbioc
 weitrix
@@ -125,6 +126,7 @@ widgetTools
 wiggleplotr
 wpm
 xCell2
+xcore
 xmapbridge
 yamss
 zFPKM

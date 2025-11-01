@@ -1529,3 +1529,13 @@ notameViz
 padma
 TOP
 waddR
+epigraHMM
+GenomicInteractionNodes
+notameStats
+partCNV
+scDDboost
+scDesign3
+txdbmaker
+VanillaICE
+wavClusteR
+xcore
