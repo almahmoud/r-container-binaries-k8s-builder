@@ -510,7 +510,6 @@
   "HoloFoodR": [
     "TreeSummarizedExperiment"
   ],
-  "ILoReg": [],
   "INSPEcT": [],
   "IPO": [
     "xcms",
@@ -1258,11 +1257,9 @@
     "OrganismDbi",
     "regioneR"
   ],
-  "blacksheepr": [],
   "blase": [
     "scater"
   ],
-  "bnbc": [],
   "borealis": [
     "bsseq",
     "DSS"
