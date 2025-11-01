@@ -20,11 +20,9 @@
   "ChAMP": [],
   "CluMSID": [],
   "DAPAR": [],
-  "DEP": [],
   "Damsel": [
     "ggbio"
   ],
-  "EGSEA": [],
   "ExperimentHubData": [
     "AnnotationHubData"
   ],
@@ -57,17 +55,12 @@
     "msmsTests",
     "msmsEDA"
   ],
-  "MSstatsQC": [],
-  "MSstatsQCgui": [
-    "MSstatsQC"
-  ],
+  "MSstatsQCgui": [],
   "NADfinder": [],
   "PRONE": [],
-  "PrInCE": [],
   "Prostar": [
     "DAPAR"
   ],
-  "QuasR": [],
   "R3CPET": [
     "ggbio"
   ],
@@ -77,9 +70,6 @@
     "recount",
     "derfinder"
   ],
-  "RNAmodR.AlkAnilineSeq": [],
-  "RNAmodR.ML": [],
-  "RNAmodR.RiboMethSeq": [],
   "RbowtieCuda": [],
   "ReportingTools": [
     "ggbio"
@@ -92,9 +82,7 @@
     "derfinder"
   ],
   "SOMNiBUS": [],
-  "SingleMoleculeFootprinting": [
-    "QuasR"
-  ],
+  "SingleMoleculeFootprinting": [],
   "SomaticSignatures": [
     "ggbio"
   ],
@@ -108,7 +96,6 @@
     "ReportingTools",
     "ggbio"
   ],
-  "alabaster.sfe": [],
   "appreci8R": [],
   "bandle": [
     "pRoloc"
@@ -187,17 +174,14 @@
   "msmsTests": [
     "msmsEDA"
   ],
-  "musicatk": [],
   "ncGTW": [
     "xcms"
   ],
-  "octad": [],
   "omXplore": [],
   "pRoloc": [],
   "pRolocGUI": [
     "pRoloc"
   ],
-  "pcaExplorer": [],
   "peakPantheR": [],
   "psichomics": [
     "recount",
@@ -219,7 +203,6 @@
   "scafari": [
     "ggbio"
   ],
-  "scmeth": [],
   "scruff": [
     "ggbio"
   ],
@@ -231,7 +214,6 @@
   "squallms": [
     "xcms"
   ],
-  "tidyomics": [],
   "topdownr": [],
   "xcms": []
 }

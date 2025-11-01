@@ -2188,3 +2188,5 @@ xcms
 spicyR
 ChAMP
 signifinder
+MSstatsQCgui
+SingleMoleculeFootprinting

@@ -2132,3 +2132,17 @@ imcRtools
 oppar
 Rqc
 saseR
+alabaster.sfe
+DEP
+EGSEA
+MSstatsQC
+musicatk
+octad
+pcaExplorer
+PrInCE
+QuasR
+RNAmodR.AlkAnilineSeq
+RNAmodR.ML
+RNAmodR.RiboMethSeq
+scmeth
+tidyomics

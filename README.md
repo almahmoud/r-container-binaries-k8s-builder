@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2134 (95%)
+- **Successfully Built:** 2148 (95%)
 - **Failed:** 2 (0%)
-- **In Progress:** 54
+- **In Progress:** 40
 - **Not Started:** 54
 
 **Progress:** 95%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2134)
+## Successfully Built Packages (2148)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2084 more ...*
+*... and 2098 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,31 +83,22 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (54)
+## In Progress (40)
 - ⏳ `AnnotationHubData`
 - ⏳ `ChAMP`
 - ⏳ `CluMSID`
 - ⏳ `DAPAR`
-- ⏳ `DEP`
-- ⏳ `EGSEA`
 - ⏳ `GSReg`
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
-- ⏳ `MSstatsQC`
 - ⏳ `NADfinder`
 - ⏳ `PRONE`
-- ⏳ `PrInCE`
-- ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `RMassBank`
-- ⏳ `RNAmodR.AlkAnilineSeq`
-- ⏳ `RNAmodR.ML`
-- ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `SOMNiBUS`
 - ⏳ `TFutils`
 - ⏳ `VCFArray`
-- ⏳ `alabaster.sfe`
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
 - ⏳ `biscuiteer`
@@ -121,21 +112,18 @@
 - ⏳ `iSEEfier`
 - ⏳ `methylGSA`
 - ⏳ `msmsEDA`
-- ⏳ `musicatk`
-- ⏳ `octad`
 - ⏳ `omXplore`
 - ⏳ `pRoloc`
-- ⏳ `pcaExplorer`
 - ⏳ `peakPantheR`
 - ⏳ `ptairMS`
 - ⏳ `qPLEXanalyzer`
-- ⏳ `scmeth`
 - ⏳ `shinyDSP`
 - ⏳ `signifinder`
 - ⏳ `singleCellTK`
 - ⏳ `skewr`
-
-... and 4 more ...
+- ⏳ `spicyR`
+- ⏳ `topdownr`
+- ⏳ `xcms`
 
 ## Not Yet Started (54)
 - ⏸️ `AHMassBank`
@@ -192,5 +180,5 @@
 ... and 4 more ...
 
 ---
-*Last updated: 2025-11-01 07:45:30 UTC*
+*Last updated: 2025-11-01 07:55:12 UTC*
 *Packages with verified BBS status: 150*
