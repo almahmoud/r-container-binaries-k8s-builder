@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 993 (44%)
+- **Successfully Built:** 996 (44%)
 - **Failed:** 2 (0%)
-- **In Progress:** 203
-- **Not Started:** 1046
+- **In Progress:** 202
+- **Not Started:** 1044
 
 **Progress:** 44%
 ```
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (993)
+## Successfully Built Packages (996)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
 
-*... and 943 more ...*
+*... and 946 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,22 +83,20 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (203)
+## In Progress (202)
+- ⏳ `ADAMgui`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
-- ⏳ `BioGA`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
 - ⏳ `Bioc.gff`
 - ⏳ `BiocSet`
 - ⏳ `BiocSklearn`
-- ⏳ `CNVPanelizer`
 - ⏳ `CSOA`
 - ⏳ `CoCiteStats`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `GBScleanR`
 - ⏳ `GDSArray`
 - ⏳ `GEOquery`
 - ⏳ `GOSemSim`
@@ -134,12 +132,13 @@
 - ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
 - ⏳ `NormalyzerDE`
+- ⏳ `OVESEG`
+- ⏳ `PADOG`
 
-... and 153 more ...
+... and 152 more ...
 
-## Not Yet Started (1046)
+## Not Yet Started (1044)
 - ⏸️ `ACE`
-- ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -188,9 +187,10 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
+- ⏸️ `BulkSignalR`
 
-... and 996 more ...
+... and 994 more ...
 
 ---
-*Last updated: 2025-11-01 01:19:26 UTC*
+*Last updated: 2025-11-01 01:21:26 UTC*
 *Packages with verified BBS status: 113*

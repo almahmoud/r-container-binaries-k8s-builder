@@ -991,3 +991,6 @@ Dune
 FilterFFPE
 FuseSOM
 HERON
+BioGA
+CNVPanelizer
+GBScleanR

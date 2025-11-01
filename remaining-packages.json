@@ -277,7 +277,6 @@
     "GSEABase",
     "annotate"
   ],
-  "BioGA": [],
   "BioNAR": [],
   "BioNERO": [
     "sva",
@@ -414,7 +413,6 @@
     "genefilter",
     "annotate"
   ],
-  "CNVPanelizer": [],
   "CNVRanger": [
     "RaggedExperiment",
     "GDSArray"
@@ -1210,7 +1208,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "GBScleanR": [],
   "GDCRNATools": [
     "DESeq2",
     "clusterProfiler",
