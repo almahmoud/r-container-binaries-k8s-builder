@@ -1951,13 +1951,10 @@
     "SummarizedExperiment"
   ],
   "GenomicTuples": [],
-  "GeoDiff": [
-    "GeomxTools"
-  ],
+  "GeoDiff": [],
   "GeoTcgaData": [
     "SummarizedExperiment"
   ],
-  "GeomxTools": [],
   "Glimma": [
     "DESeq2",
     "SummarizedExperiment"
@@ -4055,9 +4052,7 @@
   "SpatialCPie": [
     "SummarizedExperiment"
   ],
-  "SpatialDecon": [
-    "GeomxTools"
-  ],
+  "SpatialDecon": [],
   "SpatialExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -4076,9 +4071,7 @@
     "SummarizedExperiment",
     "scuttle"
   ],
-  "SpatialOmicsOverlay": [
-    "GeomxTools"
-  ],
+  "SpatialOmicsOverlay": [],
   "SpectralTAD": [
     "HiCcompare",
     "InteractionSet",
@@ -5291,7 +5284,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "chromDraw": [],
   "chromPlot": [
     "biomaRt",
     "AnnotationDbi"
@@ -5553,10 +5545,8 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "crisprBase": [],
   "crisprBowtie": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -5564,14 +5554,12 @@
   ],
   "crisprBwa": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
   "crisprDesign": [
-    "crisprBase",
     "AnnotationDbi",
     "BSgenome",
     "crisprBowtie",
@@ -5594,7 +5582,6 @@
   ],
   "crisprShiny": [
     "BSgenome",
-    "crisprBase",
     "crisprDesign",
     "crisprScore",
     "crisprViz",
@@ -5616,7 +5603,6 @@
     "AnnotationFilter"
   ],
   "crisprVerse": [
-    "crisprBase",
     "crisprBowtie",
     "crisprScore",
     "crisprDesign",
@@ -5639,7 +5625,6 @@
     "AnnotationFilter"
   ],
   "crisprViz": [
-    "crisprBase",
     "crisprDesign",
     "BSgenome",
     "GenomicFeatures",

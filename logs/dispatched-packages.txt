@@ -969,3 +969,6 @@ memes
 motifTestR
 openCyto
 clusterSeq
+GeoDiff
+SpatialDecon
+SpatialOmicsOverlay

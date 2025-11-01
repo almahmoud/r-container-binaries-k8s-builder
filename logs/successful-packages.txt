@@ -895,3 +895,6 @@ flowWorkspace
 universalmotif
 baySeq
 sketchR
+chromDraw
+crisprBase
+GeomxTools
