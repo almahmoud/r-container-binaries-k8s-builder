@@ -91,7 +91,6 @@
     "recount",
     "derfinder"
   ],
-  "Rqc": [],
   "SOMNiBUS": [],
   "SingleMoleculeFootprinting": [
     "QuasR"
@@ -166,7 +165,6 @@
   ],
   "ggbio": [],
   "iSEEfier": [],
-  "imcRtools": [],
   "intansv": [
     "ggbio"
   ],
@@ -195,7 +193,6 @@
   ],
   "octad": [],
   "omXplore": [],
-  "oppar": [],
   "pRoloc": [],
   "pRolocGUI": [
     "pRoloc"
@@ -215,7 +212,6 @@
     "derfinder"
   ],
   "sangeranalyseR": [],
-  "saseR": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData"

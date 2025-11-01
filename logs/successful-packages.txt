@@ -2128,3 +2128,7 @@ Ularcirc
 visiumStitched
 Voyager
 vulcan
+imcRtools
+oppar
+Rqc
+saseR
