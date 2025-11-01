@@ -1,5 +1,4 @@
 {
-  "ADImpute": [],
   "AHMassBank": [
     "AnnotationHubData",
     "OrganismDbi"
@@ -1227,7 +1226,6 @@
     "minfi",
     "bumphunter"
   ],
-  "corral": [],
   "cosmiq": [
     "xcms",
     "MSnbase",
@@ -1274,7 +1272,6 @@
     "biovizBase"
   ],
   "crumblr": [],
-  "crupR": [],
   "cydar": [],
   "cytomapper": [
     "SpatialExperiment"
@@ -1335,7 +1332,6 @@
     "annotatr",
     "regioneR"
   ],
-  "doubletrouble": [],
   "dreamlet": [
     "zenith",
     "EnrichmentBrowser"

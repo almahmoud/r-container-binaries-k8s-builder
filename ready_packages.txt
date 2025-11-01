@@ -1,4 +1,0 @@
-BgeeDB
-gDRcore
-preciseTAD
-velociraptor
