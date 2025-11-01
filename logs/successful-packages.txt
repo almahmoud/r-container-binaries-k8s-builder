@@ -1322,3 +1322,7 @@ eisaR
 EpipwR
 plotgardener
 snapcount
+microbiomeExplorer
+RTNduals
+spqn
+ssPATHS

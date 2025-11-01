@@ -1527,10 +1527,7 @@
     "GenomicFeatures",
     "MultiAssayExperiment"
   ],
-  "RTNduals": [],
-  "RTNsurvival": [
-    "RTNduals"
-  ],
+  "RTNsurvival": [],
   "RUCova": [
     "SingleCellExperiment"
   ],
@@ -3228,7 +3225,6 @@
     "MultiAssayExperiment",
     "scuttle"
   ],
-  "microbiomeExplorer": [],
   "midasHLA": [
     "MultiAssayExperiment"
   ],
@@ -4092,7 +4088,6 @@
     "scuttle",
     "SingleCellExperiment"
   ],
-  "spqn": [],
   "squallms": [
     "xcms",
     "MSnbase",
@@ -4110,7 +4105,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ssPATHS": [],
   "ssviz": [],
   "stJoincount": [
     "SpatialExperiment",
