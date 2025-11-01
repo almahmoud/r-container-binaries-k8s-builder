@@ -1900,3 +1900,7 @@ seqCAT
 signeR
 tLOH
 transmogR
+DSS
+MIRA
+NanoMethViz
+methylCC

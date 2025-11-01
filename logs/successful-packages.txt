@@ -1707,3 +1707,9 @@ pipeFrame
 sesame
 shinyMethyl
 VariantAnnotation
+bsseq
+diffHic
+FRASER
+pram
+qsea
+survClust

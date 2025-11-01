@@ -93,8 +93,7 @@
   ],
   "CNVrd2": [],
   "COCOA": [
-    "MIRA",
-    "bsseq"
+    "MIRA"
   ],
   "CTSV": [
     "SpatialExperiment"
@@ -108,7 +107,6 @@
     "wateRmelon",
     "goseq",
     "missMethyl",
-    "bsseq",
     "Gviz",
     "methylumi",
     "lumi",
@@ -156,16 +154,13 @@
     "SpatialExperiment"
   ],
   "DMRcate": [
-    "bsseq",
     "missMethyl",
     "Gviz",
     "biovizBase",
     "methylumi"
   ],
   "DOtools": [],
-  "DSS": [
-    "bsseq"
-  ],
+  "DSS": [],
   "Damsel": [
     "ggbio",
     "goseq",
@@ -173,8 +168,7 @@
     "OrganismDbi"
   ],
   "DeMixT": [
-    "DSS",
-    "bsseq"
+    "DSS"
   ],
   "DeconvoBuddies": [
     "SpatialExperiment"
@@ -224,7 +218,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "FRASER": [],
   "G4SNVHunter": [],
   "GA4GHclient": [],
   "GA4GHshiny": [
@@ -351,9 +344,7 @@
     "TreeSummarizedExperiment",
     "mia"
   ],
-  "MIRA": [
-    "bsseq"
-  ],
+  "MIRA": [],
   "MIRit": [],
   "MLInterfaces": [],
   "MOMA": [],
@@ -424,9 +415,7 @@
     "regioneR",
     "biovizBase"
   ],
-  "NanoMethViz": [
-    "bsseq"
-  ],
+  "NanoMethViz": [],
   "Nebulosa": [],
   "NewWave": [],
   "NoRCE": [],
@@ -580,7 +569,6 @@
   "SNPhood": [],
   "SOMNiBUS": [
     "annotatr",
-    "bsseq",
     "regioneR"
   ],
   "SPIAT": [
@@ -788,17 +776,14 @@
   ],
   "biovizBase": [],
   "biscuiteer": [
-    "bsseq",
     "dmrseq",
     "annotatr",
     "OrganismDbi",
     "regioneR"
   ],
   "borealis": [
-    "bsseq",
     "DSS"
   ],
-  "bsseq": [],
   "cBioPortalData": [
     "RTCGAToolbox",
     "TCGAutils"
@@ -931,9 +916,7 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "diffHic": [],
   "dmrseq": [
-    "bsseq",
     "annotatr",
     "regioneR"
   ],
@@ -1093,8 +1076,7 @@
   ],
   "katdetectr": [],
   "kissDE": [
-    "DSS",
-    "bsseq"
+    "DSS"
   ],
   "lefser": [
     "mia",
@@ -1142,17 +1124,14 @@
     "PSMatch"
   ],
   "metaseqR2": [
-    "DSS",
-    "bsseq"
+    "DSS"
   ],
   "methodical": [
     "annotatr",
     "regioneR"
   ],
   "methrix": [],
-  "methylCC": [
-    "bsseq"
-  ],
+  "methylCC": [],
   "methylGSA": [
     "missMethyl",
     "methylumi"
@@ -1162,7 +1141,6 @@
     "biovizBase"
   ],
   "methylSig": [
-    "bsseq",
     "DSS"
   ],
   "methylclock": [
@@ -1320,7 +1298,6 @@
   "poem": [
     "SpatialExperiment"
   ],
-  "pram": [],
   "primirTSS": [
     "Gviz",
     "biovizBase"
@@ -1343,7 +1320,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "qsea": [],
   "r3Cseq": [],
   "raer": [],
   "recount": [
@@ -1408,7 +1384,6 @@
     "SpatialExperiment"
   ],
   "scmeth": [
-    "bsseq",
     "annotatr",
     "regioneR"
   ],
@@ -1513,7 +1488,6 @@
     "SpatialExperiment"
   ],
   "strandCheckR": [],
-  "survClust": [],
   "svaNUMT": [
     "StructuralVariantAnnotation"
   ],
