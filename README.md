@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1439 (64%)
+- **Successfully Built:** 1442 (64%)
 - **Failed:** 2 (0%)
-- **In Progress:** 269
-- **Not Started:** 534
+- **In Progress:** 268
+- **Not Started:** 532
 
 **Progress:** 64%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1439)
+## Successfully Built Packages (1442)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1389 more ...*
+*... and 1392 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.22/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.22/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.22/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tximport) |
@@ -64,6 +63,7 @@
 | [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.22/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vissE) |
+| [vsclust](https://bioconductor.org/packages/3.22/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.22/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/webbioc) |
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (269)
+## In Progress (268)
 - ⏳ `ADImpute`
 - ⏳ `ADaCGH2`
 - ⏳ `AMARETTO`
@@ -128,16 +128,16 @@
 - ⏳ `DExMA`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
+- ⏳ `DaMiRseq`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
-- ⏳ `FindIT2`
 
-... and 219 more ...
+... and 218 more ...
 
-## Not Yet Started (534)
+## Not Yet Started (532)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 
-... and 484 more ...
+... and 482 more ...
 
 ---
-*Last updated: 2025-11-01 03:12:37 UTC*
-*Packages with verified BBS status: 127*
+*Last updated: 2025-11-01 03:15:09 UTC*
+*Packages with verified BBS status: 128*

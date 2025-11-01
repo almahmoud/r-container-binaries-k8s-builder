@@ -114,6 +114,7 @@ veloviz
 vidger
 viper
 vissE
+vsclust
 vsn
 weaver
 webbioc

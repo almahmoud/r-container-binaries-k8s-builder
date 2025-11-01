@@ -2059,7 +2059,6 @@
     "VariantAnnotation"
   ],
   "mitology": [],
-  "mogsa": [],
   "monaLisa": [
     "TFBSTools"
   ],
@@ -2541,7 +2540,6 @@
     "bumphunter",
     "lumi"
   ],
-  "slalom": [],
   "slingshot": [
     "TrajectoryUtils"
   ],
@@ -2719,7 +2717,6 @@
   "vmrseq": [
     "bumphunter"
   ],
-  "vsclust": [],
   "vtpnet": [
     "gwascat",
     "VariantAnnotation"

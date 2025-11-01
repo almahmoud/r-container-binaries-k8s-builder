@@ -1437,3 +1437,6 @@ Glimma
 GlobalAncova
 PanomiR
 ReducedExperiment
+mogsa
+slalom
+vsclust
