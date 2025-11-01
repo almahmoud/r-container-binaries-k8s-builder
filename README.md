@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1421 (63%)
+- **Successfully Built:** 1430 (63%)
 - **Failed:** 2 (0%)
-- **In Progress:** 261
+- **In Progress:** 252
 - **Not Started:** 560
 
 **Progress:** 63%
@@ -16,7 +16,7 @@
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1421)
+## Successfully Built Packages (1430)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1371 more ...*
+*... and 1380 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (261)
+## In Progress (252)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -94,7 +94,6 @@
 - ⏳ `BSgenomeForge`
 - ⏳ `BUSseq`
 - ⏳ `Basic4Cseq`
-- ⏳ `BiSeq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CBNplot`
 - ⏳ `CDI`
@@ -134,8 +133,9 @@
 - ⏳ `GDCRNATools`
 - ⏳ `GOTHiC`
 - ⏳ `GOpro`
+- ⏳ `GSRI`
 
-... and 211 more ...
+... and 202 more ...
 
 ## Not Yet Started (560)
 - ⏸️ `ADaCGH2`
@@ -192,5 +192,5 @@
 ... and 510 more ...
 
 ---
-*Last updated: 2025-11-01 03:09:03 UTC*
+*Last updated: 2025-11-01 03:10:27 UTC*
 *Packages with verified BBS status: 127*

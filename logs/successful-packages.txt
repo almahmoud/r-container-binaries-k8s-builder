@@ -1419,3 +1419,12 @@ CNVRanger
 covRNA
 EWCE
 nearBynding
+anglemania
+BiSeq
+coseq
+MoonlightR
+protGear
+safe
+scry
+sva
+tilingArray
