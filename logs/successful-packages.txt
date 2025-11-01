@@ -1485,3 +1485,7 @@ zinbwave
 ballgown
 CEMiTool
 RUVSeq
+bnem
+cghMCR
+crlmm
+mBPCR
