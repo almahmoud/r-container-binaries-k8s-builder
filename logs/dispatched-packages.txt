@@ -1850,3 +1850,4 @@ motifmatchr
 scClassify
 InPAS
 segmenter
+yarn

@@ -1690,3 +1690,7 @@ crisprBowtie
 DeeDeeExperiment
 DegCre
 IsoformSwitchAnalyzeR
+crisprBwa
+deconvR
+quantro
+SpliceWiz

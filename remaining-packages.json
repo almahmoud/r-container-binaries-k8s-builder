@@ -726,7 +726,6 @@
   "SpatialFeatureExperiment": [
     "SpatialExperiment"
   ],
-  "SpliceWiz": [],
   "SplicingGraphs": [],
   "SpotClean": [
     "SpatialExperiment"
@@ -1006,7 +1005,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "crisprBwa": [],
   "crisprDesign": [
     "crisprScore",
     "VariantAnnotation"
@@ -1055,7 +1053,6 @@
   "decontX": [
     "celda"
   ],
-  "deconvR": [],
   "deepSNV": [
     "VariantAnnotation"
   ],
@@ -1530,7 +1527,6 @@
     "QFeatures"
   ],
   "qsea": [],
-  "quantro": [],
   "r3Cseq": [],
   "raer": [],
   "recount": [
@@ -1806,9 +1802,7 @@
     "SpatialExperiment",
     "TENxIO"
   ],
-  "yarn": [
-    "quantro"
-  ],
+  "yarn": [],
   "zenith": [
     "EnrichmentBrowser"
   ]
