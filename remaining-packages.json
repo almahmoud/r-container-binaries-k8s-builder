@@ -3,7 +3,6 @@
     "affycoretools",
     "ReportingTools"
   ],
-  "ChAMP": [],
   "IPO": [],
   "LOBSTAHS": [],
   "MAIT": [],
@@ -16,7 +15,6 @@
   "affycoretools": [
     "ReportingTools"
   ],
-  "bioCancer": [],
   "epivizr": [],
   "epivizrChart": [],
   "epivizrStandalone": [

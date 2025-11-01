@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2222 (99%)
+- **Successfully Built:** 2224 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 6
-- **Not Started:** 14
+- **In Progress:** 14
+- **Not Started:** 4
 
 **Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2222)
+## Successfully Built Packages (2224)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 
-*... and 2172 more ...*
+*... and 2174 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,30 +83,28 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (6)
-- ⏳ `ChAMP`
+## In Progress (14)
+- ⏳ `IPO`
+- ⏳ `LOBSTAHS`
+- ⏳ `MAIT`
+- ⏳ `MSnID`
+- ⏳ `RNAAgeCalc`
 - ⏳ `ReportingTools`
-- ⏳ `bioCancer`
+- ⏳ `RnaSeqSampleSize`
+- ⏳ `YAPSA`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
+- ⏳ `flagme`
+- ⏳ `metaMS`
 - ⏳ `methylclock`
+- ⏳ `psichomics`
 
-## Not Yet Started (14)
+## Not Yet Started (4)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `IPO`
-- ⏸️ `LOBSTAHS`
-- ⏸️ `MAIT`
-- ⏸️ `MSnID`
-- ⏸️ `RNAAgeCalc`
-- ⏸️ `RnaSeqSampleSize`
-- ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `epivizrStandalone`
-- ⏸️ `flagme`
-- ⏸️ `metaMS`
-- ⏸️ `psichomics`
 - ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 08:58:50 UTC*
+*Last updated: 2025-11-01 08:59:52 UTC*
 *Packages with verified BBS status: 152*
