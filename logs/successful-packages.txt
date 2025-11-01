@@ -1287,3 +1287,9 @@ mslp
 netboost
 RolDE
 SICtools
+maPredictDSC
+mirIntegrator
+miRNAtap
+multiWGCNA
+omicade4
+tenXplore

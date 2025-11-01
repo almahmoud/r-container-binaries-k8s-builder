@@ -3137,7 +3137,6 @@
   "mBPCR": [
     "oligoClasses"
   ],
-  "maPredictDSC": [],
   "maaslin3": [
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
@@ -3252,7 +3251,6 @@
     "GOstats",
     "genefilter"
   ],
-  "miRNAtap": [],
   "miRSM": [
     "clusterProfiler",
     "ReactomePA",
@@ -3317,7 +3315,6 @@
     "genefilter",
     "GenomicFeatures"
   ],
-  "mirIntegrator": [],
   "missMethyl": [
     "methylumi",
     "minfi",
@@ -3411,7 +3408,6 @@
     "MultiAssayExperiment"
   ],
   "multiGSEA": [],
-  "multiWGCNA": [],
   "multicrispr": [
     "BSgenome",
     "CRISPRseek",
@@ -3505,11 +3501,9 @@
   ],
   "omicRexposome": [
     "sva",
-    "omicade4",
     "MultiDataSet",
     "genefilter"
   ],
-  "omicade4": [],
   "omicsGMF": [
     "SingleCellExperiment",
     "scuttle",
@@ -4262,7 +4256,6 @@
     "BSgenome",
     "biovizBase"
   ],
-  "tenXplore": [],
   "terraTCGAdata": [
     "MultiAssayExperiment",
     "TCGAutils",
