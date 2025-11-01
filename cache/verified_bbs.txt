@@ -83,6 +83,7 @@ survcomp
 swfdr
 switchBox
 synlet
+systemPipeShiny
 tanggle
 ternarynet
 tidysbml

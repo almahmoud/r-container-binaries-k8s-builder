@@ -1,0 +1,678 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpaceMarkers'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'SpaceMarkers'
+Warning: dependencies ‘CoGAPS’, ‘ComplexHeatmap’ are not available
+also installing the dependencies ‘tensor’, ‘spatstat.data’, ‘spatstat.univar’, ‘spatstat.random’, ‘spatstat.utils’, ‘spatstat.sparse’, ‘goftest’, ‘polyclip’, ‘bmp’, ‘tiff’, ‘matrixTests’, ‘spatstat.explore’, ‘spatstat.geom’, ‘hdf5r’, ‘nanoparquet’, ‘readbitmap’, ‘effsize’
+
+trying URL 'https://cloud.r-project.org/src/contrib/tensor_1.5.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.data_3.1-9.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.univar_3.1-4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.random_3.4-2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.utils_3.2-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.sparse_3.1-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/goftest_1.2-3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/polyclip_1.10-7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/bmp_0.3.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/tiff_0.1-12.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/matrixTests_0.2.3.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.explore_3.5-3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/spatstat.geom_3.6-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/hdf5r_1.3.12.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/nanoparquet_0.4.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/readbitmap_0.1.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/effsize_0.8.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpaceMarkers_2.1.0.tar.gz'
+* installing *source* package ‘tensor’ ...
+** this is package ‘tensor’ version ‘1.5.1’
+** package ‘tensor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tensor’ as ‘tensor_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensor)
+* installing *source* package ‘spatstat.utils’ ...
+** this is package ‘spatstat.utils’ version ‘3.2-0’
+** package ‘spatstat.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c circxseg.c -o circxseg.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distseg.c -o distseg.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastinterv.c -o fastinterv.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inxyp.c -o inxyp.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matchindices.c -o matchindices.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matchpoints.c -o matchpoints.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ply.c -o ply.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c primefax.c -o primefax.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c revcum.c -o revcum.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.utils.so circxseg.o distseg.o fastinterv.o init.o inxyp.o matchindices.o matchpoints.o ply.o primefax.o revcum.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.utils/00new/spatstat.utils/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.utils’ as ‘spatstat.utils_3.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.utils)
+* installing *source* package ‘goftest’ ...
+** this is package ‘goftest’ version ‘1.2-3’
+** package ‘goftest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ADinf.c -o ADinf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AnDarl.c -o AnDarl.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o goftest.so ADinf.o AnDarl.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-goftest/00new/goftest/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘goftest’ as ‘goftest_1.2-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goftest)
+* installing *source* package ‘polyclip’ ...
+** this is package ‘polyclip’ version ‘1.10-7’
+** package ‘polyclip’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+Using PKG_CONFIG: pkgconf
+Compiling against bundled copy of clipper library.
+checking for int64_t... yes
+     In the clipper library, signed 64-bit integers (cInt)
+     will be declared as 'int64_t'
+checking for uint64_t... yes
+     In the clipper library, unsigned 64-bit integers (cUInt)
+     will be declared as 'uint64_t'
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c interface.cpp -o interface.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c clipper.cpp -o clipper.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o polyclip.so init.o interface.o clipper.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-polyclip/00new/polyclip/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *source* package ‘bmp’ ...
+** this is package ‘bmp’ version ‘0.3.1’
+** package ‘bmp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bmp’ as ‘bmp_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bmp)
+* installing *source* package ‘tiff’ ...
+** this is package ‘tiff’ version ‘0.1-12’
+** package ‘tiff’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking for TIFFClientOpen in -ltiff... yes
+configure:  PKG_CPPFLAGS: -I/usr/local/include 
+configure:  PKG_LIBS    : -ltiff  
+checking for tiff.h... yes
+checking for tiffio.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.c -o common.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o tiff.so common.o read.o reg.o write.o -ltiff -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-tiff/00new/tiff/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tiff’ as ‘tiff_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiff)
+* installing *source* package ‘matrixTests’ ...
+** this is package ‘matrixTests’ version ‘0.2.3.1’
+** package ‘matrixTests’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘matrixTests’ as ‘matrixTests_0.2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matrixTests)
+* installing *source* package ‘hdf5r’ ...
+** this is package ‘hdf5r’ version ‘1.3.12’
+** package ‘hdf5r’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for gawk... no
+checking for mawk... mawk
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for h5cc... /usr/bin/h5cc
+checking for HDF5 libraries... yes (version 1.10.10)
+checking for hdf5.h... yes
+checking for H5Fcreate in -lhdf5... yes
+checking for hdf5_hl.h... yes
+checking for H5LTpath_valid in -lhdf5_hl... yes
+checking for main in -lhdf5_hl... yes
+checking for matching HDF5 Fortran wrapper... /usr/bin/h5fc
+Found hdf5 with version: 1.10.10
+checking for ggrep... /usr/bin/grep
+checking whether /usr/bin/grep accepts -o... yes
+checking for ggrep... (cached) /usr/bin/grep
+checking whether /usr/bin/grep accepts -o... yes
+Using variables:
+HDF5_LIBS= -L/usr/lib/x86_64-linux-gnu/hdf5/serial  -lcrypto  -lcurl  -lpthread  -lsz  -lz  -ldl  -lm  -L. -lhdf5_hl -lhdf5 -lz -lm
+HDF5_CFLAGS=
+HDF5_CPPFLAGS=-I/usr/include/hdf5/serial 
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+cp 1_10_3/*.c 1_10_3/*.h .
+if [ "1.10.6" != "" ]; then patch -p2 < patch_1.10.6; fi
+patching file datatype_export.c
+Hunk #1 succeeded at 1901 (offset 1 line).
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c const_export.c -o const_export.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c datatype_export.c -o datatype_export.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5A.c -o Wrapper_auto_H5A.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5.c -o Wrapper_auto_H5.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5D.c -o Wrapper_auto_H5D.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5DS.c -o Wrapper_auto_H5DS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5E.c -o Wrapper_auto_H5E.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5F.c -o Wrapper_auto_H5F.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5G.c -o Wrapper_auto_H5G.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5I.c -o Wrapper_auto_H5I.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5IM.c -o Wrapper_auto_H5IM.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5L.c -o Wrapper_auto_H5L.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5LT.c -o Wrapper_auto_H5LT.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5O.c -o Wrapper_auto_H5O.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5P.c -o Wrapper_auto_H5P.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5R.c -o Wrapper_auto_H5R.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5S.c -o Wrapper_auto_H5S.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5TB.c -o Wrapper_auto_H5TB.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5T.c -o Wrapper_auto_H5T.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5Z.c -o Wrapper_auto_H5Z.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5FDcore.c -o Wrapper_auto_H5FDcore.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5FDfamily.c -o Wrapper_auto_H5FDfamily.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5FDlog.c -o Wrapper_auto_H5FDlog.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5FDsec2.c -o Wrapper_auto_H5FDsec2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_auto_H5FDstdio.c -o Wrapper_auto_H5FDstdio.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c convert.c -o convert.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hdf5r_init.c -o hdf5r_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5Error.c -o H5Error.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5ls.c -o H5ls.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/hdf5/serial   -I/usr/local/include   -D__USE_MINGW_ANSI_STDIO  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Wrapper_manual_H5T.c -o Wrapper_manual_H5T.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hdf5r.so const_export.o datatype_export.o Wrapper_auto_H5A.o Wrapper_auto_H5.o Wrapper_auto_H5D.o Wrapper_auto_H5DS.o Wrapper_auto_H5E.o Wrapper_auto_H5F.o Wrapper_auto_H5G.o Wrapper_auto_H5I.o Wrapper_auto_H5IM.o Wrapper_auto_H5L.o Wrapper_auto_H5LT.o Wrapper_auto_H5O.o Wrapper_auto_H5P.o Wrapper_auto_H5R.o Wrapper_auto_H5S.o Wrapper_auto_H5TB.o Wrapper_auto_H5T.o Wrapper_auto_H5Z.o Wrapper_auto_H5FDcore.o Wrapper_auto_H5FDfamily.o Wrapper_auto_H5FDlog.o Wrapper_auto_H5FDsec2.o Wrapper_auto_H5FDstdio.o convert.o hdf5r_init.o H5Error.o H5ls.o Wrapper_manual_H5T.o -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lcrypto -lcurl -lpthread -lsz -lz -ldl -lm -L. -lhdf5_hl -lhdf5 -lz -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-hdf5r/00new/hdf5r/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hdf5r’ as ‘hdf5r_1.3.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hdf5r)
+* installing *source* package ‘nanoparquet’ ...
+** this is package ‘nanoparquet’ version ‘0.4.2’
+** package ‘nanoparquet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** using 16 processors (unless configured differently in Makeconf).
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lib/ParquetReader.cpp -o lib/ParquetReader.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RParquetReader.cpp -o RParquetReader.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RParquetAppender.cpp -o RParquetAppender.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RParquetOutFile.cpp -o RParquetOutFile.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c r-utils.cpp -o r-utils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rwrapper.cpp -o rwrapper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c protect.cpp -o protect.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read2.cpp -o read2.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c write2.cpp -o write2.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp-utils.cpp -o cpp-utils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read-metadata.cpp -o read-metadata.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read-pages.cpp -o read-pages.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c arrow-schema.cpp -o arrow-schema.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c base64.cpp -o base64.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c r-base64.cpp -o r-base64.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c snappy.cpp -o snappy.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c encodings.cpp -o encodings.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dictionary-encoding.cpp -o dictionary-encoding.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test.cpp -o test.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lib/ParquetOutFile.cpp -o lib/ParquetOutFile.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lib/RleBpDecoder.cpp -o lib/RleBpDecoder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c parquet/parquet_types.cpp -o parquet/parquet_types.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c thrift/protocol/TProtocol.cpp -o thrift/protocol/TProtocol.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c thrift/transport/TTransportException.cpp -o thrift/transport/TTransportException.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c thrift/transport/TBufferTransports.cpp -o thrift/transport/TBufferTransports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fastpforlib/bitpacking.cpp -o fastpforlib/bitpacking.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c snappy/snappy.cc -o snappy/snappy.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c snappy/snappy-sinksource.cc -o snappy/snappy-sinksource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c miniz/miniz.cpp -o miniz/miniz.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/common/entropy_common.cpp -o zstd/common/entropy_common.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/common/error_private.cpp -o zstd/common/error_private.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/common/fse_decompress.cpp -o zstd/common/fse_decompress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/common/xxhash.cpp -o zstd/common/xxhash.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/common/zstd_common.cpp -o zstd/common/zstd_common.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/decompress/huf_decompress.cpp -o zstd/decompress/huf_decompress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/decompress/zstd_ddict.cpp -o zstd/decompress/zstd_ddict.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/decompress/zstd_decompress.cpp -o zstd/decompress/zstd_decompress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/decompress/zstd_decompress_block.cpp -o zstd/decompress/zstd_decompress_block.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/fse_compress.cpp -o zstd/compress/fse_compress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/hist.cpp -o zstd/compress/hist.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/huf_compress.cpp -o zstd/compress/huf_compress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_compress.cpp -o zstd/compress/zstd_compress.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_compress_literals.cpp -o zstd/compress/zstd_compress_literals.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_compress_sequences.cpp -o zstd/compress/zstd_compress_sequences.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_compress_superblock.cpp -o zstd/compress/zstd_compress_superblock.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_double_fast.cpp -o zstd/compress/zstd_double_fast.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_fast.cpp -o zstd/compress/zstd_fast.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_lazy.cpp -o zstd/compress/zstd_lazy.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_ldm.cpp -o zstd/compress/zstd_ldm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Ithrift -I. -Izstd/include  -I/usr/local/include   -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zstd/compress/zstd_opt.cpp -o zstd/compress/zstd_opt.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o nanoparquet.so lib/ParquetReader.o RParquetReader.o RParquetAppender.o RParquetOutFile.o r-utils.o rwrapper.o protect.o read2.o write2.o cpp-utils.o read-metadata.o read-pages.o arrow-schema.o base64.o r-base64.o snappy.o encodings.o dictionary-encoding.o test.o lib/ParquetOutFile.o lib/RleBpDecoder.o parquet/parquet_types.o thrift/protocol/TProtocol.o thrift/transport/TTransportException.o thrift/transport/TBufferTransports.o fastpforlib/bitpacking.o snappy/snappy.o snappy/snappy-sinksource.o miniz/miniz.o zstd/common/entropy_common.o zstd/common/error_private.o zstd/common/fse_decompress.o zstd/common/xxhash.o zstd/common/zstd_common.o zstd/decompress/huf_decompress.o zstd/decompress/zstd_ddict.o zstd/decompress/zstd_decompress.o zstd/decompress/zstd_decompress_block.o zstd/compress/fse_compress.o zstd/compress/hist.o zstd/compress/huf_compress.o zstd/compress/zstd_compress.o zstd/compress/zstd_compress_literals.o zstd/compress/zstd_compress_sequences.o zstd/compress/zstd_compress_superblock.o zstd/compress/zstd_double_fast.o zstd/compress/zstd_fast.o zstd/compress/zstd_lazy.o zstd/compress/zstd_ldm.o zstd/compress/zstd_opt.o -L/usr/local/lib/R/lib -lR
+installing via 'install.libs.R' to /tmp/library/00LOCK-nanoparquet/00new/nanoparquet
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘nanoparquet’ as ‘nanoparquet_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanoparquet)
+* installing *source* package ‘effsize’ ...
+** this is package ‘effsize’ version ‘0.8.1’
+** package ‘effsize’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘effsize’ as ‘effsize_0.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (effsize)
+* installing *source* package ‘spatstat.data’ ...
+** this is package ‘spatstat.data’ version ‘3.1-9’
+** package ‘spatstat.data’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.data’ as ‘spatstat.data_3.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.data)
+* installing *source* package ‘spatstat.univar’ ...
+** this is package ‘spatstat.univar’ version ‘3.1-4’
+** package ‘spatstat.univar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c access.c -o access.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adaptive.c -o adaptive.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colonel.c -o colonel.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hotrod.c -o hotrod.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kernels.c -o kernels.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tabnum.c -o tabnum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c taylorboot.c -o taylorboot.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c whist.c -o whist.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.univar.so access.o adaptive.o colonel.o hotrod.o init.o kernels.o tabnum.o taylorboot.o whist.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.univar/00new/spatstat.univar/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.univar’ as ‘spatstat.univar_3.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.univar)
+* installing *source* package ‘spatstat.sparse’ ...
+** this is package ‘spatstat.sparse’ version ‘3.1-0’
+** package ‘spatstat.sparse’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c linalg.c -o linalg.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparselinalg.c -o sparselinalg.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.sparse.so init.o linalg.o sparselinalg.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.sparse/00new/spatstat.sparse/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.sparse’ as ‘spatstat.sparse_3.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.sparse)
+* installing *source* package ‘readbitmap’ ...
+** this is package ‘readbitmap’ version ‘0.1.5’
+** package ‘readbitmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘readbitmap’ as ‘readbitmap_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readbitmap)
+* installing *source* package ‘spatstat.geom’ ...
+** this is package ‘spatstat.geom’ version ‘3.6-0’
+** package ‘spatstat.geom’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c areadiff.c -o areadiff.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c auctionbf.c -o auctionbf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bdrymask.c -o bdrymask.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c close3pair.c -o close3pair.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c closepair.c -o closepair.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connectgraph.c -o connectgraph.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connectpix.c -o connectpix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dinfty.c -o dinfty.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c discarea.c -o discarea.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c discs.c -o discs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dist2dpath.c -o dist2dpath.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distan3.c -o distan3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distances.c -o distances.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distmapbin.c -o distmapbin.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dwpure.c -o dwpure.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exactPdist.c -o exactPdist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exactdist.c -o exactdist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fardist.c -o fardist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hasclose.c -o hasclose.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c knndistance.c -o knndistance.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c knngrid.c -o knngrid.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loccum.c -o loccum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c metricPdist.c -o metricPdist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minnnd.c -o minnnd.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nearestpix.c -o nearestpix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nn3Ddist.c -o nn3Ddist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nnMDdist.c -o nnMDdist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nndistance.c -o nndistance.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nngrid.c -o nngrid.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c periodic.c -o periodic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c poly2im.c -o poly2im.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quasirandom.c -o quasirandom.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raster.c -o raster.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rasterfilter.c -o rasterfilter.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scan.c -o scan.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c seg2pix.c -o seg2pix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trigraf.c -o trigraf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uniquemap.c -o uniquemap.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c veegraf.c -o veegraf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xyseg.c -o xyseg.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.geom.so areadiff.o auctionbf.o bdrymask.o close3pair.o closepair.o connectgraph.o connectpix.o dinfty.o discarea.o discs.o dist2dpath.o distan3.o distances.o distmapbin.o dwpure.o exactPdist.o exactdist.o fardist.o hasclose.o init.o knndistance.o knngrid.o loccum.o metricPdist.o minnnd.o nearestpix.o nn3Ddist.o nnMDdist.o nndistance.o nngrid.o periodic.o poly2im.o quasirandom.o raster.o rasterfilter.o scan.o seg2pix.o trigraf.o uniquemap.o veegraf.o xyseg.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.geom/00new/spatstat.geom/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.geom’ as ‘spatstat.geom_3.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.geom)
+* installing *source* package ‘spatstat.random’ ...
+** this is package ‘spatstat.random’ version ‘3.4-2’
+** package ‘spatstat.random’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Perfect.cc -o Perfect.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c areaint.c -o areaint.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c badgey.c -o badgey.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgs.c -o dgs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c diggra.c -o diggra.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dist2.c -o dist2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fiksel.c -o fiksel.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getcif.c -o getcif.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geyer.c -o geyer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hardcore.c -o hardcore.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lennard.c -o lennard.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lookup.c -o lookup.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c methas.c -o methas.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mhsnoop.c -o mhsnoop.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c multihard.c -o multihard.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c penttinen.c -o penttinen.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcauchy.c -o rcauchy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmatclus.c -o rmatclus.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rthin.c -o rthin.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rthomas.c -o rthomas.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rtruncpois.c -o rtruncpois.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sftcr.c -o sftcr.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c straush.c -o straush.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c straushm.c -o straushm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c strauss.c -o strauss.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c straussm.c -o straussm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c triplets.c -o triplets.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.random.so Perfect.o areaint.o badgey.o dgs.o diggra.o dist2.o fiksel.o getcif.o geyer.o hardcore.o init.o lennard.o lookup.o methas.o mhsnoop.o multihard.o penttinen.o rcauchy.o rmatclus.o rthin.o rthomas.o rtruncpois.o sftcr.o straush.o straushm.o strauss.o straussm.o triplets.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.random/00new/spatstat.random/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.random’ as ‘spatstat.random_3.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.random)
+* installing *source* package ‘spatstat.explore’ ...
+** this is package ‘spatstat.explore’ version ‘3.5-3’
+** package ‘spatstat.explore’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Kborder.c -o Kborder.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Knone.c -o Knone.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Krect.c -o Krect.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c call3d.c -o call3d.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c corrections.c -o corrections.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c denspt.c -o denspt.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densptcross.c -o densptcross.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c digber.c -o digber.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c f3.c -o f3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c g3.c -o g3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c idw.c -o idw.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c k3.c -o k3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c localpcf.c -o localpcf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loccum.c -o loccum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pcf3.c -o pcf3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raster.c -o raster.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scan.c -o scan.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c segdens.c -o segdens.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sphefrac.c -o sphefrac.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sphevol.c -o sphevol.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o spatstat.explore.so Kborder.o Knone.o Krect.o call3d.o corrections.o denspt.o densptcross.o digber.o f3.o g3.o idw.o init.o k3.o localpcf.o loccum.o pcf3.o raster.o scan.o segdens.o sphefrac.o sphevol.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-spatstat.explore/00new/spatstat.explore/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spatstat.explore’ as ‘spatstat.explore_3.5-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.explore)
+* installing *source* package ‘SpaceMarkers’ ...
+** this is package ‘SpaceMarkers’ version ‘2.1.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SpaceMarkers’ as ‘SpaceMarkers_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpaceMarkers)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4LG7DD/downloaded_packages’
+Old packages: 'promises'
+
+real	3m6.362s
+user	3m40.112s
+sys	0m35.647s

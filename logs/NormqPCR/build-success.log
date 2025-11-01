@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''NormqPCR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'NormqPCR'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/NormqPCR_1.57.0.tar.gz'
+Content type 'application/x-gzip' length 428150 bytes (418 KB)
+==================================================
+downloaded 418 KB
+
+* installing *source* package ‘NormqPCR’ ...
+** this is package ‘NormqPCR’ version ‘1.57.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning messages:
+1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
+2: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning. 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package can be loaded from final location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NormqPCR’ as ‘NormqPCR_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NormqPCR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbLmMwQ/downloaded_packages’
+Old packages: 'promises'
+
+real	0m11.908s
+user	0m8.382s
+sys	0m2.224s
