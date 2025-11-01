@@ -25,7 +25,6 @@
   "ChAMP": [
     "DMRcate"
   ],
-  "CircSeqAlignTk": [],
   "CluMSID": [
     "MSnbase"
   ],
@@ -47,8 +46,7 @@
     "ggbio"
   ],
   "GNOSIS": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "GSReg": [],
   "GUIDEseq": [],
@@ -117,7 +115,6 @@
   "RNAmodR.AlkAnilineSeq": [],
   "RNAmodR.ML": [],
   "RNAmodR.RiboMethSeq": [],
-  "RTCGAToolbox": [],
   "RbowtieCuda": [],
   "ReportingTools": [
     "ggbio"
@@ -163,23 +160,18 @@
   ],
   "bigmelon": [],
   "bioCancer": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "biscuiteer": [],
-  "cBioPortalData": [
-    "RTCGAToolbox"
-  ],
+  "cBioPortalData": [],
   "cageminer": [
     "ggbio"
   ],
   "canceR": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "cbaf": [
-    "cBioPortalData",
-    "RTCGAToolbox"
+    "cBioPortalData"
   ],
   "cliqueMS": [
     "xcms",
@@ -262,7 +254,6 @@
     "MSnbase",
     "msmsEDA"
   ],
-  "mspms": [],
   "msqrob2": [],
   "multicrispr": [],
   "musicatk": [],

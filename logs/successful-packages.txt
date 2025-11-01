@@ -2081,3 +2081,6 @@ SpatialFeatureExperiment
 concordexR
 smoppix
 SVP
+CircSeqAlignTk
+mspms
+RTCGAToolbox
