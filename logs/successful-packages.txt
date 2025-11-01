@@ -2093,3 +2093,5 @@ CNVfilteR
 CNViz
 gDR
 magpie
+omicsGMF
+tpSVG
