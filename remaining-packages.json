@@ -774,7 +774,6 @@
   "EGAD": [],
   "EGSEA": [
     "gage",
-    "pathview",
     "PADOG",
     "GSVA",
     "globaltest",
@@ -821,7 +820,6 @@
   "EnrichmentBrowser": [
     "GSEABase",
     "graphite",
-    "pathview",
     "safe"
   ],
   "EpiCompare": [
@@ -933,7 +931,6 @@
   "GDCRNATools": [
     "clusterProfiler",
     "DOSE",
-    "pathview",
     "enrichplot"
   ],
   "GENESIS": [
@@ -973,7 +970,6 @@
     "ExperimentHub",
     "GSEABase",
     "graphite",
-    "pathview",
     "safe"
   ],
   "GSRI": [
@@ -1709,7 +1705,6 @@
     "MultiAssayExperiment"
   ],
   "PhosR": [],
-  "PolySTest": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -1748,7 +1743,6 @@
   "QFeatures": [
     "MultiAssayExperiment"
   ],
-  "QTLExperiment": [],
   "QuasR": [
     "BSgenome",
     "GenomicFeatures",
@@ -1888,8 +1882,6 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "RNAsense": [],
-  "ROCpAI": [],
   "RSVSim": [],
   "RTCGAToolbox": [
     "RaggedExperiment",
@@ -2037,9 +2029,7 @@
     "BSgenome"
   ],
   "SAIGEgds": [],
-  "SBGNview": [
-    "pathview"
-  ],
+  "SBGNview": [],
   "SC3": [
     "SingleCellExperiment"
   ],
@@ -2244,7 +2234,6 @@
     "SpatialExperiment",
     "scuttle"
   ],
-  "SpectralTAD": [],
   "SpliceWiz": [
     "BSgenome",
     "genefilter",
@@ -2288,7 +2277,6 @@
     "TCGAbiolinks",
     "SingleCellExperiment"
   ],
-  "TADCompare": [],
   "TAPseq": [
     "BSgenome",
     "GenomicFeatures",
@@ -3168,7 +3156,6 @@
     "clusterProfiler",
     "sva",
     "enrichplot",
-    "pathview",
     "genefilter"
   ],
   "decompTumor2Sig": [
@@ -3273,7 +3260,6 @@
     "zenith",
     "EnrichmentBrowser",
     "graphite",
-    "pathview",
     "safe"
   ],
   "drugTargetInteractions": [
@@ -3737,7 +3723,6 @@
     "genefilter"
   ],
   "ipdDb": [],
-  "isobar": [],
   "ivygapSE": [],
   "jazzPanda": [
     "SpatialExperiment",
@@ -4192,9 +4177,7 @@
     "VariantAnnotation",
     "ensembldb"
   ],
-  "multistateQTL": [
-    "QTLExperiment"
-  ],
+  "multistateQTL": [],
   "mumosa": [
     "SingleCellExperiment",
     "scuttle",
@@ -4374,7 +4357,6 @@
     "DOSE",
     "enrichplot"
   ],
-  "pathview": [],
   "pcaExplorer": [
     "mosdef",
     "genefilter",
@@ -5433,7 +5415,6 @@
     "EnrichmentBrowser",
     "GSEABase",
     "graphite",
-    "pathview",
     "safe"
   ],
   "zinbwave": [

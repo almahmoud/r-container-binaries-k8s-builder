@@ -1320,3 +1320,5 @@ ontoProc
 rGenomeTracks
 segmentSeq
 systemPipeR
+SBGNview
+multistateQTL
