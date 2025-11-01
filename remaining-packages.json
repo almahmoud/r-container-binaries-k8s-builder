@@ -518,7 +518,6 @@
   "SeqSQC": [],
   "SeqVarTools": [],
   "SiPSiC": [],
-  "SigCheck": [],
   "SimBu": [],
   "SimFFPE": [],
   "SingleCellAlleleExperiment": [],
@@ -658,7 +657,6 @@
   "atSNP": [
     "motifStack"
   ],
-  "attract": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
