@@ -122,7 +122,6 @@
   "CatsCradle": [
     "SpatialExperiment"
   ],
-  "CellTrails": [],
   "Cepo": [],
   "CexoR": [
     "genomation"
@@ -516,7 +515,6 @@
     "HelloRanges",
     "VariantAnnotation"
   ],
-  "ORFhunteR": [],
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
