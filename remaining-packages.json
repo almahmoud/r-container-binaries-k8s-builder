@@ -536,7 +536,6 @@
     "MAST"
   ],
   "chimeraviz": [],
-  "chipseq": [],
   "chromVAR": [],
   "cicero": [],
   "circRNAprofiler": [
@@ -609,7 +608,6 @@
   "dmrseq": [
     "annotatr"
   ],
-  "easier": [],
   "enhancerHomologSearch": [
     "motifmatchr"
   ],
@@ -725,7 +723,6 @@
   "linkSet": [
     "Organism.dplyr"
   ],
-  "lipidr": [],
   "lisaClust": [
     "spicyR",
     "SpatialExperiment",
@@ -1019,9 +1016,7 @@
   ],
   "trackViewer": [],
   "tradeSeq": [],
-  "transcriptR": [
-    "chipseq"
-  ],
+  "transcriptR": [],
   "transformGamPoi": [
     "glmGamPoi"
   ],
