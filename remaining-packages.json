@@ -509,7 +509,6 @@
   ],
   "CyTOFpower": [],
   "CytoMDS": [],
-  "CytoPipelineGUI": [],
   "DAMEfinder": [
     "VariantAnnotation",
     "bumphunter",
@@ -2355,7 +2354,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "basecallQC": [],
   "batchelor": [
     "SingleCellExperiment",
     "scuttle"
@@ -2865,7 +2863,6 @@
   "dittoSeq": [
     "SingleCellExperiment"
   ],
-  "dmGsea": [],
   "dmrseq": [
     "bsseq",
     "bumphunter",
@@ -3091,7 +3088,6 @@
   "genomation": [
     "BSgenome"
   ],
-  "genomicInstability": [],
   "geomeTriD": [
     "trackViewer",
     "GenomicFeatures",
@@ -3115,7 +3111,6 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "ggmanh": [],
   "ggsc": [
     "SingleCellExperiment"
   ],
@@ -3155,7 +3150,6 @@
   ],
   "graphite": [],
   "groHMM": [],
-  "gscreend": [],
   "gwascat": [
     "GenomicFeatures",
     "VariantAnnotation",
@@ -4623,7 +4617,6 @@
     "tidySingleCellExperiment",
     "SingleCellExperiment"
   ],
-  "tidybulk": [],
   "tidyomics": [
     "tidySingleCellExperiment",
     "tidySpatialExperiment",

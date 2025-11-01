@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1145 (51%)
+- **Successfully Built:** 1152 (51%)
 - **Failed:** 2 (0%)
-- **In Progress:** 226
-- **Not Started:** 871
+- **In Progress:** 238
+- **Not Started:** 852
 
 **Progress:** 51%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1145)
+## Successfully Built Packages (1152)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1095 more ...*
+*... and 1102 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,25 +83,30 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (226)
+## In Progress (238)
 - ⏳ `ACE`
 - ⏳ `BSgenome`
+- ⏳ `BiocHubsShiny`
+- ⏳ `BloodGen3Module`
+- ⏳ `CBN2Path`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
+- ⏳ `CTdata`
 - ⏳ `ChromHeatMap`
 - ⏳ `CoverageView`
 - ⏳ `CyTOFpower`
 - ⏳ `CytoMDS`
-- ⏳ `CytoPipelineGUI`
 - ⏳ `DEGreport`
 - ⏳ `DEWSeq`
 - ⏳ `DEsubs`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DOSE`
+- ⏳ `DeepTarget`
 - ⏳ `EBSEA`
 - ⏳ `EGAD`
 - ⏳ `ERSSA`
+- ⏳ `EpipwR`
 - ⏳ `ExCluster`
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
@@ -122,22 +127,17 @@
 - ⏳ `KEGGlincs`
 - ⏳ `LACE`
 - ⏳ `LRBaseDbi`
+- ⏳ `LRcell`
 - ⏳ `LimROTS`
 - ⏳ `LipidTrend`
 - ⏳ `LiquidAssociation`
+- ⏳ `MACSr`
 - ⏳ `MAI`
 - ⏳ `MBASED`
-- ⏳ `MBQN`
-- ⏳ `MCbiclust`
-- ⏳ `MGFM`
-- ⏳ `MLP`
-- ⏳ `MODA`
-- ⏳ `MPRAnalyze`
-- ⏳ `MWASTools`
 
-... and 176 more ...
+... and 188 more ...
 
-## Not Yet Started (871)
+## Not Yet Started (852)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -180,17 +180,17 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
-- ⏸️ `BiocHubsShiny`
-- ⏸️ `BloodGen3Module`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
 - ⏸️ `CARDspa`
+- ⏸️ `CATALYST`
+- ⏸️ `CBNplot`
 
-... and 821 more ...
+... and 802 more ...
 
 ---
-*Last updated: 2025-11-01 01:59:07 UTC*
+*Last updated: 2025-11-01 02:01:07 UTC*
 *Packages with verified BBS status: 118*

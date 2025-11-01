@@ -1143,3 +1143,10 @@ nucleR
 OTUbase
 segmentSeq
 TCGAbiolinks
+basecallQC
+CytoPipelineGUI
+dmGsea
+genomicInstability
+ggmanh
+gscreend
+tidybulk
