@@ -1,28 +1,22 @@
 {
   "AHMassBank": [
-    "AnnotationHubData",
-    "OrganismDbi"
+    "AnnotationHubData"
   ],
   "ATACseqQC": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
-  "AnnotationHubData": [
-    "OrganismDbi"
-  ],
+  "AnnotationHubData": [],
   "BASiCStan": [],
   "BOBaFIT": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "Banksy": [],
   "BulkSignalR": [],
   "CAFE": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "CAGEfightR": [],
   "CAGEr": [
@@ -66,8 +60,7 @@
   "DESpace": [],
   "DMRcate": [],
   "Damsel": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "DeconvoBuddies": [],
   "EGSEA": [
@@ -75,30 +68,24 @@
   ],
   "EventPointer": [],
   "ExperimentHubData": [
-    "AnnotationHubData",
-    "OrganismDbi"
+    "AnnotationHubData"
   ],
   "ExperimentSubset": [],
   "FEAST": [],
   "FLAMES": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "GA4GHshiny": [],
-  "GENESIS": [],
   "GNOSIS": [
     "cBioPortalData",
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GSReg": [
-    "OrganismDbi"
-  ],
+  "GSReg": [],
   "GSVA": [],
   "GUIDEseq": [],
   "GenomicOZone": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "GenomicPlot": [],
   "HiCDCPlus": [],
@@ -158,7 +145,6 @@
     "ATACseqQC"
   ],
   "OMICsPCA": [],
-  "OrganismDbi": [],
   "PRONE": [
     "MSnbase",
     "PSMatch"
@@ -175,12 +161,9 @@
   ],
   "QuasR": [],
   "R3CPET": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
-  "RAIDS": [
-    "GENESIS"
-  ],
+  "RAIDS": [],
   "REDseq": [],
   "RMassBank": [
     "MSnbase",
@@ -198,13 +181,11 @@
   ],
   "RbowtieCuda": [],
   "ReportingTools": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "Rhisat2": [],
   "RiboProfiling": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "RnaSeqSampleSize": [
     "recount",
@@ -227,8 +208,7 @@
     "QuasR"
   ],
   "SomaticSignatures": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "SpaNorm": [],
   "SpaceTrooper": [
@@ -259,13 +239,11 @@
   ],
   "YAPSA": [
     "SomaticSignatures",
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "affycoretools": [
     "ReportingTools",
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "alabaster": [
     "alabaster.spatial"
@@ -275,9 +253,7 @@
     "alabaster.spatial"
   ],
   "alabaster.spatial": [],
-  "appreci8R": [
-    "OrganismDbi"
-  ],
+  "appreci8R": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -290,16 +266,14 @@
     "TCGAutils"
   ],
   "biscuiteer": [
-    "dmrseq",
-    "OrganismDbi"
+    "dmrseq"
   ],
   "cBioPortalData": [
     "RTCGAToolbox",
     "TCGAutils"
   ],
   "cageminer": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "canceR": [
     "cBioPortalData",
@@ -344,28 +318,20 @@
   "derfinder": [],
   "derfinderPlot": [
     "derfinder",
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "dmrseq": [],
-  "epimutacions": [
-    "OrganismDbi"
-  ],
+  "epimutacions": [],
   "epivizr": [
-    "epivizrData",
-    "OrganismDbi"
+    "epivizrData"
   ],
   "epivizrChart": [
-    "epivizrData",
-    "OrganismDbi"
+    "epivizrData"
   ],
-  "epivizrData": [
-    "OrganismDbi"
-  ],
+  "epivizrData": [],
   "epivizrStandalone": [
     "epivizr",
-    "epivizrData",
-    "OrganismDbi"
+    "epivizrData"
   ],
   "escheR": [],
   "flagme": [
@@ -380,9 +346,7 @@
   "geomeTriD": [
     "trackViewer"
   ],
-  "ggbio": [
-    "OrganismDbi"
-  ],
+  "ggbio": [],
   "ggspavis": [],
   "glmSparseNet": [
     "TCGAutils"
@@ -405,8 +369,7 @@
     "cytomapper"
   ],
   "intansv": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "jazzPanda": [],
   "lemur": [],
@@ -428,16 +391,14 @@
   "methylGSA": [],
   "methylclock": [
     "ExperimentHubData",
-    "AnnotationHubData",
-    "OrganismDbi"
+    "AnnotationHubData"
   ],
   "miaDash": [
     "iSEEtree"
   ],
   "mitoClone2": [],
   "msgbsR": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "msmsEDA": [
     "MSnbase",
@@ -510,19 +471,16 @@
   "saseR": [],
   "scTreeViz": [
     "epivizr",
-    "epivizrData",
-    "OrganismDbi"
+    "epivizrData"
   ],
   "scafari": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "scider": [],
   "scmeth": [],
   "scp": [],
   "scruff": [
-    "ggbio",
-    "OrganismDbi"
+    "ggbio"
   ],
   "shinyDSP": [
     "standR"
@@ -560,7 +518,6 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "srnadiff": [],
   "stJoincount": [],
   "stPipe": [],
   "standR": [],
@@ -578,9 +535,7 @@
   "tpSVG": [],
   "trackViewer": [],
   "transformGamPoi": [],
-  "uncoverappLib": [
-    "OrganismDbi"
-  ],
+  "uncoverappLib": [],
   "visiumStitched": [],
   "vtpnet": [],
   "vulcan": [],
