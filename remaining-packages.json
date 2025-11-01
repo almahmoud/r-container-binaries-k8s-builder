@@ -47,7 +47,6 @@
   "EGSEA": [
     "GSVA"
   ],
-  "EventPointer": [],
   "ExperimentHubData": [
     "AnnotationHubData"
   ],
@@ -97,7 +96,6 @@
     "MSstatsQC",
     "MSnbase"
   ],
-  "MoleculeExperiment": [],
   "MsQuality": [],
   "NADfinder": [
     "ATACseqQC"
@@ -278,7 +276,6 @@
   "iSEEfier": [
     "iSEEu"
   ],
-  "iSEEtree": [],
   "iSEEu": [],
   "ideal": [],
   "imcRtools": [
@@ -306,9 +303,7 @@
     "ExperimentHubData",
     "AnnotationHubData"
   ],
-  "miaDash": [
-    "iSEEtree"
-  ],
+  "miaDash": [],
   "mitoClone2": [],
   "msgbsR": [
     "ggbio"
@@ -431,7 +426,6 @@
     "MSnbase"
   ],
   "tpSVG": [],
-  "transformGamPoi": [],
   "uncoverappLib": [],
   "visiumStitched": [],
   "vulcan": [],
