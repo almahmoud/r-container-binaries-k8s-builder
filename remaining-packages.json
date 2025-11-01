@@ -1362,7 +1362,6 @@
     "txdbmaker"
   ],
   "OVESEG": [],
-  "OmaDB": [],
   "Organism.dplyr": [
     "GenomicFeatures"
   ],
@@ -2006,7 +2005,6 @@
     "BSgenome",
     "biovizBase"
   ],
-  "TissueEnrich": [],
   "ToxicoGx": [
     "CoreGx",
     "MultiAssayExperiment"
