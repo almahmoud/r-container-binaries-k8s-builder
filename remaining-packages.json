@@ -3,20 +3,9 @@
     "affycoretools"
   ],
   "IPO": [],
-  "LOBSTAHS": [],
-  "MAIT": [],
-  "MSnID": [],
-  "RNAAgeCalc": [],
   "RbowtieCuda": [],
-  "RnaSeqSampleSize": [],
-  "YAPSA": [],
   "affycoretools": [],
-  "epivizrChart": [],
-  "epivizrStandalone": [],
-  "flagme": [],
   "metaMS": [],
-  "methylclock": [],
-  "psichomics": [],
   "sangeranalyseR": [],
   "scTreeViz": []
 }

@@ -2224,3 +2224,14 @@ bioCancer
 ChAMP
 epivizr
 ReportingTools
+epivizrChart
+epivizrStandalone
+flagme
+LOBSTAHS
+MAIT
+methylclock
+MSnID
+psichomics
+RNAAgeCalc
+RnaSeqSampleSize
+YAPSA
