@@ -1995,3 +1995,5 @@ Organism.dplyr
 Rmmquant
 SC3
 TENxIO
+RESOLVE
+SpatialExperiment

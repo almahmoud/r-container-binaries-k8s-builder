@@ -18,12 +18,8 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "Banksy": [
-    "SpatialExperiment"
-  ],
-  "BulkSignalR": [
-    "SpatialExperiment"
-  ],
+  "Banksy": [],
+  "BulkSignalR": [],
   "CAFE": [
     "ggbio",
     "OrganismDbi"
@@ -38,21 +34,15 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "CARDspa": [
-    "SpatialExperiment"
-  ],
+  "CARDspa": [],
   "CNVfilteR": [
     "CopyNumberPlots"
   ],
   "CNViz": [
     "CopyNumberPlots"
   ],
-  "CTSV": [
-    "SpatialExperiment"
-  ],
-  "CatsCradle": [
-    "SpatialExperiment"
-  ],
+  "CTSV": [],
+  "CatsCradle": [],
   "ChAMP": [
     "DMRcate"
   ],
@@ -73,33 +63,25 @@
     "PSMatch"
   ],
   "DEScan2": [],
-  "DESpace": [
-    "SpatialExperiment"
-  ],
+  "DESpace": [],
   "DMRcate": [],
   "Damsel": [
     "ggbio",
     "OrganismDbi"
   ],
-  "DeconvoBuddies": [
-    "SpatialExperiment"
-  ],
+  "DeconvoBuddies": [],
   "EGSEA": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "EventPointer": [],
   "ExperimentHubData": [
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "ExperimentSubset": [
-    "SpatialExperiment"
-  ],
+  "ExperimentSubset": [],
   "FEAST": [],
   "FLAMES": [
     "ggbio",
-    "SpatialExperiment",
     "OrganismDbi"
   ],
   "GA4GHshiny": [],
@@ -112,9 +94,7 @@
   "GSReg": [
     "OrganismDbi"
   ],
-  "GSVA": [
-    "SpatialExperiment"
-  ],
+  "GSVA": [],
   "GUIDEseq": [],
   "GenomicOZone": [
     "ggbio",
@@ -168,9 +148,7 @@
   ],
   "MetaboAnnotation": [],
   "MetaboSignal": [],
-  "MoleculeExperiment": [
-    "SpatialExperiment"
-  ],
+  "MoleculeExperiment": [],
   "MsExperiment": [],
   "MsQuality": [
     "MsExperiment"
@@ -204,7 +182,6 @@
     "GENESIS"
   ],
   "REDseq": [],
-  "RESOLVE": [],
   "RMassBank": [
     "MSnbase",
     "PSMatch"
@@ -239,21 +216,14 @@
     "SCArray"
   ],
   "SETA": [],
-  "SEraster": [
-    "SpatialExperiment"
-  ],
+  "SEraster": [],
   "SOMNiBUS": [],
-  "SPIAT": [
-    "SpatialExperiment"
-  ],
+  "SPIAT": [],
   "SPOTlight": [],
-  "SVP": [
-    "SpatialExperiment"
-  ],
+  "SVP": [],
   "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
-    "BulkSignalR",
-    "SpatialExperiment"
+    "BulkSignalR"
   ],
   "SingleMoleculeFootprinting": [
     "QuasR"
@@ -262,50 +232,32 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "SpaNorm": [
-    "SpatialExperiment"
-  ],
+  "SpaNorm": [],
   "SpaceTrooper": [
-    "SpatialExperiment",
     "SpatialExperimentIO"
   ],
-  "SpatialExperiment": [],
-  "SpatialExperimentIO": [
-    "SpatialExperiment"
-  ],
-  "SpatialFeatureExperiment": [
-    "SpatialExperiment"
-  ],
+  "SpatialExperimentIO": [],
+  "SpatialFeatureExperiment": [],
   "SplicingGraphs": [],
-  "SpotClean": [
-    "SpatialExperiment"
-  ],
+  "SpotClean": [],
   "SpotSweeper": [
-    "SpatialExperiment",
     "escheR"
   ],
-  "Statial": [
-    "SpatialExperiment"
-  ],
+  "Statial": [],
   "SurfR": [],
   "TBSignatureProfiler": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "TCGAutils": [],
   "TFEA.ChIP": [],
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
-  "VisiumIO": [
-    "SpatialExperiment"
-  ],
+  "VisiumIO": [],
   "Voyager": [
-    "SpatialFeatureExperiment",
-    "SpatialExperiment"
+    "SpatialFeatureExperiment"
   ],
   "XeniumIO": [
-    "SpatialExperiment",
     "VisiumIO"
   ],
   "YAPSA": [
@@ -319,17 +271,13 @@
     "OrganismDbi"
   ],
   "alabaster": [
-    "alabaster.spatial",
-    "SpatialExperiment"
+    "alabaster.spatial"
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
-    "alabaster.spatial",
-    "SpatialExperiment"
+    "alabaster.spatial"
   ],
-  "alabaster.spatial": [
-    "SpatialExperiment"
-  ],
+  "alabaster.spatial": [],
   "appreci8R": [
     "OrganismDbi"
   ],
@@ -373,16 +321,11 @@
     "PSMatch",
     "MsExperiment"
   ],
-  "clustSIGNAL": [
-    "SpatialExperiment"
-  ],
+  "clustSIGNAL": [],
   "compEpiTools": [],
-  "concordexR": [
-    "SpatialExperiment"
-  ],
+  "concordexR": [],
   "consensusOV": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "cosmiq": [
     "xcms",
@@ -397,12 +340,9 @@
     "crisprViz"
   ],
   "crisprViz": [],
-  "cytomapper": [
-    "SpatialExperiment"
-  ],
+  "cytomapper": [],
   "cytoviewer": [
-    "cytomapper",
-    "SpatialExperiment"
+    "cytomapper"
   ],
   "derfinder": [],
   "derfinderPlot": [
@@ -430,9 +370,7 @@
     "epivizrData",
     "OrganismDbi"
   ],
-  "escheR": [
-    "SpatialExperiment"
-  ],
+  "escheR": [],
   "flagme": [
     "xcms",
     "CAMERA",
@@ -448,16 +386,12 @@
   "ggbio": [
     "OrganismDbi"
   ],
-  "ggspavis": [
-    "SpatialExperiment"
-  ],
+  "ggspavis": [],
   "glmSparseNet": [
     "TCGAutils"
   ],
   "hdxmsqc": [],
-  "hoodscanR": [
-    "SpatialExperiment"
-  ],
+  "hoodscanR": [],
   "iSEEde": [],
   "iSEEfier": [
     "iSEEu",
@@ -472,21 +406,17 @@
   ],
   "ideal": [],
   "imcRtools": [
-    "SpatialExperiment",
     "cytomapper"
   ],
   "intansv": [
     "ggbio",
     "OrganismDbi"
   ],
-  "jazzPanda": [
-    "SpatialExperiment"
-  ],
+  "jazzPanda": [],
   "lemur": [],
   "linkSet": [],
   "lisaClust": [
     "spicyR",
-    "SpatialExperiment",
     "simpleSeg",
     "cytomapper"
   ],
@@ -532,12 +462,9 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "nnSVG": [
-    "SpatialExperiment"
-  ],
+  "nnSVG": [],
   "octad": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "omXplore": [
     "MSnbase",
@@ -545,8 +472,7 @@
   ],
   "omicsGMF": [],
   "oppar": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "pRoloc": [
     "MSnbase",
@@ -558,17 +484,14 @@
     "PSMatch"
   ],
   "pathMED": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "pcaExplorer": [],
   "peakPantheR": [
     "MSnbase",
     "PSMatch"
   ],
-  "poem": [
-    "SpatialExperiment"
-  ],
+  "poem": [],
   "psichomics": [
     "recount",
     "derfinder"
@@ -598,9 +521,7 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "scider": [
-    "SpatialExperiment"
-  ],
+  "scider": [],
   "scmeth": [],
   "scp": [],
   "scruff": [
@@ -608,57 +529,33 @@
     "OrganismDbi"
   ],
   "shinyDSP": [
-    "standR",
-    "SpatialExperiment"
+    "standR"
   ],
   "signifinder": [
     "consensusOV",
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "simpleSeg": [
-    "cytomapper",
-    "SpatialExperiment"
+    "cytomapper"
   ],
   "singleCellTK": [
-    "GSVA",
-    "SpatialExperiment"
+    "GSVA"
   ],
   "skewr": [],
-  "smoothclust": [
-    "SpatialExperiment"
-  ],
-  "smoppix": [
-    "SpatialExperiment"
-  ],
-  "sosta": [
-    "SpatialExperiment"
-  ],
-  "spARI": [
-    "SpatialExperiment"
-  ],
-  "spaSim": [
-    "SpatialExperiment"
-  ],
-  "spacexr": [
-    "SpatialExperiment"
-  ],
-  "spatialDE": [
-    "SpatialExperiment"
-  ],
-  "spatialFDA": [
-    "SpatialExperiment"
-  ],
-  "spatialSimGP": [
-    "SpatialExperiment"
-  ],
+  "smoothclust": [],
+  "smoppix": [],
+  "sosta": [],
+  "spARI": [],
+  "spaSim": [],
+  "spacexr": [],
+  "spatialDE": [],
+  "spatialFDA": [],
+  "spatialSimGP": [],
   "spicyR": [
-    "SpatialExperiment",
     "simpleSeg",
     "cytomapper"
   ],
   "spoon": [
-    "SpatialExperiment",
     "nnSVG"
   ],
   "squallms": [
@@ -668,41 +565,28 @@
     "PSMatch"
   ],
   "srnadiff": [],
-  "stJoincount": [
-    "SpatialExperiment"
-  ],
-  "stPipe": [
-    "SpatialExperiment"
-  ],
-  "standR": [
-    "SpatialExperiment"
-  ],
+  "stJoincount": [],
+  "stPipe": [],
+  "standR": [],
   "tadar": [],
   "terraTCGAdata": [
     "TCGAutils"
   ],
-  "tidySpatialExperiment": [
-    "SpatialExperiment"
-  ],
+  "tidySpatialExperiment": [],
   "tidyomics": [
-    "tidySpatialExperiment",
-    "SpatialExperiment"
+    "tidySpatialExperiment"
   ],
   "topdownr": [
     "MSnbase",
     "PSMatch"
   ],
-  "tpSVG": [
-    "SpatialExperiment"
-  ],
+  "tpSVG": [],
   "trackViewer": [],
   "transformGamPoi": [],
   "uncoverappLib": [
     "OrganismDbi"
   ],
-  "visiumStitched": [
-    "SpatialExperiment"
-  ],
+  "visiumStitched": [],
   "vtpnet": [],
   "vulcan": [],
   "xcms": [
@@ -710,7 +594,5 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "xenLite": [
-    "SpatialExperiment"
-  ]
+  "xenLite": []
 }
