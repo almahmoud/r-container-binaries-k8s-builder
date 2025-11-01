@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2225 (99%)
+- **Successfully Built:** 2226 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 13
-- **Not Started:** 4
+- **In Progress:** 14
+- **Not Started:** 2
 
 **Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2225)
+## Successfully Built Packages (2226)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 
-*... and 2175 more ...*
+*... and 2176 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,27 +83,26 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (13)
+## In Progress (14)
 - ⏳ `IPO`
 - ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
 - ⏳ `MSnID`
 - ⏳ `RNAAgeCalc`
-- ⏳ `ReportingTools`
 - ⏳ `RnaSeqSampleSize`
 - ⏳ `YAPSA`
 - ⏳ `epivizrChart`
+- ⏳ `epivizrStandalone`
 - ⏳ `flagme`
 - ⏳ `metaMS`
 - ⏳ `methylclock`
 - ⏳ `psichomics`
+- ⏳ `scTreeViz`
 
-## Not Yet Started (4)
+## Not Yet Started (2)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `affycoretools`
-- ⏸️ `epivizrStandalone`
-- ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 09:00:34 UTC*
+*Last updated: 2025-11-01 09:01:15 UTC*
 *Packages with verified BBS status: 152*

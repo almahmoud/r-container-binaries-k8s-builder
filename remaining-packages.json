@@ -1,7 +1,6 @@
 {
   "AgiMicroRna": [
-    "affycoretools",
-    "ReportingTools"
+    "affycoretools"
   ],
   "IPO": [],
   "LOBSTAHS": [],
@@ -9,12 +8,9 @@
   "MSnID": [],
   "RNAAgeCalc": [],
   "RbowtieCuda": [],
-  "ReportingTools": [],
   "RnaSeqSampleSize": [],
   "YAPSA": [],
-  "affycoretools": [
-    "ReportingTools"
-  ],
+  "affycoretools": [],
   "epivizrChart": [],
   "epivizrStandalone": [],
   "flagme": [],
