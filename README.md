@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1892 (84%)
+- **Successfully Built:** 1894 (84%)
 - **Failed:** 2 (0%)
 - **In Progress:** 122
-- **Not Started:** 228
+- **Not Started:** 226
 
 **Progress:** 84%
 ```
 ██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1892)
+## Successfully Built Packages (1894)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1842 more ...*
+*... and 1844 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,7 +99,6 @@
 - ⏳ `GenomicInteractions`
 - ⏳ `HelloRanges`
 - ⏳ `MGnifyR`
-- ⏳ `MIRit`
 - ⏳ `MetaboSignal`
 - ⏳ `MethReg`
 - ⏳ `MineICA`
@@ -108,6 +107,7 @@
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
+- ⏳ `POWSC`
 - ⏳ `Pviz`
 - ⏳ `QFeatures`
 - ⏳ `RCAS`
@@ -137,7 +137,7 @@
 
 ... and 72 more ...
 
-## Not Yet Started (228)
+## Not Yet Started (226)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -189,8 +189,8 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 
-... and 178 more ...
+... and 176 more ...
 
 ---
-*Last updated: 2025-11-01 06:02:48 UTC*
+*Last updated: 2025-11-01 06:03:46 UTC*
 *Packages with verified BBS status: 146*

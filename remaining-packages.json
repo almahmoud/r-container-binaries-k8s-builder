@@ -211,7 +211,6 @@
     "wateRmelon"
   ],
   "MGnifyR": [],
-  "MIRit": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
@@ -849,7 +848,6 @@
   "saseR": [
     "ASpli"
   ],
-  "scRNAseqApp": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData",

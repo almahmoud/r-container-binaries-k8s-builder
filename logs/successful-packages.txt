@@ -1890,3 +1890,5 @@ arrayMvout
 iCheck
 MAST
 RgnTX
+MIRit
+scRNAseqApp
