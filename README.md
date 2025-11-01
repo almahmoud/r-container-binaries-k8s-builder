@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1210 (53%)
+- **Successfully Built:** 1217 (54%)
 - **Failed:** 2 (0%)
-- **In Progress:** 198
-- **Not Started:** 834
+- **In Progress:** 196
+- **Not Started:** 829
 
 **Progress:** 54%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1210)
+## Successfully Built Packages (1217)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
 
-*... and 1160 more ...*
+*... and 1167 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,14 +83,14 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (198)
+## In Progress (196)
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
-- ⏳ `BicARE`
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CBN2Path`
+- ⏳ `CCPROMISE`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
 - ⏳ `CTdata`
@@ -126,18 +126,18 @@
 - ⏳ `MCbiclust`
 - ⏳ `MGFM`
 - ⏳ `MLP`
-- ⏳ `MWASTools`
 - ⏳ `MesKit`
-- ⏳ `MetNet`
 - ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `MotifDb`
 - ⏳ `MsDataHub`
+- ⏳ `MsFeatures`
+- ⏳ `MultiAssayExperiment`
 
-... and 148 more ...
+... and 146 more ...
 
-## Not Yet Started (834)
+## Not Yet Started (829)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -185,12 +185,12 @@
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CDI`
 - ⏸️ `CEMiTool`
+- ⏸️ `CHETAH`
 
-... and 784 more ...
+... and 779 more ...
 
 ---
-*Last updated: 2025-11-01 02:15:00 UTC*
+*Last updated: 2025-11-01 02:16:05 UTC*
 *Packages with verified BBS status: 124*

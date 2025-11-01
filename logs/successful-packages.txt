@@ -1208,3 +1208,10 @@ splineTimeR
 tRanslatome
 wiggleplotr
 zitools
+BicARE
+censcyt
+groHMM
+MetNet
+MWASTools
+plyranges
+TMSig

@@ -118,7 +118,6 @@
   ],
   "BOBaFIT": [
     "ggbio",
-    "plyranges",
     "biovizBase",
     "BSgenome",
     "VariantAnnotation",
@@ -133,8 +132,7 @@
   "BUSpaRse": [
     "BSgenome",
     "ensembldb",
-    "GenomicFeatures",
-    "plyranges"
+    "GenomicFeatures"
   ],
   "BUSseq": [
     "SingleCellExperiment"
@@ -179,7 +177,6 @@
   "BiSeq": [
     "globaltest"
   ],
-  "BicARE": [],
   "BindingSiteFinder": [
     "GenomicFeatures"
   ],
@@ -581,7 +578,6 @@
     "GenomicFeatures",
     "ggbio",
     "goseq",
-    "plyranges",
     "biovizBase",
     "BSgenome",
     "VariantAnnotation",
@@ -609,7 +605,6 @@
   "DeepTarget": [],
   "DegCre": [
     "plotgardener",
-    "plyranges",
     "GenomicFeatures"
   ],
   "DegNorm": [
@@ -877,7 +872,6 @@
     "ensembldb"
   ],
   "GenomicPlot": [
-    "plyranges",
     "RCAS",
     "GenomicFeatures",
     "genomation",
@@ -989,8 +983,7 @@
   "InPAS": [
     "BSgenome",
     "cleanUpdTSeq",
-    "GenomicFeatures",
-    "plyranges"
+    "GenomicFeatures"
   ],
   "InTAD": [
     "MultiAssayExperiment"
@@ -1183,7 +1176,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "MWASTools": [],
   "MatrixQCvis": [
     "sva",
     "genefilter"
@@ -1193,7 +1185,6 @@
     "BSgenome"
   ],
   "MesKit": [],
-  "MetNet": [],
   "MetaNeighbor": [
     "SingleCellExperiment"
   ],
@@ -1209,7 +1200,6 @@
   "MetaboDynamics": [],
   "MetaboSignal": [
     "hpar",
-    "MWASTools",
     "mygene",
     "ensembldb",
     "GenomicFeatures",
@@ -1806,9 +1796,7 @@
   "SPsimSeq": [
     "SingleCellExperiment"
   ],
-  "STADyUM": [
-    "plyranges"
-  ],
+  "STADyUM": [],
   "SVMDO": [
     "DOSE"
   ],
@@ -1851,7 +1839,6 @@
   ],
   "SingleMoleculeFootprinting": [
     "BSgenome",
-    "plyranges",
     "QuasR",
     "GenomicFeatures",
     "txdbmaker",
@@ -1999,7 +1986,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "TMSig": [],
   "TOP": [
     "ClassifyR",
     "MultiAssayExperiment",
@@ -2049,8 +2035,7 @@
     "BSgenome",
     "GenomicFeatures",
     "Organism.dplyr",
-    "plotgardener",
-    "plyranges"
+    "plotgardener"
   ],
   "Uniquorn": [
     "VariantAnnotation",
@@ -2444,9 +2429,7 @@
     "scuttle"
   ],
   "cellity": [],
-  "censcyt": [],
   "cfDNAPro": [
-    "plyranges",
     "BSgenome"
   ],
   "cfTools": [],
@@ -3045,7 +3028,6 @@
     "GenomicFeatures",
     "txdbmaker"
   ],
-  "groHMM": [],
   "gwascat": [
     "GenomicFeatures",
     "VariantAnnotation",
@@ -3192,7 +3174,6 @@
   ],
   "katdetectr": [
     "BSgenome",
-    "plyranges",
     "VariantAnnotation",
     "GenomicFeatures"
   ],
@@ -3269,7 +3250,6 @@
     "TRESS"
   ],
   "mariner": [
-    "plyranges",
     "plotgardener"
   ],
   "marr": [],
@@ -3328,7 +3308,6 @@
   "methylCC": [
     "minfi",
     "bsseq",
-    "plyranges",
     "bumphunter",
     "genefilter",
     "BSgenome",
@@ -3386,7 +3365,6 @@
   "miRNAmeConverter": [],
   "miRNAtap": [],
   "miRSM": [
-    "BicARE",
     "clusterProfiler",
     "ReactomePA",
     "DOSE",
@@ -3559,7 +3537,6 @@
     "CRISPRseek",
     "GenomicFeatures",
     "karyoploteR",
-    "plyranges",
     "regioneR",
     "biovizBase",
     "VariantAnnotation",
@@ -3601,7 +3578,6 @@
     "MultiAssayExperiment"
   ],
   "nearBynding": [
-    "plyranges",
     "GenomicFeatures"
   ],
   "netSmooth": [
@@ -3629,9 +3605,7 @@
     "notame"
   ],
   "npGSEA": [],
-  "nullranges": [
-    "plyranges"
-  ],
+  "nullranges": [],
   "octad": [
     "RUVSeq",
     "EDASeq",
@@ -3772,13 +3746,8 @@
   "pipeFrame": [
     "BSgenome"
   ],
-  "plotgardener": [
-    "plyranges"
-  ],
-  "plyinteractions": [
-    "plyranges"
-  ],
-  "plyranges": [],
+  "plotgardener": [],
+  "plyinteractions": [],
   "podkat": [
     "BSgenome"
   ],
@@ -4454,7 +4423,6 @@
   "tidyomics": [
     "tidySingleCellExperiment",
     "tidySpatialExperiment",
-    "plyranges",
     "SingleCellExperiment",
     "SpatialExperiment"
   ],

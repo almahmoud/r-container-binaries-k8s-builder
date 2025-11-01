@@ -1413,3 +1413,7 @@ multiGSEA
 pogos
 sSNAPPY
 tenXplore
+STADyUM
+nullranges
+plotgardener
+plyinteractions
