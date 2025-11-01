@@ -85,5 +85,5 @@
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
 ---
-*Last updated: 2025-11-01 15:42:26 UTC*
+*Last updated: 2025-11-01 15:55:11 UTC*
 *Packages with verified BBS status: 152*
