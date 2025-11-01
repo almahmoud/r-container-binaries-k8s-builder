@@ -1,8 +1,9 @@
 # Build Cycle: 2025-10-31-165625-bioconductordocker-release322
-**Status:** In Progress
+**Status:** Complete
 **Container:** `ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_22`
 **Bioconductor Version:** 3.22
 **R Version:** 4.5.2.
+**Completed:** 2025-11-01 10:06:43 EST
 
 ## Summary
 - **Total Packages:** 2244
@@ -84,5 +85,5 @@
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
 ---
-*Last updated: 2025-11-01 15:13:59 UTC*
+*Last updated: 2025-11-01 15:29:56 UTC*
 *Packages with verified BBS status: 152*
