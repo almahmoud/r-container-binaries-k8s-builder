@@ -1570,3 +1570,6 @@ ADImpute
 corral
 crupR
 doubletrouble
+bumphunter
+scAnnotatR
+tidySingleCellExperiment

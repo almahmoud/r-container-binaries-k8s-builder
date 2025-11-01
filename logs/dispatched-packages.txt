@@ -1804,3 +1804,7 @@ BgeeDB
 gDRcore
 preciseTAD
 velociraptor
+coMethDMR
+minfi
+rnaEditr
+vmrseq
