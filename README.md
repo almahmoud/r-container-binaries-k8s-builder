@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2198 (97%)
+- **Successfully Built:** 2222 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 30
+- **In Progress:** 6
 - **Not Started:** 14
 
-**Progress:** 98%
+**Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2198)
+## Successfully Built Packages (2222)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 
-*... and 2148 more ...*
+*... and 2172 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,37 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (30)
-- ⏳ `CAMERA`
+## In Progress (6)
 - ⏳ `ChAMP`
-- ⏳ `Damsel`
-- ⏳ `FLAMES`
-- ⏳ `Prostar`
-- ⏳ `R3CPET`
 - ⏳ `ReportingTools`
-- ⏳ `RiboProfiling`
-- ⏳ `SomaticSignatures`
-- ⏳ `bandle`
 - ⏳ `bioCancer`
-- ⏳ `cageminer`
-- ⏳ `canceR`
-- ⏳ `cliqueMS`
-- ⏳ `cosmiq`
-- ⏳ `crisprShiny`
-- ⏳ `crisprVerse`
-- ⏳ `derfinderPlot`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
 - ⏳ `methylclock`
-- ⏳ `msgbsR`
-- ⏳ `msmsTests`
-- ⏳ `ncGTW`
-- ⏳ `pRolocGUI`
-- ⏳ `recount`
-- ⏳ `regionReport`
-- ⏳ `scafari`
-- ⏳ `scruff`
-- ⏳ `squallms`
 
 ## Not Yet Started (14)
 - ⏸️ `AgiMicroRna`
@@ -132,5 +108,5 @@
 - ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 08:46:53 UTC*
+*Last updated: 2025-11-01 08:58:50 UTC*
 *Packages with verified BBS status: 152*

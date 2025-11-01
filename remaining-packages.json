@@ -3,75 +3,31 @@
     "affycoretools",
     "ReportingTools"
   ],
-  "CAMERA": [],
   "ChAMP": [],
-  "Damsel": [],
-  "FLAMES": [],
-  "IPO": [
-    "CAMERA"
-  ],
-  "LOBSTAHS": [
-    "CAMERA"
-  ],
-  "MAIT": [
-    "CAMERA"
-  ],
-  "MSnID": [
-    "msmsTests"
-  ],
-  "Prostar": [],
-  "R3CPET": [],
-  "RNAAgeCalc": [
-    "recount"
-  ],
+  "IPO": [],
+  "LOBSTAHS": [],
+  "MAIT": [],
+  "MSnID": [],
+  "RNAAgeCalc": [],
   "RbowtieCuda": [],
   "ReportingTools": [],
-  "RiboProfiling": [],
-  "RnaSeqSampleSize": [
-    "recount"
-  ],
-  "SomaticSignatures": [],
-  "YAPSA": [
-    "SomaticSignatures"
-  ],
+  "RnaSeqSampleSize": [],
+  "YAPSA": [],
   "affycoretools": [
     "ReportingTools"
   ],
-  "bandle": [],
   "bioCancer": [],
-  "cageminer": [],
-  "canceR": [],
-  "cliqueMS": [],
-  "cosmiq": [],
-  "crisprShiny": [],
-  "crisprVerse": [],
-  "derfinderPlot": [],
   "epivizr": [],
   "epivizrChart": [],
   "epivizrStandalone": [
     "epivizr"
   ],
-  "flagme": [
-    "CAMERA"
-  ],
-  "metaMS": [
-    "CAMERA"
-  ],
+  "flagme": [],
+  "metaMS": [],
   "methylclock": [],
-  "msgbsR": [],
-  "msmsTests": [],
-  "ncGTW": [],
-  "pRolocGUI": [],
-  "psichomics": [
-    "recount"
-  ],
-  "recount": [],
-  "regionReport": [],
+  "psichomics": [],
   "sangeranalyseR": [],
   "scTreeViz": [
     "epivizr"
-  ],
-  "scafari": [],
-  "scruff": [],
-  "squallms": []
+  ]
 }
