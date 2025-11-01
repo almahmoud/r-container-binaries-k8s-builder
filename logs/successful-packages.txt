@@ -1870,3 +1870,7 @@ raer
 chipseq
 easier
 lipidr
+MatrixRider
+MultiBaC
+phenomis
+rqt

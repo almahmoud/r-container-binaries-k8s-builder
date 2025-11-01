@@ -239,7 +239,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "MatrixRider": [],
   "MetaboAnnotation": [
     "QFeatures"
   ],
@@ -258,7 +257,6 @@
     "QFeatures"
   ],
   "MuData": [],
-  "MultiBaC": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -851,7 +849,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "phenomis": [],
   "poem": [
     "SpatialExperiment"
   ],
@@ -887,7 +884,6 @@
   "ribosomeProfilingQC": [
     "motifStack"
   ],
-  "rqt": [],
   "sangeranalyseR": [],
   "saseR": [
     "ASpli"
