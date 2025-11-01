@@ -1983,3 +1983,5 @@ QFeatures
 SCnorm
 SPsimSeq
 TRESS
+SGSeq
+Xeva

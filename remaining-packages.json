@@ -62,8 +62,7 @@
   ],
   "ChIPpeakAnno": [],
   "CircSeqAlignTk": [
-    "Rhisat2",
-    "SGSeq"
+    "Rhisat2"
   ],
   "CluMSID": [
     "MSnbase",
@@ -96,9 +95,7 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "EventPointer": [
-    "SGSeq"
-  ],
+  "EventPointer": [],
   "ExperimentHubData": [
     "AnnotationHubData",
     "OrganismDbi"
@@ -242,9 +239,7 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "Rhisat2": [
-    "SGSeq"
-  ],
+  "Rhisat2": [],
   "RiboProfiling": [
     "ggbio",
     "OrganismDbi"
@@ -264,7 +259,6 @@
   "SEraster": [
     "SpatialExperiment"
   ],
-  "SGSeq": [],
   "SOMNiBUS": [],
   "SPIAT": [
     "SpatialExperiment"
@@ -337,7 +331,6 @@
     "SpatialExperiment",
     "VisiumIO"
   ],
-  "Xeva": [],
   "YAPSA": [
     "SomaticSignatures",
     "ggbio",

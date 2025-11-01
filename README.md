@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1985 (88%)
+- **Successfully Built:** 1987 (88%)
 - **Failed:** 2 (0%)
-- **In Progress:** 68
-- **Not Started:** 189
+- **In Progress:** 76
+- **Not Started:** 179
 
 **Progress:** 88%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1985)
+## Successfully Built Packages (1987)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1935 more ...*
+*... and 1937 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (68)
+## In Progress (76)
 - ⏳ `CAGEfightR`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CopyNumberPlots`
@@ -97,10 +97,13 @@
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
+- ⏳ `MetaboAnnotation`
 - ⏳ `MetaboSignal`
+- ⏳ `MsExperiment`
 - ⏳ `OMICsPCA`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
+- ⏳ `PSMatch`
 - ⏳ `QuasR`
 - ⏳ `RESOLVE`
 - ⏳ `RNAmodR.AlkAnilineSeq`
@@ -111,19 +114,18 @@
 - ⏳ `SC3`
 - ⏳ `SCArray`
 - ⏳ `SETA`
-- ⏳ `SGSeq`
 - ⏳ `SOMNiBUS`
 - ⏳ `SPICEY`
 - ⏳ `SPOTlight`
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SpatialExperiment`
 - ⏳ `SplicingGraphs`
+- ⏳ `SurfR`
 - ⏳ `TCGAutils`
 - ⏳ `TENxIO`
 - ⏳ `TFEA.ChIP`
 - ⏳ `TFutils`
 - ⏳ `VCFArray`
-- ⏳ `Xeva`
 - ⏳ `bigmelon`
 - ⏳ `compEpiTools`
 - ⏳ `crisprViz`
@@ -132,12 +134,10 @@
 - ⏳ `gDNAx`
 - ⏳ `gDRimport`
 - ⏳ `glmGamPoi`
-- ⏳ `gmapR`
-- ⏳ `gwascat`
 
-... and 18 more ...
+... and 26 more ...
 
-## Not Yet Started (189)
+## Not Yet Started (179)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -181,16 +181,16 @@
 - ⏸️ `MSnbase`
 - ⏸️ `MSstatsQC`
 - ⏸️ `MSstatsQCgui`
-- ⏸️ `MetaboAnnotation`
 - ⏸️ `MoleculeExperiment`
-- ⏸️ `MsExperiment`
 - ⏸️ `MsQuality`
 - ⏸️ `NADfinder`
 - ⏸️ `PRONE`
-- ⏸️ `PSMatch`
+- ⏸️ `PrInCE`
+- ⏸️ `Prostar`
+- ⏸️ `R3CPET`
 
-... and 139 more ...
+... and 129 more ...
 
 ---
-*Last updated: 2025-11-01 06:40:00 UTC*
+*Last updated: 2025-11-01 06:41:02 UTC*
 *Packages with verified BBS status: 147*
