@@ -987,7 +987,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "interactiveDisplay": [],
   "jazzPanda": [
     "SpatialExperiment"
   ],

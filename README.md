@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1770 (78%)
+- **Successfully Built:** 1771 (78%)
 - **Failed:** 2 (0%)
 - **In Progress:** 157
-- **Not Started:** 315
+- **Not Started:** 314
 
-**Progress:** 78%
+**Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1770)
+## Successfully Built Packages (1771)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1720 more ...*
+*... and 1721 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,6 +98,7 @@
 - ⏳ `GenomicFiles`
 - ⏳ `GmicR`
 - ⏳ `HelloRanges`
+- ⏳ `Ibex`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
@@ -133,11 +134,10 @@
 - ⏳ `RadioGx`
 - ⏳ `RareVariantVis`
 - ⏳ `Rmmquant`
-- ⏳ `RnBeads`
 
 ... and 107 more ...
 
-## Not Yet Started (315)
+## Not Yet Started (314)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
 
-... and 265 more ...
+... and 264 more ...
 
 ---
-*Last updated: 2025-11-01 05:17:07 UTC*
+*Last updated: 2025-11-01 05:18:13 UTC*
 *Packages with verified BBS status: 145*
