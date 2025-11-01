@@ -243,9 +243,7 @@
   "MetaboAnnotation": [
     "QFeatures"
   ],
-  "MetaboSignal": [
-    "hpar"
-  ],
+  "MetaboSignal": [],
   "MethReg": [],
   "MineICA": [],
   "MoleculeExperiment": [
@@ -685,7 +683,6 @@
   "hoodscanR": [
     "SpatialExperiment"
   ],
-  "hpar": [],
   "iCheck": [],
   "iSEEde": [],
   "iSEEfier": [
@@ -878,7 +875,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "raer": [],
   "recount": [
     "derfinder",
     "GenomicFiles"

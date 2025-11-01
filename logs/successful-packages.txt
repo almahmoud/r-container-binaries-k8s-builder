@@ -1865,3 +1865,5 @@ MungeSumstats
 SeqSQC
 SimBu
 DOtools
+hpar
+raer
