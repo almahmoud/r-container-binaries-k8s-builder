@@ -1134,7 +1134,6 @@
   "gDRimport": [
     "PharmacoGx"
   ],
-  "gcapc": [],
   "geomeTriD": [
     "trackViewer",
     "Gviz",
@@ -1246,7 +1245,6 @@
     "DSS",
     "bsseq"
   ],
-  "knowYourCG": [],
   "lefser": [
     "mia",
     "TreeSummarizedExperiment"

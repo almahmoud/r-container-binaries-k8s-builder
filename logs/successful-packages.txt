@@ -1700,3 +1700,5 @@ ENmix
 funtooNorm
 genomation
 iModMix
+gcapc
+knowYourCG

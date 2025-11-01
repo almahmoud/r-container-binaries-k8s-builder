@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1702 (75%)
+- **Successfully Built:** 1704 (75%)
 - **Failed:** 2 (0%)
-- **In Progress:** 149
-- **Not Started:** 391
+- **In Progress:** 152
+- **Not Started:** 386
 
-**Progress:** 75%
+**Progress:** 76%
 ```
-█████████████████████████████████████░░░░░░░░░░░░░
+██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1702)
+## Successfully Built Packages (1704)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1652 more ...*
+*... and 1654 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,11 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (149)
+## In Progress (152)
 - ⏳ `ArrayExpress`
+- ⏳ `CexoR`
 - ⏳ `DOtools`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
+- ⏳ `EpiCompare`
 - ⏳ `FRASER`
 - ⏳ `GDCRNATools`
 - ⏳ `GOstats`
@@ -122,6 +124,7 @@
 - ⏳ `PDATK`
 - ⏳ `PharmacoGx`
 - ⏳ `QFeatures`
+- ⏳ `RCAS`
 - ⏳ `RCSL`
 - ⏳ `REMP`
 - ⏳ `RUCova`
@@ -131,13 +134,10 @@
 - ⏳ `SCAN.UPC`
 - ⏳ `SCArray`
 - ⏳ `SCnorm`
-- ⏳ `SETA`
-- ⏳ `SGSeq`
-- ⏳ `SPICEY`
 
-... and 99 more ...
+... and 102 more ...
 
-## Not Yet Started (391)
+## Not Yet Started (386)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -164,7 +164,6 @@
 - ⏸️ `COCOA`
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
-- ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
@@ -188,9 +187,10 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
 - ⏸️ `ELMER`
+- ⏸️ `EventPointer`
 
-... and 341 more ...
+... and 336 more ...
 
 ---
-*Last updated: 2025-11-01 04:51:27 UTC*
+*Last updated: 2025-11-01 04:53:11 UTC*
 *Packages with verified BBS status: 143*
