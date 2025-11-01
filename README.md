@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1763 (78%)
+- **Successfully Built:** 1766 (78%)
 - **Failed:** 2 (0%)
-- **In Progress:** 157
-- **Not Started:** 322
+- **In Progress:** 155
+- **Not Started:** 321
 
 **Progress:** 78%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1763)
+## Successfully Built Packages (1766)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1713 more ...*
+*... and 1716 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (157)
+## In Progress (155)
 - ⏳ `CexoR`
 - ⏳ `ChIPXpress`
 - ⏳ `DOtools`
@@ -92,14 +92,11 @@
 - ⏳ `EpiCompare`
 - ⏳ `GA4GHclient`
 - ⏳ `GDCRNATools`
-- ⏳ `GRaNIE`
-- ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
 - ⏳ `GmicR`
 - ⏳ `HelloRanges`
-- ⏳ `ITALICS`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
@@ -134,10 +131,13 @@
 - ⏳ `RCAS`
 - ⏳ `RCSL`
 - ⏳ `RUCova`
+- ⏳ `RadioGx`
+- ⏳ `RareVariantVis`
+- ⏳ `Rmmquant`
 
-... and 107 more ...
+... and 105 more ...
 
-## Not Yet Started (322)
+## Not Yet Started (321)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `GSReg`
 - ⏸️ `GSVA`
 
-... and 272 more ...
+... and 271 more ...
 
 ---
-*Last updated: 2025-11-01 05:13:09 UTC*
+*Last updated: 2025-11-01 05:14:14 UTC*
 *Packages with verified BBS status: 145*

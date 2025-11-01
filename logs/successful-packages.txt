@@ -1761,3 +1761,6 @@ G4SNVHunter
 methrix
 DrugVsDisease
 zenith
+GRaNIE
+GSEABenchmarkeR
+ITALICS

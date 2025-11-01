@@ -212,8 +212,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GRaNIE": [],
-  "GSEABenchmarkeR": [],
   "GSRI": [],
   "GSReg": [
     "OrganismDbi"
@@ -269,7 +267,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "ITALICS": [],
   "Ibex": [
     "scRepertoire"
   ],
