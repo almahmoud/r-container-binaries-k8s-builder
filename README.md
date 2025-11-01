@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1298 (57%)
+- **Successfully Built:** 1309 (58%)
 - **Failed:** 2 (0%)
-- **In Progress:** 126
+- **In Progress:** 115
 - **Not Started:** 818
 
-**Progress:** 57%
+**Progress:** 58%
 ```
-████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1298)
+## Successfully Built Packages (1309)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1248 more ...*
+*... and 1259 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (126)
+## In Progress (115)
 - ⏳ `BSgenome`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -97,8 +97,6 @@
 - ⏳ `DEGreport`
 - ⏳ `DEWSeq`
 - ⏳ `DEsubs`
-- ⏳ `DMCFB`
-- ⏳ `DMCHMM`
 - ⏳ `DeepTarget`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
@@ -111,7 +109,6 @@
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MGFM`
-- ⏳ `MLP`
 - ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
 - ⏳ `MicrobiotaProcess`
@@ -130,12 +127,15 @@
 - ⏳ `PhIPData`
 - ⏳ `RTNduals`
 - ⏳ `ReactomeGSA`
-- ⏳ `RegEnrich`
 - ⏳ `SVMDO`
 - ⏳ `Scale4C`
 - ⏳ `SemDist`
+- ⏳ `SeqGSEA`
+- ⏳ `SeqGate`
+- ⏳ `SeqSQC`
+- ⏳ `SeqVarTools`
 
-... and 76 more ...
+... and 65 more ...
 
 ## Not Yet Started (818)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 768 more ...
 
 ---
-*Last updated: 2025-11-01 02:36:41 UTC*
+*Last updated: 2025-11-01 02:38:22 UTC*
 *Packages with verified BBS status: 127*

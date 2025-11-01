@@ -515,8 +515,6 @@
     "sva",
     "genefilter"
   ],
-  "DMCFB": [],
-  "DMCHMM": [],
   "DMRcaller": [
     "BSgenome"
   ],
@@ -1094,7 +1092,6 @@
   "MLInterfaces": [
     "genefilter"
   ],
-  "MLP": [],
   "MMDiff2": [
     "BSgenome"
   ],
@@ -1570,9 +1567,7 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "Rbec": [
-    "dada2"
-  ],
+  "Rbec": [],
   "RbowtieCuda": [],
   "ReactomeGSA": [],
   "ReactomePA": [
@@ -1582,7 +1577,6 @@
     "clusterProfiler",
     "enrichplot"
   ],
-  "RegEnrich": [],
   "RegionalST": [
     "scater",
     "BayesSpace",
@@ -1820,7 +1814,6 @@
   "SparseSignatures": [
     "BSgenome"
   ],
-  "SpatialCPie": [],
   "SpatialExperiment": [
     "SingleCellExperiment"
   ],
@@ -1840,7 +1833,6 @@
     "BSgenome",
     "genefilter"
   ],
-  "SplicingFactory": [],
   "SplicingGraphs": [
     "GenomicFeatures"
   ],
@@ -2143,7 +2135,6 @@
     "regioneR",
     "BSgenome"
   ],
-  "anota2seq": [],
   "appreci8R": [
     "VariantAnnotation",
     "BSgenome",
@@ -2586,7 +2577,6 @@
     "SingleCellExperiment",
     "SpatialExperiment"
   ],
-  "dada2": [],
   "dagLogo": [
     "motifStack",
     "TFBSTools",
@@ -2629,7 +2619,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "deltaCaptureC": [],
   "demuxSNP": [
     "SingleCellExperiment",
     "VariantAnnotation",
@@ -2792,9 +2781,7 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "esetVis": [
-    "MLP"
-  ],
+  "esetVis": [],
   "eudysbiome": [],
   "evaluomeR": [
     "MultiAssayExperiment"
@@ -2939,7 +2926,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "h5vc": [],
   "hdxmsqc": [
     "QFeatures",
     "MultiAssayExperiment"
@@ -3473,7 +3459,6 @@
   "notameViz": [
     "notame"
   ],
-  "npGSEA": [],
   "nullranges": [],
   "octad": [
     "RUVSeq",

@@ -1296,3 +1296,14 @@ tenXplore
 Rbowtie2
 SAIGEgds
 TCC
+anota2seq
+dada2
+deltaCaptureC
+DMCFB
+DMCHMM
+h5vc
+MLP
+npGSEA
+RegEnrich
+SpatialCPie
+SplicingFactory
