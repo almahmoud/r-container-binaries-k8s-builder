@@ -626,7 +626,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "ZygosityPredictor": [],
   "adductomicsR": [],
   "affycoretools": [
     "ReportingTools",
@@ -634,7 +633,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "aggregateBioVar": [],
   "alabaster": [
     "alabaster.spatial",
     "alabaster.vcf",
@@ -977,7 +975,6 @@
     "Gviz",
     "biovizBase"
   ],
-  "mastR": [],
   "metaMS": [
     "CAMERA",
     "xcms",
