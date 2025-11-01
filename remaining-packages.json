@@ -962,7 +962,6 @@
     "scRepertoire",
     "SingleCellExperiment"
   ],
-  "IdeoViz": [],
   "InPAS": [
     "BSgenome",
     "cleanUpdTSeq",
@@ -1050,7 +1049,6 @@
     "sva",
     "genefilter"
   ],
-  "MCbiclust": [],
   "MEAL": [
     "MultiDataSet",
     "minfi",
@@ -1238,7 +1236,6 @@
   "Motif2Site": [
     "BSgenome"
   ],
-  "MotifDb": [],
   "MotifPeeker": [
     "BSgenome"
   ],
@@ -1352,7 +1349,6 @@
   ],
   "PADOG": [],
   "PAIRADISE": [],
-  "PAST": [],
   "PDATK": [
     "MultiAssayExperiment",
     "CoreGx"
@@ -1365,7 +1361,6 @@
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "PMScanR": [],
   "POMA": [
     "sva",
     "genefilter"
@@ -1687,7 +1682,6 @@
     "oligoClasses",
     "genefilter"
   ],
-  "SCANVIS": [],
   "SCArray": [
     "SingleCellExperiment"
   ],
@@ -1919,7 +1913,6 @@
   "TENET": [
     "MultiAssayExperiment",
     "sesame",
-    "MotifDb",
     "BSgenome"
   ],
   "TENxIO": [
@@ -2833,7 +2826,6 @@
   "evaluomeR": [
     "MultiAssayExperiment"
   ],
-  "extraChIPs": [],
   "fCCAC": [
     "genomation",
     "BSgenome"
@@ -3046,7 +3038,6 @@
     "iSEEhex",
     "SingleCellExperiment"
   ],
-  "iasva": [],
   "icetea": [
     "GenomicFeatures",
     "VariantAnnotation",
@@ -3130,7 +3121,6 @@
     "SingleCellExperiment",
     "glmGamPoi"
   ],
-  "limpca": [],
   "lineagespot": [
     "VariantAnnotation",
     "BSgenome",
@@ -3140,7 +3130,6 @@
     "Organism.dplyr",
     "GenomicFeatures"
   ],
-  "lionessR": [],
   "lipidr": [
     "ropls",
     "MultiAssayExperiment",
@@ -3177,7 +3166,6 @@
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "made4": [],
   "magpie": [
     "GenomicFeatures",
     "TRESS"
@@ -3185,7 +3173,6 @@
   "mariner": [
     "plotgardener"
   ],
-  "marr": [],
   "maser": [
     "Gviz",
     "GenomicFeatures",
@@ -3401,7 +3388,6 @@
     "BSgenome"
   ],
   "motifbreakR": [
-    "MotifDb",
     "BSgenome",
     "VariantAnnotation",
     "motifStack",
@@ -3552,12 +3538,9 @@
     "sva",
     "omicade4",
     "MultiDataSet",
-    "made4",
     "genefilter"
   ],
-  "omicade4": [
-    "made4"
-  ],
+  "omicade4": [],
   "omicsGMF": [
     "SingleCellExperiment",
     "scuttle",
@@ -3754,9 +3737,7 @@
   "rGREAT": [
     "GenomicFeatures"
   ],
-  "rTRMui": [
-    "MotifDb"
-  ],
+  "rTRMui": [],
   "raer": [
     "BSgenome",
     "SingleCellExperiment",
@@ -3838,7 +3819,6 @@
   ],
   "runibic": [],
   "sRACIPE": [],
-  "sSNAPPY": [],
   "safe": [],
   "sangeranalyseR": [],
   "saseR": [

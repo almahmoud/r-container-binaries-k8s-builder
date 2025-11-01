@@ -1421,3 +1421,5 @@ RcisTarget
 RegEnrich
 SVMDO
 enrichplot
+omicade4
+rTRMui

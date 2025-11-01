@@ -1253,3 +1253,16 @@ STADyUM
 vissE
 kmcut
 pogos
+extraChIPs
+iasva
+IdeoViz
+limpca
+lionessR
+made4
+marr
+MCbiclust
+MotifDb
+PAST
+PMScanR
+SCANVIS
+sSNAPPY
