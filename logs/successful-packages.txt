@@ -1477,3 +1477,8 @@ Motif2Site
 scDiagnostics
 scTGIF
 SEtools
+doppelgangR
+MBECS
+miRSM
+MSPrep
+zinbwave

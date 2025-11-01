@@ -126,4 +126,5 @@ wpm
 xmapbridge
 yamss
 zFPKM
+zinbwave
 zitools

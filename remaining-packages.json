@@ -584,7 +584,6 @@
     "PSMatch"
   ],
   "MAST": [],
-  "MBECS": [],
   "MEAL": [
     "minfi",
     "Gviz",
@@ -625,7 +624,6 @@
   "MPAC": [
     "scran"
   ],
-  "MSPrep": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
@@ -1387,7 +1385,6 @@
     "scater"
   ],
   "clusterExperiment": [
-    "zinbwave",
     "mbkmeans"
   ],
   "clustifyr": [],
@@ -1544,7 +1541,6 @@
     "annotatr",
     "regioneR"
   ],
-  "doppelgangR": [],
   "doubletrouble": [],
   "dreamlet": [
     "zenith",
@@ -1895,7 +1891,6 @@
     "Category",
     "GOstats"
   ],
-  "miRSM": [],
   "mia": [
     "TreeSummarizedExperiment",
     "scater"
@@ -2024,7 +2019,6 @@
   "netSmooth": [
     "scater",
     "clusterExperiment",
-    "zinbwave",
     "mbkmeans"
   ],
   "nnSVG": [
@@ -2219,9 +2213,7 @@
     "VariantAnnotation"
   ],
   "scAnnotatR": [],
-  "scBFA": [
-    "zinbwave"
-  ],
+  "scBFA": [],
   "scCB2": [
     "DropletUtils"
   ],
@@ -2362,7 +2354,6 @@
     "scran",
     "celda",
     "DropletUtils",
-    "zinbwave",
     "scDblFinder",
     "TSCAN",
     "TrajectoryUtils",
@@ -2586,6 +2577,5 @@
   "zellkonverter": [],
   "zenith": [
     "EnrichmentBrowser"
-  ],
-  "zinbwave": []
+  ]
 }

@@ -1730,3 +1730,4 @@ simPIC
 splatter
 cghMCR
 selectKSigs
+scBFA
