@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 974 (43%)
+- **Successfully Built:** 985 (43%)
 - **Failed:** 2 (0%)
-- **In Progress:** 0
-- **Not Started:** 1268
+- **In Progress:** 211
+- **Not Started:** 1046
 
 **Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (974)
+## Successfully Built Packages (985)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 
-*... and 924 more ...*
+*... and 935 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,15 +83,67 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## Not Yet Started (1268)
+## In Progress (211)
+- ⏳ `ADAM`
+- ⏳ `ALDEx2`
+- ⏳ `AnnotationForge`
+- ⏳ `AnnotationHub`
+- ⏳ `BioGA`
+- ⏳ `BioNAR`
+- ⏳ `BioNet`
+- ⏳ `Bioc.gff`
+- ⏳ `BiocSet`
+- ⏳ `BiocSklearn`
+- ⏳ `BreastSubtypeR`
+- ⏳ `CNVPanelizer`
+- ⏳ `CPSM`
+- ⏳ `CSOA`
+- ⏳ `CoCiteStats`
+- ⏳ `CytoML`
+- ⏳ `CytoPipeline`
+- ⏳ `DESeq2`
+- ⏳ `Dune`
+- ⏳ `FilterFFPE`
+- ⏳ `FuseSOM`
+- ⏳ `GBScleanR`
+- ⏳ `GDSArray`
+- ⏳ `GEOquery`
+- ⏳ `GOSemSim`
+- ⏳ `GOfuncR`
+- ⏳ `GWENA`
+- ⏳ `GenomicAlignments`
+- ⏳ `GenomicSuperSignature`
+- ⏳ `GeoTcgaData`
+- ⏳ `HERON`
+- ⏳ `ISLET`
+- ⏳ `IgGeneUsage`
+- ⏳ `InteractionSet`
+- ⏳ `IsoBayes`
+- ⏳ `KEGGlincs`
+- ⏳ `LRBaseDbi`
+- ⏳ `LimROTS`
+- ⏳ `LipidTrend`
+- ⏳ `LiquidAssociation`
+- ⏳ `MAI`
+- ⏳ `MBASED`
+- ⏳ `MBQN`
+- ⏳ `MCbiclust`
+- ⏳ `MLP`
+- ⏳ `MODA`
+- ⏳ `MPRAnalyze`
+- ⏳ `MWASTools`
+- ⏳ `MeSHDbi`
+- ⏳ `MesKit`
+
+... and 161 more ...
+
+## Not Yet Started (1046)
 - ⏸️ `ACE`
-- ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
-- ⏸️ `ALDEx2`
 - ⏸️ `AMARETTO`
 - ⏸️ `APL`
 - ⏸️ `ASICS`
@@ -105,8 +157,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationForge`
-- ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
@@ -118,8 +168,6 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
-- ⏸️ `BUMHMM`
-- ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
@@ -134,9 +182,15 @@
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
+- ⏸️ `BindingSiteFinder`
+- ⏸️ `BioCor`
+- ⏸️ `BioNERO`
+- ⏸️ `BioTIP`
+- ⏸️ `BiocHubsShiny`
+- ⏸️ `BloodGen3Module`
 
-... and 1218 more ...
+... and 996 more ...
 
 ---
-*Last updated: 2025-11-01 01:12:53 UTC*
+*Last updated: 2025-11-01 01:18:30 UTC*
 *Packages with verified BBS status: 111*

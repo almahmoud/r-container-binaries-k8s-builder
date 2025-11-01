@@ -972,3 +972,14 @@ syntenet
 TDbasedUFE
 transite
 tRNAdbImport
+BUMHMM
+BUScorrect
+CaDrA
+CAEN
+CalibraCurve
+DiscoRhythm
+ExpressionAtlas
+FeatSeekR
+GNET2
+GRmetrics
+IFAA
