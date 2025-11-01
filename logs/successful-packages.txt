@@ -1998,3 +1998,7 @@ TENxIO
 RESOLVE
 SpatialExperiment
 iSEEde
+SETA
+SplicingGraphs
+SPOTlight
+tadar

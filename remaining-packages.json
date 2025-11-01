@@ -215,11 +215,9 @@
   "SCArray.sat": [
     "SCArray"
   ],
-  "SETA": [],
   "SEraster": [],
   "SOMNiBUS": [],
   "SPIAT": [],
-  "SPOTlight": [],
   "SVP": [],
   "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
@@ -238,7 +236,6 @@
   ],
   "SpatialExperimentIO": [],
   "SpatialFeatureExperiment": [],
-  "SplicingGraphs": [],
   "SpotClean": [],
   "SpotSweeper": [
     "escheR"
@@ -567,7 +564,6 @@
   "stJoincount": [],
   "stPipe": [],
   "standR": [],
-  "tadar": [],
   "terraTCGAdata": [
     "TCGAutils"
   ],
