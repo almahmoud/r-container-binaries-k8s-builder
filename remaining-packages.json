@@ -6,7 +6,6 @@
   "ACME": [
     "Biobase"
   ],
-  "ANCOMBC": [],
   "ANF": [
     "Biobase"
   ],
@@ -18,16 +17,12 @@
   "AlpsNMR": [
     "mixOmics"
   ],
-  "AnVIL": [],
-  "AnVILAz": [],
   "AnVILGCP": [],
   "AnVILPublish": [
-    "AnVIL",
     "AnVILGCP"
   ],
   "AnVILWorkflow": [
-    "AnVILGCP",
-    "AnVIL"
+    "AnVILGCP"
   ],
   "BAGS": [
     "Biobase"
@@ -142,7 +137,6 @@
     "Rgraphviz"
   ],
   "ChemmineOB": [],
-  "ClustIRR": [],
   "ConsensusClusterPlus": [
     "Biobase"
   ],
@@ -181,7 +175,6 @@
     "EBarrays",
     "Biobase"
   ],
-  "EMDomics": [],
   "EnrichDO": [
     "Rgraphviz",
     "S4Vectors",
@@ -270,14 +263,11 @@
     "multtest",
     "Biobase"
   ],
-  "KinSwingR": [],
   "LEA": [],
   "LedPred": [],
   "Linnorm": [],
   "MACSQuantifyR": [],
-  "MANOR": [],
   "MBAmethyl": [],
-  "MBCB": [],
   "MBttest": [],
   "MEIGOR": [
     "CNORode",
@@ -582,7 +572,6 @@
     "multtest",
     "Biobase"
   ],
-  "arrayQuality": [],
   "bacon": [],
   "basilisk": [],
   "basilisk.utils": [],
@@ -616,19 +605,14 @@
   ],
   "ceRNAnetsim": [],
   "cellmig": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "cellmigRation": [],
-  "cellxgenedp": [],
   "clevRvis": [],
   "clippda": [
     "Biobase"
   ],
-  "clst": [],
-  "clstutils": [
-    "clst"
-  ],
+  "clstutils": [],
   "clusterStab": [
     "Biobase"
   ],
@@ -671,7 +655,6 @@
   ],
   "cytolib": [],
   "daMA": [],
-  "dcGSA": [],
   "dcanr": [],
   "ddCt": [
     "Biobase"
@@ -724,7 +707,6 @@
     "RCy3",
     "graph"
   ],
-  "fenr": [],
   "fgga": [
     "RBGL",
     "graph"
@@ -874,20 +856,15 @@
     "Biobase"
   ],
   "ggkegg": [],
-  "ggtree": [
-    "treeio"
-  ],
+  "ggtree": [],
   "ggtreeDendro": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "ggtreeExtra": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "ggtreeSpace": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "graph": [],
   "hapFabia": [
@@ -945,7 +922,6 @@
   "maSigPro": [
     "Biobase"
   ],
-  "magrene": [],
   "martini": [
     "snpStats"
   ],
@@ -1066,8 +1042,7 @@
   "pfamAnalyzeR": [],
   "pgca": [],
   "philr": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "phosphonormalizer": [],
   "planet": [],
@@ -1075,7 +1050,6 @@
   "plgem": [
     "Biobase"
   ],
-  "plotGrouper": [],
   "ppcseq": [
     "edgeR"
   ],
@@ -1134,8 +1108,7 @@
   ],
   "rsemmed": [],
   "scBubbletree": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "scFeatureFilter": [],
   "scLANE": [],
@@ -1168,8 +1141,7 @@
   ],
   "sincell": [],
   "sitePath": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "sizepower": [],
   "snifter": [
@@ -1190,8 +1162,7 @@
   "synergyfinder": [],
   "systemPipeShiny": [],
   "tanggle": [
-    "ggtree",
-    "treeio"
+    "ggtree"
   ],
   "ternarynet": [],
   "tidyFlowCore": [
@@ -1209,7 +1180,6 @@
   ],
   "timescape": [],
   "tomoseqr": [],
-  "treeio": [],
   "trio": [
     "siggenes",
     "Biobase",

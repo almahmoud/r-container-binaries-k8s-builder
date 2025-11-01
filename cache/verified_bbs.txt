@@ -1,11 +1,14 @@
 ABSSeq
 AMOUNTAIN
+ANCOMBC
 ARRmNormalization
 ASAFE
 ASEB
 ASGSCA
 ASSET
 AWAggregator
+AnVIL
+AnVILAz
 AnVILBase
 AnVILBilling
 BADER
@@ -62,6 +65,7 @@ survcomp
 swfdr
 switchBox
 synlet
+treeio
 vbmp
 veloviz
 weaver

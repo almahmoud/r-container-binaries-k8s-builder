@@ -1,0 +1,109 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AnVIL'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'AnVIL'
+also installing the dependencies ‘crosstalk’, ‘rapiclient’, ‘DT’, ‘AnVILGCP’
+
+trying URL 'https://cloud.r-project.org/src/contrib/crosstalk_1.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/rapiclient_0.1.8.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/DT_0.34.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AnVILGCP_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AnVIL_1.23.0.tar.gz'
+* installing *source* package ‘crosstalk’ ...
+** this is package ‘crosstalk’ version ‘1.2.2’
+** package ‘crosstalk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *source* package ‘rapiclient’ ...
+** this is package ‘rapiclient’ version ‘0.1.8’
+** package ‘rapiclient’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rapiclient’ as ‘rapiclient_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rapiclient)
+* installing *source* package ‘AnVILGCP’ ...
+** this is package ‘AnVILGCP’ version ‘1.5.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnVILGCP’ as ‘AnVILGCP_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVILGCP)
+* installing *source* package ‘DT’ ...
+** this is package ‘DT’ version ‘0.34.0’
+** package ‘DT’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DT’ as ‘DT_0.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DT)
+* installing *source* package ‘AnVIL’ ...
+** this is package ‘AnVIL’ version ‘1.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnVIL’ as ‘AnVIL_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVIL)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIOgi3M/downloaded_packages’
+Old packages: 'promises'
+
+real	0m17.975s
+user	0m15.101s
+sys	0m5.369s
