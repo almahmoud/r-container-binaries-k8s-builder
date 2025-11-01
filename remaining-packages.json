@@ -43,9 +43,7 @@
     "OrganismDbi"
   ],
   "ArrayExpress": [],
-  "BASiCS": [],
   "BASiCStan": [
-    "BASiCS",
     "glmGamPoi"
   ],
   "BBCAnalyzer": [
@@ -694,7 +692,6 @@
   "Rhisat2": [
     "SGSeq"
   ],
-  "RiboCrypt": [],
   "RiboProfiling": [
     "ggbio",
     "biovizBase",
@@ -792,7 +789,6 @@
     "SpatialExperiment",
     "SpatialExperimentIO"
   ],
-  "Spaniel": [],
   "SparseSignatures": [],
   "SpatialExperiment": [],
   "SpatialExperimentIO": [
@@ -832,7 +828,6 @@
   "TENxIO": [],
   "TFBSTools": [],
   "TFEA.ChIP": [],
-  "TFHAZ": [],
   "TFutils": [
     "GenomicFiles",
     "VariantAnnotation"
@@ -1062,7 +1057,6 @@
   ],
   "cleanUpdTSeq": [],
   "cliProfiler": [],
-  "clipper": [],
   "cliqueMS": [
     "xcms",
     "MSnbase",

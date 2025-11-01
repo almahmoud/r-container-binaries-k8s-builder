@@ -1620,3 +1620,8 @@ vmrseq
 airpart
 BayesSpace
 preciseTAD
+BASiCS
+clipper
+RiboCrypt
+Spaniel
+TFHAZ
