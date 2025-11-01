@@ -2074,3 +2074,7 @@ stJoincount
 terraTCGAdata
 VisiumIO
 smoothclust
+ggspavis
+glmSparseNet
+GSVA
+SpatialFeatureExperiment

@@ -39,9 +39,7 @@
   "Damsel": [
     "ggbio"
   ],
-  "EGSEA": [
-    "GSVA"
-  ],
+  "EGSEA": [],
   "ExperimentHubData": [
     "AnnotationHubData"
   ],
@@ -53,7 +51,6 @@
     "RTCGAToolbox"
   ],
   "GSReg": [],
-  "GSVA": [],
   "GUIDEseq": [],
   "GenomicOZone": [
     "ggbio"
@@ -142,18 +139,13 @@
     "ggbio"
   ],
   "SpaceTrooper": [],
-  "SpatialFeatureExperiment": [],
   "SpotSweeper": [],
   "Statial": [],
-  "TBSignatureProfiler": [
-    "GSVA"
-  ],
+  "TBSignatureProfiler": [],
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
-  "Voyager": [
-    "SpatialFeatureExperiment"
-  ],
+  "Voyager": [],
   "XeniumIO": [],
   "YAPSA": [
     "SomaticSignatures",
@@ -164,9 +156,7 @@
     "ggbio"
   ],
   "alabaster": [],
-  "alabaster.sfe": [
-    "SpatialFeatureExperiment"
-  ],
+  "alabaster.sfe": [],
   "appreci8R": [],
   "bandle": [
     "MSnbase",
@@ -198,9 +188,7 @@
   ],
   "compEpiTools": [],
   "concordexR": [],
-  "consensusOV": [
-    "GSVA"
-  ],
+  "consensusOV": [],
   "cosmiq": [
     "xcms",
     "MSnbase"
@@ -238,8 +226,6 @@
   "gDR": [],
   "geomeTriD": [],
   "ggbio": [],
-  "ggspavis": [],
-  "glmSparseNet": [],
   "iSEEfier": [
     "iSEEu"
   ],
@@ -286,16 +272,12 @@
     "xcms",
     "MSnbase"
   ],
-  "octad": [
-    "GSVA"
-  ],
+  "octad": [],
   "omXplore": [
     "MSnbase"
   ],
   "omicsGMF": [],
-  "oppar": [
-    "GSVA"
-  ],
+  "oppar": [],
   "pRoloc": [
     "MSnbase"
   ],
@@ -303,9 +285,7 @@
     "pRoloc",
     "MSnbase"
   ],
-  "pathMED": [
-    "GSVA"
-  ],
+  "pathMED": [],
   "pcaExplorer": [],
   "peakPantheR": [
     "MSnbase"
@@ -344,13 +324,10 @@
     "standR"
   ],
   "signifinder": [
-    "consensusOV",
-    "GSVA"
+    "consensusOV"
   ],
   "simpleSeg": [],
-  "singleCellTK": [
-    "GSVA"
-  ],
+  "singleCellTK": [],
   "skewr": [],
   "smoppix": [],
   "spicyR": [

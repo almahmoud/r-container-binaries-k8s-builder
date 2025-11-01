@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2076 (92%)
+- **Successfully Built:** 2080 (92%)
 - **Failed:** 2 (0%)
-- **In Progress:** 80
+- **In Progress:** 76
 - **Not Started:** 86
 
 **Progress:** 92%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2076)
+## Successfully Built Packages (2080)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2026 more ...*
+*... and 2030 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (80)
+## In Progress (76)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `CAGEr`
@@ -92,7 +92,6 @@
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DMRcate`
 - ⏳ `GSReg`
-- ⏳ `GSVA`
 - ⏳ `GUIDEseq`
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
@@ -111,7 +110,6 @@
 - ⏳ `SOMNiBUS`
 - ⏳ `SVP`
 - ⏳ `SpaceTrooper`
-- ⏳ `SpatialFeatureExperiment`
 - ⏳ `SpotSweeper`
 - ⏳ `Statial`
 - ⏳ `TFutils`
@@ -132,10 +130,12 @@
 - ⏳ `gDR`
 - ⏳ `geomeTriD`
 - ⏳ `ggbio`
-- ⏳ `ggspavis`
-- ⏳ `glmSparseNet`
+- ⏳ `iSEEu`
+- ⏳ `imcRtools`
+- ⏳ `jazzPanda`
+- ⏳ `linkSet`
 
-... and 30 more ...
+... and 26 more ...
 
 ## Not Yet Started (86)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 36 more ...
 
 ---
-*Last updated: 2025-11-01 07:15:58 UTC*
+*Last updated: 2025-11-01 07:17:13 UTC*
 *Packages with verified BBS status: 148*
