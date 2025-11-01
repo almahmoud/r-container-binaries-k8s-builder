@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1276 (56%)
+- **Successfully Built:** 1285 (57%)
 - **Failed:** 2 (0%)
-- **In Progress:** 147
+- **In Progress:** 138
 - **Not Started:** 819
 
-**Progress:** 56%
+**Progress:** 57%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1276)
+## Successfully Built Packages (1285)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1226 more ...*
+*... and 1235 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (147)
+## In Progress (138)
 - ⏳ `BSgenome`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -107,7 +107,6 @@
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
-- ⏳ `HicAggR`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MGFM`
@@ -129,13 +128,14 @@
 - ⏳ `PepSetTest`
 - ⏳ `PhIPData`
 - ⏳ `RTNduals`
-- ⏳ `RaggedExperiment`
 - ⏳ `Rbowtie2`
-- ⏳ `RcisTarget`
 - ⏳ `ReactomeGSA`
 - ⏳ `RegEnrich`
+- ⏳ `RolDE`
+- ⏳ `SAIGEgds`
+- ⏳ `SICtools`
 
-... and 97 more ...
+... and 88 more ...
 
 ## Not Yet Started (819)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 769 more ...
 
 ---
-*Last updated: 2025-11-01 02:30:57 UTC*
+*Last updated: 2025-11-01 02:32:41 UTC*
 *Packages with verified BBS status: 127*

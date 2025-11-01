@@ -1274,3 +1274,12 @@ keggorthology
 mpra
 multiMiR
 StabMap
+customCMPdb
+geneXtendeR
+HicAggR
+methyLImp2
+methylscaper
+plyinteractions
+RaggedExperiment
+RcisTarget
+SDAMS

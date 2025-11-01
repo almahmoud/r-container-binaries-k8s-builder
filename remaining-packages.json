@@ -266,9 +266,7 @@
   "CNTools": [
     "genefilter"
   ],
-  "CNVRanger": [
-    "RaggedExperiment"
-  ],
+  "CNVRanger": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -775,7 +773,6 @@
   "GNOSIS": [
     "cBioPortalData",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures"
@@ -925,7 +922,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "HicAggR": [],
   "HoloFoodR": [
     "MultiAssayExperiment",
     "TreeSummarizedExperiment",
@@ -1551,7 +1547,6 @@
     "VariantAnnotation"
   ],
   "RTCGAToolbox": [
-    "RaggedExperiment",
     "TCGAutils",
     "GenomicFeatures",
     "MultiAssayExperiment"
@@ -1571,7 +1566,6 @@
     "CoreGx",
     "MultiAssayExperiment"
   ],
-  "RaggedExperiment": [],
   "RareVariantVis": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -1582,7 +1576,6 @@
   ],
   "Rbowtie2": [],
   "RbowtieCuda": [],
-  "RcisTarget": [],
   "ReactomeGSA": [],
   "ReactomePA": [
     "enrichplot"
@@ -1691,7 +1684,6 @@
   "SCnorm": [
     "SingleCellExperiment"
   ],
-  "SDAMS": [],
   "SETA": [
     "SingleCellExperiment"
   ],
@@ -1899,8 +1891,7 @@
   "TCC": [],
   "TCGAutils": [
     "GenomicFeatures",
-    "MultiAssayExperiment",
-    "RaggedExperiment"
+    "MultiAssayExperiment"
   ],
   "TDbasedUFEadv": [
     "enrichplot"
@@ -2231,7 +2222,6 @@
     "clusterProfiler",
     "ReactomePA",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "enrichplot",
@@ -2301,7 +2291,6 @@
   ],
   "cBioPortalData": [
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures"
@@ -2323,7 +2312,6 @@
     "cBioPortalData",
     "phenoTest",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "Category",
@@ -2347,7 +2335,6 @@
     "cBioPortalData",
     "genefilter",
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "RTCGAToolbox",
     "TCGAutils",
     "GenomicFeatures"
@@ -2593,7 +2580,6 @@
   "crupR": [
     "GenomicFeatures"
   ],
-  "customCMPdb": [],
   "cydar": [
     "SingleCellExperiment"
   ],
@@ -2895,7 +2881,6 @@
   "geneAttribution": [
     "GenomicFeatures"
   ],
-  "geneXtendeR": [],
   "genefilter": [],
   "geneplotter": [],
   "genomation": [
@@ -2933,8 +2918,7 @@
   "glmSparseNet": [
     "MultiAssayExperiment",
     "TCGAutils",
-    "GenomicFeatures",
-    "RaggedExperiment"
+    "GenomicFeatures"
   ],
   "globaltest": [],
   "gmapR": [
@@ -3216,7 +3200,6 @@
   "methrix": [
     "BSgenome"
   ],
-  "methyLImp2": [],
   "methylCC": [
     "minfi",
     "bsseq",
@@ -3257,7 +3240,6 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "methylscaper": [],
   "methylumi": [
     "minfi",
     "genefilter",
@@ -3540,8 +3522,7 @@
     "MultiAssayExperiment"
   ],
   "omicsPrint": [
-    "MultiAssayExperiment",
-    "RaggedExperiment"
+    "MultiAssayExperiment"
   ],
   "oppar": [
     "GSVA",
@@ -3640,7 +3621,6 @@
     "BSgenome"
   ],
   "plotgardener": [],
-  "plyinteractions": [],
   "podkat": [
     "BSgenome"
   ],
@@ -4289,7 +4269,6 @@
   "tenXplore": [],
   "terraTCGAdata": [
     "MultiAssayExperiment",
-    "RaggedExperiment",
     "TCGAutils",
     "GenomicFeatures"
   ],
