@@ -1604,3 +1604,7 @@ Moonlight2R
 BatchQC
 dittoSeq
 fishpond
+CiteFuse
+OUTRIDER
+rnaEditr
+scPipe

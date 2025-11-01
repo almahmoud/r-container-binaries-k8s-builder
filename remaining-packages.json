@@ -175,7 +175,6 @@
     "Rhisat2",
     "SGSeq"
   ],
-  "CiteFuse": [],
   "CleanUpRNAseq": [],
   "CluMSID": [
     "MSnbase",
@@ -303,9 +302,7 @@
     "VariantAnnotation",
     "OrganismDbi"
   ],
-  "FRASER": [
-    "OUTRIDER"
-  ],
+  "FRASER": [],
   "G4SNVHunter": [
     "VariantAnnotation"
   ],
@@ -566,7 +563,6 @@
     "VariantAnnotation"
   ],
   "ORFhunteR": [],
-  "OUTRIDER": [],
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
@@ -1726,7 +1722,6 @@
     "TFBSTools"
   ],
   "rifi": [],
-  "rnaEditr": [],
   "ropls": [],
   "rqt": [
     "ropls"
@@ -1745,7 +1740,6 @@
   "scDblFinder": [],
   "scDotPlot": [],
   "scMerge": [],
-  "scPipe": [],
   "scRNAseqApp": [
     "slingshot",
     "TrajectoryUtils"
@@ -1896,7 +1890,6 @@
     "SpatialExperiment"
   ],
   "stPipe": [
-    "scPipe",
     "SpatialExperiment"
   ],
   "standR": [
