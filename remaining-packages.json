@@ -415,7 +415,6 @@
     "scuttle"
   ],
   "CircSeqAlignTk": [
-    "Rbowtie2",
     "Rhisat2",
     "txdbmaker",
     "SGSeq",
@@ -1574,7 +1573,6 @@
   "Rbec": [
     "dada2"
   ],
-  "Rbowtie2": [],
   "RbowtieCuda": [],
   "ReactomeGSA": [],
   "ReactomePA": [
@@ -1660,7 +1658,6 @@
     "ensembldb",
     "BSgenome"
   ],
-  "SAIGEgds": [],
   "SC3": [
     "SingleCellExperiment"
   ],
@@ -1886,7 +1883,6 @@
     "SpatialExperiment",
     "genefilter"
   ],
-  "TCC": [],
   "TCGAutils": [
     "GenomicFeatures",
     "MultiAssayExperiment"
@@ -1956,7 +1952,6 @@
   "UMI4Cats": [
     "regioneR",
     "BSgenome",
-    "Rbowtie2",
     "GenomicFeatures"
   ],
   "UPDhmm": [
@@ -2784,7 +2779,6 @@
   ],
   "esATAC": [
     "pipeFrame",
-    "Rbowtie2",
     "ChIPseeker",
     "clusterProfiler",
     "BSgenome",
