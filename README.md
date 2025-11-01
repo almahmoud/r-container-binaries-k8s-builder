@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1577 (70%)
+- **Successfully Built:** 1578 (70%)
 - **Failed:** 2 (0%)
-- **In Progress:** 231
+- **In Progress:** 230
 - **Not Started:** 434
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1577)
+## Successfully Built Packages (1578)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 
-*... and 1527 more ...*
+*... and 1528 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (231)
+## In Progress (230)
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASSIGN`
@@ -135,7 +135,7 @@
 - ⏳ `GeneMeta`
 - ⏳ `HarmonizR`
 
-... and 181 more ...
+... and 180 more ...
 
 ## Not Yet Started (434)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 384 more ...
 
 ---
-*Last updated: 2025-11-01 04:01:46 UTC*
+*Last updated: 2025-11-01 04:03:09 UTC*
 *Packages with verified BBS status: 136*

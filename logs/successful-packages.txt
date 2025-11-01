@@ -1575,3 +1575,4 @@ scAnnotatR
 tidySingleCellExperiment
 DegNorm
 ELViS
+scone
