@@ -1014,3 +1014,8 @@ BioNAR
 BioNet
 survtype
 TIN
+Bioc.gff
+BiocSet
+biomaRt
+GOSemSim
+omicplotR
