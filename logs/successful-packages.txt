@@ -2095,3 +2095,14 @@ gDR
 magpie
 omicsGMF
 tpSVG
+cytoviewer
+iSEEu
+mitoClone2
+MSnbase
+REDseq
+scp
+SpotSweeper
+standR
+tidySpatialExperiment
+XeniumIO
+xenLite

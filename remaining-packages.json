@@ -16,21 +16,14 @@
   ],
   "CAGEr": [],
   "CAMERA": [
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "ChAMP": [
     "DMRcate"
   ],
-  "CluMSID": [
-    "MSnbase"
-  ],
-  "DAPAR": [
-    "MSnbase"
-  ],
-  "DEP": [
-    "MSnbase"
-  ],
+  "CluMSID": [],
+  "DAPAR": [],
+  "DEP": [],
   "DMRcate": [],
   "Damsel": [
     "ggbio"
@@ -52,56 +45,40 @@
   ],
   "IPO": [
     "xcms",
-    "CAMERA",
-    "MSnbase"
+    "CAMERA"
   ],
   "LOBSTAHS": [
     "xcms",
-    "CAMERA",
-    "MSnbase"
+    "CAMERA"
   ],
   "MAGAR": [],
   "MAIT": [
     "CAMERA",
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "MEAL": [],
   "MEAT": [],
   "MSnID": [
-    "MSnbase",
     "msmsTests",
     "msmsEDA"
   ],
-  "MSnbase": [],
-  "MSstatsQC": [
-    "MSnbase"
-  ],
+  "MSstatsQC": [],
   "MSstatsQCgui": [
-    "MSstatsQC",
-    "MSnbase"
+    "MSstatsQC"
   ],
   "NADfinder": [],
   "OMICsPCA": [],
-  "PRONE": [
-    "MSnbase"
-  ],
-  "PrInCE": [
-    "MSnbase"
-  ],
+  "PRONE": [],
+  "PrInCE": [],
   "Prostar": [
-    "DAPAR",
-    "MSnbase"
+    "DAPAR"
   ],
   "QuasR": [],
   "R3CPET": [
     "ggbio"
   ],
   "RAIDS": [],
-  "REDseq": [],
-  "RMassBank": [
-    "MSnbase"
-  ],
+  "RMassBank": [],
   "RNAAgeCalc": [
     "recount",
     "derfinder"
@@ -129,13 +106,11 @@
     "ggbio"
   ],
   "SpaceTrooper": [],
-  "SpotSweeper": [],
   "TBSignatureProfiler": [],
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
   "Voyager": [],
-  "XeniumIO": [],
   "YAPSA": [
     "SomaticSignatures",
     "ggbio"
@@ -148,7 +123,6 @@
   "alabaster.sfe": [],
   "appreci8R": [],
   "bandle": [
-    "MSnbase",
     "pRoloc"
   ],
   "bigmelon": [],
@@ -167,14 +141,12 @@
     "cBioPortalData"
   ],
   "cliqueMS": [
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "compEpiTools": [],
   "consensusOV": [],
   "cosmiq": [
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "crisprShiny": [
     "crisprViz"
@@ -183,7 +155,6 @@
     "crisprViz"
   ],
   "crisprViz": [],
-  "cytoviewer": [],
   "derfinder": [],
   "derfinderPlot": [
     "derfinder",
@@ -203,15 +174,11 @@
   ],
   "flagme": [
     "xcms",
-    "CAMERA",
-    "MSnbase"
+    "CAMERA"
   ],
   "geomeTriD": [],
   "ggbio": [],
-  "iSEEfier": [
-    "iSEEu"
-  ],
-  "iSEEu": [],
+  "iSEEfier": [],
   "imcRtools": [],
   "intansv": [
     "ggbio"
@@ -223,8 +190,7 @@
   ],
   "metaMS": [
     "CAMERA",
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "methodical": [],
   "methylGSA": [],
@@ -232,51 +198,35 @@
     "ExperimentHubData",
     "AnnotationHubData"
   ],
-  "mitoClone2": [],
   "msgbsR": [
     "ggbio"
   ],
-  "msmsEDA": [
-    "MSnbase"
-  ],
+  "msmsEDA": [],
   "msmsTests": [
-    "MSnbase",
     "msmsEDA"
   ],
   "msqrob2": [],
   "multicrispr": [],
   "musicatk": [],
   "ncGTW": [
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "octad": [],
-  "omXplore": [
-    "MSnbase"
-  ],
+  "omXplore": [],
   "oppar": [],
-  "pRoloc": [
-    "MSnbase"
-  ],
+  "pRoloc": [],
   "pRolocGUI": [
-    "pRoloc",
-    "MSnbase"
+    "pRoloc"
   ],
   "pathMED": [],
   "pcaExplorer": [],
-  "peakPantheR": [
-    "MSnbase"
-  ],
+  "peakPantheR": [],
   "psichomics": [
     "recount",
     "derfinder"
   ],
-  "ptairMS": [
-    "MSnbase"
-  ],
-  "qPLEXanalyzer": [
-    "MSnbase"
-  ],
+  "ptairMS": [],
+  "qPLEXanalyzer": [],
   "recount": [
     "derfinder"
   ],
@@ -293,13 +243,10 @@
     "ggbio"
   ],
   "scmeth": [],
-  "scp": [],
   "scruff": [
     "ggbio"
   ],
-  "shinyDSP": [
-    "standR"
-  ],
+  "shinyDSP": [],
   "signifinder": [
     "consensusOV"
   ],
@@ -311,23 +258,13 @@
   ],
   "spoon": [],
   "squallms": [
-    "xcms",
-    "MSnbase"
+    "xcms"
   ],
   "stPipe": [],
-  "standR": [],
-  "tidySpatialExperiment": [],
-  "tidyomics": [
-    "tidySpatialExperiment"
-  ],
-  "topdownr": [
-    "MSnbase"
-  ],
+  "tidyomics": [],
+  "topdownr": [],
   "uncoverappLib": [],
   "visiumStitched": [],
   "vulcan": [],
-  "xcms": [
-    "MSnbase"
-  ],
-  "xenLite": []
+  "xcms": []
 }

@@ -138,6 +138,7 @@ wiggleplotr
 wpm
 xCell2
 xcore
+xenLite
 xmapbridge
 yamss
 yarn
