@@ -58,7 +58,6 @@
     "SpatialExperiment"
   ],
   "BatchSVG": [],
-  "BioNERO": [],
   "BulkSignalR": [
     "SpatialExperiment"
   ],
@@ -950,7 +949,6 @@
   ],
   "cageminer": [
     "ggbio",
-    "BioNERO",
     "biovizBase",
     "VariantAnnotation",
     "OrganismDbi"
@@ -1832,7 +1830,6 @@
   "treeclimbR": [
     "TreeSummarizedExperiment"
   ],
-  "tricycle": [],
   "txcutr": [],
   "uncoverappLib": [
     "Gviz",
