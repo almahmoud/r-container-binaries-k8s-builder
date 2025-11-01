@@ -17,13 +17,10 @@
   "CAMERA": [
     "xcms"
   ],
-  "ChAMP": [
-    "DMRcate"
-  ],
+  "ChAMP": [],
   "CluMSID": [],
   "DAPAR": [],
   "DEP": [],
-  "DMRcate": [],
   "Damsel": [
     "ggbio"
   ],
@@ -38,7 +35,6 @@
     "cBioPortalData"
   ],
   "GSReg": [],
-  "GUIDEseq": [],
   "GenomicOZone": [
     "ggbio"
   ],
@@ -66,7 +62,6 @@
     "MSstatsQC"
   ],
   "NADfinder": [],
-  "OMICsPCA": [],
   "PRONE": [],
   "PrInCE": [],
   "Prostar": [
@@ -104,12 +99,8 @@
   "SomaticSignatures": [
     "ggbio"
   ],
-  "SpaceTrooper": [],
-  "TBSignatureProfiler": [],
   "TFutils": [],
-  "Ularcirc": [],
   "VCFArray": [],
-  "Voyager": [],
   "YAPSA": [
     "SomaticSignatures",
     "ggbio"
@@ -118,7 +109,6 @@
     "ReportingTools",
     "ggbio"
   ],
-  "alabaster": [],
   "alabaster.sfe": [],
   "appreci8R": [],
   "bandle": [
@@ -143,7 +133,6 @@
     "xcms"
   ],
   "compEpiTools": [],
-  "consensusOV": [],
   "cosmiq": [
     "xcms"
   ],
@@ -175,14 +164,12 @@
     "xcms",
     "CAMERA"
   ],
-  "geomeTriD": [],
   "ggbio": [],
   "iSEEfier": [],
   "imcRtools": [],
   "intansv": [
     "ggbio"
   ],
-  "linkSet": [],
   "lisaClust": [
     "spicyR"
   ],
@@ -190,7 +177,6 @@
     "CAMERA",
     "xcms"
   ],
-  "methodical": [],
   "methylGSA": [],
   "methylclock": [
     "ExperimentHubData",
@@ -203,8 +189,6 @@
   "msmsTests": [
     "msmsEDA"
   ],
-  "msqrob2": [],
-  "multicrispr": [],
   "musicatk": [],
   "ncGTW": [
     "xcms"
@@ -216,7 +200,6 @@
   "pRolocGUI": [
     "pRoloc"
   ],
-  "pathMED": [],
   "pcaExplorer": [],
   "peakPantheR": [],
   "psichomics": [
@@ -245,20 +228,14 @@
     "ggbio"
   ],
   "shinyDSP": [],
-  "signifinder": [
-    "consensusOV"
-  ],
+  "signifinder": [],
   "singleCellTK": [],
   "skewr": [],
   "spicyR": [],
-  "spoon": [],
   "squallms": [
     "xcms"
   ],
-  "stPipe": [],
   "tidyomics": [],
   "topdownr": [],
-  "visiumStitched": [],
-  "vulcan": [],
   "xcms": []
 }

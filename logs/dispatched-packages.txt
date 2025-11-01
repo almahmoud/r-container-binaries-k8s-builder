@@ -2186,3 +2186,5 @@ tidyomics
 topdownr
 xcms
 spicyR
+ChAMP
+signifinder
