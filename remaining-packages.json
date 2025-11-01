@@ -2873,7 +2873,6 @@
     "genomation",
     "BSgenome"
   ],
-  "fastLiquidAssociation": [],
   "fcScan": [
     "VariantAnnotation",
     "BSgenome",
@@ -3698,7 +3697,6 @@
   "periodicDNA": [
     "BSgenome"
   ],
-  "phantasus": [],
   "phenoTest": [
     "Category",
     "genefilter"
@@ -3807,9 +3805,7 @@
   "rGREAT": [
     "GenomicFeatures"
   ],
-  "rTRM": [],
   "rTRMui": [
-    "rTRM",
     "MotifDb"
   ],
   "raer": [
