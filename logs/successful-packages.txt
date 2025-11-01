@@ -1702,3 +1702,8 @@ genomation
 iModMix
 gcapc
 knowYourCG
+m6Aboost
+pipeFrame
+sesame
+shinyMethyl
+VariantAnnotation
