@@ -1,0 +1,130 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''basilisk'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'basilisk'
+also installing the dependencies ‘RcppTOML’, ‘here’, ‘reticulate’, ‘dir.expiry’
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppTOML_0.2.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/here_1.0.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/reticulate_1.44.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dir.expiry_1.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/basilisk_1.23.0.tar.gz'
+* installing *source* package ‘RcppTOML’ ...
+** this is package ‘RcppTOML’ version ‘0.2.3’
+** package ‘RcppTOML’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -DTOML_ENABLE_FLOAT16=0 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -DTOML_ENABLE_FLOAT16=0 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c parse.cpp -o parse.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppTOML.so RcppExports.o parse.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-RcppTOML/00new/RcppTOML/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppTOML’ as ‘RcppTOML_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppTOML)
+* installing *source* package ‘here’ ...
+** this is package ‘here’ version ‘1.0.2’
+** package ‘here’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘here’ as ‘here_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (here)
+* installing *source* package ‘dir.expiry’ ...
+** this is package ‘dir.expiry’ version ‘1.19.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *source* package ‘reticulate’ ...
+** this is package ‘reticulate’ version ‘1.44.0’
+** package ‘reticulate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c event_loop.cpp -o event_loop.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c libpython.cpp -o libpython.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c output.cpp -o output.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pending_py_calls_notifier.cpp -o pending_py_calls_notifier.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c python.cpp -o python.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c readline.cpp -o readline.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c signals.cpp -o signals.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o reticulate.so RcppExports.o event_loop.o libpython.o output.o pending_py_calls_notifier.o python.o readline.o signals.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-reticulate/00new/reticulate/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reticulate’ as ‘reticulate_1.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reticulate)
+* installing *source* package ‘basilisk’ ...
+** this is package ‘basilisk’ version ‘1.23.0’
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘basilisk’ as ‘basilisk_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+
+The downloaded source packages are in
+	‘/tmp/RtmpVlHGCE/downloaded_packages’
+Old packages: 'promises'
+
+real	0m48.309s
+user	0m41.457s
+sys	0m8.538s

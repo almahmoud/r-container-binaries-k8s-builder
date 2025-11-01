@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 458 (65%)
+- **Successfully Built:** 512 (73%)
 - **Failed:** 4 (0%)
-- **In Progress:** 128
-- **Not Started:** 104
+- **In Progress:** 88
+- **Not Started:** 90
 
-**Progress:** 66%
+**Progress:** 74%
 ```
-█████████████████████████████████░░░░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (458)
+## Successfully Built Packages (512)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -32,6 +32,7 @@
 | [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
+| [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
@@ -44,9 +45,8 @@
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
-| [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 
-*... and 408 more ...*
+*... and 462 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (128)
+## In Progress (88)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
 - ⏳ `BiocNeighbors`
@@ -93,36 +93,25 @@
 - ⏳ `CGHregions`
 - ⏳ `COMPASS`
 - ⏳ `ChemmineOB`
-- ⏳ `CytoGLMM`
-- ⏳ `DCATS`
-- ⏳ `DEsingle`
 - ⏳ `DeepPINCS`
-- ⏳ `DepInfeR`
 - ⏳ `DepecheR`
 - ⏳ `EBImage`
-- ⏳ `EBcoexpress`
-- ⏳ `EnrichDO`
 - ⏳ `GWASTools`
-- ⏳ `HDTD`
 - ⏳ `HVP`
 - ⏳ `INDEED`
-- ⏳ `INPower`
 - ⏳ `ISAnalytics`
 - ⏳ `MSstatsConvert`
 - ⏳ `Mergeomics`
+- ⏳ `MetaDICT`
+- ⏳ `MetaboCoreUtils`
 - ⏳ `ModCon`
-- ⏳ `NPARC`
 - ⏳ `NuPoP`
-- ⏳ `OPWeight`
 - ⏳ `OSAT`
 - ⏳ `Omixer`
-- ⏳ `OncoSimulR`
 - ⏳ `OpenStats`
 - ⏳ `OrderedList`
-- ⏳ `Oscope`
 - ⏳ `Path2PPI`
 - ⏳ `PathNet`
-- ⏳ `Pedixplorer`
 - ⏳ `PepsNMR`
 - ⏳ `PhenoGeneRanker`
 - ⏳ `ProtGenerics`
@@ -136,11 +125,21 @@
 - ⏳ `RGraph2js`
 - ⏳ `RImmPort`
 - ⏳ `RLMM`
+- ⏳ `RSeqAn`
+- ⏳ `RTCGA`
+- ⏳ `SBMLR`
+- ⏳ `SCBN`
+- ⏳ `SCFA`
+- ⏳ `SIMLR`
+- ⏳ `SLqPCR`
+- ⏳ `SNPRelate`
+- ⏳ `SpaceMarkers`
+- ⏳ `SuperCellCyto`
+- ⏳ `TIN`
 
-... and 78 more ...
+... and 38 more ...
 
-## Not Yet Started (104)
-- ⏸️ `AWFisher`
+## Not Yet Started (90)
 - ⏸️ `BiocHail`
 - ⏸️ `CNORdt`
 - ⏸️ `CNORfeeder`
@@ -166,20 +165,14 @@
 - ⏸️ `MSstatsBioNet`
 - ⏸️ `MSstatsTMT`
 - ⏸️ `MetaCyto`
-- ⏸️ `MetaDICT`
-- ⏸️ `MetaboCoreUtils`
 - ⏸️ `NormqPCR`
-- ⏸️ `PROPER`
 - ⏸️ `Polytect`
 - ⏸️ `RBioFormats`
 - ⏸️ `RCyjs`
-- ⏸️ `RNAseqCovarImpute`
-- ⏸️ `ROSeq`
 - ⏸️ `Rcwl`
 - ⏸️ `RcwlPipelines`
 - ⏸️ `ReUseData`
 - ⏸️ `Rigraphlib`
-- ⏸️ `Rvisdiff`
 - ⏸️ `SIMAT`
 - ⏸️ `SIMD`
 - ⏸️ `Sconify`
@@ -190,9 +183,16 @@
 - ⏸️ `biomformat`
 - ⏸️ `bluster`
 - ⏸️ `cbpManager`
+- ⏸️ `cyanoFilter`
+- ⏸️ `cytoMEM`
+- ⏸️ `ddPCRclust`
+- ⏸️ `densvis`
+- ⏸️ `fedup`
+- ⏸️ `fgga`
+- ⏸️ `flowAI`
 
-... and 54 more ...
+... and 40 more ...
 
 ---
-*Last updated: 2025-11-01 15:42:15 UTC*
-*Packages with verified BBS status: 106*
+*Last updated: 2025-11-01 15:44:30 UTC*
+*Packages with verified BBS status: 107*

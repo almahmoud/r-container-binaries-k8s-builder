@@ -1,0 +1,213 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Rtpca'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'Rtpca'
+also installing the dependencies ‘biobroom’, ‘mefa’, ‘nls2’, ‘openxlsx’, ‘VennDiagram’, ‘VGAM’, ‘TPP’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biobroom_1.43.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mefa_3.2-10.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/nls2_0.3-4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/openxlsx_4.2.8.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/VennDiagram_1.7.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/VGAM_1.1-13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TPP_3.39.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Rtpca_1.21.0.tar.gz'
+* installing *source* package ‘biobroom’ ...
+** this is package ‘biobroom’ version ‘1.43.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biobroom’ as ‘biobroom_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biobroom)
+* installing *source* package ‘mefa’ ...
+** this is package ‘mefa’ version ‘3.2-10’
+** package ‘mefa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mefa’ as ‘mefa_3.2-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mefa)
+* installing *source* package ‘nls2’ ...
+** this is package ‘nls2’ version ‘0.3-4’
+** package ‘nls2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘nls2’ as ‘nls2_0.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nls2)
+* installing *source* package ‘openxlsx’ ...
+** this is package ‘openxlsx’ version ‘4.2.8.1’
+** package ‘openxlsx’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c helper_functions.cpp -o helper_functions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_workbook.cpp -o load_workbook.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read_workbook.cpp -o read_workbook.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c write_data.cpp -o write_data.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c write_file.cpp -o write_file.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c write_file_2.cpp -o write_file_2.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o openxlsx.so RcppExports.o helper_functions.o load_workbook.o read_workbook.o write_data.o write_file.o write_file_2.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-openxlsx/00new/openxlsx/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘openxlsx’ as ‘openxlsx_4.2.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (openxlsx)
+* installing *source* package ‘VennDiagram’ ...
+** this is package ‘VennDiagram’ version ‘1.7.3’
+** package ‘VennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘VGAM’ ...
+** this is package ‘VGAM’ version ‘1.1-13’
+** package ‘VGAM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c VGAM_init.c -o VGAM_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c caqo3.c -o caqo3.o
+gfortran  -fpic  -g -O2  -c ei.f -o ei.o
+gfortran  -fpic  -g -O2  -c fgam.f -o fgam.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gautr.c -o gautr.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lerchphi.c -o lerchphi.o
+gfortran  -fpic  -g -O2  -c lms.f -o lms.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c muxr3.c -o muxr3.o
+gfortran  -fpic  -g -O2  -c rgam.f -o rgam.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgam3.c -o rgam3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c specfun3.c -o specfun3.o
+gfortran  -fpic  -g -O2  -c tyeepolygamma.f -o tyeepolygamma.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tyeepolygamma3.c -o tyeepolygamma3.o
+gfortran  -fpic  -g -O2  -c vdigami.f -o vdigami.o
+gfortran  -fpic  -g -O2  -c veigen.f -o veigen.o
+gfortran  -fpic  -g -O2  -c vgam.f -o vgam.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vgam3.c -o vgam3.o
+gfortran  -fpic  -g -O2  -c vlinpack1.f -o vlinpack1.o
+gfortran  -fpic  -g -O2  -c vlinpack2.f -o vlinpack2.o
+gfortran  -fpic  -g -O2  -c vlinpack3.f -o vlinpack3.o
+gfortran  -fpic  -g -O2  -c vmux.f -o vmux.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vmux3.c -o vmux3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zeta3.c -o zeta3.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o VGAM.so VGAM_init.o caqo3.o ei.o fgam.o gautr.o lerchphi.o lms.o muxr3.o rgam.o rgam3.o specfun3.o tyeepolygamma.o tyeepolygamma3.o vdigami.o veigen.o vgam.o vgam3.o vlinpack1.o vlinpack2.o vlinpack3.o vmux.o vmux3.o zeta3.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-VGAM/00new/VGAM/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VGAM’ as ‘VGAM_1.1-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VGAM)
+* installing *source* package ‘Rtpca’ ...
+** this is package ‘Rtpca’ version ‘1.21.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rtpca’ as ‘Rtpca_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rtpca)
+* installing *source* package ‘TPP’ ...
+** this is package ‘TPP’ version ‘3.39.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TPP’ as ‘TPP_3.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TPP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxKUPG7/downloaded_packages’
+Old packages: 'promises'
+
+real	2m22.267s
+user	2m11.469s
+sys	0m13.482s

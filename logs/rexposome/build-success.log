@@ -1,0 +1,583 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rexposome'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'rexposome'
+also installing the dependencies ‘Deriv’, ‘ucminf’, ‘doBy’, ‘ordinal’, ‘carData’, ‘pbkrtest’, ‘gmm’, ‘pan’, ‘jomo’, ‘car’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘lobstr’, ‘tmvtnorm’, ‘norm’, ‘mitml’, ‘lsr’, ‘FactoMineR’, ‘ggridges’, ‘pryr’, ‘imputeLCMD’, ‘mice’
+
+trying URL 'https://cloud.r-project.org/src/contrib/Deriv_4.2.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ucminf_1.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/doBy_4.7.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ordinal_2023.12-4.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/carData_3.0-5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pbkrtest_0.5.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/gmm_1.9-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pan_1.9.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/jomo_2.7-6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/car_3.1-3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/flashClust_1.01-2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/leaps_3.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/multcompView_0.1-10.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/lobstr_1.1.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/tmvtnorm_1.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/norm_1.0-11.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mitml_0.4-5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/lsr_0.5.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/FactoMineR_2.12.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggridges_0.5.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pryr_0.1.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/imputeLCMD_2.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mice_3.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rexposome_1.33.0.tar.gz'
+* installing *source* package ‘Deriv’ ...
+** this is package ‘Deriv’ version ‘4.2.0’
+** package ‘Deriv’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Deriv’ as ‘Deriv_4.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Deriv)
+* installing *source* package ‘ucminf’ ...
+** this is package ‘ucminf’ version ‘1.2.2’
+** package ‘ucminf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c fortran.f -o fortran.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interface.c -o interface.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ucminf.so fortran.o init.o interface.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ucminf/00new/ucminf/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ucminf’ as ‘ucminf_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ucminf)
+* installing *source* package ‘carData’ ...
+** this is package ‘carData’ version ‘3.0-5’
+** package ‘carData’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘carData’ as ‘carData_3.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (carData)
+* installing *source* package ‘gmm’ ...
+** this is package ‘gmm’ version ‘1.9-1’
+** package ‘gmm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c lambda_met.f -o lambda_met.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c src.c -o src.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gmm.so lambda_met.o src.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-gmm/00new/gmm/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gmm’ as ‘gmm_1.9-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmm)
+* installing *source* package ‘pan’ ...
+** this is package ‘pan’ version ‘1.9’
+** package ‘pan’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c package_native_routine_registration_skeleton.c -o package_native_routine_registration_skeleton.o
+gfortran  -fpic  -g -O2  -c pan.f -o pan.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pan.so package_native_routine_registration_skeleton.o pan.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-pan/00new/pan/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pan’ as ‘pan_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pan)
+* installing *source* package ‘flashClust’ ...
+** this is package ‘flashClust’ version ‘1.01-2’
+** package ‘flashClust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c hc.f -o hc.o
+gfortran  -fpic  -g -O2  -c hcass2.f -o hcass2.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flashClust.so hc.o hcass2.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-flashClust/00new/flashClust/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flashClust’ as ‘flashClust_1.01-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flashClust)
+* installing *source* package ‘leaps’ ...
+** this is package ‘leaps’ version ‘3.2’
+** package ‘leaps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c leaps.f -o leaps.o
+gfortran  -fpic  -g -O2  -c leapshdr.f -o leapshdr.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o leaps.so init.o leaps.o leapshdr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-leaps/00new/leaps/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘leaps’ as ‘leaps_3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaps)
+* installing *source* package ‘multcompView’ ...
+** this is package ‘multcompView’ version ‘0.1-10’
+** package ‘multcompView’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *source* package ‘lobstr’ ...
+** this is package ‘lobstr’ version ‘1.1.2’
+** package ‘lobstr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c address.cpp -o address.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c inspect.cpp -o inspect.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c size.cpp -o size.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lobstr.so address.o cpp11.o inspect.o size.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-lobstr/00new/lobstr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lobstr’ as ‘lobstr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lobstr)
+* installing *source* package ‘norm’ ...
+** this is package ‘norm’ version ‘1.0-11.1’
+** package ‘norm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c norm.f -o norm.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o norm.so init.o norm.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-norm/00new/norm/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘norm’ as ‘norm_1.0-11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (norm)
+* installing *source* package ‘lsr’ ...
+** this is package ‘lsr’ version ‘0.5.2’
+** package ‘lsr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lsr’ as ‘lsr_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lsr)
+* installing *source* package ‘ggridges’ ...
+** this is package ‘ggridges’ version ‘0.5.7’
+** package ‘ggridges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggridges’ as ‘ggridges_0.5.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggridges)
+* installing *source* package ‘doBy’ ...
+** this is package ‘doBy’ version ‘4.7.0’
+** package ‘doBy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Note: ... may be used in an incorrect context 
+Note: ... may be used in an incorrect context 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘doBy’ as ‘doBy_4.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doBy)
+* installing *source* package ‘ordinal’ ...
+** this is package ‘ordinal’ version ‘2023.12-4.1’
+** package ‘ordinal’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c get_fitted.c -o get_fitted.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c links.c -o links.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilityFuns.c -o utilityFuns.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ordinal.so get_fitted.o init.o links.o utilityFuns.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ordinal/00new/ordinal/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ordinal’ as ‘ordinal_2023.12-4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ordinal)
+* installing *source* package ‘tmvtnorm’ ...
+** this is package ‘tmvtnorm’ version ‘1.7’
+** package ‘tmvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Fortran2CWrapper.c -o Fortran2CWrapper.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c  linked_list.f90 -o linked_list.o
+gfortran  -fpic  -g -O2  -c  rtmvnormgibbs.f90 -o rtmvnormgibbs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o tmvtnorm.so Fortran2CWrapper.o init.o linked_list.o rtmvnormgibbs.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-tmvtnorm/00new/tmvtnorm/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tmvtnorm’ as ‘tmvtnorm_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tmvtnorm)
+* installing *source* package ‘pryr’ ...
+** this is package ‘pryr’ version ‘0.1.6’
+** package ‘pryr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bytes.cpp -o bytes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c inspect.cpp -o inspect.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c promise.cpp -o promise.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c slice.cpp -o slice.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c typename.cpp -o typename.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pryr.so RcppExports.o bytes.o inspect.o promise.o slice.o typename.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-pryr/00new/pryr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pryr’ as ‘pryr_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pryr)
+* installing *source* package ‘pbkrtest’ ...
+** this is package ‘pbkrtest’ version ‘0.5.5’
+** package ‘pbkrtest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pbkrtest’ as ‘pbkrtest_0.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbkrtest)
+* installing *source* package ‘jomo’ ...
+** this is package ‘jomo’ version ‘2.7-6’
+** package ‘jomo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1C.c -o jomo1C.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranC.c -o jomo1ranC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranhrC.c -o jomo1ranhrC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranhrsmcC.c -o jomo1ranhrsmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ransmcC.c -o jomo1ransmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1smcC.c -o jomo1smcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2comC.c -o jomo2comC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2hrC.c -o jomo2hrC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2hrsmcC.c -o jomo2hrsmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2smcC.c -o jomo2smcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo_init.c -o jomo_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pdflib.c -o pdflib.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wishart.c -o wishart.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jomo.so jomo1C.o jomo1ranC.o jomo1ranhrC.o jomo1ranhrsmcC.o jomo1ransmcC.o jomo1smcC.o jomo2comC.o jomo2hrC.o jomo2hrsmcC.o jomo2smcC.o jomo_init.o pdflib.o wishart.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-jomo/00new/jomo/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jomo’ as ‘jomo_2.7-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jomo)
+* installing *source* package ‘imputeLCMD’ ...
+** this is package ‘imputeLCMD’ version ‘2.1’
+** package ‘imputeLCMD’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘imputeLCMD’ as ‘imputeLCMD_2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imputeLCMD)
+* installing *source* package ‘car’ ...
+** this is package ‘car’ version ‘3.1-3’
+** package ‘car’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘car’ as ‘car_3.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (car)
+* installing *source* package ‘mitml’ ...
+** this is package ‘mitml’ version ‘0.4-5’
+** package ‘mitml’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mitml’ as ‘mitml_0.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitml)
+* installing *source* package ‘FactoMineR’ ...
+** this is package ‘FactoMineR’ version ‘2.12’
+** package ‘FactoMineR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c disjonctif.c -o disjonctif.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FactoMineR.so disjonctif.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-FactoMineR/00new/FactoMineR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FactoMineR’ as ‘FactoMineR_2.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FactoMineR)
+* installing *source* package ‘mice’ ...
+** this is package ‘mice’ version ‘3.18.0’
+** package ‘mice’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c legendre.cpp -o legendre.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c match.cpp -o match.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c matchindex.cpp -o matchindex.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mice.so RcppExports.o legendre.o match.o matchindex.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mice/00new/mice/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mice’ as ‘mice_3.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mice)
+* installing *source* package ‘rexposome’ ...
+** this is package ‘rexposome’ version ‘1.33.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rexposome’ as ‘rexposome_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rexposome)
+
+The downloaded source packages are in
+	‘/tmp/RtmptLAcEm/downloaded_packages’
+Old packages: 'promises'
+
+real	3m45.856s
+user	3m22.362s
+sys	0m33.713s

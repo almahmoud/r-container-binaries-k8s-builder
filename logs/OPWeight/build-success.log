@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OPWeight'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'OPWeight'
+Warning: dependencies ‘DESeq2’, ‘SummarizedExperiment’ are not available
+also installing the dependency ‘airway’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/airway_1.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OPWeight_1.33.0.tar.gz'
+ERROR: dependency ‘SummarizedExperiment’ is not available for package ‘airway’
+Perhaps try a variation of:
+install.packages('SummarizedExperiment')
+* removing ‘/tmp/library/airway’
+* installing *source* package ‘OPWeight’ ...
+** this is package ‘OPWeight’ version ‘1.33.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘OPWeight’ as ‘OPWeight_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OPWeight)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMWaDFN/downloaded_packages’
+Old packages: 'promises'
+Warning message:
+In install.packages(...) :
+  installation of package ‘airway’ had non-zero exit status
+
+real	0m11.321s
+user	0m7.560s
+sys	0m1.852s

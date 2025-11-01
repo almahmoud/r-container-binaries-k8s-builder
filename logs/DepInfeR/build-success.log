@@ -1,0 +1,103 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DepInfeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'DepInfeR'
+also installing the dependencies ‘beeswarm’, ‘vipor’, ‘ggbeeswarm’
+
+trying URL 'https://cloud.r-project.org/src/contrib/beeswarm_0.4.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/vipor_0.4.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggbeeswarm_0.7.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DepInfeR_1.15.0.tar.gz'
+* installing *source* package ‘beeswarm’ ...
+** this is package ‘beeswarm’ version ‘0.4.0’
+** package ‘beeswarm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c beeswarm.c -o beeswarm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beeswarm.so beeswarm.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-beeswarm/00new/beeswarm/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘beeswarm’ as ‘beeswarm_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beeswarm)
+* installing *source* package ‘vipor’ ...
+** this is package ‘vipor’ version ‘0.4.7’
+** package ‘vipor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vipor’ as ‘vipor_0.4.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vipor)
+* installing *source* package ‘DepInfeR’ ...
+** this is package ‘DepInfeR’ version ‘1.15.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DepInfeR’ as ‘DepInfeR_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DepInfeR)
+* installing *source* package ‘ggbeeswarm’ ...
+** this is package ‘ggbeeswarm’ version ‘0.7.2’
+** package ‘ggbeeswarm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggbeeswarm’ as ‘ggbeeswarm_0.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggbeeswarm)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGAthkN/downloaded_packages’
+Old packages: 'promises'
+
+real	0m17.598s
+user	0m13.443s
+sys	0m4.600s

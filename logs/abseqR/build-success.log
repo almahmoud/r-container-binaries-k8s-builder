@@ -1,0 +1,75 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''abseqR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'abseqR'
+also installing the dependencies ‘flexdashboard’, ‘ggcorrplot’
+
+trying URL 'https://cloud.r-project.org/src/contrib/flexdashboard_0.6.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggcorrplot_0.1.4.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/abseqR_1.29.0.tar.gz'
+* installing *source* package ‘flexdashboard’ ...
+** this is package ‘flexdashboard’ version ‘0.6.2’
+** package ‘flexdashboard’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flexdashboard’ as ‘flexdashboard_0.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexdashboard)
+* installing *source* package ‘ggcorrplot’ ...
+** this is package ‘ggcorrplot’ version ‘0.1.4.1’
+** package ‘ggcorrplot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggcorrplot’ as ‘ggcorrplot_0.1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggcorrplot)
+* installing *source* package ‘abseqR’ ...
+** this is package ‘abseqR’ version ‘1.29.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘abseqR’ as ‘abseqR_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abseqR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnyRK85/downloaded_packages’
+Old packages: 'promises'
+
+real	0m21.066s
+user	0m17.549s
+sys	0m4.345s

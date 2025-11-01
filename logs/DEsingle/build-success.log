@@ -1,0 +1,155 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DEsingle'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'DEsingle'
+Warning: dependency ‘SingleCellExperiment’ is not available
+also installing the dependencies ‘gamlss.data’, ‘gamlss.dist’, ‘miscTools’, ‘gamlss’, ‘maxLik’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gamlss.data_6.0-7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/gamlss.dist_6.1-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/miscTools_0.6-28.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/gamlss_5.5-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/maxLik_1.5-2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DEsingle_1.31.0.tar.gz'
+* installing *source* package ‘gamlss.data’ ...
+** this is package ‘gamlss.data’ version ‘6.0-7’
+** package ‘gamlss.data’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gamlss.data’ as ‘gamlss.data_6.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gamlss.data)
+* installing *source* package ‘gamlss.dist’ ...
+** this is package ‘gamlss.dist’ version ‘6.1-1’
+** package ‘gamlss.dist’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ST3.c -o ST3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cdfSICHEL.c -o cdfSICHEL.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dDPOgetC5_C.c -o dDPOgetC5_C.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gamlss.dist_init.c -o gamlss.dist_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getBI_C2.c -o getBI_C2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tocdf.c -o tocdf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tocdfSIbis.c -o tocdfSIbis.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofyPIG1.c -o tofyPIG1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofyPIG2.c -o tofyPIG2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofySI1.c -o tofySI1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofySI2.c -o tofySI2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofySICHEL1.c -o tofySICHEL1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofySICHEL2.c -o tofySICHEL2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofydel1.c -o tofydel1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tofydel2.c -o tofydel2.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gamlss.dist.so ST3.o cdfSICHEL.o dDPOgetC5_C.o gamlss.dist_init.o getBI_C2.o tocdf.o tocdfSIbis.o tofyPIG1.o tofyPIG2.o tofySI1.o tofySI2.o tofySICHEL1.o tofySICHEL2.o tofydel1.o tofydel2.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-gamlss.dist/00new/gamlss.dist/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gamlss.dist’ as ‘gamlss.dist_6.1-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gamlss.dist)
+* installing *source* package ‘miscTools’ ...
+** this is package ‘miscTools’ version ‘0.6-28’
+** package ‘miscTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘miscTools’ as ‘miscTools_0.6-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miscTools)
+* installing *source* package ‘gamlss’ ...
+** this is package ‘gamlss’ version ‘5.5-0’
+** package ‘gamlss’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gamlss_init.c -o gamlss_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c genD.c -o genD.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gamlss.so gamlss_init.o genD.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-gamlss/00new/gamlss/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gamlss’ as ‘gamlss_5.5-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gamlss)
+* installing *source* package ‘maxLik’ ...
+** this is package ‘maxLik’ version ‘1.5-2.1’
+** package ‘maxLik’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘maxLik’ as ‘maxLik_1.5-2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maxLik)
+* installing *source* package ‘DEsingle’ ...
+** this is package ‘DEsingle’ version ‘1.31.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DEsingle’ as ‘DEsingle_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEsingle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKoyhnW/downloaded_packages’
+Old packages: 'promises'
+
+real	0m59.020s
+user	0m53.442s
+sys	0m7.521s

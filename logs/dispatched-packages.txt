@@ -602,3 +602,13 @@ metaSeq
 methylMnM
 ppcseq
 scde
+BiocHail
+DNAcycP2
+NormqPCR
+Rcwl
+Rigraphlib
+cbpManager
+densvis
+hapFabia
+rhdf5
+snifter

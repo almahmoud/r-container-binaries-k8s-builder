@@ -1,10 +1,7 @@
 {
-  "AWFisher": [],
   "AlphaMissenseR": [],
   "AlpsNMR": [],
-  "BiocHail": [
-    "basilisk"
-  ],
+  "BiocHail": [],
   "BiocNeighbors": [],
   "BrowserViz": [],
   "CGHregions": [],
@@ -53,18 +50,10 @@
   "CytoDx": [
     "flowCore"
   ],
-  "CytoGLMM": [],
-  "DCATS": [],
-  "DEsingle": [],
-  "DNAcycP2": [
-    "basilisk"
-  ],
+  "DNAcycP2": [],
   "DeepPINCS": [],
-  "DepInfeR": [],
   "DepecheR": [],
   "EBImage": [],
-  "EBcoexpress": [],
-  "EnrichDO": [],
   "FISHalyseR": [
     "EBImage"
   ],
@@ -72,8 +61,7 @@
     "flowCore"
   ],
   "GSCA": [
-    "rhdf5",
-    "rhdf5filters"
+    "rhdf5"
   ],
   "GWASTools": [],
   "GateFinder": [
@@ -87,10 +75,8 @@
   "GeneNetworkBuilder": [
     "RCy3"
   ],
-  "HDTD": [],
   "HVP": [],
   "INDEED": [],
-  "INPower": [],
   "ISAnalytics": [],
   "MEIGOR": [
     "CNORode",
@@ -126,22 +112,14 @@
   "MetaDICT": [],
   "MetaboCoreUtils": [],
   "ModCon": [],
-  "NPARC": [],
-  "NormqPCR": [
-    "ReadqPCR"
-  ],
+  "NormqPCR": [],
   "NuPoP": [],
-  "OPWeight": [],
   "OSAT": [],
   "Omixer": [],
-  "OncoSimulR": [],
   "OpenStats": [],
   "OrderedList": [],
-  "Oscope": [],
-  "PROPER": [],
   "Path2PPI": [],
   "PathNet": [],
-  "Pedixplorer": [],
   "PepsNMR": [],
   "PhenoGeneRanker": [],
   "Polytect": [
@@ -164,28 +142,17 @@
   "RGraph2js": [],
   "RImmPort": [],
   "RLMM": [],
-  "RNAseqCovarImpute": [],
-  "ROSeq": [],
   "RSeqAn": [],
   "RTCGA": [],
-  "Rcwl": [
-    "basilisk"
-  ],
+  "Rcwl": [],
   "RcwlPipelines": [
-    "Rcwl",
-    "basilisk"
+    "Rcwl"
   ],
   "ReUseData": [
     "Rcwl",
-    "RcwlPipelines",
-    "basilisk"
+    "RcwlPipelines"
   ],
-  "ReadqPCR": [],
-  "Rigraphlib": [
-    "biocmake"
-  ],
-  "Rtpca": [],
-  "Rvisdiff": [],
+  "Rigraphlib": [],
   "SBMLR": [],
   "SCBN": [],
   "SCFA": [],
@@ -208,8 +175,6 @@
   "TPP": [
     "biobroom"
   ],
-  "TPP2D": [],
-  "TRONCO": [],
   "TSAR": [],
   "TargetDecoy": [
     "mzID",
@@ -217,40 +182,26 @@
     "ProtGenerics"
   ],
   "TargetScore": [],
-  "TreeAndLeaf": [],
   "VERSO": [],
-  "Wrench": [],
-  "XINA": [],
-  "abseqR": [],
   "acde": [],
   "alabaster.base": [
-    "rhdf5",
-    "rhdf5filters"
+    "rhdf5"
   ],
   "anndataR": [],
-  "bacon": [],
-  "basilisk": [],
-  "basilisk.utils": [],
   "biobroom": [],
   "biocViews": [
     "RBGL"
   ],
-  "biocmake": [],
   "biomformat": [
-    "rhdf5",
-    "rhdf5filters"
+    "rhdf5"
   ],
   "bluster": [
     "BiocNeighbors"
   ],
-  "brendaDb": [],
-  "cbpManager": [
-    "basilisk"
-  ],
+  "cbpManager": [],
   "cellmig": [],
   "compSPOT": [],
   "compcodeR": [],
-  "consensus": [],
   "cqn": [],
   "csdR": [],
   "cyanoFilter": [
@@ -270,13 +221,7 @@
     "flowViz"
   ],
   "decoupleR": [],
-  "densvis": [
-    "basilisk"
-  ],
-  "dyebias": [],
-  "erccdashboard": [],
-  "fCI": [],
-  "fabia": [],
+  "densvis": [],
   "fastreeR": [],
   "fedup": [
     "RCy3"
@@ -350,17 +295,8 @@
   "flowcatchR": [
     "EBImage"
   ],
-  "gaga": [],
-  "geNetClassifier": [],
-  "gemini": [],
   "ggkegg": [],
-  "hapFabia": [
-    "fabia"
-  ],
-  "hyperdraw": [],
-  "iCOBRA": [],
-  "iChip": [],
-  "imageTCGA": [],
+  "hapFabia": [],
   "immunoClust": [
     "flowCore"
   ],
@@ -371,22 +307,16 @@
     "RBioFormats",
     "EBImage"
   ],
-  "iterativeBMA": [],
-  "limmaGUI": [],
-  "limpa": [],
   "matter": [
     "ProtGenerics"
   ],
-  "metaSeq": [],
   "metabinR": [],
   "methylMnM": [],
-  "mistyR": [],
   "monocle": [
     "biocViews",
     "RBGL"
   ],
   "mosbi": [
-    "fabia",
     "QUBIC"
   ],
   "msPurity": [
@@ -411,9 +341,7 @@
     "flowMeans",
     "flowCore"
   ],
-  "pandaR": [],
   "pathwayPCA": [],
-  "pfamAnalyzeR": [],
   "ppcseq": [],
   "progeny": [
     "decoupleR"
@@ -424,25 +352,17 @@
   ],
   "rawrr": [],
   "retrofit": [],
-  "rexposome": [],
   "rgoslin": [],
-  "rhdf5": [
-    "rhdf5filters"
-  ],
-  "rhdf5filters": [],
+  "rhdf5": [],
   "ribor": [
-    "rhdf5",
-    "rhdf5filters"
+    "rhdf5"
   ],
-  "rmelting": [],
-  "rnaseqcomp": [],
   "rsemmed": [],
   "scBubbletree": [],
   "scFeatureFilter": [],
   "scLANE": [],
   "scMitoMut": [
-    "rhdf5",
-    "rhdf5filters"
+    "rhdf5"
   ],
   "scde": [],
   "seahtrue": [],
@@ -450,9 +370,7 @@
   "seq.hotSPOT": [],
   "shinybiocloader": [],
   "sizepower": [],
-  "snifter": [
-    "basilisk"
-  ],
+  "snifter": [],
   "splots": [],
   "synapsis": [
     "EBImage"
