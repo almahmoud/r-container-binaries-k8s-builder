@@ -2089,3 +2089,7 @@ jazzPanda
 miaDash
 Statial
 MsQuality
+CNVfilteR
+CNViz
+gDR
+magpie

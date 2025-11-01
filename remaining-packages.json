@@ -19,8 +19,6 @@
     "xcms",
     "MSnbase"
   ],
-  "CNVfilteR": [],
-  "CNViz": [],
   "ChAMP": [
     "DMRcate"
   ],
@@ -208,7 +206,6 @@
     "CAMERA",
     "MSnbase"
   ],
-  "gDR": [],
   "geomeTriD": [],
   "ggbio": [],
   "iSEEfier": [
@@ -224,7 +221,6 @@
     "spicyR",
     "simpleSeg"
   ],
-  "magpie": [],
   "metaMS": [
     "CAMERA",
     "xcms",
