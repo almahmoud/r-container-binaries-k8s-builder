@@ -593,7 +593,6 @@
     "txdbmaker",
     "ensembldb"
   ],
-  "KnowSeq": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -2401,14 +2400,11 @@
   "scRepertoire": [
     "immApex"
   ],
-  "scTGIF": [
-    "schex"
-  ],
+  "scTGIF": [],
   "scTensor": [
     "Category",
     "meshr",
-    "GOstats",
-    "schex"
+    "GOstats"
   ],
   "scTreeViz": [
     "epivizr",
@@ -2435,7 +2431,6 @@
   "scater": [
     "scuttle"
   ],
-  "schex": [],
   "scider": [
     "SpatialExperiment"
   ],

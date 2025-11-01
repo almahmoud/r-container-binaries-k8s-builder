@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1442 (64%)
+- **Successfully Built:** 1444 (64%)
 - **Failed:** 2 (0%)
-- **In Progress:** 268
+- **In Progress:** 266
 - **Not Started:** 532
 
 **Progress:** 64%
@@ -16,7 +16,7 @@
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1442)
+## Successfully Built Packages (1444)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1392 more ...*
+*... and 1394 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (268)
+## In Progress (266)
 - ⏳ `ADImpute`
 - ⏳ `ADaCGH2`
 - ⏳ `AMARETTO`
@@ -135,7 +135,7 @@
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
 
-... and 218 more ...
+... and 216 more ...
 
 ## Not Yet Started (532)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 482 more ...
 
 ---
-*Last updated: 2025-11-01 03:15:09 UTC*
+*Last updated: 2025-11-01 03:17:36 UTC*
 *Packages with verified BBS status: 128*

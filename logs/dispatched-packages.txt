@@ -1710,3 +1710,4 @@ qsmooth
 qsvaR
 DaMiRseq
 RUVSeq
+scTGIF
