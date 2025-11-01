@@ -97,7 +97,6 @@
     "ensembldb",
     "biovizBase"
   ],
-  "Anaquin": [],
   "AnnotationHubData": [
     "GenomicFeatures",
     "rtracklayer",
@@ -570,7 +569,6 @@
   "CoverageView": [
     "rtracklayer"
   ],
-  "CrispRVariants": [],
   "CuratedAtlasQueryR": [
     "SingleCellExperiment"
   ],
@@ -592,7 +590,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "DEFormats": [],
   "DEGreport": [],
   "DEP": [
     "MSnbase",
@@ -927,7 +924,6 @@
   ],
   "GARS": [
     "DaMiRseq",
-    "MLSeq",
     "EDASeq",
     "sva",
     "GenomicFeatures",
@@ -1149,7 +1145,6 @@
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "HybridExpress": [],
   "ILoReg": [
     "SingleCellExperiment"
   ],
@@ -1353,7 +1348,6 @@
     "genefilter"
   ],
   "MLP": [],
-  "MLSeq": [],
   "MMDiff2": [
     "BSgenome",
     "rtracklayer"
@@ -4599,7 +4593,6 @@
   ],
   "regionReport": [
     "derfinder",
-    "DEFormats",
     "bumphunter",
     "GenomicFeatures",
     "GenomicFiles",
