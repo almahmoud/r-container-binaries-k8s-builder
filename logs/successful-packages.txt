@@ -882,3 +882,6 @@ Modstrings
 OmicCircos
 PIPETS
 Qtlizer
+DRIMSeq
+LymphoSeq
+odseq

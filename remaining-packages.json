@@ -197,9 +197,7 @@
     "SummarizedExperiment"
   ],
   "AssessORF": [],
-  "BANDITS": [
-    "DRIMSeq"
-  ],
+  "BANDITS": [],
   "BASiCS": [
     "SingleCellExperiment",
     "scran",
@@ -1214,7 +1212,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "DRIMSeq": [],
   "DSS": [
     "bsseq",
     "SummarizedExperiment",
@@ -1331,8 +1328,7 @@
   "DifferentialRegulation": [
     "BANDITS",
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "DRIMSeq"
+    "SummarizedExperiment"
   ],
   "Dino": [
     "SummarizedExperiment",
@@ -2338,7 +2334,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "LymphoSeq": [],
   "M3Drop": [
     "scater",
     "SingleCellExperiment",
@@ -7717,7 +7712,6 @@
     "annotate",
     "GenomicAlignments"
   ],
-  "odseq": [],
   "oligo": [
     "oligoClasses",
     "SummarizedExperiment"
