@@ -1102,3 +1102,9 @@ CrispRVariants
 DEFormats
 HybridExpress
 MLSeq
+MultiRNAflow
+prebs
+qmtools
+rScudo
+SPONGE
+tidySummarizedExperiment

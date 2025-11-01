@@ -1541,7 +1541,6 @@
     "MultiDataSet"
   ],
   "MultiDataSet": [],
-  "MultiRNAflow": [],
   "MultimodalExperiment": [
     "MultiAssayExperiment"
   ],
@@ -2126,7 +2125,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "SPONGE": [],
   "SPOTlight": [
     "SingleCellExperiment"
   ],
@@ -4001,7 +3999,6 @@
     "graphite"
   ],
   "miRspongeR": [
-    "SPONGE",
     "clusterProfiler",
     "ReactomePA",
     "DOSE",
@@ -4457,7 +4454,6 @@
   "pram": [
     "rtracklayer"
   ],
-  "prebs": [],
   "preciseTAD": [
     "rCGH",
     "GenomicFeatures",
@@ -4517,7 +4513,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "qmtools": [],
   "qpgraph": [
     "GenomicFeatures",
     "rtracklayer"
@@ -4554,7 +4549,6 @@
     "rtracklayer"
   ],
   "rGenomeTracks": [],
-  "rScudo": [],
   "rTRM": [],
   "rTRMui": [
     "rTRM",
@@ -5235,10 +5229,8 @@
     "tidySingleCellExperiment",
     "SingleCellExperiment"
   ],
-  "tidySummarizedExperiment": [],
   "tidybulk": [],
   "tidyomics": [
-    "tidySummarizedExperiment",
     "tidySingleCellExperiment",
     "tidySpatialExperiment",
     "plyranges",
