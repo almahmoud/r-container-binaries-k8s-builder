@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 2226 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 14
-- **Not Started:** 2
+- **In Progress:** 15
+- **Not Started:** 1
 
 **Progress:** 99%
 ```
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (14)
+## In Progress (15)
 - ⏳ `IPO`
 - ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
@@ -91,6 +91,7 @@
 - ⏳ `RNAAgeCalc`
 - ⏳ `RnaSeqSampleSize`
 - ⏳ `YAPSA`
+- ⏳ `affycoretools`
 - ⏳ `epivizrChart`
 - ⏳ `epivizrStandalone`
 - ⏳ `flagme`
@@ -99,10 +100,9 @@
 - ⏳ `psichomics`
 - ⏳ `scTreeViz`
 
-## Not Yet Started (2)
+## Not Yet Started (1)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `affycoretools`
 
 ---
-*Last updated: 2025-11-01 09:01:15 UTC*
+*Last updated: 2025-11-01 09:01:57 UTC*
 *Packages with verified BBS status: 152*
