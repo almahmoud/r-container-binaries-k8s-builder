@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1578 (70%)
+- **Successfully Built:** 1584 (70%)
 - **Failed:** 2 (0%)
-- **In Progress:** 230
+- **In Progress:** 224
 - **Not Started:** 434
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1578)
+## Successfully Built Packages (1584)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -32,6 +32,7 @@
 | [AGDEX](https://bioconductor.org/packages/3.22/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AGDEX) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.22/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ALDEx2) |
+| [AMARETTO](https://bioconductor.org/packages/3.22/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMARETTO) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.22/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANF) |
@@ -44,9 +45,8 @@
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
-| [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 
-*... and 1528 more ...*
+*... and 1534 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (230)
-- ⏳ `AMARETTO`
+## In Progress (224)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ASURAT`
@@ -96,7 +95,6 @@
 - ⏳ `BatchQC`
 - ⏳ `BatchSVG`
 - ⏳ `BayesSpace`
-- ⏳ `BgeeCall`
 - ⏳ `BgeeDB`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
@@ -108,7 +106,6 @@
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
 - ⏳ `CellBench`
-- ⏳ `CellMixS`
 - ⏳ `CellTrails`
 - ⏳ `CelliD`
 - ⏳ `Cepo`
@@ -134,8 +131,11 @@
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `HarmonizR`
+- ⏳ `ITALICS`
+- ⏳ `LRcell`
+- ⏳ `Lheuristic`
 
-... and 180 more ...
+... and 174 more ...
 
 ## Not Yet Started (434)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 384 more ...
 
 ---
-*Last updated: 2025-11-01 04:03:09 UTC*
-*Packages with verified BBS status: 136*
+*Last updated: 2025-11-01 04:04:11 UTC*
+*Packages with verified BBS status: 137*

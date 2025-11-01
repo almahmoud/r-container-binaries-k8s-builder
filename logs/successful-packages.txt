@@ -1576,3 +1576,9 @@ tidySingleCellExperiment
 DegNorm
 ELViS
 scone
+AMARETTO
+BgeeCall
+CellMixS
+geneAttribution
+ggsc
+RiboDiPA
