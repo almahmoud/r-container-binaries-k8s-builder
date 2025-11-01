@@ -666,3 +666,11 @@ progeny
 retrofit
 SuperCellCyto
 VERSO
+Cardinal
+MEIGOR
+mosbi
+MSstats
+mzR
+Polytect
+scFeatureFilter
+scLANE

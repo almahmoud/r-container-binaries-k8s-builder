@@ -1,0 +1,382 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Polytect'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'Polytect'
+also installing the dependencies ‘mlr’, ‘parallelMap’, ‘SamSPECTRAL’, ‘sn’, ‘flowPeaks’, ‘mlrMBO’, ‘DiceKriging’, ‘smoof’, ‘ParamHelpers’, ‘lhs’, ‘rgenoud’, ‘ddPCRclust’
+
+trying URL 'https://cloud.r-project.org/src/contrib/mlr_2.19.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/parallelMap_1.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SamSPECTRAL_1.65.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/sn_2.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowPeaks_1.57.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mlrMBO_1.1.5.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/DiceKriging_1.6.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/smoof_1.6.0.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ParamHelpers_1.14.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/lhs_1.2.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/rgenoud_5.9-0.11.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ddPCRclust_1.31.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Polytect_1.3.0.tar.gz'
+* installing *source* package ‘parallelMap’ ...
+** this is package ‘parallelMap’ version ‘1.5.1’
+** package ‘parallelMap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘parallelMap’ as ‘parallelMap_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelMap)
+* installing *source* package ‘SamSPECTRAL’ ...
+** this is package ‘SamSPECTRAL’ version ‘1.65.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c conductance_computation.c -o conductance_computation.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c maximum_of_rows.c -o maximum_of_rows.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SamSPECTRAL.so Rinit.o conductance_computation.o maximum_of_rows.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SamSPECTRAL/00new/SamSPECTRAL/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SamSPECTRAL’ as ‘SamSPECTRAL_1.65.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SamSPECTRAL)
+* installing *source* package ‘sn’ ...
+** this is package ‘sn’ version ‘2.1.1’
+** package ‘sn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sn’ as ‘sn_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sn)
+* installing *source* package ‘flowPeaks’ ...
+** this is package ‘flowPeaks’ version ‘1.57.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rpack.cpp -o Rpack.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rregistrate.cpp -o Rregistrate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c VoronoiDiagramGenerator.cpp -o VoronoiDiagramGenerator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c flowPeaks.cpp -o flowPeaks.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c func_collect.cpp -o func_collect.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c func_collect_supp.cpp -o func_collect_supp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gvector_gmatrix.cpp -o gvector_gmatrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_tree.cpp -o kd_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kmns.cpp -o kmns.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flowPeaks.so Rpack.o Rregistrate.o VoronoiDiagramGenerator.o flowPeaks.o func_collect.o func_collect_supp.o gvector_gmatrix.o kd_tree.o kmns.o -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-flowPeaks/00new/flowPeaks/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flowPeaks’ as ‘flowPeaks_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowPeaks)
+* installing *source* package ‘DiceKriging’ ...
+** this is package ‘DiceKriging’ version ‘1.6.1’
+** package ‘DiceKriging’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CovFuns.c -o CovFuns.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Scaling.c -o Scaling.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DiceKriging.so CovFuns.o Scaling.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DiceKriging/00new/DiceKriging/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: ... may be used in an incorrect context 
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DiceKriging’ as ‘DiceKriging_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiceKriging)
+* installing *source* package ‘ParamHelpers’ ...
+** this is package ‘ParamHelpers’ version ‘1.14.2’
+** package ‘ParamHelpers’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c c_dfRowsToList.c -o c_dfRowsToList.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ParamHelpers.so c_dfRowsToList.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ParamHelpers/00new/ParamHelpers/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ParamHelpers’ as ‘ParamHelpers_1.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ParamHelpers)
+* installing *source* package ‘lhs’ ...
+** this is package ‘lhs’ version ‘1.2.0’
+** package ‘lhs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c COrthogonalArray.cpp -o COrthogonalArray.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GaloisField.cpp -o GaloisField.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ak3.cpp -o ak3.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c akconst.cpp -o akconst.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c akn.cpp -o akn.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c construct.cpp -o construct.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c geneticLHS.cpp -o geneticLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c improvedLHS.cpp -o improvedLHS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lhs_r.cpp -o lhs_r.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lhs_r_utilities.cpp -o lhs_r_utilities.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c maximinLHS.cpp -o maximinLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c oa.cpp -o oa.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c oaLHS.cpp -o oaLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c oa_r.cpp -o oa_r.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c oa_r_utils.cpp -o oa_r_utils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c oalhs_r.cpp -o oalhs_r.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c optSeededLHS.cpp -o optSeededLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c optimumLHS.cpp -o optimumLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c primes.cpp -o primes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c randomLHS.cpp -o randomLHS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c runif.cpp -o runif.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rutils.cpp -o rutils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DRCOMPILE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utilityLHS.cpp -o utilityLHS.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lhs.so COrthogonalArray.o GaloisField.o ak3.o akconst.o akn.o construct.o geneticLHS.o improvedLHS.o init.o lhs_r.o lhs_r_utilities.o maximinLHS.o oa.o oaLHS.o oa_r.o oa_r_utils.o oalhs_r.o optSeededLHS.o optimumLHS.o primes.o randomLHS.o runif.o rutils.o utilityLHS.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-lhs/00new/lhs/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lhs’ as ‘lhs_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lhs)
+* installing *source* package ‘rgenoud’ ...
+** this is package ‘rgenoud’ version ‘5.9-0.11’
+** package ‘rgenoud’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c change_order.cpp -o change_order.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c eval.cpp -o eval.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c evaluate.cpp -o evaluate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c frange_ran.cpp -o frange_ran.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genoud.cpp -o genoud.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gradient.cpp -o gradient.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c math.cpp -o math.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c multiply.cpp -o multiply.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c numerics.cpp -o numerics.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c operators.cpp -o operators.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c print_format.cpp -o print_format.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rgenoud.cpp -o rgenoud.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rgenoud.so change_order.o eval.o evaluate.o frange_ran.o genoud.o gradient.o init.o math.o multiply.o numerics.o operators.o print_format.o rgenoud.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rgenoud/00new/rgenoud/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rgenoud’ as ‘rgenoud_5.9-0.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgenoud)
+* installing *source* package ‘mlr’ ...
+** this is package ‘mlr’ version ‘2.19.3’
+** package ‘mlr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smote.c -o smote.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mlr.so init.o smote.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mlr/00new/mlr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mlr’ as ‘mlr_2.19.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr)
+* installing *source* package ‘smoof’ ...
+** this is package ‘smoof’ version ‘1.6.0.3’
+** package ‘smoof’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bbob_r_to_c_interface.c -o bbob_r_to_c_interface.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c benchmarks.c -o benchmarks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c benchmarkshelper.c -o benchmarkshelper.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cec09.c -o cec09.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cec09_r_to_c_interface.c -o cec09_r_to_c_interface.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dtlz.cpp -o dtlz.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.BK1.c -o mof.BK1.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mof.ED.cpp -o mof.ED.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP1.c -o mof.MOP1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP2.c -o mof.MOP2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP3.c -o mof.MOP3.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP4.c -o mof.MOP4.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP5.c -o mof.MOP5.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP6.c -o mof.MOP6.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.MOP7.c -o mof.MOP7.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mof.cec2019.cpp -o mof.cec2019.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mof.kursawe.cpp -o mof.kursawe.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mof.viennet.c -o mof.viennet.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mof.wfg.cpp -o mof.wfg.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o smoof.so RcppExports.o bbob_r_to_c_interface.o benchmarks.o benchmarkshelper.o cec09.o cec09_r_to_c_interface.o dtlz.o mof.BK1.o mof.ED.o mof.MOP1.o mof.MOP2.o mof.MOP3.o mof.MOP4.o mof.MOP5.o mof.MOP6.o mof.MOP7.o mof.cec2019.o mof.kursawe.o mof.viennet.o mof.wfg.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-smoof/00new/smoof/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘smoof’ as ‘smoof_1.6.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smoof)
+* installing *source* package ‘ddPCRclust’ ...
+** this is package ‘ddPCRclust’ version ‘1.31.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ddPCRclust’ as ‘ddPCRclust_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ddPCRclust)
+* installing *source* package ‘mlrMBO’ ...
+** this is package ‘mlrMBO’ version ‘1.1.5.1’
+** package ‘mlrMBO’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c avl.c -o avl.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hv.c -o hv.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c infill.c -o infill.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mlrMBO.so avl.o hv.o infill.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mlrMBO/00new/mlrMBO/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mlrMBO’ as ‘mlrMBO_1.1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlrMBO)
+* installing *source* package ‘Polytect’ ...
+** this is package ‘Polytect’ version ‘1.3.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Polytect’ as ‘Polytect_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Polytect)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSiDbfZ/downloaded_packages’
+Old packages: 'promises'
+
+real	3m9.007s
+user	2m45.666s
+sys	0m29.862s

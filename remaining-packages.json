@@ -1,40 +1,20 @@
 {
   "AlphaMissenseR": [],
   "CONFESS": [],
-  "Cardinal": [],
-  "MEIGOR": [],
   "MODA": [],
-  "MSstats": [],
-  "MSstatsBig": [
-    "MSstats"
-  ],
-  "MSstatsBioNet": [
-    "MSstats"
-  ],
-  "MSstatsTMT": [
-    "MSstats"
-  ],
+  "MSstatsBig": [],
+  "MSstatsBioNet": [],
+  "MSstatsTMT": [],
   "OpenStats": [],
-  "Polytect": [],
   "RTCGA": [],
-  "SIMAT": [
-    "mzR"
-  ],
+  "SIMAT": [],
   "TIN": [],
-  "TargetDecoy": [
-    "mzR"
-  ],
+  "TargetDecoy": [],
   "csdR": [],
   "infinityFlow": [],
-  "mosbi": [],
-  "msPurity": [
-    "mzR"
-  ],
+  "msPurity": [],
   "mslp": [],
-  "mzR": [],
   "netboost": [],
-  "scFeatureFilter": [],
-  "scLANE": [],
   "synergyfinder": [],
   "uSORT": []
 }

@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstats'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'MSstats'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstats_4.19.0.tar.gz'
+Content type 'application/x-gzip' length 530407 bytes (517 KB)
+==================================================
+downloaded 517 KB
+
+* installing *source* package ‘MSstats’ ...
+** this is package ‘MSstats’ version ‘4.19.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+In file included from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from RcppExports.cpp:4:
+/mnt/library/RcppArmadillo/include/RcppArmadillo/version/arma.h:66:199: note: ‘#pragma message: Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.’
+   66 |         #pragma message("Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.")
+      |                                                                                                                                                                                                       ^
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c common.cpp -o common.o
+In file included from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from common.cpp:1:
+/mnt/library/RcppArmadillo/include/RcppArmadillo/version/arma.h:66:199: note: ‘#pragma message: Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.’
+   66 |         #pragma message("Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.")
+      |                                                                                                                                                                                                       ^
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c comparison_contrasts.cpp -o comparison_contrasts.o
+In file included from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from comparison_contrasts.cpp:1:
+/mnt/library/RcppArmadillo/include/RcppArmadillo/version/arma.h:66:199: note: ‘#pragma message: Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.’
+   66 |         #pragma message("Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.")
+      |                                                                                                                                                                                                       ^
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linear_summary.cpp -o linear_summary.o
+In file included from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from linear_summary.cpp:1:
+/mnt/library/RcppArmadillo/include/RcppArmadillo/version/arma.h:66:199: note: ‘#pragma message: Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.’
+   66 |         #pragma message("Using fallback compilation with Armadillo 14.6.3. Please consider defining -DARMA_USE_CURRENT and also removing C++11 compilation directive. See GitHub issue #475 for more.")
+      |                                                                                                                                                                                                       ^
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c median_polish.cpp -o median_polish.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MSstats.so RcppExports.o common.o comparison_contrasts.o linear_summary.o median_polish.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MSstats/00new/MSstats/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MSstats’ as ‘MSstats_4.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstats)
+
+The downloaded source packages are in
+	‘/tmp/Rtmplq5VhF/downloaded_packages’
+Old packages: 'promises'
+
+real	0m47.428s
+user	0m40.962s
+sys	0m6.440s
