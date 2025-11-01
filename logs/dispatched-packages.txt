@@ -1847,3 +1847,4 @@ chromVAR
 monaLisa
 motifStack
 motifmatchr
+scClassify

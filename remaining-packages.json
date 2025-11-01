@@ -119,7 +119,6 @@
   "CatsCradle": [
     "SpatialExperiment"
   ],
-  "Cepo": [],
   "CexoR": [
     "genomation"
   ],
@@ -1589,9 +1588,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "scClassify": [
-    "Cepo"
-  ],
+  "scClassify": [],
   "scRNAseqApp": [
     "slingshot",
     "TrajectoryUtils"
