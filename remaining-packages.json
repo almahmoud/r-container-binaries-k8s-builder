@@ -1051,7 +1051,6 @@
     "GenomicFiles",
     "VariantAnnotation"
   ],
-  "TOP": [],
   "TRESS": [],
   "TSCAN": [
     "TrajectoryUtils"
@@ -1970,7 +1969,6 @@
     "SpatialExperiment"
   ],
   "notameStats": [],
-  "notameViz": [],
   "octad": [
     "GSVA",
     "SpatialExperiment"
@@ -2004,7 +2002,6 @@
     "MLInterfaces",
     "QFeatures"
   ],
-  "padma": [],
   "pageRank": [
     "motifmatchr",
     "TFBSTools"
@@ -2470,7 +2467,6 @@
     "regioneR",
     "ensembldb"
   ],
-  "waddR": [],
   "wateRmelon": [
     "methylumi",
     "lumi",

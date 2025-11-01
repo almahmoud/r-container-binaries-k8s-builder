@@ -117,6 +117,7 @@ viper
 vissE
 vsclust
 vsn
+waddR
 weaver
 webbioc
 weitrix
