@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1894 (84%)
+- **Successfully Built:** 1977 (88%)
 - **Failed:** 2 (0%)
-- **In Progress:** 122
+- **In Progress:** 39
 - **Not Started:** 226
 
-**Progress:** 84%
+**Progress:** 88%
 ```
-██████████████████████████████████████████░░░░░░░░
+████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1894)
+## Successfully Built Packages (1977)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1844 more ...*
+*... and 1927 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [veloviz](https://bioconductor.org/packages/3.22/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.22/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vissE) |
@@ -58,6 +57,7 @@
 | [vsclust](https://bioconductor.org/packages/3.22/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.22/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.22/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.22/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.22/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/webbioc) |
@@ -83,59 +83,46 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (122)
-- ⏳ `ASpli`
-- ⏳ `ATACseqTFEA`
-- ⏳ `AllelicImbalance`
-- ⏳ `CexoR`
+## In Progress (39)
 - ⏳ `ChIPpeakAnno`
-- ⏳ `DuplexDiscovereR`
-- ⏳ `ELMER`
 - ⏳ `EpiCompare`
-- ⏳ `GA4GHclient`
 - ⏳ `GENESIS`
-- ⏳ `GeneStructureTools`
-- ⏳ `GenomicFiles`
-- ⏳ `GenomicInteractions`
-- ⏳ `HelloRanges`
-- ⏳ `MGnifyR`
 - ⏳ `MetaboSignal`
-- ⏳ `MethReg`
-- ⏳ `MineICA`
-- ⏳ `MsDataHub`
-- ⏳ `OGRE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
-- ⏳ `POWSC`
-- ⏳ `Pviz`
 - ⏳ `QFeatures`
-- ⏳ `RCAS`
-- ⏳ `RCSL`
 - ⏳ `RESOLVE`
-- ⏳ `RNAmodR`
-- ⏳ `RUCova`
 - ⏳ `Rmmquant`
-- ⏳ `RnBeads`
 - ⏳ `SC3`
 - ⏳ `SCArray`
 - ⏳ `SCnorm`
 - ⏳ `SETA`
 - ⏳ `SGSeq`
-- ⏳ `SMITE`
 - ⏳ `SPICEY`
-- ⏳ `SPLINTER`
 - ⏳ `SPOTlight`
 - ⏳ `SPsimSeq`
-- ⏳ `SiPSiC`
 - ⏳ `SingleCellAlleleExperiment`
-- ⏳ `SmartPhos`
 - ⏳ `SpatialExperiment`
 - ⏳ `SplicingGraphs`
 - ⏳ `TCGAutils`
 - ⏳ `TENxIO`
-
-... and 72 more ...
+- ⏳ `TFEA.ChIP`
+- ⏳ `TRESS`
+- ⏳ `Xeva`
+- ⏳ `epiregulon`
+- ⏳ `gDRimport`
+- ⏳ `glmGamPoi`
+- ⏳ `gmapR`
+- ⏳ `gwascat`
+- ⏳ `iSEEde`
+- ⏳ `iSEEhex`
+- ⏳ `iSEEhub`
+- ⏳ `iSEEindex`
+- ⏳ `iSEEpathways`
+- ⏳ `srnadiff`
+- ⏳ `tadar`
+- ⏳ `trackViewer`
 
 ## Not Yet Started (226)
 - ⏸️ `AHMassBank`
@@ -192,5 +179,5 @@
 ... and 176 more ...
 
 ---
-*Last updated: 2025-11-01 06:04:28 UTC*
-*Packages with verified BBS status: 146*
+*Last updated: 2025-11-01 06:38:03 UTC*
+*Packages with verified BBS status: 147*

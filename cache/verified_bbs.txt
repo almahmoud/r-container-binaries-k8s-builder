@@ -127,6 +127,7 @@ vmrseq
 vsclust
 vsn
 waddR
+wateRmelon
 wavClusteR
 weaver
 webbioc
