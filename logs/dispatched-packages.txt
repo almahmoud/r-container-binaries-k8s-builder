@@ -1851,3 +1851,8 @@ scClassify
 InPAS
 segmenter
 yarn
+CexoR
+EpiCompare
+RCAS
+decontX
+fCCAC

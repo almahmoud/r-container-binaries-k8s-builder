@@ -1694,3 +1694,9 @@ crisprBwa
 deconvR
 quantro
 SpliceWiz
+celda
+cfDNAPro
+ENmix
+funtooNorm
+genomation
+iModMix

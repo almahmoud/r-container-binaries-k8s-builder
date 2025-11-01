@@ -119,9 +119,7 @@
   "CatsCradle": [
     "SpatialExperiment"
   ],
-  "CexoR": [
-    "genomation"
-  ],
+  "CexoR": [],
   "ChAMP": [
     "DMRcate",
     "wateRmelon",
@@ -228,12 +226,9 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ENmix": [],
   "EasyCellType": [],
   "EnrichmentBrowser": [],
-  "EpiCompare": [
-    "genomation"
-  ],
+  "EpiCompare": [],
   "EventPointer": [
     "SGSeq"
   ],
@@ -315,8 +310,7 @@
     "OrganismDbi"
   ],
   "GenomicPlot": [
-    "RCAS",
-    "genomation"
+    "RCAS"
   ],
   "GmicR": [
     "GOstats"
@@ -555,9 +549,7 @@
     "VariantAnnotation",
     "SeqVarTools"
   ],
-  "RCAS": [
-    "genomation"
-  ],
+  "RCAS": [],
   "RCSL": [],
   "REDseq": [
     "ChIPpeakAnno",
@@ -946,8 +938,6 @@
   "celaref": [
     "MAST"
   ],
-  "celda": [],
-  "cfDNAPro": [],
   "cfTools": [],
   "chevreulPlot": [],
   "chimeraviz": [
@@ -1050,9 +1040,7 @@
   "decompTumor2Sig": [
     "VariantAnnotation"
   ],
-  "decontX": [
-    "celda"
-  ],
+  "decontX": [],
   "deepSNV": [
     "VariantAnnotation"
   ],
@@ -1118,9 +1106,7 @@
   "escheR": [
     "SpatialExperiment"
   ],
-  "fCCAC": [
-    "genomation"
-  ],
+  "fCCAC": [],
   "fcScan": [
     "VariantAnnotation"
   ],
@@ -1137,7 +1123,6 @@
     "PSMatch"
   ],
   "frma": [],
-  "funtooNorm": [],
   "gDNAx": [
     "GenomicFiles",
     "VariantAnnotation"
@@ -1150,7 +1135,6 @@
     "PharmacoGx"
   ],
   "gcapc": [],
-  "genomation": [],
   "geomeTriD": [
     "trackViewer",
     "Gviz",
@@ -1192,7 +1176,6 @@
     "lumi",
     "methylumi"
   ],
-  "iModMix": [],
   "iSEE": [],
   "iSEEde": [
     "iSEE"
@@ -1638,7 +1621,6 @@
   "singleCellTK": [
     "GSVA",
     "MAST",
-    "celda",
     "TSCAN",
     "TrajectoryUtils",
     "SpatialExperiment"
