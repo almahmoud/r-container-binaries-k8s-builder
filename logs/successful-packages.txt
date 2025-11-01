@@ -1645,3 +1645,7 @@ CellBench
 CTexploreR
 minfi
 tximeta
+ASSIGN
+COTAN
+CSSQ
+muscat

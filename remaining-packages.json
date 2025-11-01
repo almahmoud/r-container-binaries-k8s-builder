@@ -6,7 +6,6 @@
   "ASICS": [
     "ropls"
   ],
-  "ASSIGN": [],
   "ASpli": [
     "Gviz",
     "biovizBase",
@@ -120,8 +119,6 @@
     "MIRA",
     "bsseq"
   ],
-  "COTAN": [],
-  "CSSQ": [],
   "CTSV": [
     "SpatialExperiment"
   ],
@@ -791,7 +788,6 @@
   ],
   "TAPseq": [],
   "TBSignatureProfiler": [
-    "ASSIGN",
     "GSVA",
     "SpatialExperiment"
   ],
@@ -1506,7 +1502,6 @@
     "VariantAnnotation"
   ],
   "mumosa": [],
-  "muscat": [],
   "musicatk": [
     "VariantAnnotation",
     "decompTumor2Sig"
