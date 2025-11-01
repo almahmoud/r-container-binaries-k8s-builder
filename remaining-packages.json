@@ -372,7 +372,6 @@
     "mygene"
   ],
   "MethReg": [],
-  "MethylAid": [],
   "MicrobiomeProfiler": [],
   "MineICA": [
     "GOstats",
@@ -1267,7 +1266,6 @@
     "GOstats",
     "goseq"
   ],
-  "pdInfoBuilder": [],
   "peakPantheR": [
     "MSnbase",
     "PSMatch",
@@ -1466,7 +1464,6 @@
   "standR": [
     "SpatialExperiment"
   ],
-  "strandCheckR": [],
   "svaNUMT": [
     "StructuralVariantAnnotation"
   ],

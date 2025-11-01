@@ -1725,3 +1725,6 @@ epiregulon.extra
 frma
 meshr
 rifi
+MethylAid
+pdInfoBuilder
+strandCheckR
