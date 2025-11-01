@@ -1685,3 +1685,8 @@ Cepo
 cleanUpdTSeq
 cliProfiler
 spillR
+ChIPseeker
+crisprBowtie
+DeeDeeExperiment
+DegCre
+IsoformSwitchAnalyzeR

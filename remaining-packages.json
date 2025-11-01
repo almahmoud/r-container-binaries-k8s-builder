@@ -144,7 +144,6 @@
   "ChIPpeakAnno": [
     "regioneR"
   ],
-  "ChIPseeker": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "SGSeq"
@@ -206,8 +205,6 @@
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
-  "DeeDeeExperiment": [],
-  "DegCre": [],
   "DominoEffect": [
     "VariantAnnotation"
   ],
@@ -235,7 +232,6 @@
   "EasyCellType": [],
   "EnrichmentBrowser": [],
   "EpiCompare": [
-    "ChIPseeker",
     "genomation"
   ],
   "EventPointer": [
@@ -365,7 +361,6 @@
     "GenomicFiles",
     "VariantAnnotation"
   ],
-  "IsoformSwitchAnalyzeR": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -1011,10 +1006,8 @@
     "QFeatures",
     "PSMatch"
   ],
-  "crisprBowtie": [],
   "crisprBwa": [],
   "crisprDesign": [
-    "crisprBowtie",
     "crisprScore",
     "VariantAnnotation"
   ],
@@ -1023,13 +1016,11 @@
     "crisprDesign",
     "crisprScore",
     "crisprViz",
-    "crisprBowtie",
     "VariantAnnotation",
     "Gviz",
     "biovizBase"
   ],
   "crisprVerse": [
-    "crisprBowtie",
     "crisprScore",
     "crisprDesign",
     "crisprViz",
@@ -1040,7 +1031,6 @@
   "crisprViz": [
     "crisprDesign",
     "Gviz",
-    "crisprBowtie",
     "crisprScore",
     "VariantAnnotation",
     "biovizBase"
@@ -1126,7 +1116,6 @@
   ],
   "esATAC": [
     "pipeFrame",
-    "ChIPseeker",
     "motifmatchr"
   ],
   "escheR": [
@@ -1627,9 +1616,7 @@
     "VariantAnnotation",
     "OrganismDbi"
   ],
-  "segmenter": [
-    "ChIPseeker"
-  ],
+  "segmenter": [],
   "seqCAT": [
     "VariantAnnotation"
   ],

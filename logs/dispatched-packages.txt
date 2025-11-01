@@ -1849,3 +1849,4 @@ motifStack
 motifmatchr
 scClassify
 InPAS
+segmenter
