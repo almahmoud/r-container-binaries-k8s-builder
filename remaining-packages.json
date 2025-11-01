@@ -111,9 +111,7 @@
     "lumi",
     "biovizBase"
   ],
-  "ChIPXpress": [
-    "frma"
-  ],
+  "ChIPXpress": [],
   "ChIPexoQual": [
     "biovizBase"
   ],
@@ -208,7 +206,6 @@
     "TrajectoryUtils"
   ],
   "FLAMES": [
-    "bambu",
     "ggbio",
     "SpatialExperiment",
     "biovizBase",
@@ -743,7 +740,6 @@
   "attract": [
     "GOstats"
   ],
-  "bambu": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -833,7 +829,6 @@
   "clusterExperiment": [
     "mbkmeans"
   ],
-  "cn.farms": [],
   "compEpiTools": [
     "methylPipe",
     "Gviz",
@@ -928,7 +923,6 @@
   "epiregulon": [
     "motifmatchr"
   ],
-  "epiregulon.extra": [],
   "epivizr": [
     "epivizrData",
     "OrganismDbi"
@@ -965,7 +959,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "frma": [],
   "gDNAx": [
     "GenomicFiles"
   ],
@@ -1106,7 +1099,6 @@
   ],
   "mastR": [],
   "mbkmeans": [],
-  "meshr": [],
   "metaMS": [
     "CAMERA",
     "xcms",
@@ -1337,7 +1329,6 @@
   "ribosomeProfilingQC": [
     "motifStack"
   ],
-  "rifi": [],
   "ropls": [],
   "rqt": [
     "ropls"
@@ -1357,7 +1348,6 @@
     "immApex"
   ],
   "scTensor": [
-    "meshr",
     "GOstats"
   ],
   "scTreeViz": [

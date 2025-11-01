@@ -1719,3 +1719,9 @@ EnrichmentBrowser
 periodicDNA
 recountmethylation
 shinyepico
+bambu
+cn.farms
+epiregulon.extra
+frma
+meshr
+rifi

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1721 (76%)
+- **Successfully Built:** 1727 (76%)
 - **Failed:** 2 (0%)
-- **In Progress:** 183
-- **Not Started:** 338
+- **In Progress:** 180
+- **Not Started:** 335
 
-**Progress:** 76%
+**Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1721)
+## Successfully Built Packages (1727)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1671 more ...*
+*... and 1677 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (183)
+## In Progress (180)
 - ⏳ `BBCAnalyzer`
 - ⏳ `BadRegionFinder`
 - ⏳ `CCAFE`
@@ -93,6 +93,7 @@
 - ⏳ `DOtools`
 - ⏳ `DSS`
 - ⏳ `DominoEffect`
+- ⏳ `DrugVsDisease`
 - ⏳ `EasyCellType`
 - ⏳ `EpiCompare`
 - ⏳ `G4SNVHunter`
@@ -100,6 +101,7 @@
 - ⏳ `GDCRNATools`
 - ⏳ `GOstats`
 - ⏳ `GRaNIE`
+- ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
@@ -132,12 +134,10 @@
 - ⏳ `NewWave`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
-- ⏳ `OrganismDbi`
-- ⏳ `OutSplice`
 
-... and 133 more ...
+... and 130 more ...
 
-## Not Yet Started (338)
+## Not Yet Started (335)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -175,7 +175,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
 - ⏸️ `DeconvoBuddies`
-- ⏸️ `DrugVsDisease`
 - ⏸️ `DspikeIn`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
@@ -188,9 +187,10 @@
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GENESIS`
 - ⏸️ `GNOSIS`
+- ⏸️ `GSReg`
 
-... and 288 more ...
+... and 285 more ...
 
 ---
-*Last updated: 2025-11-01 04:57:27 UTC*
+*Last updated: 2025-11-01 04:58:25 UTC*
 *Packages with verified BBS status: 143*

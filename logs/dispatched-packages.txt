@@ -1907,3 +1907,4 @@ methylCC
 DrugVsDisease
 GSEABenchmarkeR
 zenith
+ChIPXpress
