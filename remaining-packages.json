@@ -594,7 +594,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "GenomicAlignments",
@@ -611,7 +610,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "GenomicAlignments",
     "ensembldb",
@@ -963,7 +961,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "GenomicAlignments",
@@ -4774,7 +4771,6 @@
     "rtracklayer",
     "AnnotationDbi"
   ],
-  "bamsignals": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -4809,7 +4805,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "beachmat.hdf5": [],
   "bedbaser": [
     "rtracklayer",
     "Rsamtools",
@@ -5556,7 +5551,6 @@
     "SummarizedExperiment"
   ],
   "crupR": [
-    "bamsignals",
     "Rsamtools",
     "rtracklayer",
     "GenomicAlignments",
@@ -5908,7 +5902,6 @@
     "SummarizedExperiment",
     "rtracklayer",
     "Rsamtools",
-    "bamsignals",
     "csaw",
     "GreyListChIP",
     "GenomicAlignments",
@@ -6654,7 +6647,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "VariantAnnotation",
     "SummarizedExperiment",
@@ -7370,7 +7362,6 @@
     "AnnotationDbi",
     "regioneR",
     "biovizBase",
-    "bamsignals",
     "VariantAnnotation",
     "GenomicAlignments",
     "SummarizedExperiment",
@@ -7475,7 +7466,6 @@
     "SummarizedExperiment"
   ],
   "normr": [
-    "bamsignals",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -8597,7 +8587,6 @@
   "segmenter": [
     "ChIPseeker",
     "SummarizedExperiment",
-    "bamsignals",
     "AnnotationDbi",
     "enrichplot",
     "GenomicFeatures",

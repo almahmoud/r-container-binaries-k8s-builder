@@ -904,3 +904,5 @@ BREW3R.r
 CSAR
 fastseg
 GenomicTuples
+bamsignals
+beachmat.hdf5
