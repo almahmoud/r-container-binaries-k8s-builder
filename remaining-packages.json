@@ -580,7 +580,6 @@
   ],
   "DeepTarget": [],
   "DegCre": [
-    "plotgardener",
     "GenomicFeatures"
   ],
   "DegNorm": [
@@ -680,7 +679,6 @@
     "GenomicFeatures",
     "txdbmaker"
   ],
-  "EpipwR": [],
   "EventPointer": [
     "SGSeq",
     "GenomicFeatures",
@@ -1929,8 +1927,7 @@
   "Ularcirc": [
     "BSgenome",
     "GenomicFeatures",
-    "Organism.dplyr",
-    "plotgardener"
+    "Organism.dplyr"
   ],
   "Uniquorn": [
     "VariantAnnotation",
@@ -2663,7 +2660,6 @@
     "sva",
     "genefilter"
   ],
-  "eisaR": [],
   "enhancerHomologSearch": [
     "BSgenome",
     "motifmatchr",
@@ -3085,9 +3081,7 @@
     "GenomicFeatures",
     "TRESS"
   ],
-  "mariner": [
-    "plotgardener"
-  ],
+  "mariner": [],
   "maser": [
     "Gviz",
     "GenomicFeatures",
@@ -3538,7 +3532,6 @@
   "pipeFrame": [
     "BSgenome"
   ],
-  "plotgardener": [],
   "podkat": [
     "BSgenome"
   ],
@@ -4039,7 +4032,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "snapcount": [],
   "sosta": [
     "SpatialExperiment",
     "SingleCellExperiment"

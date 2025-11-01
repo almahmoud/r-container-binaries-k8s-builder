@@ -1318,3 +1318,7 @@ easyRNASeq
 eudysbiome
 nullranges
 SVMDO
+eisaR
+EpipwR
+plotgardener
+snapcount
