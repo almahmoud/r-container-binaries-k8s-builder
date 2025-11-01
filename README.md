@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1987 (88%)
+- **Successfully Built:** 1991 (88%)
 - **Failed:** 2 (0%)
-- **In Progress:** 76
-- **Not Started:** 179
+- **In Progress:** 74
+- **Not Started:** 177
 
 **Progress:** 88%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1987)
+## Successfully Built Packages (1991)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1937 more ...*
+*... and 1941 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,11 +83,12 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (76)
+## In Progress (74)
 - ⏳ `CAGEfightR`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DMRcate`
+- ⏳ `EventPointer`
 - ⏳ `GA4GHshiny`
 - ⏳ `GENESIS`
 - ⏳ `GenomicPlot`
@@ -109,13 +110,13 @@
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
+- ⏳ `Rhisat2`
 - ⏳ `Rmmquant`
 - ⏳ `Rqc`
 - ⏳ `SC3`
 - ⏳ `SCArray`
 - ⏳ `SETA`
 - ⏳ `SOMNiBUS`
-- ⏳ `SPICEY`
 - ⏳ `SPOTlight`
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SpatialExperiment`
@@ -133,11 +134,10 @@
 - ⏳ `dmrseq`
 - ⏳ `gDNAx`
 - ⏳ `gDRimport`
-- ⏳ `glmGamPoi`
 
-... and 26 more ...
+... and 24 more ...
 
-## Not Yet Started (179)
+## Not Yet Started (177)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -164,7 +164,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DeconvoBuddies`
 - ⏸️ `EGSEA`
-- ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `ExperimentSubset`
 - ⏸️ `FEAST`
@@ -188,9 +187,10 @@
 - ⏸️ `PrInCE`
 - ⏸️ `Prostar`
 - ⏸️ `R3CPET`
+- ⏸️ `RAIDS`
 
-... and 129 more ...
+... and 127 more ...
 
 ---
-*Last updated: 2025-11-01 06:41:02 UTC*
+*Last updated: 2025-11-01 06:42:16 UTC*
 *Packages with verified BBS status: 147*

@@ -1985,3 +1985,7 @@ SPsimSeq
 TRESS
 SGSeq
 Xeva
+glmGamPoi
+gmapR
+gwascat
+SPICEY

@@ -2065,3 +2065,8 @@ omicsGMF
 scp
 EventPointer
 Rhisat2
+BASiCStan
+circRNAprofiler
+lemur
+transformGamPoi
+vtpnet

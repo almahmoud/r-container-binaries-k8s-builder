@@ -15,9 +15,7 @@
   "AnnotationHubData": [
     "OrganismDbi"
   ],
-  "BASiCStan": [
-    "glmGamPoi"
-  ],
+  "BASiCStan": [],
   "BOBaFIT": [
     "ggbio",
     "OrganismDbi"
@@ -263,7 +261,6 @@
   "SPIAT": [
     "SpatialExperiment"
   ],
-  "SPICEY": [],
   "SPOTlight": [],
   "SVP": [
     "SpatialExperiment"
@@ -389,9 +386,7 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "circRNAprofiler": [
-    "gwascat"
-  ],
+  "circRNAprofiler": [],
   "cliqueMS": [
     "xcms",
     "MSnbase",
@@ -479,12 +474,9 @@
   "ggspavis": [
     "SpatialExperiment"
   ],
-  "glmGamPoi": [],
   "glmSparseNet": [
     "TCGAutils"
   ],
-  "gmapR": [],
-  "gwascat": [],
   "hdxmsqc": [],
   "hoodscanR": [
     "SpatialExperiment"
@@ -513,9 +505,7 @@
   "jazzPanda": [
     "SpatialExperiment"
   ],
-  "lemur": [
-    "glmGamPoi"
-  ],
+  "lemur": [],
   "linkSet": [
     "Organism.dplyr"
   ],
@@ -731,18 +721,14 @@
     "SpatialExperiment"
   ],
   "trackViewer": [],
-  "transformGamPoi": [
-    "glmGamPoi"
-  ],
+  "transformGamPoi": [],
   "uncoverappLib": [
     "OrganismDbi"
   ],
   "visiumStitched": [
     "SpatialExperiment"
   ],
-  "vtpnet": [
-    "gwascat"
-  ],
+  "vtpnet": [],
   "vulcan": [
     "ChIPpeakAnno"
   ],
