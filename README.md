@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1246 (55%)
+- **Successfully Built:** 1253 (55%)
 - **Failed:** 2 (0%)
-- **In Progress:** 172
+- **In Progress:** 165
 - **Not Started:** 824
 
 **Progress:** 55%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1246)
+## Successfully Built Packages (1253)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1196 more ...*
+*... and 1203 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.22/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.22/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twoddpcr) |
@@ -64,6 +63,7 @@
 | [veloviz](https://bioconductor.org/packages/3.22/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
+| [vissE](https://bioconductor.org/packages/3.22/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vissE) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.22/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/webbioc) |
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (172)
+## In Progress (165)
 - ⏳ `BSgenome`
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
@@ -99,14 +99,12 @@
 - ⏳ `DEsubs`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
-- ⏳ `DOSE`
 - ⏳ `DeepTarget`
 - ⏳ `EBSEA`
 - ⏳ `ERSSA`
 - ⏳ `EpipwR`
 - ⏳ `ExCluster`
 - ⏳ `GenomicFeatures`
-- ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
@@ -134,8 +132,10 @@
 - ⏳ `PAST`
 - ⏳ `PIUMA`
 - ⏳ `PMScanR`
+- ⏳ `PREDA`
+- ⏳ `PathoStat`
 
-... and 122 more ...
+... and 115 more ...
 
 ## Not Yet Started (824)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 774 more ...
 
 ---
-*Last updated: 2025-11-01 02:25:13 UTC*
-*Packages with verified BBS status: 126*
+*Last updated: 2025-11-01 02:26:25 UTC*
+*Packages with verified BBS status: 127*

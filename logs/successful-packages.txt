@@ -1244,3 +1244,10 @@ rTRM
 hummingbird
 methInheritSim
 methylInheritance
+cellity
+consICA
+DOSE
+GeoTcgaData
+ivygapSE
+STADyUM
+vissE

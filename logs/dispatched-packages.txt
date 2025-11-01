@@ -1418,3 +1418,6 @@ nullranges
 plotgardener
 plyinteractions
 RcisTarget
+RegEnrich
+SVMDO
+enrichplot
