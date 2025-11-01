@@ -570,7 +570,6 @@
     "SpatialExperiment"
   ],
   "TCGAutils": [],
-  "TENET": [],
   "TENxIO": [],
   "TFEA.ChIP": [],
   "TFutils": [
@@ -593,7 +592,6 @@
   "VCFArray": [
     "GenomicFiles"
   ],
-  "VDJdive": [],
   "VariantFiltering": [
     "Gviz",
     "biovizBase"
@@ -999,8 +997,6 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "miQC": [],
-  "miRLAB": [],
   "mia": [],
   "miaDash": [
     "iSEEtree",

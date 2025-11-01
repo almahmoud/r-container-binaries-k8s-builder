@@ -1788,3 +1788,7 @@ mastR
 ZygosityPredictor
 GmicR
 UPDhmm
+miQC
+miRLAB
+TENET
+VDJdive
