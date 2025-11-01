@@ -1,6 +1,5 @@
 {
   "ADImpute": [],
-  "ADaCGH2": [],
   "AHMassBank": [
     "AnnotationHubData",
     "OrganismDbi"
@@ -34,7 +33,6 @@
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
-    "oligoClasses",
     "ReportingTools",
     "Category",
     "ggbio",
@@ -53,8 +51,7 @@
     "OrganismDbi"
   ],
   "ArrayExpress": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "BASiCS": [
     "scran",
@@ -69,7 +66,6 @@
   "BBCAnalyzer": [
     "VariantAnnotation"
   ],
-  "BEAT": [],
   "BERT": [],
   "BOBaFIT": [
     "ggbio",
@@ -78,7 +74,6 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "BSgenomeForge": [],
   "BUSpaRse": [
     "ensembldb"
   ],
@@ -231,8 +226,7 @@
   "ChIPComp": [],
   "ChIPXpress": [
     "frma",
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "ChIPanalyser": [],
   "ChIPexoQual": [
@@ -375,8 +369,7 @@
   ],
   "DrugVsDisease": [
     "ArrayExpress",
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "DspikeIn": [
     "TreeSummarizedExperiment"
@@ -569,8 +562,7 @@
     "PSMatch"
   ],
   "ITALICS": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "IVAS": [],
   "Ibex": [
@@ -613,7 +605,6 @@
   "MAGAR": [
     "RnBeads",
     "crlmm",
-    "oligoClasses",
     "methylumi",
     "minfi",
     "bumphunter"
@@ -732,7 +723,6 @@
   ],
   "MinimumDistance": [
     "VanillaICE",
-    "oligoClasses",
     "crlmm"
   ],
   "MoleculeExperiment": [
@@ -801,7 +791,6 @@
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
-  "PAA": [],
   "PDATK": [
     "CoreGx"
   ],
@@ -818,7 +807,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "PROPS": [],
   "PSMatch": [
     "QFeatures"
   ],
@@ -1003,8 +991,7 @@
   ],
   "SC3": [],
   "SCAN.UPC": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "SCArray": [],
   "SCArray.sat": [
@@ -1198,7 +1185,6 @@
     "ballgown"
   ],
   "VanillaICE": [
-    "oligoClasses",
     "crlmm"
   ],
   "VarCon": [],
@@ -1245,14 +1231,10 @@
   "ZygosityPredictor": [
     "VariantAnnotation"
   ],
-  "a4": [
-    "a4Base"
-  ],
-  "a4Base": [],
+  "a4": [],
   "adductomicsR": [],
   "affycoretools": [
     "GOstats",
-    "oligoClasses",
     "ReportingTools",
     "Category",
     "ggbio",
@@ -1291,7 +1273,6 @@
     "TreeSummarizedExperiment"
   ],
   "animalcules": [],
-  "annmap": [],
   "annotatr": [
     "regioneR"
   ],
@@ -1482,7 +1463,6 @@
   ],
   "clustifyr": [],
   "cn.farms": [
-    "oligoClasses",
     "oligo"
   ],
   "coMethDMR": [
@@ -1567,9 +1547,7 @@
     "ensembldb",
     "biovizBase"
   ],
-  "crlmm": [
-    "oligoClasses"
-  ],
+  "crlmm": [],
   "crumblr": [],
   "crupR": [],
   "cydar": [],
@@ -1735,8 +1713,7 @@
     "PSMatch"
   ],
   "frma": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "funtooNorm": [
     "minfi",
@@ -1931,9 +1908,7 @@
     "bumphunter"
   ],
   "m6Aboost": [],
-  "mBPCR": [
-    "oligoClasses"
-  ],
+  "mBPCR": [],
   "maaslin3": [
     "TreeSummarizedExperiment"
   ],
@@ -2040,8 +2015,7 @@
   "midasHLA": [],
   "miloR": [],
   "mimager": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "minfi": [
     "bumphunter"
@@ -2158,10 +2132,7 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "oligo": [
-    "oligoClasses"
-  ],
-  "oligoClasses": [],
+  "oligo": [],
   "omXplore": [
     "MSnbase",
     "PSMatch",
@@ -2214,8 +2185,7 @@
     "txdbmaker"
   ],
   "pdInfoBuilder": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "peakPantheR": [
     "MSnbase",
@@ -2274,8 +2244,7 @@
     "QFeatures"
   ],
   "puma": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "qPLEXanalyzer": [
     "MSnbase",
@@ -2379,7 +2348,6 @@
     "scater",
     "scuttle"
   ],
-  "scGPS": [],
   "scGraphVerse": [],
   "scHOT": [],
   "scMerge": [
@@ -2646,7 +2614,6 @@
     "tidySpatialExperiment",
     "SpatialExperiment"
   ],
-  "tigre": [],
   "topdownr": [
     "MSnbase",
     "PSMatch",

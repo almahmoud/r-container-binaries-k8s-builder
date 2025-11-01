@@ -1442,3 +1442,13 @@ slalom
 vsclust
 KnowSeq
 schex
+a4Base
+ADaCGH2
+annmap
+BEAT
+BSgenomeForge
+oligoClasses
+PAA
+PROPS
+scGPS
+tigre
