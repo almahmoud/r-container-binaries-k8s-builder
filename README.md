@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1610 (71%)
+- **Successfully Built:** 1612 (71%)
 - **Failed:** 2 (0%)
-- **In Progress:** 211
-- **Not Started:** 421
+- **In Progress:** 210
+- **Not Started:** 420
 
 **Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1610)
+## Successfully Built Packages (1612)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1560 more ...*
+*... and 1562 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (211)
+## In Progress (210)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ASURAT`
@@ -107,7 +107,6 @@
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
-- ⏳ `ChromSCape`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
@@ -121,6 +120,7 @@
 - ⏳ `DegCre`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
+- ⏳ `FRASER`
 - ⏳ `GDCRNATools`
 - ⏳ `GOstats`
 - ⏳ `GRaNIE`
@@ -135,9 +135,9 @@
 - ⏳ `MACSr`
 - ⏳ `MAST`
 
-... and 161 more ...
+... and 160 more ...
 
-## Not Yet Started (421)
+## Not Yet Started (420)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
 
-... and 371 more ...
+... and 370 more ...
 
 ---
-*Last updated: 2025-11-01 04:15:37 UTC*
+*Last updated: 2025-11-01 04:17:48 UTC*
 *Packages with verified BBS status: 137*

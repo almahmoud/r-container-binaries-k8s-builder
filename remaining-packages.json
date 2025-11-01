@@ -170,7 +170,6 @@
     "regioneR"
   ],
   "ChIPseeker": [],
-  "ChromSCape": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "SGSeq"
@@ -464,7 +463,6 @@
   "MOMA": [],
   "MOSClip": [],
   "MOSim": [],
-  "MPAC": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",

@@ -1608,3 +1608,5 @@ CiteFuse
 OUTRIDER
 rnaEditr
 scPipe
+ChromSCape
+MPAC
