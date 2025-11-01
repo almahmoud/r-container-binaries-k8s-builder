@@ -1804,3 +1804,6 @@ PureCN
 RareVariantVis
 alabaster.vcf
 miloR
+NanoMethViz
+PharmacoGx
+RadioGx

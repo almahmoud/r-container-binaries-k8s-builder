@@ -327,7 +327,6 @@
     "Gviz",
     "regioneR"
   ],
-  "NanoMethViz": [],
   "NoRCE": [],
   "OGRE": [
     "Gviz"
@@ -350,7 +349,6 @@
   "PSMatch": [
     "QFeatures"
   ],
-  "PharmacoGx": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -413,7 +411,6 @@
     "TCGAutils"
   ],
   "RUCova": [],
-  "RadioGx": [],
   "RbowtieCuda": [],
   "ReportingTools": [
     "ggbio",
@@ -562,9 +559,7 @@
     "SpatialExperiment",
     "VisiumIO"
   ],
-  "Xeva": [
-    "PharmacoGx"
-  ],
+  "Xeva": [],
   "YAPSA": [
     "SomaticSignatures",
     "ggbio",
@@ -795,12 +790,9 @@
     "GenomicFiles"
   ],
   "gDR": [
-    "gDRimport",
-    "PharmacoGx"
+    "gDRimport"
   ],
-  "gDRimport": [
-    "PharmacoGx"
-  ],
+  "gDRimport": [],
   "geomeTriD": [
     "trackViewer",
     "Gviz"
