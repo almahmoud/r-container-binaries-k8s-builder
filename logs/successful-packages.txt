@@ -2088,3 +2088,4 @@ ATACseqQC
 jazzPanda
 miaDash
 Statial
+MsQuality
