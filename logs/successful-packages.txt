@@ -1854,3 +1854,7 @@ SimFFPE
 crisprScore
 GDCRNATools
 LoomExperiment
+cfTools
+Gviz
+mia
+XDE
