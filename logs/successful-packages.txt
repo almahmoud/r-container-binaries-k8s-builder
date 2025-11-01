@@ -1771,3 +1771,7 @@ scRepertoire
 interactiveDisplay
 mbkmeans
 MLInterfaces
+ChIPXpress
+looking4clusters
+TrajectoryUtils
+TreeSummarizedExperiment

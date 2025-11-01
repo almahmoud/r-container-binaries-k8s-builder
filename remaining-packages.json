@@ -102,7 +102,6 @@
     "lumi",
     "biovizBase"
   ],
-  "ChIPXpress": [],
   "ChIPexoQual": [
     "biovizBase"
   ],
@@ -155,9 +154,7 @@
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
-  "DspikeIn": [
-    "TreeSummarizedExperiment"
-  ],
+  "DspikeIn": [],
   "DuplexDiscovereR": [
     "Gviz",
     "biovizBase"
@@ -180,13 +177,11 @@
     "OrganismDbi"
   ],
   "ExperimentSubset": [
-    "SpatialExperiment",
-    "TreeSummarizedExperiment"
+    "SpatialExperiment"
   ],
   "FEAST": [
     "TSCAN",
-    "SC3",
-    "TrajectoryUtils"
+    "SC3"
   ],
   "FLAMES": [
     "ggbio",
@@ -251,9 +246,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "HoloFoodR": [
-    "TreeSummarizedExperiment"
-  ],
+  "HoloFoodR": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -301,7 +294,6 @@
     "lumi"
   ],
   "MGnifyR": [
-    "TreeSummarizedExperiment",
     "mia"
   ],
   "MIRit": [],
@@ -382,9 +374,7 @@
   "OrganismDbi": [],
   "OutSplice": [],
   "PDATK": [],
-  "PLSDAbatch": [
-    "TreeSummarizedExperiment"
-  ],
+  "PLSDAbatch": [],
   "POWSC": [
     "MAST"
   ],
@@ -594,16 +584,12 @@
     "GenomicFiles"
   ],
   "TRESS": [],
-  "TSCAN": [
-    "TrajectoryUtils"
-  ],
+  "TSCAN": [],
   "TVTB": [
     "Gviz",
     "biovizBase"
   ],
   "ToxicoGx": [],
-  "TrajectoryUtils": [],
-  "TreeSummarizedExperiment": [],
   "UCell": [],
   "UMI4Cats": [
     "regioneR"
@@ -672,9 +658,7 @@
     "SpatialExperiment"
   ],
   "alabaster.vcf": [],
-  "anansi": [
-    "TreeSummarizedExperiment"
-  ],
+  "anansi": [],
   "annotatr": [
     "regioneR"
   ],
@@ -777,8 +761,7 @@
     "SpatialExperiment"
   ],
   "condiments": [
-    "slingshot",
-    "TrajectoryUtils"
+    "slingshot"
   ],
   "consensusOV": [
     "GSVA",
@@ -826,8 +809,7 @@
     "motifStack"
   ],
   "dar": [
-    "mia",
-    "TreeSummarizedExperiment"
+    "mia"
   ],
   "decompTumor2Sig": [],
   "decontX": [],
@@ -960,8 +942,7 @@
   "iSEEtree": [
     "iSEE",
     "miaViz",
-    "mia",
-    "TreeSummarizedExperiment"
+    "mia"
   ],
   "iSEEu": [
     "iSEE",
@@ -991,8 +972,7 @@
   "katdetectr": [],
   "kissDE": [],
   "lefser": [
-    "mia",
-    "TreeSummarizedExperiment"
+    "mia"
   ],
   "lemur": [
     "glmGamPoi"
@@ -1010,11 +990,8 @@
     "simpleSeg",
     "cytomapper"
   ],
-  "looking4clusters": [],
   "lumi": [],
-  "maaslin3": [
-    "TreeSummarizedExperiment"
-  ],
+  "maaslin3": [],
   "magpie": [
     "TRESS"
   ],
@@ -1052,26 +1029,19 @@
   ],
   "miQC": [],
   "miRLAB": [],
-  "mia": [
-    "TreeSummarizedExperiment"
-  ],
+  "mia": [],
   "miaDash": [
     "iSEE",
     "iSEEtree",
     "mia",
-    "TreeSummarizedExperiment",
     "miaViz"
   ],
-  "miaSim": [
-    "TreeSummarizedExperiment"
-  ],
+  "miaSim": [],
   "miaTime": [
-    "mia",
-    "TreeSummarizedExperiment"
+    "mia"
   ],
   "miaViz": [
-    "mia",
-    "TreeSummarizedExperiment"
+    "mia"
   ],
   "miloR": [],
   "missMethyl": [],
@@ -1233,8 +1203,7 @@
   ],
   "scClassify": [],
   "scRNAseqApp": [
-    "slingshot",
-    "TrajectoryUtils"
+    "slingshot"
   ],
   "scTensor": [],
   "scTreeViz": [
@@ -1282,7 +1251,6 @@
     "GSVA",
     "MAST",
     "TSCAN",
-    "TrajectoryUtils",
     "SpatialExperiment"
   ],
   "sitadela": [],
@@ -1290,9 +1258,7 @@
     "wateRmelon",
     "lumi"
   ],
-  "slingshot": [
-    "TrajectoryUtils"
-  ],
+  "slingshot": [],
   "smoothclust": [
     "SpatialExperiment"
   ],
@@ -1385,8 +1351,7 @@
     "biovizBase"
   ],
   "tradeSeq": [
-    "slingshot",
-    "TrajectoryUtils"
+    "slingshot"
   ],
   "transcriptR": [
     "chipseq"
@@ -1396,9 +1361,7 @@
   ],
   "transmogR": [],
   "traseR": [],
-  "treeclimbR": [
-    "TreeSummarizedExperiment"
-  ],
+  "treeclimbR": [],
   "txcutr": [],
   "uncoverappLib": [
     "Gviz",
