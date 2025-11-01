@@ -1798,3 +1798,7 @@ ProteoDisco
 maaslin3
 PLSDAbatch
 StructuralVariantAnnotation
+biovizBase
+lumi
+PureCN
+RareVariantVis
