@@ -1728,3 +1728,5 @@ rifi
 MethylAid
 pdInfoBuilder
 strandCheckR
+SCAN.UPC
+speckle
