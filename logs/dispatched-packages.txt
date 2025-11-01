@@ -2014,3 +2014,5 @@ esATAC
 motifbreakR
 pageRank
 ribosomeProfilingQC
+POWSC
+celaref

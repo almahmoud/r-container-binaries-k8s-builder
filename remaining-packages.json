@@ -204,7 +204,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "MAST": [],
   "MEAL": [
     "missMethyl"
   ],
@@ -264,9 +263,7 @@
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
-  "POWSC": [
-    "MAST"
-  ],
+  "POWSC": [],
   "PRONE": [
     "MSnbase",
     "PSMatch",
@@ -333,7 +330,6 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "RgnTX": [],
   "Rhisat2": [
     "SGSeq"
   ],
@@ -519,9 +515,7 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "celaref": [
-    "MAST"
-  ],
+  "celaref": [],
   "chimeraviz": [],
   "cicero": [],
   "circRNAprofiler": [
@@ -896,7 +890,6 @@
   ],
   "singleCellTK": [
     "GSVA",
-    "MAST",
     "SpatialExperiment"
   ],
   "sitadela": [],
