@@ -1034,3 +1034,9 @@ csdR
 EDIRquery
 GEOquery
 topGO
+alabaster.se
+cytoKernel
+GenomicAlignments
+ginmappeR
+IgGeneUsage
+immunogenViewer

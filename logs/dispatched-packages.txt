@@ -1238,3 +1238,16 @@ moanin
 panelcn.mops
 transcriptogramer
 webbioc
+BaalChIP
+BasicSTARRseq
+CrispRVariants
+MDTS
+PICB
+ShortRead
+TCseq
+VplotR
+breakpointR
+mosaics
+prebs
+ramwas
+rtracklayer
