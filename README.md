@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1337 (59%)
+- **Successfully Built:** 1362 (60%)
 - **Failed:** 2 (0%)
-- **In Progress:** 96
+- **In Progress:** 71
 - **Not Started:** 809
 
-**Progress:** 59%
+**Progress:** 60%
 ```
-█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
+██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1337)
+## Successfully Built Packages (1362)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1287 more ...*
+*... and 1312 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,59 +83,59 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (96)
+## In Progress (71)
 - ⏳ `BSgenome`
-- ⏳ `CBN2Path`
 - ⏳ `CNEr`
 - ⏳ `CNVRanger`
 - ⏳ `ChromHeatMap`
-- ⏳ `CoverageView`
 - ⏳ `CyTOFpower`
-- ⏳ `DEWSeq`
 - ⏳ `DEsubs`
-- ⏳ `EBSEA`
-- ⏳ `ERSSA`
-- ⏳ `GenomicFeatures`
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
-- ⏳ `HiCDOC`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MGFM`
-- ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
-- ⏳ `MicrobiotaProcess`
 - ⏳ `MsDataHub`
-- ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
-- ⏳ `NormalyzerDE`
 - ⏳ `OVESEG`
 - ⏳ `PADOG`
 - ⏳ `PAIRADISE`
 - ⏳ `PIUMA`
-- ⏳ `PREDA`
 - ⏳ `PepSetTest`
 - ⏳ `PhIPData`
-- ⏳ `RTNsurvival`
 - ⏳ `Rbec`
 - ⏳ `ReactomeGSA`
 - ⏳ `ReactomePA`
 - ⏳ `Scale4C`
-- ⏳ `SemDist`
 - ⏳ `SeqGate`
 - ⏳ `SeqSQC`
 - ⏳ `SeqVarTools`
 - ⏳ `SimBu`
 - ⏳ `SimFFPE`
-- ⏳ `SingleCellExperiment`
 - ⏳ `SingleR`
 - ⏳ `TDbasedUFEadv`
 - ⏳ `adductomicsR`
 - ⏳ `cTRAP`
 - ⏳ `cfTools`
 - ⏳ `chipseq`
+- ⏳ `clusterProfiler`
+- ⏳ `crisprScore`
+- ⏳ `easier`
+- ⏳ `escape`
+- ⏳ `esetVis`
+- ⏳ `genefilter`
+- ⏳ `geneplotter`
+- ⏳ `globaltest`
+- ⏳ `hpar`
+- ⏳ `iModMix`
+- ⏳ `idiogram`
+- ⏳ `knowYourCG`
+- ⏳ `mariner`
+- ⏳ `meshes`
+- ⏳ `oligoClasses`
 
-... and 46 more ...
+... and 21 more ...
 
 ## Not Yet Started (809)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 759 more ...
 
 ---
-*Last updated: 2025-11-01 02:44:01 UTC*
+*Last updated: 2025-11-01 02:51:15 UTC*
 *Packages with verified BBS status: 127*
