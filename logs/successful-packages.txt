@@ -1156,3 +1156,8 @@ IONiseR
 proDA
 rrvgo
 RSVSim
+CytoMDS
+goProfiles
+goTools
+PhosR
+SBGNview

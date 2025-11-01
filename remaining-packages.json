@@ -508,7 +508,6 @@
     "SingleCellExperiment"
   ],
   "CyTOFpower": [],
-  "CytoMDS": [],
   "DAMEfinder": [
     "VariantAnnotation",
     "bumphunter",
@@ -1493,7 +1492,6 @@
     "CoreGx",
     "MultiAssayExperiment"
   ],
-  "PhosR": [],
   "PrInCE": [
     "MSnbase",
     "PSMatch",
@@ -1782,7 +1780,6 @@
     "BSgenome"
   ],
   "SAIGEgds": [],
-  "SBGNview": [],
   "SC3": [
     "SingleCellExperiment"
   ],
@@ -3130,14 +3127,11 @@
   "gmoviz": [
     "GenomicFeatures"
   ],
-  "goProfiles": [],
   "goSorensen": [
     "clusterProfiler",
-    "goProfiles",
     "DOSE",
     "enrichplot"
   ],
-  "goTools": [],
   "goseq": [
     "GenomicFeatures",
     "txdbmaker"
