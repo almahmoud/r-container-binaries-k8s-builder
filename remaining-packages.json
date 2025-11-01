@@ -3117,7 +3117,6 @@
     "bsseq",
     "BSgenome"
   ],
-  "kmcut": [],
   "knowYourCG": [],
   "lefser": [
     "mia",
@@ -3675,7 +3674,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "pogos": [],
   "pram": [],
   "preciseTAD": [
     "rCGH",
