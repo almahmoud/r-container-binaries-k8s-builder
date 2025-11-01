@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 349 (50%)
-- **Failed:** 1 (0%)
-- **In Progress:** 196
-- **Not Started:** 148
+- **Successfully Built:** 406 (58%)
+- **Failed:** 4 (0%)
+- **In Progress:** 163
+- **Not Started:** 121
 
-**Progress:** 50%
+**Progress:** 59%
 ```
-█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (349)
+## Successfully Built Packages (406)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -38,37 +38,37 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
+| [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
+| [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
+| [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
-| [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
-| [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
-| [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 
-*... and 299 more ...*
+*... and 356 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [spkTools](https://bioconductor.org/packages/3.23/bioc/html/spkTools.html) | [log](logs/spkTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spkTools) |
-| [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
-| [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
-| [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
-| [stepNorm](https://bioconductor.org/packages/3.23/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/stepNorm) |
 | [subSeq](https://bioconductor.org/packages/3.23/bioc/html/subSeq.html) | [log](logs/subSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/subSeq) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
 | [synlet](https://bioconductor.org/packages/3.23/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synlet) |
+| [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
+| [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
+| [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
+| [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
+| [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
@@ -76,23 +76,21 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (1)
+## Failed Packages (4)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [MODA](https://bioconductor.org/packages/3.23/bioc/html/MODA.html) | [log](logs/MODA/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MODA) | Missing dependency: AnnotationDbi<br>Missing dependency: WGCNA |
+| [csdR](https://bioconductor.org/packages/3.23/bioc/html/csdR.html) | [log](logs/csdR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/csdR) | Missing dependency: AnnotationDbi<br>Missing dependency: WGCNA |
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
+| [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (196)
+## In Progress (163)
 - ⏳ `AlphaMissenseR`
-- ⏳ `AnVILPublish`
-- ⏳ `AnVILWorkflow`
-- ⏳ `BAGS`
 - ⏳ `BayesKnockdown`
-- ⏳ `BiocBook`
 - ⏳ `BiocNeighbors`
 - ⏳ `BrowserViz`
 - ⏳ `CGHregions`
-- ⏳ `CMA`
 - ⏳ `COMPASS`
 - ⏳ `ChemmineOB`
 - ⏳ `ConsensusClusterPlus`
@@ -102,27 +100,18 @@
 - ⏳ `DFP`
 - ⏳ `DepInfeR`
 - ⏳ `EBImage`
-- ⏳ `EBarrays`
-- ⏳ `GeneExpressionSignature`
-- ⏳ `GeneSelectMMD`
 - ⏳ `HDTD`
-- ⏳ `HELP`
-- ⏳ `HEM`
-- ⏳ `HIBAG`
 - ⏳ `HVP`
-- ⏳ `HilbertVisGUI`
-- ⏳ `HybridMTest`
 - ⏳ `INDEED`
 - ⏳ `INPower`
 - ⏳ `ISAnalytics`
-- ⏳ `LedPred`
 - ⏳ `MACSQuantifyR`
-- ⏳ `MODA`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
 - ⏳ `Mergeomics`
 - ⏳ `MiPP`
 - ⏳ `ModCon`
+- ⏳ `MsCoreUtils`
 - ⏳ `Mulcom`
 - ⏳ `NOISeq`
 - ⏳ `NPARC`
@@ -133,35 +122,43 @@
 - ⏳ `OSAT`
 - ⏳ `Omixer`
 - ⏳ `OpenStats`
+- ⏳ `OrderedList`
+- ⏳ `Oscope`
+- ⏳ `Path2PPI`
+- ⏳ `PathNet`
+- ⏳ `Pedixplorer`
+- ⏳ `PepsNMR`
+- ⏳ `PhenoGeneRanker`
+- ⏳ `ProtGenerics`
+- ⏳ `QRscore`
+- ⏳ `QUBIC`
+- ⏳ `QuaternaryProd`
+- ⏳ `RAREsim`
+- ⏳ `RBGL`
+- ⏳ `RCASPAR`
 
-... and 146 more ...
+... and 113 more ...
 
-## Not Yet Started (148)
+## Not Yet Started (121)
 - ⏸️ `AWFisher`
 - ⏸️ `AlpsNMR`
 - ⏸️ `BioMVCClass`
 - ⏸️ `BiocHail`
-- ⏸️ `BiocIO`
-- ⏸️ `CGHnormaliter`
 - ⏸️ `CNORdt`
 - ⏸️ `CNORfeeder`
 - ⏸️ `CNORfuzzy`
 - ⏸️ `CNORode`
 - ⏸️ `CONFESS`
 - ⏸️ `CRImage`
-- ⏸️ `CTDquerier`
 - ⏸️ `Cardinal`
 - ⏸️ `CardinalIO`
-- ⏸️ `CellMapper`
 - ⏸️ `CellNOptR`
 - ⏸️ `CytoDx`
-- ⏸️ `DFplyr`
 - ⏸️ `DNAcycP2`
 - ⏸️ `DeepPINCS`
 - ⏸️ `DepecheR`
 - ⏸️ `EBcoexpress`
 - ⏸️ `EnrichDO`
-- ⏸️ `ExploreModelMatrix`
 - ⏸️ `FISHalyseR`
 - ⏸️ `FlowSOM`
 - ⏸️ `GSCA`
@@ -169,7 +166,6 @@
 - ⏸️ `GateFinder`
 - ⏸️ `GenProSeq`
 - ⏸️ `GeneNetworkBuilder`
-- ⏸️ `KCsmart`
 - ⏸️ `MEIGOR`
 - ⏸️ `MOGAMUN`
 - ⏸️ `MSstats`
@@ -179,17 +175,24 @@
 - ⏸️ `MetaCyto`
 - ⏸️ `MetaDICT`
 - ⏸️ `MetaboCoreUtils`
-- ⏸️ `MsCoreUtils`
 - ⏸️ `NormqPCR`
 - ⏸️ `OncoSimulR`
 - ⏸️ `PROPER`
-- ⏸️ `Pedixplorer`
 - ⏸️ `Polytect`
 - ⏸️ `RBioFormats`
 - ⏸️ `RCyjs`
+- ⏸️ `RNAseqCovarImpute`
+- ⏸️ `ROSeq`
+- ⏸️ `Rcwl`
+- ⏸️ `RcwlPipelines`
+- ⏸️ `ReUseData`
+- ⏸️ `Rigraphlib`
+- ⏸️ `Rvisdiff`
+- ⏸️ `SIMAT`
+- ⏸️ `SIMD`
 
-... and 98 more ...
+... and 71 more ...
 
 ---
-*Last updated: 2025-11-01 15:36:27 UTC*
-*Packages with verified BBS status: 93*
+*Last updated: 2025-11-01 15:39:33 UTC*
+*Packages with verified BBS status: 104*

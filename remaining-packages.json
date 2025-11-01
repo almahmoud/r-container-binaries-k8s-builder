@@ -3,45 +3,30 @@
     "edgeR"
   ],
   "AlphaMissenseR": [],
-  "AlpsNMR": [
-    "mixOmics"
-  ],
-  "AnVILPublish": [],
-  "AnVILWorkflow": [],
-  "BAGS": [],
+  "AlpsNMR": [],
   "BayesKnockdown": [],
-  "BioMVCClass": [
-    "Rgraphviz"
-  ],
-  "BiocBook": [],
+  "BioMVCClass": [],
   "BiocHail": [
     "basilisk"
   ],
-  "BiocIO": [],
   "BiocNeighbors": [],
   "BrowserViz": [],
-  "CGHnormaliter": [],
   "CGHregions": [],
-  "CMA": [],
   "CNORdt": [
     "CellNOptR",
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "CNORfeeder": [
     "CellNOptR",
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "CNORfuzzy": [
     "CellNOptR",
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "CNORode": [
     "CellNOptR",
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "COMPASS": [],
   "CONFESS": [
@@ -51,13 +36,11 @@
     "flowMeans",
     "flowMerge",
     "flowPeaks",
-    "cytolib",
-    "Rgraphviz"
+    "cytolib"
   ],
   "CRImage": [
     "EBImage"
   ],
-  "CTDquerier": [],
   "Cardinal": [
     "ProtGenerics",
     "CardinalIO",
@@ -68,10 +51,8 @@
     "matter",
     "ProtGenerics"
   ],
-  "CellMapper": [],
   "CellNOptR": [
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "ChemmineOB": [],
   "ConsensusClusterPlus": [],
@@ -83,26 +64,15 @@
   "DCATS": [],
   "DEsingle": [],
   "DFP": [],
-  "DFplyr": [],
   "DNAcycP2": [
     "basilisk"
   ],
-  "DeepPINCS": [
-    "ttgsea"
-  ],
+  "DeepPINCS": [],
   "DepInfeR": [],
-  "DepecheR": [
-    "mixOmics"
-  ],
+  "DepecheR": [],
   "EBImage": [],
-  "EBarrays": [],
-  "EBcoexpress": [
-    "EBarrays"
-  ],
-  "EnrichDO": [
-    "Rgraphviz"
-  ],
-  "ExploreModelMatrix": [],
+  "EBcoexpress": [],
+  "EnrichDO": [],
   "FISHalyseR": [
     "EBImage"
   ],
@@ -115,9 +85,7 @@
     "rhdf5",
     "rhdf5filters"
   ],
-  "GWASTools": [
-    "gdsfmt"
-  ],
+  "GWASTools": [],
   "GateFinder": [
     "flowCore",
     "flowFP",
@@ -125,33 +93,21 @@
     "flowViz"
   ],
   "GenProSeq": [
-    "DeepPINCS",
-    "ttgsea"
+    "DeepPINCS"
   ],
-  "GeneExpressionSignature": [],
   "GeneNetworkBuilder": [
-    "Rgraphviz",
     "RCy3"
   ],
-  "GeneSelectMMD": [],
   "HDTD": [],
-  "HELP": [],
-  "HEM": [],
-  "HIBAG": [],
   "HVP": [],
-  "HilbertVisGUI": [],
-  "HybridMTest": [],
   "INDEED": [],
   "INPower": [],
   "ISAnalytics": [],
-  "KCsmart": [],
-  "LedPred": [],
   "MACSQuantifyR": [],
   "MEIGOR": [
     "CNORode",
     "CellNOptR",
-    "RBGL",
-    "Rgraphviz"
+    "RBGL"
   ],
   "MODA": [],
   "MOGAMUN": [
@@ -203,17 +159,13 @@
   "OPWeight": [],
   "OSAT": [],
   "Omixer": [],
-  "OncoSimulR": [
-    "Rgraphviz"
-  ],
+  "OncoSimulR": [],
   "OpenStats": [],
   "OrderedList": [],
   "Oscope": [],
-  "PANR": [],
   "PROPER": [
     "edgeR"
   ],
-  "PROcess": [],
   "Path2PPI": [],
   "PathNet": [],
   "Pedixplorer": [],
@@ -249,8 +201,6 @@
   ],
   "RSeqAn": [],
   "RTCGA": [],
-  "RTopper": [],
-  "RVS": [],
   "Rcwl": [
     "basilisk"
   ],
@@ -264,8 +214,6 @@
     "basilisk"
   ],
   "ReadqPCR": [],
-  "RedisParam": [],
-  "Rgraphviz": [],
   "Rigraphlib": [
     "biocmake"
   ],
@@ -287,11 +235,7 @@
   ],
   "SIMLR": [],
   "SLqPCR": [],
-  "SNPRelate": [
-    "gdsfmt"
-  ],
-  "SRAdb": [],
-  "SUITOR": [],
+  "SNPRelate": [],
   "Sconify": [
     "flowCore",
     "cytolib"
@@ -303,9 +247,7 @@
     "biobroom"
   ],
   "TPP2D": [],
-  "TRONCO": [
-    "Rgraphviz"
-  ],
+  "TRONCO": [],
   "TSAR": [],
   "TargetDecoy": [
     "mzID",
@@ -314,7 +256,6 @@
   ],
   "TargetScore": [],
   "TreeAndLeaf": [],
-  "UCSC.utils": [],
   "VERSO": [],
   "Wrench": [],
   "XINA": [],
@@ -324,7 +265,6 @@
     "rhdf5",
     "rhdf5filters"
   ],
-  "alevinQC": [],
   "anndataR": [],
   "bacon": [],
   "basilisk": [],
@@ -346,8 +286,6 @@
     "basilisk"
   ],
   "cellmig": [],
-  "cellmigRation": [],
-  "clevRvis": [],
   "clusterStab": [],
   "coGPS": [],
   "compSPOT": [],
@@ -385,19 +323,16 @@
   "densvis": [
     "basilisk"
   ],
-  "diggit": [],
   "dks": [],
   "dupRadar": [],
   "dyebias": [],
   "edgeR": [],
-  "epistasisGA": [],
   "epivizrServer": [],
   "erccdashboard": [
     "edgeR"
   ],
   "fCI": [],
   "fabia": [],
-  "factDesign": [],
   "fastreeR": [],
   "fdrame": [],
   "fedup": [
@@ -462,7 +397,6 @@
   ],
   "flowMerge": [
     "flowClust",
-    "Rgraphviz",
     "flowCore",
     "cytolib"
   ],
@@ -493,30 +427,17 @@
   "flowcatchR": [
     "EBImage"
   ],
-  "gaga": [
-    "EBarrays"
-  ],
+  "gaga": [],
   "garfield": [],
-  "gdsfmt": [],
-  "geNetClassifier": [
-    "EBarrays"
-  ],
+  "geNetClassifier": [],
   "gemini": [],
-  "geneClassifiers": [],
-  "geneRecommender": [],
   "ggkegg": [],
   "ggtreeDendro": [],
-  "ggtreeExtra": [],
   "ggtreeSpace": [],
   "hapFabia": [
     "fabia"
   ],
-  "hmdbQuery": [],
-  "hopach": [],
-  "hyperdraw": [
-    "Rgraphviz"
-  ],
-  "iBMQ": [],
+  "hyperdraw": [],
   "iCOBRA": [],
   "iChip": [],
   "imageTCGA": [],
@@ -545,19 +466,14 @@
   "metaSeq": [
     "NOISeq"
   ],
-  "metabCombiner": [],
   "metabinR": [],
-  "metabomxtr": [],
   "metahdep": [],
   "metapod": [],
   "methylMnM": [
     "edgeR"
   ],
   "mistyR": [],
-  "mixOmics": [],
-  "mnem": [
-    "Rgraphviz"
-  ],
+  "mnem": [],
   "monocle": [
     "biocViews",
     "RBGL"
@@ -585,28 +501,20 @@
     "RCX"
   ],
   "netboost": [],
-  "nethet": [],
-  "netresponse": [
-    "Rgraphviz"
-  ],
+  "netresponse": [],
   "optimalFlow": [
     "flowMeans",
     "flowCore",
     "cytolib"
   ],
-  "paircompviz": [
-    "Rgraphviz"
-  ],
+  "paircompviz": [],
   "pandaR": [],
   "pathifier": [],
   "pathwayPCA": [],
-  "pengls": [],
   "pepXMLTab": [],
   "pfamAnalyzeR": [],
   "pgca": [],
-  "philr": [],
   "phosphonormalizer": [],
-  "plasmut": [],
   "ppcseq": [
     "edgeR"
   ],
@@ -642,14 +550,12 @@
   ],
   "scRecover": [],
   "scShapes": [],
-  "scTHI": [],
   "scde": [
     "edgeR"
   ],
   "seahtrue": [],
   "semisup": [],
   "seq.hotSPOT": [],
-  "sevenbridges": [],
   "shinybiocloader": [],
   "sights": [],
   "sitePath": [],
@@ -664,27 +570,20 @@
   ],
   "synergyfinder": [],
   "systemPipeShiny": [],
-  "tanggle": [],
   "tidyFlowCore": [
     "flowCore",
     "cytolib"
   ],
-  "tidysbml": [],
-  "timeOmics": [
-    "mixOmics"
-  ],
+  "timeOmics": [],
   "trio": [],
-  "ttgsea": [],
   "tweeDEseq": [
     "edgeR",
     "cqn"
   ],
-  "twoddpcr": [],
   "uSORT": [
     "monocle",
     "biocViews",
     "RBGL"
   ],
-  "updateObject": [],
   "variancePartition": []
 }

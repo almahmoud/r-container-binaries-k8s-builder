@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ExploreModelMatrix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'ExploreModelMatrix'
+also installing the dependencies ‘rintrojs’, ‘shinyjs’
+
+trying URL 'https://cloud.r-project.org/src/contrib/rintrojs_0.3.4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/shinyjs_2.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ExploreModelMatrix_1.23.0.tar.gz'
+* installing *source* package ‘rintrojs’ ...
+** this is package ‘rintrojs’ version ‘0.3.4’
+** package ‘rintrojs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rintrojs’ as ‘rintrojs_0.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rintrojs)
+* installing *source* package ‘shinyjs’ ...
+** this is package ‘shinyjs’ version ‘2.1.0’
+** package ‘shinyjs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *source* package ‘ExploreModelMatrix’ ...
+** this is package ‘ExploreModelMatrix’ version ‘1.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExploreModelMatrix’ as ‘ExploreModelMatrix_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExploreModelMatrix)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjYPRVO/downloaded_packages’
+Old packages: 'promises'
+
+real	0m16.275s
+user	0m12.987s
+sys	0m4.175s

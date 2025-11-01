@@ -1,0 +1,149 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''diggit'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'diggit'
+also installing the dependencies ‘FNN’, ‘multicool’, ‘ks’, ‘diggitdata’
+
+trying URL 'https://cloud.r-project.org/src/contrib/FNN_1.1.4.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/multicool_1.0.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ks_1.15.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/diggitdata_1.43.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/diggit_1.43.0.tar.gz'
+* installing *source* package ‘FNN’ ...
+** this is package ‘FNN’ version ‘1.1.4.1’
+** package ‘FNN’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ANN.cpp -o ANN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c KNN_ANN.cpp -o KNN_ANN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c KNN_correlation_distance.cpp -o KNN_correlation_distance.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c KNN_cover_test.cpp -o KNN_cover_test.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c KNN_cover_tree.cpp -o KNN_cover_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c KNN_mutual_information.cpp -o KNN_mutual_information.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bd_fix_rad_search.cpp -o bd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bd_pr_search.cpp -o bd_pr_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bd_search.cpp -o bd_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bd_tree.cpp -o bd_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c brute.cpp -o brute.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init_FNN.c -o init_FNN.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_dump.cpp -o kd_dump.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_fix_rad_search.cpp -o kd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_pr_search.cpp -o kd_pr_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_search.cpp -o kd_search.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_split.cpp -o kd_split.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_tree.cpp -o kd_tree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_util.cpp -o kd_util.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c label_point.cpp -o label_point.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSING_R -DUSING_RPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c perf.cpp -o perf.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FNN.so ANN.o KNN_ANN.o KNN_correlation_distance.o KNN_cover_test.o KNN_cover_tree.o KNN_mutual_information.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o init_FNN.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o label_point.o perf.o -L/usr/local/lib/R/lib -lR
+rm -f *.o core
+installing to /tmp/library/00LOCK-FNN/00new/FNN/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FNN’ as ‘FNN_1.1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FNN)
+* installing *source* package ‘multicool’ ...
+** this is package ‘multicool’ version ‘1.0.1’
+** package ‘multicool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compositions.cpp -o compositions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c multicool.cpp -o multicool.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o multicool.so RcppExports.o compositions.o multicool.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-multicool/00new/multicool/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multicool’ as ‘multicool_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multicool)
+* installing *source* package ‘diggitdata’ ...
+** this is package ‘diggitdata’ version ‘1.43.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diggitdata’ as ‘diggitdata_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diggitdata)
+* installing *source* package ‘ks’ ...
+** this is package ‘ks’ version ‘1.15.1’
+** package ‘ks’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ks.c -o ks.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ks.so ks.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ks/00new/ks/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ks’ as ‘ks_1.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ks)
+* installing *source* package ‘diggit’ ...
+** this is package ‘diggit’ version ‘1.43.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diggit’ as ‘diggit_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diggit)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpx9S3eL/downloaded_packages’
+Old packages: 'promises'
+
+real	1m3.006s
+user	0m53.123s
+sys	0m9.808s

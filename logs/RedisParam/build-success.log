@@ -1,0 +1,93 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RedisParam'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'RedisParam'
+also installing the dependencies ‘storr’, ‘redux’
+
+trying URL 'https://cloud.r-project.org/src/contrib/storr_1.2.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/redux_1.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RedisParam_1.13.0.tar.gz'
+* installing *source* package ‘storr’ ...
+** this is package ‘storr’ version ‘1.2.6’
+** package ‘storr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c storr.c -o storr.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o storr.so storr.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-storr/00new/storr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘storr’ as ‘storr_1.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (storr)
+* installing *source* package ‘redux’ ...
+** this is package ‘redux’ version ‘1.1.5’
+** package ‘redux’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=-I/usr/include/hiredis -D_FILE_OFFSET_BITS=64  -I/usr/include/hiredis
+Using PKG_LIBS=-lhiredis 
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I/usr/include/hiredis -D_FILE_OFFSET_BITS=64  -I/usr/include/hiredis -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connection.c -o connection.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I/usr/include/hiredis -D_FILE_OFFSET_BITS=64  -I/usr/include/hiredis -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c conversions.c -o conversions.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I/usr/include/hiredis -D_FILE_OFFSET_BITS=64  -I/usr/include/hiredis -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registration.c -o registration.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I/usr/include/hiredis -D_FILE_OFFSET_BITS=64  -I/usr/include/hiredis -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subscribe.c -o subscribe.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o redux.so connection.o conversions.o registration.o subscribe.o -lhiredis -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-redux/00new/redux/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘redux’ as ‘redux_1.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (redux)
+* installing *source* package ‘RedisParam’ ...
+** this is package ‘RedisParam’ version ‘1.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RedisParam’ as ‘RedisParam_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RedisParam)
+
+The downloaded source packages are in
+	‘/tmp/RtmpiPXn33/downloaded_packages’
+Old packages: 'promises'
+
+real	0m16.991s
+user	0m12.413s
+sys	0m4.105s
