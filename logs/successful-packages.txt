@@ -1397,3 +1397,5 @@ Rbec
 runibic
 scmap
 scReClassify
+sccomp
+simplifyEnrichment

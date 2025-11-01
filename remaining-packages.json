@@ -2832,7 +2832,6 @@
   "scater": [
     "scuttle"
   ],
-  "sccomp": [],
   "scds": [],
   "schex": [],
   "scider": [
@@ -2919,7 +2918,6 @@
     "cytomapper",
     "SpatialExperiment"
   ],
-  "simplifyEnrichment": [],
   "singleCellTK": [
     "batchelor",
     "ensembldb",
