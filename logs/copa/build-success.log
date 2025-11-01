@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''copa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'copa'
+also installing the dependency ‘colonCA’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/colonCA_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/copa_1.79.0.tar.gz'
+* installing *source* package ‘colonCA’ ...
+** this is package ‘colonCA’ version ‘1.53.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘colonCA’ as ‘colonCA_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colonCA)
+* installing *source* package ‘copa’ ...
+** this is package ‘copa’ version ‘1.79.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c copa.c -o copa.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o copa.so copa.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-copa/00new/copa/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘copa’ as ‘copa_1.79.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (copa)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaET0gc/downloaded_packages’
+Old packages: 'promises'
+
+real	0m10.300s
+user	0m6.711s
+sys	0m2.499s

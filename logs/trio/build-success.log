@@ -1,0 +1,257 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''trio'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'trio'
+Warning: dependency ‘VariantAnnotation’ is not available
+also installing the dependencies ‘TH.data’, ‘polspline’, ‘multcomp’, ‘arsenal’, ‘rms’, ‘LogicReg’, ‘haplo.stats’, ‘mcbiopi’, ‘logicFS’
+
+trying URL 'https://cloud.r-project.org/src/contrib/TH.data_1.1-4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/polspline_1.1.25.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/multcomp_1.4-29.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/arsenal_3.6.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/rms_8.1-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/LogicReg_1.6.6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/haplo.stats_1.9.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mcbiopi_1.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/logicFS_2.31.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/trio_3.49.0.tar.gz'
+* installing *source* package ‘TH.data’ ...
+** this is package ‘TH.data’ version ‘1.1-4’
+** package ‘TH.data’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TH.data’ as ‘TH.data_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TH.data)
+* installing *source* package ‘polspline’ ...
+** this is package ‘polspline’ version ‘1.1.25’
+** package ‘polspline’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c allpack.f -o allpack.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hareall.c -o hareall.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c heftall.c -o heftall.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lsdall.c -o lsdall.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lspecall.c -o lspecall.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nlsd.c -o nlsd.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polyall.c -o polyall.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polymars.c -o polymars.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o polspline.so allpack.o hareall.o heftall.o lsdall.o lspecall.o nlsd.o polyall.o polymars.o registerDynamicSymbol.o -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-polspline/00new/polspline/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polspline’ as ‘polspline_1.1.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polspline)
+* installing *source* package ‘arsenal’ ...
+** this is package ‘arsenal’ version ‘3.6.3’
+** package ‘arsenal’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘arsenal’ as ‘arsenal_3.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arsenal)
+* installing *source* package ‘LogicReg’ ...
+** this is package ‘LogicReg’ version ‘1.6.6’
+** package ‘LogicReg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c Myownscoring.f -o Myownscoring.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clogic.c -o clogic.o
+gfortran  -fpic  -g -O2  -c external.f -o external.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+gfortran  -fpic  -g -O2  -c sextra.f -o sextra.o
+gfortran  -fpic  -g -O2  -c slogic.f -o slogic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c swrite.c -o swrite.o
+gfortran  -fpic  -g -O2  -c trioLR.f -o trioLR.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o LogicReg.so Myownscoring.o clogic.o external.o registerDynamicSymbol.o sextra.o slogic.o swrite.o trioLR.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-LogicReg/00new/LogicReg/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘LogicReg’ as ‘LogicReg_1.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LogicReg)
+* installing *source* package ‘mcbiopi’ ...
+** this is package ‘mcbiopi’ version ‘1.1.6’
+** package ‘mcbiopi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mcbiopi’ as ‘mcbiopi_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mcbiopi)
+* installing *source* package ‘multcomp’ ...
+** this is package ‘multcomp’ version ‘1.4-29’
+** package ‘multcomp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multcomp’ as ‘multcomp_1.4-29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcomp)
+* installing *source* package ‘logicFS’ ...
+** this is package ‘logicFS’ version ‘2.31.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘logicFS’ as ‘logicFS_2.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logicFS)
+* installing *source* package ‘trio’ ...
+** this is package ‘trio’ version ‘3.49.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘trio’ as ‘trio_3.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (trio)
+* installing *source* package ‘rms’ ...
+** this is package ‘rms’ version ‘8.1-0’
+** package ‘rms’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c  lrmll.f90 -o lrmll.o
+gfortran  -fpic  -g -O2  -c mlmats.f -o mlmats.o
+gfortran  -fpic  -g -O2  -c  ormll.f90 -o ormll.o
+gfortran  -fpic  -g -O2  -c  robcovf.f90 -o robcovf.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rms.so init.o lrmll.o mlmats.o ormll.o robcovf.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rms/00new/rms/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rms’ as ‘rms_8.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rms)
+* installing *source* package ‘haplo.stats’ ...
+** this is package ‘haplo.stats’ version ‘1.9.7’
+** package ‘haplo.stats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c groupsum.c -o groupsum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c haplo.stats_init.c -o haplo.stats_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c haplo_em_pin.c -o haplo_em_pin.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c louis_info.c -o louis_info.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c seqhap.c -o seqhap.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o haplo.stats.so groupsum.o haplo.stats_init.o haplo_em_pin.o louis_info.o seqhap.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-haplo.stats/00new/haplo.stats/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘haplo.stats’ as ‘haplo.stats_1.9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (haplo.stats)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFT4oXB/downloaded_packages’
+Old packages: 'promises'
+
+real	1m44.592s
+user	1m33.942s
+sys	0m14.352s

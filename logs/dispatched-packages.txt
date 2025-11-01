@@ -588,3 +588,17 @@ mnem
 netresponse
 paircompviz
 timeOmics
+AWFisher
+MetaDICT
+MetaboCoreUtils
+PROPER
+RNAseqCovarImpute
+ROSeq
+Rvisdiff
+compcodeR
+erccdashboard
+flowCore
+metaSeq
+methylMnM
+ppcseq
+scde

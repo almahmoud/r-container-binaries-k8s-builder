@@ -85,10 +85,12 @@ synlet
 tanggle
 ternarynet
 tidysbml
+timeOmics
 timecourse
 timescape
 tomoseqr
 treeio
+trio
 tripr
 ttgsea
 twilight
