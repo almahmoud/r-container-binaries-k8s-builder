@@ -968,3 +968,4 @@ ggcyto
 memes
 motifTestR
 openCyto
+clusterSeq

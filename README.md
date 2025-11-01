@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 895 (39%)
+- **Successfully Built:** 897 (39%)
 - **Failed:** 1 (0%)
-- **In Progress:** 68
-- **Not Started:** 1280
+- **In Progress:** 72
+- **Not Started:** 1274
 
-**Progress:** 39%
+**Progress:** 40%
 ```
-███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (895)
+## Successfully Built Packages (897)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 845 more ...*
+*... and 847 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (68)
+## In Progress (72)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
@@ -99,6 +99,7 @@
 - ⏳ `GeomxTools`
 - ⏳ `HiCBricks`
 - ⏳ `MOFA2`
+- ⏳ `PeacoQC`
 - ⏳ `RCM`
 - ⏳ `RPA`
 - ⏳ `Rsamtools`
@@ -110,7 +111,6 @@
 - ⏳ `alabaster.matrix`
 - ⏳ `alabaster.ranges`
 - ⏳ `bamsignals`
-- ⏳ `baySeq`
 - ⏳ `beachmat.hdf5`
 - ⏳ `chihaya`
 - ⏳ `chromDraw`
@@ -118,25 +118,25 @@
 - ⏳ `crisprBase`
 - ⏳ `epialleleR`
 - ⏳ `fastseg`
+- ⏳ `flowStats`
 - ⏳ `geneRxCluster`
 - ⏳ `genomeIntervals`
+- ⏳ `ggcyto`
 - ⏳ `gtrellis`
 - ⏳ `heatmaps`
 - ⏳ `idr2d`
 - ⏳ `igvShiny`
 - ⏳ `loci2path`
 - ⏳ `megadepth`
+- ⏳ `memes`
 - ⏳ `methimpute`
 - ⏳ `microbiome`
 - ⏳ `microbiomeDASim`
-- ⏳ `ncRNAtools`
-- ⏳ `oncoscanR`
-- ⏳ `openPrimeR`
-- ⏳ `packFinder`
+- ⏳ `motifTestR`
 
-... and 18 more ...
+... and 22 more ...
 
-## Not Yet Started (1280)
+## Not Yet Started (1274)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 
-... and 1230 more ...
+... and 1224 more ...
 
 ---
-*Last updated: 2025-11-01 00:02:38 UTC*
+*Last updated: 2025-11-01 00:03:25 UTC*
 *Packages with verified BBS status: 107*

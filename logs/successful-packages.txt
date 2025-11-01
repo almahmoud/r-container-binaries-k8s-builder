@@ -893,3 +893,5 @@ TFARM
 EnrichedHeatmap
 flowWorkspace
 universalmotif
+baySeq
+sketchR

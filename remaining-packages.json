@@ -4899,7 +4899,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "baySeq": [],
   "beachmat.hdf5": [],
   "bedbaser": [
     "rtracklayer",
@@ -5390,9 +5389,7 @@
     "enrichplot",
     "GOSemSim"
   ],
-  "clusterSeq": [
-    "baySeq"
-  ],
+  "clusterSeq": [],
   "clustifyr": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -8318,8 +8315,7 @@
   ],
   "rhinotypeR": [],
   "riboSeqR": [
-    "Rsamtools",
-    "baySeq"
+    "Rsamtools"
   ],
   "ribosomeProfilingQC": [
     "AnnotationDbi",
@@ -8754,7 +8750,6 @@
     "SummarizedExperiment"
   ],
   "segmentSeq": [
-    "baySeq",
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
@@ -8971,7 +8966,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "sketchR": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
