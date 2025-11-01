@@ -131,7 +131,6 @@
   ],
   "Rqc": [],
   "SOMNiBUS": [],
-  "SVP": [],
   "SingleMoleculeFootprinting": [
     "QuasR"
   ],
@@ -187,7 +186,6 @@
     "MSnbase"
   ],
   "compEpiTools": [],
-  "concordexR": [],
   "consensusOV": [],
   "cosmiq": [
     "xcms",
@@ -329,7 +327,6 @@
   "simpleSeg": [],
   "singleCellTK": [],
   "skewr": [],
-  "smoppix": [],
   "spicyR": [
     "simpleSeg"
   ],

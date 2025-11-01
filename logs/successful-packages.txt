@@ -2078,3 +2078,6 @@ ggspavis
 glmSparseNet
 GSVA
 SpatialFeatureExperiment
+concordexR
+smoppix
+SVP

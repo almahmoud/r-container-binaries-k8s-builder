@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2080 (92%)
+- **Successfully Built:** 2083 (92%)
 - **Failed:** 2 (0%)
-- **In Progress:** 76
-- **Not Started:** 86
+- **In Progress:** 82
+- **Not Started:** 77
 
 **Progress:** 92%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2080)
+## Successfully Built Packages (2083)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2030 more ...*
+*... and 2033 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (76)
+## In Progress (82)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `CAGEr`
@@ -91,6 +91,7 @@
 - ⏳ `CNViz`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DMRcate`
+- ⏳ `EGSEA`
 - ⏳ `GSReg`
 - ⏳ `GUIDEseq`
 - ⏳ `MAGAR`
@@ -108,20 +109,22 @@
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rqc`
 - ⏳ `SOMNiBUS`
-- ⏳ `SVP`
 - ⏳ `SpaceTrooper`
 - ⏳ `SpotSweeper`
 - ⏳ `Statial`
+- ⏳ `TBSignatureProfiler`
 - ⏳ `TFutils`
 - ⏳ `Ularcirc`
 - ⏳ `VCFArray`
+- ⏳ `Voyager`
 - ⏳ `XeniumIO`
 - ⏳ `alabaster`
+- ⏳ `alabaster.sfe`
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
 - ⏳ `biscuiteer`
 - ⏳ `compEpiTools`
-- ⏳ `concordexR`
+- ⏳ `consensusOV`
 - ⏳ `crisprViz`
 - ⏳ `cytoviewer`
 - ⏳ `derfinder`
@@ -131,13 +134,10 @@
 - ⏳ `geomeTriD`
 - ⏳ `ggbio`
 - ⏳ `iSEEu`
-- ⏳ `imcRtools`
-- ⏳ `jazzPanda`
-- ⏳ `linkSet`
 
-... and 26 more ...
+... and 32 more ...
 
-## Not Yet Started (86)
+## Not Yet Started (77)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -148,7 +148,6 @@
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 - ⏸️ `Damsel`
-- ⏸️ `EGSEA`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
 - ⏸️ `GNOSIS`
@@ -171,11 +170,8 @@
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
-- ⏸️ `TBSignatureProfiler`
-- ⏸️ `Voyager`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
-- ⏸️ `alabaster.sfe`
 - ⏸️ `bandle`
 - ⏸️ `bioCancer`
 - ⏸️ `cBioPortalData`
@@ -183,14 +179,18 @@
 - ⏸️ `canceR`
 - ⏸️ `cbaf`
 - ⏸️ `cliqueMS`
-- ⏸️ `consensusOV`
 - ⏸️ `cosmiq`
 - ⏸️ `crisprShiny`
 - ⏸️ `crisprVerse`
 - ⏸️ `derfinderPlot`
+- ⏸️ `epivizr`
+- ⏸️ `epivizrChart`
+- ⏸️ `epivizrStandalone`
+- ⏸️ `flagme`
+- ⏸️ `iSEEfier`
 
-... and 36 more ...
+... and 27 more ...
 
 ---
-*Last updated: 2025-11-01 07:17:13 UTC*
+*Last updated: 2025-11-01 07:18:14 UTC*
 *Packages with verified BBS status: 148*
