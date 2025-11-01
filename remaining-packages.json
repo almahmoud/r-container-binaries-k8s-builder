@@ -1052,7 +1052,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "ccImpute": [],
   "celaref": [
     "MAST"
   ],
@@ -1128,7 +1127,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "cpvSNP": [],
   "crisprBowtie": [],
   "crisprBwa": [],
   "crisprDesign": [
@@ -1164,7 +1162,6 @@
     "biovizBase"
   ],
   "crumblr": [],
-  "cydar": [],
   "cytomapper": [
     "SpatialExperiment"
   ],

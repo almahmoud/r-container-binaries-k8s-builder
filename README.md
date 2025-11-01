@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1594 (71%)
+- **Successfully Built:** 1597 (71%)
 - **Failed:** 2 (0%)
-- **In Progress:** 216
-- **Not Started:** 432
+- **In Progress:** 223
+- **Not Started:** 422
 
 **Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1594)
+## Successfully Built Packages (1597)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1544 more ...*
+*... and 1547 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (216)
+## In Progress (223)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ASURAT`
@@ -91,6 +91,7 @@
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCS`
 - ⏳ `BERT`
+- ⏳ `BUSpaRse`
 - ⏳ `BUSseq`
 - ⏳ `BatchQC`
 - ⏳ `BatchSVG`
@@ -110,6 +111,7 @@
 - ⏳ `ChIPseeker`
 - ⏳ `ChromSCape`
 - ⏳ `CiteFuse`
+- ⏳ `CleanUpRNAseq`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `Cogito`
@@ -125,19 +127,17 @@
 - ⏳ `EnrichmentBrowser`
 - ⏳ `GDCRNATools`
 - ⏳ `GOstats`
+- ⏳ `GRaNIE`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `HarmonizR`
 - ⏳ `ITALICS`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
-- ⏳ `LinkHD`
-- ⏳ `LoomExperiment`
-- ⏳ `MACSr`
 
-... and 166 more ...
+... and 173 more ...
 
-## Not Yet Started (432)
+## Not Yet Started (422)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -149,7 +149,6 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `BulkSignalR`
@@ -171,7 +170,6 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
-- ⏸️ `CleanUpRNAseq`
 - ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
@@ -188,9 +186,11 @@
 - ⏸️ `DominoEffect`
 - ⏸️ `DrugVsDisease`
 - ⏸️ `DspikeIn`
+- ⏸️ `DuplexDiscovereR`
+- ⏸️ `EGSEA`
 
-... and 382 more ...
+... and 372 more ...
 
 ---
-*Last updated: 2025-11-01 04:07:28 UTC*
+*Last updated: 2025-11-01 04:09:04 UTC*
 *Packages with verified BBS status: 137*

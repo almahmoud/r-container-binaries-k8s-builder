@@ -1592,3 +1592,6 @@ EpiTxDb
 M3Drop
 MEB
 rGREAT
+ccImpute
+cpvSNP
+cydar
