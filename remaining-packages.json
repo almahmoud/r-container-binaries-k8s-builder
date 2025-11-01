@@ -1272,7 +1272,6 @@
     "rtracklayer",
     "biomaRt"
   ],
-  "DelayedTensor": [],
   "DiffBind": [
     "SummarizedExperiment",
     "GenomicAlignments",
@@ -1830,7 +1829,6 @@
     "Rsamtools"
   ],
   "GenomicDataCommons": [],
-  "GenomicDistributions": [],
   "GenomicFeatures": [
     "AnnotationDbi",
     "rtracklayer",
@@ -1908,7 +1906,6 @@
   "GenomicSuperSignature": [
     "SummarizedExperiment"
   ],
-  "GeoDiff": [],
   "GeoTcgaData": [
     "SummarizedExperiment"
   ],
@@ -4469,7 +4466,6 @@
   "YAPSA": [
     "SomaticSignatures",
     "VariantAnnotation",
-    "gtrellis",
     "BSgenome",
     "ggbio",
     "SummarizedExperiment",
@@ -4552,7 +4548,6 @@
     "scuttle"
   ],
   "alabaster": [
-    "alabaster.matrix",
     "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
@@ -4576,19 +4571,15 @@
   "alabaster.mae": [
     "MultiAssayExperiment",
     "alabaster.se",
-    "SummarizedExperiment",
-    "alabaster.matrix"
+    "SummarizedExperiment"
   ],
-  "alabaster.matrix": [],
   "alabaster.sce": [
     "SingleCellExperiment",
     "alabaster.se",
-    "SummarizedExperiment",
-    "alabaster.matrix"
+    "SummarizedExperiment"
   ],
   "alabaster.se": [
-    "SummarizedExperiment",
-    "alabaster.matrix"
+    "SummarizedExperiment"
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
@@ -4599,7 +4590,6 @@
     "alabaster.se",
     "SpatialExperiment",
     "DropletUtils",
-    "alabaster.matrix",
     "scuttle"
   ],
   "alabaster.spatial": [
@@ -4607,15 +4597,13 @@
     "alabaster.sce",
     "SingleCellExperiment",
     "alabaster.se",
-    "SummarizedExperiment",
-    "alabaster.matrix"
+    "SummarizedExperiment"
   ],
   "alabaster.vcf": [
     "VariantAnnotation",
     "alabaster.se",
     "Rsamtools",
     "SummarizedExperiment",
-    "alabaster.matrix",
     "AnnotationDbi",
     "rtracklayer",
     "BSgenome",
@@ -5281,7 +5269,6 @@
   "cn.mops": [
     "Rsamtools"
   ],
-  "cnvGSA": [],
   "coMethDMR": [
     "AnnotationHub",
     "bumphunter",
@@ -6363,7 +6350,6 @@
     "biomaRt",
     "AnnotationDbi"
   ],
-  "gtrellis": [],
   "gwascat": [
     "GenomicFeatures",
     "AnnotationDbi",
@@ -6551,7 +6537,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "idr2d": [],
   "igvR": [
     "GenomicAlignments",
     "rtracklayer",
@@ -7406,7 +7391,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "ncRNAtools": [],
   "nearBynding": [
     "plyranges",
     "Rsamtools",
@@ -8735,7 +8719,6 @@
     "scuttle",
     "zellkonverter",
     "AnnotationDbi",
-    "alabaster.matrix",
     "alabaster.se",
     "GenomicFeatures",
     "rtracklayer",

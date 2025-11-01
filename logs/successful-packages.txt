@@ -923,3 +923,11 @@ scifer
 SIAMCAT
 TnT
 triplex
+alabaster.matrix
+cnvGSA
+DelayedTensor
+GenomicDistributions
+GeoDiff
+gtrellis
+idr2d
+ncRNAtools
