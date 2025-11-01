@@ -501,7 +501,6 @@
   "HoloFoodR": [
     "TreeSummarizedExperiment"
   ],
-  "INSPEcT": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -513,7 +512,6 @@
   "ITALICS": [
     "oligo"
   ],
-  "IVAS": [],
   "Ibex": [
     "immApex",
     "scRepertoire"
@@ -521,7 +519,6 @@
   "InPAS": [
     "cleanUpdTSeq"
   ],
-  "InTAD": [],
   "IntEREst": [
     "GenomicFiles",
     "txdbmaker",
@@ -1091,7 +1088,6 @@
     "GenomicFiles"
   ],
   "VDJdive": [],
-  "VaSP": [],
   "VanillaICE": [],
   "VarCon": [],
   "VariantAnnotation": [],
@@ -2482,7 +2478,6 @@
     "bumphunter"
   ],
   "wavClusteR": [],
-  "xCell2": [],
   "xcms": [
     "MSnbase",
     "MsExperiment",

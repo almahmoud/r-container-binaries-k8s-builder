@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1522 (67%)
+- **Successfully Built:** 1527 (68%)
 - **Failed:** 2 (0%)
-- **In Progress:** 216
+- **In Progress:** 211
 - **Not Started:** 504
 
-**Progress:** 67%
+**Progress:** 68%
 ```
-█████████████████████████████████░░░░░░░░░░░░░░░░░
+██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1522)
+## Successfully Built Packages (1527)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1472 more ...*
+*... and 1477 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [twoddpcr](https://bioconductor.org/packages/3.22/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.22/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.22/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/unifiedWMWqPCR) |
@@ -70,6 +69,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
 | [wiggleplotr](https://bioconductor.org/packages/3.22/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.22/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wpm) |
+| [xCell2](https://bioconductor.org/packages/3.22/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xCell2) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.22/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (216)
+## In Progress (211)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -123,9 +123,6 @@
 - ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `HarmonizR`
-- ⏳ `INSPEcT`
-- ⏳ `IVAS`
-- ⏳ `InTAD`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
@@ -134,8 +131,11 @@
 - ⏳ `MAST`
 - ⏳ `MIRit`
 - ⏳ `MLInterfaces`
+- ⏳ `MOMA`
+- ⏳ `MetaNeighbor`
+- ⏳ `MetaPhOR`
 
-... and 166 more ...
+... and 161 more ...
 
 ## Not Yet Started (504)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 454 more ...
 
 ---
-*Last updated: 2025-11-01 03:41:06 UTC*
-*Packages with verified BBS status: 130*
+*Last updated: 2025-11-01 03:42:26 UTC*
+*Packages with verified BBS status: 131*

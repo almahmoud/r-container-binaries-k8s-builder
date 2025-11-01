@@ -1520,3 +1520,8 @@ debrowser
 GOpro
 pairedGSEA
 RFLOMICS
+INSPEcT
+InTAD
+IVAS
+VaSP
+xCell2

@@ -123,6 +123,7 @@ weitrix
 widgetTools
 wiggleplotr
 wpm
+xCell2
 xmapbridge
 yamss
 zFPKM
