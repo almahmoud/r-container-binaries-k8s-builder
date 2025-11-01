@@ -34,7 +34,7 @@ echo "Remaining (blocked): ${REMAINING_PKGS}"
 
 # Check if cycle is stuck: no in-progress, no ready, but has remaining packages
 if [[ "${IN_PROGRESS}" -eq 0 ]] && [[ "${READY}" -eq 0 ]] && [[ "${REMAINING_PKGS}" -gt 0 ]]; then
-  echo "Cycle appears stuck - all remaining packages are blocked by failures"
+  echo "Cycle has no active work - checking remaining packages"
   
   # Verify remaining packages depend on failed packages
   python3 << 'PYEOF'
@@ -54,8 +54,12 @@ with open('logs/failed-packages.txt') as f:
 remaining_not_failed = [pkg for pkg in remaining if pkg not in failed]
 
 if not remaining_not_failed:
-    print("All remaining packages have already failed - no blocked packages")
-    sys.exit(1)
+    print("CONFIRMED: Cycle is complete - all remaining packages have already failed")
+    print("")
+    print(f"Successful builds: {len(open('logs/successful-packages.txt').readlines())}")
+    print(f"Failed builds: {len(failed)}")
+    print(f"Blocked packages: 0")
+    sys.exit(0)
 
 blocked_by_failures = []
 for pkg in remaining_not_failed:
@@ -67,7 +71,7 @@ for pkg in remaining_not_failed:
             blocked_by_failures.append(f"{pkg} (blocked by: {', '.join(failed_deps[:3])})")
 
 if len(blocked_by_failures) == len(remaining_not_failed):
-    print(f"CONFIRMED: All {len(remaining_not_failed)} remaining packages are blocked by failed dependencies")
+    print(f"CONFIRMED: Cycle is complete - all {len(remaining_not_failed)} remaining packages are blocked by failed dependencies")
     print(f"")
     print(f"Successful builds: {len(open('logs/successful-packages.txt').readlines())}")
     print(f"Failed builds: {len(failed)}")
