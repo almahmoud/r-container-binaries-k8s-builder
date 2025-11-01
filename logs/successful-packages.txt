@@ -1390,3 +1390,10 @@ PhIPData
 ReactomePA
 seqsetvis
 sevenC
+CyTOFpower
+esetVis
+mariner
+Rbec
+runibic
+scmap
+scReClassify

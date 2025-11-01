@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1392 (62%)
+- **Successfully Built:** 1399 (62%)
 - **Failed:** 2 (0%)
-- **In Progress:** 232
-- **Not Started:** 618
+- **In Progress:** 236
+- **Not Started:** 607
 
 **Progress:** 62%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1392)
+## Successfully Built Packages (1399)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1342 more ...*
+*... and 1349 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,14 +83,16 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (232)
+## In Progress (236)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
+- ⏳ `BLMA`
 - ⏳ `BSgenome`
 - ⏳ `BUSseq`
+- ⏳ `BiSeq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CBNplot`
 - ⏳ `CDI`
@@ -115,7 +117,7 @@
 - ⏳ `Cogito`
 - ⏳ `CoreGx`
 - ⏳ `CuratedAtlasQueryR`
-- ⏳ `CyTOFpower`
+- ⏳ `DEXSeq`
 - ⏳ `DNAfusion`
 - ⏳ `DNEA`
 - ⏳ `DeeDeeExperiment`
@@ -132,12 +134,10 @@
 - ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Glimma`
-- ⏳ `GloScope`
-- ⏳ `Guitar`
 
-... and 182 more ...
+... and 186 more ...
 
-## Not Yet Started (618)
+## Not Yet Started (607)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
@@ -154,7 +154,6 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
-- ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
@@ -166,7 +165,6 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
-- ⏸️ `BiSeq`
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
@@ -188,9 +186,11 @@
 - ⏸️ `CellMixS`
 - ⏸️ `CelliD`
 - ⏸️ `CexoR`
+- ⏸️ `ChAMP`
+- ⏸️ `ChIPComp`
 
-... and 568 more ...
+... and 557 more ...
 
 ---
-*Last updated: 2025-11-01 02:59:37 UTC*
+*Last updated: 2025-11-01 03:01:21 UTC*
 *Packages with verified BBS status: 127*
