@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2224 (99%)
+- **Successfully Built:** 2225 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 14
+- **In Progress:** 13
 - **Not Started:** 4
 
 **Progress:** 99%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2224)
+## Successfully Built Packages (2225)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 
-*... and 2174 more ...*
+*... and 2175 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (14)
+## In Progress (13)
 - ⏳ `IPO`
 - ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
@@ -92,7 +92,6 @@
 - ⏳ `ReportingTools`
 - ⏳ `RnaSeqSampleSize`
 - ⏳ `YAPSA`
-- ⏳ `epivizr`
 - ⏳ `epivizrChart`
 - ⏳ `flagme`
 - ⏳ `metaMS`
@@ -106,5 +105,5 @@
 - ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 08:59:52 UTC*
+*Last updated: 2025-11-01 09:00:34 UTC*
 *Packages with verified BBS status: 152*

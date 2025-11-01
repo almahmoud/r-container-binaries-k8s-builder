@@ -2238,3 +2238,5 @@ YAPSA
 flagme
 metaMS
 psichomics
+epivizrStandalone
+scTreeViz

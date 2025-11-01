@@ -15,17 +15,12 @@
   "affycoretools": [
     "ReportingTools"
   ],
-  "epivizr": [],
   "epivizrChart": [],
-  "epivizrStandalone": [
-    "epivizr"
-  ],
+  "epivizrStandalone": [],
   "flagme": [],
   "metaMS": [],
   "methylclock": [],
   "psichomics": [],
   "sangeranalyseR": [],
-  "scTreeViz": [
-    "epivizr"
-  ]
+  "scTreeViz": []
 }
