@@ -1716,3 +1716,15 @@ crlmm
 mBPCR
 oligo
 iCNV
+DiffBind
+DropletUtils
+SanityR
+SplineDV
+batchelor
+blacksheepr
+epigraHMM
+pairedGSEA
+scater
+scran
+simPIC
+splatter
