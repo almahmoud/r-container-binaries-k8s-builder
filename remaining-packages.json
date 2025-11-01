@@ -45,7 +45,6 @@
   "BBCAnalyzer": [
     "VariantAnnotation"
   ],
-  "BERT": [],
   "BOBaFIT": [
     "ggbio",
     "biovizBase",
@@ -203,9 +202,7 @@
     "VariantAnnotation"
   ],
   "DNAfusion": [],
-  "DOtools": [
-    "scDblFinder"
-  ],
+  "DOtools": [],
   "DSS": [
     "bsseq"
   ],
@@ -990,10 +987,7 @@
   "celda": [],
   "cfDNAPro": [],
   "cfTools": [],
-  "chevreulPlot": [
-    "chevreulProcess"
-  ],
-  "chevreulProcess": [],
+  "chevreulPlot": [],
   "chimeraviz": [
     "Gviz",
     "biovizBase",
@@ -1041,7 +1035,6 @@
     "slingshot",
     "TrajectoryUtils"
   ],
-  "consensusDE": [],
   "consensusOV": [
     "GSVA",
     "SpatialExperiment"
@@ -1645,7 +1638,6 @@
   "scClassify": [
     "Cepo"
   ],
-  "scDblFinder": [],
   "scDotPlot": [],
   "scRNAseqApp": [
     "slingshot",
@@ -1718,7 +1710,6 @@
     "GSVA",
     "MAST",
     "celda",
-    "scDblFinder",
     "TSCAN",
     "TrajectoryUtils",
     "SpatialExperiment"

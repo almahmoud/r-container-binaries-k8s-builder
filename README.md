@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1655 (73%)
+- **Successfully Built:** 1659 (73%)
 - **Failed:** 2 (0%)
 - **In Progress:** 181
-- **Not Started:** 406
+- **Not Started:** 402
 
-**Progress:** 73%
+**Progress:** 74%
 ```
-████████████████████████████████████░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1655)
+## Successfully Built Packages (1659)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1605 more ...*
+*... and 1609 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,6 @@
 
 ## In Progress (181)
 - ⏳ `ArrayExpress`
-- ⏳ `BERT`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
@@ -134,10 +133,11 @@
 - ⏳ `NewWave`
 - ⏳ `NoRCE`
 - ⏳ `ORFhunteR`
+- ⏳ `Organism.dplyr`
 
 ... and 131 more ...
 
-## Not Yet Started (406)
+## Not Yet Started (402)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
 
-... and 356 more ...
+... and 352 more ...
 
 ---
-*Last updated: 2025-11-01 04:32:10 UTC*
+*Last updated: 2025-11-01 04:33:27 UTC*
 *Packages with verified BBS status: 143*

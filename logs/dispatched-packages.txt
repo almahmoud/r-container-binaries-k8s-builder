@@ -1840,3 +1840,5 @@ PDATK
 PharmacoGx
 RadioGx
 ToxicoGx
+DOtools
+chevreulPlot
