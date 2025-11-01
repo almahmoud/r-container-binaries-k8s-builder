@@ -2,7 +2,6 @@
   "AHMassBank": [
     "AnnotationHubData"
   ],
-  "ATACseqQC": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -85,9 +84,7 @@
     "MSnbase"
   ],
   "MsQuality": [],
-  "NADfinder": [
-    "ATACseqQC"
-  ],
+  "NADfinder": [],
   "OMICsPCA": [],
   "PRONE": [
     "MSnbase"

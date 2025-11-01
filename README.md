@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2086 (92%)
+- **Successfully Built:** 2087 (93%)
 - **Failed:** 2 (0%)
 - **In Progress:** 79
-- **Not Started:** 77
+- **Not Started:** 76
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2086)
+## Successfully Built Packages (2087)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2036 more ...*
+*... and 2037 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,6 @@
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
 ## In Progress (79)
-- ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
@@ -121,6 +120,7 @@
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
 - ⏳ `biscuiteer`
+- ⏳ `cBioPortalData`
 - ⏳ `compEpiTools`
 - ⏳ `consensusOV`
 - ⏳ `crisprViz`
@@ -137,7 +137,7 @@
 
 ... and 29 more ...
 
-## Not Yet Started (77)
+## Not Yet Started (76)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -174,7 +174,6 @@
 - ⏸️ `affycoretools`
 - ⏸️ `bandle`
 - ⏸️ `bioCancer`
-- ⏸️ `cBioPortalData`
 - ⏸️ `cageminer`
 - ⏸️ `canceR`
 - ⏸️ `cbaf`
@@ -188,9 +187,10 @@
 - ⏸️ `epivizrStandalone`
 - ⏸️ `flagme`
 - ⏸️ `iSEEfier`
+- ⏸️ `intansv`
 
-... and 27 more ...
+... and 26 more ...
 
 ---
-*Last updated: 2025-11-01 07:19:26 UTC*
+*Last updated: 2025-11-01 07:20:39 UTC*
 *Packages with verified BBS status: 148*
