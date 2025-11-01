@@ -1752,3 +1752,5 @@ BadRegionFinder
 BBCAnalyzer
 DominoEffect
 orthos
+DAMEfinder
+yarn
