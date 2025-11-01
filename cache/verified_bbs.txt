@@ -95,6 +95,7 @@ twoddpcr
 tximport
 uSORT
 unifiedWMWqPCR
+universalmotif
 updateObject
 variancePartition
 vbmp

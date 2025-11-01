@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 893 (39%)
+- **Successfully Built:** 895 (39%)
 - **Failed:** 1 (0%)
-- **In Progress:** 70
+- **In Progress:** 68
 - **Not Started:** 1280
 
 **Progress:** 39%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (893)
+## Successfully Built Packages (895)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 843 more ...*
+*... and 845 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.22/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
@@ -66,6 +65,7 @@
 | [tximport](https://bioconductor.org/packages/3.22/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.22/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/unifiedWMWqPCR) |
+| [universalmotif](https://bioconductor.org/packages/3.22/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.22/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (70)
+## In Progress (68)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
@@ -118,7 +118,6 @@
 - ⏳ `crisprBase`
 - ⏳ `epialleleR`
 - ⏳ `fastseg`
-- ⏳ `flowWorkspace`
 - ⏳ `geneRxCluster`
 - ⏳ `genomeIntervals`
 - ⏳ `gtrellis`
@@ -133,8 +132,9 @@
 - ⏳ `ncRNAtools`
 - ⏳ `oncoscanR`
 - ⏳ `openPrimeR`
+- ⏳ `packFinder`
 
-... and 20 more ...
+... and 18 more ...
 
 ## Not Yet Started (1280)
 - ⏸️ `ACE`
@@ -191,5 +191,5 @@
 ... and 1230 more ...
 
 ---
-*Last updated: 2025-11-01 00:02:00 UTC*
-*Packages with verified BBS status: 106*
+*Last updated: 2025-11-01 00:02:38 UTC*
+*Packages with verified BBS status: 107*

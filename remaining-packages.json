@@ -102,7 +102,6 @@
     "biomaRt",
     "InteractionSet",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationHub",
     "TFBSTools",
@@ -857,7 +856,6 @@
     "InteractionSet",
     "regioneR",
     "rtracklayer",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter",
     "BSgenome"
@@ -1027,24 +1025,20 @@
   "CytoMDS": [
     "CytoPipeline",
     "ggcyto",
-    "PeacoQC",
-    "flowWorkspace"
+    "PeacoQC"
   ],
   "CytoML": [
-    "flowWorkspace",
     "openCyto",
     "ggcyto"
   ],
   "CytoPipeline": [
     "ggcyto",
-    "PeacoQC",
-    "flowWorkspace"
+    "PeacoQC"
   ],
   "CytoPipelineGUI": [
     "CytoPipeline",
     "ggcyto",
-    "PeacoQC",
-    "flowWorkspace"
+    "PeacoQC"
   ],
   "DAMEfinder": [
     "SummarizedExperiment",
@@ -1092,7 +1086,6 @@
     "biomaRt",
     "InteractionSet",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter",
     "BSgenome"
@@ -1841,7 +1834,6 @@
     "biomaRt",
     "InteractionSet",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter"
   ],
@@ -2783,7 +2775,6 @@
     "SummarizedExperiment"
   ],
   "MotifPeeker": [
-    "universalmotif",
     "rtracklayer",
     "SummarizedExperiment",
     "Rsamtools",
@@ -2880,7 +2871,6 @@
     "txdbmaker",
     "biomaRt",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationHub",
     "biovizBase",
@@ -3148,9 +3138,7 @@
     "DESeq2",
     "SummarizedExperiment"
   ],
-  "PeacoQC": [
-    "flowWorkspace"
-  ],
+  "PeacoQC": [],
   "PepSetTest": [
     "SummarizedExperiment"
   ],
@@ -3309,7 +3297,6 @@
     "biomaRt",
     "InteractionSet",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter"
   ],
@@ -5336,7 +5323,6 @@
   "circRNAprofiler": [
     "rtracklayer",
     "DESeq2",
-    "universalmotif",
     "AnnotationHub",
     "gwascat",
     "BSgenome",
@@ -6259,17 +6245,12 @@
     "AnnotationFilter"
   ],
   "flowGate": [
-    "flowWorkspace",
     "ggcyto"
   ],
-  "flowStats": [
-    "flowWorkspace"
-  ],
+  "flowStats": [],
   "flowVS": [
-    "flowStats",
-    "flowWorkspace"
+    "flowStats"
   ],
-  "flowWorkspace": [],
   "frma": [
     "oligo",
     "oligoClasses",
@@ -6441,9 +6422,7 @@
     "AnnotationDbi",
     "AnnotationFilter"
   ],
-  "ggcyto": [
-    "flowWorkspace"
-  ],
+  "ggcyto": [],
   "ggmanh": [
     "SeqArray"
   ],
@@ -7004,9 +6983,7 @@
     "SummarizedExperiment"
   ],
   "megadepth": [],
-  "memes": [
-    "universalmotif"
-  ],
+  "memes": [],
   "meshes": [
     "AnnotationDbi",
     "DOSE",
@@ -7425,9 +7402,7 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "motifTestR": [
-    "universalmotif"
-  ],
+  "motifTestR": [],
   "motifbreakR": [
     "MotifDb",
     "BSgenome",
@@ -7764,9 +7739,7 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "openCyto": [
-    "flowWorkspace"
-  ],
+  "openCyto": [],
   "openPrimeR": [],
   "oposSOM": [
     "biomaRt",
@@ -9534,7 +9507,6 @@
     "VariantAnnotation",
     "AnnotationFilter"
   ],
-  "universalmotif": [],
   "velociraptor": [
     "SummarizedExperiment",
     "zellkonverter",
@@ -9610,7 +9582,6 @@
     "InteractionSet",
     "regioneR",
     "rtracklayer",
-    "universalmotif",
     "ensembldb",
     "systemPipeR",
     "apeglm",

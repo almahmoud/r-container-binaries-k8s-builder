@@ -962,3 +962,9 @@ reconsi
 tRNA
 BANDITS
 rhinotypeR
+PeacoQC
+flowStats
+ggcyto
+memes
+motifTestR
+openCyto
