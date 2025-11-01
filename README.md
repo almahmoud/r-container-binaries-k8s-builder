@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2012 (89%)
+- **Successfully Built:** 2013 (89%)
 - **Failed:** 2 (0%)
 - **In Progress:** 121
-- **Not Started:** 109
+- **Not Started:** 108
 
 **Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2012)
+## Successfully Built Packages (2013)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1962 more ...*
+*... and 1963 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -126,6 +126,7 @@
 - ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `Rhisat2`
 - ⏳ `Rqc`
+- ⏳ `SCArray.sat`
 - ⏳ `SEraster`
 - ⏳ `SOMNiBUS`
 - ⏳ `SPIAT`
@@ -133,11 +134,10 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `SpatialFeatureExperiment`
-- ⏳ `SpotClean`
 
 ... and 71 more ...
 
-## Not Yet Started (109)
+## Not Yet Started (108)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -176,7 +176,6 @@
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SCArray.sat`
 - ⏸️ `SingleCellSignalR`
 - ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
@@ -188,9 +187,10 @@
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `alabaster`
+- ⏸️ `alabaster.sfe`
 
-... and 59 more ...
+... and 58 more ...
 
 ---
-*Last updated: 2025-11-01 06:52:26 UTC*
+*Last updated: 2025-11-01 06:53:59 UTC*
 *Packages with verified BBS status: 147*

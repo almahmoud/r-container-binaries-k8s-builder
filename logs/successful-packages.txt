@@ -2010,3 +2010,4 @@ iSEEpathways
 SCArray
 SingleCellAlleleExperiment
 TFEA.ChIP
+iSEEindex
