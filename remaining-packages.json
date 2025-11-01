@@ -177,7 +177,6 @@
     "SpatialExperiment"
   ],
   "CTexploreR": [],
-  "CaMutQC": [],
   "Category": [],
   "CatsCradle": [
     "SpatialExperiment"
@@ -408,7 +407,6 @@
     "OUTRIDER",
     "txdbmaker"
   ],
-  "FindIT2": [],
   "G4SNVHunter": [
     "VariantAnnotation"
   ],
@@ -481,7 +479,6 @@
     "genomation",
     "txdbmaker"
   ],
-  "GloScope": [],
   "GmicR": [
     "Category",
     "GOstats"
@@ -492,7 +489,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HIPPO": [],
   "HarmonizR": [],
   "HelloRanges": [
     "VariantAnnotation"
@@ -1680,7 +1676,6 @@
     "SpatialExperiment"
   ],
   "hpar": [],
-  "iCNV": [],
   "iCheck": [
     "lumi",
     "methylumi",
@@ -1912,7 +1907,6 @@
     "deepSNV",
     "VariantAnnotation"
   ],
-  "mitology": [],
   "monaLisa": [
     "TFBSTools"
   ],

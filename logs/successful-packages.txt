@@ -1495,3 +1495,9 @@ omicRexposome
 qsmooth
 SanityR
 signatureSearch
+CaMutQC
+FindIT2
+GloScope
+HIPPO
+iCNV
+mitology
