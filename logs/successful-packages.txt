@@ -1413,3 +1413,9 @@ PECA
 scds
 SIM
 SingleR
+alabaster.sce
+beer
+CNVRanger
+covRNA
+EWCE
+nearBynding

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1415 (63%)
+- **Successfully Built:** 1421 (63%)
 - **Failed:** 2 (0%)
-- **In Progress:** 220
-- **Not Started:** 607
+- **In Progress:** 261
+- **Not Started:** 560
 
 **Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1415)
+## Successfully Built Packages (1421)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1365 more ...*
+*... and 1371 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,14 +83,17 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (220)
+## In Progress (261)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
+- ⏳ `BEAT`
 - ⏳ `BLMA`
+- ⏳ `BSgenomeForge`
 - ⏳ `BUSseq`
+- ⏳ `Basic4Cseq`
 - ⏳ `BiSeq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CBNplot`
@@ -98,8 +101,9 @@
 - ⏳ `CEMiTool`
 - ⏳ `CHETAH`
 - ⏳ `CNTools`
-- ⏳ `CNVRanger`
+- ⏳ `CODEX`
 - ⏳ `COTAN`
+- ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
 - ⏳ `CaMutQC`
@@ -108,6 +112,8 @@
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
+- ⏳ `ChIPComp`
+- ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `ClassifyR`
 - ⏳ `ClusterFoldSimilarity`
@@ -116,28 +122,22 @@
 - ⏳ `CoreGx`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `DEXSeq`
+- ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
 - ⏳ `DNEA`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `EDASeq`
-- ⏳ `EWCE`
 - ⏳ `EasyCellType`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GDCRNATools`
+- ⏳ `GOTHiC`
 - ⏳ `GOpro`
-- ⏳ `GSRI`
-- ⏳ `GeneMeta`
-- ⏳ `GenomicInteractionNodes`
-- ⏳ `Glimma`
-- ⏳ `GloScope`
-- ⏳ `GlobalAncova`
-- ⏳ `Guitar`
 
-... and 170 more ...
+... and 211 more ...
 
-## Not Yet Started (607)
+## Not Yet Started (560)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
@@ -152,14 +152,11 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
@@ -179,18 +176,21 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CODEX`
-- ⏸️ `CRISPRseek`
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
 - ⏸️ `CellMixS`
 - ⏸️ `CelliD`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPComp`
+- ⏸️ `ChIPXpress`
+- ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChromSCape`
+- ⏸️ `CircSeqAlignTk`
+- ⏸️ `CiteFuse`
 
-... and 557 more ...
+... and 510 more ...
 
 ---
-*Last updated: 2025-11-01 03:05:55 UTC*
+*Last updated: 2025-11-01 03:09:03 UTC*
 *Packages with verified BBS status: 127*

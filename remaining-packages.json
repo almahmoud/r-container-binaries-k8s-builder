@@ -175,7 +175,6 @@
   "CEMiTool": [],
   "CHETAH": [],
   "CNTools": [],
-  "CNVRanger": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -430,7 +429,6 @@
     "minfi",
     "bumphunter"
   ],
-  "EWCE": [],
   "EasyCellType": [],
   "EnrichmentBrowser": [
     "safe"
@@ -1334,7 +1332,6 @@
     "scuttle"
   ],
   "alabaster": [
-    "alabaster.sce",
     "alabaster.spatial",
     "alabaster.vcf",
     "alabaster.mae",
@@ -1342,18 +1339,15 @@
     "VariantAnnotation"
   ],
   "alabaster.mae": [],
-  "alabaster.sce": [],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
-    "alabaster.sce",
     "alabaster.spatial",
     "SpatialExperiment",
     "DropletUtils",
     "scuttle"
   ],
   "alabaster.spatial": [
-    "SpatialExperiment",
-    "alabaster.sce"
+    "SpatialExperiment"
   ],
   "alabaster.vcf": [
     "VariantAnnotation"
@@ -1402,7 +1396,6 @@
     "scuttle"
   ],
   "bayNorm": [],
-  "beer": [],
   "bigmelon": [
     "wateRmelon",
     "minfi",
@@ -1609,7 +1602,6 @@
     "PSMatch"
   ],
   "countsimQC": [],
-  "covRNA": [],
   "cpvSNP": [],
   "crisprBowtie": [],
   "crisprBwa": [],
@@ -2235,7 +2227,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "nearBynding": [],
   "netSmooth": [
     "scater",
     "clusterExperiment",
@@ -2637,8 +2628,7 @@
     "scuttle",
     "zellkonverter",
     "SpatialExperiment",
-    "M3Drop",
-    "alabaster.sce"
+    "M3Drop"
   ],
   "sitadela": [
     "txdbmaker"
