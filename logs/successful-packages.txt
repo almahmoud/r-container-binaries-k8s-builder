@@ -1235,3 +1235,5 @@ InterCellar
 panelcn.mops
 RJMCMCNucleosomes
 SubCellBarCode
+LACE
+moanin

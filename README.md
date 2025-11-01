@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1237 (55%)
+- **Successfully Built:** 1239 (55%)
 - **Failed:** 2 (0%)
-- **In Progress:** 181
+- **In Progress:** 179
 - **Not Started:** 824
 
 **Progress:** 55%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1237)
+## Successfully Built Packages (1239)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1187 more ...*
+*... and 1189 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (181)
+## In Progress (179)
 - ⏳ `BSgenome`
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
@@ -113,7 +113,6 @@
 - ⏳ `HiTC`
 - ⏳ `HicAggR`
 - ⏳ `IdeoViz`
-- ⏳ `LACE`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MCbiclust`
@@ -134,8 +133,9 @@
 - ⏳ `PAIRADISE`
 - ⏳ `PAST`
 - ⏳ `PIUMA`
+- ⏳ `PMScanR`
 
-... and 131 more ...
+... and 129 more ...
 
 ## Not Yet Started (824)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 774 more ...
 
 ---
-*Last updated: 2025-11-01 02:20:33 UTC*
+*Last updated: 2025-11-01 02:21:44 UTC*
 *Packages with verified BBS status: 126*
