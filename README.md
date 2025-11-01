@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1544 (68%)
+- **Successfully Built:** 1551 (69%)
 - **Failed:** 2 (0%)
-- **In Progress:** 209
-- **Not Started:** 489
+- **In Progress:** 214
+- **Not Started:** 477
 
-**Progress:** 68%
+**Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1544)
+## Successfully Built Packages (1551)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1494 more ...*
+*... and 1501 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,13 +83,14 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (209)
+## In Progress (214)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
+- ⏳ `ArrayExpress`
 - ⏳ `BERT`
 - ⏳ `BUSseq`
 - ⏳ `BatchSVG`
@@ -118,13 +119,13 @@
 - ⏳ `ELViS`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
-- ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
-- ⏳ `GARS`
 - ⏳ `GDCRNATools`
+- ⏳ `GOstats`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `HarmonizR`
+- ⏳ `ITALICS`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
@@ -133,11 +134,10 @@
 - ⏳ `MAST`
 - ⏳ `MIRit`
 - ⏳ `MLInterfaces`
-- ⏳ `MOMA`
 
-... and 159 more ...
+... and 164 more ...
 
-## Not Yet Started (489)
+## Not Yet Started (477)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -146,7 +146,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -188,9 +187,10 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DAPAR`
+- ⏸️ `DEP`
 
-... and 439 more ...
+... and 427 more ...
 
 ---
-*Last updated: 2025-11-01 03:48:21 UTC*
+*Last updated: 2025-11-01 03:50:07 UTC*
 *Packages with verified BBS status: 134*

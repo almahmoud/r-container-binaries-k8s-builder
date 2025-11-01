@@ -1542,3 +1542,10 @@ xcore
 Category
 oligo
 SplineDV
+bayNorm
+ccfindR
+EpiMix
+GARS
+mist
+scHOT
+splatter
