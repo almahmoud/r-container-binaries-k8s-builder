@@ -162,7 +162,6 @@
     "SpatialExperiment"
   ],
   "FEAST": [
-    "TSCAN",
     "SC3"
   ],
   "FLAMES": [
@@ -228,7 +227,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "Ibex": [],
   "IntEREst": [
     "GenomicFiles"
   ],
@@ -524,11 +522,9 @@
     "GenomicFiles"
   ],
   "TRESS": [],
-  "TSCAN": [],
   "TVTB": [
     "Gviz"
   ],
-  "ToxicoGx": [],
   "UCell": [],
   "UMI4Cats": [
     "regioneR"
@@ -542,7 +538,6 @@
   "VariantFiltering": [
     "Gviz"
   ],
-  "VariantTools": [],
   "VisiumIO": [
     "TENxIO",
     "SpatialExperiment"
@@ -573,10 +568,8 @@
   ],
   "alabaster": [
     "alabaster.spatial",
-    "alabaster.mae",
     "SpatialExperiment"
   ],
-  "alabaster.mae": [],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
     "alabaster.spatial",
@@ -1118,7 +1111,6 @@
   "singleCellTK": [
     "GSVA",
     "MAST",
-    "TSCAN",
     "SpatialExperiment"
   ],
   "sitadela": [],
