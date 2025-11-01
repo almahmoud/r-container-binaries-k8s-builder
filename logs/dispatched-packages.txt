@@ -1728,3 +1728,5 @@ scater
 scran
 simPIC
 splatter
+cghMCR
+selectKSigs

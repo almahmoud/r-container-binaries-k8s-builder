@@ -1,12 +1,2 @@
-DiffBind
-DropletUtils
-SanityR
-SplineDV
-batchelor
-blacksheepr
-epigraHMM
-pairedGSEA
-scater
-scran
-simPIC
-splatter
+cghMCR
+selectKSigs

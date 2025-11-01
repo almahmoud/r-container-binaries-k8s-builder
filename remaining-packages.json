@@ -148,7 +148,6 @@
   "CDI": [],
   "CEMiTool": [],
   "CHETAH": [],
-  "CNTools": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -519,7 +518,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiLDA": [],
   "HoloFoodR": [
     "TreeSummarizedExperiment"
   ],
@@ -608,7 +606,6 @@
   "MEB": [
     "scater"
   ],
-  "MEDIPS": [],
   "MGnifyR": [
     "TreeSummarizedExperiment",
     "mia",
@@ -619,7 +616,6 @@
   ],
   "MIRit": [],
   "MLInterfaces": [],
-  "MMDiff2": [],
   "MOMA": [],
   "MOSClip": [
     "qpgraph"
@@ -675,7 +671,6 @@
     "minfi",
     "bumphunter"
   ],
-  "MethylSeekR": [],
   "MicrobiomeProfiler": [],
   "MineICA": [
     "GOstats",
@@ -761,13 +756,11 @@
   "PLSDAbatch": [
     "TreeSummarizedExperiment"
   ],
-  "POMA": [],
   "POWSC": [
     "MAST"
   ],
   "PRONE": [
     "MSnbase",
-    "POMA",
     "PSMatch",
     "QFeatures"
   ],
@@ -1346,9 +1339,7 @@
   ],
   "cfDNAPro": [],
   "cfTools": [],
-  "cghMCR": [
-    "CNTools"
-  ],
+  "cghMCR": [],
   "chevreulPlot": [
     "chevreulProcess",
     "scater",
@@ -2167,7 +2158,6 @@
   "qpgraph": [],
   "qsea": [],
   "qsmooth": [],
-  "qsvaR": [],
   "quantro": [
     "minfi",
     "bumphunter"
@@ -2335,9 +2325,7 @@
   "segmenter": [
     "ChIPseeker"
   ],
-  "selectKSigs": [
-    "HiLDA"
-  ],
+  "selectKSigs": [],
   "seqCAT": [
     "VariantAnnotation"
   ],
