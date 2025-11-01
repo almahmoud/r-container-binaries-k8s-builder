@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1804 (80%)
+- **Successfully Built:** 1806 (80%)
 - **Failed:** 2 (0%)
-- **In Progress:** 144
-- **Not Started:** 294
+- **In Progress:** 149
+- **Not Started:** 287
 
 **Progress:** 80%
 ```
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1804)
+## Successfully Built Packages (1806)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1754 more ...*
+*... and 1756 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,10 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (144)
+## In Progress (149)
 - ⏳ `COCOA`
 - ⏳ `CexoR`
+- ⏳ `ChIPexoQual`
 - ⏳ `DOtools`
 - ⏳ `DeMixT`
 - ⏳ `DspikeIn`
@@ -96,6 +97,7 @@
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
+- ⏳ `Gviz`
 - ⏳ `HelloRanges`
 - ⏳ `HoloFoodR`
 - ⏳ `Ibex`
@@ -112,6 +114,7 @@
 - ⏳ `MetaPhOR`
 - ⏳ `MethReg`
 - ⏳ `MicrobiomeProfiler`
+- ⏳ `MineICA`
 - ⏳ `MsDataHub`
 - ⏳ `MuData`
 - ⏳ `MungeSumstats`
@@ -131,13 +134,10 @@
 - ⏳ `Rmmquant`
 - ⏳ `RnBeads`
 - ⏳ `SC3`
-- ⏳ `SCArray`
-- ⏳ `SCnorm`
-- ⏳ `SETA`
 
-... and 94 more ...
+... and 99 more ...
 
-## Not Yet Started (294)
+## Not Yet Started (287)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -160,7 +160,6 @@
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CluMSID`
@@ -188,9 +187,10 @@
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GenomicInteractions`
+- ⏸️ `GenomicOZone`
 
-... and 244 more ...
+... and 237 more ...
 
 ---
-*Last updated: 2025-11-01 05:31:14 UTC*
+*Last updated: 2025-11-01 05:32:24 UTC*
 *Packages with verified BBS status: 145*

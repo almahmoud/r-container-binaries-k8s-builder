@@ -578,7 +578,6 @@
   ],
   "alabaster": [
     "alabaster.spatial",
-    "alabaster.vcf",
     "alabaster.mae",
     "SpatialExperiment"
   ],
@@ -591,7 +590,6 @@
   "alabaster.spatial": [
     "SpatialExperiment"
   ],
-  "alabaster.vcf": [],
   "anansi": [],
   "annotatr": [
     "regioneR"
@@ -930,7 +928,6 @@
   "miaViz": [
     "mia"
   ],
-  "miloR": [],
   "missMethyl": [],
   "mitoClone2": [
     "deepSNV"

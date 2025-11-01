@@ -1,7 +1,0 @@
-ChIPexoQual
-Gviz
-MineICA
-arrayMvout
-ffpe
-iCheck
-wateRmelon
