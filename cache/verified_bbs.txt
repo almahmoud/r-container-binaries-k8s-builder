@@ -2,6 +2,7 @@ ABSSeq
 ABarray
 ACME
 ADAM
+ADAMgui
 ADAPT
 AIMS
 ALDEx2

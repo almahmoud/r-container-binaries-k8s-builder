@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1021 (45%)
+- **Successfully Built:** 1036 (46%)
 - **Failed:** 2 (0%)
-- **In Progress:** 186
-- **Not Started:** 1035
+- **In Progress:** 194
+- **Not Started:** 1012
 
-**Progress:** 45%
+**Progress:** 46%
 ```
-██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1021)
+## Successfully Built Packages (1036)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -24,6 +24,7 @@
 | [ABarray](https://bioconductor.org/packages/3.22/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.22/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACME) |
 | [ADAM](https://bioconductor.org/packages/3.22/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAM) |
+| [ADAMgui](https://bioconductor.org/packages/3.22/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.22/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ALDEx2) |
@@ -44,9 +45,8 @@
 | [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
-| [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
 
-*... and 971 more ...*
+*... and 986 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,16 +83,16 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (186)
-- ⏳ `ADAMgui`
+## In Progress (194)
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
+- ⏳ `CHRONOS`
 - ⏳ `CSOA`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `EDIRquery`
-- ⏳ `GEOquery`
+- ⏳ `DOSE`
+- ⏳ `GOexpress`
 - ⏳ `GOfuncR`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
@@ -101,8 +101,10 @@
 - ⏳ `HiCParser`
 - ⏳ `HiCcompare`
 - ⏳ `IgGeneUsage`
+- ⏳ `InterCellar`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
+- ⏳ `LACE`
 - ⏳ `LRBaseDbi`
 - ⏳ `LimROTS`
 - ⏳ `LipidTrend`
@@ -122,22 +124,20 @@
 - ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
 - ⏳ `MicrobiotaProcess`
+- ⏳ `MouseFM`
 - ⏳ `MsFeatures`
 - ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
+- ⏳ `NetSAM`
 - ⏳ `NormalyzerDE`
 - ⏳ `OVESEG`
+- ⏳ `OncoScore`
 - ⏳ `PADOG`
 - ⏳ `PAIRADISE`
-- ⏳ `PIUMA`
-- ⏳ `PepSetTest`
-- ⏳ `PhIPData`
-- ⏳ `PhosR`
-- ⏳ `PolySTest`
 
-... and 136 more ...
+... and 144 more ...
 
-## Not Yet Started (1035)
+## Not Yet Started (1012)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -189,8 +189,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BulkSignalR`
 
-... and 985 more ...
+... and 962 more ...
 
 ---
-*Last updated: 2025-11-01 01:27:34 UTC*
-*Packages with verified BBS status: 115*
+*Last updated: 2025-11-01 01:29:49 UTC*
+*Packages with verified BBS status: 116*
