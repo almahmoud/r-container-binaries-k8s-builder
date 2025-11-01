@@ -1147,7 +1147,6 @@
     "AnnotationDbi",
     "rtracklayer"
   ],
-  "DNAshapeR": [],
   "DNEA": [
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -1663,7 +1662,6 @@
     "DOSE",
     "biomaRt",
     "pathview",
-    "GenomicDataCommons",
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
@@ -1691,7 +1689,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -1828,7 +1825,6 @@
     "SummarizedExperiment",
     "Rsamtools"
   ],
-  "GenomicDataCommons": [],
   "GenomicFeatures": [
     "AnnotationDbi",
     "rtracklayer",
@@ -3381,7 +3377,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "MultiAssayExperiment",
     "rtracklayer",
     "Rsamtools",
@@ -3961,7 +3956,6 @@
   "SpatialCPie": [
     "SummarizedExperiment"
   ],
-  "SpatialDecon": [],
   "SpatialExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -4098,7 +4092,6 @@
   "TCGAutils": [
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "MultiAssayExperiment",
     "RaggedExperiment",
     "SummarizedExperiment",
@@ -4823,7 +4816,6 @@
     "GOSemSim",
     "graphite",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -4956,7 +4948,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -4998,7 +4989,6 @@
     "biomaRt",
     "genefilter",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -5041,7 +5031,6 @@
     "AnnotationDbi",
     "annotate",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"
@@ -6277,7 +6266,6 @@
     "TCGAutils",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "RaggedExperiment",
     "rtracklayer",
     "Rsamtools",
@@ -6708,7 +6696,6 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "loci2path": [],
   "looking4clusters": [
     "SummarizedExperiment",
     "SingleCellExperiment"
@@ -7531,7 +7518,6 @@
   "oncomix": [
     "SummarizedExperiment"
   ],
-  "oncoscanR": [],
   "ontoProc": [
     "AnnotationHub",
     "SummarizedExperiment",
@@ -9078,7 +9064,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "GenomicFeatures",
-    "GenomicDataCommons",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments"

@@ -931,3 +931,8 @@ GeoDiff
 gtrellis
 idr2d
 ncRNAtools
+DNAshapeR
+GenomicDataCommons
+loci2path
+oncoscanR
+SpatialDecon
