@@ -2086,3 +2086,5 @@ mspms
 RTCGAToolbox
 ATACseqQC
 jazzPanda
+miaDash
+Statial
