@@ -1842,3 +1842,8 @@ RadioGx
 ToxicoGx
 DOtools
 chevreulPlot
+MatrixRider
+chromVAR
+monaLisa
+motifStack
+motifmatchr

@@ -1677,3 +1677,7 @@ scDotPlot
 ClusterFoldSimilarity
 MotifPeeker
 TAPseq
+BatchSVG
+SCOPE
+TFBSTools
+VarCon

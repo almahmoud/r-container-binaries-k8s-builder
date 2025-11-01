@@ -14,12 +14,10 @@
   "ATACseqQC": [
     "ChIPpeakAnno",
     "motifStack",
-    "regioneR",
-    "TFBSTools"
+    "regioneR"
   ],
   "ATACseqTFEA": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "AgiMicroRna": [
     "affycoretools",
@@ -57,7 +55,6 @@
   "Banksy": [
     "SpatialExperiment"
   ],
-  "BatchSVG": [],
   "BulkSignalR": [
     "SpatialExperiment"
   ],
@@ -442,9 +439,7 @@
     "PSMatch",
     "QFeatures"
   ],
-  "MatrixRider": [
-    "TFBSTools"
-  ],
+  "MatrixRider": [],
   "MetaNeighbor": [],
   "MetaPhOR": [],
   "MetaboAnnotation": [
@@ -455,8 +450,7 @@
     "mygene"
   ],
   "MethReg": [
-    "sesame",
-    "TFBSTools"
+    "sesame"
   ],
   "MethylAid": [],
   "MicrobiomeProfiler": [],
@@ -495,7 +489,6 @@
     "Gviz",
     "regioneR",
     "biovizBase",
-    "TFBSTools",
     "VariantAnnotation"
   ],
   "NanoMethViz": [
@@ -666,7 +659,6 @@
   "SCArray.sat": [
     "SCArray"
   ],
-  "SCOPE": [],
   "SCnorm": [],
   "SETA": [],
   "SEraster": [
@@ -769,7 +761,6 @@
     "sesame"
   ],
   "TENxIO": [],
-  "TFBSTools": [],
   "TFEA.ChIP": [],
   "TFutils": [
     "GenomicFiles",
@@ -805,7 +796,6 @@
     "GenomicFiles"
   ],
   "VDJdive": [],
-  "VarCon": [],
   "VariantAnnotation": [],
   "VariantFiltering": [
     "VariantAnnotation",
@@ -888,8 +878,7 @@
     "methylumi"
   ],
   "atSNP": [
-    "motifStack",
-    "TFBSTools"
+    "motifStack"
   ],
   "attract": [
     "GOstats"
@@ -976,9 +965,7 @@
     "VariantAnnotation"
   ],
   "chipseq": [],
-  "chromVAR": [
-    "TFBSTools"
-  ],
+  "chromVAR": [],
   "cicero": [
     "Gviz",
     "biovizBase",
@@ -1071,8 +1058,7 @@
     "SpatialExperiment"
   ],
   "dagLogo": [
-    "motifStack",
-    "TFBSTools"
+    "motifStack"
   ],
   "dar": [
     "mia",
@@ -1115,8 +1101,7 @@
   ],
   "easier": [],
   "enhancerHomologSearch": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "epimutacions": [
     "Gviz",
@@ -1125,8 +1110,7 @@
     "VariantAnnotation"
   ],
   "epiregulon": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "epiregulon.extra": [],
   "epivizr": [
@@ -1148,7 +1132,6 @@
   "esATAC": [
     "pipeFrame",
     "ChIPseeker",
-    "TFBSTools",
     "motifmatchr"
   ],
   "escheR": [
@@ -1416,25 +1399,18 @@
     "deepSNV",
     "VariantAnnotation"
   ],
-  "monaLisa": [
-    "TFBSTools"
-  ],
+  "monaLisa": [],
   "mosdef": [
     "goseq"
   ],
-  "motifStack": [
-    "TFBSTools"
-  ],
+  "motifStack": [],
   "motifbreakR": [
     "VariantAnnotation",
     "motifStack",
     "Gviz",
-    "biovizBase",
-    "TFBSTools"
+    "biovizBase"
   ],
-  "motifmatchr": [
-    "TFBSTools"
-  ],
+  "motifmatchr": [],
   "msgbsR": [
     "ggbio",
     "biovizBase",
@@ -1517,8 +1493,7 @@
     "QFeatures"
   ],
   "pageRank": [
-    "motifmatchr",
-    "TFBSTools"
+    "motifmatchr"
   ],
   "pathMED": [
     "GSVA",
@@ -1548,7 +1523,6 @@
   "pram": [],
   "primirTSS": [
     "Gviz",
-    "TFBSTools",
     "biovizBase",
     "VariantAnnotation"
   ],
@@ -1601,8 +1575,7 @@
     "goseq"
   ],
   "ribosomeProfilingQC": [
-    "motifStack",
-    "TFBSTools"
+    "motifStack"
   ],
   "rifi": [],
   "ropls": [],
