@@ -130,5 +130,6 @@ xcore
 xmapbridge
 yamss
 zFPKM
+zellkonverter
 zinbwave
 zitools

@@ -1800,3 +1800,7 @@ mumosa
 pipeComp
 scDD
 scDblFinder
+BgeeDB
+gDRcore
+preciseTAD
+velociraptor

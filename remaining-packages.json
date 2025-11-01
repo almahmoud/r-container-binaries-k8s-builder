@@ -79,9 +79,7 @@
   "BatchSVG": [],
   "BayesSpace": [],
   "BgeeCall": [],
-  "BgeeDB": [
-    "zellkonverter"
-  ],
+  "BgeeDB": [],
   "BindingSiteFinder": [],
   "BioNERO": [],
   "BioTIP": [],
@@ -259,7 +257,6 @@
   ],
   "DNAfusion": [],
   "DOtools": [
-    "zellkonverter",
     "scDblFinder"
   ],
   "DSS": [
@@ -717,8 +714,7 @@
   ],
   "RITAN": [
     "BgeeDB",
-    "ensembldb",
-    "zellkonverter"
+    "ensembldb"
   ],
   "RMassBank": [
     "MSnbase",
@@ -914,8 +910,7 @@
     "escheR"
   ],
   "Statial": [
-    "SpatialExperiment",
-    "treekoR"
+    "SpatialExperiment"
   ],
   "StructuralVariantAnnotation": [
     "VariantAnnotation"
@@ -1070,7 +1065,6 @@
     "motifStack",
     "TFBSTools"
   ],
-  "atena": [],
   "attract": [
     "GOstats"
   ],
@@ -1145,7 +1139,6 @@
   "cardelino": [
     "VariantAnnotation"
   ],
-  "casper": [],
   "categoryCompare": [
     "GOstats"
   ],
@@ -1434,19 +1427,14 @@
   "gDR": [
     "gDRcore",
     "gDRimport",
-    "gDRutils",
     "CoreGx",
     "PharmacoGx"
   ],
-  "gDRcore": [
-    "gDRutils"
-  ],
+  "gDRcore": [],
   "gDRimport": [
     "CoreGx",
-    "PharmacoGx",
-    "gDRutils"
+    "PharmacoGx"
   ],
-  "gDRutils": [],
   "gcapc": [],
   "geneAttribution": [],
   "genomation": [],
@@ -1793,7 +1781,6 @@
   "omicsGMF": [
     "QFeatures"
   ],
-  "omicsPrint": [],
   "oppar": [
     "GSVA",
     "SpatialExperiment"
@@ -1844,9 +1831,7 @@
     "SpatialExperiment"
   ],
   "pram": [],
-  "preciseTAD": [
-    "rCGH"
-  ],
+  "preciseTAD": [],
   "primirTSS": [
     "Gviz",
     "TFBSTools",
@@ -1880,7 +1865,6 @@
     "bumphunter"
   ],
   "r3Cseq": [],
-  "rCGH": [],
   "rGREAT": [],
   "raer": [],
   "recount": [
@@ -1935,12 +1919,10 @@
     "VariantAnnotation"
   ],
   "scAnnotatR": [],
-  "scCB2": [],
   "scClassify": [
     "Cepo"
   ],
   "scDD": [],
-  "scDataviz": [],
   "scDblFinder": [],
   "scDotPlot": [],
   "scMerge": [
@@ -2039,7 +2021,6 @@
     "scDblFinder",
     "TSCAN",
     "TrajectoryUtils",
-    "zellkonverter",
     "SpatialExperiment",
     "M3Drop"
   ],
@@ -2182,7 +2163,6 @@
   "treeclimbR": [
     "TreeSummarizedExperiment"
   ],
-  "treekoR": [],
   "tricycle": [],
   "txcutr": [],
   "tximeta": [
@@ -2195,9 +2175,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "velociraptor": [
-    "zellkonverter"
-  ],
+  "velociraptor": [],
   "visiumStitched": [
     "SpatialExperiment"
   ],
@@ -2234,7 +2212,6 @@
     "minfi",
     "bumphunter"
   ],
-  "zellkonverter": [],
   "zenith": [
     "EnrichmentBrowser"
   ]

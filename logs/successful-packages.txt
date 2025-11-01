@@ -1557,3 +1557,12 @@ animalcules
 batchelor
 qpgraph
 scran
+atena
+casper
+gDRutils
+omicsPrint
+rCGH
+scCB2
+scDataviz
+treekoR
+zellkonverter

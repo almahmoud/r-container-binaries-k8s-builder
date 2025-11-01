@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1559 (69%)
+- **Successfully Built:** 1568 (69%)
 - **Failed:** 2 (0%)
-- **In Progress:** 221
-- **Not Started:** 462
+- **In Progress:** 232
+- **Not Started:** 442
 
 **Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1559)
+## Successfully Built Packages (1568)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1509 more ...*
+*... and 1518 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [universalmotif](https://bioconductor.org/packages/3.22/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.22/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
@@ -73,6 +72,7 @@
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.22/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
+| [zellkonverter](https://bioconductor.org/packages/3.22/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zellkonverter) |
 | [zinbwave](https://bioconductor.org/packages/3.22/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.22/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zitools) |
 
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (221)
+## In Progress (232)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -91,12 +91,16 @@
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
 - ⏳ `ArrayExpress`
+- ⏳ `BASiCS`
 - ⏳ `BERT`
 - ⏳ `BUSseq`
+- ⏳ `BatchQC`
 - ⏳ `BatchSVG`
+- ⏳ `BayesSpace`
 - ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
+- ⏳ `BioTIP`
 - ⏳ `CATALYST`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
@@ -109,9 +113,12 @@
 - ⏳ `CelliD`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
+- ⏳ `ChromSCape`
+- ⏳ `CiteFuse`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `Cogito`
+- ⏳ `Coralysis`
 - ⏳ `CoreGx`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `DExMA`
@@ -119,6 +126,7 @@
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `DegNorm`
+- ⏳ `Dino`
 - ⏳ `ELViS`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
@@ -126,18 +134,10 @@
 - ⏳ `GDCRNATools`
 - ⏳ `GOstats`
 - ⏳ `GSRI`
-- ⏳ `GeneMeta`
-- ⏳ `HarmonizR`
-- ⏳ `ITALICS`
-- ⏳ `LRcell`
-- ⏳ `Lheuristic`
-- ⏳ `LinkHD`
-- ⏳ `LoomExperiment`
-- ⏳ `M3Drop`
 
-... and 171 more ...
+... and 182 more ...
 
-## Not Yet Started (462)
+## Not Yet Started (442)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -146,17 +146,13 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
-- ⏸️ `BatchQC`
-- ⏸️ `BayesSpace`
 - ⏸️ `BgeeDB`
-- ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -175,22 +171,26 @@
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
-- ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
-- ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 - ⏸️ `DEScan2`
 - ⏸️ `DESpace`
 - ⏸️ `DMRcate`
+- ⏸️ `DOtools`
+- ⏸️ `DSS`
+- ⏸️ `Damsel`
+- ⏸️ `DeMixT`
+- ⏸️ `DeconvoBuddies`
+- ⏸️ `DominoEffect`
+- ⏸️ `DrugVsDisease`
 
-... and 412 more ...
+... and 392 more ...
 
 ---
-*Last updated: 2025-11-01 03:54:14 UTC*
-*Packages with verified BBS status: 134*
+*Last updated: 2025-11-01 03:57:15 UTC*
+*Packages with verified BBS status: 135*
