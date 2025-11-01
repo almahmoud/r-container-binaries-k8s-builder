@@ -421,7 +421,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOpro": [],
   "GOstats": [
     "Category"
   ],
@@ -805,7 +804,6 @@
     "MutationalPatterns",
     "VariantAnnotation"
   ],
-  "RFLOMICS": [],
   "RITAN": [
     "BgeeDB",
     "ensembldb",
@@ -1449,7 +1447,6 @@
     "TreeSummarizedExperiment",
     "scater"
   ],
-  "debrowser": [],
   "decompTumor2Sig": [
     "VariantAnnotation"
   ],
@@ -2016,7 +2013,6 @@
     "motifmatchr",
     "TFBSTools"
   ],
-  "pairedGSEA": [],
   "partCNV": [],
   "pathMED": [
     "GSVA",

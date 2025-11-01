@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1518 (67%)
+- **Successfully Built:** 1522 (67%)
 - **Failed:** 2 (0%)
-- **In Progress:** 218
-- **Not Started:** 506
+- **In Progress:** 216
+- **Not Started:** 504
 
 **Progress:** 67%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1518)
+## Successfully Built Packages (1522)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1468 more ...*
+*... and 1472 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (218)
+## In Progress (216)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -119,7 +119,6 @@
 - ⏳ `EpiMix`
 - ⏳ `GARS`
 - ⏳ `GDCRNATools`
-- ⏳ `GOpro`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
@@ -134,10 +133,11 @@
 - ⏳ `MACSr`
 - ⏳ `MAST`
 - ⏳ `MIRit`
+- ⏳ `MLInterfaces`
 
-... and 168 more ...
+... and 166 more ...
 
-## Not Yet Started (506)
+## Not Yet Started (504)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 
-... and 456 more ...
+... and 454 more ...
 
 ---
-*Last updated: 2025-11-01 03:39:19 UTC*
+*Last updated: 2025-11-01 03:41:06 UTC*
 *Packages with verified BBS status: 130*
