@@ -1,4 +1,5 @@
-RnBeads
-lumi
-missMethyl
-scRepertoire
+GmicR
+attract
+categoryCompare
+miRLAB
+scTensor

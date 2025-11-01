@@ -20,7 +20,6 @@
   ],
   "AgiMicroRna": [
     "affycoretools",
-    "GOstats",
     "ReportingTools",
     "ggbio",
     "biovizBase",
@@ -223,7 +222,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOstats": [],
   "GRaNIE": [],
   "GSEABenchmarkeR": [],
   "GSRI": [],
@@ -255,9 +253,7 @@
   "GenomicPlot": [
     "RCAS"
   ],
-  "GmicR": [
-    "GOstats"
-  ],
+  "GmicR": [],
   "Gviz": [
     "biovizBase"
   ],
@@ -368,7 +364,6 @@
   "MethReg": [],
   "MicrobiomeProfiler": [],
   "MineICA": [
-    "GOstats",
     "lumi"
   ],
   "MoleculeExperiment": [
@@ -505,7 +500,6 @@
   "RareVariantVis": [],
   "RbowtieCuda": [],
   "ReportingTools": [
-    "GOstats",
     "ggbio",
     "biovizBase",
     "OrganismDbi"
@@ -687,7 +681,6 @@
   "ZygosityPredictor": [],
   "adductomicsR": [],
   "affycoretools": [
-    "GOstats",
     "ReportingTools",
     "ggbio",
     "biovizBase",
@@ -725,9 +718,7 @@
   "atSNP": [
     "motifStack"
   ],
-  "attract": [
-    "GOstats"
-  ],
+  "attract": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -777,9 +768,7 @@
     "TCGAutils"
   ],
   "cardelino": [],
-  "categoryCompare": [
-    "GOstats"
-  ],
+  "categoryCompare": [],
   "cbaf": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -1021,8 +1010,7 @@
   "icetea": [],
   "ideal": [
     "mosdef",
-    "goseq",
-    "GOstats"
+    "goseq"
   ],
   "igvR": [],
   "imcRtools": [
@@ -1114,9 +1102,7 @@
     "OrganismDbi"
   ],
   "miQC": [],
-  "miRLAB": [
-    "GOstats"
-  ],
+  "miRLAB": [],
   "mia": [
     "TreeSummarizedExperiment"
   ],
@@ -1241,7 +1227,6 @@
   ],
   "pcaExplorer": [
     "mosdef",
-    "GOstats",
     "goseq"
   ],
   "peakPantheR": [
@@ -1284,7 +1269,6 @@
     "derfinder",
     "GenomicFiles"
   ],
-  "recount3": [],
   "recoup": [],
   "regionReport": [
     "derfinder",
@@ -1320,9 +1304,7 @@
     "TrajectoryUtils"
   ],
   "scRepertoire": [],
-  "scTensor": [
-    "GOstats"
-  ],
+  "scTensor": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData",
