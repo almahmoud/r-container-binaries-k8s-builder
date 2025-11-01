@@ -906,3 +906,8 @@ fastseg
 GenomicTuples
 bamsignals
 beachmat.hdf5
+alabaster.ranges
+clusterSeq
+FinfoMDS
+MOFA2
+reconsi
