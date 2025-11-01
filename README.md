@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 681 (98%)
+- **Successfully Built:** 682 (98%)
 - **Failed:** 5 (0%)
-- **In Progress:** 8
+- **In Progress:** 7
 - **Not Started:** 0
 
 **Progress:** 98%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (681)
+## Successfully Built Packages (682)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 
-*... and 631 more ...*
+*... and 632 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,10 +86,9 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (8)
+## In Progress (7)
 - ⏳ `AlphaMissenseR`
 - ⏳ `CONFESS`
-- ⏳ `MSstatsBig`
 - ⏳ `OpenStats`
 - ⏳ `RTCGA`
 - ⏳ `infinityFlow`
@@ -97,5 +96,5 @@
 - ⏳ `synergyfinder`
 
 ---
-*Last updated: 2025-11-01 16:01:10 UTC*
+*Last updated: 2025-11-01 16:02:57 UTC*
 *Packages with verified BBS status: 114*

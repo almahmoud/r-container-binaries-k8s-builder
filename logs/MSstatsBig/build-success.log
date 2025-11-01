@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstatsBig'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'MSstatsBig'
+also installing the dependency ‘sparklyr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/sparklyr_1.9.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstatsBig_1.9.0.tar.gz'
+* installing *source* package ‘sparklyr’ ...
+** this is package ‘sparklyr’ version ‘1.9.2’
+** package ‘sparklyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sparklyr’ as ‘sparklyr_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparklyr)
+* installing *source* package ‘MSstatsBig’ ...
+** this is package ‘MSstatsBig’ version ‘1.9.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MSstatsBig’ as ‘MSstatsBig_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstatsBig)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqsWrtz/downloaded_packages’
+Old packages: 'promises'
+
+real	0m34.497s
+user	0m29.601s
+sys	0m5.331s
