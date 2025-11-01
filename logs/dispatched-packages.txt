@@ -1974,3 +1974,4 @@ regioneReloaded
 rqt
 scRNAseqApp
 tradeSeq
+GENESIS

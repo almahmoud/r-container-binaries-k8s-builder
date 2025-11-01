@@ -1847,3 +1847,7 @@ metaseqR2
 MOMA
 NoRCE
 svaNUMT
+ChIPexoQual
+EasyCellType
+SeqVarTools
+SimFFPE

@@ -85,7 +85,6 @@
     "missMethyl",
     "Gviz"
   ],
-  "ChIPexoQual": [],
   "ChIPpeakAnno": [],
   "CircSeqAlignTk": [
     "Rhisat2",
@@ -138,7 +137,6 @@
   "ELMER": [
     "Gviz"
   ],
-  "EasyCellType": [],
   "EpiCompare": [],
   "EventPointer": [
     "SGSeq"
@@ -163,9 +161,7 @@
     "GA4GHclient"
   ],
   "GDCRNATools": [],
-  "GENESIS": [
-    "SeqVarTools"
-  ],
+  "GENESIS": [],
   "GNOSIS": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -343,8 +339,7 @@
     "OrganismDbi"
   ],
   "RAIDS": [
-    "GENESIS",
-    "SeqVarTools"
+    "GENESIS"
   ],
   "RCAS": [],
   "RCSL": [],
@@ -432,10 +427,8 @@
     "SpatialExperiment"
   ],
   "SeqSQC": [],
-  "SeqVarTools": [],
   "SiPSiC": [],
   "SimBu": [],
-  "SimFFPE": [],
   "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
     "BulkSignalR",
