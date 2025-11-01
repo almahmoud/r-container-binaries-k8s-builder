@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1555 (69%)
+- **Successfully Built:** 1559 (69%)
 - **Failed:** 2 (0%)
-- **In Progress:** 211
-- **Not Started:** 476
+- **In Progress:** 221
+- **Not Started:** 462
 
 **Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1555)
+## Successfully Built Packages (1559)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1505 more ...*
+*... and 1509 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (211)
+## In Progress (221)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -97,13 +97,16 @@
 - ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
+- ⏳ `CATALYST`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
 - ⏳ `CellBench`
+- ⏳ `CellMixS`
 - ⏳ `CellTrails`
+- ⏳ `CelliD`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
 - ⏳ `ClusterFoldSimilarity`
@@ -130,14 +133,11 @@
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
 - ⏳ `LoomExperiment`
-- ⏳ `MACSr`
-- ⏳ `MAST`
-- ⏳ `MIRit`
-- ⏳ `MLInterfaces`
+- ⏳ `M3Drop`
 
-... and 161 more ...
+... and 171 more ...
 
-## Not Yet Started (476)
+## Not Yet Started (462)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -163,7 +163,6 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
 - ⏸️ `CARDspa`
-- ⏸️ `CATALYST`
 - ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
@@ -171,8 +170,6 @@
 - ⏸️ `COCOA`
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
-- ⏸️ `CellMixS`
-- ⏸️ `CelliD`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
@@ -188,9 +185,12 @@
 - ⏸️ `DAMEfinder`
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
+- ⏸️ `DEScan2`
+- ⏸️ `DESpace`
+- ⏸️ `DMRcate`
 
-... and 426 more ...
+... and 412 more ...
 
 ---
-*Last updated: 2025-11-01 03:51:45 UTC*
+*Last updated: 2025-11-01 03:54:14 UTC*
 *Packages with verified BBS status: 134*

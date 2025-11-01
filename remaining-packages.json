@@ -49,13 +49,10 @@
     "OrganismDbi"
   ],
   "ArrayExpress": [],
-  "BASiCS": [
-    "scran"
-  ],
+  "BASiCS": [],
   "BASiCStan": [
     "BASiCS",
-    "glmGamPoi",
-    "scran"
+    "glmGamPoi"
   ],
   "BBCAnalyzer": [
     "VariantAnnotation"
@@ -78,22 +75,16 @@
   "Banksy": [
     "SpatialExperiment"
   ],
-  "BatchQC": [
-    "scran"
-  ],
+  "BatchQC": [],
   "BatchSVG": [],
-  "BayesSpace": [
-    "scran"
-  ],
+  "BayesSpace": [],
   "BgeeCall": [],
   "BgeeDB": [
     "zellkonverter"
   ],
   "BindingSiteFinder": [],
   "BioNERO": [],
-  "BioTIP": [
-    "scran"
-  ],
+  "BioTIP": [],
   "BulkSignalR": [
     "SpatialExperiment"
   ],
@@ -205,17 +196,12 @@
     "ensembldb"
   ],
   "ChIPseeker": [],
-  "ChromSCape": [
-    "batchelor",
-    "scran"
-  ],
+  "ChromSCape": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "SGSeq"
   ],
-  "CiteFuse": [
-    "scran"
-  ],
+  "CiteFuse": [],
   "CleanUpRNAseq": [
     "ensembldb"
   ],
@@ -234,9 +220,7 @@
     "biovizBase",
     "ensembldb"
   ],
-  "Coralysis": [
-    "scran"
-  ],
+  "Coralysis": [],
   "CoreGx": [],
   "CuratedAtlasQueryR": [],
   "DAMEfinder": [
@@ -276,8 +260,7 @@
   "DNAfusion": [],
   "DOtools": [
     "zellkonverter",
-    "scDblFinder",
-    "scran"
+    "scDblFinder"
   ],
   "DSS": [
     "bsseq"
@@ -295,15 +278,12 @@
     "bsseq"
   ],
   "DeconvoBuddies": [
-    "scran",
     "SpatialExperiment"
   ],
   "DeeDeeExperiment": [],
   "DegCre": [],
   "DegNorm": [],
-  "Dino": [
-    "scran"
-  ],
+  "Dino": [],
   "DominoEffect": [
     "VariantAnnotation"
   ],
@@ -361,7 +341,6 @@
     "bambu",
     "ggbio",
     "SpatialExperiment",
-    "scran",
     "biovizBase",
     "VariantAnnotation",
     "OrganismDbi",
@@ -545,15 +524,9 @@
   "MIRit": [],
   "MLInterfaces": [],
   "MOMA": [],
-  "MOSClip": [
-    "qpgraph"
-  ],
-  "MOSim": [
-    "scran"
-  ],
-  "MPAC": [
-    "scran"
-  ],
+  "MOSClip": [],
+  "MOSim": [],
+  "MPAC": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
@@ -798,8 +771,7 @@
   ],
   "RbowtieCuda": [],
   "RegionalST": [
-    "BayesSpace",
-    "scran"
+    "BayesSpace"
   ],
   "ReportingTools": [
     "GOstats",
@@ -917,16 +889,13 @@
     "ensembldb"
   ],
   "SpaNorm": [
-    "scran",
     "SpatialExperiment"
   ],
   "SpaceTrooper": [
     "SpatialExperiment",
     "SpatialExperimentIO"
   ],
-  "Spaniel": [
-    "scran"
-  ],
+  "Spaniel": [],
   "SparseSignatures": [],
   "SpatialExperiment": [],
   "SpatialExperimentIO": [
@@ -1084,7 +1053,6 @@
   "anansi": [
     "TreeSummarizedExperiment"
   ],
-  "animalcules": [],
   "annotatr": [
     "regioneR"
   ],
@@ -1115,7 +1083,6 @@
     "MLInterfaces",
     "QFeatures"
   ],
-  "batchelor": [],
   "bigmelon": [
     "wateRmelon",
     "minfi",
@@ -1191,21 +1158,15 @@
   "celaref": [
     "MAST"
   ],
-  "celda": [
-    "scran"
-  ],
+  "celda": [],
   "cfDNAPro": [],
   "cfTools": [],
   "chevreulPlot": [
     "chevreulProcess",
-    "scran",
-    "batchelor",
     "ensembldb"
   ],
   "chevreulProcess": [
-    "batchelor",
-    "ensembldb",
-    "scran"
+    "ensembldb"
   ],
   "chimeraviz": [
     "Gviz",
@@ -1229,9 +1190,7 @@
   ],
   "cleanUpdTSeq": [],
   "cliProfiler": [],
-  "clipper": [
-    "qpgraph"
-  ],
+  "clipper": [],
   "cliqueMS": [
     "xcms",
     "MSnbase",
@@ -1343,8 +1302,7 @@
     "VariantAnnotation"
   ],
   "decontX": [
-    "celda",
-    "scran"
+    "celda"
   ],
   "deconvR": [
     "minfi",
@@ -1408,13 +1366,10 @@
     "VariantAnnotation"
   ],
   "epiregulon": [
-    "scran",
     "motifmatchr",
     "TFBSTools"
   ],
-  "epiregulon.extra": [
-    "scran"
-  ],
+  "epiregulon.extra": [],
   "epivizr": [
     "epivizrData",
     "bumphunter",
@@ -1770,9 +1725,7 @@
   "motifmatchr": [
     "TFBSTools"
   ],
-  "msImpute": [
-    "scran"
-  ],
+  "msImpute": [],
   "msgbsR": [
     "ggbio",
     "biovizBase",
@@ -1804,10 +1757,7 @@
     "VariantAnnotation",
     "ensembldb"
   ],
-  "mumosa": [
-    "scran",
-    "batchelor"
-  ],
+  "mumosa": [],
   "muscat": [],
   "musicatk": [
     "VariantAnnotation",
@@ -1887,9 +1837,7 @@
   "phenomis": [
     "ropls"
   ],
-  "pipeComp": [
-    "scran"
-  ],
+  "pipeComp": [],
   "pipeFrame": [],
   "podkat": [],
   "poem": [
@@ -1926,7 +1874,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "qpgraph": [],
   "qsea": [],
   "quantro": [
     "minfi",
@@ -1992,18 +1939,12 @@
   "scClassify": [
     "Cepo"
   ],
-  "scDD": [
-    "scran"
-  ],
+  "scDD": [],
   "scDataviz": [],
-  "scDblFinder": [
-    "scran"
-  ],
+  "scDblFinder": [],
   "scDotPlot": [],
   "scMerge": [
-    "M3Drop",
-    "batchelor",
-    "scran"
+    "M3Drop"
   ],
   "scPipe": [],
   "scRNAseqApp": [
@@ -2019,7 +1960,6 @@
   ],
   "scTreeViz": [
     "epivizr",
-    "scran",
     "epivizrData",
     "bumphunter",
     "OrganismDbi",
@@ -2050,7 +1990,6 @@
   "scp": [
     "QFeatures"
   ],
-  "scran": [],
   "scruff": [
     "ggbio",
     "biovizBase",
@@ -2092,12 +2031,10 @@
     "SpatialExperiment"
   ],
   "singleCellTK": [
-    "batchelor",
     "ensembldb",
     "GSVA",
     "MAST",
     "scMerge",
-    "scran",
     "celda",
     "scDblFinder",
     "TSCAN",

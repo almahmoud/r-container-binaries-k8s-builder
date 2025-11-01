@@ -1553,3 +1553,7 @@ clustifyr
 evaluomeR
 projectR
 scater
+animalcules
+batchelor
+qpgraph
+scran
