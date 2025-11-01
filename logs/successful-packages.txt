@@ -1672,3 +1672,4 @@ tricycle
 CellTrails
 ORFhunteR
 SparseSignatures
+RegionalST
