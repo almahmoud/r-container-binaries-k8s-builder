@@ -187,7 +187,6 @@
     "SingleCellExperiment",
     "scuttle"
   ],
-  "BloodGen3Module": [],
   "BulkSignalR": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -226,7 +225,6 @@
   "CAMERA": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -311,9 +309,7 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "CTdata": [],
   "CTexploreR": [
-    "CTdata",
     "SingleCellExperiment"
   ],
   "CaMutQC": [
@@ -578,7 +574,6 @@
   "DeeDeeExperiment": [
     "SingleCellExperiment"
   ],
-  "DeepTarget": [],
   "DegCre": [
     "GenomicFeatures"
   ],
@@ -921,7 +916,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -977,7 +971,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -1013,7 +1006,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -1214,7 +1206,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "MsFeatures": [],
   "MsQuality": [
     "MsExperiment",
     "QFeatures",
@@ -1361,7 +1352,6 @@
   "PanomiR": [
     "clusterProfiler"
   ],
-  "PathoStat": [],
   "PepSetTest": [],
   "PhIPData": [],
   "PharmacoGx": [
@@ -2375,7 +2365,6 @@
     "xcms",
     "MSnbase",
     "PSMatch",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "MultiAssayExperiment"
@@ -2453,7 +2442,6 @@
   "cosmiq": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -2766,7 +2754,6 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -2830,7 +2817,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "gg4way": [],
   "ggbio": [
     "biovizBase",
     "BSgenome",
@@ -3102,7 +3088,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -3329,7 +3314,6 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "multiGSEA": [],
   "multicrispr": [
     "BSgenome",
     "CRISPRseek",
@@ -3369,7 +3353,6 @@
   "ncGTW": [
     "xcms",
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",
@@ -4044,7 +4027,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "sparrow": [],
   "spatialDE": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -4094,7 +4076,6 @@
     "MsExperiment",
     "QFeatures",
     "PSMatch",
-    "MsFeatures",
     "MultiAssayExperiment"
   ],
   "srnadiff": [
@@ -4105,7 +4086,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ssviz": [],
   "stJoincount": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -4318,7 +4298,6 @@
   ],
   "xcms": [
     "MSnbase",
-    "MsFeatures",
     "MsExperiment",
     "QFeatures",
     "PSMatch",

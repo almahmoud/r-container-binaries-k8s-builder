@@ -1326,3 +1326,12 @@ microbiomeExplorer
 RTNduals
 spqn
 ssPATHS
+BloodGen3Module
+CTdata
+DeepTarget
+gg4way
+MsFeatures
+multiGSEA
+PathoStat
+sparrow
+ssviz
