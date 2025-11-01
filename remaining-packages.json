@@ -350,7 +350,6 @@
     "ropls"
   ],
   "MungeSumstats": [],
-  "MutationalPatterns": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -361,7 +360,6 @@
     "biovizBase"
   ],
   "NanoMethViz": [],
-  "Nebulosa": [],
   "NoRCE": [],
   "OGRE": [
     "Gviz",
@@ -423,9 +421,7 @@
     "ChIPpeakAnno",
     "regioneR"
   ],
-  "RESOLVE": [
-    "MutationalPatterns"
-  ],
+  "RESOLVE": [],
   "RMassBank": [
     "MSnbase",
     "PSMatch",
@@ -524,7 +520,6 @@
   "SeqVarTools": [],
   "SiPSiC": [],
   "SigCheck": [],
-  "SigsPack": [],
   "SimBu": [],
   "SimFFPE": [],
   "SingleCellAlleleExperiment": [],
@@ -597,7 +592,6 @@
   "Ularcirc": [
     "Organism.dplyr"
   ],
-  "Uniquorn": [],
   "VCFArray": [
     "GenomicFiles"
   ],
@@ -916,34 +910,20 @@
   "iCheck": [
     "lumi"
   ],
-  "iSEE": [],
-  "iSEEde": [
-    "iSEE"
-  ],
+  "iSEEde": [],
   "iSEEfier": [
-    "iSEE",
     "iSEEu",
     "iSEEhex"
   ],
-  "iSEEhex": [
-    "iSEE"
-  ],
-  "iSEEhub": [
-    "iSEE"
-  ],
-  "iSEEindex": [
-    "iSEE"
-  ],
-  "iSEEpathways": [
-    "iSEE"
-  ],
+  "iSEEhex": [],
+  "iSEEhub": [],
+  "iSEEindex": [],
+  "iSEEpathways": [],
   "iSEEtree": [
-    "iSEE",
     "miaViz",
     "mia"
   ],
   "iSEEu": [
-    "iSEE",
     "iSEEhex"
   ],
   "icetea": [],
@@ -1011,7 +991,6 @@
     "annotatr",
     "regioneR"
   ],
-  "methylCC": [],
   "methylGSA": [
     "missMethyl"
   ],
@@ -1029,7 +1008,6 @@
   "miRLAB": [],
   "mia": [],
   "miaDash": [
-    "iSEE",
     "iSEEtree",
     "mia",
     "miaViz"

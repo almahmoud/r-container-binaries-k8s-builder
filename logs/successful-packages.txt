@@ -1777,3 +1777,9 @@ TrajectoryUtils
 TreeSummarizedExperiment
 categoryCompare
 SNPhood
+iSEE
+methylCC
+MutationalPatterns
+Nebulosa
+SigsPack
+Uniquorn

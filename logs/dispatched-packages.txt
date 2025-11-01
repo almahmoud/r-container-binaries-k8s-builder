@@ -1940,3 +1940,9 @@ mia
 miaSim
 slingshot
 treeclimbR
+RESOLVE
+iSEEde
+iSEEhex
+iSEEhub
+iSEEindex
+iSEEpathways
