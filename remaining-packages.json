@@ -262,9 +262,7 @@
     "QFeatures",
     "PSMatch"
   ],
-  "Ibex": [
-    "scRepertoire"
-  ],
+  "Ibex": [],
   "IntEREst": [
     "GenomicFiles"
   ],
@@ -373,7 +371,6 @@
   ],
   "NanoMethViz": [],
   "Nebulosa": [],
-  "NewWave": [],
   "NoRCE": [],
   "OGRE": [
     "Gviz",
@@ -1250,7 +1247,6 @@
     "slingshot",
     "TrajectoryUtils"
   ],
-  "scRepertoire": [],
   "scTensor": [],
   "scTreeViz": [
     "epivizr",

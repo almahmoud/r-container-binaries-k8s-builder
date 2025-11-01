@@ -1766,3 +1766,5 @@ GSEABenchmarkeR
 ITALICS
 DSS
 MIRA
+NewWave
+scRepertoire

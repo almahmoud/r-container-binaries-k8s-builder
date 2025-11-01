@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1768 (78%)
+- **Successfully Built:** 1770 (78%)
 - **Failed:** 2 (0%)
-- **In Progress:** 153
-- **Not Started:** 321
+- **In Progress:** 157
+- **Not Started:** 315
 
 **Progress:** 78%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1768)
+## Successfully Built Packages (1770)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1718 more ...*
+*... and 1720 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,10 +83,12 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (153)
+## In Progress (157)
+- ⏳ `COCOA`
 - ⏳ `CexoR`
 - ⏳ `ChIPXpress`
 - ⏳ `DOtools`
+- ⏳ `DeMixT`
 - ⏳ `EasyCellType`
 - ⏳ `EpiCompare`
 - ⏳ `GA4GHclient`
@@ -116,7 +118,6 @@
 - ⏳ `MutationalPatterns`
 - ⏳ `NanoMethViz`
 - ⏳ `Nebulosa`
-- ⏳ `NewWave`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
@@ -133,11 +134,10 @@
 - ⏳ `RareVariantVis`
 - ⏳ `Rmmquant`
 - ⏳ `RnBeads`
-- ⏳ `SC3`
 
-... and 103 more ...
+... and 107 more ...
 
-## Not Yet Started (321)
+## Not Yet Started (315)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -157,7 +157,6 @@
 - ⏸️ `CARDspa`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `COCOA`
 - ⏸️ `CTSV`
 - ⏸️ `CatsCradle`
 - ⏸️ `ChAMP`
@@ -172,7 +171,6 @@
 - ⏸️ `DESpace`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
-- ⏸️ `DeMixT`
 - ⏸️ `DeconvoBuddies`
 - ⏸️ `DspikeIn`
 - ⏸️ `DuplexDiscovereR`
@@ -188,9 +186,11 @@
 - ⏸️ `GNOSIS`
 - ⏸️ `GSReg`
 - ⏸️ `GSVA`
+- ⏸️ `GUIDEseq`
+- ⏸️ `GeneStructureTools`
 
-... and 271 more ...
+... and 265 more ...
 
 ---
-*Last updated: 2025-11-01 05:15:19 UTC*
+*Last updated: 2025-11-01 05:17:07 UTC*
 *Packages with verified BBS status: 145*
