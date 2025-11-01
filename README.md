@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1135 (50%)
+- **Successfully Built:** 1145 (51%)
 - **Failed:** 2 (0%)
-- **In Progress:** 233
-- **Not Started:** 874
+- **In Progress:** 226
+- **Not Started:** 871
 
-**Progress:** 50%
+**Progress:** 51%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1135)
+## Successfully Built Packages (1145)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1085 more ...*
+*... and 1095 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,11 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (233)
+## In Progress (226)
+- ⏳ `ACE`
 - ⏳ `BSgenome`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
-- ⏳ `ChIPsim`
 - ⏳ `ChromHeatMap`
 - ⏳ `CoverageView`
 - ⏳ `CyTOFpower`
@@ -103,10 +103,9 @@
 - ⏳ `EGAD`
 - ⏳ `ERSSA`
 - ⏳ `ExCluster`
-- ⏳ `ExperimentHub`
-- ⏳ `FastqCleaner`
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
+- ⏳ `GeneBreak`
 - ⏳ `GenomicFeatures`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
@@ -134,11 +133,11 @@
 - ⏳ `MLP`
 - ⏳ `MODA`
 - ⏳ `MPRAnalyze`
+- ⏳ `MWASTools`
 
-... and 183 more ...
+... and 176 more ...
 
-## Not Yet Started (874)
-- ⏸️ `ACE`
+## Not Yet Started (871)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -188,9 +187,10 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
+- ⏸️ `CARDspa`
 
-... and 824 more ...
+... and 821 more ...
 
 ---
-*Last updated: 2025-11-01 01:56:41 UTC*
+*Last updated: 2025-11-01 01:59:07 UTC*
 *Packages with verified BBS status: 118*

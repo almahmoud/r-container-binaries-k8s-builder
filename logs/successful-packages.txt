@@ -1133,3 +1133,13 @@ QDNAseq
 quantiseqr
 wpm
 yamss
+ChIPsim
+ExperimentHub
+FastqCleaner
+gemma.R
+getDEE2
+multistateQTL
+nucleR
+OTUbase
+segmentSeq
+TCGAbiolinks
