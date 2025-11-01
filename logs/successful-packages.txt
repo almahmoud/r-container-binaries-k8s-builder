@@ -1674,3 +1674,6 @@ ORFhunteR
 SparseSignatures
 RegionalST
 scDotPlot
+ClusterFoldSimilarity
+MotifPeeker
+TAPseq

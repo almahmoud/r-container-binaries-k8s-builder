@@ -158,7 +158,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "ClusterFoldSimilarity": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -469,7 +468,6 @@
   "MoleculeExperiment": [
     "SpatialExperiment"
   ],
-  "MotifPeeker": [],
   "MsDataHub": [],
   "MsExperiment": [
     "QFeatures"
@@ -762,7 +760,6 @@
   "SurfR": [
     "SPsimSeq"
   ],
-  "TAPseq": [],
   "TBSignatureProfiler": [
     "GSVA",
     "SpatialExperiment"
