@@ -1,3 +1,0 @@
-RTCGAToolbox
-glmSparseNet
-terraTCGAdata

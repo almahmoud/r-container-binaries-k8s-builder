@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2029 (90%)
+- **Successfully Built:** 2031 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 108
-- **Not Started:** 105
+- **In Progress:** 109
+- **Not Started:** 102
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2029)
+## Successfully Built Packages (2031)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1979 more ...*
+*... and 1981 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (108)
+## In Progress (109)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
@@ -115,11 +115,10 @@
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
+- ⏳ `RTCGAToolbox`
 - ⏳ `Rqc`
 - ⏳ `SCArray.sat`
-- ⏳ `SEraster`
 - ⏳ `SOMNiBUS`
-- ⏳ `SPIAT`
 - ⏳ `SVP`
 - ⏳ `SingleCellSignalR`
 - ⏳ `SpaNorm`
@@ -134,10 +133,11 @@
 - ⏳ `alabaster.spatial`
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
+- ⏳ `circRNAprofiler`
 
-... and 58 more ...
+... and 59 more ...
 
-## Not Yet Started (105)
+## Not Yet Started (102)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -171,7 +171,6 @@
 - ⏸️ `R3CPET`
 - ⏸️ `RMassBank`
 - ⏸️ `RNAAgeCalc`
-- ⏸️ `RTCGAToolbox`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
 - ⏸️ `RnaSeqSampleSize`
@@ -188,9 +187,10 @@
 - ⏸️ `alabaster.sfe`
 - ⏸️ `bandle`
 - ⏸️ `bioCancer`
+- ⏸️ `biscuiteer`
 
-... and 55 more ...
+... and 52 more ...
 
 ---
-*Last updated: 2025-11-01 06:57:57 UTC*
+*Last updated: 2025-11-01 06:59:20 UTC*
 *Packages with verified BBS status: 147*

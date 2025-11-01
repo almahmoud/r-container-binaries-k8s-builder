@@ -2027,3 +2027,5 @@ SurfR
 HiCaptuRe
 lemur
 TCGAutils
+SEraster
+SPIAT
