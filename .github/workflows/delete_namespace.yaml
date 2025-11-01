@@ -9,6 +9,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Save kubeconfig
         shell: bash
@@ -57,6 +61,34 @@ jobs:
             echo "Namespace ${NAMESPACE} deleted successfully"
           else
             echo "Namespace ${NAMESPACE} does not exist, nothing to delete"
+          fi
+
+      - name: Rename branch to archive
+        run: |
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          
+          # Check if branch starts with build/
+          if [[ "${BRANCH_NAME}" == build/* ]]; then
+            # Create new branch name with archive/ prefix
+            ARCHIVE_BRANCH=$(echo "${BRANCH_NAME}" | sed 's|^build/|archive/|')
+            
+            echo "Renaming branch from ${BRANCH_NAME} to ${ARCHIVE_BRANCH}"
+            
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email 'actions@github.com'
+            
+            # Create the archive branch from current HEAD
+            git checkout -b "${ARCHIVE_BRANCH}"
+            
+            # Push the new archive branch
+            git push origin "${ARCHIVE_BRANCH}"
+            
+            # Delete the old build branch
+            git push origin --delete "${BRANCH_NAME}"
+            
+            echo "Branch renamed successfully"
+          else
+            echo "Branch does not start with build/, skipping rename"
           fi
 
       - name: Summary
