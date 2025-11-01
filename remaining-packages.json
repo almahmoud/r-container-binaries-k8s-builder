@@ -107,7 +107,6 @@
     "goseq",
     "missMethyl",
     "Gviz",
-    "methylumi",
     "lumi",
     "biovizBase"
   ],
@@ -153,8 +152,7 @@
   "DMRcate": [
     "missMethyl",
     "Gviz",
-    "biovizBase",
-    "methylumi"
+    "biovizBase"
   ],
   "DOtools": [],
   "DSS": [],
@@ -287,7 +285,6 @@
   ],
   "ITALICS": [],
   "Ibex": [
-    "immApex",
     "scRepertoire"
   ],
   "InPAS": [],
@@ -308,8 +305,7 @@
   "LoomExperiment": [],
   "MACSr": [],
   "MAGAR": [
-    "RnBeads",
-    "methylumi"
+    "RnBeads"
   ],
   "MAIT": [
     "CAMERA",
@@ -323,12 +319,10 @@
   "MEAL": [
     "Gviz",
     "missMethyl",
-    "biovizBase",
-    "methylumi"
+    "biovizBase"
   ],
   "MEAT": [
     "wateRmelon",
-    "methylumi",
     "lumi"
   ],
   "MGnifyR": [
@@ -375,8 +369,7 @@
   "MicrobiomeProfiler": [],
   "MineICA": [
     "GOstats",
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "MoleculeExperiment": [
     "SpatialExperiment"
@@ -529,9 +522,7 @@
     "OrganismDbi"
   ],
   "Rmmquant": [],
-  "RnBeads": [
-    "methylumi"
-  ],
+  "RnBeads": [],
   "RnaSeqSampleSize": [
     "recount",
     "derfinder",
@@ -729,8 +720,7 @@
     "OrganismDbi"
   ],
   "arrayMvout": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "atSNP": [
     "motifStack"
@@ -747,7 +737,6 @@
   ],
   "bigmelon": [
     "wateRmelon",
-    "methylumi",
     "lumi"
   ],
   "bioCancer": [
@@ -946,8 +935,7 @@
   "fCCAC": [],
   "fcScan": [],
   "ffpe": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "flagme": [
     "xcms",
@@ -997,8 +985,7 @@
   ],
   "hpar": [],
   "iCheck": [
-    "lumi",
-    "methylumi"
+    "lumi"
   ],
   "iSEE": [],
   "iSEEde": [
@@ -1042,7 +1029,6 @@
     "SpatialExperiment",
     "cytomapper"
   ],
-  "immApex": [],
   "infercnv": [],
   "intansv": [
     "ggbio",
@@ -1082,9 +1068,7 @@
     "cytomapper"
   ],
   "looking4clusters": [],
-  "lumi": [
-    "methylumi"
-  ],
+  "lumi": [],
   "maaslin3": [
     "TreeSummarizedExperiment"
   ],
@@ -1115,8 +1099,7 @@
   "methrix": [],
   "methylCC": [],
   "methylGSA": [
-    "missMethyl",
-    "methylumi"
+    "missMethyl"
   ],
   "methylPipe": [
     "Gviz",
@@ -1130,7 +1113,6 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "methylumi": [],
   "miQC": [],
   "miRLAB": [
     "GOstats"
@@ -1158,10 +1140,7 @@
   ],
   "midasHLA": [],
   "miloR": [],
-  "mimager": [],
-  "missMethyl": [
-    "methylumi"
-  ],
+  "missMethyl": [],
   "missRows": [],
   "mitoClone2": [
     "deepSNV"
@@ -1294,7 +1273,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "puma": [],
   "qPLEXanalyzer": [
     "MSnbase",
     "PSMatch",
@@ -1341,9 +1319,7 @@
     "slingshot",
     "TrajectoryUtils"
   ],
-  "scRepertoire": [
-    "immApex"
-  ],
+  "scRepertoire": [],
   "scTensor": [
     "GOstats"
   ],
@@ -1398,7 +1374,6 @@
   ],
   "sitadela": [],
   "skewr": [
-    "methylumi",
     "wateRmelon",
     "lumi"
   ],
@@ -1528,7 +1503,6 @@
     "regioneR"
   ],
   "wateRmelon": [
-    "methylumi",
     "lumi"
   ],
   "xcms": [

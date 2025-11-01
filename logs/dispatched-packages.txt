@@ -1908,3 +1908,7 @@ DrugVsDisease
 GSEABenchmarkeR
 zenith
 ChIPXpress
+RnBeads
+lumi
+missMethyl
+scRepertoire
