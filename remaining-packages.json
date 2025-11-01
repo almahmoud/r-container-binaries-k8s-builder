@@ -1254,7 +1254,6 @@
     "HiCcompare"
   ],
   "HiCExperiment": [],
-  "HiCParser": [],
   "HiCPotts": [
     "rtracklayer",
     "BSgenome"
@@ -1827,7 +1826,6 @@
   ],
   "OVESEG": [],
   "OmaDB": [],
-  "OncoScore": [],
   "Organism.dplyr": [
     "GenomicFeatures",
     "rtracklayer"
@@ -1852,8 +1850,7 @@
   ],
   "PDATK": [
     "MultiAssayExperiment",
-    "CoreGx",
-    "genefu"
+    "CoreGx"
   ],
   "PECA": [
     "genefilter",
@@ -1944,7 +1941,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "ProteoMM": [],
   "PureCN": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -2385,7 +2381,6 @@
     "SingleCellExperiment",
     "SpatialExperiment"
   ],
-  "SWATH2stats": [],
   "SanityR": [
     "scuttle",
     "SingleCellExperiment"
@@ -2737,7 +2732,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "VariantExperiment": [],
   "VariantFiltering": [
     "VariantAnnotation",
     "GenomicFeatures",
@@ -2755,7 +2749,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "VegaMC": [],
   "ViSEAGO": [
     "AnnotationForge"
   ],
@@ -2955,7 +2948,6 @@
   "autonomics": [
     "MultiAssayExperiment"
   ],
-  "awst": [],
   "ballgown": [
     "sva",
     "rtracklayer",
@@ -3354,7 +3346,6 @@
   ],
   "consensusOV": [
     "GSVA",
-    "genefu",
     "GSEABase",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -3608,7 +3599,6 @@
     "GenomicFeatures",
     "annotate"
   ],
-  "diffcoexp": [],
   "diffcyt": [],
   "distinct": [
     "SingleCellExperiment",
@@ -3898,7 +3888,6 @@
   "genefilter": [
     "annotate"
   ],
-  "genefu": [],
   "geneplotter": [
     "annotate"
   ],
@@ -5504,7 +5493,6 @@
     "ensembldb",
     "GSVA",
     "SpatialExperiment",
-    "genefu",
     "GenomicFeatures",
     "rtracklayer",
     "GSEABase",

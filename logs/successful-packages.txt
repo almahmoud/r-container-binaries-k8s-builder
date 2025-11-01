@@ -1049,3 +1049,12 @@ goSTAG
 MICSQTL
 MouseFM
 oposSOM
+awst
+diffcoexp
+genefu
+HiCParser
+OncoScore
+ProteoMM
+SWATH2stats
+VariantExperiment
+VegaMC
