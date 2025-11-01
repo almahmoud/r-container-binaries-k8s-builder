@@ -84,7 +84,6 @@
   "Banksy": [
     "SpatialExperiment"
   ],
-  "Basic4Cseq": [],
   "BatchQC": [
     "scran",
     "scuttle"
@@ -179,7 +178,6 @@
     "MIRA",
     "bsseq"
   ],
-  "CODEX": [],
   "COTAN": [],
   "CRISPRseek": [],
   "CSSQ": [],
@@ -228,7 +226,6 @@
     "frma",
     "oligo"
   ],
-  "ChIPanalyser": [],
   "ChIPexoQual": [
     "biovizBase",
     "VariantAnnotation",
@@ -462,7 +459,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOTHiC": [],
   "GOpro": [],
   "GOstats": [
     "Category"
@@ -1786,9 +1782,7 @@
     "SpatialExperiment"
   ],
   "hpar": [],
-  "iCNV": [
-    "CODEX"
-  ],
+  "iCNV": [],
   "iCheck": [
     "lumi",
     "methylumi",
@@ -2176,7 +2170,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "pathlinkR": [],
   "pcaExplorer": [
     "mosdef",
     "GOstats",

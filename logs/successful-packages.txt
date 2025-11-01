@@ -1452,3 +1452,8 @@ PAA
 PROPS
 scGPS
 tigre
+Basic4Cseq
+ChIPanalyser
+CODEX
+GOTHiC
+pathlinkR

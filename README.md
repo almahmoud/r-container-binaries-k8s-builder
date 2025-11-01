@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1454 (64%)
+- **Successfully Built:** 1459 (65%)
 - **Failed:** 2 (0%)
-- **In Progress:** 257
-- **Not Started:** 531
+- **In Progress:** 256
+- **Not Started:** 527
 
-**Progress:** 64%
+**Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1454)
+## Successfully Built Packages (1459)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1404 more ...*
+*... and 1409 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (257)
+## In Progress (256)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -92,7 +92,6 @@
 - ⏳ `AffiXcan`
 - ⏳ `BERT`
 - ⏳ `BUSseq`
-- ⏳ `Basic4Cseq`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
@@ -101,7 +100,6 @@
 - ⏳ `CEMiTool`
 - ⏳ `CHETAH`
 - ⏳ `CNTools`
-- ⏳ `CODEX`
 - ⏳ `COTAN`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
@@ -113,7 +111,6 @@
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPComp`
-- ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `ClassifyR`
 - ⏳ `ClusterFoldSimilarity`
@@ -133,11 +130,14 @@
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GDCRNATools`
-- ⏳ `GOTHiC`
+- ⏳ `GOpro`
+- ⏳ `GSRI`
+- ⏳ `GeneMeta`
+- ⏳ `GenomicInteractionNodes`
 
-... and 207 more ...
+... and 206 more ...
 
-## Not Yet Started (531)
+## Not Yet Started (527)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 
-... and 481 more ...
+... and 477 more ...
 
 ---
-*Last updated: 2025-11-01 03:19:14 UTC*
+*Last updated: 2025-11-01 03:20:23 UTC*
 *Packages with verified BBS status: 129*
