@@ -1428,3 +1428,12 @@ safe
 scry
 sva
 tilingArray
+biocGraph
+BLMA
+countsimQC
+DNEA
+EDASeq
+Glimma
+GlobalAncova
+PanomiR
+ReducedExperiment

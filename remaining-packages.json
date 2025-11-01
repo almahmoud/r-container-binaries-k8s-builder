@@ -36,7 +36,6 @@
     "GOstats",
     "oligoClasses",
     "ReportingTools",
-    "Glimma",
     "Category",
     "ggbio",
     "biovizBase",
@@ -72,7 +71,6 @@
   ],
   "BEAT": [],
   "BERT": [],
-  "BLMA": [],
   "BOBaFIT": [
     "ggbio",
     "biovizBase",
@@ -326,7 +324,6 @@
     "VariantAnnotation"
   ],
   "DNAfusion": [],
-  "DNEA": [],
   "DOtools": [
     "zellkonverter",
     "DropletUtils",
@@ -338,9 +335,7 @@
   "DSS": [
     "bsseq"
   ],
-  "DaMiRseq": [
-    "EDASeq"
-  ],
+  "DaMiRseq": [],
   "Damsel": [
     "ggbio",
     "goseq",
@@ -392,7 +387,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "EDASeq": [],
   "EGSEA": [
     "GSVA",
     "SpatialExperiment"
@@ -464,8 +458,7 @@
     "VariantAnnotation"
   ],
   "GARS": [
-    "DaMiRseq",
-    "EDASeq"
+    "DaMiRseq"
   ],
   "GDCRNATools": [],
   "GENESIS": [
@@ -529,9 +522,7 @@
     "genomation",
     "txdbmaker"
   ],
-  "Glimma": [],
   "GloScope": [],
-  "GlobalAncova": [],
   "GmicR": [
     "Category",
     "GOstats"
@@ -832,7 +823,6 @@
   "PSMatch": [
     "QFeatures"
   ],
-  "PanomiR": [],
   "PharmacoGx": [
     "CoreGx"
   ],
@@ -949,9 +939,7 @@
     "TCGAutils"
   ],
   "RUCova": [],
-  "RUVSeq": [
-    "EDASeq"
-  ],
+  "RUVSeq": [],
   "RadioGx": [
     "CoreGx"
   ],
@@ -959,7 +947,6 @@
     "VariantAnnotation"
   ],
   "RbowtieCuda": [],
-  "ReducedExperiment": [],
   "RegionalST": [
     "scater",
     "BayesSpace",
@@ -1268,7 +1255,6 @@
     "GOstats",
     "oligoClasses",
     "ReportingTools",
-    "Glimma",
     "Category",
     "ggbio",
     "biovizBase",
@@ -1355,7 +1341,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "biocGraph": [],
   "biomvRCNS": [
     "Gviz",
     "ensembldb",
@@ -1522,7 +1507,6 @@
     "scuttle"
   ],
   "consensusDE": [
-    "EDASeq",
     "ensembldb",
     "RUVSeq"
   ],
@@ -1542,7 +1526,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "countsimQC": [],
   "cpvSNP": [],
   "crisprBowtie": [],
   "crisprBwa": [],
@@ -1979,7 +1962,6 @@
   ],
   "metaseqR2": [
     "DSS",
-    "EDASeq",
     "txdbmaker",
     "bsseq"
   ],
@@ -2175,7 +2157,6 @@
   "notameViz": [],
   "octad": [
     "RUVSeq",
-    "EDASeq",
     "GSVA",
     "SpatialExperiment"
   ],
@@ -2350,7 +2331,6 @@
     "txdbmaker"
   ],
   "ribosomeProfilingQC": [
-    "EDASeq",
     "motifStack",
     "RUVSeq",
     "txdbmaker",
@@ -2466,8 +2446,7 @@
     "regioneR"
   ],
   "scone": [
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "scoreInvHap": [
     "VariantAnnotation"
@@ -2506,8 +2485,7 @@
     "standR",
     "scuttle",
     "SpatialExperiment",
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "shinyMethyl": [
     "minfi",
@@ -2639,8 +2617,7 @@
   ],
   "standR": [
     "SpatialExperiment",
-    "RUVSeq",
-    "EDASeq"
+    "RUVSeq"
   ],
   "strandCheckR": [],
   "survClust": [],

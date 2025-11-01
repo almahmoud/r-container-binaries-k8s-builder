@@ -1708,3 +1708,5 @@ edge
 omicRexposome
 qsmooth
 qsvaR
+DaMiRseq
+RUVSeq

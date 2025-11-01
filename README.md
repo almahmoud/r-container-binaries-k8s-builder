@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1430 (63%)
+- **Successfully Built:** 1439 (64%)
 - **Failed:** 2 (0%)
-- **In Progress:** 252
-- **Not Started:** 560
+- **In Progress:** 269
+- **Not Started:** 534
 
-**Progress:** 63%
+**Progress:** 64%
 ```
-███████████████████████████████░░░░░░░░░░░░░░░░░░░
+████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1430)
+## Successfully Built Packages (1439)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1380 more ...*
+*... and 1389 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,18 +83,22 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (252)
+## In Progress (269)
 - ⏳ `ADImpute`
+- ⏳ `ADaCGH2`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
+- ⏳ `ASSIGN`
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
 - ⏳ `BEAT`
-- ⏳ `BLMA`
+- ⏳ `BERT`
 - ⏳ `BSgenomeForge`
 - ⏳ `BUSseq`
 - ⏳ `Basic4Cseq`
+- ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
+- ⏳ `BioNERO`
 - ⏳ `CBNplot`
 - ⏳ `CDI`
 - ⏳ `CEMiTool`
@@ -121,27 +125,21 @@
 - ⏳ `CoreGx`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `DEXSeq`
+- ⏳ `DExMA`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
-- ⏳ `DNEA`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
-- ⏳ `EDASeq`
 - ⏳ `EasyCellType`
+- ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
-- ⏳ `GDCRNATools`
-- ⏳ `GOTHiC`
-- ⏳ `GOpro`
-- ⏳ `GSRI`
 
-... and 202 more ...
+... and 219 more ...
 
-## Not Yet Started (560)
-- ⏸️ `ADaCGH2`
+## Not Yet Started (534)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
-- ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -152,17 +150,14 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `BatchQC`
-- ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
-- ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
@@ -188,9 +183,14 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CiteFuse`
+- ⏸️ `CleanUpRNAseq`
+- ⏸️ `CluMSID`
+- ⏸️ `CopyNumberPlots`
+- ⏸️ `Coralysis`
+- ⏸️ `DAMEfinder`
 
-... and 510 more ...
+... and 484 more ...
 
 ---
-*Last updated: 2025-11-01 03:10:27 UTC*
+*Last updated: 2025-11-01 03:12:37 UTC*
 *Packages with verified BBS status: 127*
