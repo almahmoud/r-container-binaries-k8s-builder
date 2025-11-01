@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2148 (95%)
+- **Successfully Built:** 2186 (97%)
 - **Failed:** 2 (0%)
-- **In Progress:** 42
+- **In Progress:** 4
 - **Not Started:** 52
 
-**Progress:** 95%
+**Progress:** 97%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2148)
+## Successfully Built Packages (2186)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2098 more ...*
+*... and 2136 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vmrseq](https://bioconductor.org/packages/3.22/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.22/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.22/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vtpnet) |
@@ -65,6 +64,7 @@
 | [wiggleplotr](https://bioconductor.org/packages/3.22/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.22/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wpm) |
 | [xCell2](https://bioconductor.org/packages/3.22/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xCell2) |
+| [xcms](https://bioconductor.org/packages/3.22/bioc/html/xcms.html) | [log](logs/xcms/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xcms) |
 | [xcore](https://bioconductor.org/packages/3.22/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.22/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
@@ -83,49 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (42)
-- ⏳ `AnnotationHubData`
+## In Progress (4)
 - ⏳ `ChAMP`
-- ⏳ `CluMSID`
-- ⏳ `DAPAR`
-- ⏳ `GSReg`
-- ⏳ `MAGAR`
 - ⏳ `MEAL`
-- ⏳ `MEAT`
-- ⏳ `MSstatsQCgui`
-- ⏳ `NADfinder`
-- ⏳ `PRONE`
-- ⏳ `RAIDS`
-- ⏳ `RMassBank`
-- ⏳ `SOMNiBUS`
-- ⏳ `SingleMoleculeFootprinting`
-- ⏳ `TFutils`
-- ⏳ `VCFArray`
 - ⏳ `appreci8R`
-- ⏳ `bigmelon`
-- ⏳ `biscuiteer`
-- ⏳ `cBioPortalData`
-- ⏳ `compEpiTools`
-- ⏳ `crisprViz`
-- ⏳ `derfinder`
 - ⏳ `epimutacions`
-- ⏳ `epivizrData`
-- ⏳ `ggbio`
-- ⏳ `iSEEfier`
-- ⏳ `methylGSA`
-- ⏳ `msmsEDA`
-- ⏳ `omXplore`
-- ⏳ `pRoloc`
-- ⏳ `peakPantheR`
-- ⏳ `ptairMS`
-- ⏳ `qPLEXanalyzer`
-- ⏳ `shinyDSP`
-- ⏳ `signifinder`
-- ⏳ `singleCellTK`
-- ⏳ `skewr`
-- ⏳ `spicyR`
-- ⏳ `topdownr`
-- ⏳ `xcms`
 
 ## Not Yet Started (52)
 - ⏸️ `AHMassBank`
@@ -182,5 +144,5 @@
 ... and 2 more ...
 
 ---
-*Last updated: 2025-11-01 07:56:10 UTC*
-*Packages with verified BBS status: 150*
+*Last updated: 2025-11-01 08:28:11 UTC*
+*Packages with verified BBS status: 151*

@@ -1,219 +1,91 @@
 {
-  "AHMassBank": [
-    "AnnotationHubData"
-  ],
+  "AHMassBank": [],
   "AgiMicroRna": [
     "affycoretools",
-    "ReportingTools",
-    "ggbio"
+    "ReportingTools"
   ],
-  "AnnotationHubData": [],
-  "BOBaFIT": [
-    "ggbio"
-  ],
-  "CAFE": [
-    "ggbio"
-  ],
-  "CAMERA": [
-    "xcms"
-  ],
+  "BOBaFIT": [],
+  "CAFE": [],
+  "CAMERA": [],
   "ChAMP": [],
-  "CluMSID": [],
-  "DAPAR": [],
-  "Damsel": [
-    "ggbio"
-  ],
-  "ExperimentHubData": [
-    "AnnotationHubData"
-  ],
-  "FLAMES": [
-    "ggbio"
-  ],
-  "GNOSIS": [
-    "cBioPortalData"
-  ],
-  "GSReg": [],
-  "GenomicOZone": [
-    "ggbio"
-  ],
+  "Damsel": [],
+  "ExperimentHubData": [],
+  "FLAMES": [],
+  "GNOSIS": [],
+  "GenomicOZone": [],
   "IPO": [
-    "xcms",
     "CAMERA"
   ],
   "LOBSTAHS": [
-    "xcms",
     "CAMERA"
   ],
-  "MAGAR": [],
   "MAIT": [
-    "CAMERA",
-    "xcms"
+    "CAMERA"
   ],
   "MEAL": [],
-  "MEAT": [],
   "MSnID": [
-    "msmsTests",
-    "msmsEDA"
+    "msmsTests"
   ],
-  "MSstatsQCgui": [],
-  "NADfinder": [],
-  "PRONE": [],
-  "Prostar": [
-    "DAPAR"
-  ],
-  "R3CPET": [
-    "ggbio"
-  ],
-  "RAIDS": [],
-  "RMassBank": [],
+  "Prostar": [],
+  "R3CPET": [],
   "RNAAgeCalc": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
   "RbowtieCuda": [],
-  "ReportingTools": [
-    "ggbio"
-  ],
-  "RiboProfiling": [
-    "ggbio"
-  ],
+  "ReportingTools": [],
+  "RiboProfiling": [],
   "RnaSeqSampleSize": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
-  "SOMNiBUS": [],
-  "SingleMoleculeFootprinting": [],
-  "SomaticSignatures": [
-    "ggbio"
-  ],
-  "TFutils": [],
-  "VCFArray": [],
+  "SomaticSignatures": [],
   "YAPSA": [
-    "SomaticSignatures",
-    "ggbio"
+    "SomaticSignatures"
   ],
   "affycoretools": [
-    "ReportingTools",
-    "ggbio"
+    "ReportingTools"
   ],
   "appreci8R": [],
-  "bandle": [
-    "pRoloc"
-  ],
-  "bigmelon": [],
-  "bioCancer": [
-    "cBioPortalData"
-  ],
-  "biscuiteer": [],
-  "cBioPortalData": [],
-  "cageminer": [
-    "ggbio"
-  ],
-  "canceR": [
-    "cBioPortalData"
-  ],
-  "cbaf": [
-    "cBioPortalData"
-  ],
-  "cliqueMS": [
-    "xcms"
-  ],
-  "compEpiTools": [],
-  "cosmiq": [
-    "xcms"
-  ],
-  "crisprShiny": [
-    "crisprViz"
-  ],
-  "crisprVerse": [
-    "crisprViz"
-  ],
-  "crisprViz": [],
-  "derfinder": [],
-  "derfinderPlot": [
-    "derfinder",
-    "ggbio"
-  ],
+  "bandle": [],
+  "bioCancer": [],
+  "cageminer": [],
+  "canceR": [],
+  "cbaf": [],
+  "cliqueMS": [],
+  "cosmiq": [],
+  "crisprShiny": [],
+  "crisprVerse": [],
+  "derfinderPlot": [],
   "epimutacions": [],
-  "epivizr": [
-    "epivizrData"
-  ],
-  "epivizrChart": [
-    "epivizrData"
-  ],
-  "epivizrData": [],
+  "epivizr": [],
+  "epivizrChart": [],
   "epivizrStandalone": [
-    "epivizr",
-    "epivizrData"
+    "epivizr"
   ],
   "flagme": [
-    "xcms",
     "CAMERA"
   ],
-  "ggbio": [],
-  "iSEEfier": [],
-  "intansv": [
-    "ggbio"
-  ],
-  "lisaClust": [
-    "spicyR"
-  ],
+  "intansv": [],
+  "lisaClust": [],
   "metaMS": [
-    "CAMERA",
-    "xcms"
+    "CAMERA"
   ],
-  "methylGSA": [],
   "methylclock": [
-    "ExperimentHubData",
-    "AnnotationHubData"
+    "ExperimentHubData"
   ],
-  "msgbsR": [
-    "ggbio"
-  ],
-  "msmsEDA": [],
-  "msmsTests": [
-    "msmsEDA"
-  ],
-  "ncGTW": [
-    "xcms"
-  ],
-  "omXplore": [],
-  "pRoloc": [],
-  "pRolocGUI": [
-    "pRoloc"
-  ],
-  "peakPantheR": [],
+  "msgbsR": [],
+  "msmsTests": [],
+  "ncGTW": [],
+  "pRolocGUI": [],
   "psichomics": [
-    "recount",
-    "derfinder"
+    "recount"
   ],
-  "ptairMS": [],
-  "qPLEXanalyzer": [],
-  "recount": [
-    "derfinder"
-  ],
-  "regionReport": [
-    "derfinder"
-  ],
+  "recount": [],
+  "regionReport": [],
   "sangeranalyseR": [],
   "scTreeViz": [
-    "epivizr",
-    "epivizrData"
+    "epivizr"
   ],
-  "scafari": [
-    "ggbio"
-  ],
-  "scruff": [
-    "ggbio"
-  ],
-  "shinyDSP": [],
-  "signifinder": [],
-  "singleCellTK": [],
-  "skewr": [],
-  "spicyR": [],
-  "squallms": [
-    "xcms"
-  ],
-  "topdownr": [],
-  "xcms": []
+  "scafari": [],
+  "scruff": [],
+  "squallms": []
 }

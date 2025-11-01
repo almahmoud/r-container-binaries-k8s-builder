@@ -138,6 +138,7 @@ widgetTools
 wiggleplotr
 wpm
 xCell2
+xcms
 xcore
 xenLite
 xmapbridge
