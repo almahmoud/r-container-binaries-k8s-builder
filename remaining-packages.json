@@ -33,7 +33,6 @@
   "AnnotationHubData": [
     "OrganismDbi"
   ],
-  "ArrayExpress": [],
   "BASiCStan": [
     "glmGamPoi"
   ],
@@ -174,9 +173,7 @@
     "SpatialExperiment"
   ],
   "DominoEffect": [],
-  "DrugVsDisease": [
-    "ArrayExpress"
-  ],
+  "DrugVsDisease": [],
   "DspikeIn": [
     "TreeSummarizedExperiment"
   ],
@@ -193,7 +190,6 @@
     "biovizBase"
   ],
   "EasyCellType": [],
-  "EnrichmentBrowser": [],
   "EpiCompare": [],
   "EventPointer": [
     "SGSeq"
@@ -234,9 +230,7 @@
   ],
   "GOstats": [],
   "GRaNIE": [],
-  "GSEABenchmarkeR": [
-    "EnrichmentBrowser"
-  ],
+  "GSEABenchmarkeR": [],
   "GSRI": [],
   "GSReg": [
     "OrganismDbi"
@@ -856,7 +850,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "conumee": [],
   "cosmiq": [
     "xcms",
     "MSnbase",
@@ -921,8 +914,7 @@
     "regioneR"
   ],
   "dreamlet": [
-    "zenith",
-    "EnrichmentBrowser"
+    "zenith"
   ],
   "easier": [],
   "enhancerHomologSearch": [
@@ -1289,7 +1281,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "periodicDNA": [],
   "phenoTest": [],
   "phenomis": [
     "ropls"
@@ -1327,7 +1318,6 @@
     "GenomicFiles"
   ],
   "recount3": [],
-  "recountmethylation": [],
   "recoup": [],
   "regionReport": [
     "derfinder",
@@ -1402,7 +1392,6 @@
     "standR",
     "SpatialExperiment"
   ],
-  "shinyepico": [],
   "signeR": [],
   "signifinder": [
     "consensusOV",
@@ -1568,7 +1557,5 @@
     "TENxIO"
   ],
   "yarn": [],
-  "zenith": [
-    "EnrichmentBrowser"
-  ]
+  "zenith": []
 }
