@@ -665,7 +665,6 @@
   ],
   "EGAD": [],
   "EGSEA": [
-    "gage",
     "PADOG",
     "GSVA",
     "globaltest",
@@ -1046,12 +1045,9 @@
   "Lheuristic": [
     "MultiAssayExperiment"
   ],
-  "LimROTS": [],
   "LinkHD": [
     "MultiAssayExperiment"
   ],
-  "LipidTrend": [],
-  "LiquidAssociation": [],
   "LoomExperiment": [
     "SingleCellExperiment"
   ],
@@ -2940,9 +2936,7 @@
     "genomation",
     "BSgenome"
   ],
-  "fastLiquidAssociation": [
-    "LiquidAssociation"
-  ],
+  "fastLiquidAssociation": [],
   "fcScan": [
     "VariantAnnotation",
     "BSgenome",
@@ -2970,7 +2964,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "flowGate": [],
   "flowVS": [],
   "frma": [
     "oligo",
@@ -3009,7 +3002,6 @@
   "gDRutils": [
     "MultiAssayExperiment"
   ],
-  "gage": [],
   "gcapc": [
     "BSgenome"
   ],
@@ -3521,7 +3513,6 @@
     "graphite"
   ],
   "moanin": [],
-  "mobileRNA": [],
   "mogsa": [
     "graphite",
     "genefilter"
@@ -3628,7 +3619,6 @@
     "GenomicFeatures",
     "decompTumor2Sig"
   ],
-  "mutscan": [],
   "mygene": [
     "GenomicFeatures",
     "txdbmaker"
@@ -3668,7 +3658,6 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "normr": [],
   "notame": [],
   "notameStats": [
     "notame"
@@ -4496,7 +4485,6 @@
   "tenXplore": [
     "ontoProc"
   ],
-  "terapadog": [],
   "terraTCGAdata": [
     "MultiAssayExperiment",
     "RaggedExperiment",

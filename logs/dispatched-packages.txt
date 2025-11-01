@@ -1405,3 +1405,4 @@ singscore
 sparrow
 splineTimeR
 vissE
+fastLiquidAssociation

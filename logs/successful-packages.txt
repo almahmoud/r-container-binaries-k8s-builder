@@ -1181,3 +1181,12 @@ LRBaseDbi
 metagene2
 rfPred
 vidger
+flowGate
+gage
+LimROTS
+LipidTrend
+LiquidAssociation
+mobileRNA
+mutscan
+normr
+terapadog
