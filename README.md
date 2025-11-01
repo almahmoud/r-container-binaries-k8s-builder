@@ -87,5 +87,5 @@
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
 ---
-*Last updated: 2025-11-01 17:59:08 UTC*
+*Last updated: 2025-11-01 18:35:04 UTC*
 *Packages with verified BBS status: 115*
