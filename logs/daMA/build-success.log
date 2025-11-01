@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''daMA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -32,9 +32,9 @@ packaged installation of ‘daMA’ as ‘daMA_1.83.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (daMA)
 
 The downloaded source packages are in
-	‘/tmp/RtmpPI1ZVS/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpSz6czM/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.264s
-user	0m3.298s
-sys	0m1.637s
+real	0m10.788s
+user	0m6.812s
+sys	0m2.293s

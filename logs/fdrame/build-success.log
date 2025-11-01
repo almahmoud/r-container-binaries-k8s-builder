@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''fdrame'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -22,7 +22,7 @@ downloaded 972 KB
 using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fdr.c -o fdr.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fdrame.so fdr.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-fdrame/00new/fdrame/libs
+installing to /tmp/library/00LOCK-fdrame/00new/fdrame/libs
 ** R
 ** data
 ** inst
@@ -43,9 +43,9 @@ packaged installation of ‘fdrame’ as ‘fdrame_1.83.0_R_x86_64-pc-linux-gnu.
 * DONE (fdrame)
 
 The downloaded source packages are in
-	‘/tmp/RtmpAjb8w0/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmp4PjGpC/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m5.527s
-user	0m3.578s
-sys	0m1.806s
+real	0m11.054s
+user	0m6.967s
+sys	0m2.144s

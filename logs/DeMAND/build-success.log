@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''DeMAND'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘DeMAND’ as ‘DeMAND_1.41.0_R_x86_64-pc-linux-gnu.
 * DONE (DeMAND)
 
 The downloaded source packages are in
-	‘/tmp/RtmpXJelBr/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpSZhIJz/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.569s
-user	0m3.081s
-sys	0m1.980s
+real	0m7.311s
+user	0m5.610s
+sys	0m2.340s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''MVCClass'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘MVCClass’ as ‘MVCClass_1.85.0_R_x86_64-pc-linux-
 * DONE (MVCClass)
 
 The downloaded source packages are in
-	‘/tmp/RtmpaeI6m9/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpDdp0g5/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m5.670s
-user	0m4.179s
-sys	0m1.477s
+real	0m10.760s
+user	0m7.467s
+sys	0m2.565s

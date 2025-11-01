@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''ISoLDE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -22,7 +22,7 @@ downloaded 1.2 MB
 using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Isolde.c -o Isolde.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ISoLDE.so Isolde.o -fopenmp -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-ISoLDE/00new/ISoLDE/libs
+installing to /tmp/library/00LOCK-ISoLDE/00new/ISoLDE/libs
 ** R
 ** data
 ** inst
@@ -40,9 +40,9 @@ packaged installation of ‘ISoLDE’ as ‘ISoLDE_1.39.0_R_x86_64-pc-linux-gnu.
 * DONE (ISoLDE)
 
 The downloaded source packages are in
-	‘/tmp/RtmpvNM3Ah/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpcge54y/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m6.037s
-user	0m4.210s
-sys	0m1.534s
+real	0m11.839s
+user	0m7.441s
+sys	0m2.653s

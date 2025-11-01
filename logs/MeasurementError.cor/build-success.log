@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''MeasurementError.cor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘MeasurementError.cor’ as ‘MeasurementError.cor_1
 * DONE (MeasurementError.cor)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp6woDdA/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpuLnATd/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.818s
-user	0m3.417s
-sys	0m1.321s
+real	0m10.411s
+user	0m6.111s
+sys	0m2.198s

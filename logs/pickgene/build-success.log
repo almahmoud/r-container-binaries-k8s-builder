@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''pickgene'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘pickgene’ as ‘pickgene_1.83.0_R_x86_64-pc-linux-
 * DONE (pickgene)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp4MEkMq/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpd3dz63/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.943s
-user	0m3.759s
-sys	0m1.527s
+real	0m20.352s
+user	0m7.326s
+sys	0m2.444s

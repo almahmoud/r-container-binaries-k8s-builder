@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''Rsubread'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -75,7 +75,7 @@ gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -D
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.25.0\"" -g3  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sublog.c -o sublog.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.25.0\"" -g3  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tx-unique.c -o tx-unique.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rsubread.so HelperFunctions.o LRMbase-index.o LRMchro-event.o LRMfile-io.o LRMhashtable.o LRMhelper.o LRMseek-zlib.o LRMsorted-hashtable.o R_wrapper.o RsimReads.o SNPCalling.o aligner.o atgcContent.o build-sam-index.o cell-counts.o core-bigtable.o core-indel.o core-interface-aligner.o core-interface-subjunc.o core-junction.o core.o detection-calls.o detectionCall.o detectionCallAnnotation.o exon-algorithms.o exon-align-indel.o exon-align.o flattenAnnotations.o fullscan.o fusion-align.o gen_rand_reads.o gene-algorithms.o gene-value-index.o hashtable.o index-builder.o input-blc.o input-files.o interval_merge.o long-hashtable.o longread-mapping.o mergeVCF.o processExons.o propmapped.o qualityScores.o read-repair.o readSummary.o removeDupReads.o sam2bed.o sambam-file.o seek-zlib.o sorted-hashtable.o sublog.o tx-unique.o -lz -lpthread -DMAKE_FOR_EXON -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-Rsubread/00new/Rsubread/libs
+installing to /tmp/library/00LOCK-Rsubread/00new/Rsubread/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -92,9 +92,9 @@ packaged installation of ‘Rsubread’ as ‘Rsubread_2.25.0_R_x86_64-pc-linux-
 * DONE (Rsubread)
 
 The downloaded source packages are in
-	‘/tmp/RtmpZDIMVx/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpxbmAKb/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m43.282s
-user	0m38.114s
-sys	0m5.301s
+real	0m48.366s
+user	0m41.037s
+sys	0m5.562s

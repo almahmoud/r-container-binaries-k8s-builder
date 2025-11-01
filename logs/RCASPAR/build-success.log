@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''RCASPAR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘RCASPAR’ as ‘RCASPAR_1.57.0_R_x86_64-pc-linux-gn
 * DONE (RCASPAR)
 
 The downloaded source packages are in
-	‘/tmp/RtmpOxesFv/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpqlhDpr/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.586s
-user	0m3.351s
-sys	0m1.219s
+real	0m10.627s
+user	0m6.380s
+sys	0m2.174s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''pgca'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -35,9 +35,9 @@ packaged installation of ‘pgca’ as ‘pgca_1.35.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (pgca)
 
 The downloaded source packages are in
-	‘/tmp/Rtmprl6CF3/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpaZIaFz/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m3.955s
-user	0m2.938s
-sys	0m1.464s
+real	0m19.791s
+user	0m7.185s
+sys	0m2.625s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''MBAmethyl'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘MBAmethyl’ as ‘MBAmethyl_1.45.0_R_x86_64-pc-linu
 * DONE (MBAmethyl)
 
 The downloaded source packages are in
-	‘/tmp/RtmpqsiIhD/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpSwRUkY/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.440s
-user	0m3.064s
-sys	0m1.443s
+real	0m8.564s
+user	0m5.477s
+sys	0m1.875s

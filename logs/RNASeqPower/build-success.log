@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''RNASeqPower'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘RNASeqPower’ as ‘RNASeqPower_1.51.0_R_x86_64-pc-
 * DONE (RNASeqPower)
 
 The downloaded source packages are in
-	‘/tmp/RtmprgSMJU/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpjgxXqT/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.166s
-user	0m2.708s
-sys	0m1.195s
+real	0m10.191s
+user	0m5.757s
+sys	0m1.859s

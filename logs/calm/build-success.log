@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''calm'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘calm’ as ‘calm_1.25.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (calm)
 
 The downloaded source packages are in
-	‘/tmp/RtmpE9rJUV/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpvRxqou/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m6.763s
-user	0m5.331s
-sys	0m1.538s
+real	0m12.487s
+user	0m8.436s
+sys	0m2.445s

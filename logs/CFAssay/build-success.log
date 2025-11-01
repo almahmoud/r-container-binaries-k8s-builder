@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''CFAssay'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘CFAssay’ as ‘CFAssay_1.45.0_R_x86_64-pc-linux-gn
 * DONE (CFAssay)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpw7KCIp/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmp3qGMGa/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.420s
-user	0m3.512s
-sys	0m2.399s
+real	0m8.821s
+user	0m6.549s
+sys	0m2.646s

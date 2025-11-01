@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''dks'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -79,7 +79,7 @@ checking for qmake... no
 configure: creating ./config.status
 config.status: creating makefile
 config.status: creating config.h
-make[1]: Entering directory '/tmp/RtmpZPHar1/R.INSTALL356af4ebb0/cubature/src/Cuba'
+make[1]: Entering directory '/tmp/RtmpOJ87mk/R.INSTALL36650ae2e8/cubature/src/Cuba'
 gcc -std=gnu17 -I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I/usr/local/lib/R/include -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -DNOUNDERSCORE -c -o r_helpers.o ./src/common/r_helpers.c
 gcc -std=gnu17 -I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I/usr/local/lib/R/include -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I./src/vegas -DNOUNDERSCORE -c -o Vegas.o ./src/vegas/Vegas.c
 gcc -std=gnu17 -I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I/usr/local/lib/R/include -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I./src/suave -DNOUNDERSCORE -c -o Suave.o ./src/suave/Suave.c
@@ -100,22 +100,22 @@ a - r_helpers.o
 a - Data.o
 rm -f Vegas.o Suave.o Divonne.o Cuhre.o Fork.o Global.o r_helpers.o Data.o
 ranlib libcuba.a
-make[1]: Leaving directory '/tmp/RtmpZPHar1/R.INSTALL356af4ebb0/cubature/src/Cuba'
+make[1]: Leaving directory '/tmp/RtmpOJ87mk/R.INSTALL36650ae2e8/cubature/src/Cuba'
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rcpp-Cuba.cpp -o Rcpp-Cuba.o
 ((cd cubature-1.0.4 && \
 (make libcubature.a CC="gcc -std=gnu17" CFLAGS="-I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I"/usr/local/lib/R/include" -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic" AR="ar" RANLIB="ranlib")) && \
 touch cubature.ts)
-make[1]: Entering directory '/tmp/RtmpZPHar1/R.INSTALL356af4ebb0/cubature/src/cubature-1.0.4'
+make[1]: Entering directory '/tmp/RtmpOJ87mk/R.INSTALL36650ae2e8/cubature/src/cubature-1.0.4'
 gcc -std=gnu17 -I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I/usr/local/lib/R/include -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic   -c -o hcubature.o hcubature.c
 gcc -std=gnu17 -I/usr/local/include -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I/usr/local/lib/R/include -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic   -c -o pcubature.o pcubature.c
 ar cr libcubature.a  hcubature.o pcubature.o
 ranlib libcubature.a
-make[1]: Leaving directory '/tmp/RtmpZPHar1/R.INSTALL356af4ebb0/cubature/src/cubature-1.0.4'
+make[1]: Leaving directory '/tmp/RtmpOJ87mk/R.INSTALL36650ae2e8/cubature/src/cubature-1.0.4'
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rcpp-cubature.cpp -o Rcpp-cubature.o
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
 gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I../../inst/include -I./src/common -D_R_INTERFACE -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cubature_init.c -o cubature_init.o
 g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o cubature.so Rcpp-Cuba.o Rcpp-cubature.o RcppExports.o cubature_init.o -L./cubature-1.0.4 -L./Cuba -lcubature -lcuba -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-cubature/00new/cubature/libs
+installing to /tmp/library/00LOCK-cubature/00new/cubature/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -149,9 +149,9 @@ packaged installation of ‘dks’ as ‘dks_1.57.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (dks)
 
 The downloaded source packages are in
-	‘/tmp/RtmpF9ZbF0/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmplzJaAd/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m23.254s
-user	0m18.346s
-sys	0m5.759s
+real	0m31.098s
+user	0m22.151s
+sys	0m6.550s

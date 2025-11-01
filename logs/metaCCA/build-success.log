@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''metaCCA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -35,9 +35,9 @@ packaged installation of ‘metaCCA’ as ‘metaCCA_1.39.0_R_x86_64-pc-linux-gn
 * DONE (metaCCA)
 
 The downloaded source packages are in
-	‘/tmp/RtmpJkevaQ/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmp8keVi1/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.701s
-user	0m3.361s
-sys	0m1.366s
+real	0m10.447s
+user	0m6.686s
+sys	0m2.226s

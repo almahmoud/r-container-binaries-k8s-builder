@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''LPE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘LPE’ as ‘LPE_1.85.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (LPE)
 
 The downloaded source packages are in
-	‘/tmp/RtmpFneKto/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmph4k15Z/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.739s
-user	0m3.104s
-sys	0m1.285s
+real	0m9.079s
+user	0m5.675s
+sys	0m1.899s

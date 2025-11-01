@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''preprocessCore'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -121,7 +121,7 @@ gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/us
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_STDLIB_H=1 -DUSE_PTHREADS=1 -DINFER_MIN_STACKSIZE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rma_common.c -o rma_common.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_STDLIB_H=1 -DUSE_PTHREADS=1 -DINFER_MIN_STACKSIZE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weightedkerneldensity.c -o weightedkerneldensity.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o preprocessCore.so R_colSummarize.o R_plmd_interfaces.o R_plmr_interfaces.o R_rlm_interfaces.o R_subColSummarize.o R_subrcModel_interfaces.o avg.o avg_log.o biweight.o init_package.o lm.o log_avg.o log_median.o matrix_functions.o median.o median_log.o medianpolish.o plmd.o plmr.o psi_fns.o qnorm.o rlm.o rlm_anova.o rlm_se.o rma_background4.o rma_common.o weightedkerneldensity.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-preprocessCore/00new/preprocessCore/libs
+installing to /tmp/library/00LOCK-preprocessCore/00new/preprocessCore/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -137,9 +137,9 @@ packaged installation of ‘preprocessCore’ as ‘preprocessCore_1.73.0_R_x86_
 * DONE (preprocessCore)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp0GTn3P/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpJBdlXh/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m12.072s
-user	0m8.547s
-sys	0m3.378s
+real	0m18.918s
+user	0m11.837s
+sys	0m4.362s

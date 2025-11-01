@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''ASAFE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -35,9 +35,9 @@ packaged installation of ‘ASAFE’ as ‘ASAFE_1.37.0_R_x86_64-pc-linux-gnu.ta
 * DONE (ASAFE)
 
 The downloaded source packages are in
-	‘/tmp/RtmpE4Za8s/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpXkmoiP/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.713s
-user	0m3.495s
-sys	0m2.333s
+real	0m8.506s
+user	0m6.430s
+sys	0m3.158s

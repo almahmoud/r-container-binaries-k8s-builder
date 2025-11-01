@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''a4Reporting'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘a4Reporting’ as ‘a4Reporting_1.59.0_R_x86_64-pc-
 * DONE (a4Reporting)
 
 The downloaded source packages are in
-	‘/tmp/RtmpDBJCcB/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpU8VgN5/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.596s
-user	0m3.237s
-sys	0m1.549s
+real	0m9.256s
+user	0m6.282s
+sys	0m1.851s

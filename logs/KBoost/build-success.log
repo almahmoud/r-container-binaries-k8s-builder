@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''KBoost'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -35,9 +35,9 @@ packaged installation of ‘KBoost’ as ‘KBoost_1.19.0_R_x86_64-pc-linux-gnu.
 * DONE (KBoost)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpuv9DJk/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmplrhX0u/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.718s
-user	0m3.403s
-sys	0m1.626s
+real	0m9.541s
+user	0m6.111s
+sys	0m2.271s

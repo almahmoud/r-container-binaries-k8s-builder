@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''assorthead'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,29 +10,12 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'assorthead'
-also installing the dependencies ‘bookdown’, ‘BiocStyle’
-
-trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.45.tar.gz'
-trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocStyle_2.39.0.tar.gz'
+Error in readRDS(file) : error reading from connection
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/assorthead_1.5.0.tar.gz'
-* installing *source* package ‘bookdown’ ...
-** this is package ‘bookdown’ version ‘0.45’
-** package ‘bookdown’ successfully unpacked and MD5 sums checked
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-*** copying figures
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘bookdown’ as ‘bookdown_0.45_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (bookdown)
+Content type 'application/x-gzip' length 1888413 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
 * installing *source* package ‘assorthead’ ...
 ** this is package ‘assorthead’ version ‘1.5.0’
 ** using staged installation
@@ -48,27 +31,11 @@ No man pages found in package  ‘assorthead’
 * creating tarball
 packaged installation of ‘assorthead’ as ‘assorthead_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (assorthead)
-* installing *source* package ‘BiocStyle’ ...
-** this is package ‘BiocStyle’ version ‘2.39.0’
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.39.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (BiocStyle)
 
 The downloaded source packages are in
-	‘/tmp/RtmpUTuHPe/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpvQZCaM/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m11.498s
-user	0m9.291s
-sys	0m3.742s
+real	0m11.269s
+user	0m6.991s
+sys	0m1.993s

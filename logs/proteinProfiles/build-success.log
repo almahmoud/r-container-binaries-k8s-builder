@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''proteinProfiles'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘proteinProfiles’ as ‘proteinProfiles_1.51.0_R_x8
 * DONE (proteinProfiles)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp4UN376/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmppaVZ1O/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m3.831s
-user	0m2.711s
-sys	0m1.211s
+real	0m11.842s
+user	0m6.240s
+sys	0m2.003s

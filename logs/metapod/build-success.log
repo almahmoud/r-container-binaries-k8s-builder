@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''metapod'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,29 +10,11 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'metapod'
-also installing the dependencies ‘bookdown’, ‘BiocStyle’
-
-trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.45.tar.gz'
-trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocStyle_2.39.0.tar.gz'
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/metapod_1.19.0.tar.gz'
-* installing *source* package ‘bookdown’ ...
-** this is package ‘bookdown’ version ‘0.45’
-** package ‘bookdown’ successfully unpacked and MD5 sums checked
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-*** copying figures
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘bookdown’ as ‘bookdown_0.45_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (bookdown)
+Content type 'application/x-gzip' length 331694 bytes (323 KB)
+==================================================
+downloaded 323 KB
+
 * installing *source* package ‘metapod’ ...
 ** this is package ‘metapod’ version ‘1.19.0’
 ** using staged installation
@@ -45,7 +27,7 @@ g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site
 g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c count_direction.cpp -o count_direction.o
 g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c summarize_direction.cpp -o summarize_direction.o
 g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o metapod.so RcppExports.o combine_group.o combine_parallel.o count_direction.o summarize_direction.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-metapod/00new/metapod/libs
+installing to /tmp/library/00LOCK-metapod/00new/metapod/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -60,27 +42,11 @@ installing to /usr/local/lib/R/site-library/00LOCK-metapod/00new/metapod/libs
 * creating tarball
 packaged installation of ‘metapod’ as ‘metapod_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (metapod)
-* installing *source* package ‘BiocStyle’ ...
-** this is package ‘BiocStyle’ version ‘2.39.0’
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.39.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (BiocStyle)
 
 The downloaded source packages are in
-	‘/tmp/RtmpnZZ4ir/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmptzpHI7/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m27.732s
-user	0m23.576s
-sys	0m5.190s
+real	0m29.791s
+user	0m22.201s
+sys	0m4.298s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''DriverNet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘DriverNet’ as ‘DriverNet_1.51.0_R_x86_64-pc-linu
 * DONE (DriverNet)
 
 The downloaded source packages are in
-	‘/tmp/RtmpeVjeIv/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpdFtf2z/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.428s
-user	0m3.236s
-sys	0m1.722s
+real	0m8.719s
+user	0m5.881s
+sys	0m2.532s

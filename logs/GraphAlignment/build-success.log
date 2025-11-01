@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''GraphAlignment'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -45,7 +45,7 @@ lap.c:394:7: warning: ignoring return value of ‘scanf’ declared with attribu
   394 |       scanf("%c", &wait);
       |       ^~~~~~~~~~~~~~~~~~
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GraphAlignment.so GA_alloc.o GA_matrix.o GA_matrix_R.o GA_message.o GA_vector.o GA_vector_R.o GraphAlignment.o lap.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-GraphAlignment/00new/GraphAlignment/libs
+installing to /tmp/library/00LOCK-GraphAlignment/00new/GraphAlignment/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -62,9 +62,9 @@ packaged installation of ‘GraphAlignment’ as ‘GraphAlignment_1.75.0_R_x86_
 * DONE (GraphAlignment)
 
 The downloaded source packages are in
-	‘/tmp/RtmpEkoQJ3/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpfe4e3P/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m5.482s
-user	0m3.954s
-sys	0m1.665s
+real	0m9.757s
+user	0m6.775s
+sys	0m2.547s

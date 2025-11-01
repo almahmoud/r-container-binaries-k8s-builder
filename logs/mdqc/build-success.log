@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''mdqc'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘mdqc’ as ‘mdqc_1.73.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (mdqc)
 
 The downloaded source packages are in
-	‘/tmp/RtmpUjzhaC/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpMz1Y07/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.240s
-user	0m3.017s
-sys	0m1.287s
+real	0m10.356s
+user	0m6.565s
+sys	0m2.437s

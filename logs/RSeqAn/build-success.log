@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''RSeqAn'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -24,7 +24,7 @@ using C++14
 g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
 g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c charstring.cpp -o charstring.o
 g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RSeqAn.so RcppExports.o charstring.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-RSeqAn/00new/RSeqAn/libs
+installing to /tmp/library/00LOCK-RSeqAn/00new/RSeqAn/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -41,9 +41,9 @@ packaged installation of ‘RSeqAn’ as ‘RSeqAn_1.31.0_R_x86_64-pc-linux-gnu.
 * DONE (RSeqAn)
 
 The downloaded source packages are in
-	‘/tmp/RtmpSHHRMi/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpr2VSTj/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m11.213s
-user	0m8.933s
-sys	0m2.379s
+real	0m15.695s
+user	0m11.954s
+sys	0m3.011s

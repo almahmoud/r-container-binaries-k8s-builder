@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''BufferedMatrix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -25,7 +25,7 @@ gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c doubleBufferedMatrix_C_tests.c -o doubleBufferedMatrix_C_tests.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init_package.c -o init_package.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BufferedMatrix.so RBufferedMatrix.o doubleBufferedMatrix.o doubleBufferedMatrix_C_tests.o init_package.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-BufferedMatrix/00new/BufferedMatrix/libs
+installing to /tmp/library/00LOCK-BufferedMatrix/00new/BufferedMatrix/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -48,9 +48,9 @@ packaged installation of ‘BufferedMatrix’ as ‘BufferedMatrix_1.75.0_R_x86_
 * DONE (BufferedMatrix)
 
 The downloaded source packages are in
-	‘/tmp/RtmpoACPw7/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpL74325/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m7.308s
-user	0m5.703s
-sys	0m2.219s
+real	0m10.848s
+user	0m8.710s
+sys	0m2.937s

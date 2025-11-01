@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''occugene'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -34,9 +34,9 @@ packaged installation of ‘occugene’ as ‘occugene_1.71.0_R_x86_64-pc-linux-
 * DONE (occugene)
 
 The downloaded source packages are in
-	‘/tmp/RtmptDMqzs/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpXqbjOY/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.672s
-user	0m3.257s
-sys	0m1.402s
+real	0m10.142s
+user	0m6.581s
+sys	0m2.372s

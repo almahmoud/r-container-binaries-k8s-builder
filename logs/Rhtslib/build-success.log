@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''Rhtslib'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,36 +10,18 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'Rhtslib'
-also installing the dependencies ‘bookdown’, ‘BiocStyle’
-
-trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.45.tar.gz'
-trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocStyle_2.39.0.tar.gz'
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Rhtslib_3.7.0.tar.gz'
-* installing *source* package ‘bookdown’ ...
-** this is package ‘bookdown’ version ‘0.45’
-** package ‘bookdown’ successfully unpacked and MD5 sums checked
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-*** copying figures
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘bookdown’ as ‘bookdown_0.45_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (bookdown)
+Content type 'application/x-gzip' length 5147998 bytes (4.9 MB)
+==================================================
+downloaded 4.9 MB
+
 * installing *source* package ‘Rhtslib’ ...
 ** this is package ‘Rhtslib’ version ‘3.7.0’
 ** using non-staged installation via StagedInstall field
 ** libs
 using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
 cd "htslib-1.18" && make -f "Makefile.Rhtslib"
-make[1]: Entering directory '/tmp/Rtmp6CB1Wp/R.INSTALL6e4ab10c26/Rhtslib/src/htslib-1.18'
+make[1]: Entering directory '/tmp/RtmpgGQzTO/R.INSTALL35732a5654/Rhtslib/src/htslib-1.18'
 gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kfunc.o kfunc.c
 gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kstring.o kstring.c
 gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o bcf_sr_sort.o bcf_sr_sort.c
@@ -155,17 +137,17 @@ gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security 
 gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hfile_libcurl.pico hfile_libcurl.c
 gcc -std=gnu2x -shared -Wl,-soname,libhts.so.3 -Wl,-version-script,htslib.map -L/usr/local/lib -fvisibility=hidden -o libhts.so kfunc.pico kstring.pico bcf_sr_sort.pico bgzf.pico errmod.pico faidx.pico header.pico hfile.pico hts.pico hts_expr.pico hts_os.pico md5.pico multipart.pico probaln.pico realn.pico regidx.pico region.pico sam.pico sam_mods.pico synced_bcf_reader.pico vcf_sweep.pico tbx.pico textutils.pico thread_pool.pico vcf.pico vcfutils.pico cram/cram_codecs.pico cram/cram_decode.pico cram/cram_encode.pico cram/cram_external.pico cram/cram_index.pico cram/cram_io.pico cram/cram_stats.pico cram/mFILE.pico cram/open_trace_file.pico cram/pooled_alloc.pico cram/string_alloc.pico htscodecs/htscodecs/arith_dynamic.pico htscodecs/htscodecs/fqzcomp_qual.pico htscodecs/htscodecs/htscodecs.pico htscodecs/htscodecs/pack.pico htscodecs/htscodecs/rANS_static4x16pr.pico htscodecs/htscodecs/rANS_static32x16pr_avx2.pico htscodecs/htscodecs/rANS_static32x16pr_avx512.pico htscodecs/htscodecs/rANS_static32x16pr_sse4.pico htscodecs/htscodecs/rANS_static32x16pr_neon.pico htscodecs/htscodecs/rANS_static32x16pr.pico htscodecs/htscodecs/rANS_static.pico htscodecs/htscodecs/rle.pico htscodecs/htscodecs/tokenise_name3.pico htscodecs/htscodecs/utils.pico hfile_libcurl.pico -lz -lm -lbz2 -llzma -lcurl -lpthread
 ln -sf libhts.so libhts.so.3
-make[1]: Leaving directory '/tmp/Rtmp6CB1Wp/R.INSTALL6e4ab10c26/Rhtslib/src/htslib-1.18'
-mkdir -p "/usr/local/lib/R/site-library/Rhtslib/include/htslib"
-cd "htslib-1.18/htslib" && cp * "/usr/local/lib/R/site-library/Rhtslib/include/htslib"
-gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I"/usr/local/lib/R/site-library/Rhtslib/include"  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rhtslib.c -o R_init_Rhtslib.o
-mkdir -p "/usr/local/lib/R/site-library/Rhtslib/usrlib"
-cd "htslib-1.18" && cp libhts.so libhts.a "/usr/local/lib/R/site-library/Rhtslib/usrlib"
-cd "/usr/local/lib/R/site-library/Rhtslib/usrlib" && ln -s libhts.so libhts.so.2
-gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rhtslib.so R_init_Rhtslib.o /usr/local/lib/R/site-library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
-mkdir -p "/usr/local/lib/R/site-library/Rhtslib/testdata/tabix"
-cd "htslib-1.18/test" && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/usr/local/lib/R/site-library/Rhtslib/testdata" 2>/dev/null || true) && cd tabix && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/usr/local/lib/R/site-library/Rhtslib/testdata/tabix" 2>/dev/null || true)
-installing to /usr/local/lib/R/site-library/Rhtslib/libs
+make[1]: Leaving directory '/tmp/RtmpgGQzTO/R.INSTALL35732a5654/Rhtslib/src/htslib-1.18'
+mkdir -p "/tmp/library/Rhtslib/include/htslib"
+cd "htslib-1.18/htslib" && cp * "/tmp/library/Rhtslib/include/htslib"
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I"/tmp/library/Rhtslib/include"  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rhtslib.c -o R_init_Rhtslib.o
+mkdir -p "/tmp/library/Rhtslib/usrlib"
+cd "htslib-1.18" && cp libhts.so libhts.a "/tmp/library/Rhtslib/usrlib"
+cd "/tmp/library/Rhtslib/usrlib" && ln -s libhts.so libhts.so.2
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rhtslib.so R_init_Rhtslib.o /tmp/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
+mkdir -p "/tmp/library/Rhtslib/testdata/tabix"
+cd "htslib-1.18/test" && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/tmp/library/Rhtslib/testdata" 2>/dev/null || true) && cd tabix && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/tmp/library/Rhtslib/testdata/tabix" 2>/dev/null || true)
+installing to /tmp/library/Rhtslib/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -177,27 +159,11 @@ installing to /usr/local/lib/R/site-library/Rhtslib/libs
 * creating tarball
 packaged installation of ‘Rhtslib’ as ‘Rhtslib_3.7.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (Rhtslib)
-* installing *source* package ‘BiocStyle’ ...
-** this is package ‘BiocStyle’ version ‘2.39.0’
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.39.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (BiocStyle)
 
 The downloaded source packages are in
-	‘/tmp/RtmpTIa7II/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmppHIZLI/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	1m20.147s
-user	1m11.761s
-sys	0m9.099s
+real	1m24.718s
+user	1m9.479s
+sys	0m7.442s

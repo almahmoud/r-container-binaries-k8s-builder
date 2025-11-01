@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''nuCpos'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,36 +10,11 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'nuCpos'
-Warning: dependency ‘Biostrings’ is not available
-also installing the dependency ‘NuPoP’
-
-trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/NuPoP_2.19.0.tar.gz'
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/nuCpos_1.29.0.tar.gz'
-* installing *source* package ‘NuPoP’ ...
-** this is package ‘NuPoP’ version ‘2.19.0’
-** using staged installation
-** libs
-using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
-gfortran  -fpic  -g -O2  -c  cvtbfb.f90 -o cvtbfb.o
-gfortran  -fpic  -g -O2  -c  cvtbfbNL4.f90 -o cvtbfbNL4.o
-gfortran  -fpic  -g -O2  -c  vtbfb.f90 -o vtbfb.o
-gfortran  -fpic  -g -O2  -c  vtbfbNL4.f90 -o vtbfbNL4.o
-gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o NuPoP.so cvtbfb.o cvtbfbNL4.o vtbfb.o vtbfbNL4.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-NuPoP/00new/NuPoP/libs
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** checking absolute paths in shared objects and dynamic libraries
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘NuPoP’ as ‘NuPoP_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (NuPoP)
+Content type 'application/x-gzip' length 2508013 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
 * installing *source* package ‘nuCpos’ ...
 ** this is package ‘nuCpos’ version ‘1.29.0’
 ** using staged installation
@@ -58,9 +33,9 @@ packaged installation of ‘nuCpos’ as ‘nuCpos_1.29.0_R_x86_64-pc-linux-gnu.
 * DONE (nuCpos)
 
 The downloaded source packages are in
-	‘/tmp/RtmpjnNRUL/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmptu4oqg/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m16.309s
-user	0m14.164s
-sys	0m2.706s
+real	0m14.049s
+user	0m10.257s
+sys	0m2.262s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''chopsticks'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,39 +10,11 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'chopsticks'
-also installing the dependency ‘hexbin’
-
-trying URL 'https://cloud.r-project.org/src/contrib/hexbin_1.28.5.tar.gz'
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/chopsticks_1.77.0.tar.gz'
-* installing *source* package ‘hexbin’ ...
-** this is package ‘hexbin’ version ‘1.28.5’
-** package ‘hexbin’ successfully unpacked and MD5 sums checked
-** using staged installation
-** libs
-using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
-using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
-gfortran  -fpic  -g -O2  -c hbin.f -o hbin.o
-gfortran  -fpic  -g -O2  -c hcell.f -o hcell.o
-gfortran  -fpic  -g -O2  -c herode.f -o herode.o
-gfortran  -fpic  -g -O2  -c hsm.f -o hsm.o
-gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
-gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hexbin.so hbin.o hcell.o herode.o hsm.o reg.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-hexbin/00new/hexbin/libs
-** R
-** data
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** checking absolute paths in shared objects and dynamic libraries
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘hexbin’ as ‘hexbin_1.28.5_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (hexbin)
+Content type 'application/x-gzip' length 6965061 bytes (6.6 MB)
+==================================================
+downloaded 6.6 MB
+
 * installing *source* package ‘chopsticks’ ...
 ** this is package ‘chopsticks’ version ‘1.77.0’
 ** using staged installation
@@ -524,7 +496,7 @@ zutil.c:310:7: warning: old-style function definition [-Wold-style-definition]
   310 | void  zcfree (opaque, ptr)
       |       ^~~~~~
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o chopsticks.so adler32.o bind.o compress.o crc32.o deflate.o force_hom.o glm_test.o glm_test_R.o gzio.o hash_index.o ibs.o in.o infback.o inffast.o inflate.o inftrees.o input.o inputNew.o input_unsorted.o ld_graphic_eps.o ld_with.o mla.o outdata.o pairwise_linkage.o read_chiamo.o read_hapmap.o read_pedfile.o read_signals.o readped.o sdfpw.o single_snp_tests.o snp_summary.o snpmpy.o solve_cubic.o solve_quadratic.o structure.o trees.o uncompr.o zutil.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-chopsticks/00new/chopsticks/libs
+installing to /tmp/library/00LOCK-chopsticks/00new/chopsticks/libs
 ** R
 ** data
 ** inst
@@ -542,9 +514,9 @@ packaged installation of ‘chopsticks’ as ‘chopsticks_1.77.0_R_x86_64-pc-li
 * DONE (chopsticks)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpuaeexr/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpePML1j/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m20.273s
-user	0m16.848s
-sys	0m3.916s
+real	0m20.777s
+user	0m15.741s
+sys	0m3.265s

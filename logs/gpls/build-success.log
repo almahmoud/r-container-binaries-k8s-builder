@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''gpls'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -35,9 +35,9 @@ packaged installation of ‘gpls’ as ‘gpls_1.83.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (gpls)
 
 The downloaded source packages are in
-	‘/tmp/RtmpqZzkaw/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpr8juH5/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.691s
-user	0m3.181s
-sys	0m1.347s
+real	0m9.843s
+user	0m6.206s
+sys	0m2.106s

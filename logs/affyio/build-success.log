@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''affyio'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -454,7 +454,7 @@ read_generic.c:1293:37: warning: format ‘%f’ expects argument of type ‘dou
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_ZLIB=1 -DHAVE_LIBPTHREAD=1 -DUSE_PTHREADS=1  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_multichannel_celfile_generic.c -o read_multichannel_celfile_generic.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_ZLIB=1 -DHAVE_LIBPTHREAD=1 -DUSE_PTHREADS=1  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_pgf.c -o read_pgf.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o affyio.so fread_functions.o init_package.o read_abatch.o read_bpmap.o read_cdf_xda.o read_cdffile2.o read_celfile_generic.o read_clf.o read_generic.o read_multichannel_celfile_generic.o read_pgf.o -lpthread -lz -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-affyio/00new/affyio/libs
+installing to /tmp/library/00LOCK-affyio/00new/affyio/libs
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help
@@ -469,9 +469,9 @@ packaged installation of ‘affyio’ as ‘affyio_1.81.0_R_x86_64-pc-linux-gnu.
 * DONE (affyio)
 
 The downloaded source packages are in
-	‘/tmp/RtmpgaFElI/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmp2hWehx/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m10.248s
-user	0m7.329s
-sys	0m3.019s
+real	0m15.740s
+user	0m10.309s
+sys	0m3.527s

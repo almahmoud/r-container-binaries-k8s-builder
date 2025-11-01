@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''RLMM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -33,9 +33,9 @@ packaged installation of ‘RLMM’ as ‘RLMM_1.73.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (RLMM)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpv7jbkL/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpKu35FJ/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m4.426s
-user	0m3.007s
-sys	0m1.219s
+real	0m8.552s
+user	0m5.882s
+sys	0m2.102s

@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''LEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -123,7 +123,7 @@ gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include  
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tracyWidom/print_tracyWidom.c -o tracyWidom/print_tracyWidom.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tracyWidom/tracyWidom.c -o tracyWidom/tracyWidom.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o LEA.so R_LFMM.o R_crossEntropy.o R_createDataSet.o R_sNMF.o R_ancestrymap2geno.o R_ancestrymap2lfmm.o R_geno2lfmm.o R_lfmm2geno.o R_pca.o R_ped2geno.o R_ped2lfmm.o R_vcf2geno.o R_tracyWidom.o R_init_LEA.o bituint/bituint.o bituint/calc_bituint.o bituint/io_geno_bituint.o bituint/slice_bituint.o bituint/thread_bituint.o convert/ancestrymap.o convert/geno.o convert/ped.o convert/vcf2geno.o convert/geno2lfmm.o convert/lfmm2geno.o convert/register_convert.o createDataSet/createDataSet.o createDataSet/error_cds.o createDataSet/print_cds.o createDataSet/register_cds.o crossEntropy/crossEntropy.o crossEntropy/error_ce.o crossEntropy/print_ce.o crossEntropy/register_ce.o io/io_data_double.o io/io_data_float.o io/io_data_int.o io/io_error.o io/io_tools.o io/print_bar.o LFMM/beta.o LFMM/error_lfmm.o LFMM/lfmm_k0.o LFMM/slice_lfmm.o LFMM/U.o LFMM/beta_k0.o LFMM/lfmm_algo.o LFMM/print_lfmm.o LFMM/thread_lfmm.o LFMM/V.o LFMM/data_lfmm.o LFMM/LFMM.o LFMM/register_lfmm.o LFMM/thread_var.o matrix/cholesky.o matrix/error_matrix.o matrix/normalize.o matrix/slice_matrix.o matrix/data.o matrix/inverse.o matrix/rand.o matrix/sylvester.o matrix/diagonalize.o matrix/matrix.o matrix/random_projection.o matrix/thread_matrix.o nnlsm/blockpivot.o nnlsm/nnlsm.o nnlsm/solvenormaleqcomb.o nnlsm/sort.o pca/calc_cov.o pca/error_pca.o pca/pca.o pca/print_pca.o pca/register_pca.o sNMF/als.o sNMF/als_k1.o sNMF/criteria.o sNMF/print_snmf.o sNMF/sNMF.o sNMF/thread_Q.o sNMF/als_F.o sNMF/als_Q.o sNMF/error_snmf.o sNMF/register_snmf.o sNMF/thread_F.o sNMF/thread_snmf.o stats/beta_distribution.o stats/gamma_density.o stats/ln_beta_function.o stats/beta_function.o stats/gamma_distribution.o stats/ln_gamma_function.o stats/entire_incomplete_gamma_function.o stats/gamma_dist_tables.o stats/student_t_distribution.o stats/factorial.o stats/gamma_function.o tracyWidom/error_tracyWidom.o tracyWidom/register_tracyWidom.o tracyWidom/print_tracyWidom.o tracyWidom/tracyWidom.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-LEA/00new/LEA/libs
+installing to /tmp/library/00LOCK-LEA/00new/LEA/libs
 ** R
 ** data
 ** inst
@@ -141,9 +141,9 @@ packaged installation of ‘LEA’ as ‘LEA_3.23.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (LEA)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp9o25ca/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpjSykw6/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m15.263s
-user	0m11.421s
-sys	0m3.759s
+real	0m20.577s
+user	0m14.431s
+sys	0m4.687s

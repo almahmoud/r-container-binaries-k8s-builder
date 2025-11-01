@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''parody'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -10,29 +10,11 @@ Replacement repositories:
 Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
   (2025-10-28 r88973)
 Installing package(s) 'parody'
-also installing the dependencies ‘bookdown’, ‘BiocStyle’
-
-trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.45.tar.gz'
-trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocStyle_2.39.0.tar.gz'
 trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/parody_1.69.0.tar.gz'
-* installing *source* package ‘bookdown’ ...
-** this is package ‘bookdown’ version ‘0.45’
-** package ‘bookdown’ successfully unpacked and MD5 sums checked
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-*** copying figures
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘bookdown’ as ‘bookdown_0.45_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (bookdown)
+Content type 'application/x-gzip' length 500458 bytes (488 KB)
+==================================================
+downloaded 488 KB
+
 * installing *source* package ‘parody’ ...
 ** this is package ‘parody’ version ‘1.69.0’
 ** using staged installation
@@ -50,27 +32,11 @@ packaged installation of ‘bookdown’ as ‘bookdown_0.45_R_x86_64-pc-linux-gn
 * creating tarball
 packaged installation of ‘parody’ as ‘parody_1.69.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (parody)
-* installing *source* package ‘BiocStyle’ ...
-** this is package ‘BiocStyle’ version ‘2.39.0’
-** using staged installation
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* creating tarball
-packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.39.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (BiocStyle)
 
 The downloaded source packages are in
-	‘/tmp/RtmpQUWg6d/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmptf7vVc/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m9.932s
-user	0m8.191s
-sys	0m3.213s
+real	0m17.799s
+user	0m6.942s
+sys	0m2.358s

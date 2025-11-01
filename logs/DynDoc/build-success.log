@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''DynDoc'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -31,9 +31,9 @@ packaged installation of ‘DynDoc’ as ‘DynDoc_1.89.0_R_x86_64-pc-linux-gnu.
 * DONE (DynDoc)
 
 The downloaded source packages are in
-	‘/tmp/RtmpEAADQn/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpUuLksN/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m6.286s
-user	0m3.731s
-sys	0m1.173s
+real	0m9.513s
+user	0m6.478s
+sys	0m2.491s

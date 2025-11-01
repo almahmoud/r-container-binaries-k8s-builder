@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''DNAcopy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -37,7 +37,7 @@ gfortran  -fpic  -g -O2  -c segmentp.f -o segmentp.o
 gfortran  -fpic  -g -O2  -c smoothCNA.f -o smoothCNA.o
 gfortran  -fpic  -g -O2  -c tailprobs.f -o tailprobs.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DNAcopy.so cbsWtstats.o cbststats.o changepoints-wtd.o changepoints.o esegment.o flchoose.o fphyper.o fpnorm.o getbdry.o init.o prune.o rshared.o segmentp.o smoothCNA.o tailprobs.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-DNAcopy/00new/DNAcopy/libs
+installing to /tmp/library/00LOCK-DNAcopy/00new/DNAcopy/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
@@ -57,9 +57,9 @@ packaged installation of ‘DNAcopy’ as ‘DNAcopy_1.85.0_R_x86_64-pc-linux-gn
 * DONE (DNAcopy)
 
 The downloaded source packages are in
-	‘/tmp/RtmpPjjh3b/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmpeskg0o/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m6.456s
-user	0m4.730s
-sys	0m2.339s
+real	0m9.759s
+user	0m7.372s
+sys	0m2.848s

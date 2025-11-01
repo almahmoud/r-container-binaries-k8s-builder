@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''SamSPECTRAL'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -24,7 +24,7 @@ gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c conductance_computation.c -o conductance_computation.o
 gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c maximum_of_rows.c -o maximum_of_rows.o
 gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SamSPECTRAL.so Rinit.o conductance_computation.o maximum_of_rows.o -L/usr/local/lib/R/lib -lR
-installing to /usr/local/lib/R/site-library/00LOCK-SamSPECTRAL/00new/SamSPECTRAL/libs
+installing to /tmp/library/00LOCK-SamSPECTRAL/00new/SamSPECTRAL/libs
 ** R
 ** data
 ** inst
@@ -42,9 +42,9 @@ packaged installation of ‘SamSPECTRAL’ as ‘SamSPECTRAL_1.65.0_R_x86_64-pc-
 * DONE (SamSPECTRAL)
 
 The downloaded source packages are in
-	‘/tmp/RtmpI531Ey/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/RtmpbzE6MH/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m5.252s
-user	0m3.355s
-sys	0m1.425s
+real	0m9.869s
+user	0m6.220s
+sys	0m2.025s

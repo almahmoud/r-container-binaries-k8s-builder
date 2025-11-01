@@ -1,6 +1,6 @@
 + Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
   p <- .libPaths();
-  p <- c('\'''\'', '\'''\'', p);
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
   .libPaths(p);
   if(BiocManager::install('\''GIGSEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
 'getOption("repos")' replaces Bioconductor standard repositories, see
@@ -52,9 +52,9 @@ packaged installation of ‘GIGSEA’ as ‘GIGSEA_1.29.0_R_x86_64-pc-linux-gnu.
 * DONE (GIGSEA)
 
 The downloaded source packages are in
-	‘/tmp/RtmpuY8ICd/downloaded_packages’
-Old packages: 'promises'
+	‘/tmp/Rtmp0Zh9Lv/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
 
-real	0m9.050s
-user	0m7.214s
-sys	0m2.807s
+real	0m18.032s
+user	0m9.995s
+sys	0m3.671s
