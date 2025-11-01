@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1673 (74%)
+- **Successfully Built:** 1674 (74%)
 - **Failed:** 2 (0%)
-- **In Progress:** 169
+- **In Progress:** 168
 - **Not Started:** 400
 
 **Progress:** 74%
@@ -16,7 +16,7 @@
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1673)
+## Successfully Built Packages (1674)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1623 more ...*
+*... and 1624 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (169)
+## In Progress (168)
 - ⏳ `ArrayExpress`
 - ⏳ `BatchSVG`
 - ⏳ `Cepo`
@@ -135,7 +135,7 @@
 - ⏳ `RadioGx`
 - ⏳ `RegionalST`
 
-... and 119 more ...
+... and 118 more ...
 
 ## Not Yet Started (400)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 350 more ...
 
 ---
-*Last updated: 2025-11-01 04:39:35 UTC*
+*Last updated: 2025-11-01 04:40:43 UTC*
 *Packages with verified BBS status: 143*

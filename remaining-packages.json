@@ -738,7 +738,6 @@
     "SpatialExperiment",
     "SpatialExperimentIO"
   ],
-  "SparseSignatures": [],
   "SpatialExperiment": [],
   "SpatialExperimentIO": [
     "SpatialExperiment"
