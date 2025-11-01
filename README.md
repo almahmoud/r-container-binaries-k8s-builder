@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1011 (45%)
+- **Successfully Built:** 1016 (45%)
 - **Failed:** 2 (0%)
-- **In Progress:** 187
-- **Not Started:** 1044
+- **In Progress:** 190
+- **Not Started:** 1036
 
 **Progress:** 45%
 ```
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1011)
+## Successfully Built Packages (1016)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
 
-*... and 961 more ...*
+*... and 966 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,24 +83,26 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (187)
+## In Progress (190)
 - ⏳ `ADAMgui`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
-- ⏳ `BioNAR`
-- ⏳ `BioNet`
 - ⏳ `Bioc.gff`
 - ⏳ `BiocSet`
 - ⏳ `CSOA`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
+- ⏳ `EDIRquery`
 - ⏳ `GEOquery`
 - ⏳ `GOSemSim`
 - ⏳ `GOfuncR`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
+- ⏳ `HiCExperiment`
+- ⏳ `HiCParser`
+- ⏳ `HiCcompare`
 - ⏳ `IgGeneUsage`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
@@ -112,6 +114,7 @@
 - ⏳ `MBASED`
 - ⏳ `MBQN`
 - ⏳ `MCbiclust`
+- ⏳ `MICSQTL`
 - ⏳ `MLP`
 - ⏳ `MODA`
 - ⏳ `MPRAnalyze`
@@ -131,13 +134,10 @@
 - ⏳ `PAIRADISE`
 - ⏳ `PIUMA`
 - ⏳ `PepSetTest`
-- ⏳ `PhIPData`
-- ⏳ `PhosR`
-- ⏳ `PolySTest`
 
-... and 137 more ...
+... and 140 more ...
 
-## Not Yet Started (1044)
+## Not Yet Started (1036)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -189,8 +189,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `BulkSignalR`
 
-... and 994 more ...
+... and 986 more ...
 
 ---
-*Last updated: 2025-11-01 01:23:32 UTC*
+*Last updated: 2025-11-01 01:25:40 UTC*
 *Packages with verified BBS status: 115*

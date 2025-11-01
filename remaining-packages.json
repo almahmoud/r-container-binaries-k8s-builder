@@ -276,13 +276,11 @@
     "GSEABase",
     "annotate"
   ],
-  "BioNAR": [],
   "BioNERO": [
     "sva",
     "genefilter",
     "annotate"
   ],
-  "BioNet": [],
   "BioTIP": [
     "scran",
     "SingleCellExperiment",
@@ -2673,7 +2671,6 @@
     "annotate"
   ],
   "SMITE": [
-    "BioNet",
     "goseq",
     "rtracklayer",
     "GenomicFeatures",
@@ -3014,7 +3011,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "TIN": [],
   "TMSig": [
     "GSEABase",
     "annotate"
@@ -3256,7 +3252,6 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "affylmGUI": [],
   "aggregateBioVar": [
     "SingleCellExperiment"
   ],
@@ -4452,9 +4447,7 @@
     "GenomicAlignments"
   ],
   "gage": [],
-  "gatom": [
-    "BioNet"
-  ],
+  "gatom": [],
   "gcapc": [
     "BSgenome",
     "GenomicAlignments",
@@ -6524,7 +6517,6 @@
   "survClust": [
     "MultiAssayExperiment"
   ],
-  "survtype": [],
   "sva": [
     "genefilter",
     "annotate"
