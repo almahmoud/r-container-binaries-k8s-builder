@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 598 (86%)
-- **Failed:** 4 (0%)
-- **In Progress:** 50
-- **Not Started:** 42
+- **Successfully Built:** 634 (91%)
+- **Failed:** 5 (0%)
+- **In Progress:** 26
+- **Not Started:** 29
 
-**Progress:** 86%
+**Progress:** 92%
 ```
-███████████████████████████████████████████░░░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (598)
+## Successfully Built Packages (634)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 548 more ...*
+*... and 584 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,68 +76,45 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [MODA](https://bioconductor.org/packages/3.23/bioc/html/MODA.html) | [log](logs/MODA/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MODA) | Missing dependency: AnnotationDbi<br>Missing dependency: WGCNA |
+| [TIN](https://bioconductor.org/packages/3.23/bioc/html/TIN.html) | [log](logs/TIN/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TIN) | Missing dependency: AnnotationDbi |
 | [csdR](https://bioconductor.org/packages/3.23/bioc/html/csdR.html) | [log](logs/csdR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/csdR) | Missing dependency: AnnotationDbi<br>Missing dependency: WGCNA |
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (50)
+## In Progress (26)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
 - ⏳ `COMPASS`
-- ⏳ `DeepPINCS`
-- ⏳ `GSCA`
-- ⏳ `HVP`
-- ⏳ `ISAnalytics`
 - ⏳ `MSstatsConvert`
-- ⏳ `Omixer`
+- ⏳ `MetaCyto`
 - ⏳ `OpenStats`
 - ⏳ `QUBIC`
 - ⏳ `RTCGA`
-- ⏳ `SIMLR`
-- ⏳ `Sconify`
 - ⏳ `SuperCellCyto`
-- ⏳ `TIN`
-- ⏳ `TPP`
 - ⏳ `TSAR`
 - ⏳ `VERSO`
 - ⏳ `alabaster.base`
 - ⏳ `anndataR`
-- ⏳ `biomformat`
 - ⏳ `bluster`
-- ⏳ `compSPOT`
-- ⏳ `cytoMEM`
 - ⏳ `decoupleR`
-- ⏳ `flowBeads`
-- ⏳ `flowCHIC`
-- ⏳ `flowClust`
-- ⏳ `flowMatch`
-- ⏳ `flowMeans`
-- ⏳ `flowPeaks`
-- ⏳ `flowTime`
-- ⏳ `flowcatchR`
-- ⏳ `immunoClust`
 - ⏳ `infinityFlow`
-- ⏳ `matter`
+- ⏳ `islify`
 - ⏳ `metabinR`
 - ⏳ `mzR`
-- ⏳ `ncdfFlow`
 - ⏳ `pathwayPCA`
-- ⏳ `ppcseq`
 - ⏳ `retrofit`
-- ⏳ `rgoslin`
 - ⏳ `scFeatureFilter`
 - ⏳ `scLANE`
 - ⏳ `seahtrue`
-- ⏳ `splots`
 - ⏳ `synergyfinder`
 - ⏳ `variancePartition`
 
-## Not Yet Started (42)
+## Not Yet Started (29)
 - ⏸️ `CNORdt`
 - ⏸️ `CNORfeeder`
 - ⏸️ `CNORfuzzy`
@@ -145,42 +122,29 @@
 - ⏸️ `CONFESS`
 - ⏸️ `Cardinal`
 - ⏸️ `CardinalIO`
-- ⏸️ `CellNOptR`
 - ⏸️ `GateFinder`
 - ⏸️ `GenProSeq`
-- ⏸️ `GeneNetworkBuilder`
 - ⏸️ `MEIGOR`
-- ⏸️ `MOGAMUN`
 - ⏸️ `MSstats`
 - ⏸️ `MSstatsBig`
 - ⏸️ `MSstatsBioNet`
 - ⏸️ `MSstatsTMT`
-- ⏸️ `MetaCyto`
 - ⏸️ `Polytect`
-- ⏸️ `ReUseData`
 - ⏸️ `SIMAT`
 - ⏸️ `TargetDecoy`
-- ⏸️ `biocViews`
 - ⏸️ `cyanoFilter`
 - ⏸️ `ddPCRclust`
-- ⏸️ `fedup`
-- ⏸️ `fgga`
 - ⏸️ `flowBin`
 - ⏸️ `flowCut`
-- ⏸️ `flowDensity`
-- ⏸️ `flowFP`
 - ⏸️ `flowMerge`
 - ⏸️ `flowTrans`
-- ⏸️ `islify`
 - ⏸️ `monocle`
 - ⏸️ `mosbi`
 - ⏸️ `msPurity`
-- ⏸️ `ndexr`
 - ⏸️ `optimalFlow`
 - ⏸️ `progeny`
-- ⏸️ `rawDiag`
 - ⏸️ `uSORT`
 
 ---
-*Last updated: 2025-11-01 15:50:20 UTC*
-*Packages with verified BBS status: 110*
+*Last updated: 2025-11-01 15:52:39 UTC*
+*Packages with verified BBS status: 111*

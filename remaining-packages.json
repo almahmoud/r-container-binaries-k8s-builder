@@ -1,50 +1,24 @@
 {
   "AlphaMissenseR": [],
   "AlpsNMR": [],
-  "CNORdt": [
-    "CellNOptR"
-  ],
-  "CNORfeeder": [
-    "CellNOptR"
-  ],
-  "CNORfuzzy": [
-    "CellNOptR"
-  ],
-  "CNORode": [
-    "CellNOptR"
-  ],
+  "CNORdt": [],
+  "CNORfeeder": [],
+  "CNORfuzzy": [],
+  "CNORode": [],
   "COMPASS": [],
   "CONFESS": [
-    "flowClust",
-    "flowMeans",
-    "flowMerge",
-    "flowPeaks"
+    "flowMerge"
   ],
   "Cardinal": [
-    "CardinalIO",
-    "matter"
+    "CardinalIO"
   ],
-  "CardinalIO": [
-    "matter"
-  ],
-  "CellNOptR": [],
-  "DeepPINCS": [],
-  "GSCA": [],
-  "GateFinder": [
-    "flowFP"
-  ],
-  "GenProSeq": [
-    "DeepPINCS"
-  ],
-  "GeneNetworkBuilder": [],
-  "HVP": [],
-  "ISAnalytics": [],
+  "CardinalIO": [],
+  "GateFinder": [],
+  "GenProSeq": [],
   "MEIGOR": [
-    "CNORode",
-    "CellNOptR"
+    "CNORode"
   ],
   "MODA": [],
-  "MOGAMUN": [],
   "MSstats": [
     "MSstatsConvert"
   ],
@@ -62,22 +36,15 @@
     "MSstatsConvert"
   ],
   "MetaCyto": [],
-  "Omixer": [],
   "OpenStats": [],
-  "Polytect": [
-    "flowPeaks"
-  ],
+  "Polytect": [],
   "QUBIC": [],
   "RTCGA": [],
-  "ReUseData": [],
   "SIMAT": [
     "mzR"
   ],
-  "SIMLR": [],
-  "Sconify": [],
   "SuperCellCyto": [],
   "TIN": [],
-  "TPP": [],
   "TSAR": [],
   "TargetDecoy": [
     "mzR"
@@ -85,53 +52,19 @@
   "VERSO": [],
   "alabaster.base": [],
   "anndataR": [],
-  "biocViews": [],
-  "biomformat": [],
   "bluster": [],
-  "compSPOT": [],
   "csdR": [],
-  "cyanoFilter": [
-    "flowDensity",
-    "flowClust"
-  ],
-  "cytoMEM": [],
-  "ddPCRclust": [
-    "flowDensity",
-    "flowPeaks"
-  ],
+  "cyanoFilter": [],
+  "ddPCRclust": [],
   "decoupleR": [],
-  "fedup": [],
-  "fgga": [],
-  "flowBeads": [],
-  "flowBin": [
-    "flowFP"
-  ],
-  "flowCHIC": [],
-  "flowClust": [],
-  "flowCut": [
-    "flowDensity"
-  ],
-  "flowDensity": [],
-  "flowFP": [],
-  "flowMatch": [],
-  "flowMeans": [],
-  "flowMerge": [
-    "flowClust"
-  ],
-  "flowPeaks": [],
-  "flowTime": [],
-  "flowTrans": [
-    "flowClust"
-  ],
-  "flowcatchR": [],
-  "immunoClust": [],
+  "flowBin": [],
+  "flowCut": [],
+  "flowMerge": [],
+  "flowTrans": [],
   "infinityFlow": [],
   "islify": [],
-  "matter": [],
   "metabinR": [],
-  "monocle": [
-    "biocViews"
-  ],
+  "monocle": [],
   "mosbi": [
     "QUBIC"
   ],
@@ -140,28 +73,19 @@
   ],
   "mslp": [],
   "mzR": [],
-  "ncdfFlow": [],
-  "ndexr": [],
   "netboost": [],
-  "optimalFlow": [
-    "flowMeans"
-  ],
+  "optimalFlow": [],
   "pathwayPCA": [],
-  "ppcseq": [],
   "progeny": [
     "decoupleR"
   ],
-  "rawDiag": [],
   "retrofit": [],
-  "rgoslin": [],
   "scFeatureFilter": [],
   "scLANE": [],
   "seahtrue": [],
-  "splots": [],
   "synergyfinder": [],
   "uSORT": [
-    "monocle",
-    "biocViews"
+    "monocle"
   ],
   "variancePartition": []
 }
