@@ -10,11 +10,13 @@ AnVILBase
 AnVILBilling
 BADER
 BG2
+BUS
 BaseSpaceR
 BeadDataPackR
 BioCartaImage
 BiocBaseUtils
 BiocFileCache
+BiocGenerics
 BiocParallel
 BiocStyle
 BiocVersion
@@ -49,10 +51,13 @@ seqLogo
 seqcombo
 similaRpeak
 snm
+sparsenetgls
 specL
 spikeLI
 ssize
 ssrch
+statTarget
+stepNorm
 survcomp
 swfdr
 switchBox
