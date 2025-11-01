@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 660 (95%)
+- **Successfully Built:** 668 (96%)
 - **Failed:** 5 (0%)
-- **In Progress:** 16
-- **Not Started:** 13
+- **In Progress:** 14
+- **Not Started:** 7
 
-**Progress:** 95%
+**Progress:** 96%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (660)
+## Successfully Built Packages (668)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 
-*... and 610 more ...*
+*... and 618 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,39 +86,31 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (16)
+## In Progress (14)
 - ⏳ `AlphaMissenseR`
-- ⏳ `GenProSeq`
+- ⏳ `CONFESS`
+- ⏳ `Cardinal`
+- ⏳ `MEIGOR`
+- ⏳ `MSstats`
 - ⏳ `OpenStats`
 - ⏳ `Polytect`
 - ⏳ `RTCGA`
-- ⏳ `SuperCellCyto`
-- ⏳ `VERSO`
-- ⏳ `cyanoFilter`
 - ⏳ `infinityFlow`
-- ⏳ `monocle`
+- ⏳ `mosbi`
 - ⏳ `mzR`
-- ⏳ `optimalFlow`
-- ⏳ `retrofit`
 - ⏳ `scFeatureFilter`
 - ⏳ `scLANE`
 - ⏳ `synergyfinder`
 
-## Not Yet Started (13)
-- ⏸️ `CONFESS`
-- ⏸️ `Cardinal`
-- ⏸️ `MEIGOR`
-- ⏸️ `MSstats`
+## Not Yet Started (7)
 - ⏸️ `MSstatsBig`
 - ⏸️ `MSstatsBioNet`
 - ⏸️ `MSstatsTMT`
 - ⏸️ `SIMAT`
 - ⏸️ `TargetDecoy`
-- ⏸️ `mosbi`
 - ⏸️ `msPurity`
-- ⏸️ `progeny`
 - ⏸️ `uSORT`
 
 ---
-*Last updated: 2025-11-01 15:55:05 UTC*
+*Last updated: 2025-11-01 15:57:11 UTC*
 *Packages with verified BBS status: 113*

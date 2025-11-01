@@ -658,3 +658,11 @@ QUBIC
 seahtrue
 TSAR
 variancePartition
+cyanoFilter
+GenProSeq
+monocle
+optimalFlow
+progeny
+retrofit
+SuperCellCyto
+VERSO

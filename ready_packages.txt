@@ -1,6 +1,1 @@
-CONFESS
-Cardinal
-MEIGOR
-MSstats
-mosbi
-progeny
+uSORT

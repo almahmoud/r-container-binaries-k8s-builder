@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenProSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'GenProSeq'
+Warning: dependency ‘VAExprs’ is not available
+also installing the dependency ‘word2vec’
+
+trying URL 'https://cloud.r-project.org/src/contrib/word2vec_0.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenProSeq_1.15.0.tar.gz'
+* installing *source* package ‘word2vec’ ...
+** this is package ‘word2vec’ version ‘0.4.0’
+** package ‘word2vec’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/huffmanTree.cpp -o word2vec/lib/huffmanTree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/mapper.cpp -o word2vec/lib/mapper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/nsDistribution.cpp -o word2vec/lib/nsDistribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/trainer.cpp -o word2vec/lib/trainer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/trainThread.cpp -o word2vec/lib/trainThread.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/vocabulary.cpp -o word2vec/lib/vocabulary.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c word2vec/lib/word2vec.cpp -o word2vec/lib/word2vec.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_word2vec.cpp -o rcpp_word2vec.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -DSTRICT_R_HEADERS -I./word2vec/include -I./word2vec/lib -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o word2vec.so word2vec/lib/huffmanTree.o word2vec/lib/mapper.o word2vec/lib/nsDistribution.o word2vec/lib/trainer.o word2vec/lib/trainThread.o word2vec/lib/vocabulary.o word2vec/lib/word2vec.o rcpp_word2vec.o RcppExports.o -pthread -L/usr/local/lib/R/lib -lR
+rm -f word2vec/lib/huffmanTree.o word2vec/lib/mapper.o word2vec/lib/nsDistribution.o word2vec/lib/trainer.o word2vec/lib/trainThread.o word2vec/lib/vocabulary.o word2vec/lib/word2vec.o rcpp_word2vec.o RcppExports.o 
+installing to /tmp/library/00LOCK-word2vec/00new/word2vec/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘word2vec’ as ‘word2vec_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (word2vec)
+* installing *source* package ‘GenProSeq’ ...
+** this is package ‘GenProSeq’ version ‘1.15.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenProSeq’ as ‘GenProSeq_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenProSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpI8wEg3/downloaded_packages’
+Old packages: 'promises'
+
+real	0m44.223s
+user	0m37.250s
+sys	0m7.547s
