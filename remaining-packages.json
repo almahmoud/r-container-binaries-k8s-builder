@@ -249,7 +249,6 @@
   ],
   "DeeDeeExperiment": [],
   "DegCre": [],
-  "Dino": [],
   "DominoEffect": [
     "VariantAnnotation"
   ],
@@ -1161,7 +1160,6 @@
     "VariantAnnotation",
     "biovizBase"
   ],
-  "crumblr": [],
   "cytomapper": [
     "SpatialExperiment"
   ],
@@ -1323,7 +1321,6 @@
     "VariantAnnotation"
   ],
   "gmoviz": [],
-  "goSorensen": [],
   "goseq": [],
   "gwascat": [
     "VariantAnnotation"

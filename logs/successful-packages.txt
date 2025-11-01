@@ -1595,3 +1595,6 @@ rGREAT
 ccImpute
 cpvSNP
 cydar
+crumblr
+Dino
+goSorensen
