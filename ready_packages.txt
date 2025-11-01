@@ -1,0 +1,17 @@
+ASICS
+ChIPpeakAnno
+MultiBaC
+RgnTX
+UMI4Cats
+XDE
+annotatr
+biosigner
+condiments
+karyoploteR
+lipidr
+netSmooth
+phenomis
+regioneReloaded
+rqt
+scRNAseqApp
+tradeSeq

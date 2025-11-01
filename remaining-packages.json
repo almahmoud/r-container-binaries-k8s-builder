@@ -3,16 +3,13 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "ASICS": [
-    "ropls"
-  ],
+  "ASICS": [],
   "ASpli": [
     "Gviz"
   ],
   "ATACseqQC": [
     "ChIPpeakAnno",
-    "motifStack",
-    "regioneR"
+    "motifStack"
   ],
   "ATACseqTFEA": [
     "motifmatchr"
@@ -68,16 +65,13 @@
     "SpatialExperiment"
   ],
   "CNVfilteR": [
-    "regioneR",
     "karyoploteR",
     "CopyNumberPlots"
   ],
   "CNViz": [
     "karyoploteR",
-    "CopyNumberPlots",
-    "regioneR"
+    "CopyNumberPlots"
   ],
-  "COCOA": [],
   "CTSV": [
     "SpatialExperiment"
   ],
@@ -92,9 +86,7 @@
     "Gviz"
   ],
   "ChIPexoQual": [],
-  "ChIPpeakAnno": [
-    "regioneR"
-  ],
+  "ChIPpeakAnno": [],
   "CircSeqAlignTk": [
     "Rhisat2",
     "SGSeq"
@@ -105,8 +97,7 @@
     "QFeatures"
   ],
   "CopyNumberPlots": [
-    "karyoploteR",
-    "regioneR"
+    "karyoploteR"
   ],
   "DAPAR": [
     "MSnbase",
@@ -119,8 +110,7 @@
     "QFeatures"
   ],
   "DEScan2": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "DESpace": [
     "SpatialExperiment"
@@ -134,7 +124,6 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "DeMixT": [],
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
@@ -182,7 +171,6 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GSRI": [],
   "GSReg": [
     "OrganismDbi"
   ],
@@ -190,10 +178,8 @@
     "SpatialExperiment"
   ],
   "GUIDEseq": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
-  "GeneMeta": [],
   "GeneStructureTools": [
     "Gviz"
   ],
@@ -218,7 +204,6 @@
     "GenomicInteractions",
     "Gviz"
   ],
-  "HoloFoodR": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -239,8 +224,6 @@
     "PSMatch"
   ],
   "LRcell": [],
-  "Lheuristic": [],
-  "LinkHD": [],
   "LoomExperiment": [],
   "MACSr": [],
   "MAGAR": [
@@ -290,8 +273,6 @@
     "QFeatures"
   ],
   "MatrixRider": [],
-  "MetaNeighbor": [],
-  "MetaPhOR": [],
   "MetaboAnnotation": [
     "QFeatures"
   ],
@@ -299,7 +280,6 @@
     "hpar"
   ],
   "MethReg": [],
-  "MicrobiomeProfiler": [],
   "MineICA": [],
   "MoleculeExperiment": [
     "SpatialExperiment"
@@ -313,17 +293,14 @@
     "QFeatures"
   ],
   "MuData": [],
-  "MultiBaC": [
-    "ropls"
-  ],
+  "MultiBaC": [],
   "MungeSumstats": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
     "ChIPpeakAnno",
     "motifStack",
-    "Gviz",
-    "regioneR"
+    "Gviz"
   ],
   "NoRCE": [],
   "OGRE": [
@@ -335,7 +312,6 @@
   "Organism.dplyr": [],
   "OrganismDbi": [],
   "OutSplice": [],
-  "PDATK": [],
   "POWSC": [
     "MAST"
   ],
@@ -376,8 +352,7 @@
   "RCAS": [],
   "RCSL": [],
   "REDseq": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "RESOLVE": [],
   "RMassBank": [
@@ -414,9 +389,7 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "RgnTX": [
-    "regioneR"
-  ],
+  "RgnTX": [],
   "Rhisat2": [
     "SGSeq"
   ],
@@ -447,8 +420,7 @@
   "SGSeq": [],
   "SMITE": [],
   "SOMNiBUS": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "SPIAT": [
     "SpatialExperiment"
@@ -462,8 +434,6 @@
   "SVP": [
     "SpatialExperiment"
   ],
-  "Scale4C": [],
-  "SeqGate": [],
   "SeqSQC": [],
   "SeqVarTools": [],
   "SiPSiC": [],
@@ -525,10 +495,7 @@
   "TVTB": [
     "Gviz"
   ],
-  "UCell": [],
-  "UMI4Cats": [
-    "regioneR"
-  ],
+  "UMI4Cats": [],
   "Ularcirc": [
     "Organism.dplyr"
   ],
@@ -546,9 +513,7 @@
     "SpatialFeatureExperiment",
     "SpatialExperiment"
   ],
-  "XDE": [
-    "GeneMeta"
-  ],
+  "XDE": [],
   "XeniumIO": [
     "TENxIO",
     "SpatialExperiment",
@@ -578,10 +543,7 @@
   "alabaster.spatial": [
     "SpatialExperiment"
   ],
-  "anansi": [],
-  "annotatr": [
-    "regioneR"
-  ],
+  "annotatr": [],
   "appreci8R": [
     "OrganismDbi"
   ],
@@ -606,14 +568,11 @@
   "biomvRCNS": [
     "Gviz"
   ],
-  "biosigner": [
-    "ropls"
-  ],
+  "biosigner": [],
   "biscuiteer": [
     "dmrseq",
     "annotatr",
-    "OrganismDbi",
-    "regioneR"
+    "OrganismDbi"
   ],
   "borealis": [],
   "cBioPortalData": [
@@ -661,7 +620,6 @@
   "clustSIGNAL": [
     "SpatialExperiment"
   ],
-  "clusterExperiment": [],
   "compEpiTools": [
     "methylPipe",
     "Gviz"
@@ -669,9 +627,7 @@
   "concordexR": [
     "SpatialExperiment"
   ],
-  "condiments": [
-    "slingshot"
-  ],
+  "condiments": [],
   "consensusOV": [
     "GSVA",
     "SpatialExperiment"
@@ -731,10 +687,8 @@
     "OrganismDbi"
   ],
   "dmrseq": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
-  "dreamlet": [],
   "easier": [],
   "enhancerHomologSearch": [
     "motifmatchr"
@@ -845,11 +799,8 @@
   "jazzPanda": [
     "SpatialExperiment"
   ],
-  "karyoploteR": [
-    "regioneR"
-  ],
+  "karyoploteR": [],
   "katdetectr": [],
-  "kissDE": [],
   "lefser": [
     "mia"
   ],
@@ -860,9 +811,7 @@
   "linkSet": [
     "Organism.dplyr"
   ],
-  "lipidr": [
-    "ropls"
-  ],
+  "lipidr": [],
   "lisaClust": [
     "spicyR",
     "SpatialExperiment",
@@ -885,8 +834,7 @@
   ],
   "metaseqR2": [],
   "methodical": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "methylGSA": [
     "missMethyl"
@@ -894,7 +842,6 @@
   "methylPipe": [
     "Gviz"
   ],
-  "methylSig": [],
   "methylclock": [
     "ExperimentHubData",
     "AnnotationHubData",
@@ -906,7 +853,6 @@
     "mia",
     "miaViz"
   ],
-  "miaSim": [],
   "miaTime": [
     "mia"
   ],
@@ -947,8 +893,7 @@
     "QFeatures"
   ],
   "multicrispr": [
-    "karyoploteR",
-    "regioneR"
+    "karyoploteR"
   ],
   "musicatk": [
     "decompTumor2Sig"
@@ -961,9 +906,7 @@
     "QFeatures",
     "PSMatch"
   ],
-  "netSmooth": [
-    "clusterExperiment"
-  ],
+  "netSmooth": [],
   "nnSVG": [
     "SpatialExperiment"
   ],
@@ -1009,9 +952,7 @@
     "PSMatch",
     "QFeatures"
   ],
-  "phenomis": [
-    "ropls"
-  ],
+  "phenomis": [],
   "poem": [
     "SpatialExperiment"
   ],
@@ -1044,10 +985,7 @@
     "derfinder",
     "GenomicFiles"
   ],
-  "regioneR": [],
-  "regioneReloaded": [
-    "regioneR"
-  ],
+  "regioneReloaded": [],
   "regutools": [
     "Gviz"
   ],
@@ -1055,20 +993,14 @@
   "ribosomeProfilingQC": [
     "motifStack"
   ],
-  "ropls": [],
-  "rqt": [
-    "ropls"
-  ],
+  "rqt": [],
   "sangeranalyseR": [],
   "saseR": [
     "ASpli",
     "Gviz"
   ],
   "scClassify": [],
-  "scRNAseqApp": [
-    "slingshot"
-  ],
-  "scTensor": [],
+  "scRNAseqApp": [],
   "scTreeViz": [
     "epivizr",
     "epivizrData",
@@ -1082,8 +1014,7 @@
     "SpatialExperiment"
   ],
   "scmeth": [
-    "annotatr",
-    "regioneR"
+    "annotatr"
   ],
   "scoreInvHap": [],
   "scp": [
@@ -1117,7 +1048,6 @@
   "skewr": [
     "wateRmelon"
   ],
-  "slingshot": [],
   "smoothclust": [
     "SpatialExperiment"
   ],
@@ -1150,7 +1080,6 @@
     "simpleSeg",
     "cytomapper"
   ],
-  "spiky": [],
   "spoon": [
     "SpatialExperiment",
     "nnSVG"
@@ -1175,9 +1104,7 @@
     "SpatialExperiment"
   ],
   "svaNUMT": [],
-  "svaRetro": [],
   "tLOH": [],
-  "tRNAscanImport": [],
   "tadar": [
     "Gviz"
   ],
@@ -1202,9 +1129,7 @@
   "trackViewer": [
     "Gviz"
   ],
-  "tradeSeq": [
-    "slingshot"
-  ],
+  "tradeSeq": [],
   "transcriptR": [
     "chipseq"
   ],
@@ -1212,8 +1137,6 @@
     "glmGamPoi"
   ],
   "transmogR": [],
-  "traseR": [],
-  "treeclimbR": [],
   "txcutr": [],
   "uncoverappLib": [
     "Gviz",
@@ -1226,8 +1149,7 @@
     "gwascat"
   ],
   "vulcan": [
-    "ChIPpeakAnno",
-    "regioneR"
+    "ChIPpeakAnno"
   ],
   "wateRmelon": [],
   "xcms": [
