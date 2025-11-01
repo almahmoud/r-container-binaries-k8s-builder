@@ -83,7 +83,6 @@
   ],
   "BatchSVG": [],
   "BayesSpace": [
-    "scater",
     "scran"
   ],
   "BgeeCall": [],
@@ -132,9 +131,7 @@
   "CARDspa": [
     "SpatialExperiment"
   ],
-  "CATALYST": [
-    "scater"
-  ],
+  "CATALYST": [],
   "CCAFE": [
     "VariantAnnotation"
   ],
@@ -173,13 +170,9 @@
     "SpatialExperiment"
   ],
   "CellBench": [],
-  "CellMixS": [
-    "scater"
-  ],
+  "CellMixS": [],
   "CellTrails": [],
-  "CelliD": [
-    "scater"
-  ],
+  "CelliD": [],
   "Cepo": [],
   "CexoR": [
     "genomation"
@@ -214,8 +207,7 @@
   "ChIPseeker": [],
   "ChromSCape": [
     "batchelor",
-    "scran",
-    "scater"
+    "scran"
   ],
   "CircSeqAlignTk": [
     "Rhisat2",
@@ -285,8 +277,7 @@
   "DOtools": [
     "zellkonverter",
     "scDblFinder",
-    "scran",
-    "scater"
+    "scran"
   ],
   "DSS": [
     "bsseq"
@@ -305,8 +296,7 @@
   ],
   "DeconvoBuddies": [
     "scran",
-    "SpatialExperiment",
-    "scater"
+    "SpatialExperiment"
   ],
   "DeeDeeExperiment": [],
   "DegCre": [],
@@ -371,7 +361,6 @@
     "bambu",
     "ggbio",
     "SpatialExperiment",
-    "scater",
     "scran",
     "biovizBase",
     "VariantAnnotation",
@@ -511,9 +500,7 @@
   "Lheuristic": [],
   "LinkHD": [],
   "LoomExperiment": [],
-  "M3Drop": [
-    "scater"
-  ],
+  "M3Drop": [],
   "MACSr": [],
   "MAGAR": [
     "RnBeads",
@@ -547,13 +534,10 @@
     "methylumi",
     "lumi"
   ],
-  "MEB": [
-    "scater"
-  ],
+  "MEB": [],
   "MGnifyR": [
     "TreeSummarizedExperiment",
-    "mia",
-    "scater"
+    "mia"
   ],
   "MIRA": [
     "bsseq"
@@ -814,7 +798,6 @@
   ],
   "RbowtieCuda": [],
   "RegionalST": [
-    "scater",
     "BayesSpace",
     "scran"
   ],
@@ -939,11 +922,9 @@
   ],
   "SpaceTrooper": [
     "SpatialExperiment",
-    "scater",
     "SpatialExperimentIO"
   ],
   "Spaniel": [
-    "scater",
     "scran"
   ],
   "SparseSignatures": [],
@@ -1021,9 +1002,7 @@
   "Uniquorn": [
     "VariantAnnotation"
   ],
-  "VAExprs": [
-    "scater"
-  ],
+  "VAExprs": [],
   "VCFArray": [
     "VariantAnnotation",
     "GenomicFiles"
@@ -1082,9 +1061,7 @@
     "ensembldb"
   ],
   "aggregateBioVar": [],
-  "airpart": [
-    "scater"
-  ],
+  "airpart": [],
   "alabaster": [
     "alabaster.spatial",
     "alabaster.vcf",
@@ -1173,9 +1150,7 @@
     "OrganismDbi",
     "regioneR"
   ],
-  "blase": [
-    "scater"
-  ],
+  "blase": [],
   "borealis": [
     "bsseq",
     "DSS"
@@ -1217,20 +1192,17 @@
     "MAST"
   ],
   "celda": [
-    "scater",
     "scran"
   ],
   "cfDNAPro": [],
   "cfTools": [],
   "chevreulPlot": [
     "chevreulProcess",
-    "scater",
     "scran",
     "batchelor",
     "ensembldb"
   ],
   "chevreulProcess": [
-    "scater",
     "batchelor",
     "ensembldb",
     "scran"
@@ -1268,13 +1240,11 @@
     "QFeatures"
   ],
   "clustSIGNAL": [
-    "SpatialExperiment",
-    "scater"
+    "SpatialExperiment"
   ],
   "clusterExperiment": [
     "mbkmeans"
   ],
-  "clustifyr": [],
   "cn.farms": [],
   "coMethDMR": [
     "bumphunter"
@@ -1292,8 +1262,7 @@
   "condiments": [
     "slingshot",
     "TrajectoryUtils",
-    "distinct",
-    "scater"
+    "distinct"
   ],
   "consensusDE": [
     "ensembldb"
@@ -1368,15 +1337,13 @@
   ],
   "dar": [
     "mia",
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "decompTumor2Sig": [
     "VariantAnnotation"
   ],
   "decontX": [
     "celda",
-    "scater",
     "scran"
   ],
   "deconvR": [
@@ -1409,9 +1376,7 @@
   "diffUTR": [
     "ensembldb"
   ],
-  "distinct": [
-    "scater"
-  ],
+  "distinct": [],
   "dittoSeq": [],
   "dmrseq": [
     "bsseq",
@@ -1448,8 +1413,7 @@
     "TFBSTools"
   ],
   "epiregulon.extra": [
-    "scran",
-    "scater"
+    "scran"
   ],
   "epivizr": [
     "epivizrData",
@@ -1482,7 +1446,6 @@
   "escheR": [
     "SpatialExperiment"
   ],
-  "evaluomeR": [],
   "fCCAC": [
     "genomation"
   ],
@@ -1605,8 +1568,7 @@
     "iSEE",
     "miaViz",
     "mia",
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "iSEEu": [
     "iSEE",
@@ -1656,8 +1618,7 @@
   "knowYourCG": [],
   "lefser": [
     "mia",
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "lemur": [
     "glmGamPoi"
@@ -1753,14 +1714,12 @@
     "GOstats"
   ],
   "mia": [
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "miaDash": [
     "iSEE",
     "iSEEtree",
     "mia",
-    "scater",
     "TreeSummarizedExperiment",
     "miaViz"
   ],
@@ -1769,13 +1728,11 @@
   ],
   "miaTime": [
     "mia",
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "miaViz": [
     "mia",
-    "TreeSummarizedExperiment",
-    "scater"
+    "TreeSummarizedExperiment"
   ],
   "midasHLA": [],
   "miloR": [],
@@ -1851,9 +1808,7 @@
     "scran",
     "batchelor"
   ],
-  "muscat": [
-    "scater"
-  ],
+  "muscat": [],
   "musicatk": [
     "VariantAnnotation",
     "decompTumor2Sig"
@@ -1870,7 +1825,6 @@
     "PSMatch"
   ],
   "netSmooth": [
-    "scater",
     "clusterExperiment",
     "mbkmeans"
   ],
@@ -1887,7 +1841,6 @@
     "QFeatures"
   ],
   "omicsGMF": [
-    "scater",
     "QFeatures"
   ],
   "omicsPrint": [],
@@ -1928,17 +1881,14 @@
     "PSMatch",
     "QFeatures"
   ],
-  "peco": [
-    "scater"
-  ],
+  "peco": [],
   "periodicDNA": [],
   "phenoTest": [],
   "phenomis": [
     "ropls"
   ],
   "pipeComp": [
-    "scran",
-    "scater"
+    "scran"
   ],
   "pipeFrame": [],
   "podkat": [],
@@ -1958,7 +1908,6 @@
   ],
   "proActiv": [],
   "proBAMr": [],
-  "projectR": [],
   "psichomics": [
     "recount",
     "derfinder",
@@ -2048,15 +1997,11 @@
   ],
   "scDataviz": [],
   "scDblFinder": [
-    "scran",
-    "scater"
+    "scran"
   ],
-  "scDotPlot": [
-    "scater"
-  ],
+  "scDotPlot": [],
   "scMerge": [
     "M3Drop",
-    "scater",
     "batchelor",
     "scran"
   ],
@@ -2076,7 +2021,6 @@
     "epivizr",
     "scran",
     "epivizrData",
-    "scater",
     "bumphunter",
     "OrganismDbi",
     "ensembldb"
@@ -2091,7 +2035,6 @@
   "scanMiRApp": [
     "ensembldb"
   ],
-  "scater": [],
   "scider": [
     "SpatialExperiment"
   ],
@@ -2115,9 +2058,7 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "scviR": [
-    "scater"
-  ],
+  "scviR": [],
   "segmenter": [
     "ChIPseeker"
   ],
@@ -2126,7 +2067,6 @@
   ],
   "sesame": [],
   "shinyDSP": [
-    "scater",
     "standR",
     "SpatialExperiment"
   ],
@@ -2156,7 +2096,6 @@
     "ensembldb",
     "GSVA",
     "MAST",
-    "scater",
     "scMerge",
     "scran",
     "celda",
@@ -2213,8 +2152,7 @@
   ],
   "spiky": [],
   "spillR": [
-    "CATALYST",
-    "scater"
+    "CATALYST"
   ],
   "spoon": [
     "SpatialExperiment",
@@ -2308,9 +2246,7 @@
     "TreeSummarizedExperiment"
   ],
   "treekoR": [],
-  "tricycle": [
-    "scater"
-  ],
+  "tricycle": [],
   "txcutr": [],
   "tximeta": [
     "ensembldb"
@@ -2326,8 +2262,7 @@
     "zellkonverter"
   ],
   "visiumStitched": [
-    "SpatialExperiment",
-    "scater"
+    "SpatialExperiment"
   ],
   "vmrseq": [
     "bumphunter"
