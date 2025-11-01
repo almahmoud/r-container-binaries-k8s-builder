@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1060 (47%)
+- **Successfully Built:** 1069 (47%)
 - **Failed:** 2 (0%)
-- **In Progress:** 191
+- **In Progress:** 182
 - **Not Started:** 991
 
 **Progress:** 47%
@@ -16,7 +16,7 @@
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1060)
+## Successfully Built Packages (1069)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1010 more ...*
+*... and 1019 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (191)
-- ⏳ `AnnotationForge`
+## In Progress (182)
 - ⏳ `AnnotationHub`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
@@ -92,7 +91,6 @@
 - ⏳ `CSOA`
 - ⏳ `CrispRVariants`
 - ⏳ `CytoML`
-- ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
 - ⏳ `DOSE`
 - ⏳ `EGAD`
@@ -100,7 +98,6 @@
 - ⏳ `GOfuncR`
 - ⏳ `GeoTcgaData`
 - ⏳ `HiCExperiment`
-- ⏳ `HiCcompare`
 - ⏳ `InterCellar`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
@@ -134,8 +131,11 @@
 - ⏳ `PADOG`
 - ⏳ `PAIRADISE`
 - ⏳ `PICB`
+- ⏳ `PIUMA`
+- ⏳ `PepSetTest`
+- ⏳ `PhIPData`
 
-... and 141 more ...
+... and 132 more ...
 
 ## Not Yet Started (991)
 - ⏸️ `ACE`
@@ -192,5 +192,5 @@
 ... and 941 more ...
 
 ---
-*Last updated: 2025-11-01 01:35:36 UTC*
+*Last updated: 2025-11-01 01:36:44 UTC*
 *Packages with verified BBS status: 116*

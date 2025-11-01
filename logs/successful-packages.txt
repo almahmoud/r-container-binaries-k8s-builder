@@ -1058,3 +1058,12 @@ ProteoMM
 SWATH2stats
 VariantExperiment
 VegaMC
+alabaster.files
+AnnotationForge
+artMS
+CytoPipeline
+dominoSignal
+HiCcompare
+PPInfer
+Rcpi
+surfaltr

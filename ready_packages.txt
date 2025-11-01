@@ -1,0 +1,8 @@
+CytoMDS
+CytoPipelineGUI
+SpectralTAD
+TADCompare
+ViSEAGO
+gsean
+multiHiCcompare
+scHiCcompare
