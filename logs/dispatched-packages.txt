@@ -2145,3 +2145,4 @@ CNVfilteR
 CNViz
 MsQuality
 geomeTriD
+MSnbase

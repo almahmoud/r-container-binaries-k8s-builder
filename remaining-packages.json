@@ -20,8 +20,7 @@
   "CAGEr": [],
   "CAMERA": [
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "CNVfilteR": [],
   "CNViz": [],
@@ -30,16 +29,13 @@
   ],
   "CircSeqAlignTk": [],
   "CluMSID": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "DAPAR": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "DEP": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "DEScan2": [],
   "DESpace": [],
@@ -73,41 +69,33 @@
   "IPO": [
     "xcms",
     "CAMERA",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "MAGAR": [],
   "MAIT": [
     "CAMERA",
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "MEAL": [],
   "MEAT": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
-    "msmsEDA",
-    "PSMatch"
+    "msmsEDA"
   ],
-  "MSnbase": [
-    "PSMatch"
-  ],
+  "MSnbase": [],
   "MSstatsQC": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "MSstatsQCgui": [
     "MSstatsQC",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "MoleculeExperiment": [],
   "MsQuality": [],
@@ -116,18 +104,14 @@
   ],
   "OMICsPCA": [],
   "PRONE": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
-  "PSMatch": [],
   "PrInCE": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "Prostar": [
     "DAPAR",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "QuasR": [],
   "R3CPET": [
@@ -136,8 +120,7 @@
   "RAIDS": [],
   "REDseq": [],
   "RMassBank": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "RNAAgeCalc": [
     "recount",
@@ -212,8 +195,7 @@
   "appreci8R": [],
   "bandle": [
     "MSnbase",
-    "pRoloc",
-    "PSMatch"
+    "pRoloc"
   ],
   "bigmelon": [],
   "bioCancer": [
@@ -240,8 +222,7 @@
   "circRNAprofiler": [],
   "cliqueMS": [
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "clustSIGNAL": [],
   "compEpiTools": [],
@@ -251,8 +232,7 @@
   ],
   "cosmiq": [
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "crisprShiny": [
     "crisprViz"
@@ -287,8 +267,7 @@
   "flagme": [
     "xcms",
     "CAMERA",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "gDR": [],
   "geomeTriD": [],
@@ -319,8 +298,7 @@
   "metaMS": [
     "CAMERA",
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "methodical": [],
   "methylGSA": [],
@@ -336,13 +314,11 @@
     "ggbio"
   ],
   "msmsEDA": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "msmsTests": [
     "MSnbase",
-    "msmsEDA",
-    "PSMatch"
+    "msmsEDA"
   ],
   "mspms": [],
   "msqrob2": [],
@@ -350,37 +326,32 @@
   "musicatk": [],
   "ncGTW": [
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "nnSVG": [],
   "octad": [
     "GSVA"
   ],
   "omXplore": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "omicsGMF": [],
   "oppar": [
     "GSVA"
   ],
   "pRoloc": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "pRolocGUI": [
     "pRoloc",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "pathMED": [
     "GSVA"
   ],
   "pcaExplorer": [],
   "peakPantheR": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "poem": [],
   "psichomics": [
@@ -388,12 +359,10 @@
     "derfinder"
   ],
   "ptairMS": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "qPLEXanalyzer": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "recount": [
     "derfinder"
@@ -448,8 +417,7 @@
   ],
   "squallms": [
     "xcms",
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "stJoincount": [],
   "stPipe": [],
@@ -460,8 +428,7 @@
     "tidySpatialExperiment"
   ],
   "topdownr": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "tpSVG": [],
   "transformGamPoi": [],
@@ -469,8 +436,7 @@
   "visiumStitched": [],
   "vulcan": [],
   "xcms": [
-    "MSnbase",
-    "PSMatch"
+    "MSnbase"
   ],
   "xenLite": []
 }

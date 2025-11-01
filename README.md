@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2037 (90%)
+- **Successfully Built:** 2038 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 103
-- **Not Started:** 102
+- **In Progress:** 107
+- **Not Started:** 97
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2037)
+## Successfully Built Packages (2038)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1987 more ...*
+*... and 1988 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,11 +83,14 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (103)
+## In Progress (107)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Banksy`
+- ⏳ `CAGEr`
+- ⏳ `CNVfilteR`
+- ⏳ `CNViz`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DEScan2`
 - ⏳ `DESpace`
@@ -103,8 +106,8 @@
 - ⏳ `MEAL`
 - ⏳ `MEAT`
 - ⏳ `MoleculeExperiment`
+- ⏳ `MsQuality`
 - ⏳ `OMICsPCA`
-- ⏳ `PSMatch`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `REDseq`
@@ -131,21 +134,15 @@
 - ⏳ `bigmelon`
 - ⏳ `circRNAprofiler`
 - ⏳ `clustSIGNAL`
-- ⏳ `compEpiTools`
-- ⏳ `concordexR`
-- ⏳ `crisprViz`
 
-... and 53 more ...
+... and 57 more ...
 
-## Not Yet Started (102)
+## Not Yet Started (97)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
-- ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CNVfilteR`
-- ⏸️ `CNViz`
 - ⏸️ `ChAMP`
 - ⏸️ `CluMSID`
 - ⏸️ `DAPAR`
@@ -163,7 +160,6 @@
 - ⏸️ `MSnbase`
 - ⏸️ `MSstatsQC`
 - ⏸️ `MSstatsQCgui`
-- ⏸️ `MsQuality`
 - ⏸️ `NADfinder`
 - ⏸️ `PRONE`
 - ⏸️ `PrInCE`
@@ -188,9 +184,13 @@
 - ⏸️ `bandle`
 - ⏸️ `bioCancer`
 - ⏸️ `biscuiteer`
+- ⏸️ `cBioPortalData`
+- ⏸️ `cageminer`
+- ⏸️ `canceR`
+- ⏸️ `cbaf`
 
-... and 52 more ...
+... and 47 more ...
 
 ---
-*Last updated: 2025-11-01 07:00:08 UTC*
+*Last updated: 2025-11-01 07:01:08 UTC*
 *Packages with verified BBS status: 148*

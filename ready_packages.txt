@@ -1,5 +1,1 @@
-CAGEr
-CNVfilteR
-CNViz
-MsQuality
-geomeTriD
+MSnbase
