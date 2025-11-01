@@ -1217,3 +1217,14 @@ plyranges
 TMSig
 OmaDB
 TissueEnrich
+AUCell
+cosmosR
+EGAD
+GenomicScores
+gep2pep
+GOexpress
+hicVennDiagram
+singscore
+TEQC
+transcriptogramer
+webbioc

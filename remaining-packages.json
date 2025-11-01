@@ -41,7 +41,6 @@
   "ATACseqQC": [
     "BSgenome",
     "ChIPpeakAnno",
-    "GenomicScores",
     "motifStack",
     "GenomicFeatures",
     "regioneR",
@@ -53,7 +52,6 @@
     "TFBSTools",
     "BSgenome"
   ],
-  "AUCell": [],
   "AffiXcan": [
     "MultiAssayExperiment"
   ],
@@ -653,7 +651,6 @@
   "EDASeq": [
     "GenomicFeatures"
   ],
-  "EGAD": [],
   "EGSEA": [
     "PADOG",
     "GSVA",
@@ -799,7 +796,6 @@
   "GOTHiC": [
     "BSgenome"
   ],
-  "GOexpress": [],
   "GOpro": [
     "MultiAssayExperiment"
   ],
@@ -878,7 +874,6 @@
     "txdbmaker",
     "BSgenome"
   ],
-  "GenomicScores": [],
   "GeoTcgaData": [],
   "Glimma": [],
   "GloScope": [
@@ -1306,7 +1301,6 @@
     "ATACseqQC",
     "BSgenome",
     "ChIPpeakAnno",
-    "GenomicScores",
     "motifStack",
     "GenomicFeatures",
     "Gviz",
@@ -1612,17 +1606,14 @@
   "RareVariantVis": [
     "VariantAnnotation",
     "GenomicFeatures",
-    "BSgenome",
-    "GenomicScores"
+    "BSgenome"
   ],
   "Rbec": [
     "dada2"
   ],
   "Rbowtie2": [],
   "RbowtieCuda": [],
-  "RcisTarget": [
-    "AUCell"
-  ],
+  "RcisTarget": [],
   "ReactomeGSA": [],
   "ReactomePA": [
     "DOSE",
@@ -1941,7 +1932,6 @@
   "TBSignatureProfiler": [
     "ASSIGN",
     "GSVA",
-    "singscore",
     "sva",
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -1966,7 +1956,6 @@
   "TENxIO": [
     "SingleCellExperiment"
   ],
-  "TEQC": [],
   "TFBSTools": [
     "BSgenome"
   ],
@@ -2075,7 +2064,6 @@
     "VariantAnnotation",
     "GenomicFeatures",
     "BSgenome",
-    "GenomicScores",
     "Gviz",
     "ensembldb",
     "biovizBase"
@@ -2219,7 +2207,6 @@
     "VariantAnnotation",
     "BSgenome",
     "GenomicFeatures",
-    "GenomicScores",
     "OrganismDbi"
   ],
   "arrayMvout": [
@@ -2584,7 +2571,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "cosmosR": [],
   "countsimQC": [
     "genefilter"
   ],
@@ -2982,7 +2968,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "gep2pep": [],
   "gg4way": [],
   "ggbio": [
     "biovizBase",
@@ -3044,7 +3029,6 @@
   "hermes": [
     "MultiAssayExperiment"
   ],
-  "hicVennDiagram": [],
   "hoodscanR": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -3686,7 +3670,6 @@
   ],
   "pathMED": [
     "GSVA",
-    "singscore",
     "SingleCellExperiment",
     "SpatialExperiment"
   ],
@@ -3760,7 +3743,6 @@
     "GenomicFeatures"
   ],
   "primirTSS": [
-    "GenomicScores",
     "Gviz",
     "TFBSTools",
     "BSgenome",
@@ -4230,7 +4212,6 @@
     "alabaster.sce",
     "genefilter"
   ],
-  "singscore": [],
   "sitadela": [
     "GenomicFeatures",
     "txdbmaker"
@@ -4456,7 +4437,6 @@
     "chipseq",
     "GenomicFeatures"
   ],
-  "transcriptogramer": [],
   "transformGamPoi": [
     "glmGamPoi",
     "SingleCellExperiment"
@@ -4554,10 +4534,8 @@
   "wavClusteR": [
     "GenomicFeatures"
   ],
-  "webbioc": [],
   "xCell2": [
-    "SingleCellExperiment",
-    "singscore"
+    "SingleCellExperiment"
   ],
   "xcms": [
     "MSnbase",

@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1219 (54%)
+- **Successfully Built:** 1230 (54%)
 - **Failed:** 2 (0%)
-- **In Progress:** 198
+- **In Progress:** 187
 - **Not Started:** 825
 
 **Progress:** 54%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1219)
+## Successfully Built Packages (1230)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -38,19 +38,18 @@
 | [ASEB](https://bioconductor.org/packages/3.22/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.22/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
+| [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
-| [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
 
-*... and 1169 more ...*
+*... and 1180 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tripr](https://bioconductor.org/packages/3.22/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.22/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/twilight) |
@@ -67,6 +66,7 @@
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
+| [webbioc](https://bioconductor.org/packages/3.22/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.22/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
 | [wiggleplotr](https://bioconductor.org/packages/3.22/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wiggleplotr) |
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (198)
-- ⏳ `AUCell`
+## In Progress (187)
 - ⏳ `BSgenome`
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
@@ -105,13 +104,10 @@
 - ⏳ `DOSE`
 - ⏳ `DeepTarget`
 - ⏳ `EBSEA`
-- ⏳ `EGAD`
 - ⏳ `ERSSA`
 - ⏳ `EpipwR`
 - ⏳ `ExCluster`
-- ⏳ `GOexpress`
 - ⏳ `GenomicFeatures`
-- ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
@@ -134,8 +130,12 @@
 - ⏳ `MsDataHub`
 - ⏳ `MsFeatures`
 - ⏳ `MultiAssayExperiment`
+- ⏳ `MultiDataSet`
+- ⏳ `NormalyzerDE`
+- ⏳ `OVESEG`
+- ⏳ `PADOG`
 
-... and 148 more ...
+... and 137 more ...
 
 ## Not Yet Started (825)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 775 more ...
 
 ---
-*Last updated: 2025-11-01 02:17:18 UTC*
-*Packages with verified BBS status: 124*
+*Last updated: 2025-11-01 02:19:28 UTC*
+*Packages with verified BBS status: 126*

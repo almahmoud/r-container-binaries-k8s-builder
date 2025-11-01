@@ -16,6 +16,7 @@ ASAFE
 ASEB
 ASGSCA
 ASSET
+AUCell
 AWAggregator
 AWFisher
 AffyRNADegradation
@@ -114,6 +115,7 @@ vidger
 viper
 vsn
 weaver
+webbioc
 weitrix
 widgetTools
 wiggleplotr
