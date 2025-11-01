@@ -33,7 +33,6 @@
     "affycoretools",
     "GOstats",
     "ReportingTools",
-    "Category",
     "ggbio",
     "biovizBase",
     "VariantAnnotation",
@@ -49,9 +48,7 @@
   "AnnotationHubData": [
     "OrganismDbi"
   ],
-  "ArrayExpress": [
-    "oligo"
-  ],
+  "ArrayExpress": [],
   "BASiCS": [
     "scran"
   ],
@@ -172,7 +169,6 @@
     "SpatialExperiment"
   ],
   "CTexploreR": [],
-  "Category": [],
   "CatsCradle": [
     "SpatialExperiment"
   ],
@@ -204,8 +200,7 @@
     "VariantAnnotation"
   ],
   "ChIPXpress": [
-    "frma",
-    "oligo"
+    "frma"
   ],
   "ChIPexoQual": [
     "biovizBase",
@@ -323,8 +318,7 @@
     "VariantAnnotation"
   ],
   "DrugVsDisease": [
-    "ArrayExpress",
-    "oligo"
+    "ArrayExpress"
   ],
   "DspikeIn": [
     "TreeSummarizedExperiment"
@@ -408,9 +402,7 @@
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "GOstats": [
-    "Category"
-  ],
+  "GOstats": [],
   "GRaNIE": [
     "ensembldb"
   ],
@@ -457,7 +449,6 @@
     "genomation"
   ],
   "GmicR": [
-    "Category",
     "GOstats"
   ],
   "Gviz": [
@@ -494,9 +485,7 @@
     "QFeatures",
     "PSMatch"
   ],
-  "ITALICS": [
-    "oligo"
-  ],
+  "ITALICS": [],
   "Ibex": [
     "immApex",
     "scRepertoire"
@@ -630,7 +619,6 @@
   "MineICA": [
     "GOstats",
     "lumi",
-    "Category",
     "methylumi",
     "minfi",
     "bumphunter"
@@ -835,7 +823,6 @@
     "scran"
   ],
   "ReportingTools": [
-    "Category",
     "GOstats",
     "ggbio",
     "biovizBase",
@@ -880,9 +867,7 @@
     "ensembldb"
   ],
   "SC3": [],
-  "SCAN.UPC": [
-    "oligo"
-  ],
+  "SCAN.UPC": [],
   "SCArray": [],
   "SCArray.sat": [
     "SCArray"
@@ -975,7 +960,6 @@
   ],
   "SpliceWiz": [],
   "SplicingGraphs": [],
-  "SplineDV": [],
   "SpotClean": [
     "SpatialExperiment"
   ],
@@ -1095,7 +1079,6 @@
   "affycoretools": [
     "GOstats",
     "ReportingTools",
-    "Category",
     "ggbio",
     "biovizBase",
     "VariantAnnotation",
@@ -1148,8 +1131,7 @@
   ],
   "atena": [],
   "attract": [
-    "GOstats",
-    "Category"
+    "GOstats"
   ],
   "autonomics": [],
   "bambu": [],
@@ -1221,15 +1203,13 @@
     "cBioPortalData",
     "phenoTest",
     "RTCGAToolbox",
-    "TCGAutils",
-    "Category"
+    "TCGAutils"
   ],
   "cardelino": [
     "VariantAnnotation"
   ],
   "casper": [],
   "categoryCompare": [
-    "Category",
     "GOstats"
   ],
   "cbaf": [
@@ -1301,9 +1281,7 @@
     "mbkmeans"
   ],
   "clustifyr": [],
-  "cn.farms": [
-    "oligo"
-  ],
+  "cn.farms": [],
   "coMethDMR": [
     "bumphunter"
   ],
@@ -1532,9 +1510,7 @@
     "QFeatures",
     "PSMatch"
   ],
-  "frma": [
-    "oligo"
-  ],
+  "frma": [],
   "funtooNorm": [
     "minfi",
     "bumphunter"
@@ -1648,8 +1624,7 @@
   "ideal": [
     "mosdef",
     "goseq",
-    "GOstats",
-    "Category"
+    "GOstats"
   ],
   "igvR": [
     "VariantAnnotation"
@@ -1667,9 +1642,7 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "interactiveDisplay": [
-    "Category"
-  ],
+  "interactiveDisplay": [],
   "jazzPanda": [
     "SpatialExperiment"
   ],
@@ -1731,9 +1704,7 @@
   ],
   "mastR": [],
   "mbkmeans": [],
-  "meshr": [
-    "Category"
-  ],
+  "meshr": [],
   "metaMS": [
     "CAMERA",
     "xcms",
@@ -1785,7 +1756,6 @@
   ],
   "miQC": [],
   "miRLAB": [
-    "Category",
     "GOstats"
   ],
   "mia": [
@@ -1815,9 +1785,7 @@
   ],
   "midasHLA": [],
   "miloR": [],
-  "mimager": [
-    "oligo"
-  ],
+  "mimager": [],
   "minfi": [
     "bumphunter"
   ],
@@ -1920,7 +1888,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "oligo": [],
   "omXplore": [
     "MSnbase",
     "PSMatch",
@@ -1960,12 +1927,9 @@
   "pcaExplorer": [
     "mosdef",
     "GOstats",
-    "Category",
     "goseq"
   ],
-  "pdInfoBuilder": [
-    "oligo"
-  ],
+  "pdInfoBuilder": [],
   "peakPantheR": [
     "MSnbase",
     "PSMatch",
@@ -1975,9 +1939,7 @@
     "scater"
   ],
   "periodicDNA": [],
-  "phenoTest": [
-    "Category"
-  ],
+  "phenoTest": [],
   "phenomis": [
     "ropls"
   ],
@@ -2016,9 +1978,7 @@
     "PSMatch",
     "QFeatures"
   ],
-  "puma": [
-    "oligo"
-  ],
+  "puma": [],
   "qPLEXanalyzer": [
     "MSnbase",
     "PSMatch",
@@ -2117,7 +2077,6 @@
     "immApex"
   ],
   "scTensor": [
-    "Category",
     "meshr",
     "GOstats"
   ],

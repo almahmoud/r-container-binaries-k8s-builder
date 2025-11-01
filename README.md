@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1541 (68%)
+- **Successfully Built:** 1544 (68%)
 - **Failed:** 2 (0%)
-- **In Progress:** 197
-- **Not Started:** 504
+- **In Progress:** 209
+- **Not Started:** 489
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1541)
+## Successfully Built Packages (1544)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1491 more ...*
+*... and 1494 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (197)
+## In Progress (209)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -93,6 +93,7 @@
 - ⏳ `BERT`
 - ⏳ `BUSseq`
 - ⏳ `BatchSVG`
+- ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
 - ⏳ `CDI`
@@ -100,7 +101,6 @@
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
-- ⏳ `Category`
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
@@ -114,9 +114,12 @@
 - ⏳ `DNAfusion`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
+- ⏳ `DegNorm`
+- ⏳ `ELViS`
 - ⏳ `EasyCellType`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
+- ⏳ `EpiTxDb`
 - ⏳ `GARS`
 - ⏳ `GDCRNATools`
 - ⏳ `GSRI`
@@ -131,13 +134,10 @@
 - ⏳ `MIRit`
 - ⏳ `MLInterfaces`
 - ⏳ `MOMA`
-- ⏳ `MetaNeighbor`
-- ⏳ `MetaPhOR`
-- ⏳ `MicrobiomeProfiler`
 
-... and 147 more ...
+... and 159 more ...
 
-## Not Yet Started (504)
+## Not Yet Started (489)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -156,7 +156,6 @@
 - ⏸️ `Banksy`
 - ⏸️ `BatchQC`
 - ⏸️ `BayesSpace`
-- ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
@@ -188,9 +187,10 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
+- ⏸️ `DAPAR`
 
-... and 454 more ...
+... and 439 more ...
 
 ---
-*Last updated: 2025-11-01 03:45:51 UTC*
+*Last updated: 2025-11-01 03:48:21 UTC*
 *Packages with verified BBS status: 134*

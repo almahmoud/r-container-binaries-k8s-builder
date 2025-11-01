@@ -1753,3 +1753,15 @@ proBAMr
 recoup
 sitadela
 txcutr
+ArrayExpress
+GOstats
+ITALICS
+SCAN.UPC
+cn.farms
+frma
+interactiveDisplay
+meshr
+mimager
+pdInfoBuilder
+phenoTest
+puma
