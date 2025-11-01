@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1999 (89%)
+- **Successfully Built:** 2000 (89%)
 - **Failed:** 2 (0%)
-- **In Progress:** 80
-- **Not Started:** 163
+- **In Progress:** 125
+- **Not Started:** 117
 
 **Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1999)
+## Successfully Built Packages (2000)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1949 more ...*
+*... and 1950 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,17 +83,26 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (80)
+## In Progress (125)
 - ⏳ `ATACseqQC`
 - ⏳ `BASiCStan`
+- ⏳ `Banksy`
+- ⏳ `BulkSignalR`
 - ⏳ `CAGEfightR`
+- ⏳ `CARDspa`
+- ⏳ `CTSV`
+- ⏳ `CatsCradle`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
+- ⏳ `DESpace`
 - ⏳ `DMRcate`
+- ⏳ `DeconvoBuddies`
 - ⏳ `EventPointer`
+- ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
 - ⏳ `GA4GHshiny`
 - ⏳ `GENESIS`
+- ⏳ `GSVA`
 - ⏳ `GUIDEseq`
 - ⏳ `GenomicPlot`
 - ⏳ `HiCDCPlus`
@@ -104,6 +113,7 @@
 - ⏳ `MEAT`
 - ⏳ `MetaboAnnotation`
 - ⏳ `MetaboSignal`
+- ⏳ `MoleculeExperiment`
 - ⏳ `MsExperiment`
 - ⏳ `OMICsPCA`
 - ⏳ `OrganismDbi`
@@ -117,56 +127,37 @@
 - ⏳ `Rqc`
 - ⏳ `SCArray`
 - ⏳ `SETA`
+- ⏳ `SEraster`
 - ⏳ `SOMNiBUS`
+- ⏳ `SPIAT`
 - ⏳ `SPOTlight`
+- ⏳ `SVP`
 - ⏳ `SingleCellAlleleExperiment`
-- ⏳ `SplicingGraphs`
-- ⏳ `SurfR`
-- ⏳ `TCGAutils`
-- ⏳ `TFEA.ChIP`
-- ⏳ `TFutils`
-- ⏳ `Ularcirc`
-- ⏳ `VCFArray`
-- ⏳ `bigmelon`
-- ⏳ `circRNAprofiler`
-- ⏳ `compEpiTools`
-- ⏳ `crisprViz`
-- ⏳ `derfinder`
-- ⏳ `dmrseq`
-- ⏳ `gDNAx`
+- ⏳ `SpaNorm`
 
-... and 30 more ...
+... and 75 more ...
 
-## Not Yet Started (163)
+## Not Yet Started (117)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BOBaFIT`
-- ⏸️ `Banksy`
-- ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CARDspa`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `CTSV`
-- ⏸️ `CatsCradle`
 - ⏸️ `ChAMP`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CluMSID`
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
-- ⏸️ `DESpace`
 - ⏸️ `Damsel`
-- ⏸️ `DeconvoBuddies`
 - ⏸️ `EGSEA`
 - ⏸️ `ExperimentHubData`
-- ⏸️ `ExperimentSubset`
 - ⏸️ `FLAMES`
 - ⏸️ `GNOSIS`
 - ⏸️ `GSReg`
-- ⏸️ `GSVA`
 - ⏸️ `GenomicOZone`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
@@ -175,7 +166,6 @@
 - ⏸️ `MSnbase`
 - ⏸️ `MSstatsQC`
 - ⏸️ `MSstatsQCgui`
-- ⏸️ `MoleculeExperiment`
 - ⏸️ `MsQuality`
 - ⏸️ `NADfinder`
 - ⏸️ `PRONE`
@@ -188,9 +178,19 @@
 - ⏸️ `RTCGAToolbox`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
+- ⏸️ `RnaSeqSampleSize`
+- ⏸️ `SCArray.sat`
+- ⏸️ `SingleCellSignalR`
+- ⏸️ `SingleMoleculeFootprinting`
+- ⏸️ `SomaticSignatures`
+- ⏸️ `SpaceTrooper`
+- ⏸️ `SpotSweeper`
+- ⏸️ `TBSignatureProfiler`
+- ⏸️ `Voyager`
+- ⏸️ `XeniumIO`
 
-... and 113 more ...
+... and 67 more ...
 
 ---
-*Last updated: 2025-11-01 06:44:46 UTC*
+*Last updated: 2025-11-01 06:46:40 UTC*
 *Packages with verified BBS status: 147*
