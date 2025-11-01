@@ -1,4 +1,0 @@
-coMethDMR
-minfi
-rnaEditr
-vmrseq
