@@ -1089,3 +1089,6 @@ planttfhunter
 plyxp
 pmp
 MDTS
+gatom
+TCseq
+VplotR
