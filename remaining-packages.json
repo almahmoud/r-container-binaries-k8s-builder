@@ -76,7 +76,6 @@
   "CARDspa": [
     "SpatialExperiment"
   ],
-  "CCAFE": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -89,7 +88,6 @@
     "regioneR",
     "biovizBase"
   ],
-  "CNVrd2": [],
   "COCOA": [
     "MIRA"
   ],
@@ -380,7 +378,6 @@
   "MultiBaC": [
     "ropls"
   ],
-  "MultimodalExperiment": [],
   "MungeSumstats": [],
   "MutationalPatterns": [],
   "NADfinder": [
@@ -458,7 +455,6 @@
     "ChIPpeakAnno",
     "regioneR"
   ],
-  "REMP": [],
   "RESOLVE": [
     "MutationalPatterns"
   ],
@@ -1121,10 +1117,8 @@
     "mia",
     "TreeSummarizedExperiment"
   ],
-  "midasHLA": [],
   "miloR": [],
   "missMethyl": [],
-  "missRows": [],
   "mitoClone2": [
     "deepSNV"
   ],
@@ -1256,7 +1250,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "r3Cseq": [],
   "raer": [],
   "recount": [
     "derfinder",

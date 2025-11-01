@@ -1741,3 +1741,10 @@ mygene
 phenoTest
 podkat
 proActiv
+CCAFE
+CNVrd2
+midasHLA
+missRows
+MultimodalExperiment
+r3Cseq
+REMP
