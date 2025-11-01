@@ -24,7 +24,6 @@
     "motifmatchr",
     "TFBSTools"
   ],
-  "AffiXcan": [],
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
@@ -57,7 +56,6 @@
     "OrganismDbi"
   ],
   "BUSpaRse": [],
-  "BUSseq": [],
   "BadRegionFinder": [
     "VariantAnnotation"
   ],
@@ -101,12 +99,10 @@
   "CARDspa": [
     "SpatialExperiment"
   ],
-  "CATALYST": [],
   "CCAFE": [
     "VariantAnnotation"
   ],
   "CDI": [],
-  "CHETAH": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -1083,8 +1079,7 @@
   ],
   "condiments": [
     "slingshot",
-    "TrajectoryUtils",
-    "distinct"
+    "TrajectoryUtils"
   ],
   "consensusDE": [],
   "consensusOV": [
@@ -1179,7 +1174,6 @@
   ],
   "diffHic": [],
   "diffUTR": [],
-  "distinct": [],
   "dmrseq": [
     "bsseq",
     "annotatr",
@@ -1189,7 +1183,6 @@
     "zenith",
     "EnrichmentBrowser"
   ],
-  "drugTargetInteractions": [],
   "easier": [],
   "enhancerHomologSearch": [
     "motifmatchr",
@@ -1848,9 +1841,7 @@
     "cytomapper"
   ],
   "spiky": [],
-  "spillR": [
-    "CATALYST"
-  ],
+  "spillR": [],
   "spoon": [
     "SpatialExperiment",
     "nnSVG"

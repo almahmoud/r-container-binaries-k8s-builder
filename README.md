@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1627 (72%)
+- **Successfully Built:** 1633 (72%)
 - **Failed:** 2 (0%)
-- **In Progress:** 196
+- **In Progress:** 190
 - **Not Started:** 419
 
 **Progress:** 72%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1627)
+## Successfully Built Packages (1633)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
-| [AffyRNADegradation](https://bioconductor.org/packages/3.22/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffyRNADegradation) |
+| [AffiXcan](https://bioconductor.org/packages/3.22/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffiXcan) |
 
-*... and 1577 more ...*
+*... and 1583 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,21 +83,17 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (196)
+## In Progress (190)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ASURAT`
-- ⏳ `AffiXcan`
 - ⏳ `ArrayExpress`
 - ⏳ `BERT`
 - ⏳ `BUSpaRse`
-- ⏳ `BUSseq`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
-- ⏳ `CATALYST`
 - ⏳ `CDI`
-- ⏳ `CHETAH`
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
@@ -134,8 +130,12 @@
 - ⏳ `MAST`
 - ⏳ `MIRit`
 - ⏳ `MLInterfaces`
+- ⏳ `MOMA`
+- ⏳ `MetaNeighbor`
+- ⏳ `MetaPhOR`
+- ⏳ `MicrobiomeProfiler`
 
-... and 146 more ...
+... and 140 more ...
 
 ## Not Yet Started (419)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 369 more ...
 
 ---
-*Last updated: 2025-11-01 04:23:15 UTC*
-*Packages with verified BBS status: 138*
+*Last updated: 2025-11-01 04:24:32 UTC*
+*Packages with verified BBS status: 139*
