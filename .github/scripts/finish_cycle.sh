@@ -110,7 +110,18 @@ spec:
         command: ["/bin/sh", "-c"]
         args:
         - |
-          rclone copy --verbose --progress /mnt/tarballs/ final:/bioconductor-packages/\$(cat /mnt/bioc_version)/container-binaries/\$(cat /mnt/container_name_for_sync)/src/contrib/
+          set -x
+          DEST_PATH="final:/bioconductor-packages/\$(cat /mnt/bioc_version)/container-binaries/\$(cat /mnt/container_name_for_sync)/src/contrib"
+          
+          # First pass: Copy all tarballs
+          echo "=== First pass: Copying tarballs ==="
+          rclone copy --verbose --progress --include "*.tar.gz" /mnt/tarballs/ "\${DEST_PATH}/"
+          
+          # Second pass: Copy entire directory (catches PACKAGES files and any missed tarballs)
+          echo "=== Second pass: Syncing entire directory ==="
+          rclone copy --verbose --progress /mnt/tarballs/ "\${DEST_PATH}/"
+          
+          echo "=== Sync complete ==="
         volumeMounts:
         - name: bioc-data
           mountPath: /mnt
