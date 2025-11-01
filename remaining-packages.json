@@ -238,10 +238,8 @@
   "CiteFuse": [
     "scran"
   ],
-  "ClassifyR": [],
   "CleanUpRNAseq": [
-    "ensembldb",
-    "qsmooth"
+    "ensembldb"
   ],
   "CluMSID": [
     "MSnbase",
@@ -308,7 +306,6 @@
   "DSS": [
     "bsseq"
   ],
-  "DaMiRseq": [],
   "Damsel": [
     "ggbio",
     "goseq",
@@ -422,9 +419,7 @@
     "GA4GHclient",
     "VariantAnnotation"
   ],
-  "GARS": [
-    "DaMiRseq"
-  ],
+  "GARS": [],
   "GDCRNATools": [],
   "GENESIS": [
     "SeqVarTools"
@@ -980,7 +975,6 @@
   "SVP": [
     "SpatialExperiment"
   ],
-  "SanityR": [],
   "Scale4C": [],
   "SeqGate": [],
   "SeqSQC": [],
@@ -1079,9 +1073,7 @@
     "GenomicFiles",
     "VariantAnnotation"
   ],
-  "TOP": [
-    "ClassifyR"
-  ],
+  "TOP": [],
   "TRESS": [],
   "TSCAN": [
     "TrajectoryUtils"
@@ -1795,8 +1787,7 @@
     "spicyR",
     "SpatialExperiment",
     "simpleSeg",
-    "cytomapper",
-    "ClassifyR"
+    "cytomapper"
   ],
   "looking4clusters": [],
   "lumi": [
@@ -2022,7 +2013,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "omicRexposome": [],
   "omicsGMF": [
     "scater",
     "QFeatures"
@@ -2131,7 +2121,6 @@
   ],
   "qpgraph": [],
   "qsea": [],
-  "qsmooth": [],
   "quantro": [
     "minfi",
     "bumphunter"
@@ -2310,7 +2299,6 @@
     "minfi",
     "bumphunter"
   ],
-  "signatureSearch": [],
   "signeR": [
     "VariantAnnotation"
   ],
@@ -2384,7 +2372,6 @@
   ],
   "speckle": [],
   "spicyR": [
-    "ClassifyR",
     "SpatialExperiment",
     "simpleSeg",
     "cytomapper"

@@ -1489,3 +1489,9 @@ bnem
 cghMCR
 crlmm
 mBPCR
+ClassifyR
+DaMiRseq
+omicRexposome
+qsmooth
+SanityR
+signatureSearch

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1491 (66%)
+- **Successfully Built:** 1497 (66%)
 - **Failed:** 2 (0%)
-- **In Progress:** 242
-- **Not Started:** 509
+- **In Progress:** 237
+- **Not Started:** 508
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1491)
+## Successfully Built Packages (1497)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.22/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1441 more ...*
+*... and 1447 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (242)
+## In Progress (237)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -109,7 +109,6 @@
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
-- ⏳ `ClassifyR`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `Cogito`
@@ -117,7 +116,6 @@
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `DExMA`
 - ⏳ `DNAfusion`
-- ⏳ `DaMiRseq`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `DiffBind`
@@ -134,10 +132,12 @@
 - ⏳ `GloScope`
 - ⏳ `Guitar`
 - ⏳ `HIPPO`
+- ⏳ `HarmonizR`
+- ⏳ `ILoReg`
 
-... and 192 more ...
+... and 187 more ...
 
-## Not Yet Started (509)
+## Not Yet Started (508)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `Coralysis`
 - ⏸️ `DAMEfinder`
 
-... and 459 more ...
+... and 458 more ...
 
 ---
-*Last updated: 2025-11-01 03:30:45 UTC*
+*Last updated: 2025-11-01 03:33:11 UTC*
 *Packages with verified BBS status: 130*
