@@ -1307,3 +1307,8 @@ npGSEA
 RegEnrich
 SpatialCPie
 SplicingFactory
+cypress
+enrichplot
+ExCluster
+findIPs
+SeqGSEA
