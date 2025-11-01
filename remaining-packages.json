@@ -1,5 +1,4 @@
 {
-  "ABSSeq": [],
   "ABarray": [
     "Biobase",
     "multtest",
@@ -20,8 +19,7 @@
   "AlphaBeta": [],
   "AlphaMissenseR": [],
   "AlpsNMR": [
-    "mixOmics",
-    "impute"
+    "mixOmics"
   ],
   "AnVIL": [
     "GCPtools"
@@ -45,10 +43,7 @@
     "BiocGenerics"
   ],
   "BEclear": [],
-  "BG2": [],
-  "BUS": [
-    "minet"
-  ],
+  "BUS": [],
   "BayesKnockdown": [
     "Biobase",
     "BiocGenerics"
@@ -81,42 +76,33 @@
   "BiocNeighbors": [
     "assorthead"
   ],
-  "BiocWorkflowTools": [],
   "BrowserViz": [
     "BiocGenerics"
   ],
-  "BufferedMatrixMethods": [],
   "CGHbase": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "CGHcall": [
-    "impute",
     "Biobase",
     "CGHbase",
-    "BiocGenerics",
-    "marray"
+    "BiocGenerics"
   ],
   "CGHnormaliter": [
     "CGHcall",
     "CGHbase",
     "Biobase",
-    "BiocGenerics",
-    "marray",
-    "impute"
+    "BiocGenerics"
   ],
   "CGHregions": [
     "Biobase",
     "CGHbase",
-    "BiocGenerics",
-    "marray"
+    "BiocGenerics"
   ],
   "CMA": [
     "Biobase",
     "BiocGenerics"
   ],
-  "CNAnorm": [],
   "CNORdt": [
     "CellNOptR",
     "RBGL",
@@ -277,7 +263,6 @@
     "rhdf5",
     "rhdf5filters"
   ],
-  "GSgalgoR": [],
   "GWAS.BAYES": [],
   "GWASTools": [
     "Biobase",
@@ -372,28 +357,23 @@
     "Rgraphviz",
     "BiocGenerics"
   ],
-  "MODA": [
-    "impute"
-  ],
+  "MODA": [],
   "MOGAMUN": [
     "RCy3",
     "BiocGenerics",
     "graph"
   ],
   "MSstats": [
-    "MSstatsConvert",
-    "marray"
+    "MSstatsConvert"
   ],
   "MSstatsBig": [
     "MSstats",
-    "MSstatsConvert",
-    "marray"
+    "MSstatsConvert"
   ],
   "MSstatsBioNet": [
     "MSstats",
     "RCy3",
     "MSstatsConvert",
-    "marray",
     "BiocGenerics",
     "graph"
   ],
@@ -401,8 +381,7 @@
   "MSstatsResponse": [],
   "MSstatsTMT": [
     "MSstats",
-    "MSstatsConvert",
-    "marray"
+    "MSstatsConvert"
   ],
   "Mergeomics": [],
   "MetaCyto": [
@@ -426,9 +405,7 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "MethylMix": [
-    "impute"
-  ],
+  "MethylMix": [],
   "MiChip": [
     "Biobase",
     "BiocGenerics"
@@ -466,9 +443,7 @@
     "BiocGenerics",
     "Biobase"
   ],
-  "OLIN": [
-    "marray"
-  ],
+  "OLIN": [],
   "OPWeight": [],
   "OSAT": [],
   "Omixer": [],
@@ -513,9 +488,7 @@
     "graph",
     "BiocGenerics"
   ],
-  "RBM": [
-    "marray"
-  ],
+  "RBM": [],
   "RBioFormats": [
     "EBImage",
     "S4Vectors",
@@ -672,7 +645,6 @@
   ],
   "SuperCellCyto": [],
   "TIN": [
-    "impute",
     "aroma.light"
   ],
   "TMixClust": [
@@ -751,12 +723,9 @@
   ],
   "antiProfiles": [],
   "aroma.light": [],
-  "arrayQuality": [
-    "marray"
-  ],
+  "arrayQuality": [],
   "assorthead": [],
   "bacon": [],
-  "banocc": [],
   "basilisk": [],
   "basilisk.utils": [],
   "bioDist": [
@@ -830,7 +799,6 @@
   "consensus": [],
   "convert": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "copa": [
@@ -842,9 +810,7 @@
     "BiocGenerics"
   ],
   "cqn": [],
-  "csdR": [
-    "impute"
-  ],
+  "csdR": [],
   "ctsGE": [],
   "cyanoFilter": [
     "Biobase",
@@ -882,13 +848,11 @@
     "S4Vectors",
     "flowViz"
   ],
-  "dearseq": [],
   "decoupleR": [],
   "demuxmix": [],
   "densvis": [
     "basilisk"
   ],
-  "diffuStats": [],
   "diggit": [
     "Biobase",
     "viper",
@@ -903,7 +867,6 @@
     "Rsubread"
   ],
   "dyebias": [
-    "marray",
     "Biobase",
     "BiocGenerics"
   ],
@@ -1013,7 +976,6 @@
     "cytolib",
     "S4Vectors"
   ],
-  "flowGraph": [],
   "flowMatch": [
     "flowCore",
     "Biobase",
@@ -1096,7 +1058,6 @@
   "geNetClassifier": [
     "Biobase",
     "EBarrays",
-    "minet",
     "BiocGenerics"
   ],
   "gemini": [],
@@ -1108,8 +1069,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "genomes": [],
-  "geva": [],
   "ggkegg": [],
   "ggtree": [
     "treeio"
@@ -1126,8 +1085,6 @@
     "ggtree",
     "treeio"
   ],
-  "globalSeq": [],
-  "gpls": [],
   "graper": [],
   "graph": [
     "BiocGenerics"
@@ -1138,8 +1095,6 @@
     "fabia",
     "BiocGenerics"
   ],
-  "hierGWAS": [],
-  "hierinf": [],
   "hmdbQuery": [
     "S4Vectors",
     "BiocGenerics"
@@ -1159,16 +1114,12 @@
     "BiocGenerics"
   ],
   "iASeq": [],
-  "iBBiG": [],
   "iBMQ": [
     "Biobase",
     "BiocGenerics"
   ],
   "iCOBRA": [],
   "iChip": [],
-  "iClusterPlus": [],
-  "ibh": [],
-  "illuminaio": [],
   "imageTCGA": [],
   "immunoClust": [
     "flowCore",
@@ -1178,7 +1129,6 @@
     "S4Vectors"
   ],
   "immunotation": [],
-  "impute": [],
   "infinityFlow": [
     "flowCore",
     "Biobase",
@@ -1186,7 +1136,6 @@
     "cytolib",
     "S4Vectors"
   ],
-  "interacCircos": [],
   "iscream": [
     "Rhtslib"
   ],
@@ -1200,21 +1149,17 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "iterativeBMAsurv": [],
   "koinar": [],
-  "les": [],
   "levi": [],
   "lfa": [],
   "limmaGUI": [],
   "limpa": [],
-  "lmdme": [],
   "logicFS": [],
   "maSigPro": [
     "Biobase",
     "BiocGenerics"
   ],
   "magrene": [],
-  "marray": [],
   "martini": [
     "snpStats",
     "BiocGenerics"
@@ -1230,7 +1175,6 @@
   "mdp": [],
   "mdqc": [],
   "messina": [],
-  "metaCCA": [],
   "metaSeq": [
     "NOISeq",
     "Biobase",
@@ -1251,15 +1195,11 @@
   "methylMnM": [
     "edgeR"
   ],
-  "miRBaseConverter": [],
-  "miRNApath": [],
   "miRcomp": [
     "Biobase",
     "BiocGenerics"
   ],
   "mina": [],
-  "minet": [],
-  "mirTarRnaSeq": [],
   "mistyR": [],
   "mixOmics": [],
   "mnem": [
@@ -1315,9 +1255,7 @@
   "ndexr": [
     "RCX"
   ],
-  "netboost": [
-    "impute"
-  ],
+  "netboost": [],
   "nethet": [
     "multtest",
     "graph",
@@ -1326,16 +1264,12 @@
   ],
   "netresponse": [
     "Rgraphviz",
-    "minet",
     "graph",
     "BiocGenerics"
   ],
-  "nnNorm": [
-    "marray"
-  ],
+  "nnNorm": [],
   "normalize450K": [
     "Biobase",
-    "illuminaio",
     "BiocGenerics"
   ],
   "omada": [],
@@ -1377,7 +1311,6 @@
     "treeio"
   ],
   "phosphonormalizer": [],
-  "pickgene": [],
   "planet": [],
   "plasmut": [],
   "plgem": [
@@ -1385,8 +1318,6 @@
     "BiocGenerics"
   ],
   "plotGrouper": [],
-  "pmm": [],
-  "powerTCR": [],
   "ppcseq": [
     "edgeR"
   ],
@@ -1408,7 +1339,6 @@
     "BiocGenerics"
   ],
   "rBiopaxParser": [],
-  "rWikiPathways": [],
   "rain": [
     "multtest",
     "BiocGenerics",
@@ -1418,7 +1348,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "randRotation": [],
   "rawDiag": [
     "rawrr"
   ],
@@ -1436,8 +1365,7 @@
     "Biobase",
     "S4Vectors",
     "BiocGenerics",
-    "pcaMethods",
-    "impute"
+    "pcaMethods"
   ],
   "rgoslin": [],
   "rhdf5": [
@@ -1474,7 +1402,6 @@
   "scRecover": [],
   "scShapes": [],
   "scTHI": [],
-  "scatterHatch": [],
   "scde": [
     "edgeR",
     "pcaMethods",
@@ -1484,7 +1411,6 @@
   "seahtrue": [],
   "semisup": [],
   "seq.hotSPOT": [],
-  "seqcombo": [],
   "sevenbridges": [
     "S4Vectors",
     "BiocGenerics"
@@ -1509,36 +1435,27 @@
   "snifter": [
     "basilisk"
   ],
-  "snm": [],
   "snpStats": [
     "BiocGenerics"
   ],
   "sparseMatrixStats": [],
   "sparsenetgls": [],
-  "specL": [],
   "spkTools": [
     "Biobase",
     "BiocGenerics"
   ],
   "splots": [],
-  "statTarget": [
-    "impute"
-  ],
-  "stepNorm": [
-    "marray"
-  ],
+  "statTarget": [],
+  "stepNorm": [],
   "subSeq": [
     "Biobase",
     "BiocGenerics"
   ],
-  "survcomp": [],
-  "swfdr": [],
   "synapsis": [
     "EBImage",
     "BiocGenerics"
   ],
   "synergyfinder": [],
-  "synlet": [],
   "systemPipeShiny": [],
   "tanggle": [
     "ggtree",
@@ -1558,7 +1475,6 @@
   ],
   "timecourse": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "timescape": [],
@@ -1604,7 +1520,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "veloviz": [],
   "viper": [
     "Biobase",
     "BiocGenerics"

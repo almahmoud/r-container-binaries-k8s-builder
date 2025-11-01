@@ -406,3 +406,14 @@ sparseMatrixStats
 synlet
 ternarynet
 tomoseqr
+BUS
+MODA
+MethylMix
+OLIN
+RBM
+arrayQuality
+csdR
+netboost
+nnNorm
+statTarget
+stepNorm
