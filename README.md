@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 892 (39%)
+- **Successfully Built:** 893 (39%)
 - **Failed:** 1 (0%)
 - **In Progress:** 70
-- **Not Started:** 1281
+- **Not Started:** 1280
 
 **Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (892)
+## Successfully Built Packages (893)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 842 more ...*
+*... and 843 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,6 @@
 - ⏳ `CSAR`
 - ⏳ `DNAshapeR`
 - ⏳ `DelayedTensor`
-- ⏳ `EnrichedHeatmap`
 - ⏳ `FinfoMDS`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
@@ -133,10 +132,11 @@
 - ⏳ `microbiomeDASim`
 - ⏳ `ncRNAtools`
 - ⏳ `oncoscanR`
+- ⏳ `openPrimeR`
 
 ... and 20 more ...
 
-## Not Yet Started (1281)
+## Not Yet Started (1280)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 
-... and 1231 more ...
+... and 1230 more ...
 
 ---
-*Last updated: 2025-11-01 00:01:27 UTC*
+*Last updated: 2025-11-01 00:02:00 UTC*
 *Packages with verified BBS status: 106*
