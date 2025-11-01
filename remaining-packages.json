@@ -1486,7 +1486,6 @@
     "txdbmaker",
     "tRNAdbImport",
     "rtracklayer",
-    "tRNA",
     "biomaRt",
     "Rsamtools",
     "GenomicAlignments",
@@ -6845,7 +6844,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "methimpute": [],
   "methodical": [
     "SummarizedExperiment",
     "AnnotationHub",
@@ -9007,12 +9005,8 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "tRNA": [],
-  "tRNAdbImport": [
-    "tRNA"
-  ],
+  "tRNAdbImport": [],
   "tRNAscanImport": [
-    "tRNA",
     "rtracklayer",
     "BSgenome",
     "Rsamtools",
@@ -9040,7 +9034,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "target": [],
   "tenXplore": [
     "ontoProc",
     "SummarizedExperiment",

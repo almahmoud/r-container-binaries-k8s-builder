@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 941 (41%)
+- **Successfully Built:** 944 (42%)
 - **Failed:** 1 (0%)
-- **In Progress:** 33
+- **In Progress:** 30
 - **Not Started:** 1269
 
-**Progress:** 41%
+**Progress:** 42%
 ```
-████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (941)
+## Successfully Built Packages (944)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 
-*... and 891 more ...*
+*... and 894 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (33)
+## In Progress (30)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CONFESS`
@@ -98,7 +98,6 @@
 - ⏳ `igvShiny`
 - ⏳ `megadepth`
 - ⏳ `memes`
-- ⏳ `methimpute`
 - ⏳ `motifTestR`
 - ⏳ `openCyto`
 - ⏳ `openPrimeR`
@@ -113,8 +112,6 @@
 - ⏳ `scrapper`
 - ⏳ `seqPattern`
 - ⏳ `syntenet`
-- ⏳ `tRNA`
-- ⏳ `target`
 - ⏳ `transite`
 
 ## Not Yet Started (1269)
@@ -172,5 +169,5 @@
 ... and 1219 more ...
 
 ---
-*Last updated: 2025-11-01 00:10:18 UTC*
+*Last updated: 2025-11-01 00:10:47 UTC*
 *Packages with verified BBS status: 109*
