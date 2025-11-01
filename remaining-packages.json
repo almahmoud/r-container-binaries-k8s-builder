@@ -1,7 +1,5 @@
 {
-  "ACE": [
-    "QDNAseq"
-  ],
+  "ACE": [],
   "ADImpute": [
     "SingleCellExperiment"
   ],
@@ -378,7 +376,6 @@
     "DOSE",
     "enrichplot"
   ],
-  "CellBarcode": [],
   "CellBench": [
     "SingleCellExperiment"
   ],
@@ -454,7 +451,6 @@
     "GenomicFeatures",
     "DOSE"
   ],
-  "ChIPseqR": [],
   "ChIPsim": [],
   "ChromHeatMap": [],
   "ChromSCape": [
@@ -901,9 +897,7 @@
     "regioneR",
     "ensembldb"
   ],
-  "GeneBreak": [
-    "QDNAseq"
-  ],
+  "GeneBreak": [],
   "GeneMeta": [
     "genefilter"
   ],
@@ -1433,7 +1427,6 @@
   "Nebulosa": [
     "SingleCellExperiment"
   ],
-  "NetSAM": [],
   "NewWave": [
     "SingleCellExperiment"
   ],
@@ -1575,7 +1568,6 @@
     "ensembldb",
     "BSgenome"
   ],
-  "QDNAseq": [],
   "QFeatures": [
     "MultiAssayExperiment"
   ],
@@ -2471,7 +2463,6 @@
   "biscuiteer": [
     "bsseq",
     "VariantAnnotation",
-    "QDNAseq",
     "dmrseq",
     "ExperimentHub",
     "BSgenome",
@@ -2590,9 +2581,7 @@
   "cfTools": [
     "ExperimentHub"
   ],
-  "cfdnakit": [
-    "QDNAseq"
-  ],
+  "cfdnakit": [],
   "cghMCR": [
     "CNTools",
     "genefilter"
@@ -2964,7 +2953,6 @@
     "GenomicFeatures"
   ],
   "easier": [
-    "quantiseqr",
     "ExperimentHub"
   ],
   "easyRNASeq": [],
@@ -3233,7 +3221,6 @@
   "graphite": [],
   "groHMM": [],
   "gscreend": [],
-  "gsean": [],
   "gwascat": [
     "GenomicFeatures",
     "VariantAnnotation",
@@ -4095,7 +4082,6 @@
     "sva",
     "genefilter"
   ],
-  "quantiseqr": [],
   "quantro": [
     "minfi",
     "bumphunter",
@@ -4873,7 +4859,6 @@
   "webbioc": [],
   "weitrix": [],
   "wiggleplotr": [],
-  "wpm": [],
   "xCell2": [
     "SingleCellExperiment",
     "singscore",
@@ -4895,7 +4880,6 @@
     "SingleCellExperiment",
     "TENxIO"
   ],
-  "yamss": [],
   "yarn": [
     "quantro",
     "minfi",

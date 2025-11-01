@@ -112,5 +112,7 @@ viper
 vsn
 weaver
 widgetTools
+wpm
 xmapbridge
+yamss
 zFPKM

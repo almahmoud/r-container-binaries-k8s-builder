@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1127 (50%)
+- **Successfully Built:** 1135 (50%)
 - **Failed:** 2 (0%)
-- **In Progress:** 197
-- **Not Started:** 918
+- **In Progress:** 233
+- **Not Started:** 874
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1127)
+## Successfully Built Packages (1135)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1077 more ...*
+*... and 1085 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tracktables](https://bioconductor.org/packages/3.22/bioc/html/tracktables.html) | [log](logs/tracktables/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tracktables) |
-| [transite](https://bioconductor.org/packages/3.22/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.22/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
@@ -73,7 +71,9 @@
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
+| [wpm](https://bioconductor.org/packages/3.22/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wpm) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
+| [yamss](https://bioconductor.org/packages/3.22/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
 
 ## Failed Packages (2)
@@ -83,31 +83,41 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (197)
+## In Progress (233)
+- ⏳ `BSgenome`
 - ⏳ `CHRONOS`
-- ⏳ `CellBarcode`
-- ⏳ `ChIPseqR`
+- ⏳ `CNEr`
 - ⏳ `ChIPsim`
+- ⏳ `ChromHeatMap`
+- ⏳ `CoverageView`
+- ⏳ `CyTOFpower`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DEGreport`
 - ⏳ `DEWSeq`
 - ⏳ `DEsubs`
+- ⏳ `DMCFB`
+- ⏳ `DMCHMM`
 - ⏳ `DOSE`
 - ⏳ `EBSEA`
 - ⏳ `EGAD`
 - ⏳ `ERSSA`
+- ⏳ `ExCluster`
 - ⏳ `ExperimentHub`
 - ⏳ `FastqCleaner`
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
+- ⏳ `GenomicFeatures`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
 - ⏳ `HiContacts`
+- ⏳ `HiTC`
+- ⏳ `HicAggR`
 - ⏳ `IONiseR`
+- ⏳ `IdeoViz`
 - ⏳ `InterCellar`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
@@ -124,20 +134,10 @@
 - ⏳ `MLP`
 - ⏳ `MODA`
 - ⏳ `MPRAnalyze`
-- ⏳ `MWASTools`
-- ⏳ `MeSHDbi`
-- ⏳ `MesKit`
-- ⏳ `MetNet`
-- ⏳ `MetaboDynamics`
-- ⏳ `MiRaGE`
-- ⏳ `MicrobiotaProcess`
-- ⏳ `MsFeatures`
-- ⏳ `MultiAssayExperiment`
-- ⏳ `MultiDataSet`
 
-... and 147 more ...
+... and 183 more ...
 
-## Not Yet Started (918)
+## Not Yet Started (874)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -164,7 +164,6 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
@@ -188,9 +187,10 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
+- ⏸️ `CAMERA`
 
-... and 868 more ...
+... and 824 more ...
 
 ---
-*Last updated: 2025-11-01 01:54:14 UTC*
-*Packages with verified BBS status: 116*
+*Last updated: 2025-11-01 01:56:41 UTC*
+*Packages with verified BBS status: 118*

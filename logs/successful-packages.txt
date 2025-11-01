@@ -1125,3 +1125,11 @@ ipdDb
 NetActivity
 rGenomeTracks
 rtracklayer
+CellBarcode
+ChIPseqR
+gsean
+NetSAM
+QDNAseq
+quantiseqr
+wpm
+yamss
