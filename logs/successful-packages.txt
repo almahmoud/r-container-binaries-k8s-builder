@@ -2024,3 +2024,6 @@ BulkSignalR
 IntEREst
 Rhisat2
 SurfR
+HiCaptuRe
+lemur
+TCGAutils

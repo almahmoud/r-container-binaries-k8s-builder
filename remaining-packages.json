@@ -70,8 +70,7 @@
   ],
   "GNOSIS": [
     "cBioPortalData",
-    "RTCGAToolbox",
-    "TCGAutils"
+    "RTCGAToolbox"
   ],
   "GSReg": [],
   "GSVA": [],
@@ -80,7 +79,6 @@
     "ggbio"
   ],
   "HiCDCPlus": [],
-  "HiCaptuRe": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -165,9 +163,7 @@
   "RNAmodR.AlkAnilineSeq": [],
   "RNAmodR.ML": [],
   "RNAmodR.RiboMethSeq": [],
-  "RTCGAToolbox": [
-    "TCGAutils"
-  ],
+  "RTCGAToolbox": [],
   "RbowtieCuda": [],
   "ReportingTools": [
     "ggbio"
@@ -206,7 +202,6 @@
   "TBSignatureProfiler": [
     "GSVA"
   ],
-  "TCGAutils": [],
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
@@ -242,28 +237,24 @@
   "bigmelon": [],
   "bioCancer": [
     "cBioPortalData",
-    "RTCGAToolbox",
-    "TCGAutils"
+    "RTCGAToolbox"
   ],
   "biscuiteer": [
     "dmrseq"
   ],
   "cBioPortalData": [
-    "RTCGAToolbox",
-    "TCGAutils"
+    "RTCGAToolbox"
   ],
   "cageminer": [
     "ggbio"
   ],
   "canceR": [
     "cBioPortalData",
-    "RTCGAToolbox",
-    "TCGAutils"
+    "RTCGAToolbox"
   ],
   "cbaf": [
     "cBioPortalData",
-    "RTCGAToolbox",
-    "TCGAutils"
+    "RTCGAToolbox"
   ],
   "circRNAprofiler": [],
   "cliqueMS": [
@@ -327,9 +318,7 @@
   ],
   "ggbio": [],
   "ggspavis": [],
-  "glmSparseNet": [
-    "TCGAutils"
-  ],
+  "glmSparseNet": [],
   "hoodscanR": [],
   "iSEEfier": [
     "iSEEu"
@@ -344,7 +333,6 @@
     "ggbio"
   ],
   "jazzPanda": [],
-  "lemur": [],
   "linkSet": [],
   "lisaClust": [
     "spicyR",
@@ -493,9 +481,7 @@
   "stJoincount": [],
   "stPipe": [],
   "standR": [],
-  "terraTCGAdata": [
-    "TCGAutils"
-  ],
+  "terraTCGAdata": [],
   "tidySpatialExperiment": [],
   "tidyomics": [
     "tidySpatialExperiment"

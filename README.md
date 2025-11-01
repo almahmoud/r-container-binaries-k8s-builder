@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2026 (90%)
+- **Successfully Built:** 2029 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 109
-- **Not Started:** 107
+- **In Progress:** 108
+- **Not Started:** 105
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2026)
+## Successfully Built Packages (2029)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1976 more ...*
+*... and 1979 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,12 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (109)
+## In Progress (108)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Banksy`
 - ⏳ `CAGEfightR`
+- ⏳ `CircSeqAlignTk`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
 - ⏳ `DESpace`
@@ -100,7 +101,6 @@
 - ⏳ `GSVA`
 - ⏳ `GUIDEseq`
 - ⏳ `HiCDCPlus`
-- ⏳ `HiCaptuRe`
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
@@ -121,12 +121,12 @@
 - ⏳ `SOMNiBUS`
 - ⏳ `SPIAT`
 - ⏳ `SVP`
+- ⏳ `SingleCellSignalR`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `SpatialFeatureExperiment`
 - ⏳ `SpotClean`
 - ⏳ `Statial`
-- ⏳ `TCGAutils`
 - ⏳ `TFutils`
 - ⏳ `Ularcirc`
 - ⏳ `VCFArray`
@@ -135,9 +135,9 @@
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
 
-... and 59 more ...
+... and 58 more ...
 
-## Not Yet Started (107)
+## Not Yet Started (105)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -147,7 +147,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `ChAMP`
-- ⏸️ `CircSeqAlignTk`
 - ⏸️ `CluMSID`
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
@@ -176,7 +175,6 @@
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SingleCellSignalR`
 - ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
 - ⏸️ `SpaceTrooper`
@@ -188,9 +186,11 @@
 - ⏸️ `affycoretools`
 - ⏸️ `alabaster`
 - ⏸️ `alabaster.sfe`
+- ⏸️ `bandle`
+- ⏸️ `bioCancer`
 
-... and 57 more ...
+... and 55 more ...
 
 ---
-*Last updated: 2025-11-01 06:56:57 UTC*
+*Last updated: 2025-11-01 06:57:57 UTC*
 *Packages with verified BBS status: 147*

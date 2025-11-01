@@ -2137,3 +2137,6 @@ SCArray.sat
 iSEEu
 CircSeqAlignTk
 SingleCellSignalR
+RTCGAToolbox
+glmSparseNet
+terraTCGAdata
