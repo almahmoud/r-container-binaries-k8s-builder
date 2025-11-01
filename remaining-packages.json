@@ -118,7 +118,6 @@
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
-  "DspikeIn": [],
   "DuplexDiscovereR": [],
   "EGSEA": [
     "GSVA",
@@ -199,7 +198,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "MACSr": [],
   "MAGAR": [
     "RnBeads"
   ],
@@ -264,7 +262,6 @@
   ],
   "MuData": [],
   "MultiBaC": [],
-  "MungeSumstats": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -390,9 +387,7 @@
   "SVP": [
     "SpatialExperiment"
   ],
-  "SeqSQC": [],
   "SiPSiC": [],
-  "SimBu": [],
   "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
     "BulkSignalR",
@@ -543,7 +538,6 @@
   "celaref": [
     "MAST"
   ],
-  "chevreulPlot": [],
   "chimeraviz": [],
   "chipseq": [],
   "chromVAR": [],

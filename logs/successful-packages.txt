@@ -1858,3 +1858,9 @@ cfTools
 Gviz
 mia
 XDE
+chevreulPlot
+DspikeIn
+MACSr
+MungeSumstats
+SeqSQC
+SimBu

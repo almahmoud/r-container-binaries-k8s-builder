@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1860 (82%)
+- **Successfully Built:** 1866 (83%)
 - **Failed:** 2 (0%)
-- **In Progress:** 116
-- **Not Started:** 266
+- **In Progress:** 137
+- **Not Started:** 239
 
-**Progress:** 82%
+**Progress:** 83%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1860)
+## Successfully Built Packages (1866)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1810 more ...*
+*... and 1816 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,19 +83,24 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (116)
+## In Progress (137)
 - ⏳ `ASICS`
+- ⏳ `ASpli`
+- ⏳ `AllelicImbalance`
 - ⏳ `CexoR`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `DOtools`
-- ⏳ `DspikeIn`
+- ⏳ `DuplexDiscovereR`
+- ⏳ `ELMER`
 - ⏳ `EpiCompare`
 - ⏳ `GA4GHclient`
 - ⏳ `GENESIS`
+- ⏳ `GeneStructureTools`
 - ⏳ `GenomicFiles`
+- ⏳ `GenomicInteractions`
 - ⏳ `HelloRanges`
-- ⏳ `MACSr`
 - ⏳ `MAST`
+- ⏳ `MGnifyR`
 - ⏳ `MIRit`
 - ⏳ `MatrixRider`
 - ⏳ `MethReg`
@@ -103,14 +108,16 @@
 - ⏳ `MsDataHub`
 - ⏳ `MuData`
 - ⏳ `MultiBaC`
-- ⏳ `MungeSumstats`
+- ⏳ `OGRE`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
+- ⏳ `Pviz`
 - ⏳ `QFeatures`
 - ⏳ `RCAS`
 - ⏳ `RCSL`
 - ⏳ `RESOLVE`
+- ⏳ `RNAmodR`
 - ⏳ `RUCova`
 - ⏳ `RgnTX`
 - ⏳ `Rmmquant`
@@ -122,28 +129,19 @@
 - ⏳ `SGSeq`
 - ⏳ `SMITE`
 - ⏳ `SPICEY`
+- ⏳ `SPLINTER`
 - ⏳ `SPOTlight`
 - ⏳ `SPsimSeq`
-- ⏳ `SeqSQC`
 - ⏳ `SiPSiC`
-- ⏳ `SimBu`
 - ⏳ `SingleCellAlleleExperiment`
-- ⏳ `SmartPhos`
-- ⏳ `SpatialExperiment`
-- ⏳ `SplicingGraphs`
-- ⏳ `TCGAutils`
-- ⏳ `TENxIO`
-- ⏳ `TFEA.ChIP`
 
-... and 66 more ...
+... and 87 more ...
 
-## Not Yet Started (266)
+## Not Yet Started (239)
 - ⏸️ `AHMassBank`
-- ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
-- ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BOBaFIT`
@@ -169,9 +167,7 @@
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DeconvoBuddies`
-- ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
-- ⏸️ `ELMER`
 - ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `ExperimentSubset`
@@ -182,15 +178,19 @@
 - ⏸️ `GSReg`
 - ⏸️ `GSVA`
 - ⏸️ `GUIDEseq`
-- ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
+- ⏸️ `IPO`
+- ⏸️ `IntEREst`
+- ⏸️ `LOBSTAHS`
+- ⏸️ `MAGAR`
+- ⏸️ `MAIT`
+- ⏸️ `MEAL`
 
-... and 216 more ...
+... and 189 more ...
 
 ---
-*Last updated: 2025-11-01 05:49:30 UTC*
+*Last updated: 2025-11-01 05:51:00 UTC*
 *Packages with verified BBS status: 145*
