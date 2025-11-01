@@ -1652,7 +1652,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "RolDE": [],
   "Rqc": [
     "biovizBase",
     "GenomicFiles",
@@ -1699,7 +1698,6 @@
   "SGSeq": [
     "GenomicFeatures"
   ],
-  "SICtools": [],
   "SIM": [
     "globaltest"
   ],
@@ -3391,7 +3389,6 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "mslp": [],
   "msmsEDA": [
     "MSnbase",
     "PSMatch",
@@ -3472,7 +3469,6 @@
     "scuttle",
     "genefilter"
   ],
-  "netboost": [],
   "nipalsMCIA": [
     "MultiAssayExperiment"
   ],

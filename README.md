@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1285 (57%)
+- **Successfully Built:** 1289 (57%)
 - **Failed:** 2 (0%)
-- **In Progress:** 138
-- **Not Started:** 819
+- **In Progress:** 135
+- **Not Started:** 818
 
 **Progress:** 57%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1285)
+## Successfully Built Packages (1289)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1235 more ...*
+*... and 1239 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,12 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (138)
+## In Progress (135)
 - ⏳ `BSgenome`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CBN2Path`
 - ⏳ `CNEr`
+- ⏳ `CNVRanger`
 - ⏳ `CTdata`
 - ⏳ `ChromHeatMap`
 - ⏳ `CoverageView`
@@ -131,13 +132,12 @@
 - ⏳ `Rbowtie2`
 - ⏳ `ReactomeGSA`
 - ⏳ `RegEnrich`
-- ⏳ `RolDE`
 - ⏳ `SAIGEgds`
-- ⏳ `SICtools`
+- ⏳ `SVMDO`
 
-... and 88 more ...
+... and 85 more ...
 
-## Not Yet Started (819)
+## Not Yet Started (818)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -189,8 +189,8 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CHETAH`
 
-... and 769 more ...
+... and 768 more ...
 
 ---
-*Last updated: 2025-11-01 02:32:41 UTC*
+*Last updated: 2025-11-01 02:34:20 UTC*
 *Packages with verified BBS status: 127*

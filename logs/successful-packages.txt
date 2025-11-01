@@ -1283,3 +1283,7 @@ plyinteractions
 RaggedExperiment
 RcisTarget
 SDAMS
+mslp
+netboost
+RolDE
+SICtools
