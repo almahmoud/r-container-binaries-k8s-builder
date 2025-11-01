@@ -360,9 +360,7 @@
     "immApex",
     "scRepertoire"
   ],
-  "InPAS": [
-    "cleanUpdTSeq"
-  ],
+  "InPAS": [],
   "IntEREst": [
     "GenomicFiles",
     "VariantAnnotation"
@@ -974,7 +972,6 @@
     "gwascat",
     "VariantAnnotation"
   ],
-  "cleanUpdTSeq": [],
   "cliProfiler": [],
   "cliqueMS": [
     "xcms",

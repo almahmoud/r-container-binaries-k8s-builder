@@ -1848,3 +1848,4 @@ monaLisa
 motifStack
 motifmatchr
 scClassify
+InPAS

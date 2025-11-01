@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1684 (75%)
+- **Successfully Built:** 1685 (75%)
 - **Failed:** 2 (0%)
 - **In Progress:** 163
-- **Not Started:** 395
+- **Not Started:** 394
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1684)
+## Successfully Built Packages (1685)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1634 more ...*
+*... and 1635 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -137,7 +137,7 @@
 
 ... and 113 more ...
 
-## Not Yet Started (395)
+## Not Yet Started (394)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `EGSEA`
 - ⏸️ `ELMER`
 
-... and 345 more ...
+... and 344 more ...
 
 ---
-*Last updated: 2025-11-01 04:46:02 UTC*
+*Last updated: 2025-11-01 04:47:03 UTC*
 *Packages with verified BBS status: 143*
