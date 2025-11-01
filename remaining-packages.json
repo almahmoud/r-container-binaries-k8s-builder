@@ -370,7 +370,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "BiFET": [],
   "BiSeq": [
     "SummarizedExperiment",
     "rtracklayer",
@@ -591,7 +590,6 @@
     "AnnotationDbi",
     "annotate"
   ],
-  "CNVMetrics": [],
   "CNVPanelizer": [
     "Rsamtools"
   ],
@@ -1149,7 +1147,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "DMRScan": [],
   "DMRcaller": [
     "Rsamtools",
     "GenomicAlignments",
@@ -1536,7 +1533,6 @@
   ],
   "EpiTxDb": [
     "AnnotationDbi",
-    "Modstrings",
     "GenomicFeatures",
     "txdbmaker",
     "tRNAdbImport",
@@ -1734,7 +1730,6 @@
   "GEOquery": [
     "SummarizedExperiment"
   ],
-  "GMRP": [],
   "GNET2": [
     "SummarizedExperiment"
   ],
@@ -2001,7 +1996,6 @@
     "annotate",
     "AnnotationForge"
   ],
-  "GrafGen": [],
   "GreyListChIP": [
     "GenomicAlignments",
     "BSgenome",
@@ -2146,7 +2140,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "HilbertCurve": [],
   "HoloFoodR": [
     "MultiAssayExperiment",
     "TreeSummarizedExperiment",
@@ -2207,7 +2200,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "IWTomics": [],
   "Ibex": [
     "immApex",
     "scRepertoire",
@@ -2317,7 +2309,6 @@
     "MultiAssayExperiment",
     "AnnotationFilter"
   ],
-  "LOLA": [],
   "LRBaseDbi": [
     "AnnotationDbi"
   ],
@@ -2754,7 +2745,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "Modstrings": [],
   "MoleculeExperiment": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -3022,7 +3012,6 @@
     "topGO",
     "AnnotationDbi"
   ],
-  "OmicCircos": [],
   "OncoScore": [
     "biomaRt",
     "AnnotationDbi"
@@ -3088,7 +3077,6 @@
     "Rsamtools",
     "SummarizedExperiment"
   ],
-  "PIPETS": [],
   "PIUMA": [
     "SummarizedExperiment"
   ],
@@ -3256,7 +3244,6 @@
   "QTLExperiment": [
     "SummarizedExperiment"
   ],
-  "Qtlizer": [],
   "QuasR": [
     "BSgenome",
     "Rsamtools",
@@ -3419,7 +3406,6 @@
     "BSgenome"
   ],
   "RNAmodR": [
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -3447,7 +3433,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -3455,7 +3440,6 @@
   ],
   "RNAmodR.ML": [
     "RNAmodR",
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -3483,7 +3467,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -9312,11 +9295,8 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "tRNA": [
-    "Modstrings"
-  ],
+  "tRNA": [],
   "tRNAdbImport": [
-    "Modstrings",
     "tRNA"
   ],
   "tRNAscanImport": [
@@ -9325,7 +9305,6 @@
     "BSgenome",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "SummarizedExperiment"
   ],
   "tRanslatome": [

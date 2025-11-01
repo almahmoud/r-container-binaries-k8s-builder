@@ -870,3 +870,15 @@ beachmat.tiledb
 cyanoFilter
 FELLA
 phyloseq
+BiFET
+CNVMetrics
+DMRScan
+GMRP
+GrafGen
+HilbertCurve
+IWTomics
+LOLA
+Modstrings
+OmicCircos
+PIPETS
+Qtlizer

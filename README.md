@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 872 (38%)
+- **Successfully Built:** 884 (39%)
 - **Failed:** 1 (0%)
-- **In Progress:** 80
-- **Not Started:** 1291
+- **In Progress:** 76
+- **Not Started:** 1283
 
-**Progress:** 38%
+**Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (872)
+## Successfully Built Packages (884)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 822 more ...*
+*... and 834 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,39 +82,32 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (80)
+## In Progress (76)
+- ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
 - ⏳ `AssessORF`
 - ⏳ `BREW3R.r`
-- ⏳ `BiFET`
-- ⏳ `CNVMetrics`
 - ⏳ `CONFESS`
 - ⏳ `CSAR`
-- ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
 - ⏳ `DRIMSeq`
 - ⏳ `DelayedTensor`
 - ⏳ `EnrichedHeatmap`
-- ⏳ `GMRP`
+- ⏳ `FinfoMDS`
 - ⏳ `GenomAutomorphism`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
 - ⏳ `GeomxTools`
-- ⏳ `GrafGen`
 - ⏳ `HiCBricks`
-- ⏳ `HilbertCurve`
-- ⏳ `IWTomics`
-- ⏳ `LOLA`
 - ⏳ `LymphoSeq`
 - ⏳ `MOFA2`
 - ⏳ `MSA2dist`
-- ⏳ `Modstrings`
-- ⏳ `OmicCircos`
-- ⏳ `PIPETS`
-- ⏳ `Qtlizer`
+- ⏳ `RCM`
+- ⏳ `RPA`
 - ⏳ `Rsamtools`
+- ⏳ `SIAMCAT`
 - ⏳ `SeqArray`
 - ⏳ `Site2Target`
 - ⏳ `SummarizedExperiment`
@@ -133,14 +126,20 @@
 - ⏳ `epialleleR`
 - ⏳ `fastseg`
 - ⏳ `flowWorkspace`
+- ⏳ `geneRxCluster`
+- ⏳ `genomeIntervals`
+- ⏳ `gtrellis`
+- ⏳ `heatmaps`
+- ⏳ `idr2d`
+- ⏳ `igvShiny`
+- ⏳ `loci2path`
 
-... and 30 more ...
+... and 26 more ...
 
-## Not Yet Started (1291)
+## Not Yet Started (1283)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -187,9 +186,10 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
+- ⏸️ `BiSeq`
 
-... and 1241 more ...
+... and 1233 more ...
 
 ---
-*Last updated: 2025-10-31 23:59:11 UTC*
+*Last updated: 2025-11-01 00:00:06 UTC*
 *Packages with verified BBS status: 106*
