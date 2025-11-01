@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2186 (97%)
+- **Successfully Built:** 2189 (97%)
 - **Failed:** 2 (0%)
-- **In Progress:** 4
-- **Not Started:** 52
+- **In Progress:** 38
+- **Not Started:** 15
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2186)
+## Successfully Built Packages (2189)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2136 more ...*
+*... and 2139 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,66 +83,63 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (4)
+## In Progress (38)
+- ⏳ `AHMassBank`
+- ⏳ `BOBaFIT`
+- ⏳ `CAFE`
+- ⏳ `CAMERA`
 - ⏳ `ChAMP`
-- ⏳ `MEAL`
-- ⏳ `appreci8R`
-- ⏳ `epimutacions`
+- ⏳ `Damsel`
+- ⏳ `ExperimentHubData`
+- ⏳ `FLAMES`
+- ⏳ `GNOSIS`
+- ⏳ `GenomicOZone`
+- ⏳ `Prostar`
+- ⏳ `R3CPET`
+- ⏳ `ReportingTools`
+- ⏳ `RiboProfiling`
+- ⏳ `SomaticSignatures`
+- ⏳ `bandle`
+- ⏳ `bioCancer`
+- ⏳ `cageminer`
+- ⏳ `canceR`
+- ⏳ `cbaf`
+- ⏳ `cliqueMS`
+- ⏳ `cosmiq`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
+- ⏳ `derfinderPlot`
+- ⏳ `epivizr`
+- ⏳ `epivizrChart`
+- ⏳ `intansv`
+- ⏳ `lisaClust`
+- ⏳ `msgbsR`
+- ⏳ `msmsTests`
+- ⏳ `ncGTW`
+- ⏳ `pRolocGUI`
+- ⏳ `recount`
+- ⏳ `regionReport`
+- ⏳ `scafari`
+- ⏳ `scruff`
+- ⏳ `squallms`
 
-## Not Yet Started (52)
-- ⏸️ `AHMassBank`
+## Not Yet Started (15)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `BOBaFIT`
-- ⏸️ `CAFE`
-- ⏸️ `CAMERA`
-- ⏸️ `Damsel`
-- ⏸️ `ExperimentHubData`
-- ⏸️ `FLAMES`
-- ⏸️ `GNOSIS`
-- ⏸️ `GenomicOZone`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
 - ⏸️ `MAIT`
 - ⏸️ `MSnID`
-- ⏸️ `Prostar`
-- ⏸️ `R3CPET`
 - ⏸️ `RNAAgeCalc`
-- ⏸️ `ReportingTools`
-- ⏸️ `RiboProfiling`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SomaticSignatures`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
-- ⏸️ `bandle`
-- ⏸️ `bioCancer`
-- ⏸️ `cageminer`
-- ⏸️ `canceR`
-- ⏸️ `cbaf`
-- ⏸️ `cliqueMS`
-- ⏸️ `cosmiq`
-- ⏸️ `crisprShiny`
-- ⏸️ `crisprVerse`
-- ⏸️ `derfinderPlot`
-- ⏸️ `epivizr`
-- ⏸️ `epivizrChart`
 - ⏸️ `epivizrStandalone`
 - ⏸️ `flagme`
-- ⏸️ `intansv`
-- ⏸️ `lisaClust`
 - ⏸️ `metaMS`
 - ⏸️ `methylclock`
-- ⏸️ `msgbsR`
-- ⏸️ `msmsTests`
-- ⏸️ `ncGTW`
-- ⏸️ `pRolocGUI`
 - ⏸️ `psichomics`
-- ⏸️ `recount`
-- ⏸️ `regionReport`
 - ⏸️ `scTreeViz`
-- ⏸️ `scafari`
-
-... and 2 more ...
 
 ---
-*Last updated: 2025-11-01 08:28:11 UTC*
+*Last updated: 2025-11-01 08:30:07 UTC*
 *Packages with verified BBS status: 151*
