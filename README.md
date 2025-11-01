@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1073 (47%)
+- **Successfully Built:** 1079 (48%)
 - **Failed:** 2 (0%)
-- **In Progress:** 186
-- **Not Started:** 983
+- **In Progress:** 190
+- **Not Started:** 973
 
-**Progress:** 47%
+**Progress:** 48%
 ```
-███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1073)
+## Successfully Built Packages (1079)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1023 more ...*
+*... and 1029 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (186)
+## In Progress (190)
 - ⏳ `AnnotationHub`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
@@ -91,11 +91,11 @@
 - ⏳ `CrispRVariants`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
-- ⏳ `DESeq2`
 - ⏳ `DOSE`
 - ⏳ `EGAD`
 - ⏳ `GOexpress`
 - ⏳ `GOfuncR`
+- ⏳ `GSEABase`
 - ⏳ `GeoTcgaData`
 - ⏳ `HiCExperiment`
 - ⏳ `InterCellar`
@@ -111,6 +111,7 @@
 - ⏳ `MBQN`
 - ⏳ `MCbiclust`
 - ⏳ `MDTS`
+- ⏳ `MGFM`
 - ⏳ `MLP`
 - ⏳ `MODA`
 - ⏳ `MPRAnalyze`
@@ -132,12 +133,11 @@
 - ⏳ `PAIRADISE`
 - ⏳ `PICB`
 - ⏳ `PIUMA`
-- ⏳ `PepSetTest`
-- ⏳ `PhIPData`
+- ⏳ `PREDA`
 
-... and 136 more ...
+... and 140 more ...
 
-## Not Yet Started (983)
+## Not Yet Started (973)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -189,8 +189,8 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 
-... and 933 more ...
+... and 923 more ...
 
 ---
-*Last updated: 2025-11-01 01:38:03 UTC*
+*Last updated: 2025-11-01 01:40:14 UTC*
 *Packages with verified BBS status: 116*

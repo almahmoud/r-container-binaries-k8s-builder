@@ -1071,3 +1071,9 @@ annotate
 cellbaseR
 CSOA
 CytoML
+chromPlot
+cmapR
+csaw
+DESeq2
+oncomix
+pairkat
