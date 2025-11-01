@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2031 (90%)
+- **Successfully Built:** 2037 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 109
+- **In Progress:** 103
 - **Not Started:** 102
 
 **Progress:** 90%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2031)
+## Successfully Built Packages (2037)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1981 more ...*
+*... and 1987 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.22/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.22/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.22/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
+| [vtpnet](https://bioconductor.org/packages/3.22/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vtpnet) |
 | [waddR](https://bioconductor.org/packages/3.22/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/waddR) |
 | [wateRmelon](https://bioconductor.org/packages/3.22/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.22/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wavClusteR) |
@@ -83,14 +83,12 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (109)
+## In Progress (103)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Banksy`
-- ⏳ `CAGEfightR`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
 - ⏳ `DESpace`
 - ⏳ `DMRcate`
@@ -104,9 +102,7 @@
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
-- ⏳ `MetaboAnnotation`
 - ⏳ `MoleculeExperiment`
-- ⏳ `MsExperiment`
 - ⏳ `OMICsPCA`
 - ⏳ `PSMatch`
 - ⏳ `QuasR`
@@ -134,8 +130,12 @@
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
 - ⏳ `circRNAprofiler`
+- ⏳ `clustSIGNAL`
+- ⏳ `compEpiTools`
+- ⏳ `concordexR`
+- ⏳ `crisprViz`
 
-... and 59 more ...
+... and 53 more ...
 
 ## Not Yet Started (102)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 52 more ...
 
 ---
-*Last updated: 2025-11-01 06:59:20 UTC*
-*Packages with verified BBS status: 147*
+*Last updated: 2025-11-01 07:00:08 UTC*
+*Packages with verified BBS status: 148*

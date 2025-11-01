@@ -2140,3 +2140,8 @@ SingleCellSignalR
 RTCGAToolbox
 glmSparseNet
 terraTCGAdata
+CAGEr
+CNVfilteR
+CNViz
+MsQuality
+geomeTriD

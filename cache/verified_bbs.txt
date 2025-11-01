@@ -126,6 +126,7 @@ vissE
 vmrseq
 vsclust
 vsn
+vtpnet
 waddR
 wateRmelon
 wavClusteR

@@ -2029,3 +2029,9 @@ lemur
 TCGAutils
 SEraster
 SPIAT
+CAGEfightR
+CopyNumberPlots
+MetaboAnnotation
+MsExperiment
+trackViewer
+vtpnet

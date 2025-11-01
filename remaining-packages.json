@@ -17,22 +17,14 @@
   "CAFE": [
     "ggbio"
   ],
-  "CAGEfightR": [],
-  "CAGEr": [
-    "CAGEfightR"
-  ],
+  "CAGEr": [],
   "CAMERA": [
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
-  "CNVfilteR": [
-    "CopyNumberPlots"
-  ],
-  "CNViz": [
-    "CopyNumberPlots"
-  ],
+  "CNVfilteR": [],
+  "CNViz": [],
   "ChAMP": [
     "DMRcate"
   ],
@@ -41,7 +33,6 @@
     "MSnbase",
     "PSMatch"
   ],
-  "CopyNumberPlots": [],
   "DAPAR": [
     "MSnbase",
     "PSMatch"
@@ -83,14 +74,12 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "MAGAR": [],
@@ -98,7 +87,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "MEAL": [],
@@ -121,14 +109,9 @@
     "MSnbase",
     "PSMatch"
   ],
-  "MetaboAnnotation": [],
   "MoleculeExperiment": [],
-  "MsExperiment": [],
-  "MsQuality": [
-    "MsExperiment"
-  ],
+  "MsQuality": [],
   "NADfinder": [
-    "trackViewer",
     "ATACseqQC"
   ],
   "OMICsPCA": [],
@@ -258,8 +241,7 @@
   "cliqueMS": [
     "xcms",
     "MSnbase",
-    "PSMatch",
-    "MsExperiment"
+    "PSMatch"
   ],
   "clustSIGNAL": [],
   "compEpiTools": [],
@@ -270,7 +252,6 @@
   "cosmiq": [
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "crisprShiny": [
@@ -307,13 +288,10 @@
     "xcms",
     "CAMERA",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "gDR": [],
-  "geomeTriD": [
-    "trackViewer"
-  ],
+  "geomeTriD": [],
   "ggbio": [],
   "ggspavis": [],
   "glmSparseNet": [],
@@ -342,7 +320,6 @@
     "CAMERA",
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "methodical": [],
@@ -374,7 +351,6 @@
   "ncGTW": [
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "nnSVG": [],
@@ -473,7 +449,6 @@
   "squallms": [
     "xcms",
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "stJoincount": [],
@@ -489,15 +464,12 @@
     "PSMatch"
   ],
   "tpSVG": [],
-  "trackViewer": [],
   "transformGamPoi": [],
   "uncoverappLib": [],
   "visiumStitched": [],
-  "vtpnet": [],
   "vulcan": [],
   "xcms": [
     "MSnbase",
-    "MsExperiment",
     "PSMatch"
   ],
   "xenLite": []
