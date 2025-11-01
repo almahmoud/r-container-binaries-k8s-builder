@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 996 (44%)
+- **Successfully Built:** 1011 (45%)
 - **Failed:** 2 (0%)
-- **In Progress:** 202
+- **In Progress:** 187
 - **Not Started:** 1044
 
-**Progress:** 44%
+**Progress:** 45%
 ```
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (996)
+## Successfully Built Packages (1011)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,11 @@
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
 
-*... and 946 more ...*
+*... and 961 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
-| [topconfects](https://bioconductor.org/packages/3.22/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/topconfects) |
+| [tracktables](https://bioconductor.org/packages/3.22/bioc/html/tracktables.html) | [log](logs/tracktables/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tracktables) |
 | [transite](https://bioconductor.org/packages/3.22/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.22/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
@@ -75,6 +74,7 @@
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
+| [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
 
 ## Failed Packages (2)
 
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (202)
+## In Progress (187)
 - ⏳ `ADAMgui`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -91,23 +91,17 @@
 - ⏳ `BioNet`
 - ⏳ `Bioc.gff`
 - ⏳ `BiocSet`
-- ⏳ `BiocSklearn`
 - ⏳ `CSOA`
-- ⏳ `CoCiteStats`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `GDSArray`
 - ⏳ `GEOquery`
 - ⏳ `GOSemSim`
 - ⏳ `GOfuncR`
-- ⏳ `GWENA`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
-- ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
-- ⏳ `InteractionSet`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
 - ⏳ `LRBaseDbi`
@@ -134,8 +128,14 @@
 - ⏳ `NormalyzerDE`
 - ⏳ `OVESEG`
 - ⏳ `PADOG`
+- ⏳ `PAIRADISE`
+- ⏳ `PIUMA`
+- ⏳ `PepSetTest`
+- ⏳ `PhIPData`
+- ⏳ `PhosR`
+- ⏳ `PolySTest`
 
-... and 152 more ...
+... and 137 more ...
 
 ## Not Yet Started (1044)
 - ⏸️ `ACE`
@@ -192,5 +192,5 @@
 ... and 994 more ...
 
 ---
-*Last updated: 2025-11-01 01:21:26 UTC*
-*Packages with verified BBS status: 113*
+*Last updated: 2025-11-01 01:23:32 UTC*
+*Packages with verified BBS status: 115*

@@ -1,0 +1,8 @@
+EDIRquery
+HiCExperiment
+HiCParser
+HiCcompare
+MICSQTL
+VariantExperiment
+ginmappeR
+immunogenViewer

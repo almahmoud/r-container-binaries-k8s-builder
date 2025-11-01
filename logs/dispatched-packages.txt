@@ -1198,3 +1198,11 @@ yamss
 zFPKM
 ADAMgui
 omicplotR
+EDIRquery
+HiCExperiment
+HiCParser
+HiCcompare
+MICSQTL
+VariantExperiment
+ginmappeR
+immunogenViewer
