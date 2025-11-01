@@ -1748,3 +1748,7 @@ missRows
 MultimodalExperiment
 r3Cseq
 REMP
+BadRegionFinder
+BBCAnalyzer
+DominoEffect
+orthos

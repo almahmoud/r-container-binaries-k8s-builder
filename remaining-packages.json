@@ -35,13 +35,11 @@
   "BASiCStan": [
     "glmGamPoi"
   ],
-  "BBCAnalyzer": [],
   "BOBaFIT": [
     "ggbio",
     "biovizBase",
     "OrganismDbi"
   ],
-  "BadRegionFinder": [],
   "Banksy": [
     "SpatialExperiment"
   ],
@@ -165,7 +163,6 @@
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
-  "DominoEffect": [],
   "DrugVsDisease": [],
   "DspikeIn": [
     "TreeSummarizedExperiment"
@@ -1194,7 +1191,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "orthos": [],
   "pRoloc": [
     "MSnbase",
     "MLInterfaces",
