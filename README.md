@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2108 (93%)
+- **Successfully Built:** 2111 (94%)
 - **Failed:** 2 (0%)
-- **In Progress:** 59
-- **Not Started:** 75
+- **In Progress:** 74
+- **Not Started:** 57
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2108)
+## Successfully Built Packages (2111)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2058 more ...*
+*... and 2061 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (59)
+## In Progress (74)
 - ⏳ `AnnotationHubData`
-- ⏳ `CAGEr`
+- ⏳ `CluMSID`
+- ⏳ `DAPAR`
+- ⏳ `DEP`
 - ⏳ `DMRcate`
 - ⏳ `EGSEA`
 - ⏳ `GSReg`
@@ -93,10 +95,14 @@
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
+- ⏳ `MSstatsQC`
 - ⏳ `NADfinder`
 - ⏳ `OMICsPCA`
+- ⏳ `PRONE`
+- ⏳ `PrInCE`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
+- ⏳ `RMassBank`
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
@@ -122,31 +128,22 @@
 - ⏳ `epivizrData`
 - ⏳ `geomeTriD`
 - ⏳ `ggbio`
+- ⏳ `iSEEfier`
 - ⏳ `imcRtools`
 - ⏳ `linkSet`
 - ⏳ `methodical`
 - ⏳ `methylGSA`
-- ⏳ `msqrob2`
-- ⏳ `multicrispr`
-- ⏳ `musicatk`
-- ⏳ `octad`
-- ⏳ `oppar`
-- ⏳ `pathMED`
-- ⏳ `pcaExplorer`
-- ⏳ `saseR`
+- ⏳ `msmsEDA`
 
-... and 9 more ...
+... and 24 more ...
 
-## Not Yet Started (75)
+## Not Yet Started (57)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
 - ⏸️ `CAMERA`
 - ⏸️ `ChAMP`
-- ⏸️ `CluMSID`
-- ⏸️ `DAPAR`
-- ⏸️ `DEP`
 - ⏸️ `Damsel`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FLAMES`
@@ -156,13 +153,9 @@
 - ⏸️ `LOBSTAHS`
 - ⏸️ `MAIT`
 - ⏸️ `MSnID`
-- ⏸️ `MSstatsQC`
 - ⏸️ `MSstatsQCgui`
-- ⏸️ `PRONE`
-- ⏸️ `PrInCE`
 - ⏸️ `Prostar`
 - ⏸️ `R3CPET`
-- ⏸️ `RMassBank`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
@@ -185,12 +178,19 @@
 - ⏸️ `epivizrChart`
 - ⏸️ `epivizrStandalone`
 - ⏸️ `flagme`
-- ⏸️ `iSEEfier`
 - ⏸️ `intansv`
 - ⏸️ `lisaClust`
+- ⏸️ `metaMS`
+- ⏸️ `methylclock`
+- ⏸️ `msgbsR`
+- ⏸️ `msmsTests`
+- ⏸️ `ncGTW`
+- ⏸️ `pRolocGUI`
+- ⏸️ `psichomics`
+- ⏸️ `recount`
 
-... and 25 more ...
+... and 7 more ...
 
 ---
-*Last updated: 2025-11-01 07:29:45 UTC*
+*Last updated: 2025-11-01 07:31:16 UTC*
 *Packages with verified BBS status: 149*

@@ -14,7 +14,6 @@
   "CAFE": [
     "ggbio"
   ],
-  "CAGEr": [],
   "CAMERA": [
     "xcms"
   ],
@@ -185,8 +184,7 @@
   ],
   "linkSet": [],
   "lisaClust": [
-    "spicyR",
-    "simpleSeg"
+    "spicyR"
   ],
   "metaMS": [
     "CAMERA",
@@ -250,12 +248,9 @@
   "signifinder": [
     "consensusOV"
   ],
-  "simpleSeg": [],
   "singleCellTK": [],
   "skewr": [],
-  "spicyR": [
-    "simpleSeg"
-  ],
+  "spicyR": [],
   "spoon": [],
   "squallms": [
     "xcms"
@@ -263,7 +258,6 @@
   "stPipe": [],
   "tidyomics": [],
   "topdownr": [],
-  "uncoverappLib": [],
   "visiumStitched": [],
   "vulcan": [],
   "xcms": []

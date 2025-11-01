@@ -2185,3 +2185,4 @@ shinyDSP
 tidyomics
 topdownr
 xcms
+spicyR

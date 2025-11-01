@@ -2106,3 +2106,6 @@ standR
 tidySpatialExperiment
 XeniumIO
 xenLite
+CAGEr
+simpleSeg
+uncoverappLib
