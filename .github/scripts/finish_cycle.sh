@@ -157,6 +157,12 @@ kubectl wait --for=condition=initialized=true pod \
   -l job-name=index-pkg-${BUILD_ID_SHORT} \
   -n ${NAMESPACE} --timeout=7200s || ( echo 'Error waiting for init container' && exit 1 )
 
+# Wait for rclone-sync container to be running before copying files
+echo "Waiting for rclone-sync container to start..."
+kubectl wait --for=jsonpath='{.status.containerStatuses[?(@.name=="rclone-sync")].state.running}' pod \
+  -l job-name=index-pkg-${BUILD_ID_SHORT} \
+  -n ${NAMESPACE} --timeout=600s || ( echo 'Warning: rclone-sync container not running yet' )
+
 # Copy PACKAGES file and save stats
 echo "Copying PACKAGES and saving stats..."
 POD_NAME=$(kubectl get pod -n ${NAMESPACE} -l job-name=index-pkg-${BUILD_ID_SHORT} -o name | cut -d/ -f2)
