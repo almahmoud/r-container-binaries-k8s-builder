@@ -1874,3 +1874,6 @@ MatrixRider
 MultiBaC
 phenomis
 rqt
+ASICS
+motifmatchr
+motifStack

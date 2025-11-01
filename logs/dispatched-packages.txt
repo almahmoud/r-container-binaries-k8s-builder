@@ -2005,3 +2005,12 @@ tadar
 trackViewer
 MetaboSignal
 transcriptR
+ATACseqTFEA
+atSNP
+dagLogo
+enhancerHomologSearch
+epiregulon
+esATAC
+motifbreakR
+pageRank
+ribosomeProfilingQC

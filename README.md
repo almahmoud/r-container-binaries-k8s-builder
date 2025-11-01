@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1876 (83%)
+- **Successfully Built:** 1879 (83%)
 - **Failed:** 2 (0%)
-- **In Progress:** 129
+- **In Progress:** 126
 - **Not Started:** 237
 
 **Progress:** 83%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1876)
+## Successfully Built Packages (1879)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -41,12 +41,12 @@
 | [ASAFE](https://bioconductor.org/packages/3.22/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.22/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.22/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASGSCA) |
+| [ASICS](https://bioconductor.org/packages/3.22/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
-| [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1826 more ...*
+*... and 1829 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (129)
-- ⏳ `ASICS`
+## In Progress (126)
 - ⏳ `ASpli`
 - ⏳ `AllelicImbalance`
 - ⏳ `CexoR`
@@ -134,8 +133,9 @@
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SmartPhos`
 - ⏳ `SpatialExperiment`
+- ⏳ `SplicingGraphs`
 
-... and 79 more ...
+... and 76 more ...
 
 ## Not Yet Started (237)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 187 more ...
 
 ---
-*Last updated: 2025-11-01 05:55:46 UTC*
-*Packages with verified BBS status: 145*
+*Last updated: 2025-11-01 05:56:47 UTC*
+*Packages with verified BBS status: 146*

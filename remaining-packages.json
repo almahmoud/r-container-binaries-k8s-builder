@@ -3,15 +3,11 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "ASICS": [],
   "ASpli": [],
   "ATACseqQC": [
-    "ChIPpeakAnno",
-    "motifStack"
+    "ChIPpeakAnno"
   ],
-  "ATACseqTFEA": [
-    "motifmatchr"
-  ],
+  "ATACseqTFEA": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -260,8 +256,7 @@
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
-    "ChIPpeakAnno",
-    "motifStack"
+    "ChIPpeakAnno"
   ],
   "OGRE": [],
   "OMICsPCA": [
@@ -487,9 +482,7 @@
     "OrganismDbi"
   ],
   "arrayMvout": [],
-  "atSNP": [
-    "motifStack"
-  ],
+  "atSNP": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -586,9 +579,7 @@
     "cytomapper",
     "SpatialExperiment"
   ],
-  "dagLogo": [
-    "motifStack"
-  ],
+  "dagLogo": [],
   "dar": [],
   "decompTumor2Sig": [],
   "decontX": [],
@@ -606,15 +597,11 @@
   "dmrseq": [
     "annotatr"
   ],
-  "enhancerHomologSearch": [
-    "motifmatchr"
-  ],
+  "enhancerHomologSearch": [],
   "epimutacions": [
     "OrganismDbi"
   ],
-  "epiregulon": [
-    "motifmatchr"
-  ],
+  "epiregulon": [],
   "epivizr": [
     "epivizrData",
     "OrganismDbi"
@@ -631,9 +618,7 @@
     "epivizrData",
     "OrganismDbi"
   ],
-  "esATAC": [
-    "motifmatchr"
-  ],
+  "esATAC": [],
   "escheR": [
     "SpatialExperiment"
   ],
@@ -763,11 +748,7 @@
   ],
   "monaLisa": [],
   "mosdef": [],
-  "motifStack": [],
-  "motifbreakR": [
-    "motifStack"
-  ],
-  "motifmatchr": [],
+  "motifbreakR": [],
   "msgbsR": [
     "ggbio",
     "OrganismDbi"
@@ -834,9 +815,7 @@
     "PSMatch",
     "QFeatures"
   ],
-  "pageRank": [
-    "motifmatchr"
-  ],
+  "pageRank": [],
   "pathMED": [
     "GSVA",
     "SpatialExperiment"
@@ -881,9 +860,7 @@
   "regioneReloaded": [],
   "regutools": [],
   "rgsepd": [],
-  "ribosomeProfilingQC": [
-    "motifStack"
-  ],
+  "ribosomeProfilingQC": [],
   "sangeranalyseR": [],
   "saseR": [
     "ASpli"
