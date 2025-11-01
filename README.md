@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 2198 (97%)
 - **Failed:** 2 (0%)
-- **In Progress:** 29
-- **Not Started:** 15
+- **In Progress:** 30
+- **Not Started:** 14
 
 **Progress:** 98%
 ```
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (29)
+## In Progress (30)
 - ⏳ `CAMERA`
 - ⏳ `ChAMP`
 - ⏳ `Damsel`
@@ -104,6 +104,7 @@
 - ⏳ `derfinderPlot`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
+- ⏳ `methylclock`
 - ⏳ `msgbsR`
 - ⏳ `msmsTests`
 - ⏳ `ncGTW`
@@ -114,7 +115,7 @@
 - ⏳ `scruff`
 - ⏳ `squallms`
 
-## Not Yet Started (15)
+## Not Yet Started (14)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
@@ -127,10 +128,9 @@
 - ⏸️ `epivizrStandalone`
 - ⏸️ `flagme`
 - ⏸️ `metaMS`
-- ⏸️ `methylclock`
 - ⏸️ `psichomics`
 - ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 08:46:06 UTC*
+*Last updated: 2025-11-01 08:46:53 UTC*
 *Packages with verified BBS status: 152*
