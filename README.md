@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 944 (42%)
-- **Failed:** 1 (0%)
-- **In Progress:** 31
+- **Successfully Built:** 974 (43%)
+- **Failed:** 2 (0%)
+- **In Progress:** 0
 - **Not Started:** 1268
 
-**Progress:** 42%
+**Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (944)
+## Successfully Built Packages (974)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,13 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 
-*... and 894 more ...*
+*... and 924 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.22/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/topconfects) |
+| [transite](https://bioconductor.org/packages/3.22/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.22/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
@@ -76,44 +76,12 @@
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (1)
+## Failed Packages (2)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
-
-## In Progress (31)
-- ⏳ `AnnotationDbi`
-- ⏳ `BANDITS`
-- ⏳ `CONFESS`
-- ⏳ `PeacoQC`
-- ⏳ `Rsamtools`
-- ⏳ `SeqArray`
-- ⏳ `SummarizedExperiment`
-- ⏳ `TDbasedUFE`
-- ⏳ `epialleleR`
-- ⏳ `flowStats`
-- ⏳ `ggcyto`
-- ⏳ `heatmaps`
-- ⏳ `igvShiny`
-- ⏳ `megadepth`
-- ⏳ `memes`
-- ⏳ `motifTestR`
-- ⏳ `openCyto`
-- ⏳ `openPrimeR`
-- ⏳ `packFinder`
-- ⏳ `peakCombiner`
-- ⏳ `pepStat`
-- ⏳ `pqsfinder`
-- ⏳ `ramr`
-- ⏳ `rigvf`
-- ⏳ `sangeranalyseR`
-- ⏳ `scanMiR`
-- ⏳ `scrapper`
-- ⏳ `seqPattern`
-- ⏳ `syntenet`
-- ⏳ `tRNAdbImport`
-- ⏳ `transite`
+| [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
 ## Not Yet Started (1268)
 - ⏸️ `ACE`
@@ -170,5 +138,5 @@
 ... and 1218 more ...
 
 ---
-*Last updated: 2025-11-01 00:11:18 UTC*
-*Packages with verified BBS status: 109*
+*Last updated: 2025-11-01 01:12:53 UTC*
+*Packages with verified BBS status: 111*

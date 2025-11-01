@@ -54,6 +54,7 @@ pickgene
 qvalue
 rmelting
 sSeq
+sangeranalyseR
 seahtrue
 seq.hotSPOT
 seqLogo
@@ -85,6 +86,7 @@ timescape
 tkWidgets
 tomoseqr
 topconfects
+transite
 transomics2cytoscape
 treeio
 trio
