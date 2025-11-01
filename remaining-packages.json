@@ -86,9 +86,7 @@
     "regioneR",
     "biovizBase"
   ],
-  "COCOA": [
-    "MIRA"
-  ],
+  "COCOA": [],
   "CTSV": [
     "SpatialExperiment"
   ],
@@ -148,15 +146,12 @@
     "biovizBase"
   ],
   "DOtools": [],
-  "DSS": [],
   "Damsel": [
     "ggbio",
     "biovizBase",
     "OrganismDbi"
   ],
-  "DeMixT": [
-    "DSS"
-  ],
+  "DeMixT": [],
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
@@ -311,7 +306,6 @@
     "TreeSummarizedExperiment",
     "mia"
   ],
-  "MIRA": [],
   "MIRit": [],
   "MLInterfaces": [],
   "MOMA": [],
@@ -730,9 +724,7 @@
     "OrganismDbi",
     "regioneR"
   ],
-  "borealis": [
-    "DSS"
-  ],
+  "borealis": [],
   "cBioPortalData": [
     "RTCGAToolbox",
     "TCGAutils"
@@ -1007,9 +999,7 @@
     "biovizBase"
   ],
   "katdetectr": [],
-  "kissDE": [
-    "DSS"
-  ],
+  "kissDE": [],
   "lefser": [
     "mia",
     "TreeSummarizedExperiment"
@@ -1052,9 +1042,7 @@
     "QFeatures",
     "PSMatch"
   ],
-  "metaseqR2": [
-    "DSS"
-  ],
+  "metaseqR2": [],
   "methodical": [
     "annotatr",
     "regioneR"
@@ -1067,9 +1055,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "methylSig": [
-    "DSS"
-  ],
+  "methylSig": [],
   "methylclock": [
     "ExperimentHubData",
     "AnnotationHubData",
