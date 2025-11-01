@@ -69,7 +69,6 @@
   "BatchQC": [],
   "BatchSVG": [],
   "BayesSpace": [],
-  "BgeeDB": [],
   "BindingSiteFinder": [],
   "BioNERO": [],
   "BulkSignalR": [
@@ -521,7 +520,6 @@
   "MoleculeExperiment": [
     "SpatialExperiment"
   ],
-  "Moonlight2R": [],
   "MotifPeeker": [],
   "MsDataHub": [],
   "MsExperiment": [
@@ -646,9 +644,7 @@
     "MutationalPatterns",
     "VariantAnnotation"
   ],
-  "RITAN": [
-    "BgeeDB"
-  ],
+  "RITAN": [],
   "RMassBank": [
     "MSnbase",
     "PSMatch",
@@ -1287,12 +1283,10 @@
     "VariantAnnotation"
   ],
   "gDR": [
-    "gDRcore",
     "gDRimport",
     "CoreGx",
     "PharmacoGx"
   ],
-  "gDRcore": [],
   "gDRimport": [
     "CoreGx",
     "PharmacoGx"

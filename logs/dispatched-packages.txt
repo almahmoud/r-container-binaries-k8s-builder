@@ -1820,3 +1820,4 @@ drugTargetInteractions
 scMerge
 scanMiRApp
 tximeta
+RITAN

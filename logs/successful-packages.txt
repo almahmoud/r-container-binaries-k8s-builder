@@ -1598,3 +1598,6 @@ cydar
 crumblr
 Dino
 goSorensen
+BgeeDB
+gDRcore
+Moonlight2R
