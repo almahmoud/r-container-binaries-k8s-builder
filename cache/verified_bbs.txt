@@ -109,6 +109,7 @@ updateObject
 variancePartition
 vbmp
 veloviz
+vidger
 viper
 vsn
 weaver

@@ -1014,7 +1014,6 @@
     "BSgenome"
   ],
   "InterCellar": [],
-  "IsoBayes": [],
   "IsoformSwitchAnalyzeR": [
     "DEXSeq",
     "satuRn",
@@ -1043,7 +1042,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "LRBaseDbi": [],
   "LRcell": [],
   "Lheuristic": [
     "MultiAssayExperiment"
@@ -2984,7 +2982,6 @@
     "genefilter",
     "GenomicFeatures"
   ],
-  "gCrisprTools": [],
   "gDNAx": [
     "GenomicFiles",
     "GenomicFeatures",
@@ -3342,7 +3339,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "metagene2": [],
   "metaseqR2": [
     "DSS",
     "EDASeq",
@@ -3975,7 +3971,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "rfPred": [],
   "rgsepd": [
     "goseq",
     "GenomicFeatures",
@@ -4607,7 +4602,6 @@
     "scuttle",
     "SingleCellExperiment"
   ],
-  "vidger": [],
   "visiumStitched": [
     "SpatialExperiment",
     "DropletUtils",

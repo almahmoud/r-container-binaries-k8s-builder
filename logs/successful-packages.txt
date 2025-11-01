@@ -1175,3 +1175,9 @@ gVenn
 regsplice
 TEKRABber
 weitrix
+gCrisprTools
+IsoBayes
+LRBaseDbi
+metagene2
+rfPred
+vidger

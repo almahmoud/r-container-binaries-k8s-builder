@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1177 (52%)
+- **Successfully Built:** 1183 (52%)
 - **Failed:** 2 (0%)
-- **In Progress:** 213
-- **Not Started:** 852
+- **In Progress:** 222
+- **Not Started:** 837
 
 **Progress:** 52%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1177)
+## Successfully Built Packages (1183)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 
-*... and 1127 more ...*
+*... and 1133 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
 | [triplex](https://bioconductor.org/packages/3.22/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.22/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tripr) |
@@ -66,6 +65,7 @@
 | [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.22/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/veloviz) |
+| [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.22/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vsn) |
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
@@ -83,8 +83,12 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (213)
+## In Progress (222)
+- ⏳ `AGDEX`
+- ⏳ `AUCell`
 - ⏳ `BSgenome`
+- ⏳ `BicARE`
+- ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CBN2Path`
@@ -117,10 +121,8 @@
 - ⏳ `HicAggR`
 - ⏳ `IdeoViz`
 - ⏳ `InterCellar`
-- ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
 - ⏳ `LACE`
-- ⏳ `LRBaseDbi`
 - ⏳ `LRcell`
 - ⏳ `LimROTS`
 - ⏳ `LipidTrend`
@@ -132,15 +134,12 @@
 - ⏳ `MCbiclust`
 - ⏳ `MGFM`
 - ⏳ `MLP`
-- ⏳ `MODA`
-- ⏳ `MPRAnalyze`
 
-... and 163 more ...
+... and 172 more ...
 
-## Not Yet Started (852)
+## Not Yet Started (837)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
-- ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APL`
@@ -150,7 +149,6 @@
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
-- ⏸️ `AUCell`
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -175,9 +173,7 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
-- ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
-- ⏸️ `BioCor`
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
@@ -188,9 +184,13 @@
 - ⏸️ `CARDspa`
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
+- ⏸️ `CCAFE`
+- ⏸️ `CCPROMISE`
+- ⏸️ `CDI`
+- ⏸️ `CEMiTool`
 
-... and 802 more ...
+... and 787 more ...
 
 ---
-*Last updated: 2025-11-01 02:08:26 UTC*
-*Packages with verified BBS status: 120*
+*Last updated: 2025-11-01 02:09:52 UTC*
+*Packages with verified BBS status: 121*
