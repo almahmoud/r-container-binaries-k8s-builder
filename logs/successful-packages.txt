@@ -2007,3 +2007,6 @@ OrganismDbi
 srnadiff
 hdxmsqc
 iSEEpathways
+SCArray
+SingleCellAlleleExperiment
+TFEA.ChIP

@@ -192,15 +192,11 @@
     "derfinder"
   ],
   "Rqc": [],
-  "SCArray": [],
-  "SCArray.sat": [
-    "SCArray"
-  ],
+  "SCArray.sat": [],
   "SEraster": [],
   "SOMNiBUS": [],
   "SPIAT": [],
   "SVP": [],
-  "SingleCellAlleleExperiment": [],
   "SingleCellSignalR": [
     "BulkSignalR"
   ],
@@ -226,7 +222,6 @@
     "GSVA"
   ],
   "TCGAutils": [],
-  "TFEA.ChIP": [],
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
