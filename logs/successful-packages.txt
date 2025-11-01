@@ -1150,3 +1150,9 @@ genomicInstability
 ggmanh
 gscreend
 tidybulk
+funOmics
+HiContacts
+IONiseR
+proDA
+rrvgo
+RSVSim

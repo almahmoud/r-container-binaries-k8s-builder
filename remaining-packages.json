@@ -979,7 +979,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiContacts": [],
   "HiLDA": [
     "GenomicFeatures",
     "BSgenome"
@@ -997,7 +996,6 @@
   "INSPEcT": [
     "GenomicFeatures"
   ],
-  "IONiseR": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -1233,7 +1231,6 @@
   ],
   "MWASTools": [],
   "MatrixQCvis": [
-    "proDA",
     "sva",
     "genefilter"
   ],
@@ -1656,7 +1653,6 @@
     "txdbmaker",
     "VariantAnnotation"
   ],
-  "RSVSim": [],
   "RTCGAToolbox": [
     "RaggedExperiment",
     "TCGAutils",
@@ -1923,8 +1919,7 @@
   ],
   "SingleR": [],
   "SmartPhos": [
-    "MultiAssayExperiment",
-    "proDA"
+    "MultiAssayExperiment"
   ],
   "SomaticSignatures": [
     "VariantAnnotation",
@@ -3039,7 +3034,6 @@
     "oligo",
     "oligoClasses"
   ],
-  "funOmics": [],
   "funtooNorm": [
     "minfi",
     "bumphunter",
@@ -3948,7 +3942,6 @@
     "GenomicFeatures",
     "txdbmaker"
   ],
-  "proDA": [],
   "projectR": [
     "SingleCellExperiment"
   ],
@@ -4093,7 +4086,6 @@
     "MultiAssayExperiment",
     "MultiDataSet"
   ],
-  "rrvgo": [],
   "runibic": [],
   "sRACIPE": [],
   "sSNAPPY": [
