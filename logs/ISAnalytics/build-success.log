@@ -1,0 +1,392 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ISAnalytics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'ISAnalytics'
+also installing the dependencies ‘reactR’, ‘classInt’, ‘phosphoricons’, ‘reactable’, ‘toastui’, ‘shinybusy’, ‘GenSA’, ‘polylabelr’, ‘datamods’, ‘extraDistr’, ‘ggalluvial’, ‘eulerr’, ‘Rcapture’
+
+trying URL 'https://cloud.r-project.org/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/classInt_0.4-11.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/phosphoricons_0.2.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/reactable_0.4.4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/toastui_0.4.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/shinybusy_0.3.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/GenSA_1.1.14.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/polylabelr_0.3.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/datamods_1.5.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/extraDistr_1.10.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggalluvial_0.12.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/eulerr_7.0.4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/Rcapture_1.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ISAnalytics_1.21.0.tar.gz'
+* installing *source* package ‘reactR’ ...
+** this is package ‘reactR’ version ‘0.6.1’
+** package ‘reactR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *source* package ‘classInt’ ...
+** this is package ‘classInt’ version ‘0.4-11’
+** package ‘classInt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c fish1.f -o fish1.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o classInt.so fish1.o init.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-classInt/00new/classInt/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘classInt’ as ‘classInt_0.4-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (classInt)
+* installing *source* package ‘phosphoricons’ ...
+** this is package ‘phosphoricons’ version ‘0.2.1’
+** package ‘phosphoricons’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘phosphoricons’ as ‘phosphoricons_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phosphoricons)
+* installing *source* package ‘shinybusy’ ...
+** this is package ‘shinybusy’ version ‘0.3.3’
+** package ‘shinybusy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinybusy’ as ‘shinybusy_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinybusy)
+* installing *source* package ‘GenSA’ ...
+** this is package ‘GenSA’ version ‘1.1.14.1’
+** package ‘GenSA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Caller.cpp -o Caller.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Engine.cpp -o Engine.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GenSA_init.c -o GenSA_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Tracer.cpp -o Tracer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Utils.cpp -o Utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenSA.so Caller.o Engine.o GenSA_init.o Tracer.o Utils.o -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenSA/00new/GenSA/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenSA’ as ‘GenSA_1.1.14.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenSA)
+* installing *source* package ‘polylabelr’ ...
+** this is package ‘polylabelr’ version ‘0.3.0’
+** package ‘polylabelr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c poi.cpp -o poi.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o polylabelr.so RcppExports.o poi.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-polylabelr/00new/polylabelr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polylabelr’ as ‘polylabelr_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polylabelr)
+* installing *source* package ‘extraDistr’ ...
+** this is package ‘extraDistr’ version ‘1.10.0’
+** package ‘extraDistr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bernoulli-distribution.cpp -o bernoulli-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c beta-binomial-distribution.cpp -o beta-binomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c beta-negative-binomial-distribution.cpp -o beta-negative-binomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c beta-prime-distribution.cpp -o beta-prime-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bhattacharjee-distribution.cpp -o bhattacharjee-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c birnbaum-saunders-distribution.cpp -o birnbaum-saunders-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bivariate-normal-distribution.cpp -o bivariate-normal-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bivariate-poisson-distribution.cpp -o bivariate-poisson-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c categorical-distribution-lp.cpp -o categorical-distribution-lp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c categorical-distribution.cpp -o categorical-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dirichlet-distribution.cpp -o dirichlet-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dirichlet-multinomial-distribution.cpp -o dirichlet-multinomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c discrete-gamma-distribution.cpp -o discrete-gamma-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c discrete-laplace-distribution.cpp -o discrete-laplace-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c discrete-normal-distribution.cpp -o discrete-normal-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c discrete-uniform-distribution.cpp -o discrete-uniform-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c discrete-weibull-distribution.cpp -o discrete-weibull-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c frechet-distribution.cpp -o frechet-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gamma-poisson-distribution.cpp -o gamma-poisson-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gev-distribution.cpp -o gev-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gompertz-distribution.cpp -o gompertz-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gpd-distribution.cpp -o gpd-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gumbel-distribution.cpp -o gumbel-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c half-cauchy-distribution.cpp -o half-cauchy-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c half-normal-distribution.cpp -o half-normal-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c half-t-distribution.cpp -o half-t-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c huber-distribution.cpp -o huber-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c inverse-gamma-distribution.cpp -o inverse-gamma-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kumaraswamy-distribution.cpp -o kumaraswamy-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c laplace-distribution.cpp -o laplace-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c location-scale-t-distribution.cpp -o location-scale-t-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c logarithmic-series-distribution.cpp -o logarithmic-series-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lomax-distribution.cpp -o lomax-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mixture-of-normal-distributions.cpp -o mixture-of-normal-distributions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mixture-of-poisson-distributions.cpp -o mixture-of-poisson-distributions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c multinomial-distribution.cpp -o multinomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c multivariate-hypergeometric-distribution.cpp -o multivariate-hypergeometric-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c negative-hypergeometric-distribution.cpp -o negative-hypergeometric-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c non-standart-beta-distribution.cpp -o non-standart-beta-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pareto-distribution.cpp -o pareto-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c power-distribution.cpp -o power-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c proportion-distribution.cpp -o proportion-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rademacher-distribution.cpp -o rademacher-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rayleigh-distribution.cpp -o rayleigh-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c shared.cpp -o shared.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c shifted-gompertz-distribution.cpp -o shifted-gompertz-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c skellam-distribution.cpp -o skellam-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c slash-distribution.cpp -o slash-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c triangular-distribution.cpp -o triangular-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c truncated-binomial-distribution.cpp -o truncated-binomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c truncated-normal-distribution.cpp -o truncated-normal-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c truncated-poisson-distribution.cpp -o truncated-poisson-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tuckey-lambda-distribution.cpp -o tuckey-lambda-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c wald-distribution.cpp -o wald-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zero-inflated-binomial-distribution.cpp -o zero-inflated-binomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zero-inflated-negative-binomial-distribution.cpp -o zero-inflated-negative-binomial-distribution.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zero-inflated-poisson-distribution.cpp -o zero-inflated-poisson-distribution.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o extraDistr.so RcppExports.o bernoulli-distribution.o beta-binomial-distribution.o beta-negative-binomial-distribution.o beta-prime-distribution.o bhattacharjee-distribution.o birnbaum-saunders-distribution.o bivariate-normal-distribution.o bivariate-poisson-distribution.o categorical-distribution-lp.o categorical-distribution.o dirichlet-distribution.o dirichlet-multinomial-distribution.o discrete-gamma-distribution.o discrete-laplace-distribution.o discrete-normal-distribution.o discrete-uniform-distribution.o discrete-weibull-distribution.o frechet-distribution.o gamma-poisson-distribution.o gev-distribution.o gompertz-distribution.o gpd-distribution.o gumbel-distribution.o half-cauchy-distribution.o half-normal-distribution.o half-t-distribution.o huber-distribution.o inverse-gamma-distribution.o kumaraswamy-distribution.o laplace-distribution.o location-scale-t-distribution.o logarithmic-series-distribution.o lomax-distribution.o mixture-of-normal-distributions.o mixture-of-poisson-distributions.o multinomial-distribution.o multivariate-hypergeometric-distribution.o negative-hypergeometric-distribution.o non-standart-beta-distribution.o pareto-distribution.o power-distribution.o proportion-distribution.o rademacher-distribution.o rayleigh-distribution.o shared.o shifted-gompertz-distribution.o skellam-distribution.o slash-distribution.o triangular-distribution.o truncated-binomial-distribution.o truncated-normal-distribution.o truncated-poisson-distribution.o tuckey-lambda-distribution.o wald-distribution.o zero-inflated-binomial-distribution.o zero-inflated-negative-binomial-distribution.o zero-inflated-poisson-distribution.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-extraDistr/00new/extraDistr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘extraDistr’ as ‘extraDistr_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (extraDistr)
+* installing *source* package ‘ggalluvial’ ...
+** this is package ‘ggalluvial’ version ‘0.12.5’
+** package ‘ggalluvial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *source* package ‘Rcapture’ ...
+** this is package ‘Rcapture’ version ‘1.4-4’
+** package ‘Rcapture’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rcapture’ as ‘Rcapture_1.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rcapture)
+* installing *source* package ‘reactable’ ...
+** this is package ‘reactable’ version ‘0.4.4’
+** package ‘reactable’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reactable’ as ‘reactable_0.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactable)
+* installing *source* package ‘toastui’ ...
+** this is package ‘toastui’ version ‘0.4.0’
+** package ‘toastui’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘toastui’ as ‘toastui_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (toastui)
+* installing *source* package ‘eulerr’ ...
+** this is package ‘eulerr’ version ‘7.0.4’
+** package ‘eulerr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compute-areas.cpp -o compute-areas.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c conic.cpp -o conic.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ellipse.cpp -o ellipse.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c helpers.cpp -o helpers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c intersections.cpp -o intersections.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c loss.cpp -o loss.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c optim_final.cpp -o optim_final.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c optim_init.cpp -o optim_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c point.cpp -o point.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c solve_cubic.cpp -o solve_cubic.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o eulerr.so RcppExports.o compute-areas.o conic.o ellipse.o helpers.o intersections.o loss.o optim_final.o optim_init.o point.o solve_cubic.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-eulerr/00new/eulerr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘eulerr’ as ‘eulerr_7.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eulerr)
+* installing *source* package ‘datamods’ ...
+** this is package ‘datamods’ version ‘1.5.3’
+** package ‘datamods’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘datamods’ as ‘datamods_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (datamods)
+* installing *source* package ‘ISAnalytics’ ...
+** this is package ‘ISAnalytics’ version ‘1.21.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ISAnalytics’ as ‘ISAnalytics_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISAnalytics)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpk9lBbQ/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
+
+real	4m56.908s
+user	4m15.734s
+sys	0m40.941s

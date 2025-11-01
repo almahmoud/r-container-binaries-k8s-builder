@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''frenchFISH'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'frenchFISH'
+also installing the dependency ‘NHPoisson’
+
+trying URL 'https://cloud.r-project.org/src/contrib/NHPoisson_3.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/frenchFISH_1.23.0.tar.gz'
+* installing *source* package ‘NHPoisson’ ...
+** this is package ‘NHPoisson’ version ‘3.3’
+** package ‘NHPoisson’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NHPoisson’ as ‘NHPoisson_3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NHPoisson)
+* installing *source* package ‘frenchFISH’ ...
+** this is package ‘frenchFISH’ version ‘1.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘frenchFISH’ as ‘frenchFISH_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (frenchFISH)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpt3iXp8/downloaded_packages’
+Old packages: 'BiocBook', 'rhdf5', 'promises'
+
+real	0m13.141s
+user	0m9.107s
+sys	0m2.981s

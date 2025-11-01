@@ -1,9 +1,13 @@
+ISAnalytics
+fmrs
+frenchFISH
+garfield
+rWikiPathways
 randRotation
 rawrr
 rmelting
 rnaseqcomp
 rsemmed
-rWikiPathways
 sagenhaft
-scatterHatch
 scFeatureFilter
+scatterHatch

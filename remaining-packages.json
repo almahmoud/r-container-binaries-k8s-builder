@@ -491,7 +491,6 @@
   "INDEED": [],
   "INPower": [],
   "INTACT": [],
-  "ISAnalytics": [],
   "ISoLDE": [],
   "Icens": [],
   "Informeasure": [],
@@ -1473,14 +1472,11 @@
     "BiocParallel",
     "BiocGenerics"
   ],
-  "fmrs": [],
-  "frenchFISH": [],
   "gaga": [
     "Biobase",
     "EBarrays",
     "BiocGenerics"
   ],
-  "garfield": [],
   "gcatest": [
     "lfa"
   ],
