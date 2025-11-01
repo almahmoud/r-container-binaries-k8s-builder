@@ -254,7 +254,6 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "CCPROMISE": [],
   "CDI": [
     "SingleCellExperiment"
   ],
@@ -266,7 +265,6 @@
   "CHETAH": [
     "SingleCellExperiment"
   ],
-  "CHRONOS": [],
   "CNEr": [],
   "CNTools": [
     "genefilter"
@@ -993,7 +991,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "InterCellar": [],
   "IsoformSwitchAnalyzeR": [
     "DEXSeq",
     "satuRn",
@@ -1526,7 +1523,6 @@
     "zellkonverter",
     "SingleCellExperiment"
   ],
-  "RJMCMCNucleosomes": [],
   "RMassBank": [
     "MSnbase",
     "PSMatch",
@@ -1920,7 +1916,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "SubCellBarCode": [],
   "SurfR": [
     "SPsimSeq",
     "SingleCellExperiment"
@@ -2257,7 +2252,6 @@
   "bayNorm": [
     "SingleCellExperiment"
   ],
-  "bedbaser": [],
   "beer": [
     "PhIPData"
   ],
@@ -3664,7 +3658,6 @@
     "geneplotter",
     "genefilter"
   ],
-  "panelcn.mops": [],
   "partCNV": [
     "SingleCellExperiment"
   ],

@@ -1228,3 +1228,10 @@ singscore
 TEQC
 transcriptogramer
 webbioc
+bedbaser
+CCPROMISE
+CHRONOS
+InterCellar
+panelcn.mops
+RJMCMCNucleosomes
+SubCellBarCode
