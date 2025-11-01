@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1738 (77%)
+- **Successfully Built:** 1743 (77%)
 - **Failed:** 2 (0%)
 - **In Progress:** 174
-- **Not Started:** 330
+- **Not Started:** 325
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1738)
+## Successfully Built Packages (1743)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1688 more ...*
+*... and 1693 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,6 +105,7 @@
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
+- ⏳ `GmicR`
 - ⏳ `HelloRanges`
 - ⏳ `ITALICS`
 - ⏳ `InPAS`
@@ -133,11 +134,10 @@
 - ⏳ `NewWave`
 - ⏳ `NoRCE`
 - ⏳ `Organism.dplyr`
-- ⏳ `OrganismDbi`
 
 ... and 124 more ...
 
-## Not Yet Started (330)
+## Not Yet Started (325)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `GSReg`
 - ⏸️ `GSVA`
 
-... and 280 more ...
+... and 275 more ...
 
 ---
-*Last updated: 2025-11-01 05:04:18 UTC*
+*Last updated: 2025-11-01 05:06:22 UTC*
 *Packages with verified BBS status: 143*

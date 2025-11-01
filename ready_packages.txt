@@ -1,5 +1,0 @@
-GmicR
-attract
-categoryCompare
-miRLAB
-scTensor

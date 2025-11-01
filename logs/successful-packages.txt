@@ -1736,3 +1736,8 @@ mimager
 puma
 GOstats
 recount3
+infercnv
+mygene
+phenoTest
+podkat
+proActiv
