@@ -918,3 +918,8 @@ microbiome
 microbiomeDASim
 RCM
 RPA
+genomeIntervals
+scifer
+SIAMCAT
+TnT
+triplex

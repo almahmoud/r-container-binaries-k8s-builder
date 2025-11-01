@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 920 (40%)
+- **Successfully Built:** 925 (41%)
 - **Failed:** 1 (0%)
-- **In Progress:** 54
+- **In Progress:** 49
 - **Not Started:** 1269
 
 **Progress:** 41%
@@ -16,7 +16,7 @@
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (920)
+## Successfully Built Packages (925)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,17 +46,17 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 
-*... and 870 more ...*
+*... and 875 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timescape](https://bioconductor.org/packages/3.22/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.22/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.22/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.22/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/topconfects) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.22/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.22/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
+| [triplex](https://bioconductor.org/packages/3.22/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.22/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (54)
+## In Progress (49)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CONFESS`
@@ -94,18 +94,15 @@
 - ⏳ `GeoDiff`
 - ⏳ `PeacoQC`
 - ⏳ `Rsamtools`
-- ⏳ `SIAMCAT`
 - ⏳ `SeqArray`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TDbasedUFE`
-- ⏳ `TnT`
 - ⏳ `alabaster.matrix`
 - ⏳ `cnvGSA`
 - ⏳ `epialleleR`
 - ⏳ `flowStats`
-- ⏳ `genomeIntervals`
 - ⏳ `ggcyto`
 - ⏳ `gtrellis`
 - ⏳ `heatmaps`
@@ -129,12 +126,12 @@
 - ⏳ `rigvf`
 - ⏳ `sangeranalyseR`
 - ⏳ `scanMiR`
-- ⏳ `scifer`
 - ⏳ `scrapper`
 - ⏳ `seqPattern`
 - ⏳ `syntenet`
-
-... and 4 more ...
+- ⏳ `tRNA`
+- ⏳ `target`
+- ⏳ `transite`
 
 ## Not Yet Started (1269)
 - ⏸️ `ACE`
@@ -191,5 +188,5 @@
 ... and 1219 more ...
 
 ---
-*Last updated: 2025-11-01 00:07:50 UTC*
-*Packages with verified BBS status: 108*
+*Last updated: 2025-11-01 00:08:43 UTC*
+*Packages with verified BBS status: 109*

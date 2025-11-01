@@ -3710,7 +3710,6 @@
     "GenomicFeatures",
     "rtracklayer"
   ],
-  "SIAMCAT": [],
   "SICtools": [
     "Rsamtools"
   ],
@@ -4257,7 +4256,6 @@
     "annotate",
     "AnnotationDbi"
   ],
-  "TnT": [],
   "ToxicoGx": [
     "CoreGx",
     "SummarizedExperiment",
@@ -5824,7 +5822,6 @@
   ],
   "easyRNASeq": [
     "biomaRt",
-    "genomeIntervals",
     "GenomicAlignments",
     "SummarizedExperiment",
     "Rsamtools",
@@ -6217,7 +6214,6 @@
     "rtracklayer",
     "SummarizedExperiment"
   ],
-  "genomeIntervals": [],
   "genomicInstability": [
     "SummarizedExperiment"
   ],
@@ -7278,7 +7274,6 @@
     "SummarizedExperiment",
     "rtracklayer",
     "biomaRt",
-    "genomeIntervals",
     "ShortRead",
     "AnnotationDbi",
     "biovizBase",
@@ -8465,7 +8460,6 @@
     "SummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "scifer": [],
   "scmap": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -9250,7 +9244,6 @@
     "SummarizedExperiment",
     "scuttle"
   ],
-  "triplex": [],
   "txcutr": [
     "AnnotationDbi",
     "GenomicFeatures",
