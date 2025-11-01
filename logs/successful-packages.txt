@@ -1683,3 +1683,5 @@ TFBSTools
 VarCon
 Cepo
 cleanUpdTSeq
+cliProfiler
+spillR

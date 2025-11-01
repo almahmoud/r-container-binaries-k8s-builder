@@ -972,7 +972,6 @@
     "gwascat",
     "VariantAnnotation"
   ],
-  "cliProfiler": [],
   "cliqueMS": [
     "xcms",
     "MSnbase",
@@ -1704,7 +1703,6 @@
     "cytomapper"
   ],
   "spiky": [],
-  "spillR": [],
   "spoon": [
     "SpatialExperiment",
     "nnSVG"
