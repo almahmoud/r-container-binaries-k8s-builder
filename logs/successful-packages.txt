@@ -1639,3 +1639,9 @@ BUSpaRse
 CleanUpRNAseq
 coMethDMR
 velociraptor
+APL
+blase
+CellBench
+CTexploreR
+minfi
+tximeta

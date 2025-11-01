@@ -3,7 +3,6 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "APL": [],
   "ASICS": [
     "ropls"
   ],
@@ -126,18 +125,15 @@
   "CTSV": [
     "SpatialExperiment"
   ],
-  "CTexploreR": [],
   "CatsCradle": [
     "SpatialExperiment"
   ],
-  "CellBench": [],
   "CellTrails": [],
   "Cepo": [],
   "CexoR": [
     "genomation"
   ],
   "ChAMP": [
-    "minfi",
     "DMRcate",
     "wateRmelon",
     "goseq",
@@ -204,7 +200,6 @@
   "DExMA": [],
   "DMRcate": [
     "bsseq",
-    "minfi",
     "missMethyl",
     "Gviz",
     "biovizBase",
@@ -257,9 +252,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "ENmix": [
-    "minfi"
-  ],
+  "ENmix": [],
   "EasyCellType": [],
   "EnrichmentBrowser": [],
   "EpiCompare": [
@@ -396,9 +389,7 @@
     "GenomicFiles",
     "VariantAnnotation"
   ],
-  "IsoformSwitchAnalyzeR": [
-    "tximeta"
-  ],
+  "IsoformSwitchAnalyzeR": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -414,8 +405,7 @@
   "MACSr": [],
   "MAGAR": [
     "RnBeads",
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "MAIT": [
     "CAMERA",
@@ -427,7 +417,6 @@
   ],
   "MAST": [],
   "MEAL": [
-    "minfi",
     "Gviz",
     "missMethyl",
     "biovizBase",
@@ -435,7 +424,6 @@
     "VariantAnnotation"
   ],
   "MEAT": [
-    "minfi",
     "wateRmelon",
     "methylumi",
     "lumi"
@@ -488,15 +476,12 @@
     "sesame",
     "TFBSTools"
   ],
-  "MethylAid": [
-    "minfi"
-  ],
+  "MethylAid": [],
   "MicrobiomeProfiler": [],
   "MineICA": [
     "GOstats",
     "lumi",
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "MoleculeExperiment": [
     "SpatialExperiment"
@@ -617,9 +602,7 @@
     "ChIPpeakAnno",
     "regioneR"
   ],
-  "REMP": [
-    "minfi"
-  ],
+  "REMP": [],
   "RESOLVE": [
     "MutationalPatterns",
     "VariantAnnotation"
@@ -692,8 +675,7 @@
   ],
   "Rmmquant": [],
   "RnBeads": [
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "RnaSeqSampleSize": [
     "recount",
@@ -937,8 +919,7 @@
   ],
   "arrayMvout": [
     "lumi",
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "atSNP": [
     "motifStack",
@@ -957,7 +938,6 @@
   ],
   "bigmelon": [
     "wateRmelon",
-    "minfi",
     "methylumi",
     "lumi"
   ],
@@ -985,7 +965,6 @@
     "OrganismDbi",
     "regioneR"
   ],
-  "blase": [],
   "borealis": [
     "bsseq",
     "DSS"
@@ -1081,9 +1060,7 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "conumee": [
-    "minfi"
-  ],
+  "conumee": [],
   "cosmiq": [
     "xcms",
     "MSnbase",
@@ -1146,9 +1123,7 @@
   "decontX": [
     "celda"
   ],
-  "deconvR": [
-    "minfi"
-  ],
+  "deconvR": [],
   "deepSNV": [
     "VariantAnnotation"
   ],
@@ -1183,7 +1158,6 @@
     "TFBSTools"
   ],
   "epimutacions": [
-    "minfi",
     "Gviz",
     "biovizBase",
     "OrganismDbi",
@@ -1227,8 +1201,7 @@
   ],
   "ffpe": [
     "lumi",
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "flagme": [
     "xcms",
@@ -1239,9 +1212,7 @@
     "PSMatch"
   ],
   "frma": [],
-  "funtooNorm": [
-    "minfi"
-  ],
+  "funtooNorm": [],
   "gDNAx": [
     "GenomicFiles",
     "VariantAnnotation"
@@ -1296,8 +1267,7 @@
   "hpar": [],
   "iCheck": [
     "lumi",
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "iModMix": [],
   "iSEE": [],
@@ -1395,8 +1365,7 @@
   ],
   "looking4clusters": [],
   "lumi": [
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "m6Aboost": [],
   "maaslin3": [
@@ -1431,12 +1400,10 @@
   ],
   "methrix": [],
   "methylCC": [
-    "minfi",
     "bsseq"
   ],
   "methylGSA": [
     "missMethyl",
-    "minfi",
     "methylumi"
   ],
   "methylPipe": [
@@ -1449,14 +1416,11 @@
     "DSS"
   ],
   "methylclock": [
-    "minfi",
     "ExperimentHubData",
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "methylumi": [
-    "minfi"
-  ],
+  "methylumi": [],
   "miQC": [],
   "miRLAB": [
     "GOstats"
@@ -1485,10 +1449,8 @@
   "midasHLA": [],
   "miloR": [],
   "mimager": [],
-  "minfi": [],
   "missMethyl": [
-    "methylumi",
-    "minfi"
+    "methylumi"
   ],
   "missRows": [],
   "mitoClone2": [
@@ -1653,9 +1615,7 @@
     "QFeatures"
   ],
   "qsea": [],
-  "quantro": [
-    "minfi"
-  ],
+  "quantro": [],
   "r3Cseq": [],
   "raer": [],
   "recount": [
@@ -1664,9 +1624,7 @@
     "VariantAnnotation"
   ],
   "recount3": [],
-  "recountmethylation": [
-    "minfi"
-  ],
+  "recountmethylation": [],
   "recoup": [],
   "regionReport": [
     "derfinder",
@@ -1762,12 +1720,8 @@
     "standR",
     "SpatialExperiment"
   ],
-  "shinyMethyl": [
-    "minfi"
-  ],
-  "shinyepico": [
-    "minfi"
-  ],
+  "shinyMethyl": [],
+  "shinyepico": [],
   "signeR": [
     "VariantAnnotation"
   ],
@@ -1794,7 +1748,6 @@
   "skewr": [
     "methylumi",
     "wateRmelon",
-    "minfi",
     "lumi"
   ],
   "slingshot": [
@@ -1921,7 +1874,6 @@
   ],
   "tricycle": [],
   "txcutr": [],
-  "tximeta": [],
   "uncoverappLib": [
     "Gviz",
     "OrganismDbi",
@@ -1941,8 +1893,7 @@
   ],
   "wateRmelon": [
     "methylumi",
-    "lumi",
-    "minfi"
+    "lumi"
   ],
   "xcms": [
     "MSnbase",
@@ -1955,8 +1906,7 @@
     "TENxIO"
   ],
   "yarn": [
-    "quantro",
-    "minfi"
+    "quantro"
   ],
   "zenith": [
     "EnrichmentBrowser"

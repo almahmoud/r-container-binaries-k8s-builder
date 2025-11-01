@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1641 (73%)
+- **Successfully Built:** 1647 (73%)
 - **Failed:** 2 (0%)
-- **In Progress:** 183
+- **In Progress:** 177
 - **Not Started:** 418
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1641)
+## Successfully Built Packages (1647)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -36,6 +36,7 @@
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.22/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANF) |
+| [APL](https://bioconductor.org/packages/3.22/bioc/html/APL.html) | [log](logs/APL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/APL) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.22/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.22/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.22/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASEB) |
@@ -44,9 +45,8 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
-| [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 
-*... and 1591 more ...*
+*... and 1597 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (183)
-- ⏳ `APL`
+## In Progress (177)
 - ⏳ `ASSIGN`
 - ⏳ `ArrayExpress`
 - ⏳ `BERT`
@@ -93,8 +92,6 @@
 - ⏳ `BioNERO`
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
-- ⏳ `CTexploreR`
-- ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
@@ -134,8 +131,11 @@
 - ⏳ `MsDataHub`
 - ⏳ `MuData`
 - ⏳ `MultimodalExperiment`
+- ⏳ `Nebulosa`
+- ⏳ `NewWave`
+- ⏳ `NoRCE`
 
-... and 133 more ...
+... and 127 more ...
 
 ## Not Yet Started (418)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 368 more ...
 
 ---
-*Last updated: 2025-11-01 04:28:06 UTC*
-*Packages with verified BBS status: 141*
+*Last updated: 2025-11-01 04:29:21 UTC*
+*Packages with verified BBS status: 142*

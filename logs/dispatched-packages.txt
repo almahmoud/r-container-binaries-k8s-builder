@@ -1824,3 +1824,15 @@ RITAN
 FRASER
 RegionalST
 spillR
+ENmix
+IsoformSwitchAnalyzeR
+MethylAid
+REMP
+conumee
+deconvR
+funtooNorm
+methylumi
+quantro
+recountmethylation
+shinyMethyl
+shinyepico
