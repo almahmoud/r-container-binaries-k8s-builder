@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1362 (60%)
+- **Successfully Built:** 1381 (61%)
 - **Failed:** 2 (0%)
-- **In Progress:** 71
-- **Not Started:** 809
+- **In Progress:** 209
+- **Not Started:** 652
 
-**Progress:** 60%
+**Progress:** 61%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1362)
+## Successfully Built Packages (1381)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1312 more ...*
+*... and 1331 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,73 +83,68 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (71)
+## In Progress (209)
+- ⏳ `ADImpute`
+- ⏳ `AMARETTO`
+- ⏳ `APL`
+- ⏳ `ASURAT`
+- ⏳ `AffiXcan`
 - ⏳ `BSgenome`
+- ⏳ `BUSseq`
+- ⏳ `BindingSiteFinder`
+- ⏳ `CDI`
+- ⏳ `CHETAH`
 - ⏳ `CNEr`
 - ⏳ `CNVRanger`
+- ⏳ `COTAN`
+- ⏳ `CSSQ`
+- ⏳ `CTexploreR`
+- ⏳ `CellBench`
+- ⏳ `CellTrails`
+- ⏳ `Cepo`
+- ⏳ `ChIPseeker`
 - ⏳ `ChromHeatMap`
+- ⏳ `ClusterFoldSimilarity`
+- ⏳ `CoGAPS`
+- ⏳ `Cogito`
+- ⏳ `CoreGx`
+- ⏳ `CuratedAtlasQueryR`
 - ⏳ `CyTOFpower`
-- ⏳ `DEsubs`
+- ⏳ `DNAfusion`
+- ⏳ `DeeDeeExperiment`
+- ⏳ `DegCre`
+- ⏳ `DifferentialRegulation`
+- ⏳ `EDASeq`
+- ⏳ `EWCE`
+- ⏳ `EpiMix`
+- ⏳ `FindIT2`
+- ⏳ `GOpro`
+- ⏳ `GenomicInteractionNodes`
 - ⏳ `Glimma`
+- ⏳ `GloScope`
+- ⏳ `Guitar`
+- ⏳ `HIPPO`
 - ⏳ `HTSFilter`
+- ⏳ `ILoReg`
+- ⏳ `INSPEcT`
+- ⏳ `IVAS`
+- ⏳ `InTAD`
 - ⏳ `LRcell`
+- ⏳ `Lheuristic`
+- ⏳ `LinkHD`
+- ⏳ `LoomExperiment`
 - ⏳ `MACSr`
-- ⏳ `MGFM`
-- ⏳ `MiRaGE`
-- ⏳ `MsDataHub`
-- ⏳ `MultiDataSet`
-- ⏳ `OVESEG`
-- ⏳ `PADOG`
-- ⏳ `PAIRADISE`
-- ⏳ `PIUMA`
-- ⏳ `PepSetTest`
-- ⏳ `PhIPData`
-- ⏳ `Rbec`
-- ⏳ `ReactomeGSA`
-- ⏳ `ReactomePA`
-- ⏳ `Scale4C`
-- ⏳ `SeqGate`
-- ⏳ `SeqSQC`
-- ⏳ `SeqVarTools`
-- ⏳ `SimBu`
-- ⏳ `SimFFPE`
-- ⏳ `SingleR`
-- ⏳ `TDbasedUFEadv`
-- ⏳ `adductomicsR`
-- ⏳ `cTRAP`
-- ⏳ `cfTools`
-- ⏳ `chipseq`
-- ⏳ `clusterProfiler`
-- ⏳ `crisprScore`
-- ⏳ `easier`
-- ⏳ `escape`
-- ⏳ `esetVis`
-- ⏳ `genefilter`
-- ⏳ `geneplotter`
-- ⏳ `globaltest`
-- ⏳ `hpar`
-- ⏳ `iModMix`
-- ⏳ `idiogram`
-- ⏳ `knowYourCG`
-- ⏳ `mariner`
-- ⏳ `meshes`
-- ⏳ `oligoClasses`
 
-... and 21 more ...
+... and 159 more ...
 
-## Not Yet Started (809)
-- ⏸️ `ADImpute`
+## Not Yet Started (652)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
-- ⏸️ `AMARETTO`
-- ⏸️ `APL`
 - ⏸️ `ASICS`
 - ⏸️ `ASSIGN`
-- ⏸️ `ASURAT`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
-- ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
@@ -163,7 +158,6 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BUSseq`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
@@ -173,7 +167,6 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
-- ⏸️ `BindingSiteFinder`
 - ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
@@ -185,12 +178,19 @@
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CDI`
 - ⏸️ `CEMiTool`
-- ⏸️ `CHETAH`
+- ⏸️ `CNTools`
+- ⏸️ `CNVfilteR`
+- ⏸️ `CNViz`
+- ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
+- ⏸️ `CRISPRseek`
+- ⏸️ `CTSV`
+- ⏸️ `CaMutQC`
 
-... and 759 more ...
+... and 602 more ...
 
 ---
-*Last updated: 2025-11-01 02:51:15 UTC*
+*Last updated: 2025-11-01 02:57:15 UTC*
 *Packages with verified BBS status: 127*
