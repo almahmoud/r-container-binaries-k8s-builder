@@ -87,9 +87,7 @@
   "BERT": [
     "sva"
   ],
-  "BLMA": [
-    "PADOG"
-  ],
+  "BLMA": [],
   "BOBaFIT": [
     "ggbio",
     "biovizBase",
@@ -136,9 +134,7 @@
   "BgeeDB": [
     "zellkonverter"
   ],
-  "BiSeq": [
-    "globaltest"
-  ],
+  "BiSeq": [],
   "BindingSiteFinder": [],
   "BioNERO": [
     "sva"
@@ -265,7 +261,6 @@
   "ChAMP": [
     "minfi",
     "DMRcate",
-    "globaltest",
     "sva",
     "wateRmelon",
     "goseq",
@@ -304,7 +299,6 @@
     "BSgenome"
   ],
   "ChIPseeker": [],
-  "ChromHeatMap": [],
   "ChromSCape": [
     "batchelor",
     "scran",
@@ -375,9 +369,7 @@
     "SpatialExperiment",
     "scuttle"
   ],
-  "DEXSeq": [
-    "geneplotter"
-  ],
+  "DEXSeq": [],
   "DExMA": [
     "sva"
   ],
@@ -474,9 +466,7 @@
   ],
   "EDASeq": [],
   "EGSEA": [
-    "PADOG",
     "GSVA",
-    "globaltest",
     "safe",
     "SpatialExperiment"
   ],
@@ -491,7 +481,6 @@
     "txdbmaker"
   ],
   "ENmix": [
-    "geneplotter",
     "minfi",
     "bumphunter"
   ],
@@ -636,9 +625,7 @@
   ],
   "Glimma": [],
   "GloScope": [],
-  "GlobalAncova": [
-    "globaltest"
-  ],
+  "GlobalAncova": [],
   "GmicR": [
     "Category",
     "GOstats"
@@ -654,7 +641,6 @@
     "VariantAnnotation"
   ],
   "HIPPO": [],
-  "HTSFilter": [],
   "HarmonizR": [
     "sva"
   ],
@@ -715,7 +701,6 @@
     "GenomicFiles",
     "txdbmaker",
     "DEXSeq",
-    "geneplotter",
     "VariantAnnotation",
     "BSgenome"
   ],
@@ -725,7 +710,6 @@
     "sva",
     "BSgenome",
     "tximeta",
-    "geneplotter",
     "txdbmaker",
     "ensembldb"
   ],
@@ -876,10 +860,8 @@
     "bumphunter"
   ],
   "MethylSeekR": [
-    "BSgenome",
-    "geneplotter"
+    "BSgenome"
   ],
-  "MiRaGE": [],
   "MicrobiomeProfiler": [],
   "MineICA": [
     "GOstats",
@@ -981,7 +963,6 @@
   "PAA": [
     "sva"
   ],
-  "PADOG": [],
   "PDATK": [
     "CoreGx"
   ],
@@ -1009,7 +990,6 @@
     "QFeatures"
   ],
   "PanomiR": [],
-  "PhIPData": [],
   "PharmacoGx": [
     "CoreGx"
   ],
@@ -1084,8 +1064,7 @@
     "VariantAnnotation"
   ],
   "RFLOMICS": [
-    "coseq",
-    "HTSFilter"
+    "coseq"
   ],
   "RITAN": [
     "BgeeDB",
@@ -1156,7 +1135,6 @@
   ],
   "Rbec": [],
   "RbowtieCuda": [],
-  "ReactomePA": [],
   "ReducedExperiment": [],
   "RegionalST": [
     "scater",
@@ -1241,9 +1219,7 @@
     "sva"
   ],
   "SGSeq": [],
-  "SIM": [
-    "globaltest"
-  ],
+  "SIM": [],
   "SMITE": [
     "goseq",
     "txdbmaker"
@@ -1606,9 +1582,7 @@
     "scuttle"
   ],
   "bayNorm": [],
-  "beer": [
-    "PhIPData"
-  ],
+  "beer": [],
   "bigmelon": [
     "wateRmelon",
     "minfi",
@@ -1618,13 +1592,10 @@
   ],
   "bioCancer": [
     "cBioPortalData",
-    "ReactomePA",
     "RTCGAToolbox",
     "TCGAutils"
   ],
-  "biocGraph": [
-    "geneplotter"
-  ],
+  "biocGraph": [],
   "biomvRCNS": [
     "Gviz",
     "ensembldb",
@@ -1652,8 +1623,7 @@
     "regioneR"
   ],
   "blacksheepr": [
-    "DEXSeq",
-    "geneplotter"
+    "DEXSeq"
   ],
   "blase": [
     "scater",
@@ -1831,9 +1801,7 @@
     "bumphunter"
   ],
   "corral": [],
-  "coseq": [
-    "HTSFilter"
-  ],
+  "coseq": [],
   "cosmiq": [
     "xcms",
     "MSnbase",
@@ -1965,8 +1933,7 @@
   ],
   "diffUTR": [
     "DEXSeq",
-    "ensembldb",
-    "geneplotter"
+    "ensembldb"
   ],
   "distinct": [
     "scater",
@@ -2119,7 +2086,6 @@
     "BSgenome"
   ],
   "geneAttribution": [],
-  "geneplotter": [],
   "genomation": [
     "BSgenome"
   ],
@@ -2147,7 +2113,6 @@
   "glmSparseNet": [
     "TCGAutils"
   ],
-  "globaltest": [],
   "gmapR": [
     "VariantAnnotation",
     "BSgenome"
@@ -2325,7 +2290,6 @@
   ],
   "mastR": [],
   "mbkmeans": [],
-  "meshes": [],
   "meshr": [
     "Category"
   ],
@@ -2392,12 +2356,8 @@
     "Category",
     "GOstats"
   ],
-  "miRSM": [
-    "ReactomePA"
-  ],
-  "miRspongeR": [
-    "ReactomePA"
-  ],
+  "miRSM": [],
+  "miRspongeR": [],
   "mia": [
     "TreeSummarizedExperiment",
     "scater",
@@ -2448,9 +2408,7 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "mitology": [
-    "ReactomePA"
-  ],
+  "mitology": [],
   "mogsa": [],
   "monaLisa": [
     "BSgenome",
@@ -2608,8 +2566,7 @@
   ],
   "pairedGSEA": [
     "DEXSeq",
-    "sva",
-    "geneplotter"
+    "sva"
   ],
   "partCNV": [],
   "pathMED": [
@@ -2853,7 +2810,6 @@
     "Category",
     "meshr",
     "GOstats",
-    "ReactomePA",
     "schex"
   ],
   "scTreeViz": [
@@ -2935,9 +2891,7 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "seqsetvis": [],
   "sesame": [],
-  "sevenC": [],
   "shinyDSP": [
     "scater",
     "standR",

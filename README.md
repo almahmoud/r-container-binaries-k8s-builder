@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1381 (61%)
+- **Successfully Built:** 1392 (62%)
 - **Failed:** 2 (0%)
-- **In Progress:** 209
-- **Not Started:** 652
+- **In Progress:** 232
+- **Not Started:** 618
 
-**Progress:** 61%
+**Progress:** 62%
 ```
-██████████████████████████████░░░░░░░░░░░░░░░░░░░░
+███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1381)
+## Successfully Built Packages (1392)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1331 more ...*
+*... and 1342 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (209)
+## In Progress (232)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
@@ -92,18 +92,24 @@
 - ⏳ `BSgenome`
 - ⏳ `BUSseq`
 - ⏳ `BindingSiteFinder`
+- ⏳ `CBNplot`
 - ⏳ `CDI`
+- ⏳ `CEMiTool`
 - ⏳ `CHETAH`
 - ⏳ `CNEr`
+- ⏳ `CNTools`
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
+- ⏳ `CaMutQC`
+- ⏳ `Category`
+- ⏳ `CeTF`
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
-- ⏳ `ChromHeatMap`
+- ⏳ `ClassifyR`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `Cogito`
@@ -111,33 +117,27 @@
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `CyTOFpower`
 - ⏳ `DNAfusion`
+- ⏳ `DNEA`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `DifferentialRegulation`
 - ⏳ `EDASeq`
 - ⏳ `EWCE`
+- ⏳ `EasyCellType`
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
+- ⏳ `GDCRNATools`
 - ⏳ `GOpro`
+- ⏳ `GSRI`
+- ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Glimma`
 - ⏳ `GloScope`
 - ⏳ `Guitar`
-- ⏳ `HIPPO`
-- ⏳ `HTSFilter`
-- ⏳ `ILoReg`
-- ⏳ `INSPEcT`
-- ⏳ `IVAS`
-- ⏳ `InTAD`
-- ⏳ `LRcell`
-- ⏳ `Lheuristic`
-- ⏳ `LinkHD`
-- ⏳ `LoomExperiment`
-- ⏳ `MACSr`
 
-... and 159 more ...
+... and 182 more ...
 
-## Not Yet Started (652)
+## Not Yet Started (618)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
@@ -176,10 +176,7 @@
 - ⏸️ `CAMERA`
 - ⏸️ `CARDspa`
 - ⏸️ `CATALYST`
-- ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CEMiTool`
-- ⏸️ `CNTools`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
@@ -187,10 +184,13 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CTSV`
-- ⏸️ `CaMutQC`
+- ⏸️ `CatsCradle`
+- ⏸️ `CellMixS`
+- ⏸️ `CelliD`
+- ⏸️ `CexoR`
 
-... and 602 more ...
+... and 568 more ...
 
 ---
-*Last updated: 2025-11-01 02:57:15 UTC*
+*Last updated: 2025-11-01 02:59:37 UTC*
 *Packages with verified BBS status: 127*

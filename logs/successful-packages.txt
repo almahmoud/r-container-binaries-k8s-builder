@@ -1379,3 +1379,14 @@ sRACIPE
 supersigs
 TDbasedUFEadv
 tidyCoverage
+ChromHeatMap
+geneplotter
+globaltest
+HTSFilter
+meshes
+MiRaGE
+PADOG
+PhIPData
+ReactomePA
+seqsetvis
+sevenC

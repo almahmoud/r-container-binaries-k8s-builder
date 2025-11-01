@@ -1624,3 +1624,14 @@ sva
 tilingArray
 vsclust
 zinbwave
+BLMA
+BiSeq
+DEXSeq
+GlobalAncova
+SIM
+beer
+biocGraph
+coseq
+miRSM
+miRspongeR
+mitology
