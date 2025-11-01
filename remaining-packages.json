@@ -2197,7 +2197,6 @@
   "scDotPlot": [
     "scater"
   ],
-  "scGraphVerse": [],
   "scHOT": [],
   "scMerge": [
     "M3Drop",
@@ -2272,7 +2271,6 @@
   "segmenter": [
     "ChIPseeker"
   ],
-  "selectKSigs": [],
   "seqCAT": [
     "VariantAnnotation"
   ],
@@ -2299,7 +2297,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "simPIC": [],
   "simpleSeg": [
     "cytomapper",
     "SpatialExperiment"
@@ -2411,7 +2408,6 @@
     "StructuralVariantAnnotation",
     "VariantAnnotation"
   ],
-  "switchde": [],
   "tLOH": [
     "VariantAnnotation"
   ],

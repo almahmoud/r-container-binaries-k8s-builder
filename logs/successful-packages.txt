@@ -1504,3 +1504,7 @@ mitology
 blacksheepr
 bnbc
 ILoReg
+scGraphVerse
+selectKSigs
+simPIC
+switchde
