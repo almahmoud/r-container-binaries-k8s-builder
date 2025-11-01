@@ -674,3 +674,8 @@ mzR
 Polytect
 scFeatureFilter
 scLANE
+MSstatsBioNet
+MSstatsTMT
+SIMAT
+TargetDecoy
+uSORT

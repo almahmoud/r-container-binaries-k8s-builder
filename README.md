@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 676 (97%)
+- **Successfully Built:** 681 (98%)
 - **Failed:** 5 (0%)
-- **In Progress:** 7
-- **Not Started:** 6
+- **In Progress:** 8
+- **Not Started:** 0
 
 **Progress:** 98%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (676)
+## Successfully Built Packages (681)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 
-*... and 626 more ...*
+*... and 631 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidyFlowCore](https://bioconductor.org/packages/3.23/bioc/html/tidyFlowCore.html) | [log](logs/tidyFlowCore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyFlowCore) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
@@ -66,6 +65,7 @@
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
@@ -86,23 +86,16 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (7)
+## In Progress (8)
 - ⏳ `AlphaMissenseR`
 - ⏳ `CONFESS`
+- ⏳ `MSstatsBig`
 - ⏳ `OpenStats`
 - ⏳ `RTCGA`
 - ⏳ `infinityFlow`
+- ⏳ `msPurity`
 - ⏳ `synergyfinder`
-- ⏳ `uSORT`
-
-## Not Yet Started (6)
-- ⏸️ `MSstatsBig`
-- ⏸️ `MSstatsBioNet`
-- ⏸️ `MSstatsTMT`
-- ⏸️ `SIMAT`
-- ⏸️ `TargetDecoy`
-- ⏸️ `msPurity`
 
 ---
-*Last updated: 2025-11-01 15:59:15 UTC*
-*Packages with verified BBS status: 113*
+*Last updated: 2025-11-01 16:01:10 UTC*
+*Packages with verified BBS status: 114*

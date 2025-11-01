@@ -3,18 +3,13 @@
   "CONFESS": [],
   "MODA": [],
   "MSstatsBig": [],
-  "MSstatsBioNet": [],
-  "MSstatsTMT": [],
   "OpenStats": [],
   "RTCGA": [],
-  "SIMAT": [],
   "TIN": [],
-  "TargetDecoy": [],
   "csdR": [],
   "infinityFlow": [],
   "msPurity": [],
   "mslp": [],
   "netboost": [],
-  "synergyfinder": [],
-  "uSORT": []
+  "synergyfinder": []
 }
