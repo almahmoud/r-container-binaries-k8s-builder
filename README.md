@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1879 (83%)
+- **Successfully Built:** 1882 (83%)
 - **Failed:** 2 (0%)
-- **In Progress:** 126
-- **Not Started:** 237
+- **In Progress:** 132
+- **Not Started:** 228
 
 **Progress:** 83%
 ```
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1879)
+## Successfully Built Packages (1882)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1829 more ...*
+*... and 1832 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,9 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (126)
+## In Progress (132)
 - ⏳ `ASpli`
+- ⏳ `ATACseqTFEA`
 - ⏳ `AllelicImbalance`
 - ⏳ `CexoR`
 - ⏳ `ChIPpeakAnno`
@@ -133,14 +134,12 @@
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SmartPhos`
 - ⏳ `SpatialExperiment`
-- ⏳ `SplicingGraphs`
 
-... and 76 more ...
+... and 82 more ...
 
-## Not Yet Started (237)
+## Not Yet Started (228)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
@@ -188,9 +187,10 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MAIT`
 - ⏸️ `MEAL`
+- ⏸️ `MEAT`
 
-... and 187 more ...
+... and 178 more ...
 
 ---
-*Last updated: 2025-11-01 05:56:47 UTC*
+*Last updated: 2025-11-01 05:58:26 UTC*
 *Packages with verified BBS status: 146*

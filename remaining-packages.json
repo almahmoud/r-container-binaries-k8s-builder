@@ -498,7 +498,6 @@
     "TCGAutils"
   ],
   "biomvRCNS": [],
-  "biosigner": [],
   "biscuiteer": [
     "dmrseq",
     "annotatr",
@@ -857,7 +856,6 @@
     "derfinder",
     "GenomicFiles"
   ],
-  "regioneReloaded": [],
   "regutools": [],
   "rgsepd": [],
   "ribosomeProfilingQC": [],
@@ -865,7 +863,6 @@
   "saseR": [
     "ASpli"
   ],
-  "scClassify": [],
   "scRNAseqApp": [],
   "scTreeViz": [
     "epivizr",
