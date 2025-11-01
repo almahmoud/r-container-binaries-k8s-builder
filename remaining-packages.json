@@ -67,7 +67,6 @@
     "SpatialExperiment"
   ],
   "BatchSVG": [],
-  "BayesSpace": [],
   "BindingSiteFinder": [],
   "BioNERO": [],
   "BulkSignalR": [
@@ -681,9 +680,7 @@
     "VariantAnnotation"
   ],
   "RbowtieCuda": [],
-  "RegionalST": [
-    "BayesSpace"
-  ],
+  "RegionalST": [],
   "ReportingTools": [
     "GOstats",
     "ggbio",
@@ -922,7 +919,6 @@
     "OrganismDbi"
   ],
   "aggregateBioVar": [],
-  "airpart": [],
   "alabaster": [
     "alabaster.spatial",
     "alabaster.vcf",
@@ -1651,7 +1647,6 @@
     "SpatialExperiment"
   ],
   "pram": [],
-  "preciseTAD": [],
   "primirTSS": [
     "Gviz",
     "TFBSTools",

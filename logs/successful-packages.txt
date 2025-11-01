@@ -1617,3 +1617,6 @@ pipeComp
 scDD
 VAExprs
 vmrseq
+airpart
+BayesSpace
+preciseTAD
