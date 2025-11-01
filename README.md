@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1771 (78%)
+- **Successfully Built:** 1773 (79%)
 - **Failed:** 2 (0%)
-- **In Progress:** 157
+- **In Progress:** 155
 - **Not Started:** 314
 
 **Progress:** 79%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1771)
+## Successfully Built Packages (1773)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1721 more ...*
+*... and 1723 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (157)
+## In Progress (155)
 - ⏳ `COCOA`
 - ⏳ `CexoR`
 - ⏳ `ChIPXpress`
@@ -106,7 +106,6 @@
 - ⏳ `MACSr`
 - ⏳ `MAST`
 - ⏳ `MIRit`
-- ⏳ `MLInterfaces`
 - ⏳ `MOMA`
 - ⏳ `MatrixRider`
 - ⏳ `MetaNeighbor`
@@ -134,8 +133,9 @@
 - ⏳ `RadioGx`
 - ⏳ `RareVariantVis`
 - ⏳ `Rmmquant`
+- ⏳ `RnBeads`
 
-... and 107 more ...
+... and 105 more ...
 
 ## Not Yet Started (314)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 264 more ...
 
 ---
-*Last updated: 2025-11-01 05:18:13 UTC*
+*Last updated: 2025-11-01 05:19:24 UTC*
 *Packages with verified BBS status: 145*

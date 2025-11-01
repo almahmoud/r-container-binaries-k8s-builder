@@ -1928,3 +1928,5 @@ kissDE
 metaseqR2
 methylSig
 Ibex
+SigCheck
+clusterExperiment

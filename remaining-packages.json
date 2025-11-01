@@ -305,7 +305,6 @@
     "mia"
   ],
   "MIRit": [],
-  "MLInterfaces": [],
   "MOMA": [],
   "MSnID": [
     "MSnbase",
@@ -535,9 +534,7 @@
   "SeqSQC": [],
   "SeqVarTools": [],
   "SiPSiC": [],
-  "SigCheck": [
-    "MLInterfaces"
-  ],
+  "SigCheck": [],
   "SigsPack": [],
   "SimBu": [],
   "SimFFPE": [],
@@ -695,7 +692,6 @@
     "MSnbase",
     "pRoloc",
     "PSMatch",
-    "MLInterfaces",
     "QFeatures"
   ],
   "bigmelon": [
@@ -771,9 +767,7 @@
   "clustSIGNAL": [
     "SpatialExperiment"
   ],
-  "clusterExperiment": [
-    "mbkmeans"
-  ],
+  "clusterExperiment": [],
   "compEpiTools": [
     "methylPipe",
     "Gviz",
@@ -1029,7 +1023,6 @@
     "biovizBase"
   ],
   "mastR": [],
-  "mbkmeans": [],
   "metaMS": [
     "CAMERA",
     "xcms",
@@ -1133,8 +1126,7 @@
     "PSMatch"
   ],
   "netSmooth": [
-    "clusterExperiment",
-    "mbkmeans"
+    "clusterExperiment"
   ],
   "nnSVG": [
     "SpatialExperiment"
@@ -1157,7 +1149,6 @@
   ],
   "pRoloc": [
     "MSnbase",
-    "MLInterfaces",
     "PSMatch",
     "QFeatures"
   ],
@@ -1165,7 +1156,6 @@
     "pRoloc",
     "MSnbase",
     "PSMatch",
-    "MLInterfaces",
     "QFeatures"
   ],
   "pageRank": [
