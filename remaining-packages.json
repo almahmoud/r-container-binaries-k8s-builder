@@ -231,7 +231,6 @@
   "GenomicPlot": [
     "RCAS"
   ],
-  "GmicR": [],
   "Gviz": [
     "biovizBase"
   ],
@@ -588,7 +587,6 @@
   "UMI4Cats": [
     "regioneR"
   ],
-  "UPDhmm": [],
   "Ularcirc": [
     "Organism.dplyr"
   ],

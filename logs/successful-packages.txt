@@ -1786,3 +1786,5 @@ Uniquorn
 aggregateBioVar
 mastR
 ZygosityPredictor
+GmicR
+UPDhmm
