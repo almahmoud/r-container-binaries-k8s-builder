@@ -141,7 +141,6 @@
   "CATALYST": [
     "scater"
   ],
-  "CBNplot": [],
   "CCAFE": [
     "VariantAnnotation"
   ],
@@ -171,7 +170,6 @@
     "bsseq"
   ],
   "COTAN": [],
-  "CRISPRseek": [],
   "CSSQ": [],
   "CTSV": [
     "SpatialExperiment"
@@ -181,7 +179,6 @@
   "CatsCradle": [
     "SpatialExperiment"
   ],
-  "CeTF": [],
   "CellBench": [],
   "CellMixS": [
     "scater"
@@ -297,7 +294,6 @@
   "DNAfusion": [],
   "DOtools": [
     "zellkonverter",
-    "DropletUtils",
     "scDblFinder",
     "scran",
     "scater"
@@ -328,14 +324,12 @@
   "DegNorm": [
     "txdbmaker"
   ],
-  "DiffBind": [],
   "Dino": [
     "scran"
   ],
   "DominoEffect": [
     "VariantAnnotation"
   ],
-  "DropletUtils": [],
   "DrugVsDisease": [
     "ArrayExpress",
     "oligo"
@@ -445,7 +439,6 @@
     "SpatialExperiment"
   ],
   "GUIDEseq": [
-    "CRISPRseek",
     "ChIPpeakAnno",
     "regioneR",
     "ensembldb"
@@ -483,7 +476,6 @@
     "Category",
     "GOstats"
   ],
-  "Guitar": [],
   "Gviz": [
     "ensembldb",
     "biovizBase",
@@ -1008,23 +1000,19 @@
   ],
   "SpaceTrooper": [
     "SpatialExperiment",
-    "DropletUtils",
     "scater",
     "SpatialExperimentIO"
   ],
   "Spaniel": [
     "scater",
-    "scran",
-    "DropletUtils"
+    "scran"
   ],
   "SparseSignatures": [],
   "SpatialExperiment": [],
   "SpatialExperimentIO": [
-    "DropletUtils",
     "SpatialExperiment"
   ],
   "SpatialFeatureExperiment": [
-    "DropletUtils",
     "SpatialExperiment"
   ],
   "SpliceWiz": [],
@@ -1124,8 +1112,7 @@
   ],
   "Voyager": [
     "SpatialFeatureExperiment",
-    "SpatialExperiment",
-    "DropletUtils"
+    "SpatialExperiment"
   ],
   "XDE": [
     "GeneMeta"
@@ -1150,7 +1137,6 @@
   "ZygosityPredictor": [
     "VariantAnnotation"
   ],
-  "a4": [],
   "adductomicsR": [],
   "affycoretools": [
     "GOstats",
@@ -1177,8 +1163,7 @@
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
     "alabaster.spatial",
-    "SpatialExperiment",
-    "DropletUtils"
+    "SpatialExperiment"
   ],
   "alabaster.spatial": [
     "SpatialExperiment"
@@ -1953,7 +1938,6 @@
     "QFeatures"
   ],
   "multicrispr": [
-    "CRISPRseek",
     "karyoploteR",
     "regioneR",
     "biovizBase",
@@ -2177,10 +2161,7 @@
     "VariantAnnotation"
   ],
   "scAnnotatR": [],
-  "scBFA": [],
-  "scCB2": [
-    "DropletUtils"
-  ],
+  "scCB2": [],
   "scClassify": [
     "Cepo"
   ],
@@ -2204,9 +2185,7 @@
     "batchelor",
     "scran"
   ],
-  "scPipe": [
-    "DropletUtils"
-  ],
+  "scPipe": [],
   "scRNAseqApp": [
     "slingshot",
     "TrajectoryUtils"
@@ -2310,7 +2289,6 @@
     "scMerge",
     "scran",
     "celda",
-    "DropletUtils",
     "scDblFinder",
     "TSCAN",
     "TrajectoryUtils",
@@ -2391,7 +2369,6 @@
     "SpatialExperiment"
   ],
   "stPipe": [
-    "DropletUtils",
     "scPipe",
     "SpatialExperiment"
   ],
@@ -2487,7 +2464,6 @@
   ],
   "visiumStitched": [
     "SpatialExperiment",
-    "DropletUtils",
     "scater"
   ],
   "vmrseq": [
@@ -2499,7 +2475,6 @@
   ],
   "vulcan": [
     "ChIPpeakAnno",
-    "DiffBind",
     "regioneR",
     "ensembldb"
   ],

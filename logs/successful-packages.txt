@@ -1508,3 +1508,11 @@ scGraphVerse
 selectKSigs
 simPIC
 switchde
+a4
+CBNplot
+CeTF
+CRISPRseek
+DiffBind
+DropletUtils
+Guitar
+scBFA
