@@ -1660,3 +1660,7 @@ scDblFinder
 Cogito
 HarmonizR
 RITAN
+CoGAPS
+CuratedAtlasQueryR
+DNAfusion
+mumosa

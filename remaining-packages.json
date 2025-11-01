@@ -162,7 +162,6 @@
     "QFeatures"
   ],
   "ClusterFoldSimilarity": [],
-  "CoGAPS": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -170,7 +169,6 @@
     "biovizBase"
   ],
   "Coralysis": [],
-  "CuratedAtlasQueryR": [],
   "DAMEfinder": [
     "VariantAnnotation"
   ],
@@ -200,7 +198,6 @@
     "methylumi",
     "VariantAnnotation"
   ],
-  "DNAfusion": [],
   "DOtools": [],
   "DSS": [
     "bsseq"
@@ -1479,7 +1476,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "mumosa": [],
   "musicatk": [
     "VariantAnnotation",
     "decompTumor2Sig"
