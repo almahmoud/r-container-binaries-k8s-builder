@@ -90,5 +90,5 @@
 - ⏳ `AlphaMissenseR`
 
 ---
-*Last updated: 2025-11-01 16:10:04 UTC*
+*Last updated: 2025-11-01 16:26:32 UTC*
 *Packages with verified BBS status: 114*
