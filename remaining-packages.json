@@ -196,7 +196,6 @@
     "oligoClasses",
     "SummarizedExperiment"
   ],
-  "AssessORF": [],
   "BANDITS": [],
   "BASiCS": [
     "SingleCellExperiment",
@@ -1875,7 +1874,6 @@
     "VariantAnnotation",
     "AnnotationFilter"
   ],
-  "GenomAutomorphism": [],
   "GenomicAlignments": [
     "SummarizedExperiment",
     "Rsamtools"
@@ -2548,7 +2546,6 @@
   "MPRAnalyze": [
     "SummarizedExperiment"
   ],
-  "MSA2dist": [],
   "MSPrep": [
     "SummarizedExperiment",
     "sva",
@@ -4018,7 +4015,6 @@
   "SingleR": [
     "SummarizedExperiment"
   ],
-  "Site2Target": [],
   "SmartPhos": [
     "MultiAssayExperiment",
     "SummarizedExperiment",
@@ -4267,7 +4263,6 @@
   "TEQC": [
     "Rsamtools"
   ],
-  "TFARM": [],
   "TFBSTools": [
     "BSgenome",
     "rtracklayer",
@@ -5947,7 +5942,6 @@
   ],
   "doubletrouble": [
     "syntenet",
-    "MSA2dist",
     "AnnotationDbi",
     "GenomicFeatures",
     "rtracklayer",
@@ -8350,9 +8344,7 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "rhinotypeR": [
-    "MSA2dist"
-  ],
+  "rhinotypeR": [],
   "riboSeqR": [
     "Rsamtools",
     "baySeq"

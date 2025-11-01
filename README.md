@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 887 (39%)
+- **Successfully Built:** 892 (39%)
 - **Failed:** 1 (0%)
-- **In Progress:** 74
-- **Not Started:** 1282
+- **In Progress:** 70
+- **Not Started:** 1281
 
 **Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (887)
+## Successfully Built Packages (892)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 837 more ...*
+*... and 842 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,11 +82,11 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (74)
+## In Progress (70)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
-- ⏳ `AssessORF`
+- ⏳ `BANDITS`
 - ⏳ `BREW3R.r`
 - ⏳ `CONFESS`
 - ⏳ `CSAR`
@@ -94,23 +94,19 @@
 - ⏳ `DelayedTensor`
 - ⏳ `EnrichedHeatmap`
 - ⏳ `FinfoMDS`
-- ⏳ `GenomAutomorphism`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
 - ⏳ `GeomxTools`
 - ⏳ `HiCBricks`
 - ⏳ `MOFA2`
-- ⏳ `MSA2dist`
 - ⏳ `RCM`
 - ⏳ `RPA`
 - ⏳ `Rsamtools`
 - ⏳ `SIAMCAT`
 - ⏳ `SeqArray`
-- ⏳ `Site2Target`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TDbasedUFE`
-- ⏳ `TFARM`
 - ⏳ `TnT`
 - ⏳ `alabaster.matrix`
 - ⏳ `alabaster.ranges`
@@ -133,10 +129,14 @@
 - ⏳ `loci2path`
 - ⏳ `megadepth`
 - ⏳ `methimpute`
+- ⏳ `microbiome`
+- ⏳ `microbiomeDASim`
+- ⏳ `ncRNAtools`
+- ⏳ `oncoscanR`
 
-... and 24 more ...
+... and 20 more ...
 
-## Not Yet Started (1282)
+## Not Yet Started (1281)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -162,7 +162,6 @@
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -187,9 +186,10 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
+- ⏸️ `BicARE`
 
-... and 1232 more ...
+... and 1231 more ...
 
 ---
-*Last updated: 2025-11-01 00:00:45 UTC*
+*Last updated: 2025-11-01 00:01:27 UTC*
 *Packages with verified BBS status: 106*
