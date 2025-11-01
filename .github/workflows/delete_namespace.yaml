@@ -69,8 +69,8 @@ jobs:
           
           # Check if branch starts with build/
           if [[ "${BRANCH_NAME}" == build/* ]]; then
-            # Create new branch name with archive/ prefix
-            ARCHIVE_BRANCH=$(echo "${BRANCH_NAME}" | sed 's|^build/|archive/|')
+            # Create new branch name with done/ prefix
+            ARCHIVE_BRANCH=$(echo "${BRANCH_NAME}" | sed 's|^build/|done/|')
             
             echo "Renaming branch from ${BRANCH_NAME} to ${ARCHIVE_BRANCH}"
             
