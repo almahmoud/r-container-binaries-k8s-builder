@@ -3025,7 +3025,6 @@
     "SingleCellExperiment"
   ],
   "hpar": [],
-  "hummingbird": [],
   "iCNV": [
     "CODEX",
     "BSgenome"
@@ -3267,7 +3266,6 @@
     "bsseq",
     "BSgenome"
   ],
-  "methInheritSim": [],
   "methodical": [
     "annotatr",
     "BSgenome",
@@ -3297,7 +3295,6 @@
     "GenomicFeatures",
     "bumphunter"
   ],
-  "methylInheritance": [],
   "methylPipe": [
     "Gviz",
     "GenomicFeatures",
