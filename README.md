@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2017 (89%)
+- **Successfully Built:** 2022 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 117
+- **In Progress:** 112
 - **Not Started:** 108
 
-**Progress:** 89%
+**Progress:** 90%
 ```
-████████████████████████████████████████████░░░░░░
+█████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2017)
+## Successfully Built Packages (2022)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1967 more ...*
+*... and 1972 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,15 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (117)
+## In Progress (112)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Banksy`
 - ⏳ `BulkSignalR`
 - ⏳ `CAGEfightR`
-- ⏳ `CARDspa`
-- ⏳ `CatsCradle`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
 - ⏳ `DESpace`
@@ -99,7 +97,6 @@
 - ⏳ `DeconvoBuddies`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentSubset`
-- ⏳ `GA4GHshiny`
 - ⏳ `GSReg`
 - ⏳ `GSVA`
 - ⏳ `GUIDEseq`
@@ -110,7 +107,6 @@
 - ⏳ `MEAL`
 - ⏳ `MEAT`
 - ⏳ `MetaboAnnotation`
-- ⏳ `MetaboSignal`
 - ⏳ `MoleculeExperiment`
 - ⏳ `MsExperiment`
 - ⏳ `OMICsPCA`
@@ -134,8 +130,12 @@
 - ⏳ `SpotClean`
 - ⏳ `Statial`
 - ⏳ `SurfR`
+- ⏳ `TCGAutils`
+- ⏳ `TFutils`
+- ⏳ `Ularcirc`
+- ⏳ `VCFArray`
 
-... and 67 more ...
+... and 62 more ...
 
 ## Not Yet Started (108)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 58 more ...
 
 ---
-*Last updated: 2025-11-01 06:54:51 UTC*
+*Last updated: 2025-11-01 06:55:47 UTC*
 *Packages with verified BBS status: 147*

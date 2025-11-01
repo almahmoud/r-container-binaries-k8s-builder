@@ -28,14 +28,12 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "CARDspa": [],
   "CNVfilteR": [
     "CopyNumberPlots"
   ],
   "CNViz": [
     "CopyNumberPlots"
   ],
-  "CatsCradle": [],
   "ChAMP": [
     "DMRcate"
   ],
@@ -73,7 +71,6 @@
   "FLAMES": [
     "ggbio"
   ],
-  "GA4GHshiny": [],
   "GNOSIS": [
     "cBioPortalData",
     "RTCGAToolbox",
@@ -131,7 +128,6 @@
     "PSMatch"
   ],
   "MetaboAnnotation": [],
-  "MetaboSignal": [],
   "MoleculeExperiment": [],
   "MsExperiment": [],
   "MsQuality": [
@@ -344,14 +340,10 @@
   ],
   "hoodscanR": [],
   "iSEEfier": [
-    "iSEEu",
-    "iSEEhex"
+    "iSEEu"
   ],
-  "iSEEhex": [],
   "iSEEtree": [],
-  "iSEEu": [
-    "iSEEhex"
-  ],
+  "iSEEu": [],
   "ideal": [],
   "imcRtools": [
     "cytomapper"

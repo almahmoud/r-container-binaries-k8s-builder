@@ -2015,3 +2015,8 @@ CTSV
 FEAST
 gDNAx
 GenomicPlot
+CARDspa
+CatsCradle
+GA4GHshiny
+iSEEhex
+MetaboSignal
