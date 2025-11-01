@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2013 (89%)
+- **Successfully Built:** 2017 (89%)
 - **Failed:** 2 (0%)
-- **In Progress:** 121
+- **In Progress:** 117
 - **Not Started:** 108
 
 **Progress:** 89%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2013)
+## Successfully Built Packages (2017)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1963 more ...*
+*... and 1967 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (121)
+## In Progress (117)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
@@ -91,7 +91,6 @@
 - ⏳ `BulkSignalR`
 - ⏳ `CAGEfightR`
 - ⏳ `CARDspa`
-- ⏳ `CTSV`
 - ⏳ `CatsCradle`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
@@ -100,12 +99,10 @@
 - ⏳ `DeconvoBuddies`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentSubset`
-- ⏳ `FEAST`
 - ⏳ `GA4GHshiny`
 - ⏳ `GSReg`
 - ⏳ `GSVA`
 - ⏳ `GUIDEseq`
-- ⏳ `GenomicPlot`
 - ⏳ `HiCDCPlus`
 - ⏳ `HiCaptuRe`
 - ⏳ `IntEREst`
@@ -134,8 +131,11 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `SpatialFeatureExperiment`
+- ⏳ `SpotClean`
+- ⏳ `Statial`
+- ⏳ `SurfR`
 
-... and 71 more ...
+... and 67 more ...
 
 ## Not Yet Started (108)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 58 more ...
 
 ---
-*Last updated: 2025-11-01 06:53:59 UTC*
+*Last updated: 2025-11-01 06:54:51 UTC*
 *Packages with verified BBS status: 147*
