@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1633 (72%)
+- **Successfully Built:** 1637 (72%)
 - **Failed:** 2 (0%)
-- **In Progress:** 190
-- **Not Started:** 419
+- **In Progress:** 187
+- **Not Started:** 418
 
-**Progress:** 72%
+**Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1633)
+## Successfully Built Packages (1637)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -41,12 +41,12 @@
 | [ASEB](https://bioconductor.org/packages/3.22/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.22/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
+| [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
-| [AffiXcan](https://bioconductor.org/packages/3.22/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AffiXcan) |
 
-*... and 1583 more ...*
+*... and 1587 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,17 +83,15 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (190)
+## In Progress (187)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
-- ⏳ `ASURAT`
 - ⏳ `ArrayExpress`
 - ⏳ `BERT`
 - ⏳ `BUSpaRse`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
-- ⏳ `CDI`
 - ⏳ `COTAN`
 - ⏳ `CSSQ`
 - ⏳ `CTexploreR`
@@ -134,10 +132,12 @@
 - ⏳ `MetaNeighbor`
 - ⏳ `MetaPhOR`
 - ⏳ `MicrobiomeProfiler`
+- ⏳ `MotifPeeker`
+- ⏳ `MsDataHub`
 
-... and 140 more ...
+... and 137 more ...
 
-## Not Yet Started (419)
+## Not Yet Started (418)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -189,8 +189,8 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
 
-... and 369 more ...
+... and 368 more ...
 
 ---
-*Last updated: 2025-11-01 04:24:32 UTC*
-*Packages with verified BBS status: 139*
+*Last updated: 2025-11-01 04:26:10 UTC*
+*Packages with verified BBS status: 140*

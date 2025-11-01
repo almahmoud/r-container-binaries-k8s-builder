@@ -8,7 +8,6 @@
     "ropls"
   ],
   "ASSIGN": [],
-  "ASURAT": [],
   "ASpli": [
     "Gviz",
     "biovizBase",
@@ -102,7 +101,6 @@
   "CCAFE": [
     "VariantAnnotation"
   ],
-  "CDI": [],
   "CNVfilteR": [
     "regioneR",
     "karyoploteR",
@@ -1173,7 +1171,6 @@
     "OrganismDbi"
   ],
   "diffHic": [],
-  "diffUTR": [],
   "dmrseq": [
     "bsseq",
     "annotatr",
@@ -1622,7 +1619,6 @@
     "PSMatch",
     "QFeatures"
   ],
-  "peco": [],
   "periodicDNA": [],
   "phenoTest": [],
   "phenomis": [
