@@ -1,22 +1,17 @@
 {
   "AlphaMissenseR": [],
   "AlpsNMR": [],
-  "CGHregions": [],
   "CNORdt": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORfeeder": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORfuzzy": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "CNORode": [
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "COMPASS": [],
   "CONFESS": [
@@ -25,7 +20,6 @@
     "flowMerge",
     "flowPeaks"
   ],
-  "CRImage": [],
   "Cardinal": [
     "CardinalIO",
     "matter"
@@ -33,37 +27,24 @@
   "CardinalIO": [
     "matter"
   ],
-  "CellNOptR": [
-    "RBGL"
-  ],
-  "ChemmineOB": [],
-  "CytoDx": [],
+  "CellNOptR": [],
   "DeepPINCS": [],
-  "FISHalyseR": [],
-  "FlowSOM": [],
   "GSCA": [],
-  "GWASTools": [],
   "GateFinder": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "GenProSeq": [
     "DeepPINCS"
   ],
-  "GeneNetworkBuilder": [
-    "RCy3"
-  ],
+  "GeneNetworkBuilder": [],
   "HVP": [],
   "ISAnalytics": [],
   "MEIGOR": [
     "CNORode",
-    "CellNOptR",
-    "RBGL"
+    "CellNOptR"
   ],
   "MODA": [],
-  "MOGAMUN": [
-    "RCy3"
-  ],
+  "MOGAMUN": [],
   "MSstats": [
     "MSstatsConvert"
   ],
@@ -73,7 +54,6 @@
   ],
   "MSstatsBioNet": [
     "MSstats",
-    "RCy3",
     "MSstatsConvert"
   ],
   "MSstatsConvert": [],
@@ -81,40 +61,18 @@
     "MSstats",
     "MSstatsConvert"
   ],
-  "Mergeomics": [],
-  "MetaCyto": [
-    "FlowSOM"
-  ],
-  "MetaDICT": [],
-  "ModCon": [],
+  "MetaCyto": [],
   "Omixer": [],
   "OpenStats": [],
-  "OrderedList": [],
-  "Path2PPI": [],
-  "PepsNMR": [],
-  "PhenoGeneRanker": [],
   "Polytect": [
     "flowPeaks"
   ],
   "QUBIC": [],
-  "RAREsim": [],
-  "RBGL": [],
-  "RBioFormats": [],
-  "RCX": [],
-  "RCy3": [],
-  "RCyjs": [],
-  "RGraph2js": [],
-  "RImmPort": [],
   "RTCGA": [],
-  "RcwlPipelines": [],
-  "ReUseData": [
-    "RcwlPipelines"
-  ],
-  "Rigraphlib": [],
+  "ReUseData": [],
   "SIMAT": [
     "mzR"
   ],
-  "SIMD": [],
   "SIMLR": [],
   "Sconify": [],
   "SuperCellCyto": [],
@@ -122,85 +80,57 @@
   "TPP": [],
   "TSAR": [],
   "TargetDecoy": [
-    "mzID",
     "mzR"
   ],
   "VERSO": [],
   "alabaster.base": [],
   "anndataR": [],
-  "biocViews": [
-    "RBGL"
-  ],
+  "biocViews": [],
   "biomformat": [],
   "bluster": [],
-  "cbpManager": [],
-  "cellmig": [],
   "compSPOT": [],
   "csdR": [],
   "cyanoFilter": [
     "flowDensity",
-    "flowClust",
-    "flowViz"
+    "flowClust"
   ],
   "cytoMEM": [],
   "ddPCRclust": [
     "flowDensity",
-    "flowPeaks",
-    "flowViz"
+    "flowPeaks"
   ],
   "decoupleR": [],
-  "densvis": [],
-  "fastreeR": [],
-  "fedup": [
-    "RCy3"
-  ],
-  "fgga": [
-    "RBGL"
-  ],
-  "flowAI": [],
+  "fedup": [],
+  "fgga": [],
   "flowBeads": [],
   "flowBin": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "flowCHIC": [],
-  "flowClean": [],
   "flowClust": [],
   "flowCut": [
-    "flowDensity",
-    "flowViz"
+    "flowDensity"
   ],
-  "flowDensity": [
-    "flowViz"
-  ],
-  "flowFP": [
-    "flowViz"
-  ],
+  "flowDensity": [],
+  "flowFP": [],
   "flowMatch": [],
   "flowMeans": [],
   "flowMerge": [
     "flowClust"
   ],
   "flowPeaks": [],
-  "flowPloidy": [],
-  "flowSpecs": [],
   "flowTime": [],
   "flowTrans": [
-    "flowViz",
     "flowClust"
   ],
-  "flowViz": [],
   "flowcatchR": [],
   "immunoClust": [],
   "infinityFlow": [],
-  "islify": [
-    "RBioFormats"
-  ],
+  "islify": [],
   "matter": [],
   "metabinR": [],
   "monocle": [
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "mosbi": [
     "QUBIC"
@@ -209,12 +139,9 @@
     "mzR"
   ],
   "mslp": [],
-  "mzID": [],
   "mzR": [],
   "ncdfFlow": [],
-  "ndexr": [
-    "RCX"
-  ],
+  "ndexr": [],
   "netboost": [],
   "optimalFlow": [
     "flowMeans"
@@ -224,32 +151,17 @@
   "progeny": [
     "decoupleR"
   ],
-  "qcmetrics": [],
-  "rawDiag": [
-    "rawrr"
-  ],
-  "rawrr": [],
+  "rawDiag": [],
   "retrofit": [],
   "rgoslin": [],
-  "ribor": [],
-  "scBubbletree": [],
   "scFeatureFilter": [],
   "scLANE": [],
-  "scMitoMut": [],
   "seahtrue": [],
-  "semisup": [],
-  "seq.hotSPOT": [],
-  "shinybiocloader": [],
-  "sizepower": [],
   "splots": [],
-  "synapsis": [],
   "synergyfinder": [],
-  "tidyFlowCore": [],
-  "tweeDEseq": [],
   "uSORT": [
     "monocle",
-    "biocViews",
-    "RBGL"
+    "biocViews"
   ],
   "variancePartition": []
 }

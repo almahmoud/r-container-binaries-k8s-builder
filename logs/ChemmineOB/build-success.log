@@ -1,0 +1,159 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ChemmineOB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'ChemmineOB'
+Warning: dependency ‘ChemmineR’ is not available
+also installing the dependency ‘knitrBootstrap’
+
+trying URL 'https://cloud.r-project.org/src/contrib/knitrBootstrap_1.0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ChemmineOB_1.49.0.tar.gz'
+* installing *source* package ‘knitrBootstrap’ ...
+** this is package ‘knitrBootstrap’ version ‘1.0.3’
+** package ‘knitrBootstrap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘knitrBootstrap’ as ‘knitrBootstrap_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (knitrBootstrap)
+* installing *source* package ‘ChemmineOB’ ...
+** this is package ‘ChemmineOB’ version ‘1.49.0’
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for OPENBABEL... no
+checking for OPENBABEL... no
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu2x -E
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/openbabel3  -I/usr/include/eigen3  -DUSE_BOOST -DHAVE_EIGEN -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION  -I/usr/local/include/eigen3 -I/usr/local/include/openbabel3    -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ChemmineOB.cpp -o ChemmineOB.o
+In file included from /usr/include/openbabel3/openbabel/format.h:22,
+                 from /usr/include/openbabel3/openbabel/obconversion.h:37,
+                 from ChemmineOB.cpp:1587:
+/usr/include/openbabel3/openbabel/plugin.h:41:42: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+   41 | struct OBERROR CharPtrLess : public std::binary_function<const char*,const char*, bool>
+      |                                          ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/string:49,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ChemmineOB.cpp:1559:
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp: In function ‘SEXPREC* R_swig_new_dummy()’:
+ChemmineOB.cpp:13728:45: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13728 | SWIGEXPORT SEXP R_swig_new_dummy ( ) { std::binary_function< char const *,char const *,bool > *result = 0 ;
+      |                                             ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp:13730:18: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13730 |   result = (std::binary_function< char const *,char const *,bool > *)new std::binary_function< char const *,char const *,bool >();
+      |                  ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp:13730:79: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13730 |   result = (std::binary_function< char const *,char const *,bool > *)new std::binary_function< char const *,char const *,bool >();
+      |                                                                               ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp: In function ‘SEXPREC* R_swig_delete_dummy(SEXP)’:
+ChemmineOB.cpp:13734:8: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13734 |   std::binary_function< char const *,char const *,bool > *arg1 = (std::binary_function< char const *,char const *,bool > *) 0 ;
+      |        ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp:13734:72: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13734 |   std::binary_function< char const *,char const *,bool > *arg1 = (std::binary_function< char const *,char const *,bool > *) 0 ;
+      |                                                                        ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp:13739:34: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+13739 |    arg1 = reinterpret_cast< std::binary_function< char const *,char const *,bool > * >(argp1); delete arg1; r_ans = R_NilValue;
+      |                                  ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+ChemmineOB.cpp: In function ‘void* _p_OpenBabel__CharPtrLessTo_p_std__binary_functionT_char_const_p_char_const_p_bool_t(void*, int*)’:
+ChemmineOB.cpp:39656:27: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+39656 |     return (void *)((std::binary_function< char const *,char const *,bool > *)  ((OpenBabel::CharPtrLess *) x));
+      |                           ^~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/openbabel3  -I/usr/include/eigen3  -DUSE_BOOST -DHAVE_EIGEN -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION  -I/usr/local/include/eigen3 -I/usr/local/include/openbabel3    -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c canonical.cpp -o canonical.o
+In file included from /usr/include/openbabel3/openbabel/op.h:25,
+                 from canonical.cpp:3:
+/usr/include/openbabel3/openbabel/plugin.h:41:42: warning: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Wdeprecated-declarations]
+   41 | struct OBERROR CharPtrLess : public std::binary_function<const char*,const char*, bool>
+      |                                          ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/string:49,
+                 from /usr/include/openbabel3/openbabel/op.h:23:
+/usr/include/c++/13/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ChemmineOB.so ChemmineOB.o canonical.o -L/usr/local/lib/openbabel3 -lopenbabel -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ChemmineOB/00new/ChemmineOB/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘copyToR’ with signature ‘"_p_std::char_traits<(char)>"’: no definition for class “_p_std::char_traits<(char)>”
+in method for ‘copyToR’ with signature ‘"_p_std::pair<(unsigned int,unsigned int)>"’: no definition for class “_p_std::pair<(unsigned int,unsigned int)>”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::CharPtrLess"’: no definition for class “_p_OpenBabel::CharPtrLess”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::FptIndexHeader"’: no definition for class “_p_OpenBabel::FptIndexHeader”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::OBStereo"’: no definition for class “_p_OpenBabel::OBStereo”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::OBStereoUnit"’: no definition for class “_p_OpenBabel::OBStereoUnit”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::LineSearchType"’: no definition for class “_p_OpenBabel::LineSearchType”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::OBTetrahedralConfig"’: no definition for class “_p_OpenBabel::OBTetrahedralConfig”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::OBCisTransConfig"’: no definition for class “_p_OpenBabel::OBCisTransConfig”
+in method for ‘copyToR’ with signature ‘"_p_OpenBabel::OBSquarePlanarConfig"’: no definition for class “_p_OpenBabel::OBSquarePlanarConfig”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChemmineOB’ as ‘ChemmineOB_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemmineOB)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9rWHnr/downloaded_packages’
+Old packages: 'promises'
+
+real	1m40.036s
+user	1m32.267s
+sys	0m6.555s

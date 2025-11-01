@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 551 (79%)
+- **Successfully Built:** 598 (86%)
 - **Failed:** 4 (0%)
-- **In Progress:** 59
-- **Not Started:** 80
+- **In Progress:** 50
+- **Not Started:** 42
 
-**Progress:** 79%
+**Progress:** 86%
 ```
-███████████████████████████████████████░░░░░░░░░░░
+███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (551)
+## Successfully Built Packages (598)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,14 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 501 more ...*
+*... and 548 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
-| [synlet](https://bioconductor.org/packages/3.23/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synlet) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
+| [tidyFlowCore](https://bioconductor.org/packages/3.23/bioc/html/tidyFlowCore.html) | [log](logs/tidyFlowCore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyFlowCore) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
@@ -64,6 +63,7 @@
 | [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
+| [tweeDEseq](https://bioconductor.org/packages/3.23/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
@@ -85,74 +85,67 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (59)
+## In Progress (50)
 - ⏳ `AlphaMissenseR`
 - ⏳ `AlpsNMR`
-- ⏳ `CGHregions`
 - ⏳ `COMPASS`
-- ⏳ `ChemmineOB`
 - ⏳ `DeepPINCS`
-- ⏳ `GWASTools`
+- ⏳ `GSCA`
 - ⏳ `HVP`
 - ⏳ `ISAnalytics`
 - ⏳ `MSstatsConvert`
-- ⏳ `Mergeomics`
-- ⏳ `MetaDICT`
-- ⏳ `ModCon`
 - ⏳ `Omixer`
 - ⏳ `OpenStats`
-- ⏳ `OrderedList`
-- ⏳ `Path2PPI`
-- ⏳ `PepsNMR`
-- ⏳ `PhenoGeneRanker`
 - ⏳ `QUBIC`
-- ⏳ `RAREsim`
-- ⏳ `RBGL`
-- ⏳ `RCX`
-- ⏳ `RCy3`
-- ⏳ `RGraph2js`
-- ⏳ `RImmPort`
 - ⏳ `RTCGA`
-- ⏳ `Rigraphlib`
 - ⏳ `SIMLR`
+- ⏳ `Sconify`
 - ⏳ `SuperCellCyto`
 - ⏳ `TIN`
+- ⏳ `TPP`
 - ⏳ `TSAR`
 - ⏳ `VERSO`
+- ⏳ `alabaster.base`
 - ⏳ `anndataR`
-- ⏳ `cbpManager`
-- ⏳ `cellmig`
+- ⏳ `biomformat`
+- ⏳ `bluster`
 - ⏳ `compSPOT`
+- ⏳ `cytoMEM`
 - ⏳ `decoupleR`
-- ⏳ `densvis`
-- ⏳ `fastreeR`
+- ⏳ `flowBeads`
+- ⏳ `flowCHIC`
+- ⏳ `flowClust`
+- ⏳ `flowMatch`
+- ⏳ `flowMeans`
 - ⏳ `flowPeaks`
+- ⏳ `flowTime`
+- ⏳ `flowcatchR`
+- ⏳ `immunoClust`
+- ⏳ `infinityFlow`
+- ⏳ `matter`
 - ⏳ `metabinR`
+- ⏳ `mzR`
+- ⏳ `ncdfFlow`
 - ⏳ `pathwayPCA`
 - ⏳ `ppcseq`
-- ⏳ `qcmetrics`
-- ⏳ `rawrr`
 - ⏳ `retrofit`
 - ⏳ `rgoslin`
-- ⏳ `scBubbletree`
 - ⏳ `scFeatureFilter`
+- ⏳ `scLANE`
+- ⏳ `seahtrue`
+- ⏳ `splots`
+- ⏳ `synergyfinder`
+- ⏳ `variancePartition`
 
-... and 9 more ...
-
-## Not Yet Started (80)
+## Not Yet Started (42)
 - ⏸️ `CNORdt`
 - ⏸️ `CNORfeeder`
 - ⏸️ `CNORfuzzy`
 - ⏸️ `CNORode`
 - ⏸️ `CONFESS`
-- ⏸️ `CRImage`
 - ⏸️ `Cardinal`
 - ⏸️ `CardinalIO`
 - ⏸️ `CellNOptR`
-- ⏸️ `CytoDx`
-- ⏸️ `FISHalyseR`
-- ⏸️ `FlowSOM`
-- ⏸️ `GSCA`
 - ⏸️ `GateFinder`
 - ⏸️ `GenProSeq`
 - ⏸️ `GeneNetworkBuilder`
@@ -164,35 +157,30 @@
 - ⏸️ `MSstatsTMT`
 - ⏸️ `MetaCyto`
 - ⏸️ `Polytect`
-- ⏸️ `RBioFormats`
-- ⏸️ `RCyjs`
-- ⏸️ `RcwlPipelines`
 - ⏸️ `ReUseData`
 - ⏸️ `SIMAT`
-- ⏸️ `SIMD`
-- ⏸️ `Sconify`
-- ⏸️ `TPP`
 - ⏸️ `TargetDecoy`
-- ⏸️ `alabaster.base`
 - ⏸️ `biocViews`
-- ⏸️ `biomformat`
-- ⏸️ `bluster`
 - ⏸️ `cyanoFilter`
-- ⏸️ `cytoMEM`
 - ⏸️ `ddPCRclust`
 - ⏸️ `fedup`
 - ⏸️ `fgga`
-- ⏸️ `flowAI`
-- ⏸️ `flowBeads`
 - ⏸️ `flowBin`
-- ⏸️ `flowCHIC`
-- ⏸️ `flowClean`
-- ⏸️ `flowClust`
 - ⏸️ `flowCut`
 - ⏸️ `flowDensity`
-
-... and 30 more ...
+- ⏸️ `flowFP`
+- ⏸️ `flowMerge`
+- ⏸️ `flowTrans`
+- ⏸️ `islify`
+- ⏸️ `monocle`
+- ⏸️ `mosbi`
+- ⏸️ `msPurity`
+- ⏸️ `ndexr`
+- ⏸️ `optimalFlow`
+- ⏸️ `progeny`
+- ⏸️ `rawDiag`
+- ⏸️ `uSORT`
 
 ---
-*Last updated: 2025-11-01 15:47:22 UTC*
-*Packages with verified BBS status: 108*
+*Last updated: 2025-11-01 15:50:20 UTC*
+*Packages with verified BBS status: 110*

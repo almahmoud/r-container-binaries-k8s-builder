@@ -1,0 +1,638 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GWASTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'GWASTools'
+Warning: dependencies ‘Biostrings’, ‘GenomicRanges’, ‘IRanges’, ‘VariantAnnotation’ are not available
+also installing the dependencies ‘ucminf’, ‘ordinal’, ‘pan’, ‘jomo’, ‘mitml’, ‘operator.tools’, ‘mice’, ‘formula.tools’, ‘gdsfmt’, ‘GWASExactHW’, ‘lmtest’, ‘logistf’, ‘quantsmooth’, ‘ncdf4’, ‘GWASdata’, ‘SNPRelate’
+
+trying URL 'https://cloud.r-project.org/src/contrib/ucminf_1.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ordinal_2023.12-4.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pan_1.9.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/jomo_2.7-6.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mitml_0.4-5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/operator.tools_1.6.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mice_3.18.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/formula.tools_1.7.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/gdsfmt_1.47.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/GWASExactHW_1.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/lmtest_0.9-40.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/logistf_1.26.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/quantsmooth_1.77.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ncdf4_1.24.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/GWASdata_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SNPRelate_1.45.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GWASTools_1.57.0.tar.gz'
+* installing *source* package ‘ucminf’ ...
+** this is package ‘ucminf’ version ‘1.2.2’
+** package ‘ucminf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c fortran.f -o fortran.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interface.c -o interface.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ucminf.so fortran.o init.o interface.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ucminf/00new/ucminf/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ucminf’ as ‘ucminf_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ucminf)
+* installing *source* package ‘pan’ ...
+** this is package ‘pan’ version ‘1.9’
+** package ‘pan’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c package_native_routine_registration_skeleton.c -o package_native_routine_registration_skeleton.o
+gfortran  -fpic  -g -O2  -c pan.f -o pan.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pan.so package_native_routine_registration_skeleton.o pan.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-pan/00new/pan/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pan’ as ‘pan_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pan)
+* installing *source* package ‘operator.tools’ ...
+** this is package ‘operator.tools’ version ‘1.6.3’
+** package ‘operator.tools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘operator.tools’ as ‘operator.tools_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (operator.tools)
+* installing *source* package ‘gdsfmt’ ...
+** this is package ‘gdsfmt’ version ‘1.47.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c R_CoreArray.cpp -o R_CoreArray.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gdsfmt.cpp -o gdsfmt.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c digest.cpp -o digest.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/CoreArray.cpp -o CoreArray/CoreArray.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dAllocator.cpp -o CoreArray/dAllocator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dAny.cpp -o CoreArray/dAny.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dBase.cpp -o CoreArray/dBase.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dBitGDS.cpp -o CoreArray/dBitGDS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dEndian.cpp -o CoreArray/dEndian.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dFile.cpp -o CoreArray/dFile.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dParallel.cpp -o CoreArray/dParallel.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CoreArray/dParallel_Ext.c -o CoreArray/dParallel_Ext.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dPlatform.cpp -o CoreArray/dPlatform.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dRealGDS.cpp -o CoreArray/dRealGDS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dSerial.cpp -o CoreArray/dSerial.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dStrGDS.cpp -o CoreArray/dStrGDS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dStream.cpp -o CoreArray/dStream.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dStruct.cpp -o CoreArray/dStruct.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dSparse.cpp -o CoreArray/dSparse.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CoreArray/dVLIntGDS.cpp -o CoreArray/dVLIntGDS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/adler32.c -o ZLIB/adler32.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/compress.c -o ZLIB/compress.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/crc32.c -o ZLIB/crc32.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/deflate.c -o ZLIB/deflate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/infback.c -o ZLIB/infback.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/inffast.c -o ZLIB/inffast.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/inflate.c -o ZLIB/inflate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/inftrees.c -o ZLIB/inftrees.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/trees.c -o ZLIB/trees.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/uncompr.c -o ZLIB/uncompr.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c -g0 ZLIB/zutil.c -o ZLIB/zutil.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LZ4/lz4.c -o LZ4/lz4.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LZ4/lz4hc.c -o LZ4/lz4hc.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LZ4/lz4frame.c -o LZ4/lz4frame.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -D_FILE_OFFSET_BITS=64 -I../inst/include -ICoreArray  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LZ4/xxhash.c -o LZ4/xxhash.o
+cd XZ && tar -xzf xz-5.2.9.tar.gz
+cd XZ/xz-5.2.9 && \
+	./configure CC="gcc -std=gnu2x" CPP="gcc -std=gnu2x -E" CXX="g++ -std=gnu++17" CXXCPP="" --build="" \
+	--with-pic --enable-silent-rules --quiet --disable-xz --disable-shared > /dev/null
+cd XZ/xz-5.2.9/src/liblzma && make
+make[1]: Entering directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma'
+Making all in api
+make[2]: Entering directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma/api'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma/api'
+make[2]: Entering directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma'
+  CC       liblzma_la-tuklib_physmem.lo
+  CC       liblzma_la-tuklib_cpucores.lo
+  CC       liblzma_la-common.lo
+  CC       liblzma_la-block_util.lo
+  CC       liblzma_la-easy_preset.lo
+  CC       liblzma_la-filter_common.lo
+  CC       liblzma_la-hardware_physmem.lo
+  CC       liblzma_la-index.lo
+  CC       liblzma_la-stream_flags_common.lo
+  CC       liblzma_la-vli_size.lo
+  CC       liblzma_la-hardware_cputhreads.lo
+  CC       liblzma_la-alone_encoder.lo
+  CC       liblzma_la-block_buffer_encoder.lo
+  CC       liblzma_la-block_encoder.lo
+  CC       liblzma_la-block_header_encoder.lo
+  CC       liblzma_la-easy_buffer_encoder.lo
+  CC       liblzma_la-easy_encoder.lo
+  CC       liblzma_la-easy_encoder_memusage.lo
+  CC       liblzma_la-filter_buffer_encoder.lo
+  CC       liblzma_la-filter_encoder.lo
+  CC       liblzma_la-filter_flags_encoder.lo
+  CC       liblzma_la-index_encoder.lo
+  CC       liblzma_la-stream_buffer_encoder.lo
+  CC       liblzma_la-stream_encoder.lo
+  CC       liblzma_la-stream_flags_encoder.lo
+  CC       liblzma_la-vli_encoder.lo
+  CC       liblzma_la-outqueue.lo
+  CC       liblzma_la-stream_encoder_mt.lo
+  CC       liblzma_la-alone_decoder.lo
+  CC       liblzma_la-auto_decoder.lo
+  CC       liblzma_la-block_buffer_decoder.lo
+  CC       liblzma_la-block_decoder.lo
+  CC       liblzma_la-block_header_decoder.lo
+  CC       liblzma_la-easy_decoder_memusage.lo
+  CC       liblzma_la-filter_buffer_decoder.lo
+  CC       liblzma_la-filter_decoder.lo
+  CC       liblzma_la-filter_flags_decoder.lo
+  CC       liblzma_la-index_decoder.lo
+  CC       liblzma_la-index_hash.lo
+  CC       liblzma_la-stream_buffer_decoder.lo
+  CC       liblzma_la-stream_decoder.lo
+  CC       liblzma_la-stream_flags_decoder.lo
+  CC       liblzma_la-vli_decoder.lo
+  CC       liblzma_la-check.lo
+  CC       liblzma_la-crc32_table.lo
+  CC       liblzma_la-crc32_fast.lo
+  CC       liblzma_la-crc64_table.lo
+  CC       liblzma_la-crc64_fast.lo
+  CC       liblzma_la-sha256.lo
+  CC       liblzma_la-lz_encoder.lo
+  CC       liblzma_la-lz_encoder_mf.lo
+  CC       liblzma_la-lz_decoder.lo
+  CC       liblzma_la-lzma_encoder_presets.lo
+  CC       liblzma_la-lzma_encoder.lo
+  CC       liblzma_la-lzma_encoder_optimum_fast.lo
+  CC       liblzma_la-lzma_encoder_optimum_normal.lo
+  CC       liblzma_la-fastpos_table.lo
+  CC       liblzma_la-lzma_decoder.lo
+  CC       liblzma_la-lzma2_encoder.lo
+  CC       liblzma_la-lzma2_decoder.lo
+  CC       liblzma_la-price_table.lo
+  CC       liblzma_la-delta_common.lo
+  CC       liblzma_la-delta_encoder.lo
+  CC       liblzma_la-delta_decoder.lo
+  CC       liblzma_la-simple_coder.lo
+  CC       liblzma_la-simple_encoder.lo
+  CC       liblzma_la-simple_decoder.lo
+  CC       liblzma_la-x86.lo
+  CC       liblzma_la-powerpc.lo
+  CC       liblzma_la-ia64.lo
+  CC       liblzma_la-arm.lo
+  CC       liblzma_la-armthumb.lo
+  CC       liblzma_la-sparc.lo
+  CCLD     liblzma.la
+  PC       liblzma.pc
+make[2]: Leaving directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma'
+make[1]: Leaving directory '/tmp/RtmpCZiUCx/R.INSTALL1272ee5715f/gdsfmt/src/XZ/xz-5.2.9/src/liblzma'
+cp XZ/xz-5.2.9/src/liblzma/.libs/liblzma.a  .
+rm -rf XZ/xz-5.2.9/dos
+rm -rf XZ/xz-5.2.9/po
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gdsfmt.so R_CoreArray.o gdsfmt.o digest.o CoreArray/CoreArray.o CoreArray/dAllocator.o CoreArray/dAny.o CoreArray/dBase.o CoreArray/dBitGDS.o CoreArray/dEndian.o CoreArray/dFile.o CoreArray/dParallel.o CoreArray/dParallel_Ext.o CoreArray/dPlatform.o CoreArray/dRealGDS.o CoreArray/dSerial.o CoreArray/dStrGDS.o CoreArray/dStream.o CoreArray/dStruct.o CoreArray/dSparse.o CoreArray/dVLIntGDS.o ZLIB/adler32.o ZLIB/compress.o ZLIB/crc32.o ZLIB/deflate.o ZLIB/infback.o ZLIB/inffast.o ZLIB/inflate.o ZLIB/inftrees.o ZLIB/trees.o ZLIB/uncompr.o ZLIB/zutil.o LZ4/lz4.o LZ4/lz4hc.o LZ4/lz4frame.o LZ4/xxhash.o ./liblzma.a -lpthread -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-gdsfmt/00new/gdsfmt/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gdsfmt’ as ‘gdsfmt_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdsfmt)
+* installing *source* package ‘GWASExactHW’ ...
+** this is package ‘GWASExactHW’ version ‘1.2’
+** package ‘GWASExactHW’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SNPHWE.c -o SNPHWE.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GWASExactHW.so SNPHWE.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GWASExactHW/00new/GWASExactHW/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GWASExactHW’ as ‘GWASExactHW_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASExactHW)
+* installing *source* package ‘lmtest’ ...
+** this is package ‘lmtest’ version ‘0.9-40’
+** package ‘lmtest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c pan.f -o pan.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lmtest.so init.o pan.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-lmtest/00new/lmtest/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lmtest’ as ‘lmtest_0.9-40_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmtest)
+* installing *source* package ‘quantsmooth’ ...
+** this is package ‘quantsmooth’ version ‘1.77.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘quantsmooth’ as ‘quantsmooth_1.77.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantsmooth)
+* installing *source* package ‘ncdf4’ ...
+** this is package ‘ncdf4’ version ‘1.24’
+** package ‘ncdf4’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure.ac: starting
+checking for nc-config... yes
+Using nc-config: nc-config
+Output of nc-config --all:
+
+This netCDF 4.9.2 has been built with the following features: 
+
+  --cc            -> /usr/bin/cc
+  --cflags        -> -I/usr/include -I/usr/include/hdf5/serial
+  --libs          -> -L/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf
+  --static        -> -lhdf5_hl -lhdf5 -lcrypto -lcurl -lpthread -lsz -lz -ldl -lm -lxml2
+
+
+  --has-dap          -> yes
+  --has-dap2         -> yes
+  --has-dap4         -> yes
+  --has-nc2          -> yes
+  --has-nc4          -> yes
+  --has-hdf5         -> yes
+  --has-hdf4         -> no
+  --has-logging      -> no
+  --has-pnetcdf      -> no
+  --has-szlib        -> no
+  --has-cdf5         -> yes
+  --has-parallel4    -> no
+  --has-parallel     -> no
+  --has-nczarr       -> yes
+  --has-zstd         -> yes
+  --has-benchmarks   -> no
+  --has-multifilters -> no
+  --has-stdfilters   -> deflate szip bz2
+  --has-quantize     -> no
+
+  --prefix        -> /usr
+  --includedir    -> /usr/include
+  --libdir        -> /usr/lib/x86_64-linux-gnu
+  --plugindir     -> 
+  --version       -> netCDF 4.9.2
+
+---
+netcdf.m4: about to set rpath, here is source string: >-L/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf<
+netcdf.m4: final rpath:   -Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial
+Netcdf library version: netCDF 4.9.2
+Netcdf library has version 4 interface present: yes
+Netcdf library was compiled with C compiler: /usr/bin/cc
+configure: creating ./config.status
+config.status: creating src/Makevars
+ 
+**********************  Results of ncdf4 package configure *******************
+ 
+netCDF v4 CPP flags      = -I/usr/include -I/usr/include/hdf5/serial
+netCDF v4 LD flags       =   -Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial -L/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -L/usr/local/lib
+netCDF v4 runtime path   =   -Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial
+ 
+netCDF C compiler used   = /usr/bin/cc
+R      C compiler used   = gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g
+ 
+******************************************************************************
+ 
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+netcdf cc arg1: /usr/bin/cc  R cc arg1: gcc R_IS_GCC: 1 R_IS_CLANG: 0 NETCDF_IS_GCC: 1 NETCDF_IS_CLANG: 0  emit_warning: 0
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include -I/usr/include/hdf5/serial  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ncdf.c -o ncdf.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ncdf4.so ncdf.o -Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial -L/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -L/usr/local/lib -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ncdf4/00new/ncdf4/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ncdf4’ as ‘ncdf4_1.24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ncdf4)
+* installing *source* package ‘ordinal’ ...
+** this is package ‘ordinal’ version ‘2023.12-4.1’
+** package ‘ordinal’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c get_fitted.c -o get_fitted.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c links.c -o links.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utilityFuns.c -o utilityFuns.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ordinal.so get_fitted.o init.o links.o utilityFuns.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ordinal/00new/ordinal/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ordinal’ as ‘ordinal_2023.12-4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ordinal)
+* installing *source* package ‘formula.tools’ ...
+** this is package ‘formula.tools’ version ‘1.7.1’
+** package ‘formula.tools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘formula.tools’ as ‘formula.tools_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formula.tools)
+* installing *source* package ‘SNPRelate’ ...
+** this is package ‘SNPRelate’ version ‘1.45.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ConvToGDS.cpp -o ConvToGDS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_SNPRelate.c -o R_SNPRelate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c SNPRelate.cpp -o SNPRelate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ThreadPool.cpp -o ThreadPool.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dGenGWAS.cpp -o dGenGWAS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dVect.cpp -o dVect.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genBeta.cpp -o genBeta.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genEIGMIX.cpp -o genEIGMIX.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genFst.cpp -o genFst.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genHWE.cpp -o genHWE.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genIBD.cpp -o genIBD.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genIBS.cpp -o genIBS.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genKING.cpp -o genKING.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genLD.cpp -o genLD.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genPCA.cpp -o genPCA.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DUSING_R -DUSE_FC_LEN_T -I. -I'/tmp/library/gdsfmt/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c genSlideWin.cpp -o genSlideWin.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SNPRelate.so ConvToGDS.o R_SNPRelate.o SNPRelate.o ThreadPool.o dGenGWAS.o dVect.o genBeta.o genEIGMIX.o genFst.o genHWE.o genIBD.o genIBS.o genKING.o genLD.o genPCA.o genSlideWin.o -lpthread -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SNPRelate/00new/SNPRelate/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SNPRelate’ as ‘SNPRelate_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNPRelate)
+* installing *source* package ‘jomo’ ...
+** this is package ‘jomo’ version ‘2.7-6’
+** package ‘jomo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1C.c -o jomo1C.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranC.c -o jomo1ranC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranhrC.c -o jomo1ranhrC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ranhrsmcC.c -o jomo1ranhrsmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1ransmcC.c -o jomo1ransmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo1smcC.c -o jomo1smcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2comC.c -o jomo2comC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2hrC.c -o jomo2hrC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2hrsmcC.c -o jomo2hrsmcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo2smcC.c -o jomo2smcC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jomo_init.c -o jomo_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pdflib.c -o pdflib.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wishart.c -o wishart.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o jomo.so jomo1C.o jomo1ranC.o jomo1ranhrC.o jomo1ranhrsmcC.o jomo1ransmcC.o jomo1smcC.o jomo2comC.o jomo2hrC.o jomo2hrsmcC.o jomo2smcC.o jomo_init.o pdflib.o wishart.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-jomo/00new/jomo/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jomo’ as ‘jomo_2.7-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jomo)
+* installing *source* package ‘mitml’ ...
+** this is package ‘mitml’ version ‘0.4-5’
+** package ‘mitml’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mitml’ as ‘mitml_0.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitml)
+* installing *source* package ‘mice’ ...
+** this is package ‘mice’ version ‘3.18.0’
+** package ‘mice’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c legendre.cpp -o legendre.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c match.cpp -o match.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c matchindex.cpp -o matchindex.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mice.so RcppExports.o legendre.o match.o matchindex.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mice/00new/mice/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mice’ as ‘mice_3.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mice)
+* installing *source* package ‘logistf’ ...
+** this is package ‘logistf’ version ‘1.26.1’
+** package ‘logistf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logistf.c -o logistf.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o logistf.so init.o logistf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-logistf/00new/logistf/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘logistf’ as ‘logistf_1.26.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logistf)
+* installing *source* package ‘GWASTools’ ...
+** this is package ‘GWASTools’ version ‘1.57.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GWASTools’ as ‘GWASTools_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASTools)
+* installing *source* package ‘GWASdata’ ...
+** this is package ‘GWASdata’ version ‘1.49.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_A03_31250.BIRDSEED.ALLELE_SUMMARY.TXT’
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_A05_31282.BIRDSEED.ALLELE_SUMMARY.TXT’
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_B02_31236.BIRDSEED.ALLELE_SUMMARY.TXT’
+packaged installation of ‘GWASdata’ as ‘GWASdata_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKQztjn/downloaded_packages’
+Old packages: 'promises'
+
+real	5m57.328s
+user	5m16.669s
+sys	0m45.011s

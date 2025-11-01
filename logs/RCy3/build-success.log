@@ -1,0 +1,231 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RCy3'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'RCy3'
+also installing the dependencies ‘repr’, ‘pbdZMQ’, ‘RJSONIO’, ‘IRkernel’, ‘IRdisplay’
+
+trying URL 'https://cloud.r-project.org/src/contrib/repr_1.1.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pbdZMQ_0.3-14.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/RJSONIO_2.0.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/IRkernel_1.3.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/IRdisplay_1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RCy3_2.31.0.tar.gz'
+* installing *source* package ‘repr’ ...
+** this is package ‘repr’ version ‘1.1.7’
+** package ‘repr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘repr’ as ‘repr_1.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (repr)
+* installing *source* package ‘pbdZMQ’ ...
+** this is package ‘pbdZMQ’ version ‘0.3-14’
+** package ‘pbdZMQ’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.25... yes
+checking for zmq... yes
+checking for zmq_4_1_6... checking for zmq... yes
+ 
+****************** Results of pbdZMQ package configure *****************
+ 
+>> GET_PKG_CONFIG = yes
+>> GET_SYSTEM_ZMQ = yes
+>> GET_SYSTEM_ZMQ_430 = yes
+>> PKG_CONFIG = /usr/bin/pkg-config
+>> SYSTEM_ZMQ_INCLUDEDIR = /usr/include
+>> SYSTEM_ZMQ_LIBDIR = /usr/lib/x86_64-linux-gnu
+>> ENABLE_INTERNAL_ZMQ = no
+>> INTERNAL_ZMQ_INCLUDEDIR = ./zmqsrc/include
+>> INTERNAL_ZMQ_LIBDIR = ./
+>> EXTERNAL_ZMQ_INCLUDE = 
+>> EXTERNAL_ZMQ_LDFLAGS = 
+>> ZMQ_INCLUDE = -I/usr/include
+>> ZMQ_LDFLAGS = -L/usr/lib/x86_64-linux-gnu -lzmq
+>> EXT_LIBS = 
+>> ZMQ_POLLER = select
+ 
+************************************************************************
+ 
+configure: creating ./config.status
+config.status: creating src/Makevars
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating src/build_zmq
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating src/build_zmq
+config.status: creating R/zzz.r
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_context.c -o R_zmq_context.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_socket.c -o R_zmq_socket.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_sendrecv.c -o R_zmq_sendrecv.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_utility.c -o R_zmq_utility.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_message.c -o R_zmq_message.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_transfer.c -o R_zmq_transfer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shellexec_wcc.c -o shellexec_wcc.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_zmq_poll.c -o R_zmq_poll.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c R_cxx_dummy.cc -o R_cxx_dummy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include  -I/usr/local/include   -I/usr/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zzz.c -o zzz.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pbdZMQ.so R_zmq_context.o R_zmq_socket.o R_zmq_sendrecv.o R_zmq_utility.o R_zmq_message.o R_zmq_transfer.o shellexec_wcc.o R_zmq_poll.o R_cxx_dummy.o zzz.o -L/usr/lib/x86_64-linux-gnu -lzmq -L/usr/local/lib/R/lib -lR
+installing via 'install.libs.R' to /tmp/library/00LOCK-pbdZMQ/00new/pbdZMQ
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pbdZMQ’ as ‘pbdZMQ_0.3-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbdZMQ)
+* installing *source* package ‘RJSONIO’ ...
+** this is package ‘RJSONIO’ version ‘2.0.0’
+** package ‘RJSONIO’ successfully unpacked and MD5 sums checked
+** using staged installation
+Trying to find libjson.h header file
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to enable C11 features... none needed
+USE_LOCAL = ""
+Minor Version: 6
+Using local libjson code. Copying files from src/libjson/Source
+/tmp/Rtmpifp6JK/R.INSTALL3e42045b705/RJSONIO
+JSONAllocator.cpp
+JSONChildren.cpp
+JSONDebug.cpp
+JSONIterators.cpp
+JSONMemory.cpp
+JSONNode.cpp
+JSONNode_Mutex.cpp
+JSONPreparse.cpp
+JSONStream.cpp
+JSONValidator.cpp
+JSONWorker.cpp
+JSONWriter.cpp
+internalJSONNode.cpp
+libjson.cpp
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating tools/cleanup
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ConvertUTF.c -o ConvertUTF.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONAllocator.cpp -o JSONAllocator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONChildren.cpp -o JSONChildren.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONDebug.cpp -o JSONDebug.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONIterators.cpp -o JSONIterators.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONMemory.cpp -o JSONMemory.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONNode.cpp -o JSONNode.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONNode_Mutex.cpp -o JSONNode_Mutex.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONPreparse.cpp -o JSONPreparse.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONStream.cpp -o JSONStream.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONValidator.cpp -o JSONValidator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONWorker.cpp -o JSONWorker.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c JSONWriter.cpp -o JSONWriter.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c JSON_parser.c -o JSON_parser.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RJSON.c -o RJSON.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c internalJSONNode.cpp -o internalJSONNode.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c libjson.cpp -o libjson.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlibjson.c -o rlibjson.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE -DJSON_STREAM=1 -DJSON_READ_PRIORITY=1 -DJSON_LIBRARY=1 -DJSON_ISO_STRICT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rparser.c -o rparser.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RJSONIO.so ConvertUTF.o JSONAllocator.o JSONChildren.o JSONDebug.o JSONIterators.o JSONMemory.o JSONNode.o JSONNode_Mutex.o JSONPreparse.o JSONStream.o JSONValidator.o JSONWorker.o JSONWriter.o JSON_parser.o RJSON.o init.o internalJSONNode.o libjson.o rlibjson.o rparser.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-RJSONIO/00new/RJSONIO/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RJSONIO’ as ‘RJSONIO_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RJSONIO)
+* installing *source* package ‘IRdisplay’ ...
+** this is package ‘IRdisplay’ version ‘1.1’
+** package ‘IRdisplay’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IRdisplay’ as ‘IRdisplay_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRdisplay)
+* installing *source* package ‘IRkernel’ ...
+** this is package ‘IRkernel’ version ‘1.3.2’
+** package ‘IRkernel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IRkernel’ as ‘IRkernel_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRkernel)
+* installing *source* package ‘RCy3’ ...
+** this is package ‘RCy3’ version ‘2.31.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RCy3’ as ‘RCy3_2.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCy3)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp28SjdF/downloaded_packages’
+Old packages: 'promises'
+
+real	0m39.107s
+user	0m30.876s
+sys	0m10.925s

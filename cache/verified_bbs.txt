@@ -86,6 +86,7 @@ synlet
 systemPipeShiny
 tanggle
 ternarynet
+tidyFlowCore
 tidysbml
 timeOmics
 timecourse
@@ -95,6 +96,7 @@ treeio
 trio
 tripr
 ttgsea
+tweeDEseq
 twilight
 twoddpcr
 tximport

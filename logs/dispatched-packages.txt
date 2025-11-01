@@ -650,3 +650,16 @@ scMitoMut
 synapsis
 tidyFlowCore
 tweeDEseq
+CellNOptR
+GeneNetworkBuilder
+MOGAMUN
+MetaCyto
+ReUseData
+biocViews
+fedup
+fgga
+flowDensity
+flowFP
+islify
+ndexr
+rawDiag
