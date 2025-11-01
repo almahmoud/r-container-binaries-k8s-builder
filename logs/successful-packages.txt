@@ -1584,3 +1584,11 @@ ggsc
 RiboDiPA
 MinimumDistance
 ORFik
+autonomics
+BioTIP
+CelliD
+ensembldb
+EpiTxDb
+M3Drop
+MEB
+rGREAT

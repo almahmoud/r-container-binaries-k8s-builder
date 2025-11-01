@@ -1810,3 +1810,13 @@ rnaEditr
 vmrseq
 RiboCrypt
 TFHAZ
+BUSpaRse
+CleanUpRNAseq
+GRaNIE
+chevreulProcess
+consensusDE
+diffUTR
+drugTargetInteractions
+scMerge
+scanMiRApp
+tximeta
