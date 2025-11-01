@@ -1775,3 +1775,5 @@ ChIPXpress
 looking4clusters
 TrajectoryUtils
 TreeSummarizedExperiment
+categoryCompare
+SNPhood

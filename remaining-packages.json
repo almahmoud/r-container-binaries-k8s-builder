@@ -501,7 +501,6 @@
   ],
   "SGSeq": [],
   "SMITE": [],
-  "SNPhood": [],
   "SOMNiBUS": [
     "annotatr",
     "regioneR"
@@ -717,7 +716,6 @@
     "TCGAutils"
   ],
   "cardelino": [],
-  "categoryCompare": [],
   "cbaf": [
     "cBioPortalData",
     "RTCGAToolbox",
