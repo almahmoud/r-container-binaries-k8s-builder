@@ -510,7 +510,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiCPotts": [],
   "HiCaptuRe": [
     "GenomicInteractions",
     "Gviz",
@@ -690,7 +689,6 @@
   "Moonlight2R": [
     "EpiMix"
   ],
-  "Motif2Site": [],
   "MotifPeeker": [],
   "MsDataHub": [],
   "MsExperiment": [
@@ -959,7 +957,6 @@
   "SEraster": [
     "SpatialExperiment"
   ],
-  "SEtools": [],
   "SGSeq": [],
   "SMITE": [
     "goseq",
@@ -1557,7 +1554,6 @@
     "ensembldb"
   ],
   "easier": [],
-  "edge": [],
   "enhancerHomologSearch": [
     "motifmatchr",
     "TFBSTools"
@@ -1900,7 +1896,6 @@
     "GOstats"
   ],
   "miRSM": [],
-  "miRspongeR": [],
   "mia": [
     "TreeSummarizedExperiment",
     "scater"
@@ -2243,7 +2238,6 @@
     "scater"
   ],
   "scDesign3": [],
-  "scDiagnostics": [],
   "scDotPlot": [
     "scater"
   ],
@@ -2265,7 +2259,6 @@
   "scRepertoire": [
     "immApex"
   ],
-  "scTGIF": [],
   "scTensor": [
     "Category",
     "meshr",
