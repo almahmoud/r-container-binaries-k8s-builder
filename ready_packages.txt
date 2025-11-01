@@ -1,5 +1,9 @@
-BASiCStan
-circRNAprofiler
-lemur
-transformGamPoi
-vtpnet
+ATACseqQC
+DEScan2
+FEAST
+GUIDEseq
+REDseq
+Ularcirc
+gDR
+linkSet
+vulcan

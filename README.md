@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1991 (88%)
+- **Successfully Built:** 1997 (88%)
 - **Failed:** 2 (0%)
-- **In Progress:** 74
-- **Not Started:** 177
+- **In Progress:** 73
+- **Not Started:** 172
 
-**Progress:** 88%
+**Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1991)
+## Successfully Built Packages (1997)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1941 more ...*
+*... and 1947 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,9 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (74)
+## In Progress (73)
+- ⏳ `BASiCStan`
 - ⏳ `CAGEfightR`
-- ⏳ `ChIPpeakAnno`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DMRcate`
 - ⏳ `EventPointer`
@@ -102,7 +102,6 @@
 - ⏳ `MetaboSignal`
 - ⏳ `MsExperiment`
 - ⏳ `OMICsPCA`
-- ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
 - ⏳ `PSMatch`
 - ⏳ `QuasR`
@@ -111,9 +110,7 @@
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `Rhisat2`
-- ⏳ `Rmmquant`
 - ⏳ `Rqc`
-- ⏳ `SC3`
 - ⏳ `SCArray`
 - ⏳ `SETA`
 - ⏳ `SOMNiBUS`
@@ -123,26 +120,28 @@
 - ⏳ `SplicingGraphs`
 - ⏳ `SurfR`
 - ⏳ `TCGAutils`
-- ⏳ `TENxIO`
 - ⏳ `TFEA.ChIP`
 - ⏳ `TFutils`
 - ⏳ `VCFArray`
 - ⏳ `bigmelon`
+- ⏳ `circRNAprofiler`
 - ⏳ `compEpiTools`
 - ⏳ `crisprViz`
 - ⏳ `derfinder`
 - ⏳ `dmrseq`
 - ⏳ `gDNAx`
-- ⏳ `gDRimport`
+- ⏳ `hdxmsqc`
+- ⏳ `iSEEde`
+- ⏳ `iSEEhex`
+- ⏳ `iSEEindex`
 
-... and 24 more ...
+... and 23 more ...
 
-## Not Yet Started (177)
+## Not Yet Started (172)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `BASiCStan`
 - ⏸️ `BOBaFIT`
 - ⏸️ `Banksy`
 - ⏸️ `BulkSignalR`
@@ -188,9 +187,10 @@
 - ⏸️ `Prostar`
 - ⏸️ `R3CPET`
 - ⏸️ `RAIDS`
+- ⏸️ `REDseq`
 
-... and 127 more ...
+... and 122 more ...
 
 ---
-*Last updated: 2025-11-01 06:42:16 UTC*
+*Last updated: 2025-11-01 06:43:48 UTC*
 *Packages with verified BBS status: 147*

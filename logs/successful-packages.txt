@@ -1989,3 +1989,9 @@ glmGamPoi
 gmapR
 gwascat
 SPICEY
+ChIPpeakAnno
+gDRimport
+Organism.dplyr
+Rmmquant
+SC3
+TENxIO

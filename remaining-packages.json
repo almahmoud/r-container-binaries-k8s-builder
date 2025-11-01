@@ -3,9 +3,7 @@
     "AnnotationHubData",
     "OrganismDbi"
   ],
-  "ATACseqQC": [
-    "ChIPpeakAnno"
-  ],
+  "ATACseqQC": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools",
@@ -58,7 +56,6 @@
   "ChAMP": [
     "DMRcate"
   ],
-  "ChIPpeakAnno": [],
   "CircSeqAlignTk": [
     "Rhisat2"
   ],
@@ -75,9 +72,7 @@
     "MSnbase",
     "PSMatch"
   ],
-  "DEScan2": [
-    "ChIPpeakAnno"
-  ],
+  "DEScan2": [],
   "DESpace": [
     "SpatialExperiment"
   ],
@@ -101,9 +96,7 @@
   "ExperimentSubset": [
     "SpatialExperiment"
   ],
-  "FEAST": [
-    "SC3"
-  ],
+  "FEAST": [],
   "FLAMES": [
     "ggbio",
     "SpatialExperiment",
@@ -122,9 +115,7 @@
   "GSVA": [
     "SpatialExperiment"
   ],
-  "GUIDEseq": [
-    "ChIPpeakAnno"
-  ],
+  "GUIDEseq": [],
   "GenomicOZone": [
     "ggbio",
     "OrganismDbi"
@@ -186,11 +177,9 @@
   ],
   "NADfinder": [
     "trackViewer",
-    "ATACseqQC",
-    "ChIPpeakAnno"
+    "ATACseqQC"
   ],
   "OMICsPCA": [],
-  "Organism.dplyr": [],
   "OrganismDbi": [],
   "PRONE": [
     "MSnbase",
@@ -214,9 +203,7 @@
   "RAIDS": [
     "GENESIS"
   ],
-  "REDseq": [
-    "ChIPpeakAnno"
-  ],
+  "REDseq": [],
   "RESOLVE": [],
   "RMassBank": [
     "MSnbase",
@@ -242,13 +229,11 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "Rmmquant": [],
   "RnaSeqSampleSize": [
     "recount",
     "derfinder"
   ],
   "Rqc": [],
-  "SC3": [],
   "SCArray": [],
   "SCArray.sat": [
     "SCArray"
@@ -308,15 +293,11 @@
     "SpatialExperiment"
   ],
   "TCGAutils": [],
-  "TENxIO": [],
   "TFEA.ChIP": [],
   "TFutils": [],
-  "Ularcirc": [
-    "Organism.dplyr"
-  ],
+  "Ularcirc": [],
   "VCFArray": [],
   "VisiumIO": [
-    "TENxIO",
     "SpatialExperiment"
   ],
   "Voyager": [
@@ -324,7 +305,6 @@
     "SpatialExperiment"
   ],
   "XeniumIO": [
-    "TENxIO",
     "SpatialExperiment",
     "VisiumIO"
   ],
@@ -461,10 +441,7 @@
     "PSMatch"
   ],
   "gDNAx": [],
-  "gDR": [
-    "gDRimport"
-  ],
-  "gDRimport": [],
+  "gDR": [],
   "geomeTriD": [
     "trackViewer"
   ],
@@ -506,9 +483,7 @@
     "SpatialExperiment"
   ],
   "lemur": [],
-  "linkSet": [
-    "Organism.dplyr"
-  ],
+  "linkSet": [],
   "lisaClust": [
     "spicyR",
     "SpatialExperiment",
@@ -729,16 +704,13 @@
     "SpatialExperiment"
   ],
   "vtpnet": [],
-  "vulcan": [
-    "ChIPpeakAnno"
-  ],
+  "vulcan": [],
   "xcms": [
     "MSnbase",
     "MsExperiment",
     "PSMatch"
   ],
   "xenLite": [
-    "SpatialExperiment",
-    "TENxIO"
+    "SpatialExperiment"
   ]
 }
