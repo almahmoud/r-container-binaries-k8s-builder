@@ -117,6 +117,7 @@ veloviz
 vidger
 viper
 vissE
+vmrseq
 vsclust
 vsn
 waddR

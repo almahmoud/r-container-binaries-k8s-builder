@@ -461,8 +461,6 @@
   "MIRit": [],
   "MLInterfaces": [],
   "MOMA": [],
-  "MOSClip": [],
-  "MOSim": [],
   "MSnID": [
     "MSnbase",
     "msmsTests",
@@ -869,7 +867,6 @@
   "Uniquorn": [
     "VariantAnnotation"
   ],
-  "VAExprs": [],
   "VCFArray": [
     "VariantAnnotation",
     "GenomicFiles"
@@ -1540,7 +1537,6 @@
   "motifmatchr": [
     "TFBSTools"
   ],
-  "msImpute": [],
   "msgbsR": [
     "ggbio",
     "biovizBase",
@@ -1649,7 +1645,6 @@
   "phenomis": [
     "ropls"
   ],
-  "pipeComp": [],
   "pipeFrame": [],
   "podkat": [],
   "poem": [
@@ -1734,7 +1729,6 @@
   "scClassify": [
     "Cepo"
   ],
-  "scDD": [],
   "scDblFinder": [],
   "scDotPlot": [],
   "scMerge": [],
@@ -1965,7 +1959,6 @@
   "visiumStitched": [
     "SpatialExperiment"
   ],
-  "vmrseq": [],
   "vtpnet": [
     "gwascat",
     "VariantAnnotation"

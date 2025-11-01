@@ -1610,3 +1610,10 @@ rnaEditr
 scPipe
 ChromSCape
 MPAC
+MOSClip
+MOSim
+msImpute
+pipeComp
+scDD
+VAExprs
+vmrseq
