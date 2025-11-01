@@ -171,7 +171,6 @@
   "BUSseq": [
     "SingleCellExperiment"
   ],
-  "BaalChIP": [],
   "BadRegionFinder": [
     "VariantAnnotation",
     "rtracklayer",
@@ -186,7 +185,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "BasicSTARRseq": [],
   "BatchQC": [
     "scran",
     "sva",
@@ -1163,7 +1161,6 @@
   "HiCDOC": [
     "multiHiCcompare"
   ],
-  "HiCExperiment": [],
   "HiCPotts": [
     "rtracklayer",
     "BSgenome"
@@ -1178,9 +1175,7 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HiContacts": [
-    "HiCExperiment"
-  ],
+  "HiContacts": [],
   "HiLDA": [
     "GenomicFeatures",
     "BSgenome",
@@ -2872,7 +2867,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "breakpointR": [],
   "bsseq": [
     "BSgenome",
     "rtracklayer"
@@ -4247,7 +4241,6 @@
     "TFBSTools",
     "rtracklayer"
   ],
-  "mosaics": [],
   "mosdef": [
     "clusterProfiler",
     "goseq",
@@ -4466,7 +4459,6 @@
     "MultiAssayExperiment",
     "RaggedExperiment"
   ],
-  "omicsViewer": [],
   "ontoProc": [
     "AnnotationHub"
   ],
@@ -4564,7 +4556,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "pgxRpi": [],
   "phantasus": [],
   "phenoTest": [
     "Category",
@@ -4576,7 +4567,6 @@
     "MultiDataSet",
     "ropls"
   ],
-  "phenopath": [],
   "pipeComp": [
     "SingleCellExperiment",
     "scran",
@@ -4587,7 +4577,6 @@
     "BSgenome",
     "rtracklayer"
   ],
-  "planttfhunter": [],
   "plotgardener": [
     "plyranges",
     "rtracklayer"
@@ -4599,8 +4588,6 @@
   "plyranges": [
     "rtracklayer"
   ],
-  "plyxp": [],
-  "pmp": [],
   "podkat": [
     "BSgenome",
     "rtracklayer"
@@ -5420,9 +5407,7 @@
     "tidySingleCellExperiment",
     "SingleCellExperiment"
   ],
-  "tidySummarizedExperiment": [
-    "plyxp"
-  ],
+  "tidySummarizedExperiment": [],
   "tidybulk": [],
   "tidyomics": [
     "tidySummarizedExperiment",
@@ -5431,8 +5416,7 @@
     "plyranges",
     "rtracklayer",
     "SingleCellExperiment",
-    "SpatialExperiment",
-    "plyxp"
+    "SpatialExperiment"
   ],
   "tigre": [],
   "tilingArray": [

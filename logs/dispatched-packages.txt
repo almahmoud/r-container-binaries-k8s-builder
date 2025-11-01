@@ -1297,3 +1297,5 @@ tRanslatome
 terapadog
 vidger
 zitools
+HiContacts
+tidySummarizedExperiment

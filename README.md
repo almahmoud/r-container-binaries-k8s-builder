@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1079 (48%)
+- **Successfully Built:** 1090 (48%)
 - **Failed:** 2 (0%)
-- **In Progress:** 190
-- **Not Started:** 973
+- **In Progress:** 207
+- **Not Started:** 945
 
 **Progress:** 48%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1079)
+## Successfully Built Packages (1090)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1029 more ...*
+*... and 1040 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,21 +83,28 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (190)
+## In Progress (207)
+- ⏳ `Anaquin`
 - ⏳ `AnnotationHub`
-- ⏳ `BaalChIP`
-- ⏳ `BasicSTARRseq`
 - ⏳ `CHRONOS`
 - ⏳ `CrispRVariants`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
+- ⏳ `DEFormats`
+- ⏳ `DEGreport`
+- ⏳ `DEWSeq`
+- ⏳ `DEsubs`
 - ⏳ `DOSE`
+- ⏳ `EBSEA`
 - ⏳ `EGAD`
+- ⏳ `ERSSA`
 - ⏳ `GOexpress`
 - ⏳ `GOfuncR`
 - ⏳ `GSEABase`
 - ⏳ `GeoTcgaData`
-- ⏳ `HiCExperiment`
+- ⏳ `Glimma`
+- ⏳ `HTSFilter`
+- ⏳ `HybridExpress`
 - ⏳ `InterCellar`
 - ⏳ `IsoBayes`
 - ⏳ `KEGGlincs`
@@ -113,6 +120,7 @@
 - ⏳ `MDTS`
 - ⏳ `MGFM`
 - ⏳ `MLP`
+- ⏳ `MLSeq`
 - ⏳ `MODA`
 - ⏳ `MPRAnalyze`
 - ⏳ `MWASTools`
@@ -125,19 +133,11 @@
 - ⏳ `MsFeatures`
 - ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
-- ⏳ `NetSAM`
-- ⏳ `NormalyzerDE`
-- ⏳ `OVESEG`
-- ⏳ `OmaDB`
-- ⏳ `PADOG`
-- ⏳ `PAIRADISE`
-- ⏳ `PICB`
-- ⏳ `PIUMA`
-- ⏳ `PREDA`
+- ⏳ `MultiRNAflow`
 
-... and 140 more ...
+... and 157 more ...
 
-## Not Yet Started (973)
+## Not Yet Started (945)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -155,7 +155,6 @@
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `Anaquin`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
@@ -188,9 +187,10 @@
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
+- ⏸️ `CAGEr`
 
-... and 923 more ...
+... and 895 more ...
 
 ---
-*Last updated: 2025-11-01 01:40:14 UTC*
+*Last updated: 2025-11-01 01:41:58 UTC*
 *Packages with verified BBS status: 116*

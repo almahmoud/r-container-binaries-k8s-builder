@@ -1077,3 +1077,14 @@ csaw
 DESeq2
 oncomix
 pairkat
+BaalChIP
+BasicSTARRseq
+breakpointR
+HiCExperiment
+mosaics
+omicsViewer
+pgxRpi
+phenopath
+planttfhunter
+plyxp
+pmp
