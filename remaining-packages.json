@@ -324,7 +324,6 @@
   ],
   "CaMutQC": [
     "clusterProfiler",
-    "MesKit",
     "enrichplot"
   ],
   "Category": [
@@ -927,7 +926,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "HiTC": [],
   "HicAggR": [],
   "HoloFoodR": [
     "MultiAssayExperiment",
@@ -1162,7 +1160,6 @@
     "TFBSTools",
     "BSgenome"
   ],
-  "MesKit": [],
   "MetaNeighbor": [
     "SingleCellExperiment"
   ],
@@ -3278,7 +3275,6 @@
     "GOstats",
     "genefilter"
   ],
-  "miRNAmeConverter": [],
   "miRNAtap": [],
   "miRSM": [
     "clusterProfiler",

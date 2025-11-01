@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1268 (56%)
+- **Successfully Built:** 1271 (56%)
 - **Failed:** 2 (0%)
-- **In Progress:** 153
-- **Not Started:** 821
+- **In Progress:** 152
+- **Not Started:** 819
 
 **Progress:** 56%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1268)
+## Successfully Built Packages (1271)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1218 more ...*
+*... and 1221 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (153)
+## In Progress (152)
 - ⏳ `BSgenome`
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
@@ -108,13 +108,11 @@
 - ⏳ `Glimma`
 - ⏳ `HTSFilter`
 - ⏳ `HiCDOC`
-- ⏳ `HiTC`
 - ⏳ `HicAggR`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MGFM`
 - ⏳ `MLP`
-- ⏳ `MesKit`
 - ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
 - ⏳ `MicrobiotaProcess`
@@ -134,10 +132,12 @@
 - ⏳ `RTNduals`
 - ⏳ `RaggedExperiment`
 - ⏳ `Rbowtie2`
+- ⏳ `RcisTarget`
+- ⏳ `ReactomeGSA`
 
-... and 103 more ...
+... and 102 more ...
 
-## Not Yet Started (821)
+## Not Yet Started (819)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -189,8 +189,8 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CHETAH`
 
-... and 771 more ...
+... and 769 more ...
 
 ---
-*Last updated: 2025-11-01 02:28:51 UTC*
+*Last updated: 2025-11-01 02:29:48 UTC*
 *Packages with verified BBS status: 127*

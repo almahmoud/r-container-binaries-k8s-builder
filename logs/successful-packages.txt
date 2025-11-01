@@ -1266,3 +1266,6 @@ PAST
 PMScanR
 SCANVIS
 sSNAPPY
+HiTC
+MesKit
+miRNAmeConverter
