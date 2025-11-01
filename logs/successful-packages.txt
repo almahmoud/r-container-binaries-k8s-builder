@@ -898,3 +898,5 @@ sketchR
 chromDraw
 crisprBase
 GeomxTools
+AnnotationFilter
+HiCBricks

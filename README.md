@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 900 (40%)
+- **Successfully Built:** 902 (40%)
 - **Failed:** 1 (0%)
-- **In Progress:** 70
-- **Not Started:** 1273
+- **In Progress:** 71
+- **Not Started:** 1270
 
 **Progress:** 40%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (900)
+## Successfully Built Packages (902)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 850 more ...*
+*... and 852 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,10 +82,9 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (70)
+## In Progress (71)
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
-- ⏳ `AnnotationFilter`
 - ⏳ `BANDITS`
 - ⏳ `BREW3R.r`
 - ⏳ `CONFESS`
@@ -96,7 +95,7 @@
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
-- ⏳ `HiCBricks`
+- ⏳ `GeoDiff`
 - ⏳ `MOFA2`
 - ⏳ `PeacoQC`
 - ⏳ `RCM`
@@ -104,6 +103,8 @@
 - ⏳ `Rsamtools`
 - ⏳ `SIAMCAT`
 - ⏳ `SeqArray`
+- ⏳ `SpatialDecon`
+- ⏳ `SpatialOmicsOverlay`
 - ⏳ `SummarizedExperiment`
 - ⏳ `TDbasedUFE`
 - ⏳ `TnT`
@@ -132,11 +133,10 @@
 - ⏳ `microbiomeDASim`
 - ⏳ `motifTestR`
 - ⏳ `ncRNAtools`
-- ⏳ `oncoscanR`
 
-... and 20 more ...
+... and 21 more ...
 
-## Not Yet Started (1273)
+## Not Yet Started (1270)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +188,8 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 
-... and 1223 more ...
+... and 1220 more ...
 
 ---
-*Last updated: 2025-11-01 00:04:04 UTC*
+*Last updated: 2025-11-01 00:05:02 UTC*
 *Packages with verified BBS status: 107*

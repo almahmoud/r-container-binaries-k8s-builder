@@ -1,3 +1,1 @@
-GeoDiff
-SpatialDecon
-SpatialOmicsOverlay
+CompoundDb
