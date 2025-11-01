@@ -682,3 +682,5 @@ uSORT
 MSstatsBig
 msPurity
 OpenStats
+infinityFlow
+synergyfinder
