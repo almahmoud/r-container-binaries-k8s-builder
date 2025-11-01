@@ -81,7 +81,7 @@ spec:
           cd ~/
           (time Rscript -e "Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
             p <- .libPaths();
-            p <- c('${TEMP_LIBRARY}', '${SHARED_LIBRARY}', p);
+            p <- c('\${TEMP_LIBRARY}', '\${SHARED_LIBRARY}', p);
             .libPaths(p);
             if(BiocManager::install('${PKG}', INSTALL_opts = '--build', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)" 2>&1 ) 2>&1 | tee \${LOGDIR}/${PKG}.log
           
