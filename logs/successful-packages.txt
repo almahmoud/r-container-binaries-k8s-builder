@@ -1402,3 +1402,14 @@ simplifyEnrichment
 nipalsMCIA
 satuRn
 scMET
+BSgenome
+CNEr
+cTRAP
+DifferentialRegulation
+escape
+MultiDataSet
+NBAMSeq
+PECA
+scds
+SIM
+SingleR

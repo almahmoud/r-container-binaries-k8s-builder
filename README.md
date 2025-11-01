@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1404 (62%)
+- **Successfully Built:** 1415 (63%)
 - **Failed:** 2 (0%)
-- **In Progress:** 231
+- **In Progress:** 220
 - **Not Started:** 607
 
-**Progress:** 62%
+**Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1404)
+## Successfully Built Packages (1415)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 
-*... and 1354 more ...*
+*... and 1365 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,14 +83,13 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (231)
+## In Progress (220)
 - ⏳ `ADImpute`
 - ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `ASURAT`
 - ⏳ `AffiXcan`
 - ⏳ `BLMA`
-- ⏳ `BSgenome`
 - ⏳ `BUSseq`
 - ⏳ `BiSeq`
 - ⏳ `BindingSiteFinder`
@@ -98,7 +97,6 @@
 - ⏳ `CDI`
 - ⏳ `CEMiTool`
 - ⏳ `CHETAH`
-- ⏳ `CNEr`
 - ⏳ `CNTools`
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
@@ -122,7 +120,6 @@
 - ⏳ `DNEA`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
-- ⏳ `DifferentialRegulation`
 - ⏳ `EDASeq`
 - ⏳ `EWCE`
 - ⏳ `EasyCellType`
@@ -134,8 +131,11 @@
 - ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Glimma`
+- ⏳ `GloScope`
+- ⏳ `GlobalAncova`
+- ⏳ `Guitar`
 
-... and 181 more ...
+... and 170 more ...
 
 ## Not Yet Started (607)
 - ⏸️ `ADaCGH2`
@@ -192,5 +192,5 @@
 ... and 557 more ...
 
 ---
-*Last updated: 2025-11-01 03:03:39 UTC*
+*Last updated: 2025-11-01 03:05:55 UTC*
 *Packages with verified BBS status: 127*
