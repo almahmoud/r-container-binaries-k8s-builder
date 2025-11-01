@@ -1408,3 +1408,8 @@ vissE
 fastLiquidAssociation
 methInheritSim
 methylInheritance
+CCPROMISE
+multiGSEA
+pogos
+sSNAPPY
+tenXplore

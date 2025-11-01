@@ -1,2 +1,5 @@
-methInheritSim
-methylInheritance
+CCPROMISE
+multiGSEA
+pogos
+sSNAPPY
+tenXplore

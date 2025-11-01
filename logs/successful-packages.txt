@@ -1199,3 +1199,12 @@ methylKit
 MODA
 MPRAnalyze
 systemPipeTools
+AGDEX
+graphite
+KEGGlincs
+ontoProc
+PROMISE
+splineTimeR
+tRanslatome
+wiggleplotr
+zitools

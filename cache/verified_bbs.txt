@@ -5,6 +5,7 @@ ACME
 ADAM
 ADAMgui
 ADAPT
+AGDEX
 AIMS
 ALDEx2
 AMOUNTAIN
@@ -115,7 +116,9 @@ vsn
 weaver
 weitrix
 widgetTools
+wiggleplotr
 wpm
 xmapbridge
 yamss
 zFPKM
+zitools

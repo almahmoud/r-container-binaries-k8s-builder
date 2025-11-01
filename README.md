@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1201 (53%)
+- **Successfully Built:** 1210 (53%)
 - **Failed:** 2 (0%)
-- **In Progress:** 205
-- **Not Started:** 836
+- **In Progress:** 198
+- **Not Started:** 834
 
-**Progress:** 53%
+**Progress:** 54%
 ```
-██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1201)
+## Successfully Built Packages (1210)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,6 +27,7 @@
 | [ADAM](https://bioconductor.org/packages/3.22/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAM) |
 | [ADAMgui](https://bioconductor.org/packages/3.22/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAPT) |
+| [AGDEX](https://bioconductor.org/packages/3.22/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AGDEX) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.22/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ALDEx2) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
@@ -44,14 +45,11 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
-| [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 
-*... and 1151 more ...*
+*... and 1160 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [trio](https://bioconductor.org/packages/3.22/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/trio) |
-| [triplex](https://bioconductor.org/packages/3.22/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.22/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.22/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.22/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/tweeDEseq) |
@@ -71,10 +69,12 @@
 | [weaver](https://bioconductor.org/packages/3.22/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weaver) |
 | [weitrix](https://bioconductor.org/packages/3.22/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.22/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/widgetTools) |
+| [wiggleplotr](https://bioconductor.org/packages/3.22/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.22/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/wpm) |
 | [xmapbridge](https://bioconductor.org/packages/3.22/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.22/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.22/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zFPKM) |
+| [zitools](https://bioconductor.org/packages/3.22/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/zitools) |
 
 ## Failed Packages (2)
 
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (205)
-- ⏳ `AGDEX`
+## In Progress (198)
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
 - ⏳ `BicARE`
@@ -121,7 +120,6 @@
 - ⏳ `HicAggR`
 - ⏳ `IdeoViz`
 - ⏳ `InterCellar`
-- ⏳ `KEGGlincs`
 - ⏳ `LACE`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
@@ -134,10 +132,12 @@
 - ⏳ `MetaboDynamics`
 - ⏳ `MiRaGE`
 - ⏳ `MicrobiotaProcess`
+- ⏳ `MotifDb`
+- ⏳ `MsDataHub`
 
-... and 155 more ...
+... and 148 more ...
 
-## Not Yet Started (836)
+## Not Yet Started (834)
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -189,8 +189,8 @@
 - ⏸️ `CDI`
 - ⏸️ `CEMiTool`
 
-... and 786 more ...
+... and 784 more ...
 
 ---
-*Last updated: 2025-11-01 02:12:47 UTC*
-*Packages with verified BBS status: 121*
+*Last updated: 2025-11-01 02:15:00 UTC*
+*Packages with verified BBS status: 124*

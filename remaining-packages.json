@@ -6,7 +6,6 @@
     "tilingArray",
     "genefilter"
   ],
-  "AGDEX": [],
   "AHMassBank": [
     "AnnotationHubData",
     "GenomicFeatures",
@@ -251,7 +250,6 @@
   ],
   "CBN2Path": [],
   "CBNplot": [
-    "graphite",
     "clusterProfiler",
     "enrichplot",
     "DOSE"
@@ -261,9 +259,7 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "CCPROMISE": [
-    "PROMISE"
-  ],
+  "CCPROMISE": [],
   "CDI": [
     "SingleCellExperiment"
   ],
@@ -559,8 +555,7 @@
     "GenomicFeatures"
   ],
   "DNEA": [
-    "genefilter",
-    "graphite"
+    "genefilter"
   ],
   "DOSE": [],
   "DOtools": [
@@ -702,7 +697,6 @@
     "enrichplot"
   ],
   "EnrichmentBrowser": [
-    "graphite",
     "safe"
   ],
   "EpiCompare": [
@@ -824,7 +818,6 @@
   ],
   "GSEABenchmarkeR": [
     "EnrichmentBrowser",
-    "graphite",
     "safe"
   ],
   "GSRI": [
@@ -1025,7 +1018,6 @@
     "txdbmaker",
     "ensembldb"
   ],
-  "KEGGlincs": [],
   "KnowSeq": [
     "sva",
     "genefilter"
@@ -1132,7 +1124,6 @@
   ],
   "MIRit": [
     "MultiAssayExperiment",
-    "graphite",
     "clusterProfiler",
     "DOSE",
     "enrichplot"
@@ -1149,7 +1140,6 @@
   ],
   "MOSClip": [
     "MultiAssayExperiment",
-    "graphite",
     "qpgraph",
     "GenomicFeatures"
   ],
@@ -1421,7 +1411,6 @@
     "MAST"
   ],
   "PREDA": [],
-  "PROMISE": [],
   "PRONE": [
     "NormalyzerDE",
     "MSnbase",
@@ -1648,8 +1637,7 @@
   "ReactomeGSA": [],
   "ReactomePA": [
     "DOSE",
-    "enrichplot",
-    "graphite"
+    "enrichplot"
   ],
   "ReducedExperiment": [
     "clusterProfiler",
@@ -2322,7 +2310,6 @@
     "RTCGAToolbox",
     "TCGAutils",
     "enrichplot",
-    "graphite",
     "GenomicFeatures"
   ],
   "biocGraph": [
@@ -2473,7 +2460,6 @@
     "scater",
     "scran",
     "scuttle",
-    "wiggleplotr",
     "batchelor",
     "ensembldb",
     "GenomicFeatures"
@@ -2811,7 +2797,6 @@
     "SingleCellExperiment",
     "zenith",
     "EnrichmentBrowser",
-    "graphite",
     "safe"
   ],
   "drugTargetInteractions": [
@@ -3060,7 +3045,6 @@
     "GenomicFeatures",
     "txdbmaker"
   ],
-  "graphite": [],
   "groHMM": [],
   "gwascat": [
     "GenomicFeatures",
@@ -3406,15 +3390,13 @@
     "clusterProfiler",
     "ReactomePA",
     "DOSE",
-    "enrichplot",
-    "graphite"
+    "enrichplot"
   ],
   "miRspongeR": [
     "clusterProfiler",
     "ReactomePA",
     "DOSE",
-    "enrichplot",
-    "graphite"
+    "enrichplot"
   ],
   "mia": [
     "MultiAssayExperiment",
@@ -3494,12 +3476,10 @@
     "clusterProfiler",
     "ReactomePA",
     "DOSE",
-    "enrichplot",
-    "graphite"
+    "enrichplot"
   ],
   "moanin": [],
   "mogsa": [
-    "graphite",
     "genefilter"
   ],
   "monaLisa": [
@@ -3571,9 +3551,7 @@
     "QFeatures",
     "MultiAssayExperiment"
   ],
-  "multiGSEA": [
-    "graphite"
-  ],
+  "multiGSEA": [],
   "multiMiR": [],
   "multiWGCNA": [],
   "multicrispr": [
@@ -3693,7 +3671,6 @@
     "MultiAssayExperiment",
     "RaggedExperiment"
   ],
-  "ontoProc": [],
   "oppar": [
     "GSVA",
     "SingleCellExperiment",
@@ -3809,9 +3786,7 @@
     "SpatialExperiment",
     "SingleCellExperiment"
   ],
-  "pogos": [
-    "ontoProc"
-  ],
+  "pogos": [],
   "pram": [],
   "preciseTAD": [
     "rCGH",
@@ -3979,9 +3954,7 @@
   ],
   "runibic": [],
   "sRACIPE": [],
-  "sSNAPPY": [
-    "graphite"
-  ],
+  "sSNAPPY": [],
   "safe": [],
   "sangeranalyseR": [],
   "saseR": [
@@ -4093,8 +4066,7 @@
     "DOSE",
     "schex",
     "genefilter",
-    "enrichplot",
-    "graphite"
+    "enrichplot"
   ],
   "scTreeViz": [
     "epivizr",
@@ -4376,7 +4348,6 @@
     "SingleCellExperiment",
     "scuttle"
   ],
-  "splineTimeR": [],
   "spoon": [
     "SpatialExperiment",
     "nnSVG",
@@ -4456,7 +4427,6 @@
   "tRNAscanImport": [
     "BSgenome"
   ],
-  "tRanslatome": [],
   "tadar": [
     "Gviz",
     "VariantAnnotation",
@@ -4465,9 +4435,7 @@
     "BSgenome",
     "biovizBase"
   ],
-  "tenXplore": [
-    "ontoProc"
-  ],
+  "tenXplore": [],
   "terraTCGAdata": [
     "MultiAssayExperiment",
     "RaggedExperiment",
@@ -4621,7 +4589,6 @@
     "GenomicFeatures"
   ],
   "webbioc": [],
-  "wiggleplotr": [],
   "xCell2": [
     "SingleCellExperiment",
     "singscore"
@@ -4654,12 +4621,10 @@
   ],
   "zenith": [
     "EnrichmentBrowser",
-    "graphite",
     "safe"
   ],
   "zinbwave": [
     "SingleCellExperiment",
     "genefilter"
-  ],
-  "zitools": []
+  ]
 }
