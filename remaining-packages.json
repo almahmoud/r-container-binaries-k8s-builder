@@ -949,7 +949,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "CompoundDb": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -2558,7 +2557,6 @@
     "SummarizedExperiment",
     "QFeatures",
     "AnnotationHub",
-    "CompoundDb",
     "AnnotationDbi",
     "MultiAssayExperiment"
   ],
@@ -3974,7 +3972,6 @@
     "SummarizedExperiment",
     "scuttle"
   ],
-  "SpatialOmicsOverlay": [],
   "SpectralTAD": [
     "HiCcompare",
     "InteractionSet",
@@ -8091,7 +8088,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "rhinotypeR": [],
   "riboSeqR": [
     "Rsamtools"
   ],

@@ -936,3 +936,6 @@ GenomicDataCommons
 loci2path
 oncoscanR
 SpatialDecon
+CompoundDb
+rhinotypeR
+SpatialOmicsOverlay
