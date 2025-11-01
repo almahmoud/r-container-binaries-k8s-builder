@@ -58,7 +58,6 @@
     "SpatialExperiment"
   ],
   "BatchSVG": [],
-  "BindingSiteFinder": [],
   "BioNERO": [],
   "BulkSignalR": [
     "SpatialExperiment"
@@ -168,7 +167,6 @@
     "VariantAnnotation",
     "biovizBase"
   ],
-  "Coralysis": [],
   "DAMEfinder": [
     "VariantAnnotation"
   ],
@@ -189,7 +187,6 @@
   "DESpace": [
     "SpatialExperiment"
   ],
-  "DExMA": [],
   "DMRcate": [
     "bsseq",
     "missMethyl",
