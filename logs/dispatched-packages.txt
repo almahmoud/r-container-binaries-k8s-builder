@@ -1808,3 +1808,5 @@ coMethDMR
 minfi
 rnaEditr
 vmrseq
+RiboCrypt
+TFHAZ

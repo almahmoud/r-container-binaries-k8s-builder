@@ -560,7 +560,6 @@
     "methylumi",
     "minfi"
   ],
-  "MinimumDistance": [],
   "MoleculeExperiment": [
     "SpatialExperiment"
   ],
@@ -614,7 +613,6 @@
     "VariantAnnotation"
   ],
   "ORFhunteR": [],
-  "ORFik": [],
   "OUTRIDER": [],
   "Organism.dplyr": [],
   "OrganismDbi": [],
@@ -766,9 +764,7 @@
   "Rhisat2": [
     "SGSeq"
   ],
-  "RiboCrypt": [
-    "ORFik"
-  ],
+  "RiboCrypt": [],
   "RiboProfiling": [
     "ggbio",
     "biovizBase",
@@ -911,9 +907,7 @@
   "TENxIO": [],
   "TFBSTools": [],
   "TFEA.ChIP": [],
-  "TFHAZ": [
-    "ORFik"
-  ],
+  "TFHAZ": [],
   "TFutils": [
     "GenomicFiles",
     "VariantAnnotation"
