@@ -1399,3 +1399,6 @@ scmap
 scReClassify
 sccomp
 simplifyEnrichment
+nipalsMCIA
+satuRn
+scMET

@@ -705,7 +705,6 @@
   ],
   "IsoformSwitchAnalyzeR": [
     "DEXSeq",
-    "satuRn",
     "sva",
     "BSgenome",
     "tximeta",
@@ -2505,7 +2504,6 @@
     "mbkmeans",
     "scuttle"
   ],
-  "nipalsMCIA": [],
   "nnSVG": [
     "SpatialExperiment"
   ],
@@ -2746,7 +2744,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "satuRn": [],
   "scAnnotatR": [],
   "scBFA": [
     "zinbwave"
@@ -2778,7 +2775,6 @@
   "scGPS": [],
   "scGraphVerse": [],
   "scHOT": [],
-  "scMET": [],
   "scMerge": [
     "M3Drop",
     "scater",
