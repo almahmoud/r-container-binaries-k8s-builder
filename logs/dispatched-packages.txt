@@ -1917,3 +1917,6 @@ attract
 categoryCompare
 miRLAB
 scTensor
+SMITE
+mosdef
+rgsepd

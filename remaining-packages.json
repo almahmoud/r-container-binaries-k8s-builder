@@ -99,7 +99,6 @@
   "ChAMP": [
     "DMRcate",
     "wateRmelon",
-    "goseq",
     "missMethyl",
     "Gviz",
     "lumi",
@@ -152,7 +151,6 @@
   "DSS": [],
   "Damsel": [
     "ggbio",
-    "goseq",
     "biovizBase",
     "OrganismDbi"
   ],
@@ -277,7 +275,6 @@
   "Ibex": [
     "scRepertoire"
   ],
-  "InPAS": [],
   "IntEREst": [
     "GenomicFiles"
   ],
@@ -528,9 +525,7 @@
     "SpatialExperiment"
   ],
   "SGSeq": [],
-  "SMITE": [
-    "goseq"
-  ],
+  "SMITE": [],
   "SNPhood": [],
   "SOMNiBUS": [
     "annotatr",
@@ -952,7 +947,6 @@
   ],
   "gmapR": [],
   "gmoviz": [],
-  "goseq": [],
   "gwascat": [],
   "gwasurvivr": [],
   "hdxmsqc": [
@@ -999,8 +993,7 @@
   ],
   "icetea": [],
   "ideal": [
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "igvR": [],
   "imcRtools": [
@@ -1119,9 +1112,7 @@
     "deepSNV"
   ],
   "monaLisa": [],
-  "mosdef": [
-    "goseq"
-  ],
+  "mosdef": [],
   "motifStack": [],
   "motifbreakR": [
     "motifStack",
@@ -1211,8 +1202,7 @@
     "SpatialExperiment"
   ],
   "pcaExplorer": [
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "peakPantheR": [
     "MSnbase",
@@ -1263,9 +1253,7 @@
     "Gviz",
     "biovizBase"
   ],
-  "rgsepd": [
-    "goseq"
-  ],
+  "rgsepd": [],
   "ribosomeProfilingQC": [
     "motifStack"
   ],
@@ -1312,7 +1300,6 @@
     "biovizBase",
     "OrganismDbi"
   ],
-  "segmenter": [],
   "seqCAT": [],
   "shinyDSP": [
     "standR",
