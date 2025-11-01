@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2189 (97%)
+- **Successfully Built:** 2198 (97%)
 - **Failed:** 2 (0%)
-- **In Progress:** 38
+- **In Progress:** 29
 - **Not Started:** 15
 
-**Progress:** 97%
+**Progress:** 98%
 ```
-████████████████████████████████████████████████░░
+█████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2189)
+## Successfully Built Packages (2198)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.22/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.22/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.22/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AGDEX) |
+| [AHMassBank](https://bioconductor.org/packages/3.22/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.22/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.22/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASICS](https://bioconductor.org/packages/3.22/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.22/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
-| [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2139 more ...*
+*... and 2148 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,17 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (38)
-- ⏳ `AHMassBank`
-- ⏳ `BOBaFIT`
-- ⏳ `CAFE`
+## In Progress (29)
 - ⏳ `CAMERA`
 - ⏳ `ChAMP`
 - ⏳ `Damsel`
-- ⏳ `ExperimentHubData`
 - ⏳ `FLAMES`
-- ⏳ `GNOSIS`
-- ⏳ `GenomicOZone`
 - ⏳ `Prostar`
 - ⏳ `R3CPET`
 - ⏳ `ReportingTools`
@@ -103,7 +97,6 @@
 - ⏳ `bioCancer`
 - ⏳ `cageminer`
 - ⏳ `canceR`
-- ⏳ `cbaf`
 - ⏳ `cliqueMS`
 - ⏳ `cosmiq`
 - ⏳ `crisprShiny`
@@ -111,8 +104,6 @@
 - ⏳ `derfinderPlot`
 - ⏳ `epivizr`
 - ⏳ `epivizrChart`
-- ⏳ `intansv`
-- ⏳ `lisaClust`
 - ⏳ `msgbsR`
 - ⏳ `msmsTests`
 - ⏳ `ncGTW`
@@ -141,5 +132,5 @@
 - ⏸️ `scTreeViz`
 
 ---
-*Last updated: 2025-11-01 08:30:51 UTC*
-*Packages with verified BBS status: 151*
+*Last updated: 2025-11-01 08:46:06 UTC*
+*Packages with verified BBS status: 152*

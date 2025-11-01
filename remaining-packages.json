@@ -1,18 +1,12 @@
 {
-  "AHMassBank": [],
   "AgiMicroRna": [
     "affycoretools",
     "ReportingTools"
   ],
-  "BOBaFIT": [],
-  "CAFE": [],
   "CAMERA": [],
   "ChAMP": [],
   "Damsel": [],
-  "ExperimentHubData": [],
   "FLAMES": [],
-  "GNOSIS": [],
-  "GenomicOZone": [],
   "IPO": [
     "CAMERA"
   ],
@@ -47,7 +41,6 @@
   "bioCancer": [],
   "cageminer": [],
   "canceR": [],
-  "cbaf": [],
   "cliqueMS": [],
   "cosmiq": [],
   "crisprShiny": [],
@@ -61,14 +54,10 @@
   "flagme": [
     "CAMERA"
   ],
-  "intansv": [],
-  "lisaClust": [],
   "metaMS": [
     "CAMERA"
   ],
-  "methylclock": [
-    "ExperimentHubData"
-  ],
+  "methylclock": [],
   "msgbsR": [],
   "msmsTests": [],
   "ncGTW": [],
