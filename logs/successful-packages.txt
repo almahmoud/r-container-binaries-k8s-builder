@@ -2006,3 +2006,4 @@ GENESIS
 OrganismDbi
 srnadiff
 hdxmsqc
+iSEEpathways
