@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mslp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'mslp'
+Warning: dependency ‘AnnotationDbi’ is not available
+also installing the dependencies ‘rngtools’, ‘doRNG’, ‘fmsb’, ‘org.Hs.eg.db’, ‘pROC’, ‘doFuture’
+
+trying URL 'https://cloud.r-project.org/src/contrib/rngtools_1.5.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/doRNG_1.8.6.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/fmsb_0.7.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/org.Hs.eg.db_3.22.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pROC_1.19.0.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/doFuture_1.1.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mslp_1.13.0.tar.gz'
+* installing *source* package ‘rngtools’ ...
+** this is package ‘rngtools’ version ‘1.5.2’
+** package ‘rngtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rngtools’ as ‘rngtools_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rngtools)
+* installing *source* package ‘fmsb’ ...
+** this is package ‘fmsb’ version ‘0.7.6’
+** package ‘fmsb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fmsb’ as ‘fmsb_0.7.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fmsb)
+ERROR: dependency ‘AnnotationDbi’ is not available for package ‘org.Hs.eg.db’
+Perhaps try a variation of:
+install.packages('AnnotationDbi')
+* removing ‘/tmp/library/org.Hs.eg.db’

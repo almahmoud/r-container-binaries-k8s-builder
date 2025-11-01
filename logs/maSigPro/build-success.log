@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''maSigPro'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'maSigPro'
+also installing the dependencies ‘admisc’, ‘venn’
+
+trying URL 'https://cloud.r-project.org/src/contrib/admisc_0.38.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/venn_1.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/maSigPro_1.83.0.tar.gz'
+* installing *source* package ‘admisc’ ...
+** this is package ‘admisc’ version ‘0.38’
+** package ‘admisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c admisc.c -o admisc.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o admisc.so admisc.o registerDynamicSymbol.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-admisc/00new/admisc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘admisc’ as ‘admisc_0.38_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (admisc)
+* installing *source* package ‘venn’ ...
+** this is package ‘venn’ version ‘1.12’
+** package ‘venn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘venn’ as ‘venn_1.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (venn)
+* installing *source* package ‘maSigPro’ ...
+** this is package ‘maSigPro’ version ‘1.83.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘maSigPro’ as ‘maSigPro_1.83.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maSigPro)
+
+The downloaded source packages are in
+	‘/tmp/RtmpitQZgA/downloaded_packages’
+Old packages: 'promises'
+
+real	0m13.083s
+user	0m10.326s
+sys	0m3.478s

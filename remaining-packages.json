@@ -1,13 +1,8 @@
 {
-  "ABarray": [
-    "multtest"
-  ],
-  "ACME": [],
-  "ANF": [],
+  "ABarray": [],
   "AWFisher": [
     "edgeR"
   ],
-  "AlphaBeta": [],
   "AlphaMissenseR": [],
   "AlpsNMR": [
     "mixOmics"
@@ -17,13 +12,10 @@
   "BAGS": [],
   "BayesKnockdown": [],
   "BioMVCClass": [
-    "graph",
     "Rgraphviz"
   ],
   "BiocBook": [],
-  "BiocFHIR": [
-    "graph"
-  ],
+  "BiocFHIR": [],
   "BiocHail": [
     "basilisk"
   ],
@@ -32,26 +24,18 @@
   ],
   "BiocNeighbors": [],
   "BrowserViz": [],
-  "CGHbase": [],
-  "CGHcall": [
-    "CGHbase"
-  ],
+  "CGHcall": [],
   "CGHnormaliter": [
-    "CGHcall",
-    "CGHbase"
+    "CGHcall"
   ],
-  "CGHregions": [
-    "CGHbase"
-  ],
+  "CGHregions": [],
   "CMA": [],
   "CNORdt": [
     "CellNOptR",
     "RBGL",
-    "graph",
     "Rgraphviz"
   ],
   "CNORfeeder": [
-    "graph",
     "CellNOptR",
     "RBGL",
     "Rgraphviz"
@@ -59,13 +43,11 @@
   "CNORfuzzy": [
     "CellNOptR",
     "RBGL",
-    "graph",
     "Rgraphviz"
   ],
   "CNORode": [
     "CellNOptR",
     "RBGL",
-    "graph",
     "Rgraphviz"
   ],
   "COMPASS": [],
@@ -76,15 +58,13 @@
     "flowMeans",
     "flowMerge",
     "flowPeaks",
-    "graph",
     "cytolib",
     "S4Vectors",
     "Rgraphviz"
   ],
   "CRImage": [
     "EBImage",
-    "aCGH",
-    "multtest"
+    "aCGH"
   ],
   "CTDquerier": [
     "S4Vectors"
@@ -106,7 +86,6 @@
   ],
   "CellNOptR": [
     "RBGL",
-    "graph",
     "Rgraphviz"
   ],
   "ChemmineOB": [],
@@ -142,8 +121,7 @@
   ],
   "EnrichDO": [
     "Rgraphviz",
-    "S4Vectors",
-    "graph"
+    "S4Vectors"
   ],
   "ExploreModelMatrix": [
     "S4Vectors"
@@ -179,28 +157,18 @@
   ],
   "GeneExpressionSignature": [],
   "GeneNetworkBuilder": [
-    "graph",
     "Rgraphviz",
     "RCy3"
   ],
   "GeneSelectMMD": [],
-  "GraphAT": [
-    "graph"
-  ],
+  "GraphAT": [],
   "HDTD": [],
   "HELP": [],
   "HEM": [],
   "HGC": [],
   "HIBAG": [],
-  "HIREewas": [],
-  "HMMcopy": [],
-  "HPAanalyze": [],
   "HVP": [],
-  "Herper": [],
-  "HilbertVis": [],
-  "HilbertVisGUI": [
-    "HilbertVis"
-  ],
+  "HilbertVisGUI": [],
   "HybridMTest": [],
   "IHW": [],
   "IMPCdata": [],
@@ -209,12 +177,10 @@
   "ISAnalytics": [],
   "KBoost": [],
   "KCsmart": [
-    "siggenes",
-    "multtest"
+    "siggenes"
   ],
   "LEA": [],
   "LedPred": [],
-  "Linnorm": [],
   "MACSQuantifyR": [],
   "MBAmethyl": [],
   "MBttest": [],
@@ -222,13 +188,11 @@
     "CNORode",
     "CellNOptR",
     "RBGL",
-    "graph",
     "Rgraphviz"
   ],
   "MODA": [],
   "MOGAMUN": [
-    "RCy3",
-    "graph"
+    "RCy3"
   ],
   "MSstats": [
     "MSstatsConvert"
@@ -240,8 +204,7 @@
   "MSstatsBioNet": [
     "MSstats",
     "RCy3",
-    "MSstatsConvert",
-    "graph"
+    "MSstatsConvert"
   ],
   "MSstatsConvert": [],
   "MSstatsResponse": [],
@@ -264,8 +227,6 @@
     "MsCoreUtils",
     "S4Vectors"
   ],
-  "MethPed": [],
-  "MiChip": [],
   "MiPP": [],
   "ModCon": [],
   "MsCoreUtils": [
@@ -279,23 +240,17 @@
     "ReadqPCR"
   ],
   "NuPoP": [],
-  "OCplus": [
-    "multtest"
-  ],
+  "OCplus": [],
   "OPWeight": [],
   "OSAT": [],
   "Omixer": [],
   "OncoSimulR": [
-    "graph",
     "Rgraphviz"
   ],
   "OpenStats": [],
-  "OrderedList": [
-    "twilight"
-  ],
+  "OrderedList": [],
   "Oscope": [],
   "PANR": [],
-  "PLPE": [],
   "PROPER": [
     "edgeR"
   ],
@@ -315,27 +270,19 @@
   "QUBIC": [],
   "QuaternaryProd": [],
   "RAREsim": [],
-  "RBGL": [
-    "graph"
-  ],
+  "RBGL": [],
   "RBioFormats": [
     "EBImage",
     "S4Vectors"
   ],
   "RCASPAR": [],
   "RCX": [],
-  "RCy3": [
-    "graph"
-  ],
+  "RCy3": [],
   "RCyjs": [
-    "BrowserViz",
-    "graph"
+    "BrowserViz"
   ],
   "REBET": [],
-  "RGSEA": [],
-  "RGraph2js": [
-    "graph"
-  ],
+  "RGraph2js": [],
   "RIVER": [],
   "RImmPort": [],
   "RLMM": [],
@@ -347,16 +294,10 @@
   ],
   "ROTS": [],
   "RSeqAn": [],
-  "RTCA": [],
   "RTCGA": [],
-  "RTopper": [
-    "multtest"
-  ],
-  "RUVnormalize": [],
+  "RTopper": [],
   "RVS": [],
-  "RbcBook1": [
-    "graph"
-  ],
+  "RbcBook1": [],
   "Rcwl": [
     "S4Vectors",
     "basilisk"
@@ -374,9 +315,7 @@
   ],
   "ReadqPCR": [],
   "RedisParam": [],
-  "Rgraphviz": [
-    "graph"
-  ],
+  "Rgraphviz": [],
   "Rigraphlib": [
     "biocmake"
   ],
@@ -403,10 +342,7 @@
   "SNPRelate": [
     "gdsfmt"
   ],
-  "SPEM": [],
-  "SRAdb": [
-    "graph"
-  ],
+  "SRAdb": [],
   "SUITOR": [],
   "Sconify": [
     "flowCore",
@@ -415,19 +351,15 @@
   ],
   "SharedObject": [],
   "SpaceMarkers": [],
-  "SpeCond": [],
   "SuperCellCyto": [],
   "TIN": [],
-  "TMixClust": [
-    "SPEM"
-  ],
+  "TMixClust": [],
   "TPP": [
     "biobroom"
   ],
   "TPP2D": [],
   "TRONCO": [
-    "Rgraphviz",
-    "graph"
+    "Rgraphviz"
   ],
   "TSAR": [],
   "TargetDecoy": [
@@ -440,37 +372,26 @@
   "UCSC.utils": [
     "S4Vectors"
   ],
-  "UNDO": [],
   "VERSO": [],
   "Wrench": [],
   "XINA": [],
   "a4Core": [],
-  "aCGH": [
-    "multtest"
-  ],
+  "aCGH": [],
   "abseqR": [],
   "acde": [],
-  "affycomp": [],
   "alabaster.base": [
     "S4Vectors",
     "rhdf5",
     "rhdf5filters"
   ],
-  "alevinQC": [
-    "tximport"
-  ],
+  "alevinQC": [],
   "anndataR": [],
-  "annotationTools": [],
-  "anota": [
-    "multtest"
-  ],
+  "anota": [],
   "bacon": [],
   "basilisk": [],
   "basilisk.utils": [],
-  "bioDist": [],
   "biobroom": [],
   "biocViews": [
-    "graph",
     "RBGL"
   ],
   "biocmake": [],
@@ -483,19 +404,15 @@
     "BiocNeighbors"
   ],
   "brendaDb": [],
-  "bugsigdbr": [],
-  "cancerclass": [],
   "cbpManager": [
     "basilisk"
   ],
-  "ceRNAnetsim": [],
   "cellmig": [
     "ggtree"
   ],
   "cellmigRation": [],
   "clevRvis": [],
   "clippda": [],
-  "clstutils": [],
   "clusterStab": [],
   "coGPS": [],
   "cogena": [],
@@ -504,7 +421,6 @@
     "edgeR"
   ],
   "consensus": [],
-  "convert": [],
   "copa": [],
   "covEB": [],
   "cqn": [],
@@ -513,7 +429,6 @@
     "flowCore",
     "flowDensity",
     "flowClust",
-    "graph",
     "cytolib",
     "S4Vectors",
     "flowViz"
@@ -526,7 +441,6 @@
   "cytolib": [],
   "daMA": [],
   "dcanr": [],
-  "ddCt": [],
   "ddPCRclust": [
     "flowCore",
     "flowDensity",
@@ -540,9 +454,7 @@
   "densvis": [
     "basilisk"
   ],
-  "diggit": [
-    "viper"
-  ],
+  "diggit": [],
   "discordant": [],
   "dks": [],
   "dupRadar": [
@@ -558,16 +470,13 @@
   "fCI": [],
   "fabia": [],
   "factDesign": [],
-  "faers": [],
   "fastreeR": [],
   "fdrame": [],
   "fedup": [
-    "RCy3",
-    "graph"
+    "RCy3"
   ],
   "fgga": [
-    "RBGL",
-    "graph"
+    "RBGL"
   ],
   "flowAI": [
     "flowCore",
@@ -598,7 +507,6 @@
     "S4Vectors"
   ],
   "flowClust": [
-    "graph",
     "flowCore",
     "cytolib",
     "S4Vectors"
@@ -637,7 +545,6 @@
     "S4Vectors"
   ],
   "flowMerge": [
-    "graph",
     "flowClust",
     "Rgraphviz",
     "flowCore",
@@ -665,7 +572,6 @@
     "flowCore",
     "flowViz",
     "flowClust",
-    "graph",
     "cytolib",
     "S4Vectors"
   ],
@@ -681,7 +587,6 @@
     "EBarrays"
   ],
   "garfield": [],
-  "gcatest": [],
   "gdsfmt": [],
   "geNetClassifier": [
     "EBarrays"
@@ -700,7 +605,6 @@
   "ggtreeSpace": [
     "ggtree"
   ],
-  "graph": [],
   "hapFabia": [
     "fabia"
   ],
@@ -709,13 +613,10 @@
   ],
   "hopach": [],
   "hyperdraw": [
-    "graph",
     "hypergraph",
     "Rgraphviz"
   ],
-  "hypergraph": [
-    "graph"
-  ],
+  "hypergraph": [],
   "iASeq": [],
   "iBMQ": [],
   "iCOBRA": [],
@@ -742,9 +643,7 @@
   "limmaGUI": [],
   "limpa": [],
   "logicFS": [],
-  "maSigPro": [],
   "martini": [],
-  "massiR": [],
   "matter": [
     "ProtGenerics"
   ],
@@ -757,26 +656,19 @@
     "S4Vectors"
   ],
   "metabinR": [],
-  "metabomxtr": [
-    "multtest"
-  ],
+  "metabomxtr": [],
   "metahdep": [],
   "metapod": [],
   "methylMnM": [
     "edgeR"
   ],
-  "miRcomp": [],
-  "mina": [],
   "mistyR": [],
   "mixOmics": [],
   "mnem": [
-    "graph",
-    "Rgraphviz",
-    "Linnorm"
+    "Rgraphviz"
   ],
   "monocle": [
     "biocViews",
-    "graph",
     "RBGL"
   ],
   "mosbi": [
@@ -788,8 +680,6 @@
     "ProtGenerics"
   ],
   "mslp": [],
-  "multiscan": [],
-  "multtest": [],
   "mzID": [
     "ProtGenerics"
   ],
@@ -805,17 +695,11 @@
     "RCX"
   ],
   "netboost": [],
-  "nethet": [
-    "multtest",
-    "graph"
-  ],
+  "nethet": [],
   "netresponse": [
-    "Rgraphviz",
-    "graph"
+    "Rgraphviz"
   ],
   "normalize450K": [],
-  "ompBAM": [],
-  "onlineFDR": [],
   "optimalFlow": [
     "flowMeans",
     "flowCore",
@@ -823,14 +707,11 @@
     "S4Vectors"
   ],
   "paircompviz": [
-    "Rgraphviz",
-    "graph"
+    "Rgraphviz"
   ],
   "pandaR": [],
-  "parody": [],
   "pathifier": [],
   "pathwayPCA": [],
-  "pcaMethods": [],
   "pengls": [],
   "pepXMLTab": [],
   "pfamAnalyzeR": [],
@@ -841,7 +722,6 @@
   "phosphonormalizer": [],
   "planet": [],
   "plasmut": [],
-  "plgem": [],
   "ppcseq": [
     "edgeR"
   ],
@@ -851,21 +731,15 @@
   "qcmetrics": [
     "S4Vectors"
   ],
-  "qusage": [],
-  "rain": [
-    "multtest"
-  ],
-  "randPack": [],
+  "rain": [],
   "rawDiag": [
     "rawrr"
   ],
   "rawrr": [],
-  "rbsurv": [],
   "rcellminer": [],
   "retrofit": [],
   "rexposome": [
-    "S4Vectors",
-    "pcaMethods"
+    "S4Vectors"
   ],
   "rgoslin": [],
   "rhdf5": [
@@ -879,10 +753,7 @@
   ],
   "rmelting": [],
   "rnaseqcomp": [],
-  "rqubic": [],
-  "rsbml": [
-    "graph"
-  ],
+  "rsbml": [],
   "rsemmed": [],
   "scBubbletree": [
     "ggtree"
@@ -897,8 +768,7 @@
   "scShapes": [],
   "scTHI": [],
   "scde": [
-    "edgeR",
-    "pcaMethods"
+    "edgeR"
   ],
   "seahtrue": [],
   "semisup": [],
@@ -907,12 +777,8 @@
     "S4Vectors"
   ],
   "shinybiocloader": [],
-  "siggenes": [
-    "multtest"
-  ],
+  "siggenes": [],
   "sights": [],
-  "sigsquared": [],
-  "sincell": [],
   "sitePath": [
     "ggtree"
   ],
@@ -921,9 +787,7 @@
     "basilisk"
   ],
   "sparseMatrixStats": [],
-  "spkTools": [],
   "splots": [],
-  "subSeq": [],
   "synapsis": [
     "EBImage"
   ],
@@ -941,32 +805,25 @@
   "timeOmics": [
     "mixOmics"
   ],
-  "timecourse": [],
   "timescape": [],
-  "tomoseqr": [],
   "trio": [
-    "siggenes",
-    "multtest"
+    "siggenes"
   ],
   "ttgsea": [],
   "tweeDEseq": [
     "edgeR",
     "cqn"
   ],
-  "twilight": [],
   "twoddpcr": [
     "S4Vectors"
   ],
-  "tximport": [],
   "uSORT": [
     "monocle",
     "biocViews",
-    "graph",
     "RBGL"
   ],
   "updateObject": [
     "S4Vectors"
   ],
-  "variancePartition": [],
-  "viper": []
+  "variancePartition": []
 }
