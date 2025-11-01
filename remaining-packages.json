@@ -64,7 +64,6 @@
   "GenomicOZone": [
     "ggbio"
   ],
-  "HiCDCPlus": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -272,7 +271,6 @@
   "ggbio": [],
   "ggspavis": [],
   "glmSparseNet": [],
-  "hoodscanR": [],
   "iSEEfier": [
     "iSEEu"
   ],
