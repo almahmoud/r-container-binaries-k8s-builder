@@ -900,3 +900,7 @@ crisprBase
 GeomxTools
 AnnotationFilter
 HiCBricks
+BREW3R.r
+CSAR
+fastseg
+GenomicTuples

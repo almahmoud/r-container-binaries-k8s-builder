@@ -249,7 +249,6 @@
     "ensembldb",
     "AnnotationDbi"
   ],
-  "BREW3R.r": [],
   "BSgenome": [
     "rtracklayer",
     "Rsamtools",
@@ -661,7 +660,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "CSAR": [],
   "CSOA": [
     "SummarizedExperiment"
   ],
@@ -1916,7 +1914,6 @@
   "GenomicSuperSignature": [
     "SummarizedExperiment"
   ],
-  "GenomicTuples": [],
   "GeoDiff": [],
   "GeoTcgaData": [
     "SummarizedExperiment"
@@ -5664,7 +5661,6 @@
     "methylKit",
     "minfi",
     "Rsamtools",
-    "fastseg",
     "rtracklayer",
     "SummarizedExperiment",
     "bumphunter",
@@ -6076,7 +6072,6 @@
     "LiquidAssociation",
     "AnnotationDbi"
   ],
-  "fastseg": [],
   "fcScan": [
     "VariantAnnotation",
     "SummarizedExperiment",
@@ -6907,7 +6902,6 @@
   "methInheritSim": [
     "methylKit",
     "Rsamtools",
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
@@ -6974,14 +6968,12 @@
   "methylInheritance": [
     "methylKit",
     "Rsamtools",
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
   "methylKit": [
     "Rsamtools",
-    "fastseg",
     "rtracklayer",
     "GenomicAlignments",
     "SummarizedExperiment"
