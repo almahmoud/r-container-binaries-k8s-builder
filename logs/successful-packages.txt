@@ -1757,3 +1757,5 @@ yarn
 goseq
 InPAS
 segmenter
+G4SNVHunter
+methrix
