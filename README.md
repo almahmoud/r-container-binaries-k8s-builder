@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 944 (42%)
 - **Failed:** 1 (0%)
-- **In Progress:** 30
-- **Not Started:** 1269
+- **In Progress:** 31
+- **Not Started:** 1268
 
 **Progress:** 42%
 ```
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (30)
+## In Progress (31)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CONFESS`
@@ -112,9 +112,10 @@
 - ⏳ `scrapper`
 - ⏳ `seqPattern`
 - ⏳ `syntenet`
+- ⏳ `tRNAdbImport`
 - ⏳ `transite`
 
-## Not Yet Started (1269)
+## Not Yet Started (1268)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -166,8 +167,8 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 
-... and 1219 more ...
+... and 1218 more ...
 
 ---
-*Last updated: 2025-11-01 00:10:47 UTC*
+*Last updated: 2025-11-01 00:11:18 UTC*
 *Packages with verified BBS status: 109*
