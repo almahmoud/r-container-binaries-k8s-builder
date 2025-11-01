@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 2241 (99%)
 - **Failed:** 2 (0%)
-- **In Progress:** 0
-- **Not Started:** 1
+- **In Progress:** 1
+- **Not Started:** 0
 
 **Progress:** 99%
 ```
@@ -83,9 +83,9 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## Not Yet Started (1)
-- ⏸️ `AgiMicroRna`
+## In Progress (1)
+- ⏳ `AgiMicroRna`
 
 ---
-*Last updated: 2025-11-01 09:40:37 UTC*
+*Last updated: 2025-11-01 09:41:25 UTC*
 *Packages with verified BBS status: 152*
