@@ -1190,3 +1190,12 @@ mobileRNA
 mutscan
 normr
 terapadog
+flowVS
+MAI
+MBASED
+MBQN
+MeSHDbi
+methylKit
+MODA
+MPRAnalyze
+systemPipeTools

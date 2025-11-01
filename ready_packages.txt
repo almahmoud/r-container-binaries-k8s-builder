@@ -1,1 +1,2 @@
-fastLiquidAssociation
+methInheritSim
+methylInheritance

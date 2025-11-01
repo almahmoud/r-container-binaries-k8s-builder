@@ -1067,7 +1067,6 @@
     "GenomicFeatures",
     "bumphunter"
   ],
-  "MAI": [],
   "MAIT": [
     "CAMERA",
     "xcms",
@@ -1081,12 +1080,10 @@
   "MAST": [
     "SingleCellExperiment"
   ],
-  "MBASED": [],
   "MBECS": [
     "sva",
     "genefilter"
   ],
-  "MBQN": [],
   "MCbiclust": [],
   "MEAL": [
     "MultiDataSet",
@@ -1147,7 +1144,6 @@
   "MMDiff2": [
     "BSgenome"
   ],
-  "MODA": [],
   "MOMA": [
     "MultiAssayExperiment"
   ],
@@ -1167,7 +1163,6 @@
     "scran",
     "scuttle"
   ],
-  "MPRAnalyze": [],
   "MSPrep": [
     "sva",
     "genefilter"
@@ -1207,7 +1202,6 @@
     "TFBSTools",
     "BSgenome"
   ],
-  "MeSHDbi": [],
   "MesKit": [],
   "MetNet": [],
   "MetaNeighbor": [
@@ -2743,7 +2737,6 @@
     "scuttle"
   ],
   "deconvR": [
-    "methylKit",
     "minfi",
     "bumphunter",
     "genefilter",
@@ -2964,7 +2957,6 @@
     "PSMatch",
     "MultiAssayExperiment"
   ],
-  "flowVS": [],
   "frma": [
     "oligo",
     "oligoClasses"
@@ -3313,11 +3305,9 @@
   ],
   "meshes": [
     "DOSE",
-    "enrichplot",
-    "MeSHDbi"
+    "enrichplot"
   ],
   "meshr": [
-    "MeSHDbi",
     "Category",
     "genefilter"
   ],
@@ -3340,9 +3330,7 @@
     "bsseq",
     "BSgenome"
   ],
-  "methInheritSim": [
-    "methylKit"
-  ],
+  "methInheritSim": [],
   "methodical": [
     "annotatr",
     "BSgenome",
@@ -3373,10 +3361,7 @@
     "GenomicFeatures",
     "bumphunter"
   ],
-  "methylInheritance": [
-    "methylKit"
-  ],
-  "methylKit": [],
+  "methylInheritance": [],
   "methylPipe": [
     "Gviz",
     "GenomicFeatures",
@@ -4101,7 +4086,6 @@
   ],
   "scTensor": [
     "SingleCellExperiment",
-    "MeSHDbi",
     "Category",
     "meshr",
     "GOstats",
@@ -4464,7 +4448,6 @@
   "switchde": [
     "SingleCellExperiment"
   ],
-  "systemPipeTools": [],
   "tLOH": [
     "VariantAnnotation",
     "BSgenome",

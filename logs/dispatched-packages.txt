@@ -1406,3 +1406,5 @@ sparrow
 splineTimeR
 vissE
 fastLiquidAssociation
+methInheritSim
+methylInheritance
