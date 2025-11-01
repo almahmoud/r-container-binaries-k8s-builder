@@ -1,11 +1,5 @@
 {
-  "AgiMicroRna": [
-    "affycoretools"
-  ],
-  "IPO": [],
+  "AgiMicroRna": [],
   "RbowtieCuda": [],
-  "affycoretools": [],
-  "metaMS": [],
-  "sangeranalyseR": [],
-  "scTreeViz": []
+  "sangeranalyseR": []
 }

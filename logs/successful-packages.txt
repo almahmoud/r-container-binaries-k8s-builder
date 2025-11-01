@@ -2235,3 +2235,7 @@ psichomics
 RNAAgeCalc
 RnaSeqSampleSize
 YAPSA
+affycoretools
+IPO
+metaMS
+scTreeViz
