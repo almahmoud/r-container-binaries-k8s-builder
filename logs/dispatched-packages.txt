@@ -1259,3 +1259,13 @@ ViSEAGO
 gsean
 multiHiCcompare
 scHiCcompare
+GSEABase
+MGFM
+PREDA
+SemDist
+codelink
+genefilter
+geneplotter
+globaltest
+idiogram
+tigre

@@ -1067,3 +1067,7 @@ HiCcompare
 PPInfer
 Rcpi
 surfaltr
+annotate
+cellbaseR
+CSOA
+CytoML
