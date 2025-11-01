@@ -8,8 +8,8 @@
 - **Total Packages:** 2244
 - **Successfully Built:** 2148 (95%)
 - **Failed:** 2 (0%)
-- **In Progress:** 40
-- **Not Started:** 54
+- **In Progress:** 42
+- **Not Started:** 52
 
 **Progress:** 95%
 ```
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (40)
+## In Progress (42)
 - ⏳ `AnnotationHubData`
 - ⏳ `ChAMP`
 - ⏳ `CluMSID`
@@ -92,11 +92,13 @@
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
+- ⏳ `MSstatsQCgui`
 - ⏳ `NADfinder`
 - ⏳ `PRONE`
 - ⏳ `RAIDS`
 - ⏳ `RMassBank`
 - ⏳ `SOMNiBUS`
+- ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFutils`
 - ⏳ `VCFArray`
 - ⏳ `appreci8R`
@@ -125,7 +127,7 @@
 - ⏳ `topdownr`
 - ⏳ `xcms`
 
-## Not Yet Started (54)
+## Not Yet Started (52)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -140,14 +142,12 @@
 - ⏸️ `LOBSTAHS`
 - ⏸️ `MAIT`
 - ⏸️ `MSnID`
-- ⏸️ `MSstatsQCgui`
 - ⏸️ `Prostar`
 - ⏸️ `R3CPET`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboProfiling`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
@@ -176,9 +176,11 @@
 - ⏸️ `psichomics`
 - ⏸️ `recount`
 - ⏸️ `regionReport`
+- ⏸️ `scTreeViz`
+- ⏸️ `scafari`
 
-... and 4 more ...
+... and 2 more ...
 
 ---
-*Last updated: 2025-11-01 07:55:12 UTC*
+*Last updated: 2025-11-01 07:56:10 UTC*
 *Packages with verified BBS status: 150*
