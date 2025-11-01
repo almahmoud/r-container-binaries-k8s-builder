@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1637 (72%)
+- **Successfully Built:** 1641 (73%)
 - **Failed:** 2 (0%)
-- **In Progress:** 187
+- **In Progress:** 183
 - **Not Started:** 418
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1637)
+## Successfully Built Packages (1641)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,12 @@
 | [AWAggregator](https://bioconductor.org/packages/3.22/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.22/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AWFisher) |
 
-*... and 1587 more ...*
+*... and 1591 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [variancePartition](https://bioconductor.org/packages/3.22/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.22/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vbmp) |
+| [velociraptor](https://bioconductor.org/packages/3.22/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.22/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.22/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.22/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/viper) |
@@ -83,12 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (187)
+## In Progress (183)
 - ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `ArrayExpress`
 - ⏳ `BERT`
-- ⏳ `BUSpaRse`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioNERO`
@@ -99,7 +98,6 @@
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ChIPseeker`
-- ⏳ `CleanUpRNAseq`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
 - ⏳ `Cogito`
@@ -134,8 +132,10 @@
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MotifPeeker`
 - ⏳ `MsDataHub`
+- ⏳ `MuData`
+- ⏳ `MultimodalExperiment`
 
-... and 137 more ...
+... and 133 more ...
 
 ## Not Yet Started (418)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 368 more ...
 
 ---
-*Last updated: 2025-11-01 04:26:10 UTC*
-*Packages with verified BBS status: 140*
+*Last updated: 2025-11-01 04:28:06 UTC*
+*Packages with verified BBS status: 141*

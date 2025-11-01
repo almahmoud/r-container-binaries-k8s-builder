@@ -1635,3 +1635,7 @@ ASURAT
 CDI
 diffUTR
 peco
+BUSpaRse
+CleanUpRNAseq
+coMethDMR
+velociraptor

@@ -54,7 +54,6 @@
     "VariantAnnotation",
     "OrganismDbi"
   ],
-  "BUSpaRse": [],
   "BadRegionFinder": [
     "VariantAnnotation"
   ],
@@ -165,7 +164,6 @@
     "Rhisat2",
     "SGSeq"
   ],
-  "CleanUpRNAseq": [],
   "CluMSID": [
     "MSnbase",
     "PSMatch",
@@ -1065,7 +1063,6 @@
     "mbkmeans"
   ],
   "cn.farms": [],
-  "coMethDMR": [],
   "compEpiTools": [
     "methylPipe",
     "Gviz",
@@ -1931,7 +1928,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "velociraptor": [],
   "visiumStitched": [
     "SpatialExperiment"
   ],
