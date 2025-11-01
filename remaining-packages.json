@@ -160,7 +160,6 @@
   "GA4GHshiny": [
     "GA4GHclient"
   ],
-  "GDCRNATools": [],
   "GENESIS": [],
   "GNOSIS": [
     "cBioPortalData",
@@ -219,7 +218,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "LoomExperiment": [],
   "MACSr": [],
   "MAGAR": [
     "RnBeads"
@@ -628,26 +626,20 @@
     "QFeatures",
     "PSMatch"
   ],
-  "crisprDesign": [
-    "crisprScore"
-  ],
-  "crisprScore": [],
+  "crisprDesign": [],
   "crisprShiny": [
     "crisprDesign",
-    "crisprScore",
     "crisprViz",
     "Gviz"
   ],
   "crisprVerse": [
-    "crisprScore",
     "crisprDesign",
     "crisprViz",
     "Gviz"
   ],
   "crisprViz": [
     "crisprDesign",
-    "Gviz",
-    "crisprScore"
+    "Gviz"
   ],
   "cytomapper": [
     "SpatialExperiment"

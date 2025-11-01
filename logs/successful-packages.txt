@@ -1851,3 +1851,6 @@ ChIPexoQual
 EasyCellType
 SeqVarTools
 SimFFPE
+crisprScore
+GDCRNATools
+LoomExperiment
