@@ -9,11 +9,9 @@
     "ggbio"
   ],
   "AnnotationHubData": [],
-  "BASiCStan": [],
   "BOBaFIT": [
     "ggbio"
   ],
-  "Banksy": [],
   "CAFE": [
     "ggbio"
   ],
@@ -37,20 +35,16 @@
   "DEP": [
     "MSnbase"
   ],
-  "DEScan2": [],
-  "DESpace": [],
   "DMRcate": [],
   "Damsel": [
     "ggbio"
   ],
-  "DeconvoBuddies": [],
   "EGSEA": [
     "GSVA"
   ],
   "ExperimentHubData": [
     "AnnotationHubData"
   ],
-  "ExperimentSubset": [],
   "FLAMES": [
     "ggbio"
   ],
@@ -139,26 +133,17 @@
     "derfinder"
   ],
   "Rqc": [],
-  "SCArray.sat": [],
   "SOMNiBUS": [],
   "SVP": [],
-  "SingleCellSignalR": [],
   "SingleMoleculeFootprinting": [
     "QuasR"
   ],
   "SomaticSignatures": [
     "ggbio"
   ],
-  "SpaNorm": [],
-  "SpaceTrooper": [
-    "SpatialExperimentIO"
-  ],
-  "SpatialExperimentIO": [],
+  "SpaceTrooper": [],
   "SpatialFeatureExperiment": [],
-  "SpotClean": [],
-  "SpotSweeper": [
-    "escheR"
-  ],
+  "SpotSweeper": [],
   "Statial": [],
   "TBSignatureProfiler": [
     "GSVA"
@@ -166,13 +151,10 @@
   "TFutils": [],
   "Ularcirc": [],
   "VCFArray": [],
-  "VisiumIO": [],
   "Voyager": [
     "SpatialFeatureExperiment"
   ],
-  "XeniumIO": [
-    "VisiumIO"
-  ],
+  "XeniumIO": [],
   "YAPSA": [
     "SomaticSignatures",
     "ggbio"
@@ -181,14 +163,10 @@
     "ReportingTools",
     "ggbio"
   ],
-  "alabaster": [
-    "alabaster.spatial"
-  ],
+  "alabaster": [],
   "alabaster.sfe": [
-    "SpatialFeatureExperiment",
-    "alabaster.spatial"
+    "SpatialFeatureExperiment"
   ],
-  "alabaster.spatial": [],
   "appreci8R": [],
   "bandle": [
     "MSnbase",
@@ -199,9 +177,7 @@
     "cBioPortalData",
     "RTCGAToolbox"
   ],
-  "biscuiteer": [
-    "dmrseq"
-  ],
+  "biscuiteer": [],
   "cBioPortalData": [
     "RTCGAToolbox"
   ],
@@ -216,12 +192,10 @@
     "cBioPortalData",
     "RTCGAToolbox"
   ],
-  "circRNAprofiler": [],
   "cliqueMS": [
     "xcms",
     "MSnbase"
   ],
-  "clustSIGNAL": [],
   "compEpiTools": [],
   "concordexR": [],
   "consensusOV": [
@@ -238,16 +212,12 @@
     "crisprViz"
   ],
   "crisprViz": [],
-  "cytomapper": [],
-  "cytoviewer": [
-    "cytomapper"
-  ],
+  "cytoviewer": [],
   "derfinder": [],
   "derfinderPlot": [
     "derfinder",
     "ggbio"
   ],
-  "dmrseq": [],
   "epimutacions": [],
   "epivizr": [
     "epivizrData"
@@ -260,7 +230,6 @@
     "epivizr",
     "epivizrData"
   ],
-  "escheR": [],
   "flagme": [
     "xcms",
     "CAMERA",
@@ -275,10 +244,7 @@
     "iSEEu"
   ],
   "iSEEu": [],
-  "ideal": [],
-  "imcRtools": [
-    "cytomapper"
-  ],
+  "imcRtools": [],
   "intansv": [
     "ggbio"
   ],
@@ -286,8 +252,7 @@
   "linkSet": [],
   "lisaClust": [
     "spicyR",
-    "simpleSeg",
-    "cytomapper"
+    "simpleSeg"
   ],
   "magpie": [],
   "metaMS": [
@@ -321,7 +286,6 @@
     "xcms",
     "MSnbase"
   ],
-  "nnSVG": [],
   "octad": [
     "GSVA"
   ],
@@ -346,7 +310,6 @@
   "peakPantheR": [
     "MSnbase"
   ],
-  "poem": [],
   "psichomics": [
     "recount",
     "derfinder"
@@ -372,7 +335,6 @@
   "scafari": [
     "ggbio"
   ],
-  "scider": [],
   "scmeth": [],
   "scp": [],
   "scruff": [
@@ -385,37 +347,23 @@
     "consensusOV",
     "GSVA"
   ],
-  "simpleSeg": [
-    "cytomapper"
-  ],
+  "simpleSeg": [],
   "singleCellTK": [
     "GSVA"
   ],
   "skewr": [],
   "smoothclust": [],
   "smoppix": [],
-  "sosta": [],
-  "spARI": [],
-  "spaSim": [],
-  "spacexr": [],
-  "spatialDE": [],
-  "spatialFDA": [],
-  "spatialSimGP": [],
   "spicyR": [
-    "simpleSeg",
-    "cytomapper"
+    "simpleSeg"
   ],
-  "spoon": [
-    "nnSVG"
-  ],
+  "spoon": [],
   "squallms": [
     "xcms",
     "MSnbase"
   ],
-  "stJoincount": [],
   "stPipe": [],
   "standR": [],
-  "terraTCGAdata": [],
   "tidySpatialExperiment": [],
   "tidyomics": [
     "tidySpatialExperiment"

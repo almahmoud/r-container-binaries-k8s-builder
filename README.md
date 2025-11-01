@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2044 (91%)
+- **Successfully Built:** 2075 (92%)
 - **Failed:** 2 (0%)
-- **In Progress:** 103
+- **In Progress:** 72
 - **Not Started:** 95
 
-**Progress:** 91%
+**Progress:** 92%
 ```
-█████████████████████████████████████████████░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2044)
+## Successfully Built Packages (2075)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1994 more ...*
+*... and 2025 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,20 +83,14 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (103)
+## In Progress (72)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
-- ⏳ `BASiCStan`
-- ⏳ `Banksy`
 - ⏳ `CAGEr`
 - ⏳ `CNVfilteR`
 - ⏳ `CNViz`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `DEScan2`
-- ⏳ `DESpace`
 - ⏳ `DMRcate`
-- ⏳ `DeconvoBuddies`
-- ⏳ `ExperimentSubset`
 - ⏳ `GSReg`
 - ⏳ `GSVA`
 - ⏳ `GUIDEseq`
@@ -114,28 +108,34 @@
 - ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rqc`
-- ⏳ `SCArray.sat`
 - ⏳ `SOMNiBUS`
 - ⏳ `SVP`
-- ⏳ `SingleCellSignalR`
-- ⏳ `SpaNorm`
-- ⏳ `SpatialExperimentIO`
 - ⏳ `SpatialFeatureExperiment`
-- ⏳ `SpotClean`
 - ⏳ `Statial`
 - ⏳ `TFutils`
 - ⏳ `Ularcirc`
 - ⏳ `VCFArray`
-- ⏳ `VisiumIO`
-- ⏳ `alabaster.spatial`
 - ⏳ `appreci8R`
 - ⏳ `bigmelon`
-- ⏳ `circRNAprofiler`
-- ⏳ `clustSIGNAL`
 - ⏳ `compEpiTools`
 - ⏳ `concordexR`
+- ⏳ `crisprViz`
+- ⏳ `derfinder`
+- ⏳ `epimutacions`
+- ⏳ `epivizrData`
+- ⏳ `gDR`
+- ⏳ `geomeTriD`
+- ⏳ `ggbio`
+- ⏳ `ggspavis`
+- ⏳ `glmSparseNet`
+- ⏳ `iSEEu`
+- ⏳ `jazzPanda`
+- ⏳ `linkSet`
+- ⏳ `magpie`
+- ⏳ `methodical`
+- ⏳ `methylGSA`
 
-... and 53 more ...
+... and 22 more ...
 
 ## Not Yet Started (95)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 45 more ...
 
 ---
-*Last updated: 2025-11-01 07:04:27 UTC*
+*Last updated: 2025-11-01 07:14:28 UTC*
 *Packages with verified BBS status: 148*

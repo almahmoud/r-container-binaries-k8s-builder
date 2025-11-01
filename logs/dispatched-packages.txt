@@ -2147,3 +2147,12 @@ MsQuality
 geomeTriD
 MSnbase
 miaDash
+SpaceTrooper
+SpotSweeper
+XeniumIO
+alabaster
+biscuiteer
+cytoviewer
+imcRtools
+simpleSeg
+spoon
