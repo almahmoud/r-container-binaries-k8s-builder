@@ -6,22 +6,23 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1163 (51%)
+- **Successfully Built:** 1169 (52%)
 - **Failed:** 2 (0%)
-- **In Progress:** 227
+- **In Progress:** 221
 - **Not Started:** 852
 
-**Progress:** 51%
+**Progress:** 52%
 ```
-█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1163)
+## Successfully Built Packages (1169)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.22/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.22/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABarray) |
+| [ACE](https://bioconductor.org/packages/3.22/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.22/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACME) |
 | [ADAM](https://bioconductor.org/packages/3.22/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAM) |
 | [ADAMgui](https://bioconductor.org/packages/3.22/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAMgui) |
@@ -44,9 +45,8 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.22/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.22/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
-| [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 
-*... and 1113 more ...*
+*... and 1119 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (227)
-- ⏳ `ACE`
+## In Progress (221)
 - ⏳ `BSgenome`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -109,7 +108,6 @@
 - ⏳ `ExCluster`
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
-- ⏳ `GeneBreak`
 - ⏳ `GenomicFeatures`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
@@ -134,8 +132,10 @@
 - ⏳ `MBQN`
 - ⏳ `MCbiclust`
 - ⏳ `MGFM`
+- ⏳ `MLP`
+- ⏳ `MODA`
 
-... and 177 more ...
+... and 171 more ...
 
 ## Not Yet Started (852)
 - ⏸️ `ADImpute`
@@ -192,5 +192,5 @@
 ... and 802 more ...
 
 ---
-*Last updated: 2025-11-01 02:03:59 UTC*
-*Packages with verified BBS status: 118*
+*Last updated: 2025-11-01 02:06:12 UTC*
+*Packages with verified BBS status: 119*

@@ -1161,3 +1161,9 @@ goProfiles
 goTools
 PhosR
 SBGNview
+ACE
+cfdnakit
+GeneBreak
+geyser
+systemPipeR
+ViSEAGO

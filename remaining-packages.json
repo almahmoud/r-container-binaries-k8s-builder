@@ -1,5 +1,4 @@
 {
-  "ACE": [],
   "ADImpute": [
     "SingleCellExperiment"
   ],
@@ -635,7 +634,6 @@
     "txdbmaker"
   ],
   "DiffBind": [
-    "systemPipeR",
     "GreyListChIP",
     "BSgenome"
   ],
@@ -868,7 +866,6 @@
     "regioneR",
     "ensembldb"
   ],
-  "GeneBreak": [],
   "GeneMeta": [
     "genefilter"
   ],
@@ -2165,7 +2162,6 @@
     "GenomicFeatures",
     "BSgenome"
   ],
-  "ViSEAGO": [],
   "VisiumIO": [
     "TENxIO",
     "SingleCellExperiment",
@@ -2519,7 +2515,6 @@
     "BSgenome"
   ],
   "cfTools": [],
-  "cfdnakit": [],
   "cghMCR": [
     "CNTools",
     "genefilter"
@@ -3092,7 +3087,6 @@
   "gep2pep": [
     "GSEABase"
   ],
-  "geyser": [],
   "gg4way": [],
   "ggbio": [
     "biovizBase",
@@ -4565,7 +4559,6 @@
   "switchde": [
     "SingleCellExperiment"
   ],
-  "systemPipeR": [],
   "systemPipeTools": [],
   "tLOH": [
     "VariantAnnotation",
@@ -4726,7 +4719,6 @@
     "GenomicFeatures",
     "regioneR",
     "ensembldb",
-    "systemPipeR",
     "GreyListChIP",
     "BSgenome"
   ],
