@@ -1040,3 +1040,12 @@ GenomicAlignments
 ginmappeR
 IgGeneUsage
 immunogenViewer
+combi
+dinoR
+divergence
+doseR
+GenomicSuperSignature
+goSTAG
+MICSQTL
+MouseFM
+oposSOM

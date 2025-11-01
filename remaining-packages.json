@@ -1186,7 +1186,6 @@
   "GenomicScores": [
     "AnnotationHub"
   ],
-  "GenomicSuperSignature": [],
   "GeoTcgaData": [],
   "Glimma": [
     "DESeq2"
@@ -1498,7 +1497,6 @@
     "scater",
     "scuttle"
   ],
-  "MICSQTL": [],
   "MIRA": [
     "bsseq",
     "BSgenome",
@@ -1702,7 +1700,6 @@
     "rtracklayer",
     "BSgenome"
   ],
-  "MouseFM": [],
   "MsDataHub": [
     "ExperimentHub",
     "AnnotationHub"
@@ -3323,7 +3320,6 @@
   "codelink": [
     "annotate"
   ],
-  "combi": [],
   "compEpiTools": [
     "GenomicFeatures",
     "methylPipe",
@@ -3614,7 +3610,6 @@
   ],
   "diffcoexp": [],
   "diffcyt": [],
-  "dinoR": [],
   "distinct": [
     "SingleCellExperiment",
     "scater",
@@ -3623,7 +3618,6 @@
   "dittoSeq": [
     "SingleCellExperiment"
   ],
-  "divergence": [],
   "dmGsea": [],
   "dmrseq": [
     "bsseq",
@@ -3641,7 +3635,6 @@
     "genefilter",
     "annotate"
   ],
-  "doseR": [],
   "doubletrouble": [
     "GenomicFeatures",
     "rtracklayer"
@@ -3975,7 +3968,6 @@
     "rtracklayer"
   ],
   "goProfiles": [],
-  "goSTAG": [],
   "goSorensen": [
     "clusterProfiler",
     "goProfiles",
@@ -4795,7 +4787,6 @@
   "ontoProc": [
     "AnnotationHub"
   ],
-  "oposSOM": [],
   "oppar": [
     "GSEABase",
     "GSVA",
