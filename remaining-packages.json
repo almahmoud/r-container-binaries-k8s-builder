@@ -178,7 +178,6 @@
   "BindingSiteFinder": [
     "GenomicFeatures"
   ],
-  "BioCor": [],
   "BioNERO": [
     "sva",
     "genefilter"
@@ -1871,7 +1870,6 @@
     "SingleCellExperiment",
     "escheR"
   ],
-  "StabMap": [],
   "Statial": [
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -3099,7 +3097,6 @@
     "VariantAnnotation",
     "GenomicFeatures"
   ],
-  "keggorthology": [],
   "kissDE": [
     "DSS",
     "bsseq",
@@ -3397,7 +3394,6 @@
     "TFBSTools",
     "BSgenome"
   ],
-  "mpra": [],
   "msImpute": [
     "scran",
     "SingleCellExperiment",
@@ -3436,7 +3432,6 @@
     "MultiAssayExperiment"
   ],
   "multiGSEA": [],
-  "multiMiR": [],
   "multiWGCNA": [],
   "multicrispr": [
     "BSgenome",

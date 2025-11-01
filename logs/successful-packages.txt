@@ -1269,3 +1269,8 @@ sSNAPPY
 HiTC
 MesKit
 miRNAmeConverter
+BioCor
+keggorthology
+mpra
+multiMiR
+StabMap
