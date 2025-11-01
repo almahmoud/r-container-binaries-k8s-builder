@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 694
-- **Successfully Built:** 634 (91%)
+- **Successfully Built:** 660 (95%)
 - **Failed:** 5 (0%)
-- **In Progress:** 26
-- **Not Started:** 29
+- **In Progress:** 16
+- **Not Started:** 13
 
-**Progress:** 92%
+**Progress:** 95%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (634)
+## Successfully Built Packages (660)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -34,6 +34,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
+| [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
@@ -44,13 +45,11 @@
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
-| [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 584 more ...*
+*... and 610 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidyFlowCore](https://bioconductor.org/packages/3.23/bioc/html/tidyFlowCore.html) | [log](logs/tidyFlowCore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyFlowCore) |
@@ -69,6 +68,7 @@
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
+| [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
@@ -86,65 +86,39 @@
 | [mslp](https://bioconductor.org/packages/3.23/bioc/html/mslp.html) | [log](logs/mslp/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mslp) | Missing dependency: AnnotationDbi |
 | [netboost](https://bioconductor.org/packages/3.23/bioc/html/netboost.html) | [log](logs/netboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netboost) | Missing dependency: AnnotationDbi |
 
-## In Progress (26)
+## In Progress (16)
 - ⏳ `AlphaMissenseR`
-- ⏳ `AlpsNMR`
-- ⏳ `COMPASS`
-- ⏳ `MSstatsConvert`
-- ⏳ `MetaCyto`
+- ⏳ `GenProSeq`
 - ⏳ `OpenStats`
-- ⏳ `QUBIC`
+- ⏳ `Polytect`
 - ⏳ `RTCGA`
 - ⏳ `SuperCellCyto`
-- ⏳ `TSAR`
 - ⏳ `VERSO`
-- ⏳ `alabaster.base`
-- ⏳ `anndataR`
-- ⏳ `bluster`
-- ⏳ `decoupleR`
+- ⏳ `cyanoFilter`
 - ⏳ `infinityFlow`
-- ⏳ `islify`
-- ⏳ `metabinR`
+- ⏳ `monocle`
 - ⏳ `mzR`
-- ⏳ `pathwayPCA`
+- ⏳ `optimalFlow`
 - ⏳ `retrofit`
 - ⏳ `scFeatureFilter`
 - ⏳ `scLANE`
-- ⏳ `seahtrue`
 - ⏳ `synergyfinder`
-- ⏳ `variancePartition`
 
-## Not Yet Started (29)
-- ⏸️ `CNORdt`
-- ⏸️ `CNORfeeder`
-- ⏸️ `CNORfuzzy`
-- ⏸️ `CNORode`
+## Not Yet Started (13)
 - ⏸️ `CONFESS`
 - ⏸️ `Cardinal`
-- ⏸️ `CardinalIO`
-- ⏸️ `GateFinder`
-- ⏸️ `GenProSeq`
 - ⏸️ `MEIGOR`
 - ⏸️ `MSstats`
 - ⏸️ `MSstatsBig`
 - ⏸️ `MSstatsBioNet`
 - ⏸️ `MSstatsTMT`
-- ⏸️ `Polytect`
 - ⏸️ `SIMAT`
 - ⏸️ `TargetDecoy`
-- ⏸️ `cyanoFilter`
-- ⏸️ `ddPCRclust`
-- ⏸️ `flowBin`
-- ⏸️ `flowCut`
-- ⏸️ `flowMerge`
-- ⏸️ `flowTrans`
-- ⏸️ `monocle`
 - ⏸️ `mosbi`
 - ⏸️ `msPurity`
-- ⏸️ `optimalFlow`
 - ⏸️ `progeny`
 - ⏸️ `uSORT`
 
 ---
-*Last updated: 2025-11-01 15:52:39 UTC*
-*Packages with verified BBS status: 111*
+*Last updated: 2025-11-01 15:55:05 UTC*
+*Packages with verified BBS status: 113*

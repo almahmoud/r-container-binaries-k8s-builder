@@ -1,0 +1,125 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''alabaster.base'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'alabaster.base'
+Warning: dependency ‘alabaster.matrix’ is not available
+also installing the dependencies ‘V8’, ‘alabaster.schemas’, ‘jsonvalidate’
+
+trying URL 'https://cloud.r-project.org/src/contrib/V8_8.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/alabaster.schemas_1.11.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/jsonvalidate_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/alabaster.base_1.11.0.tar.gz'
+* installing *source* package ‘V8’ ...
+** this is package ‘V8’ version ‘8.0.1’
+** package ‘V8’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found C++20 compiler: g++
+Target architecture: amd64 
+Getting bundle: v8-rocky-8-amd64.tar.gz
+Using CXXCPP=g++ -std=gnu++20 -E
+Using PKG_CFLAGS=-I/tmp/RtmpnEsQYt/R.INSTALL3627731924/V8/.deps/include 
+Using PKG_LIBS=-L/tmp/RtmpnEsQYt/R.INSTALL3627731924/V8/.deps/lib -lv8_monolith
+Running feature test for pointer compression...
+Enabling pointer compression
+Running feature test for sandbox...
+Sandbox not enabled
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++20
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I/tmp/RtmpnEsQYt/R.INSTALL3627731924/V8/.deps/include  -DV8_COMPRESS_POINTERS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I/tmp/RtmpnEsQYt/R.INSTALL3627731924/V8/.deps/include  -DV8_COMPRESS_POINTERS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bindings.cpp -o bindings.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o V8.so RcppExports.o bindings.o -L/tmp/RtmpnEsQYt/R.INSTALL3627731924/V8/.deps/lib -lv8_monolith -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-V8/00new/V8/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘V8’ as ‘V8_8.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (V8)
+* installing *source* package ‘alabaster.schemas’ ...
+** this is package ‘alabaster.schemas’ version ‘1.11.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘alabaster.schemas’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘alabaster.schemas’ as ‘alabaster.schemas_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.schemas)
+* installing *source* package ‘jsonvalidate’ ...
+** this is package ‘jsonvalidate’ version ‘1.5.0’
+** package ‘jsonvalidate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘jsonvalidate’ as ‘jsonvalidate_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jsonvalidate)
+* installing *source* package ‘alabaster.base’ ...
+** this is package ‘alabaster.base’ version ‘1.11.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_csv.cpp -o check_csv.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_list.cpp -o check_list.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c choose_numeric_missing_placeholder.cpp -o choose_numeric_missing_placeholder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c is_rfc3339.cpp -o is_rfc3339.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_csv.cpp -o load_csv.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_list.cpp -o load_list.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c validate.cpp -o validate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vls.cpp -o vls.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o alabaster.base.so RcppExports.o check_csv.o check_list.o choose_numeric_missing_placeholder.o is_rfc3339.o load_csv.o load_list.o validate.o vls.o /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-alabaster.base/00new/alabaster.base/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘alabaster.base’ as ‘alabaster.base_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.base)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbFvHjm/downloaded_packages’
+Old packages: 'promises'
+
+real	1m57.990s
+user	1m40.222s
+sys	0m18.039s

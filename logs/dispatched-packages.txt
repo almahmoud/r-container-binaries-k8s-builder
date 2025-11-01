@@ -679,3 +679,9 @@ flowMerge
 flowTrans
 monocle
 optimalFlow
+CONFESS
+Cardinal
+MEIGOR
+MSstats
+mosbi
+progeny

@@ -1,0 +1,107 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GateFinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'GateFinder'
+also installing the dependencies ‘splancs’, ‘mvoutlier’
+
+trying URL 'https://cloud.r-project.org/src/contrib/splancs_2.01-45.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mvoutlier_2.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GateFinder_1.31.0.tar.gz'
+* installing *source* package ‘splancs’ ...
+** this is package ‘splancs’ version ‘2.01-45’
+** package ‘splancs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gfortran  -fpic  -g -O2  -c areapl.f -o areapl.o
+gfortran  -fpic  -g -O2  -c cncvwt.f -o cncvwt.o
+gfortran  -fpic  -g -O2  -c dokhat.f -o dokhat.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c inpip.f -o inpip.o
+gfortran  -fpic  -g -O2  -c ipippa.f -o ipippa.o
+gfortran  -fpic  -g -O2  -c iplace.f -o iplace.o
+gfortran  -fpic  -g -O2  -c k12hat.f -o k12hat.o
+gfortran  -fpic  -g -O2  -c kernel3d.f -o kernel3d.o
+gfortran  -fpic  -g -O2  -c khvc.f -o khvc.o
+gfortran  -fpic  -g -O2  -c khvmat.f -o khvmat.o
+gfortran  -fpic  -g -O2  -c krnnrm.f -o krnnrm.o
+gfortran  -fpic  -g -O2  -c krnqne.f -o krnqne.o
+gfortran  -fpic  -g -O2  -c krnqrt.f -o krnqrt.o
+gfortran  -fpic  -g -O2  -c nndist.f -o nndist.o
+gfortran  -fpic  -g -O2  -c plarea.f -o plarea.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ptinpoly.c -o ptinpoly.o
+gfortran  -fpic  -g -O2  -c sekhat.f -o sekhat.o
+gfortran  -fpic  -g -O2  -c sort.f -o sort.o
+gfortran  -fpic  -g -O2  -c sort2.f -o sort2.o
+gfortran  -fpic  -g -O2  -c stkhat.f -o stkhat.o
+gfortran  -fpic  -g -O2  -c stsecal.f -o stsecal.o
+gfortran  -fpic  -g -O2  -c tribble.f -o tribble.o
+gfortran  -fpic  -g -O2  -c twodimmse.f -o twodimmse.o
+gfortran  -fpic  -g -O2  -c weight.f -o weight.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o splancs.so areapl.o cncvwt.o dokhat.o init.o inpip.o ipippa.o iplace.o k12hat.o kernel3d.o khvc.o khvmat.o krnnrm.o krnqne.o krnqrt.o nndist.o plarea.o ptinpoly.o sekhat.o sort.o sort2.o stkhat.o stsecal.o tribble.o twodimmse.o weight.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-splancs/00new/splancs/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘splancs’ as ‘splancs_2.01-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splancs)
+* installing *source* package ‘mvoutlier’ ...
+** this is package ‘mvoutlier’ version ‘2.1.1’
+** package ‘mvoutlier’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvoutlier’ as ‘mvoutlier_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvoutlier)
+* installing *source* package ‘GateFinder’ ...
+** this is package ‘GateFinder’ version ‘1.31.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GateFinder’ as ‘GateFinder_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GateFinder)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoBRyzd/downloaded_packages’
+Old packages: 'promises'
+
+real	0m23.151s
+user	0m19.100s
+sys	0m5.312s

@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MetaCyto'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'MetaCyto'
+also installing the dependencies ‘metadat’, ‘mathjaxr’, ‘metafor’
+
+trying URL 'https://cloud.r-project.org/src/contrib/metadat_1.4-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/mathjaxr_1.8-0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/metafor_4.8-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MetaCyto_1.33.0.tar.gz'
+* installing *source* package ‘mathjaxr’ ...
+** this is package ‘mathjaxr’ version ‘1.8-0’
+** package ‘mathjaxr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+# install.libs.R will minify the Javascript if js is installed
+installing via 'install.libs.R' to /tmp/library/00LOCK-mathjaxr/00new/mathjaxr
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mathjaxr’ as ‘mathjaxr_1.8-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mathjaxr)
+* installing *source* package ‘metadat’ ...
+** this is package ‘metadat’ version ‘1.4-0’
+** package ‘metadat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘metadat’ as ‘metadat_1.4-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metadat)
+* installing *source* package ‘metafor’ ...
+** this is package ‘metafor’ version ‘4.8-0’
+** package ‘metafor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘metafor’ as ‘metafor_4.8-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metafor)
+* installing *source* package ‘MetaCyto’ ...
+** this is package ‘MetaCyto’ version ‘1.33.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MetaCyto’ as ‘MetaCyto_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MetaCyto)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1N3Tzs/downloaded_packages’
+Old packages: 'promises'
+
+real	1m7.609s
+user	1m2.400s
+sys	0m6.958s

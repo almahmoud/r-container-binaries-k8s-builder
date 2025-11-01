@@ -1,73 +1,37 @@
 {
   "AlphaMissenseR": [],
-  "AlpsNMR": [],
-  "CNORdt": [],
-  "CNORfeeder": [],
-  "CNORfuzzy": [],
-  "CNORode": [],
-  "COMPASS": [],
-  "CONFESS": [
-    "flowMerge"
-  ],
-  "Cardinal": [
-    "CardinalIO"
-  ],
-  "CardinalIO": [],
-  "GateFinder": [],
+  "CONFESS": [],
+  "Cardinal": [],
   "GenProSeq": [],
-  "MEIGOR": [
-    "CNORode"
-  ],
+  "MEIGOR": [],
   "MODA": [],
-  "MSstats": [
-    "MSstatsConvert"
-  ],
+  "MSstats": [],
   "MSstatsBig": [
-    "MSstats",
-    "MSstatsConvert"
+    "MSstats"
   ],
   "MSstatsBioNet": [
-    "MSstats",
-    "MSstatsConvert"
+    "MSstats"
   ],
-  "MSstatsConvert": [],
   "MSstatsTMT": [
-    "MSstats",
-    "MSstatsConvert"
+    "MSstats"
   ],
-  "MetaCyto": [],
   "OpenStats": [],
   "Polytect": [],
-  "QUBIC": [],
   "RTCGA": [],
   "SIMAT": [
     "mzR"
   ],
   "SuperCellCyto": [],
   "TIN": [],
-  "TSAR": [],
   "TargetDecoy": [
     "mzR"
   ],
   "VERSO": [],
-  "alabaster.base": [],
-  "anndataR": [],
-  "bluster": [],
   "csdR": [],
   "cyanoFilter": [],
-  "ddPCRclust": [],
-  "decoupleR": [],
-  "flowBin": [],
-  "flowCut": [],
-  "flowMerge": [],
-  "flowTrans": [],
   "infinityFlow": [],
-  "islify": [],
-  "metabinR": [],
   "monocle": [],
-  "mosbi": [
-    "QUBIC"
-  ],
+  "mosbi": [],
   "msPurity": [
     "mzR"
   ],
@@ -75,17 +39,12 @@
   "mzR": [],
   "netboost": [],
   "optimalFlow": [],
-  "pathwayPCA": [],
-  "progeny": [
-    "decoupleR"
-  ],
+  "progeny": [],
   "retrofit": [],
   "scFeatureFilter": [],
   "scLANE": [],
-  "seahtrue": [],
   "synergyfinder": [],
   "uSORT": [
     "monocle"
-  ],
-  "variancePartition": []
+  ]
 }

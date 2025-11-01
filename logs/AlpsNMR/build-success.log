@@ -1,0 +1,367 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AlpsNMR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.23 (BiocManager 1.30.26), R Under development (unstable)
+  (2025-10-28 r88973)
+Installing package(s) 'AlpsNMR'
+Warning: dependencies ‘ASICS’, ‘SummarizedExperiment’ are not available
+also installing the dependencies ‘zigg’, ‘MassSpecWavelet’, ‘Rfast’, ‘ChemoSpecUtils’, ‘readJDX’, ‘speaq’, ‘baseline’, ‘ChemoSpec’, ‘NMRphasing’, ‘writexl’
+
+trying URL 'https://cloud.r-project.org/src/contrib/zigg_0.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MassSpecWavelet_1.77.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/Rfast_2.1.5.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ChemoSpecUtils_1.0.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/readJDX_0.6.4.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/speaq_2.7.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/baseline_1.3-7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ChemoSpec_6.3.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/NMRphasing_1.0.7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/writexl_1.5.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AlpsNMR_4.13.0.tar.gz'
+* installing *source* package ‘zigg’ ...
+** this is package ‘zigg’ version ‘0.0.2’
+** package ‘zigg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ziggurat.cpp -o ziggurat.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o zigg.so init.o ziggurat.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-zigg/00new/zigg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zigg’ as ‘zigg_0.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zigg)
+* installing *source* package ‘MassSpecWavelet’ ...
+** this is package ‘MassSpecWavelet’ version ‘1.77.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_local_maximum.c -o find_local_maximum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MassSpecWavelet.so find_local_maximum.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MassSpecWavelet/00new/MassSpecWavelet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MassSpecWavelet’ as ‘MassSpecWavelet_1.77.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MassSpecWavelet)
+* installing *source* package ‘ChemoSpecUtils’ ...
+** this is package ‘ChemoSpecUtils’ version ‘1.0.5’
+** package ‘ChemoSpecUtils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChemoSpecUtils’ as ‘ChemoSpecUtils_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpecUtils)
+* installing *source* package ‘readJDX’ ...
+** this is package ‘readJDX’ version ‘0.6.4’
+** package ‘readJDX’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘readJDX’ as ‘readJDX_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readJDX)
+* installing *source* package ‘baseline’ ...
+** this is package ‘baseline’ version ‘1.3-7’
+** package ‘baseline’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c baselineMethods.c -o baselineMethods.o
+gfortran  -fpic  -g -O2  -c s2band.f -o s2band.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o baseline.so baselineMethods.o s2band.o -lblas -llapack -lgfortran -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-baseline/00new/baseline/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘getCall’ in package ‘baseline’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘baseline’ as ‘baseline_1.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (baseline)
+* installing *source* package ‘writexl’ ...
+** this is package ‘writexl’ version ‘1.5.4’
+** package ‘writexl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write_xlsx.c -o write_xlsx.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/app.c -o libxlsxwriter/app.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/format.c -o libxlsxwriter/format.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/theme.c -o libxlsxwriter/theme.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/chart.c -o libxlsxwriter/chart.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/hash_table.c -o libxlsxwriter/hash_table.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/utility.c -o libxlsxwriter/utility.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/content_types.c -o libxlsxwriter/content_types.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/packager.c -o libxlsxwriter/packager.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/workbook.c -o libxlsxwriter/workbook.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/core.c -o libxlsxwriter/core.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/relationships.c -o libxlsxwriter/relationships.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/worksheet.c -o libxlsxwriter/worksheet.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/custom.c -o libxlsxwriter/custom.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/shared_strings.c -o libxlsxwriter/shared_strings.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/xmlwriter.c -o libxlsxwriter/xmlwriter.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/drawing.c -o libxlsxwriter/drawing.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/styles.c -o libxlsxwriter/styles.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tmpfileplus/tmpfileplus.c -o tmpfileplus/tmpfileplus.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/chartsheet.c -o libxlsxwriter/chartsheet.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minizip/ioapi.c -o minizip/ioapi.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minizip/zip.c -o minizip/zip.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/metadata.c -o libxlsxwriter/metadata.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/comment.c -o libxlsxwriter/comment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/vml.c -o libxlsxwriter/vml.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c md5/md5.c -o md5/md5.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -DUSE_R_LANG  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxlsxwriter/table.c -o libxlsxwriter/table.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o writexl.so write_xlsx.o -Llibxlsxwriter -lstatxlsxwriter -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-writexl/00new/writexl/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘writexl’ as ‘writexl_1.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (writexl)
+* installing *source* package ‘Rfast’ ...
+** this is package ‘Rfast’ version ‘2.1.5.2’
+** package ‘Rfast’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Coeff.cpp -o Coeff.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Diag.cpp -o Diag.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Norm.cpp -o Norm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rank.cpp -o Rank.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Sort.cpp -o Sort.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Table.cpp -o Table.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c add_to_namespace.cpp -o add_to_namespace.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c apply_condition.cpp -o apply_condition.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c as_integer.cpp -o as_integer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c binarysearch.cpp -o binarysearch.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bincomb.cpp -o bincomb.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check.cpp -o check.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cholesky.cpp -o cholesky.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c col_row_utilities.cpp -o col_row_utilities.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c col_row_utilities_p.cpp -o col_row_utilities_p.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c col_statistical.cpp -o col_statistical.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c colrint_mle.cpp -o colrint_mle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c colweibull_mle.cpp -o colweibull_mle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cts.cpp -o cts.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cts_rf.cpp -o cts_rf.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c design_matrix.cpp -o design_matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dir_knn.cpp -o dir_knn.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c diri_nr_type2.cpp -o diri_nr_type2.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dista.cpp -o dista.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dists.cpp -o dists.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c each.cpp -o each.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c eigs_sym_c.cpp -o eigs_sym_c.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c energy.cpp -o energy.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c floyd_john.cpp -o floyd_john.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c frame_to_matrix.cpp -o frame_to_matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c g2_export.cpp -o g2_export.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c g2_helpers.cpp -o g2_helpers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c g2t.cpp -o g2t.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gamma.cpp -o gamma.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gaussian_nb.cpp -o gaussian_nb.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c geom_regs.cpp -o geom_regs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c glm.cpp -o glm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c group.cpp -o group.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c hash.cpp -o hash.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c is.cpp -o is.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c k_nn.cpp -o k_nn.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c logistic_only.cpp -o logistic_only.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c lower_upper_tri.cpp -o lower_upper_tri.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c maha.cpp -o maha.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c maha_ex.cpp -o maha_ex.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c matrices.cpp -o matrices.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mn.cpp -o mn.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c multinom_regs.cpp -o multinom_regs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c my_k_sorted_array.cpp -o my_k_sorted_array.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c normlog_reg.cpp -o normlog_reg.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c normlog_regs.cpp -o normlog_regs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c odds_helper.cpp -o odds_helper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pc_skel.cpp -o pc_skel.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c permutation.cpp -o permutation.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c positive_negative.cpp -o positive_negative.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c prop.cpp -o prop.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c qpois.cpp -o qpois.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rbing.cpp -o rbing.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read.cpp -o read.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c reg_lib.cpp -o reg_lib.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rep.cpp -o rep.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rint.cpp -o rint.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rmdp.cpp -o rmdp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rvmf.cpp -o rvmf.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sf.cpp -o sf.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sort_unique.cpp -o sort_unique.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c spat_med.cpp -o spat_med.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c spml.cpp -o spml.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sw_regs.cpp -o sw_regs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c system_files.cpp -o system_files.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c topological_sort.cpp -o topological_sort.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utilities.cpp -o utilities.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c varcomps_mle.cpp -o varcomps_mle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vecdist.cpp -o vecdist.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c weib_reg.cpp -o weib_reg.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/zigg/include' -I/usr/local/include   -fopenmp -DARMA_USE_CURRENT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c weibull_mle.cpp -o weibull_mle.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rfast.so Coeff.o Diag.o Norm.o Rank.o Sort.o Table.o add_to_namespace.o apply_condition.o as_integer.o binarysearch.o bincomb.o check.o cholesky.o col_row_utilities.o col_row_utilities_p.o col_statistical.o colrint_mle.o colweibull_mle.o cts.o cts_rf.o design_matrix.o dir_knn.o diri_nr_type2.o dista.o dists.o each.o eigs_sym_c.o energy.o floyd_john.o frame_to_matrix.o g2_export.o g2_helpers.o g2t.o gamma.o gaussian_nb.o geom_regs.o glm.o group.o hash.o init.o is.o k_nn.o logistic_only.o lower_upper_tri.o maha.o maha_ex.o matrices.o mn.o multinom_regs.o my_k_sorted_array.o normlog_reg.o normlog_regs.o odds_helper.o pc_skel.o permutation.o positive_negative.o prop.o qpois.o rbing.o read.o reg_lib.o rep.o rint.o rmdp.o rvmf.o sf.o sort_unique.o spat_med.o spml.o sw_regs.o system_files.o topological_sort.o utilities.o varcomps_mle.o vecdist.o weib_reg.o weibull_mle.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-Rfast/00new/Rfast/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rfast’ as ‘Rfast_2.1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rfast)
+* installing *source* package ‘ChemoSpec’ ...
+** this is package ‘ChemoSpec’ version ‘6.3.1’
+** package ‘ChemoSpec’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChemoSpec’ as ‘ChemoSpec_6.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpec)
+* installing *source* package ‘NMRphasing’ ...
+** this is package ‘NMRphasing’ version ‘1.0.7’
+** package ‘NMRphasing’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NMRphasing’ as ‘NMRphasing_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NMRphasing)
+* installing *source* package ‘speaq’ ...
+** this is package ‘speaq’ version ‘2.7.0’
+** package ‘speaq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘speaq’ as ‘speaq_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (speaq)
+* installing *source* package ‘AlpsNMR’ ...
+** this is package ‘AlpsNMR’ version ‘4.13.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AlpsNMR’ as ‘AlpsNMR_4.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlpsNMR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpME2nh8/downloaded_packages’
+Old packages: 'promises'
+
+real	11m38.699s
+user	10m18.524s
+sys	1m14.546s

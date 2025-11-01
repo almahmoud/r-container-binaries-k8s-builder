@@ -12,6 +12,7 @@ ASSET
 AWAggregator
 AWFisher
 AlphaBeta
+AlpsNMR
 AnVIL
 AnVILAz
 AnVILBase
@@ -103,6 +104,7 @@ twoddpcr
 tximport
 unifiedWMWqPCR
 updateObject
+variancePartition
 vbmp
 veloviz
 viper
