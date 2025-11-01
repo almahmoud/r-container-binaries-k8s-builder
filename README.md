@@ -6,23 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 913 (40%)
+- **Successfully Built:** 920 (40%)
 - **Failed:** 1 (0%)
-- **In Progress:** 61
+- **In Progress:** 54
 - **Not Started:** 1269
 
-**Progress:** 40%
+**Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (913)
+## Successfully Built Packages (920)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.22/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.22/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.22/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACME) |
+| [ADAPT](https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANCOMBC) |
@@ -44,9 +45,8 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
-| [AnVILWorkflow](https://bioconductor.org/packages/3.22/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILWorkflow) |
 
-*... and 863 more ...*
+*... and 870 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,8 +82,7 @@
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (61)
-- ⏳ `ADAPT`
+## In Progress (54)
 - ⏳ `AnnotationDbi`
 - ⏳ `BANDITS`
 - ⏳ `CONFESS`
@@ -94,8 +93,6 @@
 - ⏳ `GenomicDistributions`
 - ⏳ `GeoDiff`
 - ⏳ `PeacoQC`
-- ⏳ `RCM`
-- ⏳ `RPA`
 - ⏳ `Rsamtools`
 - ⏳ `SIAMCAT`
 - ⏳ `SeqArray`
@@ -105,11 +102,9 @@
 - ⏳ `TDbasedUFE`
 - ⏳ `TnT`
 - ⏳ `alabaster.matrix`
-- ⏳ `chihaya`
 - ⏳ `cnvGSA`
 - ⏳ `epialleleR`
 - ⏳ `flowStats`
-- ⏳ `geneRxCluster`
 - ⏳ `genomeIntervals`
 - ⏳ `ggcyto`
 - ⏳ `gtrellis`
@@ -120,8 +115,6 @@
 - ⏳ `megadepth`
 - ⏳ `memes`
 - ⏳ `methimpute`
-- ⏳ `microbiome`
-- ⏳ `microbiomeDASim`
 - ⏳ `motifTestR`
 - ⏳ `ncRNAtools`
 - ⏳ `oncoscanR`
@@ -133,8 +126,15 @@
 - ⏳ `pqsfinder`
 - ⏳ `ramr`
 - ⏳ `rhinotypeR`
+- ⏳ `rigvf`
+- ⏳ `sangeranalyseR`
+- ⏳ `scanMiR`
+- ⏳ `scifer`
+- ⏳ `scrapper`
+- ⏳ `seqPattern`
+- ⏳ `syntenet`
 
-... and 11 more ...
+... and 4 more ...
 
 ## Not Yet Started (1269)
 - ⏸️ `ACE`
@@ -191,5 +191,5 @@
 ... and 1219 more ...
 
 ---
-*Last updated: 2025-11-01 00:07:05 UTC*
-*Packages with verified BBS status: 107*
+*Last updated: 2025-11-01 00:07:50 UTC*
+*Packages with verified BBS status: 108*

@@ -911,3 +911,10 @@ clusterSeq
 FinfoMDS
 MOFA2
 reconsi
+ADAPT
+chihaya
+geneRxCluster
+microbiome
+microbiomeDASim
+RCM
+RPA

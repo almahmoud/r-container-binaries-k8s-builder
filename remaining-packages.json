@@ -12,7 +12,6 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "ADAPT": [],
   "ADImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -1328,7 +1327,6 @@
   ],
   "DspikeIn": [
     "DESeq2",
-    "microbiome",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
@@ -3207,7 +3205,6 @@
     "biomaRt",
     "SummarizedExperiment"
   ],
-  "RCM": [],
   "RCSL": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -3375,7 +3372,6 @@
   "ROCpAI": [
     "SummarizedExperiment"
   ],
-  "RPA": [],
   "RSVSim": [
     "ShortRead",
     "Rsamtools",
@@ -5150,7 +5146,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "chihaya": [],
   "chimeraviz": [
     "Gviz",
     "ensembldb",
@@ -6195,7 +6190,6 @@
     "GenomicAlignments",
     "SummarizedExperiment"
   ],
-  "geneRxCluster": [],
   "geneXtendeR": [
     "rtracklayer",
     "AnnotationDbi",
@@ -7105,8 +7099,6 @@
     "MultiAssayExperiment",
     "scuttle"
   ],
-  "microbiome": [],
-  "microbiomeDASim": [],
   "microbiomeExplorer": [
     "DESeq2",
     "SummarizedExperiment"
@@ -7823,7 +7815,6 @@
   ],
   "prebs": [
     "GenomicAlignments",
-    "RPA",
     "SummarizedExperiment",
     "Rsamtools"
   ],
