@@ -14,7 +14,6 @@
     "ggbio"
   ],
   "Banksy": [],
-  "BulkSignalR": [],
   "CAFE": [
     "ggbio"
   ],
@@ -37,9 +36,7 @@
   "ChAMP": [
     "DMRcate"
   ],
-  "CircSeqAlignTk": [
-    "Rhisat2"
-  ],
+  "CircSeqAlignTk": [],
   "CluMSID": [
     "MSnbase",
     "PSMatch"
@@ -91,7 +88,6 @@
     "MsExperiment",
     "PSMatch"
   ],
-  "IntEREst": [],
   "LOBSTAHS": [
     "xcms",
     "CAMERA",
@@ -176,7 +172,6 @@
   "ReportingTools": [
     "ggbio"
   ],
-  "Rhisat2": [],
   "RiboProfiling": [
     "ggbio"
   ],
@@ -190,9 +185,7 @@
   "SOMNiBUS": [],
   "SPIAT": [],
   "SVP": [],
-  "SingleCellSignalR": [
-    "BulkSignalR"
-  ],
+  "SingleCellSignalR": [],
   "SingleMoleculeFootprinting": [
     "QuasR"
   ],
@@ -210,7 +203,6 @@
     "escheR"
   ],
   "Statial": [],
-  "SurfR": [],
   "TBSignatureProfiler": [
     "GSVA"
   ],

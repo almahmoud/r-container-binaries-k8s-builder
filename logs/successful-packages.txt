@@ -2020,3 +2020,7 @@ CatsCradle
 GA4GHshiny
 iSEEhex
 MetaboSignal
+BulkSignalR
+IntEREst
+Rhisat2
+SurfR

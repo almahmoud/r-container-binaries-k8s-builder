@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2022 (90%)
+- **Successfully Built:** 2026 (90%)
 - **Failed:** 2 (0%)
-- **In Progress:** 112
-- **Not Started:** 108
+- **In Progress:** 109
+- **Not Started:** 107
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2022)
+## Successfully Built Packages (2026)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1972 more ...*
+*... and 1976 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,12 +83,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (112)
+## In Progress (109)
 - ⏳ `ATACseqQC`
 - ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Banksy`
-- ⏳ `BulkSignalR`
 - ⏳ `CAGEfightR`
 - ⏳ `CopyNumberPlots`
 - ⏳ `DEScan2`
@@ -102,7 +101,6 @@
 - ⏳ `GUIDEseq`
 - ⏳ `HiCDCPlus`
 - ⏳ `HiCaptuRe`
-- ⏳ `IntEREst`
 - ⏳ `MAGAR`
 - ⏳ `MEAL`
 - ⏳ `MEAT`
@@ -117,7 +115,6 @@
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
-- ⏳ `Rhisat2`
 - ⏳ `Rqc`
 - ⏳ `SCArray.sat`
 - ⏳ `SEraster`
@@ -129,15 +126,18 @@
 - ⏳ `SpatialFeatureExperiment`
 - ⏳ `SpotClean`
 - ⏳ `Statial`
-- ⏳ `SurfR`
 - ⏳ `TCGAutils`
 - ⏳ `TFutils`
 - ⏳ `Ularcirc`
 - ⏳ `VCFArray`
+- ⏳ `VisiumIO`
+- ⏳ `alabaster.spatial`
+- ⏳ `appreci8R`
+- ⏳ `bigmelon`
 
-... and 62 more ...
+... and 59 more ...
 
-## Not Yet Started (108)
+## Not Yet Started (107)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -189,8 +189,8 @@
 - ⏸️ `alabaster`
 - ⏸️ `alabaster.sfe`
 
-... and 58 more ...
+... and 57 more ...
 
 ---
-*Last updated: 2025-11-01 06:55:47 UTC*
+*Last updated: 2025-11-01 06:56:57 UTC*
 *Packages with verified BBS status: 147*
