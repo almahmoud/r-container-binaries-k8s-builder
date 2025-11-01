@@ -1,0 +1,15 @@
+AGDEX
+AUCell
+BicARE
+BioCor
+PROMISE
+RJMCMCNucleosomes
+TMSig
+TissueEnrich
+cosmosR
+gep2pep
+npGSEA
+singscore
+sparrow
+splineTimeR
+vissE

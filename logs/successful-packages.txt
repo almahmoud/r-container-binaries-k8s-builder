@@ -1167,3 +1167,11 @@ GeneBreak
 geyser
 systemPipeR
 ViSEAGO
+consensusSeekeR
+easylift
+epidecodeR
+GSEABase
+gVenn
+regsplice
+TEKRABber
+weitrix
