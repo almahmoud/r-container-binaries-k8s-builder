@@ -163,7 +163,6 @@
   ],
   "ClusterFoldSimilarity": [],
   "CoGAPS": [],
-  "Cogito": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -343,7 +342,6 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "HarmonizR": [],
   "HelloRanges": [
     "VariantAnnotation"
   ],
@@ -596,7 +594,6 @@
     "MutationalPatterns",
     "VariantAnnotation"
   ],
-  "RITAN": [],
   "RMassBank": [
     "MSnbase",
     "PSMatch",

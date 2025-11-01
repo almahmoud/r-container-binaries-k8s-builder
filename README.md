@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1659 (73%)
+- **Successfully Built:** 1662 (74%)
 - **Failed:** 2 (0%)
-- **In Progress:** 181
-- **Not Started:** 402
+- **In Progress:** 180
+- **Not Started:** 400
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1659)
+## Successfully Built Packages (1662)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.22/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AUCell) |
 
-*... and 1609 more ...*
+*... and 1612 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (181)
+## In Progress (180)
 - ⏳ `ArrayExpress`
 - ⏳ `BatchSVG`
 - ⏳ `BindingSiteFinder`
@@ -93,11 +93,11 @@
 - ⏳ `ChIPseeker`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoGAPS`
-- ⏳ `Cogito`
 - ⏳ `Coralysis`
 - ⏳ `CuratedAtlasQueryR`
 - ⏳ `DExMA`
 - ⏳ `DNAfusion`
+- ⏳ `DOtools`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DegCre`
 - ⏳ `ENmix`
@@ -109,7 +109,6 @@
 - ⏳ `GRaNIE`
 - ⏳ `GSRI`
 - ⏳ `GeneMeta`
-- ⏳ `HarmonizR`
 - ⏳ `ITALICS`
 - ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `LRcell`
@@ -134,10 +133,11 @@
 - ⏳ `NoRCE`
 - ⏳ `ORFhunteR`
 - ⏳ `Organism.dplyr`
+- ⏳ `OrganismDbi`
 
-... and 131 more ...
+... and 130 more ...
 
-## Not Yet Started (402)
+## Not Yet Started (400)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASICS`
 - ⏸️ `ASpli`
@@ -178,7 +178,6 @@
 - ⏸️ `DEScan2`
 - ⏸️ `DESpace`
 - ⏸️ `DMRcate`
-- ⏸️ `DOtools`
 - ⏸️ `DSS`
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
@@ -188,9 +187,10 @@
 - ⏸️ `DspikeIn`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EGSEA`
+- ⏸️ `ELMER`
 
-... and 352 more ...
+... and 350 more ...
 
 ---
-*Last updated: 2025-11-01 04:33:27 UTC*
+*Last updated: 2025-11-01 04:34:43 UTC*
 *Packages with verified BBS status: 143*

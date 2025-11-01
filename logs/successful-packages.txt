@@ -1657,3 +1657,6 @@ BERT
 chevreulProcess
 consensusDE
 scDblFinder
+Cogito
+HarmonizR
+RITAN
