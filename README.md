@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1977 (88%)
+- **Successfully Built:** 1985 (88%)
 - **Failed:** 2 (0%)
-- **In Progress:** 39
-- **Not Started:** 226
+- **In Progress:** 68
+- **Not Started:** 189
 
 **Progress:** 88%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1977)
+## Successfully Built Packages (1985)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1927 more ...*
+*... and 1935 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,48 +83,61 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (39)
+## In Progress (68)
+- ⏳ `CAGEfightR`
 - ⏳ `ChIPpeakAnno`
-- ⏳ `EpiCompare`
+- ⏳ `CopyNumberPlots`
+- ⏳ `DMRcate`
+- ⏳ `GA4GHshiny`
 - ⏳ `GENESIS`
+- ⏳ `GenomicPlot`
+- ⏳ `HiCDCPlus`
+- ⏳ `HiCaptuRe`
+- ⏳ `IntEREst`
+- ⏳ `MAGAR`
+- ⏳ `MEAL`
+- ⏳ `MEAT`
 - ⏳ `MetaboSignal`
+- ⏳ `OMICsPCA`
 - ⏳ `Organism.dplyr`
 - ⏳ `OrganismDbi`
-- ⏳ `OutSplice`
-- ⏳ `QFeatures`
+- ⏳ `QuasR`
 - ⏳ `RESOLVE`
+- ⏳ `RNAmodR.AlkAnilineSeq`
+- ⏳ `RNAmodR.ML`
+- ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `Rmmquant`
+- ⏳ `Rqc`
 - ⏳ `SC3`
 - ⏳ `SCArray`
-- ⏳ `SCnorm`
 - ⏳ `SETA`
 - ⏳ `SGSeq`
+- ⏳ `SOMNiBUS`
 - ⏳ `SPICEY`
 - ⏳ `SPOTlight`
-- ⏳ `SPsimSeq`
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SpatialExperiment`
 - ⏳ `SplicingGraphs`
 - ⏳ `TCGAutils`
 - ⏳ `TENxIO`
 - ⏳ `TFEA.ChIP`
-- ⏳ `TRESS`
+- ⏳ `TFutils`
+- ⏳ `VCFArray`
 - ⏳ `Xeva`
-- ⏳ `epiregulon`
+- ⏳ `bigmelon`
+- ⏳ `compEpiTools`
+- ⏳ `crisprViz`
+- ⏳ `derfinder`
+- ⏳ `dmrseq`
+- ⏳ `gDNAx`
 - ⏳ `gDRimport`
 - ⏳ `glmGamPoi`
 - ⏳ `gmapR`
 - ⏳ `gwascat`
-- ⏳ `iSEEde`
-- ⏳ `iSEEhex`
-- ⏳ `iSEEhub`
-- ⏳ `iSEEindex`
-- ⏳ `iSEEpathways`
-- ⏳ `srnadiff`
-- ⏳ `tadar`
-- ⏳ `trackViewer`
 
-## Not Yet Started (226)
+... and 18 more ...
+
+## Not Yet Started (189)
 - ⏸️ `AHMassBank`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -134,7 +147,6 @@
 - ⏸️ `Banksy`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
-- ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
 - ⏸️ `CARDspa`
@@ -145,12 +157,10 @@
 - ⏸️ `ChAMP`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CluMSID`
-- ⏸️ `CopyNumberPlots`
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 - ⏸️ `DEScan2`
 - ⏸️ `DESpace`
-- ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DeconvoBuddies`
 - ⏸️ `EGSEA`
@@ -159,25 +169,28 @@
 - ⏸️ `ExperimentSubset`
 - ⏸️ `FEAST`
 - ⏸️ `FLAMES`
-- ⏸️ `GA4GHshiny`
 - ⏸️ `GNOSIS`
 - ⏸️ `GSReg`
 - ⏸️ `GSVA`
 - ⏸️ `GUIDEseq`
 - ⏸️ `GenomicOZone`
-- ⏸️ `GenomicPlot`
-- ⏸️ `HiCDCPlus`
-- ⏸️ `HiCaptuRe`
 - ⏸️ `IPO`
-- ⏸️ `IntEREst`
 - ⏸️ `LOBSTAHS`
-- ⏸️ `MAGAR`
 - ⏸️ `MAIT`
-- ⏸️ `MEAL`
-- ⏸️ `MEAT`
+- ⏸️ `MSnID`
+- ⏸️ `MSnbase`
+- ⏸️ `MSstatsQC`
+- ⏸️ `MSstatsQCgui`
+- ⏸️ `MetaboAnnotation`
+- ⏸️ `MoleculeExperiment`
+- ⏸️ `MsExperiment`
+- ⏸️ `MsQuality`
+- ⏸️ `NADfinder`
+- ⏸️ `PRONE`
+- ⏸️ `PSMatch`
 
-... and 176 more ...
+... and 139 more ...
 
 ---
-*Last updated: 2025-11-01 06:38:03 UTC*
+*Last updated: 2025-11-01 06:40:00 UTC*
 *Packages with verified BBS status: 147*

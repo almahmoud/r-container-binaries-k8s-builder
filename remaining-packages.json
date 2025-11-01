@@ -40,7 +40,6 @@
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "CARDspa": [
@@ -68,19 +67,16 @@
   ],
   "CluMSID": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "CopyNumberPlots": [],
   "DAPAR": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "DEP": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "DEScan2": [
     "ChIPpeakAnno"
@@ -100,7 +96,6 @@
     "GSVA",
     "SpatialExperiment"
   ],
-  "EpiCompare": [],
   "EventPointer": [
     "SGSeq"
   ],
@@ -147,7 +142,6 @@
     "CAMERA",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "IntEREst": [],
@@ -156,7 +150,6 @@
     "CAMERA",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "MAGAR": [],
@@ -165,7 +158,6 @@
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "MEAL": [],
@@ -174,37 +166,28 @@
     "MSnbase",
     "msmsTests",
     "msmsEDA",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "MSnbase": [
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "MSstatsQC": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "MSstatsQCgui": [
     "MSstatsQC",
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
-  "MetaboAnnotation": [
-    "QFeatures"
-  ],
+  "MetaboAnnotation": [],
   "MetaboSignal": [],
   "MoleculeExperiment": [
     "SpatialExperiment"
   ],
-  "MsExperiment": [
-    "QFeatures"
-  ],
+  "MsExperiment": [],
   "MsQuality": [
-    "MsExperiment",
-    "QFeatures"
+    "MsExperiment"
   ],
   "NADfinder": [
     "trackViewer",
@@ -214,27 +197,20 @@
   "OMICsPCA": [],
   "Organism.dplyr": [],
   "OrganismDbi": [],
-  "OutSplice": [],
   "PRONE": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
-  "PSMatch": [
-    "QFeatures"
-  ],
+  "PSMatch": [],
   "PrInCE": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "Prostar": [
     "DAPAR",
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
-  "QFeatures": [],
   "QuasR": [],
   "R3CPET": [
     "ggbio",
@@ -249,8 +225,7 @@
   "RESOLVE": [],
   "RMassBank": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "RNAAgeCalc": [
     "recount",
@@ -285,7 +260,6 @@
   "SCArray.sat": [
     "SCArray"
   ],
-  "SCnorm": [],
   "SETA": [],
   "SEraster": [
     "SpatialExperiment"
@@ -297,7 +271,6 @@
   ],
   "SPICEY": [],
   "SPOTlight": [],
-  "SPsimSeq": [],
   "SVP": [
     "SpatialExperiment"
   ],
@@ -338,9 +311,7 @@
   "Statial": [
     "SpatialExperiment"
   ],
-  "SurfR": [
-    "SPsimSeq"
-  ],
+  "SurfR": [],
   "TBSignatureProfiler": [
     "GSVA",
     "SpatialExperiment"
@@ -349,7 +320,6 @@
   "TENxIO": [],
   "TFEA.ChIP": [],
   "TFutils": [],
-  "TRESS": [],
   "Ularcirc": [
     "Organism.dplyr"
   ],
@@ -396,8 +366,7 @@
   "bandle": [
     "MSnbase",
     "pRoloc",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "bigmelon": [],
   "bioCancer": [
@@ -434,8 +403,7 @@
     "xcms",
     "MSnbase",
     "PSMatch",
-    "MsExperiment",
-    "QFeatures"
+    "MsExperiment"
   ],
   "clustSIGNAL": [
     "SpatialExperiment"
@@ -452,7 +420,6 @@
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "crisprShiny": [
@@ -479,7 +446,6 @@
   "epimutacions": [
     "OrganismDbi"
   ],
-  "epiregulon": [],
   "epivizr": [
     "epivizrData",
     "OrganismDbi"
@@ -504,7 +470,6 @@
     "CAMERA",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "gDNAx": [],
@@ -527,9 +492,7 @@
   ],
   "gmapR": [],
   "gwascat": [],
-  "hdxmsqc": [
-    "QFeatures"
-  ],
+  "hdxmsqc": [],
   "hoodscanR": [
     "SpatialExperiment"
   ],
@@ -539,7 +502,6 @@
     "iSEEhex"
   ],
   "iSEEhex": [],
-  "iSEEhub": [],
   "iSEEindex": [],
   "iSEEpathways": [],
   "iSEEtree": [],
@@ -570,15 +532,12 @@
     "simpleSeg",
     "cytomapper"
   ],
-  "magpie": [
-    "TRESS"
-  ],
+  "magpie": [],
   "metaMS": [
     "CAMERA",
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "methodical": [],
@@ -598,28 +557,21 @@
   ],
   "msmsEDA": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "msmsTests": [
     "MSnbase",
     "msmsEDA",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
-  "mspms": [
-    "QFeatures"
-  ],
-  "msqrob2": [
-    "QFeatures"
-  ],
+  "mspms": [],
+  "msqrob2": [],
   "multicrispr": [],
   "musicatk": [],
   "ncGTW": [
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "nnSVG": [
@@ -631,26 +583,21 @@
   ],
   "omXplore": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
-  "omicsGMF": [
-    "QFeatures"
-  ],
+  "omicsGMF": [],
   "oppar": [
     "GSVA",
     "SpatialExperiment"
   ],
   "pRoloc": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "pRolocGUI": [
     "pRoloc",
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "pathMED": [
     "GSVA",
@@ -659,8 +606,7 @@
   "pcaExplorer": [],
   "peakPantheR": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "poem": [
     "SpatialExperiment"
@@ -671,13 +617,11 @@
   ],
   "ptairMS": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "qPLEXanalyzer": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "recount": [
     "derfinder"
@@ -700,9 +644,7 @@
     "SpatialExperiment"
   ],
   "scmeth": [],
-  "scp": [
-    "QFeatures"
-  ],
+  "scp": [],
   "scruff": [
     "ggbio",
     "OrganismDbi"
@@ -765,7 +707,6 @@
     "xcms",
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "srnadiff": [],
@@ -791,8 +732,7 @@
   ],
   "topdownr": [
     "MSnbase",
-    "PSMatch",
-    "QFeatures"
+    "PSMatch"
   ],
   "tpSVG": [
     "SpatialExperiment"
@@ -816,7 +756,6 @@
   "xcms": [
     "MSnbase",
     "MsExperiment",
-    "QFeatures",
     "PSMatch"
   ],
   "xenLite": [

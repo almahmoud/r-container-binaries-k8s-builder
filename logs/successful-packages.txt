@@ -1975,3 +1975,11 @@ txcutr
 UMI4Cats
 VariantFiltering
 wateRmelon
+EpiCompare
+epiregulon
+iSEEhub
+OutSplice
+QFeatures
+SCnorm
+SPsimSeq
+TRESS

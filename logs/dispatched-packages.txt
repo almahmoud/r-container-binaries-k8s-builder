@@ -2053,3 +2053,13 @@ pcaExplorer
 saseR
 scmeth
 skewr
+MetaboAnnotation
+MsExperiment
+PSMatch
+SurfR
+hdxmsqc
+magpie
+mspms
+msqrob2
+omicsGMF
+scp
