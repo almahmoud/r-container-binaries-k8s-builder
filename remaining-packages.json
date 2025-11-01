@@ -459,7 +459,6 @@
     "ggbio",
     "OrganismDbi"
   ],
-  "adductomicsR": [],
   "affycoretools": [
     "ReportingTools",
     "ggbio",
@@ -526,7 +525,6 @@
     "MAST"
   ],
   "chimeraviz": [],
-  "chromVAR": [],
   "cicero": [],
   "circRNAprofiler": [
     "gwascat"
@@ -745,7 +743,6 @@
   "mitoClone2": [
     "deepSNV"
   ],
-  "monaLisa": [],
   "mosdef": [],
   "motifbreakR": [],
   "msgbsR": [

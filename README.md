@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 1882 (83%)
+- **Successfully Built:** 1885 (84%)
 - **Failed:** 2 (0%)
-- **In Progress:** 132
+- **In Progress:** 129
 - **Not Started:** 228
 
-**Progress:** 83%
+**Progress:** 84%
 ```
-█████████████████████████████████████████░░░░░░░░░
+██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1882)
+## Successfully Built Packages (1885)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 1832 more ...*
+*... and 1835 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (132)
+## In Progress (129)
 - ⏳ `ASpli`
 - ⏳ `ATACseqTFEA`
 - ⏳ `AllelicImbalance`
@@ -135,7 +135,7 @@
 - ⏳ `SmartPhos`
 - ⏳ `SpatialExperiment`
 
-... and 82 more ...
+... and 79 more ...
 
 ## Not Yet Started (228)
 - ⏸️ `AHMassBank`
@@ -192,5 +192,5 @@
 ... and 178 more ...
 
 ---
-*Last updated: 2025-11-01 05:58:26 UTC*
+*Last updated: 2025-11-01 05:59:25 UTC*
 *Packages with verified BBS status: 146*

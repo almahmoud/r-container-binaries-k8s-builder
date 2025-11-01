@@ -1880,3 +1880,6 @@ motifStack
 biosigner
 regioneReloaded
 scClassify
+adductomicsR
+chromVAR
+monaLisa
