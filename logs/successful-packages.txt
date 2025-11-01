@@ -1759,3 +1759,5 @@ InPAS
 segmenter
 G4SNVHunter
 methrix
+DrugVsDisease
+zenith

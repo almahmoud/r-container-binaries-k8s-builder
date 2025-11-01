@@ -160,7 +160,6 @@
   "DeconvoBuddies": [
     "SpatialExperiment"
   ],
-  "DrugVsDisease": [],
   "DspikeIn": [
     "TreeSummarizedExperiment"
   ],
@@ -868,9 +867,7 @@
     "annotatr",
     "regioneR"
   ],
-  "dreamlet": [
-    "zenith"
-  ],
+  "dreamlet": [],
   "easier": [],
   "enhancerHomologSearch": [
     "motifmatchr"
@@ -1462,6 +1459,5 @@
   "xenLite": [
     "SpatialExperiment",
     "TENxIO"
-  ],
-  "zenith": []
+  ]
 }

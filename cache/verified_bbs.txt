@@ -140,5 +140,6 @@ yamss
 yarn
 zFPKM
 zellkonverter
+zenith
 zinbwave
 zitools
