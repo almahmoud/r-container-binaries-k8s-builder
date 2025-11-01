@@ -11,12 +11,15 @@ AnVIL
 AnVILAz
 AnVILBase
 AnVILBilling
+AnVILGCP
 BADER
+BEclear
 BG2
 BUS
 BaseSpaceR
 BeadDataPackR
 BioCartaImage
+Biobase
 BiocBaseUtils
 BiocFileCache
 BiocGenerics
@@ -54,6 +57,7 @@ seqLogo
 seqcombo
 similaRpeak
 snm
+snpStats
 sparsenetgls
 specL
 spikeLI
@@ -65,7 +69,10 @@ survcomp
 swfdr
 switchBox
 synlet
+ternarynet
 treeio
+tripr
+unifiedWMWqPCR
 vbmp
 veloviz
 weaver

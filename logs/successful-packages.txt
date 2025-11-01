@@ -239,3 +239,17 @@ MANOR
 MBCB
 plotGrouper
 treeio
+AnVILGCP
+BEclear
+Biobase
+ctsGE
+GraphAlignment
+IsoCorrectoRGUI
+omada
+parglms
+profileScoreDist
+Rhtslib
+snpStats
+ternarynet
+tripr
+unifiedWMWqPCR
