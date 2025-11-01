@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 2087 (93%)
+- **Successfully Built:** 2088 (93%)
 - **Failed:** 2 (0%)
 - **In Progress:** 79
-- **Not Started:** 76
+- **Not Started:** 75
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2087)
+## Successfully Built Packages (2088)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.22/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.22/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ASURAT) |
 
-*... and 2037 more ...*
+*... and 2038 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,6 +97,7 @@
 - ⏳ `MEAT`
 - ⏳ `MSnbase`
 - ⏳ `MsQuality`
+- ⏳ `NADfinder`
 - ⏳ `OMICsPCA`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
@@ -133,11 +134,10 @@
 - ⏳ `ggbio`
 - ⏳ `iSEEu`
 - ⏳ `imcRtools`
-- ⏳ `jazzPanda`
 
 ... and 29 more ...
 
-## Not Yet Started (76)
+## Not Yet Started (75)
 - ⏸️ `AHMassBank`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BOBaFIT`
@@ -158,7 +158,6 @@
 - ⏸️ `MSnID`
 - ⏸️ `MSstatsQC`
 - ⏸️ `MSstatsQCgui`
-- ⏸️ `NADfinder`
 - ⏸️ `PRONE`
 - ⏸️ `PrInCE`
 - ⏸️ `Prostar`
@@ -188,9 +187,10 @@
 - ⏸️ `flagme`
 - ⏸️ `iSEEfier`
 - ⏸️ `intansv`
+- ⏸️ `lisaClust`
 
-... and 26 more ...
+... and 25 more ...
 
 ---
-*Last updated: 2025-11-01 07:20:39 UTC*
+*Last updated: 2025-11-01 07:21:27 UTC*
 *Packages with verified BBS status: 148*

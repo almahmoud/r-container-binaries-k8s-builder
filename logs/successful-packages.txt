@@ -2085,3 +2085,4 @@ CircSeqAlignTk
 mspms
 RTCGAToolbox
 ATACseqQC
+jazzPanda
