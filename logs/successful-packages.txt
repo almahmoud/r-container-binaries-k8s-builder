@@ -1795,3 +1795,6 @@ VDJdive
 attract
 SigCheck
 ProteoDisco
+maaslin3
+PLSDAbatch
+StructuralVariantAnnotation

@@ -371,7 +371,6 @@
   "OrganismDbi": [],
   "OutSplice": [],
   "PDATK": [],
-  "PLSDAbatch": [],
   "POWSC": [
     "MAST"
   ],
@@ -559,7 +558,6 @@
   "Statial": [
     "SpatialExperiment"
   ],
-  "StructuralVariantAnnotation": [],
   "SurfR": [
     "SPsimSeq"
   ],
@@ -960,7 +958,6 @@
     "cytomapper"
   ],
   "lumi": [],
-  "maaslin3": [],
   "magpie": [
     "TRESS"
   ],
@@ -1280,12 +1277,8 @@
   "standR": [
     "SpatialExperiment"
   ],
-  "svaNUMT": [
-    "StructuralVariantAnnotation"
-  ],
-  "svaRetro": [
-    "StructuralVariantAnnotation"
-  ],
+  "svaNUMT": [],
+  "svaRetro": [],
   "tLOH": [],
   "tRNAscanImport": [],
   "tadar": [
