@@ -1196,3 +1196,5 @@ weitrix
 wpm
 yamss
 zFPKM
+ADAMgui
+omicplotR

@@ -6,25 +6,27 @@
 
 ## Summary
 - **Total Packages:** 2244
-- **Successfully Built:** 985 (43%)
+- **Successfully Built:** 993 (44%)
 - **Failed:** 2 (0%)
-- **In Progress:** 211
+- **In Progress:** 203
 - **Not Started:** 1046
 
-**Progress:** 43%
+**Progress:** 44%
 ```
-█████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (985)
+## Successfully Built Packages (993)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.22/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.22/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.22/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ACME) |
+| [ADAM](https://bioconductor.org/packages/3.22/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAM) |
 | [ADAPT](https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.22/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AIMS) |
+| [ALDEx2](https://bioconductor.org/packages/3.22/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ALDEx2) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.22/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.22/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/ANF) |
@@ -43,10 +45,8 @@
 | [AnVILAz](https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.22/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILBilling) |
-| [AnVILGCP](https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILGCP) |
-| [AnVILPublish](https://bioconductor.org/packages/3.22/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.22/bioc-LATEST/AnVILPublish) |
 
-*... and 935 more ...*
+*... and 943 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.22/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/RbowtieCuda) | Compilation failed:  ‘RbowtieCuda’ |
 | [sangeranalyseR](https://bioconductor.org/packages/3.22/bioc/html/sangeranalyseR.html) | [log](logs/sangeranalyseR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.22/bioc-LATEST/sangeranalyseR) | Build failed with unknown error |
 
-## In Progress (211)
-- ⏳ `ADAM`
-- ⏳ `ALDEx2`
+## In Progress (203)
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `BioGA`
@@ -94,17 +92,12 @@
 - ⏳ `Bioc.gff`
 - ⏳ `BiocSet`
 - ⏳ `BiocSklearn`
-- ⏳ `BreastSubtypeR`
 - ⏳ `CNVPanelizer`
-- ⏳ `CPSM`
 - ⏳ `CSOA`
 - ⏳ `CoCiteStats`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `Dune`
-- ⏳ `FilterFFPE`
-- ⏳ `FuseSOM`
 - ⏳ `GBScleanR`
 - ⏳ `GDSArray`
 - ⏳ `GEOquery`
@@ -114,7 +107,6 @@
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
-- ⏳ `HERON`
 - ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
 - ⏳ `InteractionSet`
@@ -134,8 +126,16 @@
 - ⏳ `MWASTools`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
+- ⏳ `MetNet`
+- ⏳ `MetaboDynamics`
+- ⏳ `MiRaGE`
+- ⏳ `MicrobiotaProcess`
+- ⏳ `MsFeatures`
+- ⏳ `MultiAssayExperiment`
+- ⏳ `MultiDataSet`
+- ⏳ `NormalyzerDE`
 
-... and 161 more ...
+... and 153 more ...
 
 ## Not Yet Started (1046)
 - ⏸️ `ACE`
@@ -192,5 +192,5 @@
 ... and 996 more ...
 
 ---
-*Last updated: 2025-11-01 01:18:30 UTC*
-*Packages with verified BBS status: 111*
+*Last updated: 2025-11-01 01:19:26 UTC*
+*Packages with verified BBS status: 113*

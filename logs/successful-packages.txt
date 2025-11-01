@@ -983,3 +983,11 @@ FeatSeekR
 GNET2
 GRmetrics
 IFAA
+ADAM
+ALDEx2
+BreastSubtypeR
+CPSM
+Dune
+FilterFFPE
+FuseSOM
+HERON

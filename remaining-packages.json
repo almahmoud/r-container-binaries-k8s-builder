@@ -2,10 +2,7 @@
   "ACE": [
     "QDNAseq"
   ],
-  "ADAM": [],
-  "ADAMgui": [
-    "ADAM"
-  ],
+  "ADAMgui": [],
   "ADImpute": [
     "SingleCellExperiment"
   ],
@@ -27,7 +24,6 @@
     "AnnotationForge",
     "GenomicAlignments"
   ],
-  "ALDEx2": [],
   "AMARETTO": [
     "MultiAssayExperiment",
     "AnnotationHub",
@@ -305,7 +301,6 @@
     "ExperimentHub",
     "AnnotationHub"
   ],
-  "BreastSubtypeR": [],
   "BulkSignalR": [
     "SpatialExperiment",
     "SingleCellExperiment"
@@ -472,7 +467,6 @@
   "COTAN": [
     "SingleCellExperiment"
   ],
-  "CPSM": [],
   "CRISPRseek": [
     "GenomicFeatures",
     "BSgenome",
@@ -980,7 +974,6 @@
     "TreeSummarizedExperiment",
     "SingleCellExperiment"
   ],
-  "Dune": [],
   "DuplexDiscovereR": [
     "InteractionSet",
     "Gviz",
@@ -1175,14 +1168,12 @@
     "ShortRead",
     "GenomicAlignments"
   ],
-  "FilterFFPE": [],
   "FindIT2": [
     "rtracklayer",
     "GenomicFeatures",
     "MultiAssayExperiment",
     "GenomicAlignments"
   ],
-  "FuseSOM": [],
   "G4SNVHunter": [
     "VariantAnnotation",
     "rtracklayer",
@@ -1432,7 +1423,6 @@
     "GenomicAlignments",
     "VariantAnnotation"
   ],
-  "HERON": [],
   "HIPPO": [
     "SingleCellExperiment"
   ],
@@ -5526,9 +5516,7 @@
   "omicade4": [
     "made4"
   ],
-  "omicplotR": [
-    "ALDEx2"
-  ],
+  "omicplotR": [],
   "omicsGMF": [
     "SingleCellExperiment",
     "scuttle",
